@@ -1,5 +1,6 @@
 // Chaîne complète : lecture → validation → neutralité → filtrage de publication.
 import { trouverMotifsInterdits } from '../../../scripts/neutralite';
+import { typographier } from '../../lib/typo';
 import { filtrerPublication } from '../publication';
 import type { ContenuPublie } from '../types';
 import { validerContenu } from '../validation';
@@ -24,7 +25,7 @@ export function compilerContenu(racineContenu: string, avecBrouillons: boolean, 
 
   const pub = filtrerPublication(contenu, avecBrouillons);
   return {
-    contenu: { ...pub.contenu, meta: { genereLe: maintenant.toISOString(), avecBrouillons } },
+    contenu: { ...typographier(pub.contenu), meta: { genereLe: maintenant.toISOString(), avecBrouillons } },
     erreurs: [],
     avertissements: pub.avertissements,
   };

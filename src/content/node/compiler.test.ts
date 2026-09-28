@@ -47,6 +47,15 @@ describe('compilerContenu', () => {
     expect(r.contenu?.meta).toEqual({ genereLe: '2026-09-28T10:00:00.000Z', avecBrouillons: true });
   });
 
+  it('applique la typographie française au texte, pas aux identifiants', () => {
+    ecrireFiche('brouillon');
+    const f = compilerContenu(racine, true).contenu!.fiches[0]!;
+    expect(f.id).toBe('hemorragies');
+    expect(f.source.document).toBe('Recommandations PSE');
+    writeFileSync(join(racine, 'fiches', 'urgences-vitales', 'hemorragies.yaml'), FICHE.replace('STATUT', 'brouillon').replace('titre: Hémorragies externes', 'titre: "Hémorragies : bases"'));
+    expect(compilerContenu(racine, true).contenu!.fiches[0]!.titre).toBe('Hémorragies\u202f: bases');
+  });
+
   it('exclut les brouillons en production', () => {
     ecrireFiche('brouillon');
     expect(compilerContenu(racine, false).contenu?.fiches).toEqual([]);
