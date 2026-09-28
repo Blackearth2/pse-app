@@ -76,7 +76,7 @@ describe('corrigerExamen', () => {
 
   it('compte les bonnes réponses, le détail par chapitre et liste les erreurs', () => {
     // Répond juste partout (positions affichées des bonnes réponses), sauf à la première question.
-    const reponses = ex.questions.map((qt) => {
+    const reponses = ex.questions.map((qt): number[] | null => {
       const q = parId.get(qt.questionId)!;
       return q.bonnes.map((b) => qt.ordre.indexOf(b));
     });
