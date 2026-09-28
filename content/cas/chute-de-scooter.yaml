@@ -1,0 +1,76 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: chute-de-scooter
+niveau: PSE2
+titre: Chute de scooter
+lieu: Voie publique, fin d'après-midi
+statut: brouillon
+liees:
+  - hemorragies-externes
+  - traumatisme-rachis
+  - protection-epi
+contexte: Un scooter a chuté dans un virage. Le conducteur, 70 ans, est au sol, conscient. Du sang s'écoule abondamment de sa cuisse.
+etapes:
+  - moment: À l'arrivée
+    situation: La circulation continue autour de la victime.
+    question: Première action ?
+    type: choix
+    propositions:
+      - texte: "Protéger : baliser et sécuriser la zone"
+        correct: true
+        retour: "Oui : on évite le suraccident."
+      - texte: Aller directement comprimer la plaie
+        correct: false
+        retour: Pas avant d'avoir sécurisé.
+      - texte: Déplacer la victime sur le trottoir
+        correct: false
+        retour: Dégagement uniquement si danger vital impossible à écarter.
+  - moment: Bilan vital
+    situation: Le sang coule en abondance de la face interne de la cuisse.
+    question: Ta conduite ?
+    type: choix
+    propositions:
+      - texte: Compression directe, garrot si inefficace
+        correct: true
+        retour: Oui.
+      - texte: Surélever la jambe et attendre
+        correct: false
+        retour: Insuffisant.
+      - texte: Garrot élastique de prélèvement
+        correct: false
+        retour: Exclu en 2026.
+  - moment: Bilan
+    situation: Il se plaint du cou. Il signale des antécédents rachidiens.
+    question: Ta décision ?
+    type: choix
+    propositions:
+      - texte: "Suspicion de lésion du rachis : maintien de la tête"
+        correct: true
+        retour: "Oui : ≥ 65 ans avec antécédents est un critère en 2026."
+      - texte: Le faire asseoir pour mieux l'examiner
+        correct: false
+        retour: "Non : risque d'aggravation."
+      - texte: Lui demander de tourner la tête
+        correct: false
+        retour: Non.
+  - moment: Transmission
+    situation: Un garrot a finalement été posé. Le médecin régulateur prend ton bilan.
+    question: Quels éléments transmets-tu ?
+    type: multiple
+    propositions:
+      - texte: L’heure de pose du garrot
+        correct: true
+        retour: "Oui : indispensable."
+      - texte: La douleur au cou et les antécédents rachidiens
+        correct: true
+        retour: "Oui : ils fondent la suspicion de lésion du rachis."
+      - texte: Les résultats du bilan
+        correct: true
+        retour: "Oui : la transmission s’appuie sur le bilan."
+      - texte: La marque du scooter
+        correct: false
+        retour: "Non : sans intérêt pour la prise en charge."
+pointsCles:
+  - Sécuriser la zone avant tout.
+  - Compression directe, garrot si inefficace ou impossible.
+  - "65 ans + antécédents : critère de suspicion rachidienne (RTN 2026)."
+  - Heure de pose du garrot notée et transmise.

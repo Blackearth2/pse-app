@@ -1,0 +1,45 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: traumatismes-membres
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 2
+titre: Traumatismes des membres
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Fracture, entorse, luxation : l'immobilisation limite la douleur et les complications. On immobilise dans la position trouvée, sauf consignes."
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Pouls, motricité, sensibilité
+        libelle: Contrôle avant/après
+      - valeur: Articulations sus et sous-jacentes
+        libelle: Immobiliser
+      - valeur: Retirer
+        libelle: Bijoux
+      - valeur: Sur la zone douloureuse
+        libelle: Froid
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Demander à la victime de ne pas bouger, maintenir le membre.
+      - Contrôler pouls, motricité et sensibilité en aval de la lésion.
+      - Retirer bagues, montres et bracelets du membre atteint.
+      - Immobiliser (attelle adaptée) en englobant les articulations au-dessus et en dessous.
+      - Recontrôler en aval après immobilisation, surveiller, transmettre.
+qcm:
+  - id: q1
+    enonce: "Avant et après une immobilisation de membre, on contrôle :"
+    propositions:
+      - Pouls, motricité et sensibilité en aval
+      - La tension artérielle
+      - La glycémie
+      - La température
+    bonnes:
+      - 0
+    explication: Le contrôle en aval détecte une compression vasculaire ou nerveuse.

@@ -1,0 +1,58 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: victime-inconsciente-soiree
+niveau: PSE1
+titre: Victime inconsciente en soirée
+lieu: Poste de secours, festival
+statut: brouillon
+liees:
+  - intoxication-opioides
+  - ventilation-oxygenotherapie
+contexte: Des amis amènent un jeune homme très somnolent qui finit par ne plus répondre. Une seringue est retrouvée dans sa poche.
+etapes:
+  - moment: Bilan vital
+    situation: Il ne répond pas, pupilles très serrées, 5 respirations par minute.
+    question: Que fais-tu ?
+    type: choix
+    propositions:
+      - texte: Ventilation artificielle au BAVU avec oxygène
+        correct: true
+        retour: "Oui : fréquence ≤ 6/min."
+      - texte: PLS et surveillance simple
+        correct: false
+        retour: "Respiration trop lente : il faut ventiler."
+      - texte: Le secouer et l'asperger d'eau
+        correct: false
+        retour: Non.
+  - moment: +2 minutes
+    situation: Un kit de naloxone est disponible et tu es autorisé à l'utiliser.
+    question: Quand l'administrer ?
+    type: choix
+    propositions:
+      - texte: Après avoir débuté la ventilation
+        correct: true
+        retour: "Oui : la réanimation passe d'abord."
+      - texte: Avant tout geste
+        correct: false
+        retour: Non, en 2026 elle vient après le début de la réanimation.
+      - texte: Jamais
+        correct: false
+        retour: Elle est indiquée ici.
+  - moment: +8 minutes
+    situation: Il respire à nouveau efficacement (14/min) mais reste inconscient.
+    question: Ensuite ?
+    type: choix
+    propositions:
+      - texte: PLS et surveillance rapprochée
+        correct: true
+        retour: "Oui : voies aériennes protégées, risque de rechute."
+      - texte: Arrêter toute surveillance
+        correct: false
+        retour: "Non : l'effet de la naloxone peut être court."
+      - texte: Le laisser repartir avec ses amis
+        correct: false
+        retour: Non.
+pointsCles:
+  - "Sécurité : attention aux aiguilles."
+  - "FR ≤ 6/min : ventilation artificielle (RTN 2026)."
+  - Naloxone après le début de la réanimation.
+  - "Surveillance prolongée : l'effet de la naloxone peut s'estomper."

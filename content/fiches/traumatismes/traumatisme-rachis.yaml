@@ -1,0 +1,62 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: traumatisme-rachis
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 1
+titre: Traumatisme du rachis
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+liees:
+  - relevage-brancardage
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: Une lésion de la colonne vertébrale peut entraîner des séquelles neurologiques définitives. Tout mouvement inadapté peut les aggraver.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Position neutre
+        libelle: Tête
+      - valeur: ≥ 65 ans + antécédents
+        libelle: Nouveau critère
+      - valeur: Motricité / sensibilité
+        libelle: Contrôle
+      - valeur: Matelas immobilisateur
+        libelle: Immobilisation
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Rechercher les critères de suspicion (mécanisme, signes, terrain).
+      - Maintenir la tête en position neutre dès l'abord, demander à la victime de ne pas bouger.
+      - Réaliser le bilan, dont motricité et sensibilité des quatre membres.
+      - Immobiliser selon les consignes et le matériel (collier cervical, plan dur, matelas immobilisateur à dépression).
+      - Surveiller et transmettre.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - Les critères de suspicion sont durcis ; un âge de 65 ans ou plus associé à des antécédents devient un critère.
+qcm:
+  - id: q1
+    enonce: Quel critère de suspicion de lésion du rachis est introduit en 2026 ?
+    propositions:
+      - Âge ≥ 65 ans avec antécédents
+      - Douleur au poignet
+      - Fièvre
+      - Âge < 10 ans
+    bonnes:
+      - 0
+    explication: Les critères sont durcis et incluent l'âge de 65 ans ou plus associé à des antécédents.
+    nouveaute: true
+  - id: q2
+    enonce: "Victime consciente, suspicion de lésion du rachis :"
+    propositions:
+      - La faire se lever doucement
+      - Maintenir la tête en position neutre
+      - La mettre en PLS
+      - Lui faire tourner la tête pour tester
+    bonnes:
+      - 1
+    explication: Maintien de la tête dès l'abord ; la victime ne doit pas bouger.

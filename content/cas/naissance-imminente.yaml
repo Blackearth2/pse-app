@@ -1,0 +1,72 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: naissance-imminente
+niveau: PSE2
+titre: Naissance imminente
+lieu: Hall d'immeuble, équipe de 2
+statut: brouillon
+liees:
+  - accouchement-inopine
+  - ventilation-oxygenotherapie
+contexte: Une femme enceinte à terme a des contractions très rapprochées et une forte envie de pousser.
+etapes:
+  - moment: À l'arrivée
+    situation: La tête de l'enfant est visible.
+    question: Ta décision ?
+    type: choix
+    propositions:
+      - texte: Accouchement sur place, en lien avec le 15
+        correct: true
+        retour: "Oui : naissance imminente."
+      - texte: Transport en urgence en voiture
+        correct: false
+        retour: "Non : l'accouchement est imminent."
+      - texte: Lui demander de retenir la poussée longtemps
+        correct: false
+        retour: Non.
+  - moment: Installation
+    situation: La mère se sent mieux redressée.
+    question: Position ?
+    type: choix
+    propositions:
+      - texte: Demi-assise, confortable
+        correct: true
+        retour: "Oui : position ajoutée en 2026."
+      - texte: PLS
+        correct: false
+        retour: Non.
+      - texte: Debout
+        correct: false
+        retour: Non.
+  - moment: Naissance
+    situation: Le nouveau-né ne respire pas malgré séchage et stimulation.
+    question: Tu ventiles à quelle fréquence ?
+    type: choix
+    propositions:
+      - texte: 30 /min
+        correct: true
+        retour: "Oui : fréquence nouveau-né."
+      - texte: 10 /min
+        correct: false
+        retour: Fréquence adulte et enfant.
+      - texte: 20 /min
+        correct: false
+        retour: Fréquence nourrisson.
+  - moment: Délivrance
+    situation: Après la délivrance, les saignements sont importants.
+    question: Quel geste prévoit la nouvelle fiche ?
+    type: choix
+    propositions:
+      - texte: Massage utérin, selon consignes
+        correct: true
+        retour: "Oui : nouvelle fiche des RTN 2026."
+      - texte: Garrot
+        correct: false
+        retour: Non.
+      - texte: Rien, attendre
+        correct: false
+        retour: Non.
+pointsCles:
+  - Alerter et suivre les consignes du régulateur.
+  - Position demi-assise possible (RTN 2026).
+  - "Nouveau-né : sécher, réchauffer ; ventilation à 30/min si besoin."
+  - "Massage utérin : nouvelle fiche 2026."

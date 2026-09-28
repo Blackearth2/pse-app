@@ -1,0 +1,72 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: ventilation-oxygenotherapie
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 6
+titre: Ventilation artificielle et oxygénothérapie
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: La ventilation artificielle au masque (BAVU) supplée une respiration absente ou insuffisante. L'oxygène est administré selon des critères précis, sans excès.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: 10 /min
+        libelle: Adulte / enfant
+      - valeur: 20 /min
+        libelle: Nourrisson
+      - valeur: 30 /min
+        libelle: Nouveau-né
+      - valeur: ≥ 94 %
+        libelle: Cible SpO2 habituelle
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Libérer les voies aériennes et assurer l'étanchéité du masque (technique à deux mains si possible).
+      - Insuffler progressivement jusqu'au début du soulèvement de la poitrine.
+      - Respecter la fréquence adaptée à l'âge lorsque la ventilation est réalisée seule.
+      - Relier l'oxygène au BAVU dès que possible en cas d'arrêt cardiaque.
+      - Hors arrêt, administrer l'oxygène selon la SpO2 et la situation, en suivant les consignes du médecin régulateur.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - "Fréquences d'insufflation actualisées : 10/min adulte et enfant, 20/min nourrisson, 30/min nouveau-né."
+qcm:
+  - id: q1
+    enonce: "Fréquence de ventilation artificielle chez le nourrisson :"
+    propositions:
+      - 10 /min
+      - 20 /min
+      - 30 /min
+      - 40 /min
+    bonnes:
+      - 1
+    explication: "RTN 2026 : 10/min adulte et enfant, 20/min nourrisson, 30/min nouveau-né."
+    nouveaute: true
+  - id: q2
+    enonce: "Fréquence de ventilation artificielle chez le nouveau-né :"
+    propositions:
+      - 10 /min
+      - 20 /min
+      - 30 /min
+      - 60 /min
+    bonnes:
+      - 2
+    explication: 30 insufflations par minute chez le nouveau-né.
+    nouveaute: true
+  - id: q3
+    enonce: "Fréquence de ventilation artificielle chez l'adulte :"
+    propositions:
+      - 6 /min
+      - 10 /min
+      - 20 /min
+      - 30 /min
+    bonnes:
+      - 1
+    explication: 10 insufflations par minute chez l'adulte et l'enfant.
+    nouveaute: true

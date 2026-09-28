@@ -1,0 +1,84 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: arret-cardiaque-adulte
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 4
+titre: Arrêt cardiaque de l'adulte
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+liees:
+  - arret-cardiaque-enfant-nourrisson
+  - ventilation-oxygenotherapie
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: La victime ne répond pas et ne respire pas (ou respire de façon anormale). Chaque minute sans RCP ni défibrillation fait chuter les chances de survie.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: 100–120 /min
+        libelle: Fréquence des compressions
+      - valeur: 5–6 cm
+        libelle: Profondeur
+      - valeur: "30 : 2"
+        libelle: Ratio
+      - valeur: Antéro-latérales
+        libelle: Électrodes (≥ 25 kg)
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Constater l'arrêt : inconscience et absence de respiration normale."
+      - Débuter immédiatement les compressions thoraciques, faire alerter et apporter un DAE.
+      - Alterner 30 compressions et 2 insufflations (BAVU avec oxygène dès que possible).
+      - "Mettre en œuvre le DAE dès son arrivée : la RCP est poursuivie pendant la pose des électrodes."
+      - Pendant l'analyse et le choc, personne ne touche la victime ; reprendre immédiatement les compressions après le choc.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - La RCP continue pendant la pose des électrodes.
+      - "Le choix de la position des électrodes repose sur un seuil de poids de 25 kg (et non plus sur la distinction adulte/enfant) : antéro-latérale au-dessus de 25 kg."
+qcm:
+  - id: q1
+    enonce: "Fréquence des compressions thoraciques :"
+    propositions:
+      - 60 à 80 /min
+      - 80 à 100 /min
+      - 100 à 120 /min
+      - 140 à 160 /min
+    bonnes:
+      - 2
+    explication: 100 à 120 compressions par minute, en limitant les interruptions.
+  - id: q2
+    enonce: "Profondeur des compressions chez l'adulte :"
+    propositions:
+      - 2 à 3 cm
+      - 3 à 4 cm
+      - 5 à 6 cm
+      - 8 à 10 cm
+    bonnes:
+      - 2
+    explication: 5 à 6 cm, en relâchant complètement le thorax entre chaque compression.
+  - id: q3
+    enonce: "Pendant qu'un équipier pose les électrodes du DAE :"
+    propositions:
+      - On interrompt la RCP
+      - La RCP continue
+      - On ne fait que des insufflations
+      - On met la victime en PLS
+    bonnes:
+      - 1
+    explication: "RTN 2026 : la RCP continue pendant la pose des électrodes."
+    nouveaute: true
+  - id: q4
+    enonce: "Ratio compressions/insufflations chez l'adulte :"
+    propositions:
+      - "15 : 2"
+      - "30 : 2"
+      - "5 : 1"
+      - "30 : 5"
+    bonnes:
+      - 1
+    explication: 30 compressions pour 2 insufflations.

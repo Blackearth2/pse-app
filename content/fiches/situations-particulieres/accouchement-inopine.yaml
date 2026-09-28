@@ -1,0 +1,64 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: accouchement-inopine
+niveau: PSE2
+chapitre: situations-particulieres
+type: procedure
+ordre: 1
+titre: Accouchement inopiné
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+liees:
+  - ventilation-oxygenotherapie
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: Lorsque la naissance est imminente, le secouriste assiste l'accouchement sur place, en lien étroit avec le médecin régulateur, puis prend en charge la mère et le nouveau-né.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Demi-assise
+        libelle: Position ajoutée
+      - valeur: Massage utérin
+        libelle: Nouvelle fiche
+      - valeur: Sécher, réchauffer
+        libelle: Nouveau-né
+      - valeur: 30 /min
+        libelle: Ventilation nouveau-né
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Alerter le 15 et suivre ses consignes ; préparer la zone et le matériel.
+      - Installer la mère (position adaptée, dont demi-assise).
+      - Accompagner la sortie de l'enfant sans tirer ; le sécher, le réchauffer, évaluer sa respiration.
+      - Surveiller la délivrance et les saignements.
+      - Réaliser le massage utérin selon la fiche dédiée et les consignes.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - Nouvelle fiche consacrée au massage utérin.
+      - La position demi-assise est ajoutée.
+qcm:
+  - id: q1
+    enonce: Quelle fiche est créée par les RTN 2026 pour l'accouchement ?
+    propositions:
+      - Massage utérin
+      - Clampage obligatoire
+      - Aspiration systématique du nouveau-né
+      - Position debout
+    bonnes:
+      - 0
+    explication: Une nouvelle fiche est consacrée au massage utérin.
+    nouveaute: true
+  - id: q2
+    enonce: Quelle position est ajoutée pour l'accouchement inopiné ?
+    propositions:
+      - Demi-assise
+      - PLS
+      - Ventrale
+      - Debout
+    bonnes:
+      - 0
+    explication: La position demi-assise est ajoutée.
+    nouveaute: true

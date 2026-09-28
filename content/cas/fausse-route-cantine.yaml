@@ -1,0 +1,72 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: fausse-route-cantine
+niveau: PSE1
+titre: Fausse route à la cantine
+lieu: Réfectoire, enfant de 6 ans (≈ 20 kg)
+statut: brouillon
+liees:
+  - obstruction-voies-aeriennes
+  - arret-cardiaque-enfant-nourrisson
+contexte: Pendant le repas, un enfant se lève brutalement, affolé, les mains à la gorge.
+etapes:
+  - moment: À l'arrivée
+    situation: L'enfant ne peut ni parler ni tousser.
+    question: Premier geste ?
+    type: choix
+    propositions:
+      - texte: Jusqu'à 5 claques dans le dos
+        correct: true
+        retour: "Oui : obstruction totale."
+      - texte: L'encourager à tousser
+        correct: false
+        retour: "Il ne peut pas tousser : l'obstruction est totale."
+      - texte: Lui faire boire de l'eau
+        correct: false
+        retour: Dangereux.
+  - moment: +30 secondes
+    situation: Les claques sont inefficaces.
+    question: Ensuite ?
+    type: choix
+    propositions:
+      - texte: Jusqu'à 5 compressions abdominales
+        correct: true
+        retour: Oui, chez l'enfant comme chez l'adulte.
+      - texte: Compressions thoraciques
+        correct: false
+        retour: Réservées au nourrisson, à la personne obèse et à la femme enceinte.
+      - texte: Recommencer uniquement des claques
+        correct: false
+        retour: On alterne claques et compressions.
+  - moment: +1 minute
+    situation: L'enfant perd connaissance et ne respire plus.
+    question: Que fais-tu ?
+    type: choix
+    propositions:
+      - texte: RCP immédiate, sans les 5 insufflations initiales
+        correct: true
+        retour: "Oui : en 2026, les 5 insufflations initiales sont supprimées."
+      - texte: 5 insufflations puis compressions
+        correct: false
+        retour: Ancienne séquence.
+      - texte: PLS
+        correct: false
+        retour: Il ne respire pas.
+  - moment: DAE
+    situation: Le DAE arrive.
+    question: Où placer les électrodes ?
+    type: choix
+    propositions:
+      - texte: Thorax / dos (antéro-postérieur)
+        correct: true
+        retour: "Oui : moins de 25 kg."
+      - texte: Antéro-latéral comme l'adulte
+        correct: false
+        retour: Au-dessus de 25 kg seulement.
+      - texte: Ne pas utiliser le DAE
+        correct: false
+        retour: Le DAE est utilisable chez l'enfant.
+pointsCles:
+  - "Critère fonctionnel : ne peut ni parler ni tousser = claques."
+  - 5 claques puis 5 compressions abdominales, en alternance.
+  - Perte de connaissance = RCP, sans 5 insufflations initiales.
+  - "Moins de 25 kg : électrodes thorax / dos."

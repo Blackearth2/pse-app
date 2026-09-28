@@ -1,0 +1,51 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: coup-de-chaleur-hypothermie
+niveau: PSE1
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 2
+titre: Coup de chaleur et hypothermie
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: Les atteintes liées à la chaleur ou au froid peuvent devenir vitales. La mesure de la température fait partie du bilan.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Mesure dès 25 °C
+        libelle: Thermomètre hypothermique
+      - valeur: Refroidir vite
+        libelle: Coup de chaleur
+      - valeur: Isoler du froid
+        libelle: Hypothermie
+      - valeur: Douce
+        libelle: Mobilisation
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Soustraire la victime à l'ambiance chaude ou froide.
+      - "Coup de chaleur : refroidir activement et rapidement, alerter."
+      - "Hypothermie : retirer les vêtements mouillés si possible, isoler du sol et du froid, mobiliser avec douceur."
+      - Mesurer la température (thermomètre hypothermique si besoin) et l'intégrer au bilan.
+      - Surveiller, transmettre au médecin régulateur.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - Le coup de chaleur est redéfini sur des critères cliniques.
+      - Le thermomètre hypothermique (mesure à partir de 25 °C) est intégré au bilan.
+qcm:
+  - id: q1
+    enonce: "Un thermomètre hypothermique permet une mesure à partir de :"
+    propositions:
+      - 35 °C
+      - 30 °C
+      - 25 °C
+      - 15 °C
+    bonnes:
+      - 2
+    explication: Il est intégré au bilan et mesure dès 25 °C.
+    nouveaute: true

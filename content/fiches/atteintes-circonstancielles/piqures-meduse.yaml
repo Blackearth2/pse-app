@@ -1,0 +1,49 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: piqures-meduse
+niveau: PSE1
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 4
+titre: Piqûres de méduse
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: Le contact avec une méduse provoque une douleur vive et une réaction cutanée ; certaines espèces entraînent des signes généraux.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Eau de mer
+        libelle: Rinçage
+      - valeur: Supprimé
+        libelle: Vinaigre
+      - valeur: Non
+        libelle: Frotter
+      - valeur: Alerter
+        libelle: Signes généraux
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Sortir la victime de l'eau.
+      - Rincer abondamment à l'eau de mer.
+      - Ne pas frotter la zone.
+      - Surveiller l'apparition de signes généraux (malaise, gêne respiratoire) et alerter si besoin.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - Le rinçage se fait à l'eau de mer ; le vinaigre est supprimé.
+qcm:
+  - id: q1
+    enonce: "Piqûre de méduse : on rince avec…"
+    propositions:
+      - Du vinaigre
+      - De l'eau douce
+      - De l'eau de mer
+      - De l'alcool
+    bonnes:
+      - 2
+    explication: Rinçage à l'eau de mer ; le vinaigre est supprimé.
+    nouveaute: true

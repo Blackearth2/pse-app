@@ -1,0 +1,59 @@
+# Lot 0 — contenu repris du prototype. BROUILLON : à vérifier contre le texte officiel 2026.
+id: protection-epi
+niveau: PSE1
+chapitre: generalites
+type: connaissance
+ordre: 1
+titre: Protection et équipements de protection individuelle
+statut: brouillon
+source:
+  document: Recommandations PSE — édition 2026 (à confirmer)
+  code: À vérifier
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: Avant tout geste, le secouriste assure sa propre sécurité, celle de l'équipe, des témoins et de la victime. Les EPI (gants, masque, lunettes, surblouse) protègent du risque infectieux.
+  - type: chiffres
+    titre: À retenir
+    items:
+      - valeur: Sécuriser
+        libelle: Premier réflexe
+      - valeur: Gants
+        libelle: EPI à retirer en premier
+      - valeur: Avant / après
+        libelle: Hygiène des mains
+      - valeur: "112"
+        libelle: Numéro européen
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Observer la scène : dangers persistants (circulation, électricité, feu, gaz, effondrement…)."
+      - Supprimer le danger ou baliser la zone ; dégager la victime seulement si le danger est réel, vital et impossible à supprimer.
+      - Revêtir les EPI adaptés au risque avant tout contact avec la victime.
+      - Après l'intervention, retirer les EPI en évitant de se contaminer, puis réaliser l'hygiène des mains et éliminer les déchets dans la filière adaptée.
+  - type: nouveaute
+    titre: Ce qui change en 2026
+    items:
+      - "L'ordre de retrait des EPI est inversé : les gants sont retirés en premier."
+qcm:
+  - id: q1
+    enonce: Selon les RTN 2026, quel EPI retire-t-on en premier ?
+    propositions:
+      - Le masque
+      - Les gants
+      - Les lunettes
+      - L'ordre n'a pas d'importance
+    bonnes:
+      - 1
+    explication: "L'ordre de retrait est inversé en 2026 : les gants, qui sont les plus contaminés, sont retirés en premier."
+    nouveaute: true
+  - id: q2
+    enonce: Quelle est la toute première action sur une intervention ?
+    propositions:
+      - Faire le bilan d'urgence vitale
+      - Assurer la sécurité
+      - Alerter le 15
+      - Mettre la victime en PLS
+    bonnes:
+      - 1
+    explication: "La protection (et la sécurité de l'équipe) conditionne tout le reste : on ne crée pas de victime supplémentaire."
