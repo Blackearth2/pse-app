@@ -348,6 +348,10 @@ p {
   color: var(--encre);
 }
 
+.bouton-rond:disabled {
+  opacity: 0.35;
+}
+
 .lien-discret {
   background: none;
   border: none;

@@ -264,6 +264,7 @@ Barre de navigation basse à 4 onglets : **Accueil, Fiches, QCM, Cas** (comme le
 
 - Liste filtrable (Tous / PSE1 / PSE2), avec nombre d'étapes et dernier score si le cas a été fait.
 - Déroulé : contexte (première étape), puis pour chaque étape : moment, situation, question, réponse.
+  - Les propositions des étapes `choix` et `multiple` sont mélangées à l'affichage (comme les QCM).
   - `choix` : toucher = valider. `multiple` : cocher puis Valider (exactitude de l'ensemble). `ordre` : éléments affichés dans un ordre mélangé **différent de l'ordre correct**, déplacés avec des boutons ↑ / ↓ (accessibles au clavier et au doigt), puis Valider (exactitude de l'ordre).
   - Retour affiché : pour `choix`/`multiple`, le retour de chaque proposition concernée ; pour `ordre`, l'ordre correct et le `retour`.
 - Étape réussie uniquement si la réponse est exacte. Débriefing : score, points clés, liens vers les fiches liées, Rejouer / Autres cas.
@@ -284,7 +285,7 @@ Clé unique `localStorage` : `revision-pse`. Contenu :
   favoris: string[],           // id de fiches
   erreurs: string[],           // id complets de questions
   examens: { date: string, niveau: 'PSE1' | 'PSE1+PSE2', score: number, total: number }[], // 10 derniers
-  examenEnCours: { niveau, questions: string[], ordrePropositions: number[][], reponses: (number[] | null)[], debut: string, dureeMs: number, index: number } | null,
+  examenEnCours: { niveau, questions: { questionId: string, ordre: number[] }[], reponses: (number[] | null)[], debut: string, dureeMs: number, index: number } | null,
   cas: Record<string, { dernier: number, meilleur: number, total: number }>
 }
 ```

@@ -7,13 +7,14 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import contenu from 'virtual:contenu';
 import { App } from './app/App';
+import { BandeauMiseAJour } from './app/BandeauMiseAJour';
 import { Fournisseurs } from './app/contextes';
 import { creerStockage, stockageNavigateur } from './store/stockage';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Fournisseurs contenu={contenu} stockage={creerStockage(stockageNavigateur())}>
-      <App />
+      <App bandeauMiseAJour={<BandeauMiseAJour />} />
     </Fournisseurs>
   </StrictMode>,
 );
