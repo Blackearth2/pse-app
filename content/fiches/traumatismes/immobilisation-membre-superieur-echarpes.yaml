@@ -1,0 +1,126 @@
+id: immobilisation-membre-superieur-echarpes
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 20
+titre: Immobilisation d'un membre supérieur au moyen d'écharpes
+motsCles: [écharpe simple, contre-écharpe, écharpe oblique, avant-bras, bras, épaule, triangle de tissu]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT06, 09-2014)
+  code: 07FT06
+  page: 227
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'immobilisation par écharpes est nécessaire chaque fois qu'une victime doit être mobilisée et que des moyens plus appropriés (attelle modulable ou attelle à dépression) ne sont pas disponibles. En bloquant les articulations au-dessus et au-dessous du traumatisme, elle limite les mouvements, diminue la douleur et prévient les complications."
+  - type: chiffres
+    titre: Matériel
+    items:
+      - valeur: "1,2 m"
+        libelle: "Longueur minimale de la base du triangle de tissu non extensible (coton, toile, papier non tissé)"
+  - type: liste
+    titre: Vocabulaire
+    items:
+      - "Sommet : pointe située à l'opposé de la base."
+      - "Chefs : les deux autres pointes."
+  - type: etapes
+    titre: "Main, poignet, avant-bras : écharpe simple"
+    items:
+      - "Engager une des pointes du triangle entre le coude et le thorax et la faire passer sur l'épaule du côté blessé (sommet du triangle du côté du coude, base perpendiculaire à l'avant-bras à immobiliser)."
+      - "Ajuster et déplisser le triangle jusqu'à la base des doigts."
+      - "Rabattre la seconde pointe sur l'avant-bras et la faire passer sur l'épaule opposée au membre blessé."
+      - "Fixer l'écharpe en nouant les deux pointes sur le côté du cou ; la main doit être placée légèrement au-dessus du niveau du coude."
+      - "Fixer au niveau du coude en tortillant la partie libre de la pointe ou avec un ruban adhésif."
+  - type: etapes
+    titre: "Bras : écharpe simple et contre-écharpe"
+    items:
+      - "Soutenir l'avant-bras avec une écharpe simple."
+      - "Placer la base du deuxième triangle (contre-écharpe) au niveau de l'épaule du membre blessé, sommet vers le coude."
+      - "Amener les deux pointes sous l'aisselle opposée en enveloppant le thorax de la victime."
+      - "Fixer la contre-écharpe par un nœud situé en avant de l'aisselle opposée."
+      - "Torsader le sommet pour maintenir le bras blessé plaqué contre le thorax."
+  - type: etapes
+    titre: "Épaule (clavicule, omoplate) : écharpe oblique"
+    items:
+      - "Glisser la base du triangle sous l'avant-bras, sommet vers le coude."
+      - "Nouer les chefs sur l'épaule opposée en englobant le thorax ; les doigts doivent rester visibles."
+      - "Rabattre le sommet sur le coude en avant et le fixer avec un ruban adhésif."
+      - "Si l'épaule est très déformée (bras écarté du corps), placer un rembourrage (tissu roulé) entre le bras et le tronc pour respecter la déformation et éviter toute mobilisation de l'articulation."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "L'immobilisation est correcte si le membre est maintenu et si la douleur diminue."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne jamais tenter de rapprocher le coude du corps en cas de déformation importante de l'épaule."
+      - "Même provisoire, une immobilisation peut mobiliser le membre traumatisé et entraîner douleur et complications."
+qcm:
+  - id: q1
+    enonce: "Quelle longueur minimale de base doit avoir le triangle de tissu d'une écharpe ?"
+    propositions:
+      - 0,8 m
+      - 1 m
+      - 1,2 m
+      - 2 m
+    bonnes:
+      - 2
+    explication: "La base du triangle de tissu non extensible mesure au minimum 1,2 m."
+  - id: q2
+    enonce: "Quelle immobilisation est réalisée pour un traumatisme de la main, du poignet ou de l'avant-bras ?"
+    propositions:
+      - Une écharpe simple
+      - Une écharpe simple et une contre-écharpe
+      - Une écharpe oblique
+    bonnes:
+      - 0
+    explication: "Main, poignet et avant-bras : écharpe simple. Bras : écharpe simple et contre-écharpe. Épaule : écharpe oblique."
+  - id: q3
+    enonce: "Pour un traumatisme du bras, comment est fixée la contre-écharpe ?"
+    propositions:
+      - Par un nœud situé en avant de l'aisselle opposée
+      - Par un nœud sur l'épaule blessée
+      - Par un nœud dans le dos
+    bonnes:
+      - 0
+    explication: "Les pointes passent sous l'aisselle opposée en enveloppant le thorax et sont nouées en avant de l'aisselle opposée ; le sommet est torsadé."
+  - id: q4
+    enonce: "En cas d'écharpe simple pour l'avant-bras, où doit se trouver la main ?"
+    propositions:
+      - Légèrement au-dessus du niveau du coude
+      - Au niveau du coude
+      - Pendante sous le coude
+    bonnes:
+      - 0
+    explication: "La main doit être placée légèrement au-dessus du niveau du coude."
+  - id: q5
+    enonce: "Que faire si un traumatisme de l'épaule provoque une déformation importante (bras écarté du corps) ?"
+    propositions:
+      - Rapprocher le coude du corps
+      - Placer un rembourrage (tissu roulé) entre le bras et le tronc
+      - Ne jamais tenter de rapprocher le coude du corps
+    bonnes:
+      - 1
+      - 2
+    explication: "On place un rembourrage pour respecter la déformation ; il ne faut jamais tenter de rapprocher le coude du corps."
+  - id: q6
+    enonce: "Quand l'immobilisation par écharpes est-elle correcte ?"
+    propositions:
+      - Le membre est maintenu
+      - La douleur diminue
+      - Le membre est serré au maximum
+    bonnes:
+      - 0
+      - 1
+    explication: "L'immobilisation est correcte si le membre est maintenu et si la douleur diminue."
+  - id: q7
+    enonce: "Que doit-on laisser visible lors de la pose d'une écharpe oblique pour l'épaule ?"
+    propositions:
+      - Les doigts
+      - Le coude
+      - Le thorax
+    bonnes:
+      - 0
+    explication: "Les doigts doivent rester visibles."

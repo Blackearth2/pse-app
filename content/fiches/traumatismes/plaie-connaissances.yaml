@@ -1,0 +1,114 @@
+id: plaie-connaissances
+niveau: PSE1
+chapitre: traumatismes
+type: connaissance
+ordre: 3
+titre: Plaie (connaissances)
+motsCles: [plaie simple, plaie grave, contusion, écorchure, coupure, plaie punctiforme, tétanos, injection sous pression]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC02, 09-2014)
+  code: 07AC02
+  page: 205
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La plaie est une lésion de la peau avec effraction et atteinte possible des tissus sous-jacents. On l'apprécie au 4ème regard, où l'on recherche sa présence, sa localisation, son aspect et sa gravité."
+  - type: liste
+    titre: Causes
+    items:
+      - "De l'extérieur vers l'intérieur : coupure, piqûre, projectile, coup, morsures."
+      - "De l'intérieur vers l'extérieur : fracture ouverte (l'os cassé perfore la peau)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Hémorragie."
+      - "Atteinte des organes sous-jacents."
+      - "Infection de la plaie, pouvant s'étendre à tout l'organisme."
+      - "Ces atteintes peuvent entraîner une défaillance respiratoire, circulatoire ou neurologique."
+      - "Risque de contamination de l'intervenant par le sang de la victime (virus des hépatites et VIH)."
+  - type: chiffres
+    titre: Tétanos
+    items:
+      - valeur: "10 ans"
+        libelle: "Adulte : consulter immédiatement un médecin si non vacciné ou si la vaccination date de plus de dix ans."
+      - valeur: "5 ans"
+        libelle: "Enfant : consulter immédiatement un médecin si non vacciné ou si la vaccination date de plus de cinq ans."
+  - type: texte
+    titre: Tétanos, précision
+    contenu: "Toute plaie, toute piqûre, même minime, peut provoquer une maladie parfois mortelle : le tétanos. Seule la vaccination antitétanique en protège."
+  - type: liste
+    titre: Aspects des plaies
+    items:
+      - "Contusion : choc ou coup pouvant rompre les vaisseaux sous la peau ; le sang s'échappe sous l'épiderme, la peau ne se rompt pas (coloration violette, gonflement : hématome). Un hématome très étendu peut traduire une lésion plus profonde (fracture, lésion interne)."
+      - "Écorchure : plaie simple et superficielle, rouge et suintante, souvent douloureuse, généralement causée par une chute avec glissement ou friction. De petits corps étrangers incrustés peuvent entraîner des infections secondaires."
+      - "Coupure : provoquée par un objet tranchant (couteau, verre) ; peut s'accompagner d'une hémorragie ou d'une lésion d'un organe sous-jacent."
+      - "Plaie punctiforme : plaie souvent profonde provoquée par un objet pointu (clou, arme blanche, projectile), pouvant traverser les organes sous-jacents ; souvent grave même si son aspect extérieur ne l'est pas. Une plaie par injection de liquide sous pression présente le plus souvent ces caractéristiques."
+      - "Lacération : déchirure souvent complexe de la peau par arrachement ou écrasement, plaie irrégulière avec atteinte des tissus sous-jacents."
+  - type: liste
+    titre: Plaie simple
+    items:
+      - "Petite coupure superficielle ou éraflure saignant peu."
+      - "Non située au niveau d'un orifice naturel ou de l'œil."
+  - type: liste
+    titre: Plaie grave (entre autres)
+    items:
+      - "Hémorragie associée."
+      - "Mécanisme pénétrant (objet tranchant ou perforant, morsures, projectiles)."
+      - "Localisation : cou, thorax, abdomen, œil, orifices naturels."
+      - "Aspect déchiqueté ou écrasé."
+      - "Plaies multiples."
+      - "Plaie par injection de liquide sous pression : toujours grave, prise en charge chirurgicale urgente."
+  - type: attention
+    items:
+      - "En cas de doute, la plaie doit être considérée comme grave."
+      - "Une plaie punctiforme peut être grave malgré un aspect extérieur anodin."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Identifier la gravité d'une plaie."
+      - "Limiter les risques d'aggravation vers une détresse vitale."
+      - "Limiter le risque d'infection."
+qcm:
+  - id: q1
+    enonce: "Après combien de temps une vaccination antitétanique doit-elle inciter un adulte blessé à consulter ?"
+    propositions:
+      - "Plus de 5 ans"
+      - "Plus de 10 ans"
+      - "Plus d'un an"
+    bonnes: [1]
+    explication: "Si le sujet n'est pas vacciné ou si la vaccination date de plus de dix ans chez l'adulte (cinq ans chez l'enfant), il doit consulter immédiatement un médecin."
+  - id: q2
+    enonce: "Quels éléments rendent une plaie grave ?"
+    propositions:
+      - "Une petite éraflure saignant peu sur le genou"
+      - "Une localisation au thorax, à l'abdomen, au cou, à l'œil ou aux orifices naturels"
+      - "Un mécanisme pénétrant"
+      - "Des plaies multiples"
+    bonnes: [1, 2, 3]
+    explication: "Localisation à risque, mécanisme pénétrant, hémorragie, aspect déchiqueté ou écrasé et plaies multiples sont des critères de gravité. Une éraflure qui saigne peu est une plaie simple."
+  - id: q3
+    enonce: "Comment décrit-on une plaie punctiforme ?"
+    propositions:
+      - "Une plaie superficielle, rouge et suintante après une chute"
+      - "Un hématome sans rupture de la peau"
+      - "Une plaie souvent profonde causée par un objet pointu, parfois grave malgré un aspect extérieur discret"
+    bonnes: [2]
+    explication: "La plaie punctiforme est souvent profonde, provoquée par un objet pointu, et peut traverser les organes sous-jacents. L'écorchure est superficielle ; l'hématome relève de la contusion."
+  - id: q4
+    enonce: "Une plaie par injection de liquide sous pression est :"
+    propositions:
+      - "Une plaie simple si elle ne saigne pas"
+      - "Une contusion"
+      - "Toujours une plaie grave dont la prise en charge chirurgicale est urgente"
+    bonnes: [2]
+    explication: "Une plaie par injection de liquide sous pression est toujours grave, avec une prise en charge chirurgicale urgente, même si son aspect extérieur est discret."
+  - id: q5
+    enonce: "Que faire si l'on hésite sur la gravité d'une plaie ?"
+    propositions:
+      - "La considérer comme simple"
+      - "Attendre son évolution avant de décider"
+      - "La considérer comme grave"
+    bonnes: [2]
+    explication: "En cas de doute, la plaie doit être considérée comme grave."

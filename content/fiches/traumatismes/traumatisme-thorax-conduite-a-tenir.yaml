@@ -1,0 +1,84 @@
+id: traumatisme-thorax-conduite-a-tenir
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 14
+titre: Traumatisme du thorax (conduite à tenir)
+motsCles: [thorax, position assise ou demi-assise, pansement non occlusif, corps étranger pénétrant, oxygène]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR05, 07-2026)
+  code: 07PR05
+  page: 220
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à un traumatisme du thorax, on traite d'abord toute détresse vitale ; sinon on applique la conduite face à une plaie grave, avec installation en position assise ou demi-assise en cas de gêne respiratoire, protection de la plaie par un dispositif non occlusif et oxygène si nécessaire."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Face à une urgence ou une détresse vitale, ou en cas d'aggravation : appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+      - "Ne jamais retirer un corps étranger pénétrant dans le thorax, sauf s'il empêche la réalisation d'une RCP."
+      - "En l'absence de détresse vitale apparente : appliquer la conduite à tenir face à une plaie grave."
+      - "Mettre la victime en position assise ou demi-assise dès lors qu'il existe une gêne respiratoire ; cette position est maintenue lors du relevage et du transport."
+      - "Dénuder le thorax de la victime, dans la mesure du possible en préservant son intimité et sans l'exposer au froid."
+      - "Vérifier la présence de lésions dans le dos, particulièrement au cours de la mobilisation (installation en position assise ou en position latérale de sécurité)."
+      - "Protéger la plaie avec un dispositif médical non occlusif spécifique s'il est à disposition ; en son absence, laisser la plaie à l'air libre."
+      - "Administrer de l'oxygène en inhalation, si nécessaire."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne jamais retirer un corps étranger pénétrant dans le thorax, sauf s'il empêche la réalisation d'une RCP."
+      - "Le pansement doit rester non occlusif : il doit permettre la sortie de l'air piégé dans le thorax par la plaie et empêcher sa pénétration."
+qcm:
+  - id: q1
+    enonce: "Quelle position est adoptée en cas de traumatisme du thorax avec gêne respiratoire ?"
+    propositions:
+      - Allongée à plat dos
+      - Assise ou demi-assise
+      - Sur le ventre
+    bonnes:
+      - 1
+    explication: "La victime est installée en position assise ou demi-assise dès lors qu'il existe une gêne respiratoire."
+  - id: q2
+    enonce: "Dans quel cas seulement retire-t-on un corps étranger pénétrant dans le thorax ?"
+    propositions:
+      - S'il gêne la victime
+      - Jamais
+      - Uniquement s'il empêche la réalisation d'une RCP
+    bonnes:
+      - 2
+    explication: "Un corps étranger pénétrant dans le thorax n'est jamais retiré, sauf s'il empêche la réalisation d'une RCP."
+  - id: q3
+    enonce: "Comment protège-t-on une plaie thoracique ?"
+    propositions:
+      - Avec un pansement occlusif sur les quatre côtés
+      - Avec un dispositif médical non occlusif spécifique s'il est disponible
+      - En laissant la plaie à l'air libre en l'absence de dispositif
+      - Avec un film plastique fixé hermétiquement
+    bonnes:
+      - 1
+      - 2
+    explication: "On utilise un dispositif non occlusif spécifique s'il est à disposition ; sinon la plaie est laissée à l'air libre."
+  - id: q4
+    enonce: "Pourquoi le pansement d'une plaie thoracique doit-il être non occlusif ?"
+    propositions:
+      - Pour permettre la sortie de l'air piégé dans le thorax et empêcher sa pénétration
+      - Pour arrêter tout passage d'air dans les deux sens
+      - Pour faciliter la surveillance du saignement
+    bonnes:
+      - 0
+    explication: "Le pansement non occlusif permet la sortie de l'air piégé dans le thorax par la plaie et empêche sa pénétration."
+  - id: q5
+    enonce: "Quelles actions font partie de la conduite face à un traumatisme du thorax sans détresse vitale ?"
+    propositions:
+      - Vérifier la présence de lésions dans le dos
+      - Dénuder le thorax en préservant l'intimité et sans exposer au froid
+      - Administrer de l'oxygène en inhalation, si nécessaire
+      - Retirer tout corps étranger
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On vérifie le dos, on dénude le thorax en préservant l'intimité et sans exposer au froid, et on administre de l'oxygène si nécessaire ; on ne retire pas le corps étranger."

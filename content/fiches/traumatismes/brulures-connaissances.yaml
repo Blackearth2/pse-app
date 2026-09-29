@@ -1,0 +1,130 @@
+id: brulures-connaissances
+niveau: PSE1
+chapitre: traumatismes
+type: connaissance
+ordre: 1
+titre: Brûlures (connaissances)
+motsCles: [brûlure simple, brûlure grave, cloques, paume de la main, règle de Wallace, inhalation, brûlure chimique, localisation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC01, 07-2026)
+  code: 07AC01
+  page: 201
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La brûlure est une lésion de la peau, des voies aériennes ou digestives. Elle est évolutive : sans action immédiate, elle peut continuer de s'étendre en profondeur et en surface. Sa gravité dépend de son aspect (profondeur), de son étendue, de sa localisation et de la douleur, ainsi que de l'âge de la victime et de son origine."
+  - type: liste
+    titre: Brûlure simple
+    items:
+      - "Rougeurs de la peau chez l'adulte."
+      - "Ou une cloque dont la surface est inférieure à celle de la moitié de la paume de la main de la victime."
+  - type: liste
+    titre: Brûlure grave (dès lors qu'un seul de ces critères est présent)
+    items:
+      - "Une ou plusieurs cloques dont la surface totale est supérieure à la moitié de la paume de la main de la victime."
+      - "Destruction plus profonde (aspect blanchâtre ou noirâtre, parfois indolore), souvent associée à des cloques et à une rougeur plus ou moins étendue."
+      - "Aspect circulaire (qui fait le tour du cou ou d'un membre)."
+      - "Localisation sur le visage ou le cou, les mains, les articulations, ou au voisinage des orifices naturels."
+      - "Rougeur étendue de la peau chez l'enfant (par exemple un coup de soleil généralisé)."
+      - "Brûlure d'origine chimique, électrique ou radiologique."
+  - type: texte
+    titre: Niveaux de prise en charge
+    contenu: "Certaines brûlures relèvent du médecin traitant ; d'autres nécessitent un véhicule d'évacuation et de premiers secours vers un service d'urgence ; les plus graves nécessitent une médicalisation du transport avant l'acheminement vers un centre de traitement des brûlures."
+  - type: liste
+    titre: Causes
+    items:
+      - "Chaleur, substances chimiques, électricité, frottement, radiations."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Danger immédiat : défaillance circulatoire (brûlure étendue) ou respiratoire (brûlure du visage ou du cou, ou inhalation de fumée)."
+      - "Douleur sévère."
+      - "Conséquences retardées : infection, séquelles fonctionnelles ou esthétiques."
+  - type: texte
+    titre: Reconnaissance
+    contenu: "La brûlure est en règle générale facile à reconnaître, le plus souvent lors du 1er regard ou à l'écoute de la plainte principale. Que la victime présente ou non une détresse vitale, c'est au cours du 4ème regard que le secouriste analyse les caractéristiques, donc la gravité : aspect, étendue, localisation, présence de douleur."
+  - type: liste
+    titre: Aspect selon la profondeur
+    items:
+      - "Peau rouge, sèche et douloureuse : atteinte superficielle."
+      - "Cloques (phlyctènes), uniques ou multiples, plus ou moins étendues, avec douleur forte ou modérée : atteinte plus profonde. Elles peuvent se rompre spontanément en libérant un liquide clair et leur apparition peut être retardée. Une zone brûlée d'aspect humide (en dehors d'un refroidissement à l'eau) signe aussi cette atteinte plus profonde."
+      - "Pâleur cireuse, aspect noirâtre ou brunâtre : atteinte très profonde de toutes les couches de la peau ; souvent peu douloureuse car les terminaisons nerveuses sont détruites."
+      - "Une zone brûlée peut présenter plusieurs aspects conjoints."
+  - type: chiffres
+    titre: Évaluer l'étendue
+    items:
+      - valeur: "1 %"
+        libelle: "Surface de la main de la victime (paume et doigts) = 1 % de la surface totale de sa peau, quel que soit l'âge ; utile chez l'enfant et pour les petites surfaces."
+      - valeur: "Wallace"
+        libelle: "Règle la plus connue chez l'adulte pour évaluer l'étendue."
+  - type: liste
+    titre: Localisations particulières à décrire précisément
+    items:
+      - "Voies aériennes : traces noires autour des narines et de la bouche ou sur la langue, toux ou crachats noirs (recherchés systématiquement chez les victimes d'incendie), voix devenue rauque."
+      - "Mains, plis de flexion, visage."
+      - "Proximité immédiate des orifices naturels."
+      - "Ingestion : à suspecter après absorption d'un liquide brûlant ou caustique avec violentes douleurs dans la poitrine ou l'abdomen, parfois lésions de brûlure (chaleur) ou traces blanchâtres (caustiques) sur les lèvres ou la bouche."
+      - "Inhalation : à suspecter chez une personne ayant respiré des fumées d'incendie ou inhalé des produits chimiques."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Supprimer la cause."
+      - "Identifier la gravité et la nature de la brûlure."
+      - "Limiter l'étendue."
+      - "Soulager la douleur et l'œdème."
+      - "Éviter l'apparition, ou limiter l'aggravation, d'une éventuelle détresse vitale."
+      - "Limiter le risque d'infection."
+qcm:
+  - id: q1
+    enonce: "Laquelle de ces brûlures est considérée comme grave ?"
+    propositions:
+      - "Une cloque unique dont la surface est inférieure à la moitié de la paume de la main de la victime"
+      - "Des rougeurs de la peau sur l'avant-bras d'un adulte"
+      - "Une brûlure située sur la main"
+      - "Une petite rougeur superficielle sur la cuisse d'un adulte"
+    bonnes: [2]
+    explication: "Une brûlure localisée sur le visage, le cou, les mains, les articulations ou près des orifices naturels est grave. Les rougeurs chez l'adulte et une cloque inférieure à la moitié de la paume sont des brûlures simples."
+  - id: q2
+    enonce: "Quels éléments font qualifier une brûlure de grave ?"
+    propositions:
+      - "Une ou plusieurs cloques dont la surface totale dépasse la moitié de la paume de la main de la victime"
+      - "Un aspect circulaire, autour d'un membre ou du cou"
+      - "Des rougeurs limitées de la peau chez l'adulte"
+      - "Une origine chimique, électrique ou radiologique"
+    bonnes: [0, 1, 3]
+    explication: "Ces trois critères sont des critères de gravité. Des rougeurs chez l'adulte constituent une brûlure simple."
+  - id: q3
+    enonce: "À quelle surface correspond la main de la victime (paume et doigts) ?"
+    propositions:
+      - "À 1 % de la surface totale de sa peau, quel que soit l'âge"
+      - "À 9 % de la surface totale de sa peau"
+      - "À 1 % chez l'adulte seulement"
+    bonnes: [0]
+    explication: "La surface de la main (paume et doigts) vaut 1 % de la surface cutanée totale, quel que soit l'âge ; elle aide surtout chez l'enfant et pour les petites surfaces."
+  - id: q4
+    enonce: "Une brûlure des voies aériennes est évoquée devant :"
+    propositions:
+      - "Des traces noires autour des narines, de la bouche ou de la langue"
+      - "Une toux ou des crachats noirs"
+      - "Une voix devenue rauque"
+      - "Une peau rouge et sèche sur le bras"
+    bonnes: [0, 1, 2]
+    explication: "Traces noires, toux ou crachats noirs et modification de la voix (rauque) évoquent une atteinte des voies aériennes, à rechercher systématiquement chez les victimes d'incendie."
+  - id: q5
+    enonce: "Une brûlure présentant un aspect blanchâtre ou noirâtre, parfois indolore, traduit :"
+    propositions:
+      - "Une atteinte superficielle"
+      - "Une atteinte très profonde de toutes les couches de la peau"
+      - "Une brûlure simple sans conséquence"
+    bonnes: [1]
+    explication: "La pâleur cireuse ou l'aspect noirâtre ou brunâtre traduit une atteinte très profonde ; l'absence de douleur s'explique par la destruction des terminaisons nerveuses. C'est une brûlure grave."
+  - id: q6
+    enonce: "Lors de quel regard le secouriste analyse-t-il la gravité d'une brûlure ?"
+    propositions:
+      - "Le 1er regard"
+      - "Le 4ème regard"
+      - "Uniquement lors du transport"
+    bonnes: [1]
+    explication: "La reconnaissance se fait souvent au 1er regard, mais l'analyse des caractéristiques et de la gravité est réalisée au cours du 4ème regard, avec ou sans détresse vitale."

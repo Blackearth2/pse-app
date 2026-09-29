@@ -1,0 +1,113 @@
+id: traumatisme-face-cou-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 15
+titre: Traumatisme de la face et de la face antérieure du cou (connaissances)
+motsCles: [face, cou, obstruction des voies aériennes, hémorragie, atteinte de l'œil, mandibule, hématome en lunette]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC06, 12-2023)
+  code: 07AC06
+  page: 221
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Ensemble des signes dus à une ou plusieurs lésions secondaires à une atteinte traumatique de la face et de la face antérieure du cou. Ces traumatismes sont fréquents et peuvent être isolés ou associés à d'autres lésions."
+  - type: liste
+    titre: Causes
+    items:
+      - "Le plus souvent, choc direct (éléments contondants)."
+      - "Ou blessure pénétrante (arme blanche, arme à feu) au niveau de la face ou du cou."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Détresse vitale par obstruction des voies aériennes ou par hémorragie."
+      - "Obstruction des voies aériennes provoquée par l'inhalation d'un corps étranger ou de sang, par une fracture de la mandibule avec désinsertion et bascule de la langue en arrière, ou par un gonflement post-traumatique de la muqueuse des voies aériennes (traumatisme du larynx)."
+      - "Atteinte fonctionnelle (atteinte oculaire par exemple) et séquelles esthétiques."
+      - "Association possible à un traumatisme du rachis cervical et/ou à un traumatisme crânien."
+  - type: liste
+    titre: Signes
+    items:
+      - "Mécanisme : traumatisme parfois violent, direct au niveau de la face ou du cou."
+      - "Plainte de la victime : douleur de la face, trouble de la vision, difficulté à avaler."
+      - "À l'issue du 2e regard, la victime peut présenter une détresse respiratoire par obstruction des voies aériennes, ou une détresse circulatoire secondaire à une hémorragie externe ou extériorisée."
+      - "À l'examen : œdème de la face ou localisé (œdème des paupières) ; hématome de la face, hématome en lunette."
+      - "Une ou plusieurs plaies de la face, de la langue ou du cou."
+      - "Déformation de la face traduisant une fracture des os de la face, du nez ou de la mandibule."
+      - "Saignement du nez ou de la bouche."
+      - "Atteinte de l'œil : anomalie des mouvements de l'œil, sang sous la cornée, déformation de la pupille, plaie de l'œil avec ou sans corps étranger intraoculaire visible."
+      - "Désinsertion ou fracture de dents."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Lutter contre une détresse vitale."
+      - "Protéger une éventuelle lésion de la peau."
+      - "Demander un avis médical."
+qcm:
+  - id: q1
+    enonce: "Quelles détresses vitales un traumatisme de la face et de la face antérieure du cou peut-il provoquer ?"
+    propositions:
+      - Une obstruction des voies aériennes
+      - Une hémorragie
+      - Une hypoglycémie
+    bonnes:
+      - 0
+      - 1
+    explication: "Ces traumatismes peuvent être responsables d'une détresse vitale par obstruction des voies aériennes ou par hémorragie."
+  - id: q2
+    enonce: "Parmi ces mécanismes, lesquels peuvent obstruer les voies aériennes lors d'un traumatisme de la face ?"
+    propositions:
+      - Inhalation d'un corps étranger ou de sang
+      - Fracture de la mandibule avec bascule de la langue en arrière
+      - Gonflement post-traumatique de la muqueuse des voies aériennes (larynx)
+      - Fracture du poignet
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Inhalation de corps étranger ou de sang, fracture de la mandibule avec désinsertion et bascule de la langue, et gonflement de la muqueuse (traumatisme du larynx) sont cités."
+  - id: q3
+    enonce: "Quelles causes sont le plus souvent à l'origine de ces traumatismes ?"
+    propositions:
+      - Un choc direct par des éléments contondants
+      - Une blessure pénétrante (arme blanche, arme à feu)
+      - Une exposition prolongée au soleil
+    bonnes:
+      - 0
+      - 1
+    explication: "Le plus souvent, il s'agit d'un choc direct (éléments contondants) ou d'une blessure pénétrante."
+  - id: q4
+    enonce: "Quel signe traduit une atteinte de l'œil ?"
+    propositions:
+      - Une anomalie des mouvements de l'œil
+      - Du sang sous la cornée
+      - Une déformation de la pupille
+      - Un saignement du nez isolé
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Anomalie des mouvements de l'œil, sang sous la cornée, déformation de la pupille et plaie de l'œil sont des signes d'atteinte oculaire."
+  - id: q5
+    enonce: "À quel autre traumatisme un traumatisme de la face ou du cou peut-il être associé ?"
+    propositions:
+      - Un traumatisme du rachis cervical et/ou un traumatisme crânien
+      - Uniquement une entorse de cheville
+      - Aucun autre traumatisme
+    bonnes:
+      - 0
+    explication: "Il peut être associé à un traumatisme du rachis cervical et/ou à un traumatisme crânien."
+  - id: q6
+    enonce: "Quel est le principe de l'action de secours ?"
+    propositions:
+      - Lutter contre une détresse vitale
+      - Protéger une éventuelle lésion de la peau
+      - Demander un avis médical
+      - Retirer systématiquement tout corps étranger
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le principe associe lutte contre la détresse vitale, protection de la lésion cutanée et avis médical."

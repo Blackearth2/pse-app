@@ -1,0 +1,101 @@
+id: maintien-tete-position-neutre
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 27
+titre: Maintien de la tête en position neutre
+motsCles: [maintien de la tête, position neutre, rachis cervical, traumatisme du rachis, axe tête-cou-tronc, appui des coudes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT11, 12-2023)
+  code: 07FT11
+  page: 246
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le maintien de la tête en position neutre, dans l'alignement du tronc, est recommandé dès qu'un traumatisme de la tête, de la nuque ou du dos est suspecté, dans l'attente d'une éventuelle immobilisation complète de l'axe tête-cou-tronc. Il limite les mouvements intempestifs du cou et stabilise le rachis cervical. Aucun matériel n'est nécessaire."
+  - type: liste
+    titre: Quand le maintien peut-il être interrompu ?
+    items:
+      - "Après avoir demandé à la victime de ne pas bouger la tête, si elle est allongée à plat dos, calme et coopérante."
+  - type: etapes
+    titre: Victime allongée sur le dos
+    items:
+      - "Demander à la victime de ne pas bouger la tête et la prévenir de ce que l'on va faire."
+      - "Se placer en position stable, à genou, dans l'axe de la victime, au niveau de sa tête."
+      - "Prendre appui avec les coudes sur le sol ou sur les genoux (diminue la fatigue et augmente la stabilité)."
+      - "Placer les mains de chaque côté de sa tête pour la maintenir dans la position où elle se trouve."
+      - "Si nécessaire, replacer délicatement la tête dans l'axe du tronc, sans exercer de traction, jusqu'à ce que la victime regarde droit devant."
+      - "Maintenir la position au moins jusqu'à l'immobilisation du rachis cervical, et en général jusqu'à l'immobilisation complète du rachis."
+  - type: etapes
+    titre: Victime debout ou assise
+    items:
+      - "Se positionner devant ou derrière la victime."
+      - "Placer les mains de chaque côté de la tête de la victime."
+      - "Replacer délicatement la tête dans l'axe du tronc, en soulageant le rachis cervical du poids de la tête, jusqu'à ce que la victime regarde droit devant."
+      - "Maintenir la position tant que l'axe tête-cou-tronc n'est pas complètement immobilisé (attelle cervico-thoracique, plan dur avec immobilisateur de tête)."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Si un déplacement de la tête est nécessaire pour la ramener en position neutre, interrompre immédiatement la manœuvre si une résistance au déplacement est perçue."
+      - "Interrompre aussi si le déplacement déclenche ou aggrave une douleur cervicale."
+      - "Interrompre également s'il déclenche des sensations anormales (fourmillements, décharges électriques) dans les membres supérieurs ou inférieurs."
+      - "Dans ces cas, maintenir la tête dans la position où elle se trouve dans l'attente d'un renfort médical."
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - "La tête de la victime reste en position neutre."
+qcm:
+  - id: q1
+    enonce: "Dans quel cas le maintien de la tête en position neutre est-il recommandé ?"
+    propositions:
+      - "Uniquement en cas de perte de connaissance"
+      - "Dès qu'un traumatisme de la tête, de la nuque ou du dos est suspecté"
+      - "Uniquement si un collier cervical est déjà en place"
+      - "Uniquement si la victime se plaint de douleurs cervicales"
+    bonnes: [1]
+    explication: "Le maintien est recommandé dès la suspicion d'un traumatisme de la tête, de la nuque ou du dos, dans l'attente d'une éventuelle immobilisation complète de l'axe tête-cou-tronc."
+  - id: q2
+    enonce: "Le maintien de la tête peut être interrompu si la victime est..."
+    propositions:
+      - "assise et agitée"
+      - "allongée à plat dos, calme et coopérante, après lui avoir demandé de ne pas bouger la tête"
+      - "debout et coopérante"
+      - "inconsciente et allongée"
+    bonnes: [1]
+    explication: "Le maintien peut être interrompu après avoir demandé à la victime de ne pas bouger la tête, si elle est allongée à plat dos, calme et coopérante."
+  - id: q3
+    enonce: "Victime allongée sur le dos : où le secouriste se place-t-il et sur quoi prend-il appui ?"
+    propositions:
+      - "À genou dans l'axe de la victime, au niveau de sa tête, avec appui des coudes sur le sol ou les genoux"
+      - "Debout à côté de la victime, mains sous les épaules"
+      - "À genou sur le côté de la victime, une main sur le front et une sous la nuque"
+    bonnes: [0]
+    explication: "Le secouriste se met en position stable à genou dans l'axe de la victime, au niveau de sa tête, et prend appui avec les coudes (moins de fatigue, plus de stabilité)."
+  - id: q4
+    enonce: "Pour replacer la tête en position neutre, il faut..."
+    propositions:
+      - "exercer une légère traction sur la tête"
+      - "replacer délicatement la tête dans l'axe du tronc sans traction, jusqu'à ce que la victime regarde droit devant"
+      - "fléchir légèrement la tête vers l'avant"
+      - "tourner la tête de côté"
+    bonnes: [1]
+    explication: "La tête est replacée délicatement dans l'axe du tronc, sans exercer de traction, jusqu'à ce que la victime regarde droit devant."
+  - id: q5
+    enonce: "Quelles situations imposent d'interrompre immédiatement le déplacement de la tête vers la position neutre ?"
+    propositions:
+      - "Une résistance au déplacement"
+      - "Une douleur cervicale déclenchée ou aggravée"
+      - "Des fourmillements ou décharges électriques dans les membres"
+      - "Une victime qui parle"
+    bonnes: [0, 1, 2]
+    explication: "Résistance, douleur cervicale déclenchée ou aggravée et sensations anormales dans les membres imposent d'arrêter et de maintenir la tête telle quelle en attendant un renfort médical."
+  - id: q6
+    enonce: "Jusqu'à quand maintient-on la tête d'une victime debout ou assise ?"
+    propositions:
+      - "Jusqu'à ce que la victime se sente mieux"
+      - "Tant que l'axe tête-cou-tronc n'est pas complètement immobilisé"
+      - "Pendant 5 minutes"
+    bonnes: [1]
+    explication: "Le maintien se poursuit tant que l'axe tête-cou-tronc n'est pas complètement immobilisé (attelle cervico-thoracique, plan dur avec immobilisateur de tête)."

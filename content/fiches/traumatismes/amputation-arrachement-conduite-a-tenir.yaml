@@ -1,0 +1,62 @@
+id: amputation-arrachement-conduite-a-tenir
+niveau: PSE1
+chapitre: traumatismes
+type: procedure
+ordre: 9
+titre: Amputation et arrachement complet d'une partie du corps (conduite à tenir)
+motsCles: [amputation, arrachement, hémorragie, pansement compressif, plaie grave, conditionnement]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR03, 07-2026)
+  code: 07PR03
+  page: 215
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "En cas d'amputation ou d'arrachement, l'hémorragie est arrêtée immédiatement et la conduite face à une plaie grave est appliquée, complétée par un pansement compressif et le conditionnement de la partie du corps amputée."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "En cas d'urgence ou de détresse vitale, ou d'aggravation : appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence, notamment arrêter l'hémorragie immédiatement."
+      - "Appliquer la conduite à tenir face à une plaie grave."
+      - "Mettre en place un pansement compressif sur la plaie, même en l'absence de saignement."
+      - "Conditionner la partie du corps amputée ou arrachée."
+      - "Poursuivre le bilan et surveiller attentivement la circulation."
+  - type: attention
+    items:
+      - "Le pansement compressif est posé même en l'absence de saignement, car l'hémorragie peut survenir avec retard."
+qcm:
+  - id: q1
+    enonce: "Une victime a un doigt sectionné qui ne saigne plus. Que fait-on sur la plaie ?"
+    propositions:
+      - "Rien, puisqu'elle ne saigne pas"
+      - "On met en place un pansement compressif, même en l'absence de saignement"
+      - "On laisse la plaie à l'air libre"
+    bonnes: [1]
+    explication: "Le pansement compressif est mis en place même en l'absence de saignement."
+  - id: q2
+    enonce: "Quelles actions fait-on face à une amputation ou un arrachement ?"
+    propositions:
+      - "Appliquer la conduite à tenir face à une plaie grave"
+      - "Conditionner la partie du corps amputée ou arrachée"
+      - "Surveiller attentivement la circulation en poursuivant le bilan"
+      - "Abandonner la partie amputée sur les lieux"
+    bonnes: [0, 1, 2]
+    explication: "On applique la conduite face à une plaie grave, on pose un pansement compressif, on conditionne la partie amputée et on surveille la circulation en poursuivant le bilan."
+  - id: q3
+    enonce: "Face à une hémorragie associée à une amputation, la priorité est :"
+    propositions:
+      - "Rechercher la partie amputée"
+      - "Arrêter l'hémorragie immédiatement"
+      - "Rassurer la victime"
+    bonnes: [1]
+    explication: "En cas d'urgence ou de détresse vitale, on réalise en priorité les gestes d'urgence, notamment l'arrêt immédiat de l'hémorragie."
+  - id: q4
+    enonce: "Que surveille-t-on attentivement après la pose du pansement compressif ?"
+    propositions:
+      - "La circulation"
+      - "La température de la salle"
+      - "Uniquement la douleur"
+    bonnes: [0]
+    explication: "On poursuit le bilan et on surveille attentivement la circulation."

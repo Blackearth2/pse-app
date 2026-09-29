@@ -1,0 +1,127 @@
+id: pose-collier-cervical
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 28
+titre: Pose d'un collier cervical
+motsCles: [collier cervical, rachis cervical, appui menton-sternum, taille du collier, deux secouristes, voies aériennes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT12, 12-2023)
+  code: 07FT12
+  page: 248
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le collier cervical, adapté à la taille de la victime, restreint les mouvements du rachis cervical et diminue le risque d'apparition ou d'aggravation d'une lésion de la moelle épinière lors de la manipulation d'une victime porteuse d'une lésion du rachis. Il est posé chez l'adulte comme chez l'enfant, après installation de la tête en position neutre. La pose se fait à deux secouristes."
+  - type: liste
+    titre: Indications
+    items:
+      - "Adulte ou enfant suspect d'un traumatisme du rachis, avant une manœuvre de mobilisation, si la stabilisation manuelle du rachis est difficile ou aléatoire."
+      - "Victime allongée sur le ventre : le collier est posé après son retournement."
+  - type: attention
+    titre: Ne pas utiliser le collier si
+    items:
+      - "Il existe une possible obstruction des voies aériennes."
+      - "La tête ne peut pas être mise en position neutre (déformation préexistante du rachis cervical)."
+  - type: etapes
+    titre: Victime allongée sur le dos
+    items:
+      - "Secouriste 1 : maintenir la tête en position neutre pendant toute la manœuvre."
+      - "Secouriste 2 : dégager tout ce qui peut gêner la mise en place du collier."
+      - "Secouriste 2 : choisir un collier adapté à la taille de la victime ou en régler la taille. La hauteur du collier doit être égale à la distance entre le menton et le haut du sternum de la victime (réglage selon le modèle)."
+      - "Secouriste 2 : glisser la partie arrière du collier sous la nuque en dégageant la ou les bandes autoagrippantes."
+      - "Secouriste 2 : positionner la partie avant du collier pour obtenir un bon appui menton-sternum."
+      - "Secouriste 2 : ajuster la hauteur du collier si c'est possible (selon le modèle)."
+      - "Secouriste 2 : fixer les sangles."
+      - "Secouriste 2 : réévaluer la liberté des voies aériennes et s'assurer que le collier ne gêne pas la respiration."
+  - type: etapes
+    titre: Victime assise ou debout
+    items:
+      - "Secouriste 1 : se placer de préférence derrière la victime et maintenir la tête en position neutre pendant toute la manœuvre."
+      - "Secouriste 2 : dégager tout ce qui peut gêner la mise en place du collier."
+      - "Secouriste 2 : choisir un collier adapté à la taille de la victime ou en régler la taille."
+      - "Secouriste 2 : positionner la partie avant du collier pour obtenir un bon appui menton-sternum."
+      - "Secouriste 2 : glisser la partie arrière du collier sous la nuque."
+      - "Secouriste 2 : entourer le cou avec le collier et fixer les bandes autoagrippantes."
+      - "Secouriste 2 : réévaluer la liberté des voies aériennes et s'assurer que le collier ne gêne pas la respiration."
+  - type: texte
+    titre: À noter
+    contenu: "La mise en place d'un collier cervical n'empêche pas le maintien de la tête par un secouriste lors de la mobilisation (extraction, installation sur un dispositif d'immobilisation comme le matelas immobilisateur à dépression)."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Sans restriction des mouvements du rachis cervical, un traumatisme de la moelle épinière peut apparaître ou s'aggraver."
+      - "Un collier de taille inadaptée laisse les mouvements de la tête possibles."
+      - "Le collier ne limite pas totalement les mouvements de rotation et de latéralité de la nuque."
+      - "Complications possibles : obstruction des voies aériennes, difficulté à assurer leur libération, compression des vaisseaux du cou avec aggravation d'un traumatisme crânien, complications locales par compression."
+      - "Le collier peut aggraver une détresse respiratoire, en particulier associé à des moyens d'immobilisation comme l'attelle cervico-thoracique."
+  - type: liste
+    titre: Critères d'évaluation
+    items:
+      - "Collier adapté à la taille de la victime."
+      - "Bien positionné : appui sur le sternum et menton en avant ; haut du dos et base de la tête en arrière ; clavicules et angles de la mandibule (latéralement) au contact du collier."
+      - "Relâché une fois l'immobilisation sur le matelas immobilisateur à dépression réalisée."
+      - "Liberté des voies aériennes réévaluée après la mise en place."
+qcm:
+  - id: q1
+    enonce: "Dans quel cas ne doit-on PAS utiliser un collier cervical ?"
+    propositions:
+      - "Victime suspecte d'un traumatisme du rachis"
+      - "Possible obstruction des voies aériennes"
+      - "Victime enfant"
+      - "Victime allongée sur le dos"
+    bonnes: [1]
+    explication: "Le collier est contre-indiqué en cas de possible obstruction des voies aériennes ou d'impossibilité de mettre la tête en position neutre (déformation préexistante du rachis cervical). Il s'utilise chez l'adulte comme chez l'enfant."
+  - id: q2
+    enonce: "À quoi doit être égale la hauteur du collier cervical ?"
+    propositions:
+      - "À la distance entre le menton et le haut du sternum"
+      - "À la distance entre l'oreille et l'épaule"
+      - "À la largeur du cou"
+      - "À la distance entre le menton et le nombril"
+    bonnes: [0]
+    explication: "La hauteur du collier doit être égale à la distance qui sépare le menton du haut du sternum de la victime."
+  - id: q3
+    enonce: "Victime allongée sur le ventre : quand pose-t-on le collier cervical ?"
+    propositions:
+      - "Avant de la retourner"
+      - "Après son retournement"
+      - "On ne pose pas de collier dans cette position"
+    bonnes: [1]
+    explication: "Si la victime est allongée sur le ventre, le collier cervical est installé après son retournement."
+  - id: q4
+    enonce: "Quel est le rôle du secouriste 1 pendant la pose du collier ?"
+    propositions:
+      - "Fixer les sangles du collier"
+      - "Maintenir la tête en position neutre pendant toute la manœuvre"
+      - "Choisir la taille du collier"
+      - "Dégager les vêtements gênants"
+    bonnes: [1]
+    explication: "Le secouriste 1 maintient la tête en position neutre pendant toute la manœuvre ; le secouriste 2 pose le collier."
+  - id: q5
+    enonce: "Quels sont les critères d'un collier correctement positionné ?"
+    propositions:
+      - "Appui sur le sternum et le menton en avant"
+      - "Haut du dos et base de la tête en arrière"
+      - "Clavicules et angles de la mandibule au contact du collier"
+      - "Menton libre de tout appui"
+    bonnes: [0, 1, 2]
+    explication: "Le collier prend appui sur le sternum et le menton (avant), le haut du dos et la base de la tête (arrière), avec contact des clavicules et des angles de la mandibule."
+  - id: q6
+    enonce: "Une fois la victime immobilisée sur le matelas à dépression, le collier cervical rigide..."
+    propositions:
+      - "doit être serré davantage"
+      - "peut être relâché"
+      - "doit être remplacé par une attelle cervico-thoracique"
+    bonnes: [1]
+    explication: "Le collier doit être relâché une fois l'immobilisation sur le matelas immobilisateur à dépression réalisée."
+  - id: q7
+    enonce: "Après la fixation du collier, que doit-on faire ?"
+    propositions:
+      - "Réévaluer la liberté des voies aériennes et vérifier que le collier ne gêne pas la respiration"
+      - "Serrer le collier au maximum"
+      - "Retirer immédiatement le maintien de la tête"
+    bonnes: [0]
+    explication: "Après la mise en place, la liberté des voies aériennes est réévaluée et l'on s'assure que le collier ne gêne pas la respiration."

@@ -1,0 +1,82 @@
+id: conditionner-partie-amputee
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 10
+titre: Conditionner une partie du corps amputée ou arrachée
+motsCles: [conditionnement, glace, eau glacée, sac étanche, gelure, réimplantation, ischémie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT04, 07-2026)
+  code: 07FT04
+  page: 216
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le lot spécialement conçu à cet effet sert à envelopper une partie du corps amputée ou arrachée et à permettre son acheminement avec la victime vers l'hôpital. Le froid la préserve pendant la prise en charge et le transport, dans l'attente d'une éventuelle réimplantation."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Sacs ou récipients en plastique propres et étanches."
+      - "Eau et glace."
+      - "Il existe des dispositifs commerciaux fondés sur le même principe que la procédure décrite."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Récupérer la partie du corps aussi rapidement que possible et la conserver au frais sans la congeler."
+      - "L'envelopper dans un pansement stérile ou un tissu propre humidifié avec une solution saline ou de l'eau."
+      - "Placer la partie enveloppée dans un sac ou un récipient en plastique propre et étanche."
+      - "Placer ce sac ou ce récipient dans un autre sac contenant de la glace ou de l'eau glacée. À défaut de glace, une glacière avec des accumulateurs de froid instantanés peut être utilisée."
+      - "Maintenir la partie du corps au frais en permanence, en évitant tout contact direct avec la glace ou l'accumulateur de froid."
+      - "Indiquer sur le récipient le nom de la personne et l'heure à laquelle la partie du corps a été conservée."
+      - "Transporter la partie du corps avec la personne blessée vers le même hôpital le plus rapidement possible."
+  - type: attention
+    items:
+      - "Le contact direct entre la partie amputée ou arrachée et la source de froid serait responsable de gelures pouvant compromettre la réussite de la réimplantation."
+      - "Ne pas congeler la partie du corps."
+  - type: texte
+    titre: Évaluation
+    contenu: "La partie du corps amputée ou arrachée est correctement conditionnée pour le transport et n'est pas en contact direct avec la source de froid."
+qcm:
+  - id: q1
+    enonce: "Dans quoi enveloppe-t-on d'abord la partie du corps amputée ?"
+    propositions:
+      - "Un pansement stérile ou un tissu propre humidifié avec une solution saline ou de l'eau"
+      - "Directement dans de la glace"
+      - "Un tissu sec"
+    bonnes: [0]
+    explication: "La partie est enveloppée dans un pansement stérile ou un tissu propre humidifié (solution saline ou eau), puis placée dans un sac ou récipient plastique propre et étanche."
+  - id: q2
+    enonce: "Comment garde-t-on la partie amputée au frais ?"
+    propositions:
+      - "Dans un sac étanche placé dans un autre sac contenant de la glace ou de l'eau glacée"
+      - "À défaut de glace, dans une glacière avec des accumulateurs de froid instantanés"
+      - "En la congelant"
+      - "En la plaçant au contact direct de la glace"
+    bonnes: [0, 1]
+    explication: "Double conditionnement avec glace ou eau glacée, ou glacière avec accumulateurs de froid instantanés. Il ne faut ni congeler ni la placer au contact direct du froid."
+  - id: q3
+    enonce: "Pourquoi éviter le contact direct avec la glace ?"
+    propositions:
+      - "Cela provoquerait des gelures pouvant compromettre la réimplantation"
+      - "La glace fondrait trop vite"
+      - "Cela ferait saigner la victime"
+    bonnes: [0]
+    explication: "Le contact direct avec la source de froid est responsable de gelures qui peuvent compromettre la réussite de la réimplantation."
+  - id: q4
+    enonce: "Quelles informations note-t-on sur le récipient ?"
+    propositions:
+      - "Le nom de la personne"
+      - "L'heure à laquelle la partie du corps a été conservée"
+      - "Le numéro de l'ambulance"
+    bonnes: [0, 1]
+    explication: "On indique le nom de la personne et l'heure à laquelle la partie du corps a été conservée."
+  - id: q5
+    enonce: "Où transporte-t-on la partie du corps conditionnée ?"
+    propositions:
+      - "Séparément, à l'hôpital le plus proche"
+      - "Avec la personne blessée, vers le même hôpital, le plus rapidement possible"
+      - "Elle reste sur les lieux"
+    bonnes: [1]
+    explication: "La partie du corps est transportée avec la victime vers le même hôpital le plus rapidement possible."

@@ -1,0 +1,86 @@
+id: traumatisme-crane-conduite-a-tenir
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 33
+titre: Traumatisme du crâne (conduite à tenir)
+motsCles: [traumatisme crânien, position neutre, casque, oxygène, rachis cervical, immobilisation, surveillance]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR09, 07-2026)
+  code: 07PR09
+  page: 262
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Conduite à tenir face à une victime de traumatisme du crâne. En cas d'urgence ou de détresse vitale, ou en cas d'aggravation, appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+  - type: etapes
+    titre: La victime ne présente pas de détresse vitale apparente
+    items:
+      - "Maintenir la tête en position neutre."
+      - "Retirer le casque de protection si la victime en est équipée."
+      - "Administrer de l'oxygène en inhalation, si nécessaire."
+      - "Si besoin, stabiliser ou restreindre les mouvements du rachis cervical."
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries."
+      - "Transmettre un bilan et appliquer les consignes reçues."
+      - "Surveiller attentivement la victime, en raison du risque d'aggravation brutale."
+  - type: etapes
+    titre: Si l'immobilisation du rachis est nécessaire
+    items:
+      - "Relever la victime en utilisant la méthode de relevage adaptée."
+      - "Immobiliser le rachis de la victime avec le matériel le plus adapté."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Face à une détresse vitale ou en cas d'aggravation, les gestes d'urgence passent en priorité."
+      - "Le risque d'aggravation brutale impose une surveillance attentive."
+qcm:
+  - id: q1
+    enonce: "Face à une victime de traumatisme du crâne sans détresse vitale apparente, quelle position de la tête faut-il maintenir ?"
+    propositions:
+      - "En extension"
+      - "Tournée sur le côté"
+      - "En position neutre"
+    bonnes:
+      - 2
+    explication: "La tête est maintenue en position neutre."
+  - id: q2
+    enonce: "Si la victime porte un casque de protection, que faut-il faire ?"
+    propositions:
+      - "Le laisser en place dans tous les cas"
+      - "Retirer le casque de protection"
+      - "Attendre l'arrivée du médecin sans y toucher"
+    bonnes:
+      - 1
+    explication: "La conduite à tenir prévoit de retirer le casque de protection si la victime en est équipée."
+  - id: q3
+    enonce: "Parmi ces actions, lesquelles font partie de la conduite à tenir chez une victime de traumatisme du crâne sans détresse vitale apparente ?"
+    propositions:
+      - "Donner à boire à la victime"
+      - "Administrer de l'oxygène en inhalation, si nécessaire"
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries"
+      - "Surveiller attentivement en raison du risque d'aggravation brutale"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Oxygène si nécessaire, protection thermique et surveillance attentive figurent dans la conduite à tenir ; il n'est pas prévu de faire boire la victime."
+  - id: q4
+    enonce: "Que faut-il faire si l'immobilisation du rachis est nécessaire ?"
+    propositions:
+      - "Immobiliser la victime sur place sans la relever"
+      - "Ne pas l'immobiliser et la laisser se mobiliser librement"
+      - "Relever la victime avec la méthode de relevage adaptée puis immobiliser le rachis avec le matériel le plus adapté"
+    bonnes:
+      - 2
+    explication: "La victime est relevée avec la méthode adaptée, puis son rachis est immobilisé avec le matériel le plus adapté."
+  - id: q5
+    enonce: "Face à une détresse vitale ou en cas d'aggravation chez une victime de traumatisme du crâne, que faut-il faire en priorité ?"
+    propositions:
+      - "Retirer le casque puis attendre"
+      - "Réaliser en priorité les gestes d'urgence qui s'imposent"
+      - "Administrer de l'oxygène uniquement"
+    bonnes:
+      - 1
+    explication: "Face à une urgence ou une détresse vitale, ou en cas d'aggravation, il faut appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence."

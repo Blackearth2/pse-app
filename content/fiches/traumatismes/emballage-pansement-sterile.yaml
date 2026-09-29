@@ -1,0 +1,86 @@
+id: emballage-pansement-sterile
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 7
+titre: Emballage au moyen d'un pansement stérile
+motsCles: [pansement pour brûlures, drap stérile, champ stérile, plaies étendues, brûlure grave, déperdition de chaleur]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT03, 07-2026)
+  code: 07FT03
+  page: 213
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée pour protéger une ou plusieurs plaies étendues ainsi que les brûlures graves. L'emballage accroît la protection de la zone lésée contre les souillures et limite la déperdition de chaleur."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Pansement stérile pour brûlures type SSA : format de 60 x 80 cm, avec une face argentée alvéolée imprégnée de Métalline® qui se pose sur la brûlure, et quatre rubans pour l'attacher sur la victime."
+      - "Draps et champs stériles : pièces de tissu de taille suffisante pour recouvrir des lésions étendues."
+  - type: etapes
+    titre: Avec un pansement stérile pour brûlures type SSA
+    items:
+      - "Ouvrir l'emballage en plastique et sortir la pochette papier."
+      - "Ouvrir la pochette papier et sortir le pansement stérile pour brûlé."
+      - "Déplier le pansement en prenant soin de ne pas toucher la partie argentée."
+      - "Poser la face argentée alvéolée sur la brûlure."
+      - "Attacher le pansement à l'aide des rubans prévus."
+  - type: etapes
+    titre: Avec un drap ou un champ stérile
+    items:
+      - "Ouvrir l'emballage et sortir le drap ou le champ stérile en le saisissant par ses extrémités."
+      - "Déployer le drap ou le champ en tirant dessus."
+      - "Envelopper la lésion de la peau en évitant que la partie qui la recouvre touche le sol, les vêtements ou le secouriste."
+      - "Maintenir le drap ou le champ à l'aide de ruban adhésif."
+  - type: attention
+    items:
+      - "La partie du pansement, du drap ou du champ stérile en contact avec la victime ne doit jamais être touchée par les doigts du sauveteur, même protégés par des gants."
+  - type: texte
+    titre: Évaluation
+    contenu: "La zone lésée est entièrement recouverte par le pansement."
+qcm:
+  - id: q1
+    enonce: "Dans quels cas indique-t-on l'emballage au moyen d'un pansement stérile ?"
+    propositions:
+      - "Une petite coupure superficielle"
+      - "Une ou plusieurs plaies étendues ou une brûlure grave"
+      - "Une simple éraflure"
+    bonnes: [1]
+    explication: "La technique protège une ou plusieurs plaies étendues ainsi que les brûlures graves."
+  - id: q2
+    enonce: "Quelles sont les caractéristiques du pansement stérile pour brûlures type SSA ?"
+    propositions:
+      - "Format de 60 x 80 cm"
+      - "Face argentée alvéolée qui se pose sur la brûlure"
+      - "Quatre rubans pour l'attacher"
+      - "Deux épingles de sûreté"
+    bonnes: [0, 1, 2]
+    explication: "Il mesure 60 x 80 cm, présente une face argentée alvéolée imprégnée de Métalline® et quatre rubans de fixation."
+  - id: q3
+    enonce: "Quel côté du pansement pour brûlures pose-t-on sur la lésion ?"
+    propositions:
+      - "La face argentée alvéolée, sans la toucher avec les doigts"
+      - "La face extérieure, à main nue"
+      - "N'importe quelle face"
+    bonnes: [0]
+    explication: "On déplie le pansement sans toucher la partie argentée et on pose cette face alvéolée sur la brûlure."
+  - id: q4
+    enonce: "Quel intérêt de l'emballage stérile, en plus de la protection contre les souillures ?"
+    propositions:
+      - "Il limite la déperdition de chaleur"
+      - "Il comprime la plaie"
+      - "Il refroidit la brûlure"
+    bonnes: [0]
+    explication: "L'emballage accroît la protection contre les souillures et permet de limiter la déperdition de chaleur."
+  - id: q5
+    enonce: "Lors de l'emballage par un drap ou un champ stérile, il faut éviter que la partie en contact avec la lésion touche :"
+    propositions:
+      - "Le sol"
+      - "Les vêtements"
+      - "Le secouriste"
+      - "Le ruban adhésif"
+    bonnes: [0, 1, 2]
+    explication: "La partie qui recouvre la lésion ne doit toucher ni le sol, ni les vêtements, ni le secouriste ; le drap est maintenu à l'aide de ruban adhésif."

@@ -1,0 +1,108 @@
+id: pansement
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 5
+titre: Pansement
+motsCles: [pansement adhésif, pansement individuel, pansement Type C, plaie, effet garrot, plaie par balle]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT01, 12-2022)
+  code: 07FT01
+  page: 209
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée pour protéger une plaie, après son nettoyage et éventuellement sa désinfection. En protégeant la plaie des souillures, le pansement limite le risque d'infection secondaire."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Pansement adhésif : prédécoupé, stérile, sous emballage individuel ; une compresse et une fixation adhésive non irritante pour la peau (hypoallergénique)."
+      - "Pansement individuel : conçu à l'origine pour les plaies par balle, utilisable pour tout type de plaie non étendue ; stérile, emballage qui s'ouvre sans être déchiré (en décollant et séparant les bords). Il comprend une bande non extensible, deux compresses absorbantes (l'une fixe, l'autre mobile sur toute la longueur de la bande) et une épingle de fixation."
+      - "Pansement Type C : fermé, cylindre protégé par une enveloppe plastique ; permet de protéger une ou plusieurs plaies grâce à des compresses de tailles différentes. Déplié : compresse absorbante de 40 x 13 cm (principale), compresse absorbante de 16 x 14 cm, compresse de 14 x 60 cm, une bande extensible, deux épingles."
+  - type: attention
+    titre: Règle générale
+    items:
+      - "Ne jamais toucher avec les doigts, même gantés, la partie du pansement qui entrera en contact avec la plaie."
+  - type: etapes
+    titre: Pansement adhésif
+    items:
+      - "Choisir le pansement en fonction des dimensions de la plaie."
+      - "Sortir le pansement de son emballage stérile."
+      - "Appliquer le pansement sur la plaie simple, en retirant les protections des zones autocollantes."
+      - "Appliquer les parties collantes sur la peau saine, puis les lisser avec le doigt."
+  - type: etapes
+    titre: Pansement individuel
+    items:
+      - "Ouvrir l'emballage sans le déchirer."
+      - "Sortir le sachet stérile et l'ouvrir."
+      - "Dérouler la bande, sans toucher aux compresses absorbantes."
+      - "Appliquer les compresses sur la plaie. Pour une plaie par balle : une compresse sur le point d'entrée et l'autre, en la faisant coulisser, sur le point de sortie."
+      - "Attacher la bande avec l'épingle de sûreté."
+  - type: etapes
+    titre: Pansement Type C
+    items:
+      - "Ouvrir l'emballage en plastique."
+      - "Ouvrir l'emballage papier et enlever la compresse."
+      - "Dérouler le pansement."
+      - "Appliquer les compresses absorbantes sur la ou les plaies."
+      - "Maintenir la ou les compresses avec la bande, fixée à l'aide des épingles. La compresse non absorbante peut servir de support au matériel non utilisé."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Un pansement peut cacher un saignement, et un bandage circulaire peut conduire à un effet garrot."
+      - "Surveiller l'apparition progressive d'une douleur diffuse ou d'un saignement et contrôler la circulation du membre sous le pansement (pouls, temps de recoloration cutanée, aspect de la peau)."
+      - "Pansement du front ou du cuir chevelu : impossible sur une personne allongée suspecte d'un traumatisme du rachis cervical, car il faudrait soulever la tête pour passer la bande."
+  - type: texte
+    titre: Évaluation
+    contenu: "La lésion cutanée est entièrement recouverte par le pansement et aucune douleur n'apparaît au niveau de la zone bandée après une dizaine de minutes."
+qcm:
+  - id: q1
+    enonce: "Que doit-on éviter de toucher lors de la pose d'un pansement ?"
+    propositions:
+      - "La partie du pansement qui entrera en contact avec la plaie, même avec des gants"
+      - "La peau saine autour de la plaie"
+      - "La bande de maintien"
+    bonnes: [0]
+    explication: "Il ne faut jamais toucher avec les doigts, même recouverts de gants, la partie du pansement en contact avec la plaie."
+  - id: q2
+    enonce: "Comment applique-t-on un pansement individuel sur une plaie par balle ?"
+    propositions:
+      - "Les deux compresses sur le point d'entrée"
+      - "Une compresse sur le point d'entrée et l'autre, en la faisant coulisser, sur le point de sortie"
+      - "Une seule compresse sur le point de sortie"
+    bonnes: [1]
+    explication: "Le pansement individuel comporte deux compresses dont l'une est mobile : l'une couvre l'entrée, l'autre coulisse jusqu'au point de sortie."
+  - id: q3
+    enonce: "Quel risque un bandage circulaire peut-il entraîner ?"
+    propositions:
+      - "Un effet garrot"
+      - "Un pansement qui cache un saignement"
+      - "Une amélioration de la circulation du membre"
+    bonnes: [0, 1]
+    explication: "Le pansement peut cacher un saignement et un bandage circulaire peut provoquer un effet garrot : on surveille douleur, saignement, pouls, temps de recoloration et aspect de la peau."
+  - id: q4
+    enonce: "Le pansement du front ou du cuir chevelu par bande est impossible chez :"
+    propositions:
+      - "Une personne allongée suspecte d'un traumatisme du rachis cervical"
+      - "Une personne assise"
+      - "Un adulte conscient debout"
+    bonnes: [0]
+    explication: "Il faudrait soulever la tête de la victime allongée pour passer la bande, ce qui est incompatible avec un traumatisme du rachis cervical suspecté."
+  - id: q5
+    enonce: "Quels éléments composent un pansement individuel ?"
+    propositions:
+      - "Une bande extensible et trois compresses"
+      - "Une bande non extensible, deux compresses absorbantes (une fixe, une mobile) et une épingle"
+      - "Une compresse de 40 x 13 cm et deux épingles"
+    bonnes: [1]
+    explication: "Le pansement individuel comprend une bande non extensible, deux compresses absorbantes (fixe et mobile) et une épingle. La compresse de 40 x 13 cm relève du pansement Type C."
+  - id: q6
+    enonce: "Comment évalue-t-on l'efficacité d'un pansement ?"
+    propositions:
+      - "La lésion est entièrement recouverte et aucune douleur n'apparaît dans la zone bandée après une dizaine de minutes"
+      - "La zone bandée est douloureuse après dix minutes"
+      - "La compresse laisse la plaie partiellement visible"
+    bonnes: [0]
+    explication: "L'évaluation vérifie le recouvrement complet de la lésion et l'absence de douleur sous le bandage après une dizaine de minutes."

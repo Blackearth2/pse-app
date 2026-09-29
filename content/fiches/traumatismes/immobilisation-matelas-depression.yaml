@@ -1,0 +1,121 @@
+id: immobilisation-matelas-depression
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 31
+titre: Immobilisation générale sur un matelas à dépression
+motsCles: [matelas immobilisateur à dépression, MID, immobilisation du rachis, pompe d'aspiration, victime multiples lésions, rigidité du matelas]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT15, 06-2018)
+  code: 07FT15
+  page: 258
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le matelas immobilisateur à dépression (MID) immobilise la colonne vertébrale d'une victime suspecte d'un traumatisme de la colonne vertébrale, du bassin ou de la cuisse, en respectant l'axe tête-cou-tronc, et immobilise aussi les membres inférieurs. Il est particulièrement indiqué en cas de lésions multiples et permet d'immobiliser la victime dans la position adaptée à sa détresse (demi-assise pour une détresse respiratoire). Il doit rester en place pour le transfert sur le brancard à l'hôpital."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Enveloppe souple, résistante et étanche contenant des billes de polystyrène expansé."
+      - "Robinet réglant la sortie ou l'entrée de l'air."
+      - "Dispositif de saisie (poignées) et sangles de maintien."
+      - "Pompe d'aspiration manuelle ou électrique (obligatoire)."
+      - "Principe : une fois la victime installée, l'air est aspiré ; les billes se solidarisent, le matelas se rigidifie en moulant la victime."
+  - type: liste
+    titre: Techniques d'installation de la victime sur le MID
+    items:
+      - "Brancard cuillère."
+      - "Technique de relevage dite du pont à quatre équipiers porteurs."
+      - "Exceptionnellement, plan dur."
+  - type: etapes
+    titre: Préparation avant l'installation
+    items:
+      - "Placer le MID à proximité de la victime, dans une position adaptée à la technique de relevage, sur une surface plane et dure si possible ; si nécessaire, mettre une bâche de protection sous le matelas (risque de déchirure ou de coupure)."
+      - "Ouvrir le robinet pour permettre l'entrée de l'air et répartir les billes qui se désolidarisent."
+      - "Rigidifier modérément le MID en relevant les côtés pour faciliter le relevage."
+      - "Mettre en place un drap ou une couverture de survie."
+  - type: etapes
+    titre: Une fois la victime déposée sur le MID
+    items:
+      - "Retirer systématiquement un éventuel dispositif de portage."
+      - "Mettre en forme le matelas autour du corps : rapprocher les bords de part et d'autre de la tête (le secouriste dégage ses mains et les replace à l'extérieur du matelas pour poursuivre le maintien de la tête jusqu'à la rigidification) ; des blocs de tête peuvent restreindre les mouvements du rachis cervical à l'intérieur du matelas."
+      - "Veiller à ce que le matelas n'appuie en aucun cas sur le sommet du crâne : l'aspiration entraînerait par rétraction une flexion de la tête."
+      - "Maintenir les bords latéraux du matelas le long de la victime sans la mobiliser, avec les sangles de maintien."
+      - "Faire le vide dans le matelas avec un dispositif d'aspiration jusqu'à ce que le matelas devienne dur."
+      - "Fermer le robinet et déconnecter le dispositif d'aspiration."
+      - "Ajuster les sangles de maintien."
+      - "Une fois la victime immobilisée, un collier cervical rigide éventuel peut être relâché."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Surveiller en permanence la rigidité du matelas : toute diminution (piqûre, déchirure...) nuit à la qualité de l'immobilisation."
+      - "Transporter l'ensemble « victime-matelas » en le déposant sur un brancard ou un plan dur, après l'avoir arrimé."
+      - "S'il n'est pas immédiatement possible, pour quelques mètres, le MID seul, une fois rigidifié, peut être utilisé en le soutenant sur les côtés pour qu'il ne se plie pas en son milieu."
+      - "Un épanchement de sang (hémorragie extériorisée, reprise d'un saignement externe) peut facilement être masqué par ce type d'immobilisation."
+  - type: liste
+    titre: Critères d'évaluation (immobilisation correcte si)
+    items:
+      - "Aucun mouvement de la victime n'est possible."
+      - "La victime ne peut glisser ni vers le haut, ni vers le bas, ni sur le côté."
+      - "Les sangles ne gênent pas la respiration."
+      - "Le matelas n'est pas au contact du haut du crâne."
+qcm:
+  - id: q1
+    enonce: "Le matelas immobilisateur à dépression est particulièrement indiqué lorsque la victime..."
+    propositions:
+      - "présente une plaie superficielle isolée"
+      - "présente de multiples lésions"
+      - "est debout et consciente sans douleur"
+    bonnes: [1]
+    explication: "Le MID est utilisé pour un traumatisme de la colonne vertébrale, du bassin ou de la cuisse, et est particulièrement indiqué si la victime présente de multiples lésions."
+  - id: q2
+    enonce: "Avec quoi le MID ne peut-il être utilisé ?"
+    propositions:
+      - "Une pompe d'aspiration manuelle ou électrique"
+      - "Une bouteille d'oxygène"
+      - "Un brancard cuillère"
+    bonnes: [0]
+    explication: "Le MID ne peut être utilisé qu'avec une pompe d'aspiration manuelle ou électrique, qui fait le vide dans l'enveloppe."
+  - id: q3
+    enonce: "Quelles techniques permettent d'installer la victime sur le MID ?"
+    propositions:
+      - "Le brancard cuillère"
+      - "Le pont à quatre équipiers porteurs"
+      - "Exceptionnellement, le plan dur"
+      - "Le traînage par les chevilles"
+    bonnes: [0, 1, 2]
+    explication: "L'installation se fait avec un brancard cuillère, le pont à quatre équipiers porteurs ou, exceptionnellement, un plan dur."
+  - id: q4
+    enonce: "Avant l'installation de la victime, comment prépare-t-on le MID ?"
+    propositions:
+      - "Robinet fermé, matelas totalement rigide"
+      - "Robinet ouvert pour répartir les billes, puis matelas modérément rigidifié en relevant les côtés"
+      - "Matelas vidé de son air"
+    bonnes: [1]
+    explication: "On ouvre le robinet pour permettre l'entrée de l'air et répartir les billes, puis on rigidifie modérément le MID en relevant les côtés pour faciliter le relevage."
+  - id: q5
+    enonce: "Pourquoi le matelas ne doit-il jamais appuyer sur le sommet du crâne ?"
+    propositions:
+      - "Cela gênerait le passage de l'air"
+      - "L'aspiration de l'air entraînerait par rétraction une flexion de la tête"
+      - "Cela empêcherait de fermer le robinet"
+    bonnes: [1]
+    explication: "L'aspiration provoquerait par rétraction du matelas une flexion de la tête ; le matelas ne doit pas être au contact du haut du crâne."
+  - id: q6
+    enonce: "Quelle est la bonne suite après avoir mis en forme le matelas autour de la victime ?"
+    propositions:
+      - "Fermer le robinet, puis aspirer l'air"
+      - "Faire le vide jusqu'à ce que le matelas devienne dur, fermer le robinet, déconnecter l'aspiration, ajuster les sangles"
+      - "Ajuster les sangles, puis aspirer, puis ouvrir le robinet"
+    bonnes: [1]
+    explication: "L'ordre est : aspirer jusqu'à ce que le matelas soit dur, fermer le robinet, déconnecter le dispositif d'aspiration, puis ajuster les sangles de maintien."
+  - id: q7
+    enonce: "Parmi ces risques, lesquels sont propres à l'immobilisation sur MID ?"
+    propositions:
+      - "Perte de rigidité par piqûre ou déchirure"
+      - "Masquage d'un épanchement de sang"
+      - "Rupture spontanée de l'axe tête-cou-tronc"
+    bonnes: [0, 1]
+    explication: "La rigidité doit être surveillée en permanence et un épanchement de sang peut être facilement masqué par ce type d'immobilisation."

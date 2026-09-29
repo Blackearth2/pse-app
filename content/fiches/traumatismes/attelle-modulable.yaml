@@ -1,0 +1,135 @@
+id: attelle-modulable
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 23
+titre: Immobilisation d'un membre au moyen d'une attelle modulable
+motsCles: [attelle modulable, attelle de Kramer, gouttière, membre supérieur, membre inférieur, sangles autoagrippantes, écharpe simple]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT09, 09-2014)
+  code: 07FT09
+  page: 234
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les attelles modulables immobilisent le coude, l'avant-bras et le poignet (membre supérieur) ainsi que le genou, la jambe et la cheville (membre inférieur). Elles limitent les mouvements du membre traumatisé, diminuent la douleur et préviennent les complications. Se référer à la notice d'utilisation du fabricant."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Attelles de Kramer : tiges de métal soudées et plastifiées en forme d'« échelle », malléables et adaptables au membre fracturé, de plusieurs longueurs et largeurs. Elles nécessitent un habillage préalable pour éviter le contact direct du membre avec le métal."
+      - "Attelles modulables en alliage doublées de mousse : armature en aluminium ou autre alliage, rembourrage en mousse épaisse, enveloppe en polystyrène dont la face au contact du membre est lavable, bords rabattables formant une gouttière, fixation par sangles autoagrippantes. Il existe différents types selon la zone traumatisée et l'âge."
+  - type: liste
+    titre: Indications selon le type d'attelle
+    items:
+      - "Attelle de Kramer : préférentiellement pour l'avant-bras, le poignet ou la main."
+      - "Attelle de Kramer au membre inférieur : uniquement en l'absence de matériel plus adapté, pour les traumatismes situés en dessous du genou ; elles sont alors utilisées par deux, de part et d'autre du membre blessé, et solidarisées entre elles."
+      - "Attelle modulable au membre supérieur : immobilisations en dessous du coude."
+      - "Attelle modulable au membre inférieur : immobilisations en dessous du genou."
+  - type: etapes
+    titre: Attelle de Kramer (2 secouristes au minimum)
+    items:
+      - "Secouriste 1 : maintenir le membre blessé au niveau des articulations sus et sous-jacentes, éventuellement après réalignement, jusqu'à la mise en place de l'attelle."
+      - "Secouriste 2 : choisir une attelle de longueur convenable et la préparer."
+      - "Secouriste 2 : placer la ou les attelles de part et d'autre du segment traumatisé en englobant les articulations sus et sous-jacentes."
+      - "Secouriste 2 : rembourrer si nécessaire les espaces libres entre l'attelle et le membre pour qu'il existe un contact permanent."
+      - "Secouriste 1 : déplacer ses mains pour maintenir la ou les attelles en place."
+      - "Secouriste 2 : fixer la ou les attelles avec des liens larges ou éventuellement une bande, puis avec une écharpe simple pour le membre supérieur."
+      - "Secouriste 2 : vérifier la qualité de l'immobilisation et l'état de l'extrémité du membre."
+  - type: etapes
+    titre: Membre supérieur, attelle modulable (2 secouristes au minimum)
+    items:
+      - "Secouriste 1 : maintenir le membre blessé au niveau des articulations sus et sous-jacentes, éventuellement après réalignement, jusqu'à la mise en place de l'attelle."
+      - "Secouriste 2 : choisir l'attelle adaptée (longueur convenable) et lui donner la forme attendue."
+      - "Secouriste 2 : placer l'attelle contre le segment traumatisé en englobant les articulations sus et sous-jacentes, puis rabattre les côtés pour former une gouttière."
+      - "Secouriste 1 : soutenir le membre blessé et déplacer ses mains pour maintenir l'attelle contre le membre."
+      - "Secouriste 2 : maintenir l'attelle avec les sangles autoagrippantes ; si nécessaire, maintenir l'ensemble avec une écharpe simple nouée autour du cou."
+      - "Secouriste 2 : vérifier la qualité de l'immobilisation et l'état de l'extrémité du membre."
+  - type: etapes
+    titre: Membre inférieur, attelle modulable (3 secouristes au minimum)
+    items:
+      - "Secouristes 1 et 2 : maintenir le membre blessé au niveau des articulations sus et sous-jacentes, éventuellement après réalignement, jusqu'à la mise en place de l'attelle."
+      - "Secouriste 3 : choisir l'attelle adaptée (longueur convenable) et lui donner la forme attendue."
+      - "Secouristes 1 et 2 : soulever le membre de quelques centimètres, tout en exerçant une traction progressive mais douce au niveau de la cheville, pour permettre le passage de l'attelle."
+      - "Secouriste 3 : glisser l'attelle sous le membre traumatisé en englobant les articulations sus et sous-jacentes."
+      - "Secouristes 1 et 2 : déposer le membre sur l'attelle et le maintenir sans relâcher la traction."
+      - "Secouriste 3 : rabattre les côtés de l'attelle et le volet d'extrémité du pied pour former une gouttière. Les secouristes 1 et 2 peuvent alors déplacer leurs mains à l'extérieur de l'attelle pour la maintenir."
+      - "Fixer l'attelle avec les sangles autoagrippantes, puis vérifier la qualité de l'immobilisation et l'état de l'extrémité du membre."
+  - type: liste
+    titre: Évaluation, l'immobilisation est correcte si
+    items:
+      - "Le segment blessé et les articulations sus et sous-jacentes sont immobilisés par l'attelle."
+      - "L'attelle est correctement fixée et ne risque pas de se desserrer progressivement."
+      - "La douleur ressentie par la victime diminue."
+      - "Aucun signe de compression n'apparaît après sa mise en place (circulation en aval correcte)."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une procédure non respectée peut mobiliser le membre et entraîner douleur et complications, cutanées en particulier."
+      - "Les attelles de Kramer nécessitent un habillage préalable pour éviter le contact direct du membre avec le métal."
+      - "Au membre inférieur, la traction reste progressive et douce, et n'est pas relâchée lorsque le membre est déposé sur l'attelle."
+qcm:
+  - id: q1
+    enonce: "Pour quelles immobilisations l'attelle de Kramer est-elle utilisée préférentiellement ?"
+    propositions:
+      - "L'avant-bras, le poignet ou la main"
+      - La cuisse
+      - Le bassin
+      - "L'épaule"
+    bonnes:
+      - 0
+    explication: "Les attelles de Kramer sont utilisées préférentiellement pour l'avant-bras, le poignet ou la main."
+  - id: q2
+    enonce: "Comment utilise-t-on des attelles de Kramer pour un traumatisme du membre inférieur situé sous le genou ?"
+    propositions:
+      - "Une seule, placée sous le pied"
+      - "Par deux, de part et d'autre du membre, solidarisées entre elles, en l'absence de matériel plus adapté"
+      - "Uniquement en première intention, avant tout autre matériel"
+      - "Une seule, sans habillage préalable"
+    bonnes:
+      - 1
+    explication: "Elles ne sont utilisées qu'en l'absence de matériel plus adapté, par deux, de part et d'autre du membre blessé et solidarisées entre elles."
+  - id: q3
+    enonce: "Combien de secouristes au minimum pour poser une attelle modulable au membre inférieur ?"
+    propositions:
+      - Un
+      - Deux
+      - Trois
+      - Cinq
+    bonnes:
+      - 2
+    explication: "La mise en place au membre inférieur nécessite trois secouristes au minimum (deux pour le membre supérieur)."
+  - id: q4
+    enonce: "Que doit-on faire des espaces libres entre l'attelle de Kramer et le membre blessé ?"
+    propositions:
+      - Les laisser vides
+      - "Les rembourrer si nécessaire pour assurer un contact permanent"
+      - Les combler avec un pansement stérile
+    bonnes:
+      - 1
+    explication: "Les espaces libres sont rembourrés, si nécessaire, pour qu'il existe un contact permanent entre l'attelle et le membre."
+  - id: q5
+    enonce: "Lors de la pose d'une attelle modulable au membre inférieur, quelle traction exerce-t-on à la cheville ?"
+    propositions:
+      - Une traction brutale et forte
+      - Aucune traction
+      - "Une traction progressive mais douce, maintenue sans relâcher lors du dépôt du membre sur l'attelle"
+      - "Une traction relâchée dès que le membre est soulevé"
+    bonnes:
+      - 2
+    explication: "Les secouristes 1 et 2 exercent une traction progressive mais douce à la cheville et maintiennent le membre sur l'attelle sans relâcher la traction."
+  - id: q6
+    enonce: "Quels éléments font partie de l'attelle modulable en alliage doublée de mousse ?"
+    propositions:
+      - "Une armature en aluminium ou autre alliage"
+      - "Un rembourrage en mousse épaisse"
+      - "Des bords rabattables formant une gouttière"
+      - "Une vanne d'admission d'air"
+      - "Un système de fixation par sangles autoagrippantes"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 4
+    explication: "La vanne d'admission d'air appartient à l'attelle à dépression, pas à l'attelle modulable en alliage."

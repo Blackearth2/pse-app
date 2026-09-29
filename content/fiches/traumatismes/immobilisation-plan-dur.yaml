@@ -1,0 +1,179 @@
+id: immobilisation-plan-dur
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 30
+titre: Immobilisation générale sur un plan dur
+motsCles: [plan dur, immobilisateur de tête, roulement, victime debout, victime sur le ventre, brancard cuillère, pont à quatre porteurs]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT14, 11-2021)
+  code: 07FT14
+  page: 253
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le plan dur sert surtout à extraire une victime située dans un endroit difficile d'accès (endroit exigu, véhicule accidenté). Avec l'immobilisateur de tête, il immobilise une victime suspecte d'un traumatisme du rachis en l'absence de matelas immobilisateur à dépression. Il peut aussi allonger une victime suspecte d'un traumatisme du rachis retrouvée debout. Il maintient l'axe tête-cou-tronc et limite le risque d'aggravation d'une lésion de la colonne vertébrale."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "1,85 m"
+        libelle: "longueur environ du plan dur rectangulaire (PVC, radiotransparent, résistant à l'eau)"
+      - valeur: "3"
+        libelle: "secouristes nécessaires pour chaque technique d'installation décrite"
+      - valeur: "3 à 4 cm"
+        libelle: "épaisseur du rembourrage placé contre la victime du côté du retournement"
+      - valeur: "10 cm"
+        libelle: "distance environ entre le plan dur et la victime sur le ventre, du côté du retournement"
+  - type: liste
+    titre: Matériel
+    items:
+      - "Plan dur avec poignées de portage ; le matériel ne doit pas absorber les liquides biologiques ou le sang (décontamination facilitée)."
+      - "Sangles pour maintenir la victime au niveau du thorax, du bassin et des membres inférieurs."
+      - "Immobilisateur de tête : coussin de tête fixé sur le plan dur, deux blocs d'immobilisation latéraux, deux sangles de maintien de la tête (front et menton)."
+  - type: liste
+    titre: Choix de la technique (victime allongée sur le dos)
+    items:
+      - "Technique de référence pour relever une victime sur le dos et la transférer sur un dispositif d'immobilisation du rachis : le brancard cuillère."
+      - "À défaut : technique du pont à quatre porteurs."
+      - "Si les techniques précédentes ne sont pas réalisables : roulement au sol à trois secouristes (risque de mobilisation plus élevé)."
+  - type: etapes
+    titre: Victime sur le dos — roulement à 3 secouristes
+    items:
+      - "Contrôler la motricité et la sensibilité de l'extrémité de chaque membre avant de débuter, si cela n'a pas été fait au 4e regard."
+      - "Secouriste 1 : il poursuit le maintien de la tête pendant toute la manœuvre ; c'est lui qui guide et commande l'ensemble. Secouristes 2 et 3 : ils installent la victime sur le plan dur."
+      - "Après pose du collier cervical, secouriste 2 ou 3 : placer la face palmaire des mains de la victime sur ses cuisses. Le membre supérieur du côté du retournement ne doit en aucun cas être placé au-dessus de la tête (mouvement de la colonne vertébrale)."
+      - "Remettre si nécessaire les membres inférieurs dans l'axe du corps en maintenant le bassin."
+      - "Placer contre la victime, du côté du retournement, un rembourrage de 3 à 4 cm d'épaisseur (coussin de l'ACT, couverture roulée ou autre)."
+      - "Prépositionner le plan dur (équipé du coussin de l'immobilisateur de tête) le long du blessé, du côté opposé au retournement."
+      - "Secouristes 2 et 3 : se placer à genoux du côté du retournement, à quelques centimètres du blessé, au niveau du thorax et du bassin ; saisir la victime du côté opposé au retournement au niveau de l'épaule, du bassin et des membres inférieurs, qui doivent rester alignés (la main de la victime peut être bloquée contre le haut de la cuisse par la main d'un secouriste)."
+      - "Commandement : secouriste 1 « Êtes-vous prêts ? » ; secouristes 2 et 3 « Prêts ! » ; secouriste 1 « Attention pour tourner... Tournez ! »."
+      - "Secouristes 2 et 3 : tourner la victime vers eux, bras tendus, en utilisant le poids du corps, lentement et d'un bloc ; arrêt dès que la victime est sur le côté. Le secouriste 1 accompagne le mouvement pour garder la tête dans l'axe du tronc."
+      - "Secouristes 2 et 3 : examiner rapidement le dos tant que la victime est sur le côté."
+      - "Secouriste 1 : « Glissez le plan dur ! » Secouristes 2 et 3 glissent le plan dur sous le dos, incliné pour qu'il se plaque contre le blessé, en veillant à la bonne position du coussin de tête, puis indiquent quand il est en place."
+      - "Secouriste 1 : « Attention pour poser... Posez ! » Secouristes 2 et 3 reposent délicatement la victime et le plan dur sur le sol."
+      - "Repositionner la victime au centre du plan dur en la faisant glisser si nécessaire, en maintenant l'axe tête-cou-tronc, sous les ordres du secouriste 1."
+      - "Solidariser la victime au plan dur avec une sangle-araignée, ou plusieurs sangles placées au niveau de la partie supérieure du thorax, du bassin et des cuisses juste au-dessus des genoux (complément possible : couverture roulée ou coussin entre les jambes)."
+      - "Solidariser la tête en plaçant successivement les blocs immobilisateurs latéraux de chaque côté de la tête, puis les sangles de fixation frontale et mentonnière."
+      - "Contrôler la motricité et la sensibilité de l'extrémité de chaque membre."
+  - type: etapes
+    titre: Victime sur le ventre — 3 secouristes
+    items:
+      - "Secouriste 1 : placé à la tête de la victime en trépied, genou relevé côté retournement et genou au sol dans le prolongement de l'épaule côté retournement ; maintien de la tête à deux mains (prise occipito-frontale) ; il guide et commande la manœuvre."
+      - "Secouristes 2 et 3, initialement : remettre si nécessaire les membres inférieurs dans l'axe du corps en maintenant le bassin ; glisser les mains de la victime sous ses cuisses (paume contre la face avant des cuisses)."
+      - "Installer contre la victime, du côté du retournement, un rembourrage de 3 à 4 cm d'épaisseur."
+      - "Placer le plan dur (équipé du coussin de l'immobilisateur de tête) à environ 10 cm le long de la victime, du côté du retournement."
+      - "Se placer à genoux sur le plan dur du côté du retournement ; saisir la victime au niveau de l'épaule, de la hanche et des membres inférieurs."
+      - "Commandement : « Êtes-vous prêts ? » / « Prêts ! » / « Attention pour tourner... Tournez ! » Secouristes 2 et 3 tournent la victime vers eux jusqu'à la position sur le côté (perpendiculaire au sol)."
+      - "Secouriste 1 : accompagner le mouvement ; la tête effectue une rotation moindre que le corps pour revenir en position neutre ; ordonner l'arrêt quand la victime est sur le côté."
+      - "Secouriste 1 : « Dégagez le plan dur... » Secouristes 2 et 3 dégagent un à un leurs genoux hors du plan dur, les posent sur le sol contre le plan dur et indiquent qu'ils sont en position."
+      - "Secouriste 1 : « Attention pour tourner... Tournez ! » Secouristes 2 et 3 poursuivent la rotation dans la même direction jusqu'à amener la victime sur le dos sur le plan dur."
+  - type: etapes
+    titre: Victime debout — 3 secouristes
+    items:
+      - "Secouriste 1 : placé devant la victime dans l'axe tête-cou-tronc, il poursuit le maintien de la tête pendant toute la manœuvre. Secouriste 2 : placé derrière la victime, c'est lui qui commande la manœuvre. Secouriste 3 : face à la victime, à côté du secouriste 1."
+      - "Après pose du collier cervical, secouriste 2 : placer le plan dur (équipé du coussin de l'immobilisateur de tête) contre le dos de la victime, vérifier que rien ne gêne la bascule au sol, saisir le plan dur dans sa partie supérieure."
+      - "Secouriste 3 : passer l'avant-bras du côté du secouriste 1 sous l'aisselle de la victime, saisir la poignée du plan dur le plus haut possible, placer son autre main pour relayer le maintien de la tête du secouriste 1."
+      - "Secouriste 1 : placer sa main libre sous l'autre aisselle, saisir la poignée du plan dur le plus haut possible, poursuivre le maintien de la tête avec son autre main."
+      - "Commandement : secouriste 2 « Êtes-vous prêts ? » ; secouristes 1 et 3 « Prêts ! » ; secouriste 2 « Attention pour basculer... Basculez ! »."
+      - "Les trois secouristes allongent la victime en basculant le plan dur vers l'arrière, en veillant que la tête reste au contact du plan dur et dans l'axe du tronc, sans lâcher la tête."
+      - "Victime casquée : réaliser la manœuvre en lui laissant son casque ; retirer le casque une fois la victime allongée au sol sur le plan dur, puis poser le collier cervical si nécessaire."
+  - type: etapes
+    titre: Transfert de la victime du plan dur sur le matelas immobilisateur à dépression
+    items:
+      - "Pour déplacer la victime de quelques mètres, il n'est pas obligatoire de la sangler."
+      - "Déposer la victime sur son plan dur dans le matelas immobilisateur à dépression."
+      - "Soulever la victime pour retirer le plan dur avant de l'immobiliser : pont à 4 porteurs (une 5e personne retire le plan dur quand la victime est soulevée de quelques centimètres) ; brancard cuillère en présence de 3 secouristes ; pont à 3 porteurs (une 4e personne retire le plan dur) ; si aucune n'est possible, la victime est transportée immobilisée sur le plan dur."
+  - type: etapes
+    titre: Immobilisation d'une victime sur un plan dur
+    items:
+      - "Secouriste 1 : maintenir la tête à deux mains."
+      - "Secouristes 2 et 3 : solidariser la tête au plan dur en plaçant successivement les blocs immobilisateurs latéraux, puis les sangles frontale et mentonnière."
+      - "Solidariser la victime avec une sangle-araignée ou plusieurs sangles (partie supérieure du thorax, bassin, cuisses juste au-dessus des genoux), éventuellement complétées d'une couverture roulée ou d'un coussin entre les jambes."
+      - "Contrôler la motricité et la sensibilité de l'extrémité de chaque membre."
+  - type: texte
+    titre: À l'hôpital
+    contenu: "La victime est placée sur le brancard de l'hôpital avec son matériel d'immobilisation, dont le retrait relève de la responsabilité de l'hôpital. Idéalement, le transfert d'une victime suspecte d'un traumatisme du rachis entre deux dispositifs se fait à l'aide d'un brancard cuillère."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le non-respect de la technique est susceptible d'aggraver une lésion de la colonne vertébrale."
+      - "Des sangles thoraciques trop serrées peuvent aggraver une détresse respiratoire."
+  - type: liste
+    titre: Critères d'évaluation (victime immobilisée)
+    items:
+      - "Aucun mouvement spontané de la tête possible."
+      - "Axe tête-cou-tronc maintenu."
+      - "Aucun glissement vers le haut, vers le bas ni sur le côté."
+      - "Respiration sans gêne malgré les sangles."
+      - "Aucun signe d'aggravation d'une lésion de la colonne vertébrale."
+qcm:
+  - id: q1
+    enonce: "Quelle est la technique de référence pour relever une victime allongée sur le dos et la transférer sur un dispositif d'immobilisation du rachis ?"
+    propositions:
+      - "Le roulement à trois secouristes"
+      - "Le brancard cuillère"
+      - "Le portage à deux"
+      - "Le pont à quatre porteurs"
+    bonnes: [1]
+    explication: "Le brancard cuillère reste la technique de référence ; à défaut, le pont à quatre porteurs ; le roulement au sol à trois secouristes n'est utilisé que si les techniques précédentes ne sont pas réalisables."
+  - id: q2
+    enonce: "Roulement de la victime sur le dos : qui commande la manœuvre ?"
+    propositions:
+      - "Le secouriste 1, qui maintient la tête"
+      - "Le secouriste 2"
+      - "Le secouriste 3"
+    bonnes: [0]
+    explication: "Le secouriste qui maintient la tête (secouriste 1) guide et commande l'ensemble de la manœuvre. Pour la victime debout, c'est en revanche le secouriste 2, derrière la victime."
+  - id: q3
+    enonce: "Où place-t-on les mains de la victime avant de la rouler sur le côté (victime sur le dos) ?"
+    propositions:
+      - "Au-dessus de la tête"
+      - "Sur les cuisses, face palmaire contre les cuisses"
+      - "Le long du corps sous les fesses"
+      - "Croisées sur la poitrine"
+    bonnes: [1]
+    explication: "La face palmaire des mains est placée sur les cuisses. Le membre supérieur du côté du retournement ne doit jamais être placé au-dessus de la tête (mouvement de la colonne vertébrale)."
+  - id: q4
+    enonce: "Quelle épaisseur de rembourrage place-t-on contre la victime du côté du retournement ?"
+    propositions:
+      - "1 à 2 cm"
+      - "3 à 4 cm"
+      - "10 cm"
+      - "Aucun rembourrage"
+    bonnes: [1]
+    explication: "Un rembourrage de 3 à 4 cm d'épaisseur (coussin de l'ACT, couverture roulée...) est placé contre la victime du côté du retournement."
+  - id: q5
+    enonce: "Victime sur le ventre : à quelle distance environ du corps place-t-on le plan dur, et de quel côté ?"
+    propositions:
+      - "À 10 cm environ, du côté du retournement"
+      - "À 10 cm environ, du côté opposé au retournement"
+      - "Contre la victime, du côté opposé au retournement"
+    bonnes: [0]
+    explication: "Pour la victime sur le ventre, le plan dur est placé à environ dix centimètres le long de la victime du côté du retournement, les secouristes 2 et 3 se plaçant à genoux dessus."
+  - id: q6
+    enonce: "Quelle séquence de commandements précède le retournement ?"
+    propositions:
+      - "« Êtes-vous prêts ? » / « Prêts ! » / « Attention pour tourner... Tournez ! »"
+      - "« Prêts ? » / « Oui » / « Roulez ! »"
+      - "« Attention pour basculer... Basculez ! »"
+    bonnes: [0]
+    explication: "Le secouriste 1 demande « Êtes-vous prêts ? », les secouristes 2 et 3 répondent « Prêts ! », puis « Attention pour tourner... Tournez ! ». « Basculez » est réservé à la victime debout."
+  - id: q7
+    enonce: "Victime debout casquée : que fait-on ?"
+    propositions:
+      - "On retire le casque avant la manœuvre"
+      - "On réalise la manœuvre en laissant le casque, puis on le retire une fois la victime allongée sur le plan dur et on pose ensuite le collier si nécessaire"
+      - "On ne peut pas utiliser le plan dur"
+    bonnes: [1]
+    explication: "La manœuvre se fait casque en place ; le casque est retiré quand la victime est allongée au sol, puis le collier cervical est posé si nécessaire."
+  - id: q8
+    enonce: "Quels sont des critères d'une victime correctement immobilisée sur un plan dur ?"
+    propositions:
+      - "Aucun mouvement spontané de la tête possible"
+      - "Aucun glissement vers le haut, vers le bas ni sur le côté"
+      - "Respiration sans gêne malgré les sangles"
+      - "Sangles thoraciques serrées au maximum"
+    bonnes: [0, 1, 2]
+    explication: "Des sangles thoraciques trop serrées risquent d'aggraver une détresse respiratoire ; la victime doit pouvoir respirer sans gêne."

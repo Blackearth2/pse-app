@@ -1,0 +1,104 @@
+id: plaie-conduite-a-tenir
+niveau: PSE1
+chapitre: traumatismes
+type: procedure
+ordre: 4
+titre: Plaie (conduite à tenir)
+motsCles: [plaie grave, plaie simple, corps étranger pénétrant, position d'attente, plaie thorax, plaie abdomen, plaie œil, traumatisme dentaire]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR02, 07-2026)
+  code: 07PR02
+  page: 207
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La conduite dépend de la gravité de la plaie. En cas d'urgence ou de détresse vitale, ou d'aggravation, on applique la conduite à tenir adaptée et on réalise en priorité les gestes d'urgence."
+  - type: etapes
+    titre: Plaie grave
+    items:
+      - "Ne jamais retirer le corps étranger pénétrant (couteau, morceau de verre, etc.) : cela risque d'aggraver la plaie."
+      - "Installer sans délai la victime en position d'attente, confortablement (brancard, lit, chaise, canapé ou à défaut sur le sol), selon la localisation : assise en laissant la plaie à l'air libre pour une plaie au thorax (la position assise facilite la respiration) ; allongée, jambes fléchies pour une plaie de l'abdomen (relâchement des muscles abdominaux, douleur diminuée) ; allongée, yeux fermés en demandant de ne pas bouger la tête pour une plaie à l'œil ; allongée dans tous les autres cas."
+      - "À l'exception des plaies du thorax, protéger la plaie par un pansement ou un champ stérile humidifié (eau stérile ou sérum physiologique)."
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries."
+      - "Poursuivre le bilan et surveiller attentivement son état, du fait d'un risque d'aggravation brutale."
+  - type: etapes
+    titre: Plaie simple
+    items:
+      - "Se laver les mains à l'eau et au savon ou utiliser une solution hydroalcoolique."
+      - "Se protéger par le port de gants."
+      - "Nettoyer la plaie avec de l'eau courante (propre) ou en bouteille, à défaut avec du sérum physiologique ; utiliser du savon si la plaie est souillée ; s'aider si besoin d'une compresse pour enlever les souillures."
+      - "Sécher la zone autour de la plaie et la protéger par un pansement."
+      - "Conseiller de consulter un médecin si la victime n'est pas à jour de sa vaccination antitétanique, ou si la plaie devient chaude, rouge, suinte, gonfle ou continue de faire mal dans les vingt-quatre heures."
+  - type: etapes
+    titre: Plaie par injection de liquide sous pression
+    items:
+      - "Recueillir, si possible, la nature du produit injecté et la valeur de la pression d'injection."
+      - "Demander un avis médical en transmettant le bilan."
+  - type: etapes
+    titre: Traumatisme dentaire (délogement d'une dent après un choc)
+    items:
+      - "Se laver les mains à l'eau et au savon ou utiliser une solution hydroalcoolique, et se protéger par le port de gants."
+      - "Aider à arrêter le saignement dans la bouche : demander à la victime de se rincer la bouche avec de l'eau, si possible froide ; appliquer une compresse humide sur la zone qui saigne ; demander à la victime de mordre la compresse humide."
+      - "Récupérer la dent tombée en la saisissant par la couronne et non par la racine."
+      - "La rincer si elle est souillée pendant 10 secondes maximum, avec du sérum physiologique ou sous l'eau courante."
+      - "L'envelopper dans un film étirable alimentaire ; à défaut, la conserver dans un petit récipient contenant du lait de vache ou de la salive de la victime."
+      - "Faire transporter la dent conditionnée avec la victime."
+      - "Indiquer à la victime de consulter immédiatement un chirurgien-dentiste."
+  - type: attention
+    items:
+      - "Ne jamais retirer un corps étranger pénétrant."
+      - "Pas de pansement sur une plaie du thorax : la plaie est laissée à l'air libre, victime assise."
+      - "Ne pas appliquer de compresse dans la bouche si la victime risque de l'avaler (petit enfant, personne agitée ou présentant des troubles de la conscience)."
+      - "Ne pas conserver la dent dans de l'eau du robinet ni dans du sérum physiologique."
+qcm:
+  - id: q1
+    enonce: "Une victime présente un couteau planté dans l'abdomen. Quelle est la conduite correcte ?"
+    propositions:
+      - "Retirer le couteau pour examiner la plaie"
+      - "Laisser le couteau en place, installer la victime allongée jambes fléchies"
+      - "Installer la victime assise, plaie à l'air libre"
+    bonnes: [1]
+    explication: "On ne retire jamais un corps étranger pénétrant. Une plaie de l'abdomen impose la position allongée, jambes fléchies, et la protection de la plaie par un pansement ou un champ stérile humidifié."
+  - id: q2
+    enonce: "Quelle position pour une victime ayant une plaie au thorax ?"
+    propositions:
+      - "Allongée, jambes fléchies"
+      - "Assise, la plaie laissée à l'air libre"
+      - "Allongée, yeux fermés"
+    bonnes: [1]
+    explication: "La position assise facilite la respiration et la plaie du thorax est laissée à l'air libre : c'est l'exception à la protection par pansement."
+  - id: q3
+    enonce: "Pour une plaie de l'œil, on :"
+    propositions:
+      - "Allonge la victime, yeux fermés"
+      - "Demande à la victime de ne pas bouger la tête"
+      - "L'installe assise en lui demandant de bouger les yeux"
+      - "Retire tout corps étranger pénétrant"
+    bonnes: [0, 1]
+    explication: "La fermeture des yeux et l'immobilité de la tête limitent les risques d'aggravation de la lésion de l'œil."
+  - id: q4
+    enonce: "Comment nettoie-t-on une plaie simple ?"
+    propositions:
+      - "Avec de l'eau courante propre ou en bouteille, à défaut du sérum physiologique"
+      - "Avec du savon si la plaie est souillée"
+      - "Uniquement avec de l'alcool pur"
+    bonnes: [0, 1]
+    explication: "On nettoie à l'eau courante (propre) ou en bouteille, à défaut au sérum physiologique, avec du savon si la plaie est souillée, en s'aidant d'une compresse si besoin."
+  - id: q5
+    enonce: "Une dent est tombée après un choc. Comment la conditionner ?"
+    propositions:
+      - "La saisir par la racine et la rincer longuement à l'eau du robinet"
+      - "La saisir par la couronne, la rincer 10 secondes au maximum si souillée, puis l'envelopper dans un film étirable alimentaire"
+      - "La conserver dans du sérum physiologique"
+    bonnes: [1]
+    explication: "On saisit la dent par la couronne, on la rince 10 secondes maximum si elle est souillée, on l'enveloppe dans un film alimentaire ; à défaut, du lait de vache ou la salive de la victime. Ni eau du robinet ni sérum physiologique pour la conserver."
+  - id: q6
+    enonce: "À défaut de film étirable, dans quoi peut-on conserver une dent tombée ?"
+    propositions:
+      - "Dans de l'eau du robinet"
+      - "Dans du lait de vache ou dans la salive de la victime"
+      - "Dans du sérum physiologique"
+    bonnes: [1]
+    explication: "À défaut de film, un petit récipient contenant du lait de vache ou de la salive de la victime. L'eau du robinet et le sérum physiologique sont à proscrire pour la conservation."

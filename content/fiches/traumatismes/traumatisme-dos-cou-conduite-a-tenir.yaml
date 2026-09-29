@@ -1,0 +1,241 @@
+id: traumatisme-dos-cou-conduite-a-tenir
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 26
+titre: Traumatisme du dos et du cou (conduite à tenir)
+motsCles: [rachis, immobilisation corps entier, matelas immobilisateur à dépression, collier cervical, brancard cuillère, blocs de tête, stabilisation manuelle, enfant]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR08, 12-2023)
+  code: 07PR08
+  page: 241
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Devant une victime suspecte d'une lésion du rachis (cervical, thoracique, lombaire ou sacré), rechercher en priorité une menace ou détresse vitale. L'immobilisation de la colonne vertébrale ne passe jamais avant la prise en charge d'une détresse vitale. Pendant toutes les étapes de l'examen, limiter les mouvements du rachis, soit en demandant à la victime de ne pas bouger, soit en stabilisant son rachis."
+  - type: liste
+    titre: Menaces ou détresses vitales à rechercher en priorité
+    items:
+      - Hémorragie
+      - Obstruction des voies aériennes
+      - Détresse respiratoire
+      - Détresse circulatoire
+      - Détresse neurologique
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Rechercher en priorité une menace ou détresse vitale ; limiter les mouvements du rachis à toutes les étapes de l'examen."
+      - "Si la victime présente une menace ou détresse vitale : la traiter prioritairement selon la conduite à tenir adéquate ; si la victime traumatisée est consciente, lui demander de ne pas bouger ; demander un avis médical et respecter les consignes."
+      - "En l'absence de détresse vitale ou après traitement de celle-ci : conseiller à la victime de ne faire aucun mouvement."
+      - "Poursuivre la stabilisation manuelle de la tête si possible (secouriste disponible, victime non agitée)."
+      - "Retirer le casque de protection s'il est encore présent."
+      - "Réaliser une immobilisation complète du rachis si l'un des critères A, B/C ou D+E est présent (voir critères ci-dessous)."
+      - "En présence d'une plaie pénétrante isolée du thorax, du cou ou de la tête : appliquer la conduite à tenir devant une plaie du thorax, du cou ou de la tête, sans perdre de temps à immobiliser car l'évacuation est prioritaire."
+      - "Dans tous les cas : protéger la victime contre le froid, la chaleur ou les intempéries ; transmettre un bilan et appliquer les consignes reçues ; surveiller attentivement la victime (risque d'aggravation brutale), en particulier après chaque mobilisation."
+  - type: liste
+    titre: Indications d'immobilisation complète du rachis (corps entier)
+    items:
+      - "(A) Victime ne pouvant pas être examinée complètement ou dont l'examen n'est pas fiable : altération du niveau de conscience ou confusion, influence de l'alcool ou d'autres drogues, nombreuses lésions empêchant de rechercher des signes d'atteinte du rachis, difficultés de communication (langue étrangère, enfant)."
+      - "(B) ou (C) Victime qui se plaint ou présente des signes d'atteinte du rachis ou de la moelle : douleur de la colonne vertébrale, déficit moteur ou sensitif des membres, sensations anormales (décharges électriques, fourmillements), priapisme, déformation de la colonne, sensibilité à la palpation, douleur de la colonne à la toux, lorsque la victime essaye de se déplacer ou de s'asseoir."
+      - "(D) Traumatisme à haut risque de lésion du rachis ET soit âge de plus de 65 ans, soit antécédents à risque (E) : chirurgie ou fracture antérieure de la colonne vertébrale, maladie osseuse ou du rachis (ostéoporose)."
+      - "Si une douleur ou des signes d'atteinte du rachis ou de la moelle apparaissent lorsque la victime se déplace, lui demander de s'arrêter et l'immobiliser."
+  - type: liste
+    titre: (A) Réponses non fiables
+    items:
+      - Présence d'une détresse vitale.
+      - Altération du niveau de conscience.
+      - Non-coopération, difficultés de communication.
+      - Influence de l'alcool ou d'autres drogues.
+      - Atteinte traumatique sévère (douleur distrayante).
+  - type: liste
+    titre: (B) Signes d'atteinte du rachis
+    items:
+      - Douleur spontanée siégeant au niveau du rachis.
+      - Douleur du rachis à la mobilisation, à la marche.
+      - Raideur de la nuque empêchant de tourner la tête.
+      - Douleur à la palpation prudente du rachis.
+      - Déformation évidente du rachis.
+  - type: liste
+    titre: (C) Signes d'atteinte de la moelle épinière
+    items:
+      - "Perte ou diminution de la force musculaire ou de la motricité des mains ou des pieds (difficulté de serrer les mains, de bouger les orteils, de bouger un ou plusieurs membres)."
+      - "Perte ou diminution de la sensibilité des membres supérieurs (mains) ou inférieurs (pieds)."
+      - "Engourdissement, sensations de décharges électriques au niveau des membres (paresthésie)."
+      - Perte des urines ou des matières fécales.
+      - "Érection chez l'homme (victime inconsciente, victime trouvée déshabillée)."
+  - type: liste
+    titre: (D) Traumatismes à haut risque du rachis
+    items:
+      - "Chute sur la tête d'une hauteur supérieure à 1 mètre, comme lors d'un plongeon (rachis cervical), ou chute sur les pieds ou les fesses d'une hauteur supérieure à 3 mètres (rachis dorso-lombo-sacré)."
+      - "Passager d'un véhicule accidenté à grande vitesse (voies rapides, autoroutes, vitesse supérieure à 40 km/h avec arrêt brutal contre un obstacle ou sur une courte distance inférieure à 10 m, déformation de l'habitacle)."
+      - "Absence de port de ceinture de sécurité (et déclenchement des airbags)."
+      - Retournement d'un véhicule.
+      - Victime éjectée d'un véhicule lors de la collision.
+      - "Accident avec un véhicule à moteur de loisirs (jet-ski, quad, kart, etc.)."
+      - Collision avec un 2 roues (conducteur ou passager).
+      - Piéton renversé.
+      - Chute de cheval.
+  - type: liste
+    titre: (E) Antécédents à risque
+    items:
+      - "Traumatisme vertébral ancien (fracture, luxation)."
+      - "Chirurgie de la colonne vertébrale."
+      - "Maladie de la colonne vertébrale ou des os qui fragilise la colonne vertébrale (ostéoporose)."
+  - type: liste
+    titre: Choix du moyen, stabilisation et restriction des mouvements
+    items:
+      - "Stabilisation : demander à la victime consciente et coopérante de ne pas bouger ; ou maintenir la tête à deux mains pour garder le rachis cervical dans l'axe si la victime est calme."
+      - "Restriction des mouvements du rachis cervical : blocs de tête de part et d'autre de la tête maintenus par des sangles ; matelas immobilisateur à dépression (MID) ; collier cervical rigide."
+      - "L'usage systématique du collier cervical chez l'adulte comme chez l'enfant n'est plus conseillé. Il peut encore être utilisé pour restreindre les mouvements du rachis cervical lors de l'extraction ou du relevage si la stabilisation de la tête par un sauveteur s'annonce difficile ou aléatoire."
+      - "Contre-indications du collier : possible obstruction des voies aériennes ; déformation préexistante du rachis cervical (maintenir alors la tête dans la position où elle se trouve)."
+      - "Le collier doit être adapté à la taille de la victime, positionné correctement, desserré une fois l'immobilisation sur le MID réalisée, resserré pour une nouvelle mobilisation (transfert sur un brancard). Après la mise en place du collier, réévaluer la liberté des voies aériennes."
+  - type: liste
+    titre: Choix du moyen, immobilisation corps entier
+    items:
+      - "En priorité dans un matelas immobilisateur à dépression, qui doit rester en place pour le transfert sur le brancard à l'hôpital. Les blocs de tête peuvent restreindre les mouvements du rachis cervical à l'intérieur du matelas. Si la victime porte un collier cervical rigide une fois immobilisée, le desserrer."
+      - "Le MID permet aussi d'immobiliser la victime dans la position adaptée à sa détresse (demi-assise pour une détresse respiratoire)."
+      - "Exceptionnellement sur un plan dur équipé de blocs de tête : en cas d'indisponibilité d'un MID, ou si le nombre de secouristes est insuffisant pour transférer la victime du plan dur sur le MID, et en l'absence de contre-indication (déformation préexistante de la colonne vertébrale, ou nécessité d'une autre position comme en cas de détresse respiratoire)."
+  - type: etapes
+    titre: Choix de la technique de relevage
+    items:
+      - "Victime allongée au sol : utiliser de préférence un brancard cuillère plutôt qu'un plan dur. Une fois la victime installée sur le brancard cuillère, les blocs de tête peuvent restreindre les mouvements du rachis cervical et libérer le secouriste chargé du maintien de la tête lors du transfert dans un moyen d'immobilisation."
+      - "En l'absence de brancard cuillère : relever la victime par une technique de relevage en pont à plusieurs secouristes."
+      - "Si aucune des deux techniques n'est possible : mettre en place un collier cervical et installer la victime sur un plan dur par roulement au sol, avant de la transférer dans un moyen d'immobilisation."
+      - "Victime dans un endroit difficile d'accès (endroit exigu, véhicule accidenté) et nécessitant une immobilisation corps entier : technique d'extraction avec les moyens dédiés (plan dur ou attelle cervico-thoracique). Si la stabilisation de la tête est difficile pendant l'extraction, restreindre les mouvements du rachis avec un collier cervical rigide puis l'attelle cervico-thoracique."
+      - "Victime dans un endroit difficile d'accès sans indication d'immobilisation corps entier : rechercher sa coopération, lui demander de se dégager elle-même puis, si elle le peut, de s'allonger sur le brancard. Interrompre tout mouvement si la douleur s'aggrave ou si des signes d'atteinte de la moelle apparaissent."
+  - type: liste
+    titre: Cas particuliers
+    items:
+      - "Victime agitée ou non coopérante (intoxication alcoolique associée, enfant) qui refuse toute immobilisation : ne pas l'immobiliser, la laisser s'installer dans la position la plus confortable tout en essayant de maintenir la tête dans l'axe à deux mains ; demander un avis médical."
+      - "Déformation préexistante de la colonne (cyphose, scoliose) ou victime très âgée (ostéoporose) : l'immobilisation à plat corps entier est difficile et peut être contre-productive (augmentation de la douleur, aggravation des signes ou de la lésion). Respecter la position et la déformation, immobiliser dans la position la plus confortable ; seul le MID permet cette immobilisation."
+      - "Enfant, traumatisme grave et suspicion de lésion du rachis : si l'enfant a perdu connaissance, conserver la stabilisation en ligne du rachis cervical pour assurer la liberté des voies aériennes supérieures ; aspirer les sécrétions, débris, sang et vomissures avec un aspirateur de mucosités en conservant cette stabilisation."
+      - "Enfant : laisser l'enfant dans son siège auto (coque) si c'est possible (pas de déformation de la coque) et parfaire l'immobilisation de la tête et du corps avec du rembourrage."
+      - "Enfant allongé au sol : relever avec un brancard cuillère plutôt qu'un plan dur. L'immobiliser sur un MID (ou une attelle à dépression pour les petits enfants) qui reste en place pour le transfert sur le brancard à l'hôpital ; le plan dur est réservé aux manœuvres d'extraction, pas à l'immobilisation ultérieure."
+      - "Enfant : porter une attention particulière au maintien en ligne du rachis cervical ; comme chez l'adulte, les blocs de tête peuvent être positionnés dans le MID ou sur le brancard cuillère."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "L'immobilisation de la colonne vertébrale ne doit jamais passer avant la prise en charge d'une détresse vitale."
+      - "Ne pas perdre de temps à immobiliser une victime avec plaie pénétrante isolée du thorax, du cou ou de la tête : l'évacuation est prioritaire."
+      - "L'usage systématique du collier cervical n'est plus conseillé ; il est contre-indiqué en cas de possible obstruction des voies aériennes ou de déformation préexistante du rachis cervical."
+      - "Desserrer le collier une fois la victime immobilisée sur le MID, le resserrer pour une nouvelle mobilisation, et réévaluer les voies aériennes après sa pose."
+      - "Surveiller attentivement la victime après chaque mobilisation (risque d'aggravation brutale)."
+      - "Chez l'enfant, le plan dur est réservé à l'extraction et ne sert pas à l'immobilisation ultérieure."
+qcm:
+  - id: q1
+    enonce: "Devant une victime suspecte d'une lésion du rachis, que faut-il rechercher en priorité ?"
+    propositions:
+      - Une menace ou détresse vitale
+      - Les antécédents médicaux détaillés
+      - Le meilleur moyen de relevage
+      - La pose d'un collier cervical
+    bonnes:
+      - 0
+    explication: "Il faut rechercher en priorité une menace ou détresse vitale ; l'immobilisation du rachis ne passe jamais avant la prise en charge d'une détresse vitale."
+  - id: q2
+    enonce: "Quelles sont les menaces ou détresses vitales à rechercher ?"
+    propositions:
+      - Hémorragie
+      - Simple douleur du rachis
+      - Détresse respiratoire
+      - Détresse neurologique
+      - Obstruction des voies aériennes
+    bonnes:
+      - 0
+      - 2
+      - 3
+      - 4
+    explication: "La liste officielle comprend hémorragie, obstruction des voies aériennes, détresse respiratoire, détresse circulatoire et détresse neurologique. Une simple douleur du rachis n'en fait pas partie."
+  - id: q3
+    enonce: "Une chute sur la tête d'une hauteur supérieure à quelle valeur constitue un traumatisme à haut risque du rachis cervical ?"
+    propositions:
+      - 50 cm
+      - 1 mètre
+      - 3 mètres
+      - 5 mètres
+    bonnes:
+      - 1
+    explication: "Chute sur la tête d'une hauteur supérieure à 1 mètre (plongeon) : rachis cervical. Chute sur les pieds ou les fesses de plus de 3 mètres : rachis dorso-lombo-sacré."
+  - id: q4
+    enonce: "Quels signes évoquent une atteinte de la moelle épinière (critère C) ?"
+    propositions:
+      - "Perte ou diminution de la force musculaire des mains ou des pieds"
+      - "Fourmillements ou décharges électriques dans les membres"
+      - "Perte des urines ou des matières fécales"
+      - "Nausées isolées"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Déficit moteur ou sensitif, paresthésies, incontinence urinaire ou fécale, érection chez l'homme (victime inconsciente ou déshabillée) évoquent une atteinte médullaire."
+  - id: q5
+    enonce: "Un traumatisme à haut risque (D) impose une immobilisation complète du rachis si la victime..."
+    propositions:
+      - "a plus de 65 ans ou présente des antécédents à risque (E)"
+      - "a moins de 18 ans uniquement"
+      - "porte un casque de protection"
+    bonnes:
+      - 0
+    explication: "Le traumatisme à haut risque (D) impose l'immobilisation s'il est associé à un âge de plus de 65 ans ou à des antécédents à risque (E) : chirurgie, fracture antérieure du rachis, maladie osseuse ou du rachis."
+  - id: q6
+    enonce: "Quel est le moyen d'immobilisation corps entier à utiliser en priorité ?"
+    propositions:
+      - Le plan dur
+      - Le matelas immobilisateur à dépression
+      - Le collier cervical seul
+      - L'attelle à traction
+    bonnes:
+      - 1
+    explication: "L'immobilisation corps entier se fait en priorité dans un MID, qui reste en place pour le transfert sur le brancard à l'hôpital. Le plan dur n'est utilisé qu'exceptionnellement."
+  - id: q7
+    enonce: "Dans quels cas le plan dur équipé de blocs de tête peut-il exceptionnellement servir à l'immobilisation ?"
+    propositions:
+      - "En cas d'indisponibilité d'un MID"
+      - "Si le nombre de secouristes ne suffit pas pour transférer la victime sur le MID"
+      - "En cas de détresse respiratoire nécessitant la position demi-assise"
+      - "Dans tous les cas, à la place du MID"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le plan dur n'est utilisé qu'en cas d'indisponibilité du MID ou d'effectif insuffisant, et sans contre-indication (déformation préexistante, position adaptée à une détresse respiratoire)."
+  - id: q8
+    enonce: "Que faire du collier cervical rigide une fois la victime immobilisée sur le MID ?"
+    propositions:
+      - Le serrer davantage
+      - Le desserrer
+      - Le retirer définitivement sans surveillance
+    bonnes:
+      - 1
+    explication: "Le collier est desserré une fois l'immobilisation sur le MID réalisée, puis resserré pour une nouvelle mobilisation (transfert sur un brancard)."
+  - id: q9
+    enonce: "Comment relever une victime allongée au sol suspecte d'une lésion du rachis ?"
+    propositions:
+      - "De préférence avec un brancard cuillère plutôt qu'un plan dur"
+      - "Toujours par roulement au sol sur un plan dur"
+      - "En la faisant se relever seule"
+    bonnes:
+      - 0
+    explication: "Le brancard cuillère est préféré ; à défaut, relevage en pont à plusieurs secouristes ; en dernier recours, collier cervical et plan dur par roulement au sol."
+  - id: q10
+    enonce: "Que faire d'une victime agitée ou non coopérante qui refuse toute immobilisation ?"
+    propositions:
+      - "La contraindre à rester allongée"
+      - "Ne pas l'immobiliser, la laisser dans la position la plus confortable en maintenant la tête dans l'axe à deux mains, et demander un avis médical"
+      - "L'abandonner sur place"
+    bonnes:
+      - 1
+    explication: "Il ne faut pas immobiliser de force : maintenir la tête dans l'axe à deux mains si possible et demander un avis médical."
+  - id: q11
+    enonce: "Chez l'enfant suspect d'une lésion du rachis, quelles affirmations sont exactes ?"
+    propositions:
+      - "On peut le laisser dans son siège auto (coque) si elle n'est pas déformée"
+      - "Le plan dur est réservé aux manœuvres d'extraction"
+      - "On l'immobilise sur un MID (ou une attelle à dépression pour les petits enfants)"
+      - "Le plan dur sert à l'immobilisation ultérieure pour le transfert à l'hôpital"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le MID (ou l'attelle à dépression) reste en place pour le transfert à l'hôpital ; le plan dur ne sert qu'à l'extraction."

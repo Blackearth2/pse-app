@@ -1,0 +1,118 @@
+id: traumatisme-abdomen-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 11
+titre: Traumatisme de l'abdomen (connaissances)
+motsCles: [abdomen, hémorragie interne, éviscération, organes pleins, organes creux, plaie abdominale, blast]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC04, 06-2018)
+  code: 07AC04
+  page: 217
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Un traumatisme abdominal porte atteinte à l'intégrité de la cavité abdominale et des organes qu'elle contient : organes pleins (foie, rate, reins), organes creux (estomac, intestin) et gros vaisseaux (aorte, veine cave inférieure). Toute plaie abdominale est considérée comme grave, même en l'absence de signes de détresse."
+  - type: liste
+    titre: Causes
+    items:
+      - "Choc direct ou compression appuyée ou brutale de l'abdomen (accident de circulation, chute de grande hauteur…)."
+      - "Pénétration d'un corps étranger dans l'abdomen (projectile d'arme à feu, arme blanche, tout objet perforant)."
+      - "Cisaillement dû à une décélération brusque (traumatisme indirect) : lésions des gros vaisseaux abdominaux, du foie ou de la rate."
+      - "Explosion (blast)."
+      - "L'atteinte n'est pas limitée à la face antérieure de l'abdomen : elle peut aussi concerner les flancs, le dos ou la partie basse du thorax."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "La gravité tient à l'atteinte des organes abdominaux, avec une défaillance circulatoire par hémorragie interne."
+      - "L'hémorragie peut survenir de façon extrêmement brutale si le foie, la rate, un rein ou de gros vaisseaux sont touchés."
+      - "Le saignement peut être retardé : les signes apparaissent alors secondairement."
+      - "Une atteinte des organes creux expose à un risque infectieux important, car leur contenu est septique (matières fécales)."
+  - type: liste
+    titre: Signes
+    items:
+      - "Mécanisme : traumatisme parfois violent, direct au niveau de l'abdomen ou indirect."
+      - "Plainte de la victime : douleur spontanée siégeant au niveau d'une partie ou de tout l'abdomen."
+      - "À l'examen : douleur à la palpation prudente des côtes."
+      - "Douleur provoquée lors d'une palpation prudente de l'abdomen, qui peut être anormalement dur."
+      - "Absence de soulèvement de l'abdomen à chaque inspiration."
+      - "Contusion ou plaie plus ou moins importante, avec éventuelle éviscération."
+      - "Vomissements de sang rouge (hématémèse)."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Prévenir toute détresse circulatoire par une surveillance attentive."
+      - "Installer ou transporter la victime dans une position d'attente adaptée à son état."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Toute plaie abdominale est grave, même sans signe de détresse."
+      - "Le saignement peut être retardé : une surveillance attentive est indispensable."
+qcm:
+  - id: q1
+    enonce: "Parmi ces organes, lesquels sont des organes pleins pouvant être touchés lors d'un traumatisme abdominal ?"
+    propositions:
+      - Le foie
+      - L'estomac
+      - La rate
+      - Les reins
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Les organes pleins sont le foie, la rate et les reins. L'estomac et l'intestin sont des organes creux."
+  - id: q2
+    enonce: "Pourquoi une atteinte des organes creux expose-t-elle à un risque infectieux important ?"
+    propositions:
+      - Parce que ces organes sont très richement vascularisés
+      - Parce que leur contenu est septique (matières fécales)
+      - Parce qu'ils sont situés dans le dos
+    bonnes:
+      - 1
+    explication: "Le contenu des organes creux est septique (matières fécales), d'où le risque infectieux."
+  - id: q3
+    enonce: "Comment est considérée toute plaie abdominale ?"
+    propositions:
+      - Comme grave, même en l'absence de signes de détresse
+      - Comme grave seulement en présence d'une détresse
+      - Comme bénigne si elle ne saigne pas
+      - Comme bénigne si la victime peut marcher
+    bonnes:
+      - 0
+    explication: "Toute plaie abdominale est considérée comme grave, même en l'absence de signes de détresse."
+  - id: q4
+    enonce: "Parmi ces signes, lesquels peuvent être retrouvés lors d'un traumatisme de l'abdomen ?"
+    propositions:
+      - Un abdomen anormalement dur à la palpation prudente
+      - Une absence de soulèvement de l'abdomen à chaque inspiration
+      - Des vomissements de sang rouge (hématémèse)
+      - Un gonflement des paupières
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Abdomen anormalement dur, absence de soulèvement à l'inspiration et hématémèse figurent parmi les signes. L'œdème des paupières relève d'un traumatisme de la face."
+  - id: q5
+    enonce: "Quel danger particulier présente le saignement lors d'un traumatisme abdominal ?"
+    propositions:
+      - Il est toujours visible immédiatement
+      - Il peut être extrêmement brutal ou retardé, les signes apparaissant alors secondairement
+      - Il n'existe jamais avec une plaie fermée
+    bonnes:
+      - 1
+    explication: "L'hémorragie interne peut survenir de façon extrêmement brutale (foie, rate, rein, gros vaisseaux) et le saignement peut être retardé."
+  - id: q6
+    enonce: "Quel est le principe de l'action de secours face à un traumatisme de l'abdomen ?"
+    propositions:
+      - Prévenir toute détresse circulatoire par une surveillance attentive
+      - Faire boire la victime
+      - Installer ou transporter la victime dans une position d'attente adaptée
+      - Demander un avis médical
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Le principe associe surveillance attentive, position d'attente adaptée et avis médical."

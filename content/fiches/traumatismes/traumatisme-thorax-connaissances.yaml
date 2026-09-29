@@ -1,0 +1,100 @@
+id: traumatisme-thorax-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 13
+titre: Traumatisme du thorax (connaissances)
+motsCles: [thorax, fracture de côtes, pneumothorax, hémothorax, détresse respiratoire, plaie thoracique, bulles sanglantes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC05, 09-2014)
+  code: 07AC05
+  page: 219
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Un traumatisme du thorax est l'ensemble des signes dus à une atteinte traumatique du thorax, avec ou sans plaie. Ils font suspecter des lésions pouvant mettre rapidement en jeu la vie de la victime : fractures des côtes ou du sternum, avec atteinte ou non des organes intrathoraciques. Toute plaie thoracique est considérée comme grave, même en l'absence de détresse respiratoire."
+  - type: liste
+    titre: Causes
+    items:
+      - "Choc direct au niveau des côtes."
+      - "Pénétration d'un corps étranger dans le thorax (projectile d'arme à feu, arme blanche, tout objet perforant)."
+      - "Décélération brusque, qui peut entraîner des lésions des organes intrathoraciques venant s'écraser sur les côtes."
+      - "Explosion (blast)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Détresse respiratoire due à des côtes cassées, à un pneumothorax ou un hémothorax qui comprime le ou les poumons, ou à une rupture ou plaie de la trachée ou des bronches."
+      - "Détresse circulatoire, voire arrêt cardiaque, par atteinte des gros vaisseaux ou du cœur."
+  - type: liste
+    titre: Signes
+    items:
+      - "Mécanisme : traumatisme parfois violent, direct (coup, choc) ou indirect (décélération brutale)."
+      - "Plainte de la victime : douleur spontanée au niveau d'une ou plusieurs côtes, ou provoquée par les mouvements respiratoires ou la toux ; crachats de sang rouge."
+      - "À l'examen : douleur à la palpation prudente des côtes."
+      - "Plaie avec ou sans bulles sanglantes à l'expiration (si tel est le cas, vérifier le dos)."
+      - "Contusion ; anomalie du soulèvement de la poitrine ; déformation nette du thorax."
+      - "Toux incessante ou crachats de sang rouge."
+      - "Lésions associées (polytraumatisme)."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Prévenir toute détresse respiratoire ou circulatoire par une surveillance attentive."
+      - "Installer ou transporter la victime dans une position d'attente adaptée à son état."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Toute plaie thoracique est grave, même sans détresse respiratoire."
+      - "Devant une plaie avec bulles sanglantes à l'expiration, vérifier le dos."
+qcm:
+  - id: q1
+    enonce: "Quelles lésions constituent un traumatisme du thorax ?"
+    propositions:
+      - Des fractures des côtes ou du sternum
+      - Une entorse de cheville
+      - Une atteinte ou non des organes intrathoraciques
+    bonnes:
+      - 0
+      - 2
+    explication: "Ce sont des fractures des côtes ou du sternum, avec atteinte ou non des organes intrathoraciques."
+  - id: q2
+    enonce: "Quelles peuvent être les causes d'une détresse respiratoire après un traumatisme thoracique ?"
+    propositions:
+      - Côtes cassées
+      - Pneumothorax ou hémothorax comprimant les poumons
+      - Rupture ou plaie de la trachée ou des bronches
+      - Fracture du poignet
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Côtes cassées, pneumothorax ou hémothorax et rupture ou plaie de la trachée ou des bronches peuvent provoquer une détresse respiratoire."
+  - id: q3
+    enonce: "Comment considère-t-on toute plaie thoracique ?"
+    propositions:
+      - Comme bénigne en l'absence de saignement
+      - Comme grave, même en l'absence de détresse respiratoire
+      - Comme grave uniquement si elle porte des bulles sanglantes
+    bonnes:
+      - 1
+    explication: "Toute plaie thoracique est considérée comme grave, même en l'absence de détresse respiratoire."
+  - id: q4
+    enonce: "Par quoi une détresse circulatoire ou un arrêt cardiaque peut-il être provoqué lors d'un traumatisme thoracique ?"
+    propositions:
+      - Une atteinte des gros vaisseaux ou du cœur
+      - Une simple contusion cutanée
+      - Un saignement de nez
+    bonnes:
+      - 0
+    explication: "La détresse circulatoire, voire l'arrêt cardiaque, résulte d'une atteinte des gros vaisseaux ou du cœur."
+  - id: q5
+    enonce: "Que faut-il faire si une plaie thoracique présente des bulles sanglantes à l'expiration ?"
+    propositions:
+      - Vérifier le dos
+      - Boucher la plaie hermétiquement
+      - Ne rien faire de particulier
+    bonnes:
+      - 0
+    explication: "En présence d'une plaie avec bulles sanglantes à l'expiration, il faut vérifier le dos."

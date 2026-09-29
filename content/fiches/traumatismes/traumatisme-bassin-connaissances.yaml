@@ -1,0 +1,120 @@
+id: traumatisme-bassin-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 34
+titre: Traumatisme du bassin (connaissances)
+motsCles: [bassin, fracture, hémorragie interne, détresse circulatoire, haute cinétique, contention, personne âgée]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC10, 12-2023)
+  code: 07AC10
+  page: 263
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le traumatisme du bassin est l'ensemble des signes dus à une atteinte traumatique du bassin, avec ou sans plaie. Il est responsable de fractures et de lésions des organes internes, notamment hémorragiques, pouvant mettre rapidement en jeu la vie de la victime. Il est grave et touche surtout l'adulte jeune."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "8 à 15 %"
+        libelle: "mortalité des traumatismes du bassin"
+      - valeur: "2 cas sur 3"
+        libelle: "traumatismes à haute cinétique avec lésions associées (thorax, crâne, membres)"
+  - type: liste
+    titre: Causes
+    items:
+      - "Contexte de traumatisme à haute cinétique (accident de la voie publique, chute de grande hauteur), avec des lésions associées (thorax, crâne, membres) dans deux cas sur trois."
+      - "Choc direct, avec ou sans plaie, au niveau de la partie basse de l'abdomen, des hanches ou des fesses."
+      - "Choc à distance du bassin, transmis par les os des membres inférieurs (chute ou choc sur la hanche, chute de grande hauteur sur les talons)."
+      - "Plus rarement, traumatisme à faible énergie chez la personne âgée."
+  - type: liste
+    titre: Risques et conséquences (origine de la gravité)
+    items:
+      - "Perte de sang due aux fractures elles-mêmes : une fracture multiple du bassin est fréquemment responsable d'une hémorragie interne importante."
+      - "Perforation ou rupture de la vessie ou des canaux d'évacuation de l'urine."
+  - type: liste
+    titre: Signes
+    items:
+      - "Expression du mécanisme : traumatisme parfois violent, direct au niveau du bassin (écrasement, coup, choc), ou moins violent chez une personne âgée."
+      - "La victime se plaint d'une douleur spontanée au niveau du bassin ou dans la partie basse de l'abdomen : signe évocateur d'un traumatisme du bassin."
+      - "À l'examen : douleur localisée au niveau du bassin."
+      - "Impossibilité de bouger les membres inférieurs en raison de la douleur."
+      - "Présence de sang dans les urines ou sur les sous-vêtements (atteinte de la vessie ou de l'urètre)."
+      - "Hématome important au niveau du pubis."
+      - "Lésion des organes urogénitaux externes, particulièrement chez l'homme."
+      - "Des lésions associées peuvent masquer le traumatisme du bassin."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Prévenir toute détresse circulatoire par une surveillance attentive."
+      - "Limiter toute mobilisation de la victime, sauf en cas de nécessité absolue."
+      - "Immobiliser la victime et assurer une contention du bassin si nécessaire."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Toute victime traumatisée qui a perdu connaissance et présente des signes de détresse circulatoire doit être considérée systématiquement comme suspecte d'un traumatisme du bassin."
+      - "Des lésions associées peuvent masquer le traumatisme du bassin."
+qcm:
+  - id: q1
+    enonce: "Quelle est la mortalité des traumatismes du bassin indiquée dans le référentiel ?"
+    propositions:
+      - "Environ 1 à 2 %"
+      - "Environ 8 à 15 %"
+      - "Environ 30 à 40 %"
+      - "Environ 60 %"
+    bonnes:
+      - 1
+    explication: "La mortalité des traumatismes du bassin est de l'ordre de 8 à 15 %."
+  - id: q2
+    enonce: "Quelles sont les causes de gravité du traumatisme du bassin ?"
+    propositions:
+      - "L'inhalation de fumées"
+      - "La perte de sang due aux fractures elles-mêmes"
+      - "Une hypothermie systématique"
+      - "La perforation ou la rupture de la vessie ou des canaux d'évacuation de l'urine"
+    bonnes:
+      - 1
+      - 3
+    explication: "La gravité est due à la perte de sang liée aux fractures et à une perforation ou rupture de la vessie ou des canaux d'évacuation de l'urine."
+  - id: q3
+    enonce: "Quelle victime doit être systématiquement considérée comme suspecte d'un traumatisme du bassin ?"
+    propositions:
+      - "Toute victime qui a une plaie du cuir chevelu"
+      - "Toute victime qui se plaint d'une douleur au bras"
+      - "Toute victime traumatisée qui a perdu connaissance et présente des signes de détresse circulatoire"
+    bonnes:
+      - 2
+    explication: "Une victime traumatisée ayant perdu connaissance et présentant des signes de détresse circulatoire est suspecte d'un traumatisme du bassin."
+  - id: q4
+    enonce: "Parmi ces signes, lesquels évoquent un traumatisme du bassin ?"
+    propositions:
+      - "Un hématome en lunettes"
+      - "Du sang dans les urines ou sur les sous-vêtements"
+      - "Une impossibilité de bouger les membres inférieurs en raison de la douleur"
+      - "Un hématome important au niveau du pubis"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Sang dans les urines ou sur les sous-vêtements, impossibilité de bouger les membres inférieurs et hématome du pubis évoquent un traumatisme du bassin. L'hématome en lunettes évoque une fracture de la base du crâne."
+  - id: q5
+    enonce: "Dans quel contexte survient habituellement un traumatisme du bassin ?"
+    propositions:
+      - "Un effort physique modéré"
+      - "Un traumatisme à haute cinétique (accident de la voie publique, chute de grande hauteur)"
+      - "Une brûlure étendue"
+    bonnes:
+      - 1
+    explication: "Il survient dans un contexte de traumatisme à haute cinétique, avec des lésions associées dans deux cas sur trois ; plus rarement à faible énergie chez la personne âgée."
+  - id: q6
+    enonce: "Quel est le principe de l'action de secours face à un traumatisme du bassin ?"
+    propositions:
+      - "Limiter toute mobilisation sauf nécessité absolue et prévenir la détresse circulatoire par une surveillance attentive"
+      - "Mobiliser la victime le plus tôt possible"
+      - "Faire asseoir la victime"
+    bonnes:
+      - 0
+    explication: "Il faut prévenir toute détresse circulatoire par une surveillance attentive, limiter toute mobilisation sauf nécessité absolue, immobiliser et assurer une contention du bassin si nécessaire, et demander un avis médical."

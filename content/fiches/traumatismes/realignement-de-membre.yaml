@@ -1,0 +1,121 @@
+id: realignement-de-membre
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 21
+titre: Réalignement de membre
+motsCles: [réalignement, fracture fermée, avant-bras, jambe, traction douce, avis médical, complications vasculaires]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT07, 09-2014)
+  code: 07FT07
+  page: 229
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le réalignement est effectué chaque fois que possible par un médecin. En l'absence de médecin, on peut être amené, sur avis médical, à réaligner un avant-bras ou une jambe qui présente une fracture fermée, c'est-à-dire à lui faire recouvrer un axe proche de la normale. Aucun matériel n'est nécessaire."
+  - type: liste
+    titre: Indications
+    items:
+      - "Sur avis médical uniquement, en l'absence de médecin, pour un avant-bras ou une jambe avec fracture fermée."
+      - "Signes de complications vasculaires ou neurologiques : membre froid, pâle, insensible."
+      - "Ou déformation empêchant la mise en place d'un dispositif d'immobilisation."
+  - type: liste
+    titre: Justification
+    items:
+      - "Une déformation angulaire d'un membre fracturé peut entraîner une complication nerveuse ou vasculaire et gêner la pose d'un matériel d'immobilisation spécifique."
+      - "Le réalignement limite les complications de compression vasculaire ou nerveuse et permet de mettre en place une attelle."
+  - type: etapes
+    titre: Fracture fermée de l'avant-bras
+    items:
+      - "Saisir et bloquer avec une main l'articulation du coude de la victime."
+      - "Saisir le poignet ou la main de la victime avec l'autre main."
+      - "Ramener progressivement l'avant-bras dans l'axe en exerçant une traction douce."
+      - "Ne relâcher la traction qu'après immobilisation du membre."
+  - type: etapes
+    titre: Fracture fermée de la jambe (avec une seconde personne)
+    items:
+      - "Faire réaliser le maintien du genou de la victime par la personne qui assiste ; elle saisit le genou à deux mains et le bloque."
+      - "Saisir à deux mains la cheville et ramener progressivement la jambe dans l'axe normal du membre inférieur en exerçant une traction douce."
+      - "Ne relâcher la traction qu'après immobilisation du membre."
+  - type: attention
+    titre: Interrompre immédiatement et redemander un avis médical si
+    items:
+      - "Il existe une résistance au réalignement."
+      - "La douleur provoquée devient intolérable pour la victime."
+      - "Pendant ou après le réalignement, des complications vasculaires (hématome, compression d'un vaisseau) ou neurologiques (perte de sensibilité ou de motricité) apparaissent : un nouvel avis médical doit être demandé."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Le réalignement est correct s'il est possible de poser sans difficulté un moyen d'immobilisation spécifique."
+      - "Et si l'on constate une atténuation de la douleur et des signes de complications."
+qcm:
+  - id: q1
+    enonce: "Dans quelles conditions le secouriste peut-il réaligner un membre ?"
+    propositions:
+      - En l'absence de médecin, sur avis médical
+      - Pour un avant-bras ou une jambe avec fracture fermée
+      - Pour toute fracture ouverte
+      - De sa propre initiative dès qu'il y a déformation
+    bonnes:
+      - 0
+      - 1
+    explication: "En l'absence de médecin, sur avis médical, pour un avant-bras ou une jambe avec fracture fermée."
+  - id: q2
+    enonce: "Quels signes justifient un réalignement ?"
+    propositions:
+      - Membre froid, pâle, insensible
+      - Déformation empêchant la pose d'un dispositif d'immobilisation
+      - Simple douleur légère
+    bonnes:
+      - 0
+      - 1
+    explication: "Le réalignement est indiqué par des signes de complications vasculaires ou neurologiques, ou par une déformation gênant l'immobilisation."
+  - id: q3
+    enonce: "Comment réalise-t-on le réalignement d'un avant-bras ?"
+    propositions:
+      - Blocage du coude d'une main, saisie du poignet ou de la main de l'autre, traction douce vers l'axe
+      - Traction brusque sur la main
+      - Blocage du poignet et traction sur le coude
+    bonnes:
+      - 0
+    explication: "On bloque l'articulation du coude, on saisit le poignet ou la main et on ramène progressivement l'avant-bras dans l'axe par une traction douce."
+  - id: q4
+    enonce: "De quoi le secouriste a-t-il besoin pour réaligner une jambe ?"
+    propositions:
+      - D'une seconde personne qui bloque le genou à deux mains
+      - D'aucune aide
+      - D'un collier cervical
+    bonnes:
+      - 0
+    explication: "La technique nécessite une seconde personne qui saisit le genou à deux mains et le bloque, pendant que le secouriste tracte doucement par la cheville."
+  - id: q5
+    enonce: "Quand relâche-t-on la traction ?"
+    propositions:
+      - Dès que le membre est dans l'axe
+      - Uniquement après immobilisation du membre
+      - Dès que la victime se plaint
+    bonnes:
+      - 1
+    explication: "La traction n'est relâchée qu'après immobilisation du membre."
+  - id: q6
+    enonce: "Dans quels cas doit-on interrompre immédiatement le réalignement et demander un nouvel avis médical ?"
+    propositions:
+      - Résistance au réalignement
+      - Douleur intolérable pour la victime
+      - Atténuation de la douleur
+    bonnes:
+      - 0
+      - 1
+    explication: "Une résistance ou une douleur intolérable imposent d'interrompre et de redemander un avis médical."
+  - id: q7
+    enonce: "Quand le réalignement est-il jugé correct ?"
+    propositions:
+      - Un moyen d'immobilisation spécifique se pose sans difficulté
+      - La douleur et les signes de complications s'atténuent
+      - La victime ne ressent plus aucun symptôme
+    bonnes:
+      - 0
+      - 1
+    explication: "Il est correct si l'immobilisation est possible sans difficulté et si douleur et signes de complications s'atténuent."

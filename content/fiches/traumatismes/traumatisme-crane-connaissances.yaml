@@ -1,0 +1,128 @@
+id: traumatisme-crane-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 32
+titre: Traumatisme du crâne (connaissances)
+motsCles: [traumatisme crânien, intervalle libre, otorragie, hématome en lunettes, asymétrie pupillaire, enfant, rachis]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC09, 06-2018)
+  code: 07AC09
+  page: 260
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Un traumatisme du crâne (ou crânien) est tout choc reçu sur le crâne. Les mécanismes en cause sont le choc direct, la décélération brutale et la blessure par un objet pénétrant. Les lésions peuvent évoluer plus ou moins vite et menacer le pronostic vital : la conscience de la victime doit être surveillée régulièrement."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Un choc direct à la tête peut provoquer, selon son intensité et son mécanisme, des lésions cutanées, osseuses (fractures) ou cérébrales."
+      - "Une décélération brusque avec arrêt net de la tête, sans choc sur un obstacle, peut aussi provoquer des lésions cérébrales, par simple ébranlement du cerveau contre la boîte crânienne."
+      - "Dans certains cas, une prise en charge chirurgicale précoce est nécessaire pour augmenter les chances de récupération."
+  - type: liste
+    titre: Signes à l'expression du mécanisme
+    items:
+      - "Traumatisme parfois violent au niveau du crâne (coup, choc) ou indirect (décélération brutale)."
+  - type: liste
+    titre: Signes au début du bilan
+    items:
+      - "Perte de connaissance qui persiste depuis l'accident."
+      - "Troubles de la conscience : somnolence, confusion, agitation anormale."
+      - "Convulsions."
+      - "Asymétrie pupillaire nette et fixe."
+  - type: liste
+    titre: Signes lors de la poursuite du bilan
+    items:
+      - "La victime peut se plaindre de céphalées ou d'une douleur spontanée au niveau des os du crâne, de nausées ou de vomissements."
+      - "Perte de la mémoire des faits, souvent synonyme d'une perte de connaissance passagère immédiatement après l'accident, parfois rapportée par les témoins."
+      - "Déficit moteur neurologique."
+      - "Plaie du cuir chevelu, hématome ou déformation."
+      - "Hématome « en lunettes » (autour des yeux), pouvant témoigner d'une fracture des os de la base du crâne."
+      - "Otorragie ou épistaxis."
+      - "Lésions associées, en particulier de la colonne cervicale."
+  - type: liste
+    titre: Signes à la surveillance
+    items:
+      - "Survenue d'une perte de connaissance secondaire."
+      - "Troubles de la conscience apparaissant plusieurs minutes à plusieurs heures après l'accident alors que la victime était parfaitement consciente : c'est l'intervalle libre."
+  - type: liste
+    titre: Chez l'enfant et le nourrisson
+    items:
+      - "La perte de connaissance est moins fréquente que chez l'adulte."
+      - "Troubles du comportement (l'enfant ne joue plus, il est prostré), souvent constatés par l'entourage."
+      - "Pâleur."
+      - "Toute chute d'une hauteur supérieure à sa taille (table à langer, chaise haute) doit faire suspecter un traumatisme crânien et faire l'objet d'un avis médical immédiat."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Limiter les risques d'aggravation par une immobilisation de la victime suspecte d'une lésion du rachis."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "En cas d'otorragie, la compression manuelle est inutile : vérifier que l'écoulement de sang vient bien de l'intérieur de l'oreille en la nettoyant avec une compresse."
+      - "Une victime parfaitement consciente peut s'aggraver plusieurs minutes à plusieurs heures plus tard (intervalle libre) : la surveillance doit être régulière."
+qcm:
+  - id: q1
+    enonce: "Qu'appelle-t-on « intervalle libre » lors d'un traumatisme du crâne ?"
+    propositions:
+      - "Des troubles de la conscience apparaissant plusieurs minutes à plusieurs heures après l'accident chez une victime initialement parfaitement consciente"
+      - "Le temps nécessaire pour retirer le casque de la victime"
+      - "Une perte de connaissance qui persiste depuis l'accident"
+      - "La durée d'un saignement de l'oreille"
+    bonnes:
+      - 0
+    explication: "L'intervalle libre correspond à des troubles de la conscience apparaissant plusieurs minutes à plusieurs heures après l'accident alors que la victime était parfaitement consciente."
+  - id: q2
+    enonce: "Quels signes peuvent être présents au début du bilan d'une victime de traumatisme du crâne ?"
+    propositions:
+      - "Un hématome important au niveau du pubis"
+      - "Une asymétrie pupillaire nette et fixe"
+      - "Des convulsions"
+      - "Une perte de connaissance qui persiste depuis l'accident"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Au début du bilan : perte de connaissance persistante, troubles de la conscience, convulsions, asymétrie pupillaire nette et fixe. L'hématome du pubis évoque un traumatisme du bassin."
+  - id: q3
+    enonce: "Que peut évoquer un hématome « en lunettes » (autour des yeux) ?"
+    propositions:
+      - "Une fracture du nez uniquement"
+      - "Une fracture du bassin"
+      - "Une fracture des os de la base du crâne"
+    bonnes:
+      - 2
+    explication: "Un hématome en lunettes peut témoigner d'une fracture des os de la base du crâne."
+  - id: q4
+    enonce: "En cas d'otorragie chez une victime de traumatisme du crâne, quelle est la bonne attitude ?"
+    propositions:
+      - "Réaliser une compression manuelle de l'oreille"
+      - "Boucher le conduit avec une compresse"
+      - "Ne rien faire, ce signe est sans importance"
+      - "Nettoyer l'oreille avec une compresse pour vérifier que le sang vient bien de l'intérieur"
+    bonnes:
+      - 3
+    explication: "La compression manuelle est inutile ; il faut vérifier, en nettoyant l'oreille avec une compresse, que l'écoulement vient bien de l'intérieur de l'oreille."
+  - id: q5
+    enonce: "Chez l'enfant ou le nourrisson, quelle chute doit faire suspecter un traumatisme crânien et justifier un avis médical immédiat ?"
+    propositions:
+      - "Toute chute d'une hauteur supérieure à sa taille (table à langer, chaise haute)"
+      - "Uniquement une chute avec perte de connaissance"
+      - "Uniquement une chute avec plaie du cuir chevelu"
+    bonnes:
+      - 0
+    explication: "Toute chute d'une hauteur supérieure à la taille de l'enfant ou du nourrisson doit faire suspecter un traumatisme crânien et faire l'objet d'un avis médical immédiat."
+  - id: q6
+    enonce: "Quels signes peuvent être observés chez l'enfant ou le nourrisson ayant un traumatisme crânien ?"
+    propositions:
+      - "Une perte de connaissance systématique"
+      - "Des troubles du comportement (il ne joue plus, il est prostré)"
+      - "Une pâleur"
+      - "Une perte de connaissance plus fréquente que chez l'adulte"
+    bonnes:
+      - 1
+      - 2
+    explication: "Chez l'enfant, la perte de connaissance est moins fréquente ; on observe des troubles du comportement, souvent constatés par l'entourage, et une pâleur."

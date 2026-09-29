@@ -1,0 +1,84 @@
+id: maintien-pansement
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 6
+titre: Maintien d'un pansement
+motsCles: [bande de crêpe, bande extensible, filet tubulaire, pansement non compressif, effet garrot, traumatisme du rachis]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT02, 09-2014)
+  code: 07FT02
+  page: 211
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée pour assurer le maintien d'un pansement non compressif sur une plaie. Le filet tubulaire évite toute compression circulaire d'un membre et laisse à la victime sa liberté de mouvement ; la bande accroît la protection contre les souillures extérieures."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Bandes de crêpe ou extensibles, de différentes largeurs (les plus couramment utilisées)."
+      - "Filets de mailles tubulaires : cylindres de filet élastique de différents diamètres adaptés à chaque partie du corps."
+  - type: etapes
+    titre: Maintien à l'aide d'une bande (après avoir positionné le pansement non compressif)
+    items:
+      - "Enrouler la bande autour de la zone atteinte (segment de membre, thorax, tête) ; le bandage doit largement dépasser les dimensions du pansement."
+      - "Maintenir la bande avec un morceau de ruban adhésif ou une épingle de sûreté."
+  - type: etapes
+    titre: Maintien à l'aide d'un filet (après avoir positionné le pansement non compressif)
+    items:
+      - "Étirer et enfiler le filet, comme une chaussette, pour maintenir le pansement."
+      - "Faire un tour, puis repasser sur le filet pour assurer le maintien, s'il est trop large pour la partie du corps à équiper ; lors du retour, veiller à ce que le filet n'exerce pas de compression."
+      - "Réaliser avec des ciseaux des orifices pour libérer certaines parties du corps (pouce, talon, orifice naturel), si nécessaire."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le dispositif de maintien (bande ou filet) ne doit jamais être posé directement sur la plaie ou la brûlure, ne doit pas déplacer le pansement lors de sa mise en place et doit largement dépasser ses dimensions."
+      - "Un bandage circulaire peut conduire à un effet garrot : surveiller l'apparition d'une douleur diffuse ou d'un saignement et contrôler la circulation sous le pansement (pouls, temps de recoloration cutanée, aspect de la peau)."
+      - "Plaie du crâne avec suspicion de traumatisme du rachis, victime allongée : un filet peut être mis en place, avec maintien de la tête et en le glissant délicatement sous celle-ci ; cette technique ne peut pas être réalisée avec une bande."
+      - "Exceptionnellement, cette technique peut permettre de réaliser la compression du membre pansé."
+  - type: texte
+    titre: Évaluation
+    contenu: "Le dispositif maintient le pansement sans entraver la circulation en aval, et aucune douleur n'apparaît au niveau du membre pansé après une dizaine de minutes."
+qcm:
+  - id: q1
+    enonce: "Quel est l'avantage du filet tubulaire pour maintenir un pansement ?"
+    propositions:
+      - "Il évite la compression circulaire d'un membre et laisse la liberté de mouvement"
+      - "Il permet de comprimer fortement la plaie"
+      - "Il se pose directement sur la plaie"
+    bonnes: [0]
+    explication: "Le filet évite tout phénomène de compression circulaire d'un membre et laisse à la victime sa liberté de mouvement."
+  - id: q2
+    enonce: "Que doit respecter le dispositif de maintien (bande ou filet) ?"
+    propositions:
+      - "Ne jamais être posé directement sur la plaie ou la brûlure"
+      - "Largement dépasser les dimensions du pansement"
+      - "Déplacer légèrement le pansement pour mieux le fixer"
+    bonnes: [0, 1]
+    explication: "Le dispositif ne doit jamais être directement posé sur la plaie ou la brûlure, doit largement dépasser le pansement et ne doit pas le déplacer lors de sa mise en place."
+  - id: q3
+    enonce: "Une victime allongée, suspecte d'un traumatisme du rachis, présente une plaie du crâne. Quel maintien est possible ?"
+    propositions:
+      - "Une bande, en soulevant la tête"
+      - "Un filet, avec maintien de la tête et en le glissant délicatement sous celle-ci"
+      - "Aucun maintien n'est possible"
+    bonnes: [1]
+    explication: "Le filet peut être mis en place avec un maintien de la tête ; la technique ne peut pas être réalisée avec une bande."
+  - id: q4
+    enonce: "Comment fixe-t-on l'extrémité d'une bande ?"
+    propositions:
+      - "Avec un ruban adhésif ou une épingle de sûreté"
+      - "Avec un nœud serré sur la plaie"
+      - "Avec un garrot"
+    bonnes: [0]
+    explication: "La bande est maintenue avec un morceau de ruban adhésif ou une épingle de sûreté."
+  - id: q5
+    enonce: "Quels signes de surveillance après la pose d'un bandage ?"
+    propositions:
+      - "Apparition d'une douleur diffuse ou d'un saignement"
+      - "Pouls, temps de recoloration cutanée et aspect de la peau sous le pansement"
+      - "Couleur du bandage uniquement"
+    bonnes: [0, 1]
+    explication: "Un bandage circulaire peut conduire à un effet garrot : on surveille douleur diffuse, saignement et on contrôle la circulation en aval (pouls, temps de recoloration, aspect de la peau)."

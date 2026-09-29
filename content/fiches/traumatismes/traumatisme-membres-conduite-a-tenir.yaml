@@ -1,0 +1,98 @@
+id: traumatisme-membres-conduite-a-tenir
+niveau: PSE1
+chapitre: traumatismes
+type: procedure
+ordre: 18
+titre: Traumatisme des membres (conduite à tenir)
+motsCles: [membres, position d'attente, immobilisation, application de froid, fracture ouverte, déformation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR07, 07-2026)
+  code: 07PR07
+  page: 225
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à un traumatisme de membre, on limite au maximum les mouvements, on installe la victime en position d'attente (allongée pour un membre inférieur, assise pour un membre supérieur), on immobilise et on applique du froid si possible, sauf en cas de fracture ouverte."
+  - type: etapes
+    titre: Conduite à tenir dans tous les cas
+    items:
+      - "Face à une urgence ou une détresse vitale, ou en cas d'aggravation : appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+      - "Conseiller fermement de ne pas mobiliser la partie atteinte."
+      - "Limiter au maximum les mouvements du membre blessé."
+      - "Installer la victime en position d'attente : allongée pour un membre inférieur ; assise pour un membre supérieur (lui indiquer de placer le membre atteint contre sa poitrine et de le soutenir avec une main, dans la position la moins douloureuse possible)."
+      - "Immobiliser le membre atteint à l'aide de l'attelle la plus appropriée."
+      - "Appliquer du froid si possible, sauf s'il s'agit d'une fracture ouverte."
+      - "Poursuivre le bilan et surveiller la victime."
+  - type: etapes
+    titre: En présence d'une fracture ouverte ou avec déformation
+    items:
+      - "Ne pas toucher un morceau d'os ou un corps étranger visible : leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion."
+      - "Recouvrir la plaie non hémorragique d'un pansement stérile, avant l'immobilisation."
+      - "Immobiliser le membre en respectant la déformation."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le froid n'est pas appliqué en cas de fracture ouverte."
+      - "Le réalignement d'une fracture est un geste très douloureux : il est réalisé par un médecin ou à la demande du médecin."
+qcm:
+  - id: q1
+    enonce: "Quelle position d'attente est adoptée pour une victime présentant un traumatisme du membre inférieur ?"
+    propositions:
+      - Assise
+      - Allongée
+      - Debout
+    bonnes:
+      - 1
+    explication: "Membre inférieur : victime allongée. Membre supérieur : victime assise."
+  - id: q2
+    enonce: "Pour un traumatisme du membre supérieur, quelle position et quelle consigne donne-t-on à la victime ?"
+    propositions:
+      - Assise
+      - Placer le membre atteint contre sa poitrine et le soutenir avec une main, dans la position la moins douloureuse
+      - Allongée, bras le long du corps
+      - Bouger doucement le membre pour tester la douleur
+    bonnes:
+      - 0
+      - 1
+    explication: "Pour un membre supérieur, la victime est assise et place le membre atteint contre sa poitrine, soutenu par une main, dans la position la moins douloureuse."
+  - id: q3
+    enonce: "Dans quel cas n'applique-t-on pas de froid sur un traumatisme de membre ?"
+    propositions:
+      - En cas de fracture ouverte
+      - En cas d'entorse
+      - En cas de gonflement
+    bonnes:
+      - 0
+    explication: "Le froid est appliqué si possible, sauf s'il s'agit d'une fracture ouverte."
+  - id: q4
+    enonce: "Face à une fracture ouverte ou avec déformation, que faut-il faire ?"
+    propositions:
+      - Ne pas toucher un morceau d'os ou un corps étranger visible
+      - Recouvrir la plaie non hémorragique d'un pansement stérile avant l'immobilisation
+      - Immobiliser le membre en respectant la déformation
+      - Remettre l'os en place
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On ne touche pas l'os ni le corps étranger, on couvre la plaie non hémorragique avant immobilisation et on respecte la déformation."
+  - id: q5
+    enonce: "Par qui est réalisé le réalignement d'une fracture, geste très douloureux ?"
+    propositions:
+      - Par le secouriste de sa propre initiative
+      - Par un médecin ou à la demande du médecin
+      - Par la victime elle-même
+    bonnes:
+      - 1
+    explication: "Le réalignement est réalisé par un médecin ou à sa demande."
+  - id: q6
+    enonce: "Dans une fracture ouverte à plaie non hémorragique, quand pose-t-on le pansement stérile ?"
+    propositions:
+      - Le pansement stérile est posé avant l'immobilisation
+      - Le pansement est posé après l'immobilisation
+      - Aucun pansement n'est posé
+    bonnes:
+      - 0
+    explication: "La plaie non hémorragique est recouverte d'un pansement stérile avant l'immobilisation."

@@ -1,0 +1,141 @@
+id: attelle-traction
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 24
+titre: Immobilisation d'un membre inférieur au moyen d'une attelle à traction
+motsCles: [attelle à traction, membre inférieur, cuisse, fémur, médecin, traction 15 kg, anneau de blocage du bassin, manomètre]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT10, 07-2026)
+  code: 07FT10
+  page: 237
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'attelle à traction immobilise les traumatismes de la cuisse et des 2/3 supérieurs de la jambe en exerçant une traction sur le membre traumatisé. Elle ne peut être installée que sur un membre réaligné, uniquement à la demande et en présence d'un médecin, par au moins trois secouristes formés et entraînés à son utilisation."
+  - type: liste
+    titre: Contre-indications (attelle non utilisable si)
+    items:
+      - "Les deux membres inférieurs sont atteints (préférer alors le MID)."
+      - "Il existe un traumatisme de la cheville ou du pied."
+      - "Il existe un traumatisme du bassin ou de la partie inférieure du dos."
+  - type: liste
+    titre: Matériel (attelle pneumatique dite de Donway)
+    items:
+      - "Partie supérieure : deux barres métalliques réunies par deux sangles, l'une rembourrée et réglable formant l'anneau de blocage du bassin, l'autre plus large soutenant la cuisse."
+      - "Partie inférieure en forme de « U » creuse : traverse métallique fixe avec semelle support de pied et sangles autoagrippantes, large sangle réglable pour soutenir la jambe, pompe et manomètre reliés au tube creux du « U »."
+      - "L'engagement des barres supérieures dans les branches creuses du « U » réalise deux vérins commandés par la pression de la pompe ; la traction est contrôlée par un dynamomètre. Une soupape de sécurité intervient si la pression est excessive."
+      - "Il existe d'autres types d'attelles à traction, notamment manuelles. Si un autre matériel est utilisé, respecter les consignes d'installation du fabricant."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "3"
+        libelle: "Secouristes au minimum, formés et entraînés, sous le contrôle d'un médecin"
+      - valeur: "15 kg"
+        libelle: "Traction en général prescrite par le médecin ; l'aiguille du manomètre est alors dans la zone verte"
+      - valeur: "Angle droit"
+        libelle: "Pied fixé au support de pied à angle droit, par les bandes autoagrippantes disposées en « huit »"
+  - type: etapes
+    titre: Conduite à tenir (sous le contrôle d'un médecin)
+    items:
+      - "Secouriste 3 : réaliser le maintien du bassin."
+      - "Secouriste 1 : maintenir le membre blessé dans l'axe par une traction progressive et prudente au niveau de la cheville, le pied bien tendu, et le soulever de quelques centimètres pour la mise en place du matériel."
+      - "Secouriste 2 : ajuster l'anneau supérieur qui bloque le bassin en le faisant glisser sous le genou et en le remontant juste au sommet de la cuisse."
+      - "Secouriste 2 : attacher la boucle sans la serrer, en réclinant les organes génitaux externes chez l'homme."
+      - "Secouriste 2 : préparer l'attelle (barres supérieures engagées dans les deux branches du « U »), la positionner à côté du membre inférieur, régler sa longueur, mettre le dynamomètre à zéro, desserrer les barres de serrage et relever le support de pied."
+      - "Secouriste 2 : glisser l'attelle de part et d'autre du membre traumatisé, engager les fiches de l'anneau de blocage du bassin dans les barres supérieures."
+      - "Secouriste 2 : fixer le pied au support de pied, à angle droit, par les bandes autoagrippantes disposées en « huit »."
+      - "Secouriste 2 : utiliser la pompe pour appliquer la pression de traction prescrite par le médecin, en général 15 kg (aiguille du manomètre dans la zone verte)."
+      - "Secouriste 1 : relâcher alors le maintien du membre."
+      - "Secouristes 1 et 2 : ajuster les sangles de cuisse et de jambe en évitant d'appuyer sur la zone traumatisée, puis verrouiller les barres de serrage reliant les barres au « U »."
+      - "Demander au médecin de vérifier la bonne installation de l'attelle."
+      - "Relâcher la pression en purgeant le circuit par ouverture de la valve quand l'installation est correcte."
+  - type: liste
+    titre: Évaluation, l'immobilisation est correcte si
+    items:
+      - "Le segment blessé et les articulations sus et sous-jacentes sont immobilisés par l'attelle."
+      - "L'attelle est correctement fixée."
+      - "La douleur ressentie par la victime diminue."
+      - "Aucun signe de compression n'apparaît après sa mise en place (circulation en aval correcte)."
+      - "Il n'y a pas de douleur testiculaire chez l'homme."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une procédure non respectée peut provoquer une mobilisation excessive du foyer de fracture, avec douleur et complications."
+      - "En milieu nécessitant des chaussures spéciales (montagne), desserrer les chaussures avant la fin de la mise en place de l'attelle : le risque de gelures dû aux chaussures peut être augmenté par l'anneau immobilisateur du bassin."
+      - "Ne jamais poser l'attelle sans la demande et la présence d'un médecin, ni sur un membre non réaligné."
+qcm:
+  - id: q1
+    enonce: "Pour quels traumatismes l'attelle à traction est-elle indiquée ?"
+    propositions:
+      - "La cuisse et les 2/3 supérieurs de la jambe"
+      - La cheville et le pied
+      - Le bassin
+      - "Le coude et l'avant-bras"
+    bonnes:
+      - 0
+    explication: "Les attelles à traction immobilisent les traumatismes de la cuisse et des 2/3 supérieurs de la jambe."
+  - id: q2
+    enonce: "Dans quelles situations l'attelle à traction ne peut-elle pas être utilisée ?"
+    propositions:
+      - "Les deux membres inférieurs sont atteints"
+      - "Traumatisme de la cheville ou du pied"
+      - "Traumatisme du bassin ou de la partie inférieure du dos"
+      - "Fracture isolée de la cuisse sur un membre réaligné"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Elle est contre-indiquée si les deux membres inférieurs sont atteints (préférer le MID), en cas de traumatisme de la cheville ou du pied, du bassin ou de la partie inférieure du dos."
+  - id: q3
+    enonce: "Dans quelles conditions l'attelle à traction peut-elle être mise en place ?"
+    propositions:
+      - "Par un seul secouriste, sans médecin"
+      - "À la demande et en présence d'un médecin, sur un membre réaligné, par au moins trois secouristes formés"
+      - "Sur un membre non réaligné, par deux secouristes"
+      - "Sans avis médical si la victime souffre beaucoup"
+    bonnes:
+      - 1
+    explication: "L'attelle ne peut être mise en place qu'à la demande et en présence d'un médecin, sur un membre réaligné, avec au moins trois secouristes formés et entraînés."
+  - id: q4
+    enonce: "Quelle pression de traction est en général prescrite par le médecin ?"
+    propositions:
+      - 5 kg
+      - 10 kg
+      - 15 kg
+      - 30 kg
+    bonnes:
+      - 2
+    explication: "La traction prescrite est en général de 15 kg ; l'aiguille du manomètre se trouve alors dans la zone verte du cadran."
+  - id: q5
+    enonce: "Comment le pied est-il fixé au support de pied ?"
+    propositions:
+      - "À angle droit, par les bandes autoagrippantes disposées en « huit »"
+      - "En extension forcée, par une sangle unique"
+      - "Sans fixation, le pied restant libre"
+    bonnes:
+      - 0
+    explication: "Le pied est fixé au support de pied à angle droit, par les bandes autoagrippantes disposées en « huit »."
+  - id: q6
+    enonce: "Que faut-il faire en milieu nécessitant des chaussures spéciales (montagne) ?"
+    propositions:
+      - "Serrer davantage les chaussures pour maintenir le pied"
+      - "Desserrer les chaussures avant la fin de la mise en place, car l'anneau du bassin peut augmenter le risque de gelures"
+      - "Ne rien modifier"
+    bonnes:
+      - 1
+    explication: "Les chaussures sont desserrées avant la fin de la mise en place : les risques de gelures peuvent être augmentés par l'anneau immobilisateur du bassin."
+  - id: q7
+    enonce: "Quels signes d'une immobilisation correcte sont cités à l'évaluation ?"
+    propositions:
+      - "La douleur ressentie diminue"
+      - "Aucun signe de compression en aval"
+      - "Absence de douleur testiculaire chez l'homme"
+      - "Le membre est libre de tout mouvement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Outre l'immobilisation du segment et des articulations voisines et la bonne fixation, la douleur doit diminuer, sans compression, et sans douleur testiculaire chez l'homme."

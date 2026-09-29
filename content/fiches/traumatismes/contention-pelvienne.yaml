@@ -1,0 +1,120 @@
+id: contention-pelvienne
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 36
+titre: Contention pelvienne
+motsCles: [ceinture pelvienne, grands trochanters, symphyse pubienne, livre ouvert, détresse circulatoire, 3 à 5 minutes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT16, 12-2023)
+  code: 07FT16
+  page: 265
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La contention pelvienne est mise en place chez une victime suspecte d'un traumatisme du bassin avant son transport. Par une compression circonférentielle, la ceinture pelvienne rapproche les ailes iliaques, ce qui rapproche et immobilise les fragments osseux de la fracture, et diminue le saignement."
+  - type: liste
+    titre: Indications
+    items:
+      - "Après avis ou à la demande du médecin."
+      - "Si la victime présente des signes de détresse circulatoire (hémorragie interne) et qu'un avis médical ne peut pas être obtenu."
+      - "Une contention pelvienne peut être préinstallée sous la victime dans l'attente d'un avis médical."
+  - type: liste
+    titre: Justification
+    items:
+      - "Rapprochement des ailes iliaques, qui rapproche les fragments osseux de la fracture et les immobilise."
+      - "Diminution du saignement secondaire aux lésions vasculaires associées, par immobilisation de la région lésée et augmentation de la pression intra-abdominale."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Une ceinture pelvienne adaptée à la taille de la victime."
+      - "La réalisation d'une ceinture improvisée à l'aide d'un moyen de fortune (drap...) n'est pas recommandée."
+  - type: etapes
+    titre: Réalisation (victime allongée sur le dos)
+    items:
+      - "Glisser la ceinture sous les genoux de la victime."
+      - "Relever légèrement la victime (pont adapté, à plusieurs sauveteurs) pour décoller ses fesses du sol."
+      - "Glisser la ceinture sous les fesses et la centrer au niveau des grands trochanters."
+      - "Reposer la victime au sol."
+      - "Ramener les deux extrémités de la ceinture au niveau de la symphyse. Dans certains cas, il est possible de couper ou de rabattre à l'intérieur les extrémités pour les adapter à la taille de la victime."
+      - "Assurer une tension appropriée de la ceinture en utilisant le dispositif de serrage prévu à cet effet et sécuriser sa fermeture. La tension appropriée est définie selon le type de ceinture utilisé."
+  - type: chiffres
+    titre: Durée
+    items:
+      - valeur: "3 à 5 min"
+        libelle: "durée maximale de mise en place de la ceinture"
+  - type: liste
+    titre: Évaluation
+    items:
+      - "La ceinture assure une compression circonférentielle."
+      - "Elle prend appui sur les côtés, au niveau des grands trochanters."
+      - "En avant, elle passe sur la symphyse pubienne."
+      - "Une fois en place, le dispositif de sécurité empêche son relâchement intempestif."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "La ceinture pelvienne est particulièrement efficace pour les fractures dites « en livre ouvert » du bassin."
+      - "Mise en place pour d'autres types de fractures, elle ne présente pas d'effet secondaire si les conditions de mise en place sont respectées."
+      - "La mise en place ne doit pas prendre plus de 3 à 5 minutes."
+      - "La ceinture doit rester en place et être laissée avec la victime à l'hôpital."
+qcm:
+  - id: q1
+    enonce: "Où la ceinture pelvienne est-elle centrée sur la victime ?"
+    propositions:
+      - "Au niveau de la taille"
+      - "Au niveau des genoux"
+      - "Au niveau des côtes"
+      - "Au niveau des grands trochanters"
+    bonnes:
+      - 3
+    explication: "La ceinture est glissée sous les fesses et centrée au niveau des grands trochanters."
+  - id: q2
+    enonce: "Quelle est la durée maximale de mise en place de la ceinture pelvienne ?"
+    propositions:
+      - "Moins d'une minute"
+      - "3 à 5 minutes"
+      - "10 à 15 minutes"
+    bonnes:
+      - 1
+    explication: "La mise en place de la ceinture ne doit pas prendre plus de 3 à 5 minutes."
+  - id: q3
+    enonce: "Dans quels cas met-on en place une contention pelvienne ?"
+    propositions:
+      - "Chez toute victime consciente ayant mal au dos"
+      - "Après avis ou à la demande du médecin"
+      - "Uniquement à l'arrivée à l'hôpital"
+      - "Si la victime présente des signes de détresse circulatoire et qu'un avis médical ne peut pas être obtenu"
+    bonnes:
+      - 1
+      - 3
+    explication: "L'indication est posée après avis ou à la demande du médecin, ou en cas de détresse circulatoire lorsqu'un avis médical est impossible à obtenir."
+  - id: q4
+    enonce: "Quelle est la première étape de la réalisation de la contention pelvienne ?"
+    propositions:
+      - "Ramener les extrémités au niveau de la symphyse"
+      - "Serrer la ceinture au maximum"
+      - "Glisser la ceinture sous les épaules"
+      - "Glisser la ceinture sous les genoux de la victime"
+    bonnes:
+      - 3
+    explication: "La victime étant allongée sur le dos, on glisse d'abord la ceinture sous ses genoux, puis on relève légèrement la victime pour la faire glisser sous les fesses."
+  - id: q5
+    enonce: "Que dit le référentiel sur les ceintures improvisées (drap...) ?"
+    propositions:
+      - "Elles sont recommandées en première intention"
+      - "Elles sont obligatoires en l'absence de médecin"
+      - "Leur réalisation avec un moyen de fortune n'est pas recommandée"
+    bonnes:
+      - 2
+    explication: "Le matériel est une ceinture pelvienne adaptée à la taille de la victime ; la ceinture improvisée à l'aide d'un moyen de fortune n'est pas recommandée."
+  - id: q6
+    enonce: "Pour quel type de fracture la ceinture pelvienne est-elle particulièrement efficace, et que devient-elle à l'hôpital ?"
+    propositions:
+      - "Fractures « en livre ouvert » du bassin ; elle est laissée avec la victime"
+      - "Fractures du poignet ; elle est retirée dès l'arrivée"
+      - "Fractures « en livre ouvert » du bassin ; elle est retirée avant le transport"
+    bonnes:
+      - 0
+    explication: "Elle est particulièrement efficace pour les fractures en livre ouvert et doit rester en place, laissée avec la victime à l'hôpital."

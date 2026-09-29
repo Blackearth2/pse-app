@@ -1,0 +1,83 @@
+id: traumatisme-abdomen-conduite-a-tenir
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 12
+titre: Traumatisme de l'abdomen (conduite à tenir)
+motsCles: [abdomen, éviscération, position allongée jambes fléchies, champ stérile humidifié, femme enceinte]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR04, 07-2026)
+  code: 07PR04
+  page: 218
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à un traumatisme de l'abdomen, la priorité va à la détresse vitale éventuelle ; en son absence, on applique la conduite face à une plaie grave, adaptée par la position allongée jambes fléchies et la prise en charge d'une éventuelle éviscération."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Face à une urgence ou une détresse vitale, ou en cas d'aggravation : appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+      - "En l'absence de détresse vitale apparente : appliquer la conduite à tenir face à une plaie grave."
+      - "Mettre la victime en position allongée, à plat dos, jambes fléchies ; cette position est maintenue lors du relevage et du transport."
+      - "Rechercher l'existence de lésions dans le dos de la victime, particulièrement au cours de sa mobilisation."
+  - type: etapes
+    titre: En présence d'une éviscération
+    items:
+      - "Ne pas remettre les viscères en place."
+      - "Envelopper les viscères dans un champ stérile humidifié, sans les mobiliser ni les comprimer."
+      - "Ne pas utiliser de compresses ; humidifier avec de l'eau stérile ou du sérum physiologique."
+  - type: attention
+    titre: Femme enceinte
+    items:
+      - "Toute femme enceinte victime d'un traumatisme violent (accident de la voie publique, chute, coup dans l'abdomen) doit être considérée comme traumatisée de l'abdomen et faire l'objet d'une consultation dans un service d'urgence ou spécialisé."
+qcm:
+  - id: q1
+    enonce: "Quelle position est adoptée pour une victime d'un traumatisme de l'abdomen sans détresse vitale ?"
+    propositions:
+      - Assise
+      - Allongée à plat dos, jambes fléchies
+      - Allongée sur le ventre
+      - Debout, appuyée contre un mur
+    bonnes:
+      - 1
+    explication: "La victime est mise en position allongée, à plat dos, jambes fléchies, position maintenue lors du relevage et du transport."
+  - id: q2
+    enonce: "En présence d'une éviscération, que faut-il faire ?"
+    propositions:
+      - Remettre délicatement les viscères en place
+      - Envelopper les viscères dans un champ stérile humidifié
+      - Ne pas les mobiliser ni les comprimer
+      - Les recouvrir de compresses sèches
+    bonnes:
+      - 1
+      - 2
+    explication: "On ne remet pas les viscères en place ; on les enveloppe dans un champ stérile humidifié, sans les mobiliser ni les comprimer, et sans utiliser de compresses."
+  - id: q3
+    enonce: "Avec quoi humidifie-t-on le champ stérile enveloppant les viscères ?"
+    propositions:
+      - Eau stérile ou sérum physiologique
+      - Antiseptique
+      - Eau du robinet
+    bonnes:
+      - 0
+    explication: "Le champ est humidifié avec de l'eau stérile ou du sérum physiologique."
+  - id: q4
+    enonce: "Une femme enceinte a reçu un coup violent dans l'abdomen. Que faut-il retenir ?"
+    propositions:
+      - Aucune consultation n'est nécessaire en l'absence de douleur
+      - Elle est considérée comme traumatisée de l'abdomen et consulte dans un service d'urgence ou spécialisé
+      - Elle peut rentrer chez elle si elle se sent bien
+    bonnes:
+      - 1
+    explication: "Toute femme enceinte victime d'un traumatisme violent doit être considérée comme traumatisée de l'abdomen et consulter dans un service d'urgence ou spécialisé."
+  - id: q5
+    enonce: "Que recherche-t-on lors de la mobilisation d'une victime d'un traumatisme de l'abdomen ?"
+    propositions:
+      - Des lésions dans le dos
+      - Une fracture de la cheville
+      - Des brûlures
+    bonnes:
+      - 0
+    explication: "La conduite prévoit de rechercher des lésions dans le dos, particulièrement au cours de la mobilisation."

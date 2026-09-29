@@ -1,0 +1,104 @@
+id: traumatisme-face-cou-conduite-a-tenir
+niveau: PSE2
+chapitre: traumatismes
+type: procedure
+ordre: 16
+titre: Traumatisme de la face et de la face antérieure du cou (conduite à tenir)
+motsCles: [face, cou, plaie de la face, œil, traumatisme dentaire, fracture de la face, corps étranger transfixiant]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR06, 07-2026)
+  code: 07PR06
+  page: 222
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La conduite dépend de la lésion : plaie de la face, atteinte de l'œil, traumatisme dentaire ou fracture de la face. Dans tous les cas, on traite une éventuelle perte de connaissance et on demande un avis médical."
+  - type: etapes
+    titre: Plaie de la face
+    items:
+      - "À l'exception des éraflures sans gravité, une plaie de la face ou du cou est considérée et prise en charge comme une plaie grave du fait de sa localisation : appliquer la conduite à tenir face à une plaie grave."
+      - "Laisser les corps étrangers en place, même s'ils sont transfixiants (qui traversent de part en part), sauf s'ils entraînent une obstruction des voies aériennes."
+  - type: etapes
+    titre: Atteinte traumatique de l'œil
+    items:
+      - "Appliquer la conduite à tenir face à une plaie grave en présence d'une plaie à l'œil."
+      - "Demander à la victime de rester à plat dos dans la mesure du possible : cette position évite une aggravation éventuelle de la lésion de l'œil."
+      - "Recouvrir les deux yeux par des compresses stériles, sans appuyer et seulement s'il n'existe pas de corps étranger dont la mobilisation pourrait aggraver la lésion oculaire."
+  - type: etapes
+    titre: Traumatisme dentaire
+    items:
+      - "Appliquer la conduite à tenir face à une plaie en présence d'un traumatisme dentaire."
+  - type: etapes
+    titre: Fracture de la face (mandibule, maxillaire supérieur, os du nez)
+    items:
+      - "Installer la victime sur le côté."
+      - "Appliquer la conduite à tenir devant une détresse respiratoire si nécessaire."
+      - "Si le traumatisme est mineur, appliquer la conduite à tenir devant un saignement de nez."
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Si la victime perd connaissance, appliquer la conduite à tenir adaptée."
+      - "Demander un avis médical et respecter les consignes données."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Les fractures de la face sont susceptibles de provoquer un saignement abondant qui peut s'écouler et encombrer les voies aériennes, pouvant engendrer une détresse respiratoire."
+      - "Ne pas retirer un corps étranger, même transfixiant, sauf obstruction des voies aériennes."
+qcm:
+  - id: q1
+    enonce: "Comment est considérée une plaie de la face ou du cou, hors éraflure sans gravité ?"
+    propositions:
+      - Comme une plaie simple
+      - Comme une plaie grave du fait de sa localisation
+      - Comme une plaie sans importance si elle ne saigne pas
+    bonnes:
+      - 1
+    explication: "À l'exception des éraflures sans gravité, elle est prise en charge comme une plaie grave du fait de sa localisation."
+  - id: q2
+    enonce: "Dans quel cas retire-t-on un corps étranger, même transfixiant, d'une plaie de la face ?"
+    propositions:
+      - Toujours
+      - Jamais, quelle que soit la situation
+      - Seulement s'il entraîne une obstruction des voies aériennes
+    bonnes:
+      - 2
+    explication: "Les corps étrangers sont laissés en place, même transfixiants, sauf s'ils entraînent une obstruction des voies aériennes."
+  - id: q3
+    enonce: "Quelle position est demandée à une victime présentant une atteinte traumatique de l'œil ?"
+    propositions:
+      - Assise, tête penchée en avant
+      - À plat dos, dans la mesure du possible
+      - Sur le côté
+    bonnes:
+      - 1
+    explication: "La victime reste à plat dos dans la mesure du possible, ce qui évite une aggravation éventuelle de la lésion."
+  - id: q4
+    enonce: "Comment recouvre-t-on les yeux en cas d'atteinte oculaire ?"
+    propositions:
+      - Les deux yeux par des compresses stériles
+      - Seulement l'œil atteint, en appuyant
+      - Sans appuyer et seulement s'il n'existe pas de corps étranger dont la mobilisation aggraverait la lésion
+    bonnes:
+      - 0
+      - 2
+    explication: "On recouvre les deux yeux par des compresses stériles, sans appuyer et seulement en l'absence de corps étranger."
+  - id: q5
+    enonce: "Comment installe-t-on une victime présentant une fracture de la face (mandibule, maxillaire supérieur, os du nez) ?"
+    propositions:
+      - Sur le côté
+      - À plat dos
+      - Assise, tête en arrière
+    bonnes:
+      - 0
+    explication: "La victime est installée sur le côté, avec la conduite face à une détresse respiratoire si nécessaire."
+  - id: q6
+    enonce: "Que fait-on face à une fracture de la face avec un traumatisme mineur ?"
+    propositions:
+      - Appliquer la conduite à tenir devant un saignement de nez
+      - Ne rien faire
+      - Remettre les os en place
+    bonnes:
+      - 0
+    explication: "Si le traumatisme est mineur, on applique la conduite à tenir devant un saignement de nez."

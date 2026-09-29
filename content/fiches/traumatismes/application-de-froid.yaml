@@ -1,0 +1,112 @@
+id: application-de-froid
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 19
+titre: Application de froid
+motsCles: [froid, glace, compresse chimique, 20 minutes, gelure, traumatisme de membre]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT05, 09-2014)
+  code: 07FT05
+  page: 226
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'application de froid atténue la douleur et limite le gonflement. Elle est indiquée chez une victime consciente présentant un traumatisme de membre (articulations comprises) sans plaie, ou une piqûre d'insecte."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "20 min"
+        libelle: "Durée maximale d'application du froid"
+      - valeur: "÷ 2"
+        libelle: "Durée pouvant être réduite de moitié en cas d'inconfort pour la victime"
+  - type: liste
+    titre: Indications et matériel
+    items:
+      - "Indications : victime consciente avec un traumatisme de membre, y compris des articulations, en l'absence de plaie ; ou piqûre d'insecte."
+      - "Matériel : eau mélangée à de la glace (cubes ou pilée), ou compresses chimiques froides de différentes tailles."
+      - "Les bombes cryogènes sont réservées à l'usage médical."
+  - type: etapes
+    titre: Réalisation avec de l'eau et de la glace
+    items:
+      - "Remplir d'eau et de glace (glaçons, glace pilée ou neige) un sachet plastique ou une vessie de glace."
+      - "Chasser l'air en excédent et fermer hermétiquement la poche (l'air est un excellent isolant)."
+      - "Envelopper la poche dans un linge (serviette, torchon) et l'appliquer sur la zone concernée."
+  - type: etapes
+    titre: Réalisation avec une compresse chimique
+    items:
+      - "Générer le froid, conformément aux indications du constructeur."
+      - "Envelopper la poche dans un linge (serviette, torchon) et l'appliquer sur la zone concernée."
+  - type: liste
+    titre: Principes de réalisation et évaluation
+    items:
+      - "L'application doit être la plus précoce possible et s'étendre au-delà de la zone douloureuse."
+      - "Efficacité : diminution de la douleur et du gonflement, sans désagrément pour la victime."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le froid est proscrit sur une plaie ou chez une victime qui a perdu connaissance."
+      - "Une application prolongée peut provoquer des réactions cutanées (rougeur, pâleur intense, petites cloques) ou des gelures (peau « cartonnée » au toucher)."
+      - "Dans ce cas, interrompre immédiatement l'application de froid."
+qcm:
+  - id: q1
+    enonce: "Quelle est la durée maximale d'application du froid ?"
+    propositions:
+      - 10 minutes
+      - 20 minutes
+      - 30 minutes
+      - 45 minutes
+    bonnes:
+      - 1
+    explication: "La durée d'application ne doit pas excéder 20 minutes, et peut être réduite de moitié en cas d'inconfort."
+  - id: q2
+    enonce: "Dans quels cas l'application de froid est-elle indiquée ?"
+    propositions:
+      - Traumatisme de membre sans plaie chez une victime consciente
+      - Piqûre d'insecte
+      - Plaie ouverte
+      - Victime inconsciente
+    bonnes:
+      - 0
+      - 1
+    explication: "L'application de froid est indiquée chez une victime consciente avec traumatisme de membre sans plaie ou piqûre d'insecte. Elle est proscrite sur une plaie ou chez une victime inconsciente."
+  - id: q3
+    enonce: "Pourquoi chasse-t-on l'air en excédent de la poche de glace ?"
+    propositions:
+      - Parce que l'air est un excellent isolant et réduit l'efficacité du froid
+      - Pour que la poche soit plus légère
+      - Pour éviter les fuites d'eau uniquement
+    bonnes:
+      - 0
+    explication: "L'air est un excellent isolant : le chasser améliore l'efficacité de la source de froid."
+  - id: q4
+    enonce: "Comment applique-t-on la poche de froid sur la peau ?"
+    propositions:
+      - Directement sur la peau nue
+      - Enveloppée dans un linge (serviette, torchon)
+      - Sur une plaie, pour limiter le saignement
+    bonnes:
+      - 1
+    explication: "La poche est enveloppée dans un linge avant d'être appliquée sur la zone concernée."
+  - id: q5
+    enonce: "Quels signes imposent d'interrompre immédiatement l'application de froid ?"
+    propositions:
+      - Rougeur ou pâleur intense
+      - Petites cloques
+      - Peau « cartonnée » au toucher (gelure)
+      - Diminution du gonflement
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Rougeur ou pâleur intense, cloques et peau cartonnée (gelure) imposent d'interrompre l'application."
+  - id: q6
+    enonce: "Les bombes cryogènes peuvent-elles être utilisées par le secouriste ?"
+    propositions:
+      - Oui, comme source de froid habituelle
+      - Non, elles sont réservées à l'usage médical
+    bonnes:
+      - 1
+    explication: "Les bombes cryogènes sont réservées à l'usage médical."

@@ -1,0 +1,131 @@
+id: traumatisme-dos-cou-connaissances
+niveau: PSE2
+chapitre: traumatismes
+type: connaissance
+ordre: 25
+titre: Traumatisme du dos et du cou (connaissances)
+motsCles: [rachis, colonne vertébrale, moelle épinière, stabilisation, restriction des mouvements, immobilisation, mécanisme, lésion médullaire]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC08, 07-2026)
+  code: 07AC08
+  page: 239
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les traumatismes du dos et du cou sont des lésions de type entorse, fracture, luxation ou tassement, pouvant siéger à n'importe quel niveau de la colonne vertébrale. Leur gravité tient à l'atteinte possible de la moelle épinière."
+  - type: liste
+    titre: Causes et mécanismes
+    items:
+      - "Choc direct au niveau du cou ou du dos."
+      - "Choc indirect : chute sur la tête (plongeon en eau profonde)."
+      - "Choc indirect : chute de grande hauteur avec réception sur les talons ou sur les fesses."
+      - "Choc indirect : mouvement brusque de flexion-extension du rachis cervical."
+      - "Choc indirect : chute de sa hauteur chez la personne âgée ou chez la personne ayant des antécédents de traumatisme du rachis ou de maladie vertébrale."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "La moelle épinière peut être comprimée par la ou les vertèbres fracturées ou luxées, par un œdème ou un hématome."
+      - "La moelle épinière peut être sectionnée, avec des lésions irréversibles."
+      - "La majorité des victimes qui présentent un traumatisme médullaire ont aussi un traumatisme vertébral."
+  - type: chiffres
+    items:
+      - valeur: "15 %"
+        libelle: "des personnes ayant un traumatisme vertébral (fracture ou luxation) présentent une lésion médullaire"
+      - valeur: "65 ans et plus"
+        libelle: "âge à partir duquel une victime est considérée comme ayant une lésion du rachis (critère E, avec antécédents à risque)"
+  - type: liste
+    titre: Toute victime est considérée comme ayant une lésion du rachis si
+    items:
+      - "Ses réponses sont qualifiées de non fiables (encadré A de la conduite à tenir)."
+      - "Elle présente des signes d'atteinte du rachis (encadré B)."
+      - "Elle présente des signes d'atteinte de la moelle épinière (encadré C)."
+      - "Elle a subi un traumatisme évocateur d'accident à haut risque de lésion du rachis (encadré D) : collision avec un véhicule à grande vitesse, retournement de véhicule, victime éjectée, accident de 2 roues, chute de cheval, etc."
+      - "Elle est âgée de 65 ans et plus, ou a des antécédents à risque (encadré E)."
+  - type: liste
+    titre: Définitions
+    items:
+      - "Stabilisation du rachis : procédé physique de maintien de la colonne vertébrale en position neutre avant la mise en place d'un dispositif de restriction ou d'immobilisation (maintien à deux mains de la tête de la victime, en lui demandant de ne pas bouger)."
+      - "Restriction des mouvements du rachis cervical : limitation ou réduction des mouvements du rachis cervical au moyen d'un dispositif cervical (colliers cervicaux, blocs de tête)."
+      - "Immobilisation de la colonne vertébrale (corps entier) : procédé limitant tout mouvement de la colonne vertébrale par une combinaison de moyens (blocs de tête, collier cervical, plan dur, matelas immobilisateur à dépression)."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Ne pas mobiliser la victime, en dehors d'un dégagement d'urgence si nécessaire, de sa mise en position latérale de sécurité si elle a perdu connaissance, ou de son immobilisation."
+      - "Stabiliser, restreindre les mouvements, puis immobiliser la tête, le cou et le tronc de la victime suspecte d'une lésion du rachis, pour limiter les risques d'aggravation lors du relevage et du transport."
+  - type: attention
+    titre: Buts et points de vigilance
+    items:
+      - "Buts : ne pas aggraver une lésion instable de la colonne vertébrale qui menace la moelle épinière, et éviter toute immobilisation excessive qui pourrait entraîner des effets secondaires et des complications graves."
+      - "La mobilisation de la victime n'est admise que dans trois cas : dégagement d'urgence, PLS si perte de connaissance, immobilisation."
+qcm:
+  - id: q1
+    enonce: "Quelles lésions peuvent siéger à n'importe quel niveau de la colonne vertébrale lors d'un traumatisme du dos et du cou ?"
+    propositions:
+      - "Entorse, fracture, luxation ou tassement"
+      - "Uniquement des fractures"
+      - "Uniquement des luxations cervicales"
+    bonnes:
+      - 0
+    explication: "La définition cite des lésions de type entorse, fracture, luxation ou tassement, à n'importe quel niveau de la colonne vertébrale."
+  - id: q2
+    enonce: "Quels mécanismes constituent un choc indirect pouvant atteindre la colonne vertébrale ?"
+    propositions:
+      - "Chute sur la tête (plongeon en eau profonde)"
+      - "Chute de grande hauteur avec réception sur les talons ou les fesses"
+      - "Mouvement brusque de flexion-extension du rachis cervical"
+      - "Coupure superficielle de l'avant-bras"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ces trois mécanismes sont cités comme chocs indirects, ainsi que la chute de sa hauteur chez la personne âgée ou aux antécédents rachidiens."
+  - id: q3
+    enonce: "Environ quelle proportion des personnes présentant un traumatisme vertébral a une lésion médullaire ?"
+    propositions:
+      - 5 %
+      - 15 %
+      - 50 %
+      - 90 %
+    bonnes:
+      - 1
+    explication: "Environ 15 % des personnes ayant un traumatisme vertébral (fracture ou luxation) présentent une lésion médullaire."
+  - id: q4
+    enonce: "Pourquoi un traumatisme du rachis est-il grave ?"
+    propositions:
+      - "À cause de la douleur uniquement"
+      - "À cause de la possible atteinte de la moelle épinière, comprimée ou sectionnée"
+      - "Parce qu'il entraîne toujours un arrêt cardiaque"
+    bonnes:
+      - 1
+    explication: "La gravité est due à la possible atteinte de la moelle épinière, comprimée (vertèbres, œdème, hématome) ou sectionnée avec lésions irréversibles."
+  - id: q5
+    enonce: "Qu'est-ce que la stabilisation du rachis ?"
+    propositions:
+      - "La pose d'un plan dur"
+      - "Le maintien de la colonne vertébrale en position neutre, notamment à deux mains sur la tête, en demandant à la victime de ne pas bouger"
+      - "L'utilisation combinée d'un matelas à dépression et d'un collier"
+      - "L'utilisation exclusive d'un collier cervical"
+    bonnes:
+      - 1
+    explication: "La stabilisation est un procédé physique de maintien en position neutre, avant la mise en place d'un dispositif de restriction ou d'immobilisation."
+  - id: q6
+    enonce: "Dans quels cas peut-on mobiliser une victime suspecte de lésion du rachis en dehors de son immobilisation ?"
+    propositions:
+      - "Pour un dégagement d'urgence si nécessaire"
+      - "Pour une mise en PLS si elle a perdu connaissance"
+      - "Pour la faire s'asseoir afin de faciliter l'interrogatoire"
+    bonnes:
+      - 0
+      - 1
+    explication: "En dehors de l'immobilisation, seuls le dégagement d'urgence (si nécessaire) et la PLS d'une victime inconsciente justifient de la mobiliser."
+  - id: q7
+    enonce: "Quel est le but de l'immobilisation d'une victime suspecte de lésion du rachis ?"
+    propositions:
+      - "Ne pas aggraver une lésion instable menaçant la moelle épinière, tout en évitant une immobilisation excessive"
+      - "Immobiliser systématiquement tout le corps quel que soit le contexte"
+      - "Soulager uniquement la douleur"
+    bonnes:
+      - 0
+    explication: "Les buts sont de ne pas aggraver une lésion instable de la colonne et d'éviter toute immobilisation excessive pouvant entraîner des complications graves."

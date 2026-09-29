@@ -1,0 +1,136 @@
+id: attelle-depression
+niveau: PSE1
+chapitre: traumatismes
+type: technique
+ordre: 22
+titre: Immobilisation d'un membre au moyen d'une attelle à dépression
+motsCles: [attelle à dépression, immobilisation, membre inférieur, membre supérieur, épaule, pompe d'aspiration, articulations sus et sous-jacentes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT08, 09-2014)
+  code: 07FT08
+  page: 231
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'attelle à dépression limite les mouvements d'un membre traumatisé, diminue la douleur et prévient la survenue de complications. Elle immobilise le coude, l'avant-bras et le poignet (membre supérieur), le genou, la jambe et la cheville (membre inférieur). Elle peut aussi immobiliser un traumatisme de l'épaule avec éloignement du coude par rapport au corps."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Une enveloppe étanche à l'air et souple contenant des billes de polystyrène expansé."
+      - "Une vanne d'admission de l'air (entrée et sortie) sur laquelle s'adapte un dispositif d'aspiration de l'air."
+      - "Des sangles de maintien."
+      - "Elle n'est utilisée qu'avec une pompe d'aspiration manuelle ou électrique ; son principe de fonctionnement est identique à celui du matelas immobilisateur à dépression."
+      - "Pour certaines immobilisations (traumatisme de l'épaule), une écharpe ou une bande peut être nécessaire."
+  - type: chiffres
+    titre: Nombre de secouristes minimum
+    items:
+      - valeur: "3"
+        libelle: "Membre inférieur (secouristes 1 et 2 : maintien du membre ; secouriste 3 : attelle)"
+      - valeur: "2"
+        libelle: "Membre supérieur (les articulations sus et sous-jacentes sont maintenues par un seul secouriste)"
+      - valeur: "2"
+        libelle: "Épaule (attelle à dépression membre inférieur ou MID enfant, pliée en « N »)"
+  - type: etapes
+    titre: Membre inférieur (3 secouristes au minimum)
+    items:
+      - "Secouristes 1 et 2 : maintenir le membre blessé, après réalignement si nécessaire, au niveau des articulations sus et sous-jacentes au traumatisme, jusqu'à la mise en place de l'attelle."
+      - "Secouriste 3 : préparer l'attelle en répartissant également toutes les billes et en ouvrant la valve d'admission d'air."
+      - "Secouristes 1 et 2 : soulever le membre de quelques centimètres, tout en exerçant une traction douce au niveau de son extrémité, pour permettre le passage de l'attelle."
+      - "Secouriste 3 : glisser l'attelle sous le membre traumatisé en prenant soin d'englober les articulations sus et sous-jacentes."
+      - "Secouristes 1 et 2 : déposer le membre sur l'attelle et le maintenir."
+      - "Secouriste 3 : rabattre l'attelle de part et d'autre du membre pour lui donner la forme d'une gouttière."
+      - "Secouristes 1 et 2 : déplacer les mains qui soutiennent le membre blessé pour maintenir l'attelle contre le membre."
+      - "Secouriste 3 : faire le vide à l'intérieur de l'attelle en aspirant l'air jusqu'à ce qu'elle devienne rigide ; fermer la valve ; déconnecter le dispositif d'aspiration ; vérifier la bonne immobilisation et l'état de l'extrémité du membre."
+  - type: etapes
+    titre: Épaule avec éloignement du coude (2 secouristes au minimum)
+    items:
+      - "Secouriste 1 : maintenir le membre blessé."
+      - "Secouriste 2 : plier l'attelle en « N » et faire partiellement le vide. La vanne, placée sur la partie montante du « N », doit être à l'intérieur."
+      - "Secouriste 2 : rouler l'écharpe dans le sens de la longueur et la glisser entre les branches montante et oblique du « N », du côté de la vanne ; se placer face au blessé."
+      - "Secouriste 2 : introduire l'attelle sous le membre blessé, branche montante de la vanne contre le thorax et l'abdomen de la victime."
+      - "Secouriste 1 : maintenir le membre blessé et l'attelle."
+      - "Secouriste 2 : passer les deux chefs de l'écharpe roulée sur l'épaule opposée et les nouer ; écarter l'attelle pour la plaquer contre le membre blessé, qui repose alors entre les branches oblique et extérieure du « N »."
+      - "Secouriste 1 : maintenir l'ensemble (membre blessé et attelle) en position."
+      - "Secouriste 2 : faire le vide jusqu'à ce que l'attelle devienne rigide ; fermer la valve et déconnecter le dispositif d'aspiration ; vérifier la bonne immobilisation et l'état de l'extrémité du membre."
+  - type: liste
+    titre: Évaluation, l'immobilisation est correcte si
+    items:
+      - "Le segment blessé et les articulations sus et sous-jacentes sont immobilisés par l'attelle."
+      - "L'attelle est correctement fixée."
+      - "La douleur ressentie par la victime diminue."
+      - "Aucun signe de compression n'apparaît après sa mise en place (circulation en aval correcte)."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Si la procédure de mise en place n'est pas respectée, le membre peut être mobilisé, ce qui entraîne douleur et complications."
+      - "Les articulations sus et sous-jacentes au traumatisme doivent toujours être englobées par l'attelle."
+      - "Vérifier l'état de l'extrémité du membre après la mise en place."
+qcm:
+  - id: q1
+    enonce: "Quelles zones du membre inférieur l'attelle à dépression permet-elle d'immobiliser ?"
+    propositions:
+      - Le genou, la jambe et la cheville
+      - La cuisse et le bassin
+      - Le rachis lombaire
+      - Le fémur uniquement
+    bonnes:
+      - 0
+    explication: "Elle assure l'immobilisation du genou, de la jambe et de la cheville pour le membre inférieur, et du coude, de l'avant-bras et du poignet pour le membre supérieur."
+  - id: q2
+    enonce: "Combien de secouristes au minimum sont nécessaires pour poser une attelle à dépression au membre inférieur ?"
+    propositions:
+      - Deux
+      - Trois
+      - Quatre
+      - Un seul
+    bonnes:
+      - 1
+    explication: "La mise en place au membre inférieur est réalisée par trois secouristes au minimum ; pour le membre supérieur, deux suffisent."
+  - id: q3
+    enonce: "Quelles opérations le secouriste 3 réalise-t-il en fin de procédure, une fois l'attelle rabattue en gouttière et maintenue ?"
+    propositions:
+      - Faire le vide jusqu'à ce que l'attelle devienne rigide
+      - Fermer la valve
+      - Déconnecter le dispositif d'aspiration
+      - Rouvrir la valve pour ajuster la forme
+      - Vérifier la bonne immobilisation et l'état de l'extrémité du membre
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 4
+    explication: "Il aspire l'air jusqu'à rigidité, ferme la valve, déconnecte le dispositif d'aspiration, puis vérifie l'immobilisation et l'état de l'extrémité du membre."
+  - id: q4
+    enonce: "Avant de glisser l'attelle, que fait le secouriste 3 pour la préparer ?"
+    propositions:
+      - Il la gonfle au maximum
+      - Il répartit également toutes les billes et ouvre la valve d'admission d'air
+      - Il ferme la valve pour conserver la forme
+      - Il la fixe d'abord avec les sangles
+    bonnes:
+      - 1
+    explication: "L'attelle est préparée en répartissant également les billes et en ouvrant la valve d'admission d'air."
+  - id: q5
+    enonce: "Pour immobiliser une épaule avec éloignement du coude, comment l'attelle à dépression est-elle disposée ?"
+    propositions:
+      - "Pliée en « N », vanne sur la partie montante à l'intérieur, écharpe roulée nouée sur l'épaule opposée"
+      - Posée à plat sous le dos de la victime
+      - Enroulée en cylindre autour du bras
+      - "Pliée en « U », vanne à l'extérieur"
+    bonnes:
+      - 0
+    explication: "L'attelle (membre inférieur ou MID enfant) est pliée en « N », vanne sur la partie montante à l'intérieur, et l'écharpe roulée est nouée sur l'épaule opposée ; le membre repose entre les branches oblique et extérieure."
+  - id: q6
+    enonce: "Quels critères indiquent que l'immobilisation est correcte ?"
+    propositions:
+      - La douleur ressentie par la victime diminue
+      - "Aucun signe de compression n'apparaît en aval"
+      - Les articulations sus et sous-jacentes sont immobilisées
+      - "L'attelle est légèrement souple pour permettre les mouvements"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'immobilisation est correcte si le segment blessé et les articulations voisines sont immobilisés, l'attelle est bien fixée, la douleur diminue et il n'y a pas de signe de compression."

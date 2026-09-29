@@ -1,0 +1,149 @@
+id: brulures-conduite-a-tenir
+niveau: PSE1
+chapitre: traumatismes
+type: procedure
+ordre: 2
+titre: Brûlures (conduite à tenir)
+motsCles: [refroidissement, eau tempérée, 20 minutes, 30 minutes, brûlure grave, brûlure chimique, brûlure électrique, couverture isotherme]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR01, 07-2026)
+  code: 07PR01
+  page: 203
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une brûlure, on soustrait la victime à la cause, on initie le bilan, on recueille les caractéristiques de la brûlure, puis on adapte la conduite selon la nature (thermique, électrique, chimique ou par inhalation) et la gravité."
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "En cas d'urgence ou de détresse vitale, ou d'aggravation : appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence."
+      - "Soustraire la victime à la cause et assurer une protection adaptée au contexte."
+      - "Initier le bilan et lutter contre la brûlure."
+      - "Recueillir les caractéristiques : surface, localisation, circonstances, traces noires autour des narines, de la bouche ou de la langue, raucité de la voix, produit, conditionnement, emballage, fiche de données de sécurité, etc."
+  - type: chiffres
+    titre: Refroidissement d'une brûlure thermique
+    items:
+      - valeur: "< 30 min"
+        libelle: "La brûlure s'est produite il y a moins de 30 minutes. Débuter l'arrosage après 30 minutes n'a pas d'intérêt."
+      - valeur: "< 20 %"
+        libelle: "Surface brûlée inférieure à 20 % chez l'adulte."
+      - valeur: "< 10 %"
+        libelle: "Surface brûlée inférieure à 10 % chez l'enfant ou le nourrisson."
+      - valeur: "≥ 10 min"
+        libelle: "Durée minimale de refroidissement à l'eau, idéalement 20 minutes."
+  - type: etapes
+    titre: Brûlure thermique, refroidir
+    items:
+      - "Refroidir immédiatement la surface brûlée avec de l'eau courante tempérée et à faible pression, pendant au moins 10 minutes, idéalement 20 minutes, tout en retirant les vêtements et les bijoux sur ou près de la peau brûlée (les vêtements seulement s'ils n'adhèrent pas à la peau)."
+      - "Conditions cumulatives : brûlure de moins de 30 minutes, victime consciente, sans détresse circulatoire, surface brûlée inférieure à 20 % chez l'adulte ou à 10 % chez l'enfant ou le nourrisson."
+      - "En l'absence de point d'eau tempérée, utiliser des compresses stériles enduites de gel d'eau, dans les mêmes conditions d'utilisation que l'arrosage, précisées par le fabricant ou l'autorité d'emploi."
+      - "Surveiller les jeunes enfants brûlés bénéficiant d'un refroidissement actif à l'eau courante pour détecter tout signe ou symptôme de refroidissement excessif du corps."
+  - type: etapes
+    titre: Si la brûlure est grave
+    items:
+      - "Dès le début de l'arrosage, demander un avis médical et appliquer les consignes."
+      - "Poursuivre le refroidissement selon les consignes données."
+      - "Après refroidissement, installer sans délai la victime en position d'attente, confortablement : allongée, ou assise en cas de gêne respiratoire."
+      - "Ne pas percer les cloques et protéger la brûlure par un pansement, un champ stérile ou un film plastique non adhésif (type film alimentaire, qui maintient l'humidité et épouse la zone brûlée). Si la surface brûlée est très étendue, envelopper la victime dans un drap stérile."
+      - "Envelopper la victime dans une couverture isotherme (elle lutte contre l'hypothermie qui peut survenir rapidement chez un brûlé grave)."
+  - type: etapes
+    titre: Si la brûlure est simple
+    items:
+      - "Poursuivre le refroidissement jusqu'à disparition de la douleur."
+      - "Ne jamais percer les cloques."
+      - "Protéger la brûlure par un pansement stérile ou un film plastique non adhésif."
+      - "Conseiller de consulter un médecin si la victime n'est pas à jour de sa vaccination antitétanique, s'il s'agit d'un enfant ou d'un nourrisson, ou si des signes d'infection apparaissent dans les jours suivants (fièvre, suintements, zone chaude, rouge, gonflée ou douloureuse, notamment dans les 24 heures)."
+  - type: etapes
+    titre: Brûlure électrique
+    items:
+      - "Appliquer la conduite à tenir face à une brûlure thermique grave, en l'adaptant."
+      - "Ne jamais toucher la victime avant la suppression du risque électrique."
+      - "Arroser les zones visiblement brûlées à l'eau courante tempérée."
+  - type: etapes
+    titre: Brûlure par produit chimique ou interne par inhalation
+    items:
+      - "Se protéger pour éviter tout contact avec l'origine de la brûlure."
+      - "Demander à la victime de se rincer immédiatement et abondamment à l'eau courante tempérée."
+      - "Projection sur les vêtements ou la peau : rincer l'ensemble du corps et ôter sous l'eau les vêtements imbibés de produit. Veiller à ce que la substance diluée par l'eau de rinçage ne nuise ni au secouriste ni aux tissus sains (peau non atteinte, œil non blessé, produit accumulé dans les chaussures, etc.)."
+      - "Projection dans l'œil : rincer l'œil atteint et faire retirer les lentilles de contact pendant le rinçage."
+      - "Ingestion : ne jamais faire vomir ni boire, et conserver les informations du produit (conditionnement, emballage, fiche de données de sécurité, etc.)."
+      - "Inhalation (fumées d'incendie, produits chimiques) : en présence de difficultés respiratoires, placer la victime en position assise."
+      - "Se laver les mains après les gestes de secours."
+  - type: etapes
+    titre: Dans tous les cas, ensuite
+    items:
+      - "Demander un avis médical en transmettant le bilan."
+      - "Adapter la conduite à tenir selon les consignes du médecin."
+      - "Installer sans délai la victime en position d'attente, confortablement (brancard, lit, chaise, canapé ou à défaut sur le sol)."
+      - "Poursuivre le bilan et surveiller attentivement la circulation et la respiration."
+  - type: attention
+    items:
+      - "Ne jamais percer les cloques."
+      - "Ne pas débuter l'arrosage plus de 30 minutes après la brûlure : cela n'a pas d'intérêt."
+      - "Ne jamais toucher une victime d'électrisation avant la suppression du risque électrique."
+      - "Ne jamais faire vomir ni boire en cas d'ingestion d'un produit."
+      - "En cas de brûlure par inhalation, les difficultés respiratoires peuvent survenir à distance de l'accident."
+qcm:
+  - id: q1
+    enonce: "Quelle est la durée de refroidissement d'une brûlure thermique à l'eau courante tempérée ?"
+    propositions:
+      - "Au moins 10 minutes, idéalement 20 minutes"
+      - "Au moins 2 minutes, idéalement 5 minutes"
+      - "Au moins 30 minutes, idéalement 60 minutes"
+      - "Uniquement jusqu'à l'arrivée des secours médicalisés"
+    bonnes: [0]
+    explication: "Le refroidissement dure au moins 10 minutes, idéalement 20 minutes, avec de l'eau courante tempérée et à faible pression."
+  - id: q2
+    enonce: "Dans quelle limite de temps après la brûlure l'arrosage a-t-il un intérêt ?"
+    propositions:
+      - "Dans les 2 heures"
+      - "Dans les 30 minutes"
+      - "Dans les 24 heures"
+    bonnes: [1]
+    explication: "L'arrosage est réalisé si la brûlure date de moins de 30 minutes ; débuter après 30 minutes n'a pas d'intérêt."
+  - id: q3
+    enonce: "Quelles conditions doivent être réunies pour refroidir immédiatement une brûlure thermique ?"
+    propositions:
+      - "Victime obligatoirement debout"
+      - "Brûlure de moins de 30 minutes"
+      - "Victime consciente et sans détresse circulatoire"
+      - "Surface brûlée inférieure à 20 % chez l'adulte"
+      - "Surface brûlée inférieure à 10 % chez l'enfant ou le nourrisson"
+    bonnes: [1, 2, 3, 4]
+    explication: "Les critères sont cumulatifs : moins de 30 minutes, victime consciente, pas de détresse circulatoire, surface inférieure à 20 % (adulte) ou 10 % (enfant, nourrisson)."
+  - id: q4
+    enonce: "Une victime présente une brûlure grave. Après le refroidissement, que fait-on ?"
+    propositions:
+      - "On perce les cloques pour évacuer le liquide"
+      - "On la protège par un pansement, un champ stérile ou un film plastique non adhésif"
+      - "On l'enveloppe dans une couverture isotherme"
+      - "On l'installe allongée, ou assise en cas de gêne respiratoire"
+    bonnes: [1, 2, 3]
+    explication: "Il ne faut jamais percer les cloques. On protège la brûlure, on enveloppe la victime dans une couverture isotherme (risque d'hypothermie) et on l'installe confortablement."
+  - id: q5
+    enonce: "En cas de projection de produit chimique dans l'œil, que doit-on faire ?"
+    propositions:
+      - "Neutraliser le produit avec un autre produit"
+      - "Bander l'œil sans le rincer"
+      - "Rincer l'œil atteint et faire retirer les lentilles de contact pendant le rinçage"
+    bonnes: [2]
+    explication: "On rince l'œil atteint à l'eau courante tempérée et on fait retirer les lentilles de contact pendant le rinçage."
+  - id: q6
+    enonce: "Une victime a avalé un produit caustique. Quelle conduite est correcte ?"
+    propositions:
+      - "La faire boire de l'eau abondamment"
+      - "Ne jamais la faire vomir ni boire"
+      - "Conserver les informations sur le produit (conditionnement, emballage, fiche de données de sécurité)"
+      - "La faire vomir rapidement"
+    bonnes: [1, 2]
+    explication: "En cas d'ingestion, on ne fait jamais vomir ni boire, et on conserve les informations du produit pour le bilan."
+  - id: q7
+    enonce: "Que faut-il faire avant toute action auprès d'une victime de brûlure électrique ?"
+    propositions:
+      - "Supprimer le risque électrique avant de la toucher"
+      - "L'arroser immédiatement"
+      - "La déplacer rapidement"
+    bonnes: [0]
+    explication: "On ne touche jamais la victime avant la suppression du risque électrique ; on arrose ensuite les zones visiblement brûlées à l'eau courante tempérée."

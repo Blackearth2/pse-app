@@ -1,0 +1,145 @@
+id: pose-attelle-cervico-thoracique
+niveau: PSE2
+chapitre: traumatismes
+type: technique
+ordre: 29
+titre: Pose de l'attelle cervico-thoracique
+motsCles: [attelle cervico-thoracique, ACT, extraction, victime incarcérée, sangles thoraciques, collier cervical, traumatisme de la colonne]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT13, 11-2021)
+  code: 07FT13
+  page: 250
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'attelle cervico-thoracique (ACT) immobilise la tête, la nuque et le dos d'une victime suspecte d'un traumatisme de la colonne vertébrale, le plus souvent en position assise, pour assurer son dégagement ou son extraction (victime incarcérée). Elle est mise en place après pose d'un collier cervical. Sa mise en place est toujours difficile et doit être prudente pour ne pas mobiliser elle-même le rachis. L'ACT n'est pas un moyen d'immobilisation à utiliser pour le transport."
+  - type: chiffres
+    titre: Composition de l'ACT
+    items:
+      - valeur: "3"
+        libelle: "sangles thoraciques"
+      - valeur: "2"
+        libelle: "sangles de cuisses"
+      - valeur: "3"
+        libelle: "secouristes nécessaires (1 pour la tête, 2 pour l'installation)"
+  - type: liste
+    titre: Matériel
+    items:
+      - "Un corset semi-rigide (dans le sens de la hauteur) : bande thoracique reliée à un rabat qui immobilise la tête."
+      - "3 sangles thoraciques et 2 sangles de cuisses."
+      - "Poignées de portage."
+      - "Un coussin de tête."
+      - "Sangles de maintien de la tête au niveau du front et du menton."
+      - "Un sac de rangement."
+  - type: liste
+    titre: Rôles des trois intervenants
+    items:
+      - "Secouriste 1 : placé de préférence derrière la victime, il maintient la tête à deux mains pendant toute la manœuvre."
+      - "Secouristes 2 et 3 : placés de part et d'autre de la victime, ils installent l'ACT."
+  - type: etapes
+    titre: Conduite à tenir (après pose du collier cervical)
+    items:
+      - "Secouriste 2 ou 3 : contrôler la motricité et la sensibilité de l'extrémité de chaque membre, si cela n'a pas été fait au cours du 4e regard."
+      - "Secouristes 2 et 3 : décoller légèrement la victime du dossier du siège en maintenant l'axe tête-cou-tronc, puis examiner le dos."
+      - "Secouriste 2 ou 3 : insérer l'ACT, extrémité de la tête en premier, entre le dos de la victime et le dossier du siège, sans toucher les avant-bras du secouriste qui maintient la tête."
+      - "Secouristes 2 et 3 : centrer l'ACT sur l'axe de la colonne vertébrale."
+      - "Secouristes 2 et 3 : ramener la victime au contact de l'ACT."
+      - "Secouristes 2 et 3 : glisser les parties mobiles du corset sous les bras de la victime (partie supérieure des bandes thoraciques au contact des aisselles)."
+      - "Maintenir le corset en attachant la sangle thoracique du milieu, puis l'inférieure, puis la supérieure."
+      - "Attacher les sangles de cuisses en les passant sous les cuisses."
+      - "Serrer alors l'ensemble des sangles."
+      - "Combler si nécessaire l'espace entre la bande de tête et la partie postérieure de la tête avec le coussin plié."
+      - "Maintenir les bandes de chaque côté de la tête par les deux sangles : l'une sur le front, l'autre sous le menton, sur la partie haute et rigide du collier cervical (les doigts du secouriste 1 sont déplacés pour permettre cette manœuvre)."
+      - "Ajuster et resserrer si nécessaire les fixations pour que l'attelle ne bouge pas et ne glisse pas pendant le déplacement ou le relevage, en évitant de comprimer le thorax et de limiter les mouvements respiratoires."
+      - "À la fin : contrôler la motricité et la sensibilité de l'extrémité de chaque membre ; le maintien de la tête peut alors être relâché."
+  - type: liste
+    titre: Cas particuliers
+    items:
+      - "Enfant : si l'ACT est trop grande, il est possible de rouler une couverture devant le thorax et l'abdomen."
+      - "Femme enceinte (derniers mois de grossesse) : ne pas serrer la sangle thoracique inférieure sur l'abdomen."
+      - "Traumatisme du thorax : ne pas trop serrer la sangle thoracique supérieure, pour ne pas gêner la respiration."
+      - "Sangles de cuisses : elles peuvent éventuellement être croisées devant le pubis, s'il n'y a pas de traumatisme du bassin."
+      - "Suspicion de fracture du fémur : ne pas placer la sangle de la cuisse correspondante."
+  - type: texte
+    titre: Extraction puis transfert dans le matelas immobilisateur à dépression
+    contenu: "Une fois la victime dans l'ACT, l'extraction peut être effectuée, éventuellement à l'aide d'un plan dur. La victime est ensuite transférée dans un matelas immobilisateur à dépression : elle peut être saisie par les poignées de l'ACT, les membres inférieurs étant saisis par deux secouristes ; le troisième secouriste peut aider. Une fois la victime allongée sur le matelas, l'ACT doit être retirée avant de rendre rigide le matelas."
+  - type: etapes
+    titre: Retrait de l'ACT (avant le transport vers l'hôpital)
+    items:
+      - "Une fois la victime dans le matelas immobilisateur, retirer les sangles de fixation."
+      - "Soulever la victime avec l'une de ces techniques : pont à 4 porteurs (une 5e personne retire l'ACT quand la victime est soulevée de quelques centimètres) ; brancard cuillère en présence de 3 secouristes ; pont à 3 porteurs (une 4e personne retire l'ACT quand la victime est soulevée de quelques centimètres)."
+      - "Si un plan dur est présent sous la victime, le retirer en même temps que l'ACT."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "La mise en place de l'ACT est difficile et génère souvent une mobilisation du rachis : seuls des mouvements sûrs et réfléchis limitent ce risque."
+      - "Sangles thoraciques serrées : limitation des mouvements de la cage thoracique, donc risque d'aggraver une détresse respiratoire."
+      - "Utilisation limitée aux opérations de dégagement ou d'extraction ; l'ACT est retirée avant le transport en raison des risques secondaires (difficultés respiratoires)."
+  - type: liste
+    titre: Critères d'évaluation
+    items:
+      - "La tête est parfaitement maintenue et l'immobilisation du rachis est assurée pour l'extraction."
+      - "L'ACT est retirée une fois la victime posée sur le matelas immobilisateur à dépression."
+qcm:
+  - id: q1
+    enonce: "Dans quelle situation l'attelle cervico-thoracique est-elle principalement utilisée ?"
+    propositions:
+      - "Pour le transport de toute victime suspecte d'un traumatisme du rachis"
+      - "Pour le dégagement ou l'extraction d'une victime suspecte d'un traumatisme de la colonne, le plus souvent en position assise"
+      - "Pour immobiliser un membre fracturé"
+      - "Pour une victime allongée sur le dos sur le sol"
+    bonnes: [1]
+    explication: "L'ACT sert au dégagement ou à l'extraction (victime incarcérée), le plus souvent en position assise. Ce n'est pas un moyen d'immobilisation pour le transport."
+  - id: q2
+    enonce: "Combien de secouristes sont nécessaires à la pose d'une ACT ?"
+    propositions:
+      - "2"
+      - "3"
+      - "4"
+    bonnes: [1]
+    explication: "Un secouriste maintient la tête (secouriste 1), deux autres installent l'ACT (secouristes 2 et 3)."
+  - id: q3
+    enonce: "Avant l'installation de l'ACT, quel dispositif doit être déjà en place ?"
+    propositions:
+      - "Un plan dur"
+      - "Un collier cervical"
+      - "Un matelas à dépression"
+      - "Un immobilisateur de tête"
+    bonnes: [1]
+    explication: "L'ACT est mise en place après avoir placé un collier cervical."
+  - id: q4
+    enonce: "Dans quel ordre attache-t-on les sangles thoraciques ?"
+    propositions:
+      - "Supérieure, milieu, inférieure"
+      - "Milieu, puis inférieure, puis supérieure"
+      - "Inférieure, milieu, supérieure"
+      - "Supérieure, inférieure, milieu"
+    bonnes: [1]
+    explication: "Le corset est maintenu en attachant la sangle thoracique du milieu, puis l'inférieure, puis la supérieure."
+  - id: q5
+    enonce: "Quelles précautions s'appliquent aux sangles selon la victime ?"
+    propositions:
+      - "Femme enceinte en fin de grossesse : ne pas serrer la sangle thoracique inférieure sur l'abdomen"
+      - "Traumatisme du thorax : ne pas trop serrer la sangle thoracique supérieure"
+      - "Suspicion de fracture du fémur : ne pas placer la sangle de la cuisse correspondante"
+      - "Traumatisme du bassin : croiser les sangles de cuisses devant le pubis"
+    bonnes: [0, 1, 2]
+    explication: "Les sangles de cuisses ne peuvent être croisées devant le pubis qu'en l'absence de traumatisme du bassin ; les trois autres précautions figurent dans la fiche."
+  - id: q6
+    enonce: "Quand l'ACT doit-elle être retirée ?"
+    propositions:
+      - "Une fois la victime posée sur le matelas immobilisateur à dépression, avant de rigidifier le matelas et avant le transport"
+      - "À l'arrivée à l'hôpital"
+      - "Elle reste en place pendant tout le transport"
+    bonnes: [0]
+    explication: "L'ACT est retirée avant le transport (risques secondaires respiratoires) : une fois la victime sur le matelas, et avant de rendre le matelas rigide."
+  - id: q7
+    enonce: "Pour retirer l'ACT par un pont à 4 porteurs, quel autre intervenant est nécessaire ?"
+    propositions:
+      - "Aucun"
+      - "Une 5e personne qui retire l'ACT quand la victime est soulevée de quelques centimètres"
+      - "Une 5e personne qui maintient le collier cervical"
+    bonnes: [1]
+    explication: "Avec le pont à 4 porteurs, une 5e personne retire l'ACT ; avec le pont à 3 porteurs, une 4e personne. Le brancard cuillère nécessite 3 secouristes."

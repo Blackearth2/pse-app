@@ -1,0 +1,129 @@
+id: traumatisme-membres-connaissances
+niveau: PSE1
+chapitre: traumatismes
+type: connaissance
+ordre: 17
+titre: Traumatisme des membres (connaissances)
+motsCles: [entorse, luxation, fracture, fracture ouverte, membres, complications vasculaires, complications nerveuses]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC07, 12-2023)
+  code: 07AC07
+  page: 223
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Il existe trois types d'atteintes des os et des articulations des membres : l'entorse, la luxation et la fracture. Les fractures de la cuisse ou de multiples fractures de membres peuvent entraîner une détresse circulatoire."
+  - type: liste
+    titre: Définitions
+    items:
+      - "Entorse : lésion traumatique avec élongation, déchirure ou arrachement d'un ou plusieurs ligaments à la suite d'un mouvement exagéré ou forcé (faux mouvement), créant un écartement transitoire des deux extrémités osseuses ; elle peut s'accompagner d'un arrachement osseux."
+      - "Luxation : lésion traumatique d'une articulation avec perte complète et permanente des rapports articulaires normaux (articulation déboîtée) ; les deux extrémités des os ne sont plus au contact. Elle peut s'accompagner d'une fracture ou d'une atteinte des nerfs et des vaisseaux, et le plus souvent d'une lésion ou déchirure des ligaments."
+      - "Fracture : rupture totale ou partielle de l'os, dite simple (sans lésions associées visibles) ou compliquée (lésions des structures adjacentes — nerfs, ligaments, muscles, vaisseaux —, plaie associée [fracture ouverte] et/ou déplacement)."
+  - type: liste
+    titre: Causes et mécanisme
+    items:
+      - "Chute lors d'activités de sport, de travail ou de loisir, accident de circulation, agression."
+      - "Traumatisme direct : la lésion se situe à l'endroit du choc."
+      - "Traumatisme indirect : la lésion est provoquée par un mouvement forcé en flexion, en extension ou en rotation."
+      - "Pénétration d'un corps étranger : blessures par arme à feu."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Atteinte des vaisseaux : gonflement du membre (hématome), extrémité du membre froide et pâle."
+      - "Lésion des nerfs : fourmillements à l'extrémité du membre atteint, parfois disparition de la sensibilité ou de la motricité des doigts ou des orteils."
+      - "Plaie : il s'agit alors d'une fracture ouverte, qui peut être hémorragique."
+      - "Les fractures de la cuisse ou de multiples fractures de membres peuvent entraîner une détresse circulatoire."
+  - type: liste
+    titre: Signes
+    items:
+      - "Mécanisme : traumatisme des membres ou des articulations (chute, choc violent, etc.)."
+      - "Plainte de la victime : perception d'un craquement au moment de la chute ou du choc ; douleur vive à l'endroit de la blessure ou à côté, augmentée par le mouvement ou la palpation ; difficulté, voire impossibilité, à bouger le membre atteint ou à se déplacer."
+      - "À l'examen : déformation et gonflement visibles au niveau de la lésion."
+      - "Chez la victime qui a perdu connaissance, même sans déformation ni gonflement visible, une manifestation douloureuse lors de la palpation ou de la mobilisation doit faire suspecter une fracture."
+      - "Certaines lésions sont difficiles à identifier : le traumatisme de membre est alors seulement suspecté par le secouriste et confirmé éventuellement lors de l'examen médical et radiographique."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Rechercher le mécanisme de survenue de la lésion et sa violence."
+      - "Empêcher l'aggravation en évitant tout déplacement de la zone blessée."
+      - "Rechercher et parer à toutes complications associées."
+      - "Immobiliser la lésion avec du matériel spécifique avant tout déplacement de la victime."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Chez une victime inconsciente, une douleur à la palpation ou à la mobilisation fait suspecter une fracture même sans déformation visible."
+      - "L'immobilisation est réalisée avant tout déplacement de la victime."
+qcm:
+  - id: q1
+    enonce: "Quels sont les trois types d'atteintes des os et des articulations des membres ?"
+    propositions:
+      - L'entorse
+      - La luxation
+      - La fracture
+      - La brûlure
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Entorse, luxation et fracture sont les trois types d'atteintes décrits."
+  - id: q2
+    enonce: "Qu'est-ce qu'une luxation ?"
+    propositions:
+      - Une déchirure de la peau
+      - Une lésion d'une articulation avec perte complète et permanente des rapports articulaires normaux (articulation déboîtée)
+      - Une rupture partielle de l'os
+    bonnes:
+      - 1
+    explication: "La luxation est un déboîtement de l'articulation : les deux extrémités osseuses ne sont plus au contact."
+  - id: q3
+    enonce: "Quels signes évoquent une atteinte des vaisseaux d'un membre ?"
+    propositions:
+      - Gonflement du membre (hématome)
+      - Extrémité du membre froide et pâle
+      - Fourmillements à l'extrémité du membre
+    bonnes:
+      - 0
+      - 1
+    explication: "Gonflement (hématome), extrémité froide et pâle traduisent une atteinte vasculaire ; les fourmillements traduisent une lésion des nerfs."
+  - id: q4
+    enonce: "Quelle situation peut entraîner une détresse circulatoire ?"
+    propositions:
+      - Une entorse du poignet
+      - Une fracture de la cuisse ou de multiples fractures de membres
+      - Une fracture du doigt
+    bonnes:
+      - 1
+    explication: "Les fractures de la cuisse ou de multiples fractures de membres peuvent entraîner une détresse circulatoire."
+  - id: q5
+    enonce: "Comment est qualifiée une fracture accompagnée d'une plaie ?"
+    propositions:
+      - Fracture simple
+      - Fracture ouverte, qui peut être hémorragique
+      - Entorse grave
+    bonnes:
+      - 1
+    explication: "Une fracture avec plaie est une fracture ouverte, qui peut être hémorragique ; elle est dite compliquée."
+  - id: q6
+    enonce: "Que doit faire suspecter, chez une victime inconsciente, une douleur lors de la palpation ou de la mobilisation d'un membre ?"
+    propositions:
+      - Une fracture, même sans déformation ni gonflement visible
+      - Un simple hématome sans gravité
+      - Rien de particulier
+    bonnes:
+      - 0
+    explication: "Chez la victime qui a perdu connaissance, cette douleur doit faire suspecter une fracture."
+  - id: q7
+    enonce: "Quel est le principe de l'action de secours face à un traumatisme des membres ?"
+    propositions:
+      - Empêcher l'aggravation en évitant tout déplacement de la zone blessée
+      - Immobiliser la lésion avec du matériel spécifique avant tout déplacement
+      - Rechercher et parer à toutes complications associées
+      - Faire marcher la victime pour tester la douleur
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le principe associe absence de déplacement, immobilisation avant tout déplacement, recherche et prise en charge des complications, et avis médical."
