@@ -1,0 +1,125 @@
+id: crise-convulsive-generalisee-connaissances
+niveau: PSE1
+chapitre: malaises
+type: connaissance
+ordre: 10
+titre: Crise convulsive généralisée (connaissances)
+motsCles: [crise convulsive, convulsions, épilepsie, état de mal convulsif, fièvre du nourrisson, 2e regard]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC04, 06-2018)
+  code: 06AC04
+  page: 190
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La crise convulsive généralisée est une perturbation de l'activité électrique cérébrale. Elle se traduit par une perte de connaissance et/ou un regard fixe, avec des mouvements musculaires incontrôlés de tout le corps (convulsions)."
+  - type: liste
+    titre: Causes possibles
+    items:
+      - "Traumatisme crânien ou ses séquelles."
+      - "Maladies entraînant des lésions cérébrales (infections, tumeurs, AVC)."
+      - "Absorption de certains poisons ou toxiques."
+      - "Hypoglycémie."
+      - "Manque d'oxygène au niveau du cerveau, particulièrement dans les premières secondes d'un arrêt cardiaque."
+      - "Épilepsie : maladie caractérisée par des crises convulsives récidivantes, habituellement contrôlée par des médicaments."
+      - "Chez l'enfant, plus particulièrement le nourrisson : variation soudaine de la température (fièvre)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Traumatismes lors de la chute ou des mouvements incontrôlés."
+      - "Obstruction des voies aériennes (détresse respiratoire) chez une victime sans connaissance si elle est laissée sur le dos ou si elle vomit."
+  - type: etapes
+    titre: Signes de la crise chez l'adulte et l'enfant
+    items:
+      - "Signes annonciateurs possibles : sensation ou impression inhabituelle (hallucination visuelle ou olfactive)."
+      - "Premier temps : perte brutale de connaissance avec chute de la victime."
+      - "Deuxième temps : raideur et secousses musculaires involontaires et rythmées touchant un ou plusieurs membres, avec révulsion des globes oculaires, respiration irrégulière ou absente, hypersalivation et contracture des muscles de la mâchoire. Cette phase dure en règle générale moins de cinq minutes ; la victime peut se mordre la langue."
+      - "Troisième temps : après les secousses, la victime reste sans connaissance plusieurs minutes, avec une respiration parfois bruyante. Elle peut perdre ses urines, plus rarement ses selles."
+      - "Reprise progressive de conscience : la victime peut être hébétée, le regard fixe ou avoir un comportement étrange ; elle ne se souvient de rien (amnésie des circonstances)."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "2e regard"
+        libelle: "Moment où la crise convulsive généralisée est facilement identifiable."
+      - valeur: "< 5 minutes"
+        libelle: "Durée en règle générale de la phase de raideur et de secousses."
+  - type: texte
+    titre: État de mal convulsif
+    contenu: "La victime peut enchaîner plusieurs crises convulsives, avec ou sans reprise de conscience entre les crises. C'est l'état de mal convulsif, qui nécessite une prise en charge médicale urgente."
+  - type: liste
+    titre: Chez le nourrisson
+    items:
+      - "La crise est habituellement provoquée par la fièvre lors d'une maladie infectieuse ou d'une exposition exagérée à la chaleur."
+      - "Elle s'accompagne d'une révulsion oculaire, d'une hypotonie et d'un tremblement des paupières."
+      - "Pâleur ou cyanose en cas d'arrêt de la respiration."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Éviter que la victime ne se blesse."
+      - "Éviter l'apparition d'une détresse respiratoire."
+qcm:
+  - id: q1
+    enonce: "Comment se déroule classiquement une crise convulsive généralisée chez l'adulte ?"
+    propositions:
+      - "Perte brutale de connaissance avec chute, puis raideur et secousses musculaires, puis perte de connaissance de plusieurs minutes"
+      - "Secousses musculaires isolées, sans perte de connaissance ni chute"
+      - "Fièvre élevée, puis pâleur, puis sueurs abondantes"
+    bonnes:
+      - 0
+    explication: "La crise débute par une perte brutale de connaissance avec chute, se poursuit par une phase de raideur et de secousses rythmées, puis la victime reste sans connaissance plusieurs minutes."
+  - id: q2
+    enonce: "Quelle est en règle générale la durée de la phase de raideur et de secousses musculaires ?"
+    propositions:
+      - "Une trentaine de minutes"
+      - "Moins de cinq minutes"
+      - "Plus d'une heure"
+    bonnes:
+      - 1
+    explication: "Cette phase dure en règle générale moins de cinq minutes, période pendant laquelle la victime peut se mordre la langue."
+  - id: q3
+    enonce: "Parmi ces situations, lesquelles peuvent être à l'origine d'une crise convulsive ?"
+    propositions:
+      - "Une hypoglycémie"
+      - "Un traumatisme crânien ou ses séquelles"
+      - "Un manque d'oxygène au cerveau dans les premières secondes d'un arrêt cardiaque"
+      - "Un tissu plié placé sous la tête"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'hypoglycémie, le traumatisme crânien ou ses séquelles et le manque d'oxygène cérébral (premières secondes d'un arrêt cardiaque) figurent parmi les causes citées."
+  - id: q4
+    enonce: "Que désigne l'état de mal convulsif ?"
+    propositions:
+      - "Une crise unique de plus de dix minutes sans autre signe"
+      - "La phase de somnolence après une crise"
+      - "L'enchaînement de plusieurs crises convulsives, avec ou sans reprise de conscience entre les crises"
+      - "Une crise provoquée uniquement par la fièvre"
+    bonnes:
+      - 2
+    explication: "L'état de mal convulsif correspond à l'enchaînement de plusieurs crises, avec ou sans reprise de conscience entre elles. Il nécessite une prise en charge médicale urgente."
+  - id: q5
+    enonce: "Quel risque majeur menace une victime inconsciente après une crise si elle est laissée sur le dos ou si elle vomit ?"
+    propositions:
+      - "Une hypoglycémie"
+      - "Une obstruction des voies aériennes (détresse respiratoire)"
+      - "Une hémorragie externe"
+    bonnes:
+      - 1
+    explication: "Une victime sans connaissance laissée sur le dos ou qui vomit risque une obstruction des voies aériennes, donc une détresse respiratoire."
+  - id: q6
+    enonce: "Quels signes accompagnent la crise convulsive du nourrisson ?"
+    propositions:
+      - "Contracture des muscles de la mâchoire uniquement"
+      - "Révulsion oculaire"
+      - "Hypotonie"
+      - "Tremblement des paupières"
+      - "Pâleur ou cyanose en cas d'arrêt de la respiration"
+    bonnes:
+      - 1
+      - 2
+      - 3
+      - 4
+    explication: "Chez le nourrisson, la crise, habituellement liée à la fièvre, s'accompagne d'une révulsion oculaire, d'une hypotonie, d'un tremblement des paupières et d'une pâleur ou cyanose si la respiration s'arrête."

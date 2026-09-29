@@ -1,0 +1,132 @@
+id: malaise-aggravation-maladie-connaissances
+niveau: PSE1
+chapitre: malaises
+type: connaissance
+ordre: 1
+titre: Malaise et aggravation de maladie (connaissances)
+motsCles: [malaise, malaise bénin, malaise grave, aggravation de maladie, 4e regard, signes de gravité, fréquence cardiaque]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC01, 06-2018)
+  code: 06AC01
+  page: 175
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le malaise est une sensation pénible traduisant un trouble du fonctionnement de l'organisme, sans que la victime puisse en identifier l'origine. Il peut être fugace ou durable, brutal ou progressif, ou correspondre à une maladie qui s'aggrave. Parfois la victime ne s'en rend pas compte ou ne peut l'exprimer : c'est son entourage qui constate l'anomalie et demande d'intervenir. Certaines personnes ont des malaises répétitifs, souvent identiques, typiques d'une maladie (troubles cardiaques, diabète, asthme)."
+  - type: liste
+    titre: Malaise bénin et malaise grave
+    items:
+      - "Malaise bénin (le plus courant) : pas de détresse vitale, les signes disparaissent après quelques minutes de repos. La cause est souvent facilement identifiable : fatigue et manque de sommeil, stress, émotion, colère, douleur violente, erreurs alimentaires (repas copieux bien arrosé ou jeûne trop prolongé)."
+      - "Malaise grave : peut révéler une situation pouvant à tout moment entraîner une détresse vitale. Les manifestations, intenses et localisées, peuvent caractériser une maladie potentiellement grave et ne s'améliorent pas spontanément ou se répètent malgré la mise au repos."
+  - type: liste
+    titre: Causes possibles d'un malaise ou d'une aggravation de maladie
+    items:
+      - "Modification des conditions de vie : alimentation (jeûne prolongé, excès), exercice physique (intense, prolongé, inhabituel), surmenage, fatigue, manque de sommeil, stress, émotions, traitements médicamenteux (prescription récente, modification de posologie, arrêt brutal d'un traitement au long cours)."
+      - "Expression d'un problème de santé non connu : accident vasculaire cérébral ou traumatisme cérébral accidentel récent, hypo ou hypertension artérielle, hypo ou hyperglycémie, fièvre élevée."
+      - "À ne pas confondre avec des signes secondaires à une exposition à des facteurs thermiques extrêmes (hypothermie par exposition accidentelle au froid, hyperthermie comme le coup de chaleur) ou à un produit toxique (monoxyde de carbone, drogue, alcool...)."
+  - type: liste
+    titre: Signes de gravité (victime consciente)
+    items:
+      - "Sensation de froid (victime couverte de sueur sans avoir fourni d'effort ou sans que la température ambiante en soit la cause)"
+      - Pâleur intense
+      - "Difficulté à respirer (la victime ne peut plus parler ou le fait avec de grandes difficultés)"
+      - Paralysie du bras ou de la jambe, même transitoire
+      - Difficulté à parler et déformation de la bouche
+      - "Température de la peau très élevée ou très basse après une exposition prolongée respectivement à la chaleur ou au froid, en particulier chez le nourrisson et la personne âgée"
+  - type: texte
+    titre: Rôle du 4e regard
+    contenu: "En l'absence de signe de détresse vitale rapidement identifiable, c'est le 4e regard qui permet de retrouver les signes d'un malaise."
+  - type: liste
+    titre: Plainte de la victime (symptômes)
+    items:
+      - "Angoisse exprimée par des mots (« Je ne me sens pas bien », « je me sens mal », « je vais mourir... »)"
+      - "Douleur « dans la poitrine » ou « au ventre », inhabituelle"
+      - Difficulté à respirer
+      - Faiblesse brutale et intense
+      - Difficulté à réaliser certains mouvements
+      - Troubles visuels ou auditifs
+      - Sensation de chaleur ou de froid
+      - Nausées, vertiges
+      - Maux de tête intenses et récents
+  - type: liste
+    titre: Interrogatoire et examen de la victime
+    items:
+      - "Interrogatoire : recherche d'antécédents médicaux (maladies) et de l'existence d'un traitement à prendre régulièrement ou en cas de malaise."
+      - "Examen : difficulté d'élocution, paralysie d'une partie du corps, troubles de l'orientation dans l'espace (« où sommes-nous ? ») et dans le temps (« quelle est la date d'aujourd'hui ? »)."
+      - "Examen : tremblements, extrémités bleutées (cyanose), vomissements, diarrhées."
+  - type: chiffres
+    titre: Seuils de l'examen
+    items:
+      - valeur: "> 120 / min"
+        libelle: "Fréquence cardiaque élevée (signe de gravité)"
+      - valeur: "< 40 / min"
+        libelle: "Fréquence cardiaque basse (signe de gravité)"
+      - valeur: "> 20 mouvements / min"
+        libelle: "Fréquence respiratoire élevée (signe de gravité)"
+  - type: texte
+    titre: Risques et principe de l'action de secours
+    contenu: "Un malaise grave peut à tout moment évoluer vers une détresse vitale. Principe : apprécier la gravité du malaise ou de l'aggravation de la maladie ; installer la victime dans une position confortable ; demander un avis médical."
+qcm:
+  - id: q1
+    enonce: "Comment se caractérise un malaise bénin ?"
+    propositions:
+      - "La victime ne montre pas de détresse vitale et les signes disparaissent après quelques minutes de repos"
+      - "Les signes sont intenses, localisés et se répètent malgré la mise au repos"
+      - "Il révèle toujours une maladie potentiellement grave"
+    bonnes:
+      - 0
+    explication: "Le malaise bénin est le plus courant : pas de détresse vitale, signes disparaissant après quelques minutes de repos. Les signes intenses, localisés et répétés malgré le repos caractérisent le malaise grave."
+  - id: q2
+    enonce: "Parmi ces situations, lesquelles sont des causes courantes d'un malaise bénin ?"
+    propositions:
+      - Fatigue et manque de sommeil
+      - Paralysie du bras
+      - Douleur violente
+      - Jeûne trop prolongé
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Fatigue, stress, émotion, colère, douleur violente et erreurs alimentaires (repas copieux bien arrosé, jeûne trop prolongé) sont des causes identifiables de malaise bénin. Une paralysie du bras est un signe de gravité."
+  - id: q3
+    enonce: "Quels sont les seuils de fréquence cardiaque considérés comme des signes du malaise lors de l'examen ?"
+    propositions:
+      - "Supérieure à 100 ou inférieure à 60 battements par minute"
+      - "Supérieure à 120 ou inférieure à 40 battements par minute"
+      - "Supérieure à 140 ou inférieure à 50 battements par minute"
+      - "Supérieure à 120 ou inférieure à 60 battements par minute"
+    bonnes:
+      - 1
+    explication: "L'examen recherche une fréquence cardiaque supérieure à 120 battements par minute ou inférieure à 40 battements par minute."
+  - id: q4
+    enonce: "Quelle fréquence respiratoire est recherchée comme signe lors de l'examen d'un malaise ?"
+    propositions:
+      - "Supérieure à 20 mouvements par minute"
+      - "Inférieure à 12 mouvements par minute"
+      - "Supérieure à 40 mouvements par minute"
+    bonnes:
+      - 0
+    explication: "Le texte cite une fréquence respiratoire supérieure à vingt mouvements par minute."
+  - id: q5
+    enonce: "À quel moment du bilan retrouve-t-on les signes d'un malaise en l'absence de signe de détresse vitale rapidement identifiable ?"
+    propositions:
+      - Au 1er regard
+      - Au 4e regard
+      - Au 2e regard uniquement
+    bonnes:
+      - 1
+    explication: "En l'absence de signe de détresse vitale rapidement identifiable, c'est le 4e regard qui permet de retrouver les signes d'un malaise."
+  - id: q6
+    enonce: "Quels éléments font partie du principe de l'action de secours face à un malaise ?"
+    propositions:
+      - Apprécier la gravité du malaise
+      - Installer la victime dans une position confortable
+      - Demander un avis médical
+      - Faire boire systématiquement la victime
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le principe est d'apprécier la gravité, d'installer la victime confortablement et de demander un avis médical. Faire boire n'est pas cité."

@@ -1,0 +1,97 @@
+id: avc-conduite-a-tenir
+niveau: PSE2
+chapitre: malaises
+type: procedure
+ordre: 9
+titre: Accident vasculaire cérébral (conduite à tenir)
+motsCles: [AVC, AIT, position à plat, position latérale de sécurité, glycémie capillaire, unité neuro-vasculaire, transport]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR03, 07-2026)
+  code: 06PR03
+  page: 189
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une urgence, une détresse vitale ou une aggravation, on applique la conduite à tenir adaptée et on réalise en priorité les gestes d'urgence qui s'imposent. Si la victime est consciente et présente des signes d'AVC ou d'AIT, on applique la conduite à tenir devant un malaise, adaptée comme suit."
+  - type: etapes
+    titre: Victime consciente présentant des signes d'AVC ou d'AIT
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise, puis l'adapter."
+      - "Installer la victime en position strictement horizontale à plat, ou en position latérale de sécurité si elle présente des nausées et des vomissements."
+      - "Lors du 4e regard : réaliser une mesure de la glycémie capillaire ; rechercher les éléments spécifiques de l'AVC, les signes, les facteurs de risque et les antécédents particuliers ou nécessaires à la prise en charge."
+      - "Transmettre le bilan pour obtenir un avis médical et respecter les consignes (le médecin régulateur peut demander de rechercher d'autres signes spécifiques ou mettre en relation avec un neurologue)."
+      - "Poursuivre le bilan et surveiller attentivement l'évolution des signes d'AVC, la conscience et la respiration."
+  - type: etapes
+    titre: Transport
+    items:
+      - "Maintenir la victime dans la position initiale pendant son transport."
+  - type: texte
+    titre: Orientation
+    contenu: "Les victimes d'AVC sont idéalement acheminées vers un centre spécialisé (unité de soins intensifs neurologiques ou unité neuro-vasculaire). La prise en charge précoce apporte des bénéfices réels par rapport à une prise en charge conventionnelle, avec un risque de mortalité et de séquelles réduit."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Près des 2/3 des victimes d'AVC présentent des troubles de la déglutition associés."
+      - "La position est strictement horizontale à plat, sauf nausées ou vomissements (position latérale de sécurité)."
+      - "La glycémie capillaire est mesurée au 4e regard."
+qcm:
+  - id: q1
+    enonce: "Dans quelle position installe-t-on une victime consciente présentant des signes d'AVC ?"
+    propositions:
+      - "Assise"
+      - "Strictement horizontale à plat"
+      - "Cuisses fléchies, jambes repliées"
+    bonnes:
+      - 1
+    explication: "La victime est installée en position strictement horizontale à plat, ou en PLS si elle présente des nausées et des vomissements."
+  - id: q2
+    enonce: "Quelle position adopter si la victime présente des nausées et des vomissements ?"
+    propositions:
+      - "La position latérale de sécurité"
+      - "La position demi-assise"
+      - "La position à plat dos"
+    bonnes:
+      - 0
+    explication: "En cas de nausées et de vomissements, la victime est installée en position latérale de sécurité."
+  - id: q3
+    enonce: "Que réalise-t-on lors du 4e regard devant une victime présentant des signes d'AVC ?"
+    propositions:
+      - "Une mesure de la glycémie capillaire"
+      - "La recherche des éléments spécifiques de l'AVC, des facteurs de risque et des antécédents"
+      - "Un électrocardiogramme systématique"
+    bonnes:
+      - 0
+      - 1
+    explication: "Au 4e regard, on mesure la glycémie capillaire et on recherche les éléments spécifiques, facteurs de risque et antécédents particuliers."
+  - id: q4
+    enonce: "Que faut-il surveiller attentivement après la transmission du bilan ?"
+    propositions:
+      - "L'évolution des signes d'AVC"
+      - "La conscience"
+      - "La respiration"
+      - "La pression des pneus du véhicule"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La surveillance porte sur l'évolution des signes d'AVC, la conscience et la respiration."
+  - id: q5
+    enonce: "Que fait-on de la position de la victime pendant le transport ?"
+    propositions:
+      - "On la maintient dans la position initiale"
+      - "On la met systématiquement assise"
+      - "On la change à chaque étape"
+    bonnes:
+      - 0
+    explication: "Pendant le transport, la victime est maintenue dans la position initiale."
+  - id: q6
+    enonce: "Vers quel type de centre les victimes d'AVC sont-elles idéalement acheminées ?"
+    propositions:
+      - "Une unité de soins intensifs neurologiques ou unité neuro-vasculaire"
+      - "Un centre de rééducation"
+      - "Un cabinet de médecine générale"
+    bonnes:
+      - 0
+    explication: "Les victimes d'AVC sont idéalement acheminées vers une unité de soins intensifs neurologiques ou une unité neuro-vasculaire."

@@ -1,0 +1,117 @@
+id: hypoglycemie-diabetique-conduite
+niveau: PSE1
+chapitre: malaises
+type: procedure
+ordre: 15
+titre: Malaise hypoglycémique chez le diabétique (conduite à tenir)
+motsCles: [hypoglycémie, resucrage, sucre en morceaux, glycémie capillaire, seuil 3,3 mmol/l, 15 minutes, avis médical]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR06, 07-2026)
+  code: 06PR06
+  page: 197
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une victime consciente, réveillée, réactive et capable d'avaler, avec une glycémie capillaire < 3,3 mmol/l ou une origine du malaise inconnue, le secouriste l'aide à prendre du sucre, demande un avis médical selon les conditions ci-dessous et surveille."
+  - type: liste
+    titre: Urgence ou détresse vitale, ou aggravation
+    items:
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+  - type: etapes
+    titre: Victime qui a perdu connaissance et respire (après sa prise en charge)
+    items:
+      - "Réaliser une mesure de glycémie capillaire lors du 4e regard si le matériel est disponible."
+      - "Demander un avis médical en indiquant le résultat de la mesure de glycémie."
+  - type: etapes
+    titre: Victime consciente
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise."
+      - "Réaliser une mesure de glycémie capillaire lors du 4e regard si le matériel est disponible."
+      - "Si la victime est réveillée, réactive et capable d'avaler, et que la glycémie est < 3,3 mmol/l (ou < 60 mg/dl ou < 0,6 g/l) ou que l'origine du malaise est inconnue : l'aider à prendre du sucre."
+      - "Demander un avis médical en indiquant le résultat de la mesure de glycémie si son état ne s'améliore pas rapidement ou en cas de doute."
+      - "Surveiller la victime : si aucune amélioration ne survient au bout de 15 minutes après l'ingestion de sucre, une seconde dose de sucre peut être prise."
+  - type: chiffres
+    titre: Quantités et délais
+    items:
+      - valeur: "4"
+        libelle: "Adulte : 4 morceaux ou cuillères à café de sucre (sucre en morceaux ou en poudre, à privilégier)."
+      - valeur: "2 à 3"
+        libelle: "Enfant : 2 à 3 morceaux ou cuillères à café de sucre."
+      - valeur: "15 minutes"
+        libelle: "Sans amélioration au bout de ce délai après l'ingestion de sucre, une seconde dose peut être prise."
+      - valeur: "10 à 15 minutes"
+        libelle: "Délai approximatif entre l'ingestion du sucre, l'élévation de la glycémie et l'amélioration des signes."
+      - valeur: "< 3,3 mmol/l"
+        libelle: "Seuil (ou < 60 mg/dl, ou < 0,6 g/l) sous lequel un resucrage est proposé."
+  - type: liste
+    titre: Choix du sucre
+    items:
+      - "De préférence : sucre en morceaux ou en poudre."
+      - "Sinon : une boisson sucrée comme un jus d'orange ou du miel, ou des bonbons contenant du sucrose."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le resucrage n'est proposé qu'à une victime réveillée, réactive et capable d'avaler."
+      - "Une victime qui a perdu connaissance et respire n'est pas resucrée : glycémie au 4e regard si le matériel est disponible, puis avis médical avec le résultat."
+      - "L'amélioration prend environ 10 à 15 minutes : ne pas conclure trop vite à l'échec du resucrage."
+qcm:
+  - id: q1
+    enonce: "Dans quel cas aide-t-on une victime consciente à prendre du sucre ?"
+    propositions:
+      - "Elle est réveillée, réactive et capable d'avaler, et sa glycémie est < 3,3 mmol/l ou l'origine du malaise est inconnue"
+      - "Elle a perdu connaissance mais respire"
+      - "Sa glycémie est supérieure à 3,3 mmol/l et l'origine du malaise est connue"
+    bonnes:
+      - 0
+    explication: "Le resucrage concerne la victime réveillée, réactive et capable d'avaler, avec une glycémie < 3,3 mmol/l ou une origine du malaise inconnue."
+  - id: q2
+    enonce: "Quelle quantité de sucre donne-t-on à un adulte ?"
+    propositions:
+      - "1 morceau"
+      - "2 à 3 morceaux"
+      - "4 morceaux ou cuillères à café"
+      - "8 morceaux"
+    bonnes:
+      - 2
+    explication: "Adulte : 4 morceaux ou cuillères à café de sucre. Enfant : 2 à 3 morceaux ou cuillères à café."
+  - id: q3
+    enonce: "Quelle quantité de sucre donne-t-on à un enfant ?"
+    propositions:
+      - "2 à 3 morceaux ou cuillères à café"
+      - "4 morceaux ou cuillères à café"
+      - "1 seul morceau"
+    bonnes:
+      - 0
+    explication: "Enfant : 2 à 3 morceaux ou cuillères à café de sucre."
+  - id: q4
+    enonce: "Que faire si aucune amélioration n'apparaît après l'ingestion de sucre ?"
+    propositions:
+      - "Une seconde dose de sucre peut être prise si aucune amélioration au bout de 15 minutes"
+      - "Une seconde dose doit être donnée immédiatement, sans attendre"
+      - "Il ne faut jamais donner de seconde dose"
+    bonnes:
+      - 0
+    explication: "Sans amélioration au bout de 15 minutes, une seconde dose peut être prise. Il faut compter environ 10 à 15 minutes entre l'ingestion, l'élévation de la glycémie et l'amélioration des signes."
+  - id: q5
+    enonce: "Que faire chez une victime qui a perdu connaissance et respire ?"
+    propositions:
+      - "Lui faire avaler du sucre en morceaux"
+      - "Réaliser une mesure de glycémie capillaire au 4e regard si le matériel est disponible, puis demander un avis médical en indiquant le résultat"
+      - "Ne rien mesurer et attendre son réveil"
+    bonnes:
+      - 1
+    explication: "Après prise en charge de la victime inconsciente qui respire, on mesure la glycémie lors du 4e regard si le matériel est disponible et on demande un avis médical en indiquant le résultat."
+  - id: q6
+    enonce: "À défaut de sucre en morceaux ou en poudre, quels aliments peuvent être proposés ?"
+    propositions:
+      - "Une boisson sucrée comme un jus d'orange"
+      - "Du miel"
+      - "Des bonbons contenant du sucrose"
+      - "Un café non sucré"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Sinon : boisson sucrée comme un jus d'orange, miel ou bonbons contenant du sucrose."

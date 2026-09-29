@@ -1,0 +1,135 @@
+id: hypoglycemie-diabetique-connaissances
+niveau: PSE1
+chapitre: malaises
+type: connaissance
+ordre: 14
+titre: Malaise hypoglycémique chez le diabétique (connaissances)
+motsCles: [hypoglycémie, diabète, insuline, glycémie capillaire, glucomètre, seuil 3,3 mmol/l, unités]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC06, 07-2026)
+  code: 06AC06
+  page: 195
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le sucre est essentiel au fonctionnement de l'organisme, notamment du cerveau. L'insuline intervient dans le transport et la pénétration du sucre dans les tissus. Chez le diabétique, l'organisme, par manque de production de cette hormone, ne régule pas le passage et l'utilisation du sucre, qui s'accumule dans le sang. Un apport insuffisant de sucre ou un excès de traitement peut entraîner un manque grave de sucre à l'origine d'un malaise : l'hypoglycémie."
+  - type: texte
+    titre: Surveillance par le diabétique
+    contenu: "Les diabétiques surveillent leur glycémie avec un lecteur de glycémie, à partir d'une goutte de sang prélevée au doigt. Un régime alimentaire adapté et un traitement médical régulier leur permettent de réguler l'utilisation du sucre. La plupart connaissent le risque d'hypoglycémie et ont sur eux un morceau de sucre à prendre immédiatement en cas de malaise ; toutefois, le malaise est parfois très brutal."
+  - type: liste
+    titre: Causes favorisantes
+    items:
+      - "Alimentation inadaptée."
+      - "Exercice physique inhabituel."
+      - "Excès de traitement."
+      - "Déshydratation."
+      - "Fièvre."
+      - "D'autres malaises, d'origine différente, peuvent survenir chez une personne diabétique. Une hypoglycémie peut aussi se rencontrer chez des personnes non diabétiques (malaise à l'effort, à jeun)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Quand le taux de sucre diminue, le fonctionnement du cerveau et de tout l'organisme est rapidement altéré."
+      - "L'hypoglycémie peut déclencher des complications soudaines et potentiellement mortelles : convulsions ou perte de connaissance (détresse neurologique)."
+      - "L'hyperglycémie, à l'inverse, évolue en règle générale progressivement, sans signes visibles, sur plusieurs heures ou plusieurs jours, et fait rarement l'objet d'un recours aux secours d'urgence."
+  - type: liste
+    titre: Signes dès le 2e regard chez une personne connue comme diabétique
+    items:
+      - "Perte de connaissance."
+      - "Convulsions généralisées."
+      - "Trouble du comportement (prostration, agitation, agressivité, signes d'ébriété sans consommation d'alcool)."
+      - "Sueurs abondantes."
+      - "Pâleur."
+      - "Dans certains cas, signes pouvant faire évoquer un accident vasculaire cérébral."
+  - type: liste
+    titre: Plaintes lors du 4e regard
+    items:
+      - "Faim."
+      - "Grande fatigue et mal de tête."
+      - "Sensation de cœur qui bat rapidement."
+      - "Tremblements."
+  - type: chiffres
+    titre: Seuil d'hypoglycémie
+    items:
+      - valeur: "< 3,3 mmol/l"
+        libelle: "Valeur de glycémie capillaire définissant l'hypoglycémie."
+      - valeur: "< 60 mg/dl"
+        libelle: "Même seuil exprimé en milligrammes par décilitre."
+      - valeur: "< 0,6 g/l"
+        libelle: "Même seuil exprimé en grammes par litre."
+  - type: texte
+    titre: Mesure de la glycémie capillaire
+    contenu: "Si la victime, ou son entourage, indique qu'elle est diabétique, un test de dépistage d'une hypoglycémie peut être réalisé devant un malaise avec un appareil de mesure de la glycémie capillaire, le glucomètre. Le résultat instantané est transmis lors du bilan au médecin régulateur pour l'aider à évaluer la situation et les suites à donner."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Lors du transfert de la valeur mesurée, il est essentiel d'indiquer l'unité de mesure utilisée par l'appareil (mmol/l, mg/dl ou g/l) : selon l'unité, le chiffre est totalement différent."
+      - "Un malaise hypoglycémique peut survenir chez une personne non diabétique."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Préserver la respiration tout en maintenant la liberté des voies aériennes, si la victime a perdu connaissance."
+      - "Aider la victime à faire remonter le taux de sucre dans son sang, si elle est consciente."
+      - "Demander un avis médical, dans tous les cas."
+qcm:
+  - id: q1
+    enonce: "À partir de quelle valeur de glycémie capillaire considère-t-on qu'une victime est en hypoglycémie ?"
+    propositions:
+      - "< 3,3 mmol/l (ou < 60 mg/dl ou < 0,6 g/l)"
+      - "< 6 mmol/l"
+      - "< 1,2 g/l"
+    bonnes:
+      - 0
+    explication: "La victime est en hypoglycémie si la glycémie mesurée est < 3,3 mmol/l, soit < 60 mg/dl ou < 0,6 g/l."
+  - id: q2
+    enonce: "Pourquoi est-il essentiel d'indiquer l'unité de mesure lors de la transmission de la glycémie ?"
+    propositions:
+      - "Parce que le chiffre est totalement différent selon l'unité (mmol/l, mg/dl ou g/l)"
+      - "Parce que l'unité change la couleur du glucomètre"
+      - "Parce que seule l'unité intéresse le médecin régulateur"
+    bonnes:
+      - 0
+    explication: "Selon l'unité utilisée par l'appareil, le chiffre est totalement différent : l'unité doit toujours être transmise avec la valeur."
+  - id: q3
+    enonce: "Quelles causes facilitent un malaise hypoglycémique chez le diabétique ?"
+    propositions:
+      - "Une alimentation inadaptée"
+      - "Un exercice physique inhabituel"
+      - "Un excès de traitement"
+      - "Une exposition modérée au soleil sans autre facteur"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Alimentation inadaptée, exercice physique inhabituel, excès de traitement, déshydratation et fièvre facilitent l'hypoglycémie."
+  - id: q4
+    enonce: "Quels signes une victime hypoglycémique peut-elle présenter dès le 2e regard ?"
+    propositions:
+      - "Sueurs abondantes"
+      - "Pâleur"
+      - "Trouble du comportement, avec signes d'ébriété sans consommation d'alcool"
+      - "Toux grasse persistante"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Perte de connaissance, convulsions, trouble du comportement, sueurs abondantes et pâleur sont possibles dès le 2e regard."
+  - id: q5
+    enonce: "Lequel de ces éléments distingue l'hyperglycémie de l'hypoglycémie ?"
+    propositions:
+      - "L'hyperglycémie survient brutalement et cause des convulsions"
+      - "L'hyperglycémie évolue en règle générale progressivement, sur plusieurs heures ou jours, sans signes visibles"
+      - "L'hyperglycémie se traite toujours par du sucre"
+    bonnes:
+      - 1
+    explication: "L'hyperglycémie évolue en règle générale progressivement, sans signes visibles sur plusieurs heures ou jours, et fait rarement l'objet d'un recours aux secours d'urgence."
+  - id: q6
+    enonce: "Une hypoglycémie peut-elle se rencontrer chez une personne non diabétique ?"
+    propositions:
+      - "Non, jamais"
+      - "Oui, par exemple lors d'un malaise à l'effort ou à jeun"
+      - "Oui, mais uniquement chez l'enfant"
+    bonnes:
+      - 1
+    explication: "Un malaise lié à une hypoglycémie peut se rencontrer chez des personnes non diabétiques (malaise à l'effort, à jeun)."

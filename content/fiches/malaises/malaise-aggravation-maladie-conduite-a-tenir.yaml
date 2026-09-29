@@ -1,0 +1,95 @@
+id: malaise-aggravation-maladie-conduite-a-tenir
+niveau: PSE1
+chapitre: malaises
+type: procedure
+ordre: 2
+titre: Malaise et aggravation de maladie (conduite à tenir)
+motsCles: [malaise, aggravation de maladie, position d'attente, malaise vagal, malaise orthostatique, sucre, avis médical]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR01, 07-2026)
+  code: 06PR01
+  page: 177
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une urgence, une détresse vitale ou une aggravation, on applique la conduite à tenir adaptée et on réalise en priorité les gestes d'urgence qui s'imposent. Si la victime est consciente, on suit la conduite ci-dessous."
+  - type: etapes
+    titre: Victime consciente
+    items:
+      - "Soustraire la victime aux facteurs (exemples : foule, bruit) qui pourraient avoir déclenché la crise."
+      - "Installer sans délai la victime en position d'attente, confortablement (par exemple sur un brancard, un lit, une chaise ou un canapé, ou à défaut sur le sol) : allongée ; assise en cas de difficultés à respirer ; sinon dans la position où elle se sent le mieux."
+      - "Poursuivre le bilan."
+      - "Aider la victime à dégrafer ses vêtements en cas de gêne."
+      - "Aider la victime, à sa demande ou à la demande des secours, à prendre son traitement prescrit ou du sucre en morceaux."
+      - "Rassurer la victime et lui demander de rester calme."
+      - "Transmettre les informations recueillies pour avoir un avis médical et appliquer les consignes."
+      - "Protéger la victime de la chaleur, du froid ou des intempéries."
+      - "Poursuivre le bilan et surveiller attentivement l'évolution des signes et l'aggravation vers une détresse vitale."
+  - type: texte
+    titre: Signes de maladie infectieuse
+    contenu: "Devant des signes de maladie infectieuse (plus particulièrement en période épidémique), appliquer les mesures barrières, de distance physique et d'isolement. Exemple : demander à la victime de porter un masque, en lui proposant toutefois de le retirer si cela gêne sa respiration."
+  - type: liste
+    titre: Cas particulier du malaise vagal ou orthostatique
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise, puis l'adapter."
+      - "Inviter la victime à réaliser des manœuvres physiques si elle déclare faire régulièrement des malaises « vagaux »."
+      - "Et si elle présente des signes tels que : étourdissement, nausées, sueurs, sensation de chaleur, points noirs devant les yeux ou sentiment de perte de conscience imminente."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "La position assise est réservée aux difficultés à respirer ; sinon la victime est installée allongée ou dans la position où elle se sent le mieux."
+      - "L'aide à la prise du traitement ou de sucre se fait à la demande de la victime ou des secours."
+      - "Les manœuvres physiques ne sont proposées que si la victime déclare faire régulièrement des malaises vagaux ET présente les signes annonciateurs."
+qcm:
+  - id: q1
+    enonce: "Dans quelle position installer une victime consciente qui présente un malaise et des difficultés à respirer ?"
+    propositions:
+      - Allongée à plat
+      - Assise
+      - Sur le côté, jambes fléchies
+    bonnes:
+      - 1
+    explication: "La victime est installée allongée, assise en cas de difficultés à respirer, sinon dans la position où elle se sent le mieux."
+  - id: q2
+    enonce: "Que peut-on aider la victime à prendre, à sa demande ou à la demande des secours ?"
+    propositions:
+      - Son traitement prescrit
+      - Du sucre en morceaux
+      - Un antidouleur du secouriste
+      - Une boisson alcoolisée
+    bonnes:
+      - 0
+      - 1
+    explication: "La conduite à tenir prévoit d'aider la victime à prendre son traitement prescrit ou du sucre en morceaux, à sa demande ou à la demande des secours."
+  - id: q3
+    enonce: "Quel exemple de facteur déclenchant la victime doit-elle être soustraite ?"
+    propositions:
+      - "La foule, le bruit"
+      - "La position allongée"
+      - "Le sucre en morceaux"
+    bonnes:
+      - 0
+    explication: "La victime est soustraite aux facteurs qui pourraient avoir déclenché la crise, par exemple la foule ou le bruit."
+  - id: q4
+    enonce: "Dans quel cas invite-t-on la victime à réaliser des manœuvres physiques ?"
+    propositions:
+      - "Elle déclare faire régulièrement des malaises vagaux et présente des signes annonciateurs (étourdissement, nausées, sueurs, points noirs...)"
+      - "Elle est inconsciente et ne respire pas"
+      - "Elle présente une douleur thoracique intense"
+    bonnes:
+      - 0
+    explication: "Les manœuvres sont proposées si la victime déclare faire régulièrement des malaises vagaux et présente des signes annonciateurs d'une perte de conscience imminente."
+  - id: q5
+    enonce: "Devant des signes de maladie infectieuse, que faut-il appliquer ?"
+    propositions:
+      - Les mesures barrières
+      - La distance physique
+      - "L'isolement"
+      - "Le retrait systématique du masque"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On applique les mesures barrières, de distance physique et d'isolement. Le masque demandé à la victime peut être retiré si cela gêne sa respiration, mais pas de façon systématique."

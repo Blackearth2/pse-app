@@ -1,0 +1,108 @@
+id: crise-convulsive-generalisee-conduite
+niveau: PSE1
+chapitre: malaises
+type: procedure
+ordre: 11
+titre: Crise convulsive généralisée (conduite à tenir)
+motsCles: [crise convulsive, protéger la tête, rien dans la bouche, glycémie capillaire, nourrisson, refroidissement actif]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR04, 07-2026)
+  code: 06PR04
+  page: 192
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Pendant la crise, le secouriste évite que la victime ne se blesse et ne contraint jamais ses mouvements. À la fin des convulsions, il contrôle les voies aériennes et la respiration."
+  - type: etapes
+    titre: Au début de la crise (adulte ou enfant)
+    items:
+      - "Allonger la victime au sol, si elle n'est pas déjà dans cette position, pour éviter qu'elle ne se blesse en chutant."
+      - "Écarter les personnes qui sont autour."
+  - type: etapes
+    titre: Pendant la crise (adulte ou enfant)
+    items:
+      - "Protéger la tête de la victime en glissant si possible un vêtement ou un tissu plié sous sa tête, sans recouvrir les voies aériennes."
+      - "Écarter tout objet qui pourrait être traumatisant."
+      - "Ne rien placer entre les dents ou dans la bouche de la victime (elle n'avalera pas sa langue)."
+  - type: etapes
+    titre: À la fin des convulsions (adulte ou enfant)
+    items:
+      - "S'assurer que les voies aériennes de la victime sont libres et vérifier sa respiration."
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+      - "Lorsque la victime redevient consciente, la garder au calme et la rassurer."
+      - "Réaliser une mesure de la glycémie capillaire."
+  - type: liste
+    titre: Dans tous les cas
+    items:
+      - "Ne jamais contraindre les mouvements de la victime durant toute la crise."
+      - "Noter l'heure de survenue et la durée de la crise."
+      - "Poursuivre le bilan, rechercher d'éventuels signes de traumatisme."
+      - "Transmettre un bilan et appliquer les consignes."
+      - "Surveiller la victime jusqu'à ce qu'elle retrouve un état normal de conscience."
+  - type: etapes
+    titre: Chez le nourrisson (en plus)
+    items:
+      - "La prise en charge est identique à celle de l'adulte, mais il faut en plus prendre la température de l'enfant."
+      - "Procéder à un refroidissement actif."
+      - "Transmettre un bilan, systématiquement."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne rien mettre dans la bouche de la victime, ne pas contraindre ses mouvements."
+      - "Le tissu placé sous la tête ne doit pas recouvrir les voies aériennes."
+      - "Chez le nourrisson, le bilan est transmis systématiquement."
+qcm:
+  - id: q1
+    enonce: "Que faire pendant les convulsions d'un adulte ?"
+    propositions:
+      - "Placer un objet entre ses dents"
+      - "Protéger sa tête et écarter les objets traumatisants"
+      - "Maintenir fermement ses membres"
+    bonnes:
+      - 1
+    explication: "Il faut protéger la tête, écarter les objets traumatisants, ne rien placer dans la bouche et ne jamais contraindre les mouvements."
+  - id: q2
+    enonce: "Pourquoi ne faut-il rien placer entre les dents de la victime ?"
+    propositions:
+      - "Cela provoque une hypoglycémie"
+      - "Cela empêche de mesurer la glycémie"
+      - "Elle n'avalera pas sa langue"
+      - "Cela ne concerne que le nourrisson"
+    bonnes:
+      - 2
+    explication: "La source précise que la victime n'avalera pas sa langue ; rien ne doit être placé entre les dents ou dans la bouche."
+  - id: q3
+    enonce: "Que doit faire le secouriste à la fin des convulsions ?"
+    propositions:
+      - "Quitter la victime dès que les secousses cessent"
+      - "S'assurer que les voies aériennes sont libres et vérifier la respiration"
+      - "Réaliser une mesure de la glycémie capillaire"
+      - "Rassurer la victime et la garder au calme lorsqu'elle redevient consciente"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "À la fin des convulsions : voies aériennes et respiration, gestes d'urgence si besoin, victime rassurée et gardée au calme à la reprise de conscience, mesure de la glycémie capillaire. La surveillance se poursuit jusqu'au retour à un état normal de conscience."
+  - id: q4
+    enonce: "Quelles informations doivent être notées dans tous les cas ?"
+    propositions:
+      - "Le nom des personnes présentes"
+      - "Le poids de la victime"
+      - "L'heure de survenue et la durée de la crise"
+    bonnes:
+      - 2
+    explication: "Il faut noter l'heure de survenue et la durée de la crise."
+  - id: q5
+    enonce: "Quelles actions s'ajoutent chez le nourrisson par rapport à l'adulte ?"
+    propositions:
+      - "Placer un objet entre ses dents"
+      - "Prendre la température"
+      - "Procéder à un refroidissement actif"
+      - "Transmettre un bilan systématiquement"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Chez le nourrisson, il faut en plus prendre la température, procéder à un refroidissement actif et transmettre un bilan systématiquement."

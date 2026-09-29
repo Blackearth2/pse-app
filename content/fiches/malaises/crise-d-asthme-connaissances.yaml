@@ -1,0 +1,97 @@
+id: crise-d-asthme-connaissances
+niveau: PSE1
+chapitre: malaises
+type: connaissance
+ordre: 12
+titre: Crise d'asthme (connaissances)
+motsCles: [asthme, détresse respiratoire, bronchioles, aérosol doseur, sifflement expiratoire, facteurs déclenchants]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC05, 07-2026)
+  code: 06AC05
+  page: 193
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La crise d'asthme est une détresse respiratoire provoquée par une inflammation et une contraction des fibres musculaires lisses des bronchioles (petites bronches), qui entraînent un rétrécissement brutal de leur calibre. L'asthme est une maladie respiratoire chronique touchant un très grand nombre de personnes de tout âge, de plus en plus fréquente, particulièrement dans les zones urbaines et industrialisées."
+  - type: texte
+    titre: Médicaments
+    contenu: "Les asthmatiques ont souvent avec eux des médicaments sous forme d'aérosol doseur (spray), utilisés en cas de crise pour la faire cesser. Ils dilatent les petites bronches et facilitent la respiration : ils relaxent les fibres musculaires lisses des bronchioles et permettent à l'air de circuler jusqu'aux alvéoles."
+  - type: liste
+    titre: Trois grands types de facteurs déclenchants
+    items:
+      - "Facteurs environnementaux : allergènes (poils d'animaux, pollen), fumée, pollution, gaz irritants et variations climatiques."
+      - "Facteurs physiques et médicaux : effort physique, infections respiratoires et prise de certains médicaments comme l'aspirine."
+      - "Facteurs émotionnels : stress, anxiété ou angoisse."
+  - type: liste
+    titre: Signes
+    items:
+      - "La crise survient généralement chez une personne connue pour être asthmatique."
+      - "Forme légère : gêne respiratoire modérée, sans modification notable de la fréquence respiratoire."
+      - "Forme grave, dès le 2e regard : victime consciente mais très angoissée et agitée, qui se plaint de respirer difficilement, refuse de s'allonger et ne peut pas parler ; sifflement à l'expiration audible. Ces signes traduisent une détresse respiratoire."
+      - "Sans prise en charge rapide, la victime peut perdre connaissance et présenter un arrêt cardiaque."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Faciliter la respiration de la victime."
+      - "Aider la victime à prendre son traitement."
+      - "Demander un avis médical, dans tous les cas."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Les personnes asthmatiques peuvent diminuer la survenue de crises en contrôlant leur environnement et en limitant l'exposition aux facteurs déclenchants."
+qcm:
+  - id: q1
+    enonce: "Quel mécanisme est à l'origine de la crise d'asthme ?"
+    propositions:
+      - "Une obstruction des voies aériennes par un corps étranger"
+      - "Une inflammation et une contraction des fibres musculaires lisses des bronchioles"
+      - "Un manque de sucre dans le sang"
+    bonnes:
+      - 1
+    explication: "La crise résulte d'une inflammation et d'une contraction des fibres musculaires lisses des bronchioles, qui rétrécissent brutalement leur calibre."
+  - id: q2
+    enonce: "Quels signes caractérisent la forme grave de la crise d'asthme dès le 2e regard ?"
+    propositions:
+      - "Victime consciente, très angoissée et agitée"
+      - "Refus de s'allonger"
+      - "Impossibilité de parler"
+      - "Sifflement à l'expiration"
+      - "Gêne respiratoire modérée sans modification de la fréquence respiratoire"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "La forme grave associe victime consciente très angoissée et agitée, refus de s'allonger, impossibilité de parler et sifflement audible à l'expiration. La gêne modérée sans modification de fréquence correspond à la forme légère."
+  - id: q3
+    enonce: "Quels facteurs peuvent déclencher une crise d'asthme ?"
+    propositions:
+      - "Le jeûne prolongé uniquement"
+      - "Les poils d'animaux et le pollen"
+      - "L'effort physique et la prise d'aspirine"
+      - "Le stress et l'angoisse"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Facteurs environnementaux (allergènes), physiques et médicaux (effort, infections respiratoires, aspirine) et émotionnels (stress, anxiété, angoisse)."
+  - id: q4
+    enonce: "Que produisent les médicaments de l'asthme en aérosol doseur ?"
+    propositions:
+      - "Une baisse de la fièvre"
+      - "Une remontée du taux de sucre dans le sang"
+      - "Une dilatation des petites bronches qui facilite la respiration"
+    bonnes:
+      - 2
+    explication: "Ces médicaments relaxent les fibres musculaires lisses des bronchioles et permettent à l'air de circuler jusqu'aux alvéoles."
+  - id: q5
+    enonce: "Dans quels cas faut-il demander un avis médical face à une crise d'asthme ?"
+    propositions:
+      - "Uniquement si la crise est grave"
+      - "Dans tous les cas"
+      - "Uniquement si la victime n'a pas de traitement"
+    bonnes:
+      - 1
+    explication: "Le principe de l'action de secours prévoit de demander un avis médical dans tous les cas."

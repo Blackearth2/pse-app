@@ -1,0 +1,80 @@
+id: crise-d-asthme-conduite
+niveau: PSE1
+chapitre: malaises
+type: procedure
+ordre: 13
+titre: Crise d'asthme (conduite à tenir)
+motsCles: [asthme, malaise, facteurs déclenchants, oxygène, respiration, position initiale]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR05, 07-2026)
+  code: 06PR05
+  page: 194
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une victime consciente qui présente des signes de crise d'asthme, le secouriste applique la conduite à tenir devant un malaise et l'adapte : soustraire aux facteurs déclenchants, oxygène si nécessaire, surveillance attentive de la respiration."
+  - type: etapes
+    titre: Victime consciente avec signes de crise d'asthme
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise."
+      - "Soustraire la victime aux facteurs qui pourraient avoir déclenché la crise (atmosphère enfumée, polluée, poussière)."
+      - "Administrer de l'oxygène en inhalation si nécessaire."
+      - "Poursuivre le bilan et surveiller attentivement sa respiration."
+  - type: liste
+    titre: Urgence ou détresse vitale, ou aggravation
+    items:
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+  - type: liste
+    titre: Transport
+    items:
+      - "Maintenir la victime dans la position initiale pendant son transport."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "En cas d'urgence ou de détresse vitale, ou d'aggravation, les gestes d'urgence passent en priorité."
+      - "La respiration doit être surveillée attentivement tout au long de la prise en charge."
+qcm:
+  - id: q1
+    enonce: "Pour une victime consciente présentant des signes de crise d'asthme, quelle conduite adopter en premier lieu ?"
+    propositions:
+      - "La faire courir pour dégager ses bronches"
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise"
+      - "Ne rien faire tant que la crise n'est pas grave"
+    bonnes:
+      - 1
+    explication: "La conduite à tenir devant un malaise s'applique, complétée d'adaptations propres à l'asthme."
+  - id: q2
+    enonce: "Quelles adaptations spécifiques la crise d'asthme impose-t-elle ?"
+    propositions:
+      - "Donner du sucre à la victime"
+      - "Soustraire la victime aux facteurs déclenchants"
+      - "Administrer de l'oxygène en inhalation si nécessaire"
+      - "Poursuivre le bilan et surveiller attentivement la respiration"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Il faut soustraire aux facteurs déclenchants, administrer de l'oxygène si nécessaire, poursuivre le bilan et surveiller la respiration."
+  - id: q3
+    enonce: "Quels sont des exemples de facteurs à écarter selon la fiche ?"
+    propositions:
+      - "Position assise"
+      - "Atmosphère enfumée"
+      - "Atmosphère polluée"
+      - "Poussière"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Fumée, pollution et poussière sont donnés comme exemples de facteurs à soustraire."
+  - id: q4
+    enonce: "Comment transporter la victime en crise d'asthme ?"
+    propositions:
+      - "Allongée à plat dos"
+      - "En position latérale de sécurité systématiquement"
+      - "Dans la position initiale"
+    bonnes:
+      - 2
+    explication: "La victime est maintenue dans la position initiale pendant son transport."

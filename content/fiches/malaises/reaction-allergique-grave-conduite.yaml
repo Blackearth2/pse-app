@@ -1,0 +1,101 @@
+id: reaction-allergique-grave-conduite
+niveau: PSE1
+chapitre: malaises
+type: procedure
+ordre: 17
+titre: Réaction allergique grave (conduite à tenir)
+motsCles: [anaphylaxie, auto-injecteur d'adrénaline, deuxième injection, 5 minutes, médecin régulateur, allergène]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR07, 07-2026)
+  code: 06PR07
+  page: 199
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une réaction allergique grave avec signes de détresse, le secouriste applique la conduite à tenir devant un malaise, supprime le contact avec l'allergène si possible, et, si la victime possède un auto-injecteur d'adrénaline (AIA), l'administre à la demande de la victime ou du médecin régulateur."
+  - type: liste
+    titre: Urgence ou détresse vitale, ou aggravation
+    items:
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+  - type: etapes
+    titre: Réaction allergique grave avec signes de détresse
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise."
+      - "Éliminer tout contact de la victime avec l'allergène, si possible et si l'allergène est connu (par exemple, supprimer le contact avec du latex si la victime est allergique au latex)."
+      - "Si la victime possède un traitement pour lutter contre les réactions allergiques graves (auto-injecteur d'adrénaline) : l'administrer à la demande de la victime ou du médecin régulateur."
+      - "Demander un avis médical immédiatement et appliquer les consignes."
+      - "Surveiller la victime."
+      - "En l'absence d'amélioration ou en cas de récidive dans les 5 minutes qui suivent la première injection, une deuxième injection à l'aide de l'auto-injecteur peut être réalisée. Si possible, demander un nouvel avis au médecin régulateur."
+  - type: etapes
+    titre: Réaction allergique simple, sans signes de détresse
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui présente un malaise."
+      - "Demander un avis médical et respecter les consignes."
+      - "Le médecin régulateur peut, même en l'absence de détresse vitale, demander qu'une auto-injection d'adrénaline soit réalisée."
+  - type: liste
+    titre: Signes de détresse à reconnaître
+    items:
+      - "Détresse respiratoire : souffle court, sifflements à l'expiration, œdèmes des voies respiratoires, gonflement, voix rauque."
+      - "Détresse circulatoire : chute de la tension artérielle, pouls rapide et difficile à percevoir, accélération de la fréquence cardiaque."
+  - type: chiffres
+    titre: Repère chiffré
+    items:
+      - valeur: "5 minutes"
+        libelle: "Délai après la première injection : sans amélioration ou en cas de récidive, une deuxième injection avec l'auto-injecteur peut être réalisée."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "L'auto-injecteur est administré à la demande de la victime ou du médecin régulateur, avec un avis médical demandé immédiatement."
+      - "L'allergène n'est écarté que si cela est possible et s'il est connu."
+      - "Même sans détresse vitale, le médecin régulateur peut demander une auto-injection d'adrénaline."
+qcm:
+  - id: q1
+    enonce: "À quelle condition administre-t-on l'auto-injecteur d'adrénaline lors d'une réaction allergique grave avec détresse ?"
+    propositions:
+      - "La victime possède le traitement prescrit et la demande, ou le médecin régulateur le demande"
+      - "Dès que l'on suspecte une allergie, sans avis"
+      - "Uniquement après l'arrivée d'un médecin sur place"
+    bonnes:
+      - 0
+    explication: "Le traitement prescrit est administré à la demande de la victime ou du médecin régulateur, avec un avis médical demandé immédiatement."
+  - id: q2
+    enonce: "Dans quel délai peut-on envisager une deuxième injection en l'absence d'amélioration ou en cas de récidive ?"
+    propositions:
+      - "Dans les 30 secondes"
+      - "Dans les 5 minutes qui suivent la première injection"
+      - "Dans les 2 heures"
+    bonnes:
+      - 1
+    explication: "En l'absence d'amélioration ou en cas de récidive dans les 5 minutes suivant la première injection, une deuxième injection peut être réalisée, si possible après un nouvel avis du médecin régulateur."
+  - id: q3
+    enonce: "Que fait-on vis-à-vis de l'allergène ?"
+    propositions:
+      - "On l'ignore"
+      - "On élimine tout contact avec lui si possible et s'il est connu"
+      - "On le donne à la victime pour la désensibiliser"
+    bonnes:
+      - 1
+    explication: "Il faut éliminer tout contact de la victime avec l'allergène si possible et si l'allergène est connu (par exemple supprimer le contact avec du latex si allergie au latex)."
+  - id: q4
+    enonce: "Face à une réaction allergique simple sans signes de détresse, quelle est la conduite ?"
+    propositions:
+      - "Appliquer la conduite devant un malaise, demander un avis médical et respecter les consignes"
+      - "Ne jamais utiliser l'auto-injecteur, quelles que soient les consignes"
+      - "Injecter systématiquement l'adrénaline sans avis"
+    bonnes:
+      - 0
+    explication: "On applique la conduite devant un malaise et on demande un avis médical ; le médecin régulateur peut, même sans détresse vitale, demander une auto-injection d'adrénaline."
+  - id: q5
+    enonce: "Parmi ces signes, lesquels sont des signes de détresse respiratoire ?"
+    propositions:
+      - "Souffle court"
+      - "Sifflements à l'expiration"
+      - "Voix rauque et gonflement des voies respiratoires"
+      - "Chute de la tension artérielle"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La chute de la tension artérielle relève de la détresse circulatoire ; les autres signes relèvent de la détresse respiratoire."

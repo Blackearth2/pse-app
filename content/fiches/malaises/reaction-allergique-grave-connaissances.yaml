@@ -1,0 +1,106 @@
+id: reaction-allergique-grave-connaissances
+niveau: PSE1
+chapitre: malaises
+type: connaissance
+ordre: 16
+titre: Réaction allergique grave (connaissances)
+motsCles: [anaphylaxie, allergène, œdème de Quincke, détresse respiratoire, détresse circulatoire, auto-injecteur d'adrénaline]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC07, 11-2021)
+  code: 06AC07
+  page: 198
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'allergie est une réaction de l'organisme à une substance étrangère ou allergène que l'individu touche, inhale, avale ou qui lui est administrée. Si les réactions allergiques sont relativement courantes et bénignes, elles peuvent parfois donner une réaction généralisée sévère qui met en jeu le pronostic vital : la réaction allergique grave, ou réaction anaphylactique (anaphylaxie)."
+  - type: liste
+    titre: Causes
+    items:
+      - "Réaction d'hypersensibilité allergique lorsqu'une personne sensible est en contact avec l'allergène."
+      - "Allergènes les plus connus, souvent contenus dans : pollens, aliments, produits chimiques, médicaments, venins."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "L'anaphylaxie se caractérise par l'apparition brutale d'une atteinte des voies aériennes supérieures ou inférieures, ou d'une atteinte cardiovasculaire, qui peut évoluer très rapidement vers un arrêt cardiaque et le décès."
+  - type: liste
+    titre: Signes
+    items:
+      - "Survenue quelques minutes à quelques heures après l'exposition à un allergène (facteur déclenchant), chez une personne qui connaît son allergie ou qui présente ces signes pour la première fois."
+      - "Au 2e ou 3e regard, détresse respiratoire : atteinte des voies aériennes inférieures (souffle court, sifflement expiratoire) ou obstruction des voies supérieures par œdème de Quincke (gonflement de la peau, de la gorge, du visage, de la bouche, des lèvres, de la langue, avec voix rauque)."
+      - "Détresse circulatoire possible : accélération de la fréquence cardiaque, pouls radial faible et chute de la pression artérielle."
+      - "Sans prise en charge rapide, la victime peut perdre connaissance et présenter un arrêt cardiaque."
+      - "Au 4e regard, ces signes s'accompagnent souvent d'une atteinte cutanéomuqueuse (plaques rouges généralisées sur la peau et démangeaisons) et de troubles digestifs (douleurs abdominales, diarrhées, vomissements)."
+      - "Ces manifestations peuvent être isolées, associées ou annoncer une aggravation."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Reconnaître les signes de la réaction allergique grave."
+      - "Soustraire la victime au facteur déclenchant."
+      - "Administrer, à la demande de la victime ou du médecin régulateur, un médicament si nécessaire."
+      - "Réaliser les gestes de secours qui s'imposent."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Il est essentiel pour le secouriste de reconnaître ces signes et de savoir les rechercher."
+      - "Le médicament n'est administré qu'à la demande de la victime ou du médecin régulateur."
+qcm:
+  - id: q1
+    enonce: "Comment désigne-t-on une réaction allergique grave ?"
+    propositions:
+      - "Réaction anaphylactique ou anaphylaxie"
+      - "Hyperglycémie"
+      - "Crise d'asthme simple"
+    bonnes:
+      - 0
+    explication: "La réaction allergique grave qui met en jeu le pronostic vital est appelée réaction anaphylactique ou anaphylaxie."
+  - id: q2
+    enonce: "Quels sont des signes de détresse respiratoire lors d'une anaphylaxie ?"
+    propositions:
+      - "Souffle court et sifflement expiratoire"
+      - "Voix rauque avec gonflement de la gorge, du visage ou de la langue (œdème de Quincke)"
+      - "Plaques rouges isolées sans gêne respiratoire"
+    bonnes:
+      - 0
+      - 1
+    explication: "Atteinte des voies aériennes inférieures (souffle court, sifflement expiratoire) ou obstruction des voies supérieures par œdème de Quincke (voix rauque). Les plaques rouges relèvent de l'atteinte cutanéomuqueuse, recherchée au 4e regard."
+  - id: q3
+    enonce: "Quels signes de détresse circulatoire peuvent apparaître ?"
+    propositions:
+      - "Fréquence cardiaque lente et pouls radial bien frappé"
+      - "Accélération de la fréquence cardiaque, pouls radial faible et chute de la pression artérielle"
+      - "Fièvre et frissons uniquement"
+    bonnes:
+      - 1
+    explication: "La détresse circulatoire associe accélération de la fréquence cardiaque, pouls radial faible et chute de la pression artérielle."
+  - id: q4
+    enonce: "Quand survient l'anaphylaxie après l'exposition à l'allergène ?"
+    propositions:
+      - "Uniquement dans les secondes qui suivent"
+      - "De quelques minutes à quelques heures après"
+      - "Après plusieurs jours"
+    bonnes:
+      - 1
+    explication: "Elle peut survenir quelques minutes à quelques heures après l'exposition, chez une personne qui connaît son allergie ou non."
+  - id: q5
+    enonce: "Quels éléments relèvent de l'atteinte cutanéomuqueuse et des troubles digestifs recherchés au 4e regard ?"
+    propositions:
+      - "Plaques rouges généralisées et démangeaisons"
+      - "Douleurs abdominales, diarrhées, vomissements"
+      - "Sifflement à l'expiration uniquement"
+    bonnes:
+      - 0
+      - 1
+    explication: "Au 4e regard, les signes de détresse s'accompagnent souvent de plaques rouges généralisées avec démangeaisons et de troubles digestifs (douleurs abdominales, diarrhées, vomissements)."
+  - id: q6
+    enonce: "Quels sont des allergènes cités comme les plus connus ?"
+    propositions:
+      - "Pollens et aliments"
+      - "Médicaments et venins"
+      - "Produits chimiques"
+      - "Le froid seul"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Pollens, aliments, produits chimiques, médicaments et venins sont cités."

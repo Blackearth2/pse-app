@@ -1,0 +1,145 @@
+id: avc-connaissances
+niveau: PSE2
+chapitre: malaises
+type: connaissance
+ordre: 8
+titre: Accident vasculaire cérébral (connaissances)
+motsCles: [AVC, AIT, FAST, infarctus cérébral, hémorragie cérébrale, glycémie capillaire, déficit moteur]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC03, 06-2018)
+  code: 06AC03
+  page: 187
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'accident vasculaire cérébral (AVC), parfois appelé attaque cérébrale, est un déficit neurologique soudain d'origine vasculaire : la circulation sanguine d'une partie du cerveau est interrompue. Le terme « accident » souligne l'aspect soudain, voire brutal, d'apparition des signes, mais c'est une maladie dont les causes sont de nature interne."
+  - type: liste
+    titre: Causes
+    items:
+      - "Obstruction d'une artère cérébrale (infarctus cérébral) par un spasme, une plaque d'athérome (thrombose cérébrale) ou un caillot de sang (embolie cérébrale)."
+      - "Cette cause est la plus fréquente : 85 %. Elle peut bénéficier de nouveaux traitements très efficaces s'ils sont administrés précocement (2 à 3 heures après le début des signes)."
+      - "Hémorragie cérébrale : le plus souvent rupture d'un vaisseau sanguin (victime hypertendue) ou d'une malformation vasculaire (anévrisme par exemple). Les tumeurs et divers troubles de la coagulation peuvent aussi en être la cause."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "85 %"
+        libelle: "des AVC sont dus à une obstruction d'une artère cérébrale (infarctus cérébral)"
+      - valeur: "2 à 3 heures"
+        libelle: "après le début des signes : délai pour administrer précocement les nouveaux traitements très efficaces"
+      - valeur: "1 heure"
+        libelle: "durée maximale des signes d'un AIT (de quelques secondes à quelques minutes, jamais plus d'une heure)"
+      - valeur: "24 heures"
+        libelle: "période précédente où l'on recherche des signes neurologiques identiques"
+  - type: texte
+    titre: Accident ischémique transitoire (AIT)
+    contenu: "L'AIT correspond à une obstruction de l'artère cérébrale qui se résorbe d'elle-même. Les signes sont les mêmes que ceux de l'AVC mais durent de quelques secondes à quelques minutes, jamais plus d'une heure, avant le retour à la normale. Il peut passer inaperçu et être confondu avec un simple malaise. C'est un signe d'alarme, qui peut annoncer un AVC constitué et présente les mêmes risques."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "L'interruption de la circulation entraîne une ischémie : les cellules nerveuses sont privées d'oxygène et de sucre, ce qui provoque en quelques minutes leur détérioration puis leur mort. Le trouble dépend de la taille et de la localisation du vaisseau touché. Dans l'hémorragie, l'écoulement de sang (hématome) comprime les cellules nerveuses. L'AVC est une maladie grave, aux conséquences toujours dramatiques (risque de décès ou de lourdes séquelles) ; c'est la 1re cause de handicap chez l'adulte et la 3e cause de mortalité."
+  - type: liste
+    titre: Signes évocateurs au 2e regard
+    items:
+      - "Perte de connaissance ou trouble de la conscience, le plus souvent brutal."
+      - "Déficit moteur touchant toute une moitié du corps (droite ou gauche)."
+  - type: liste
+    titre: Signes spécifiques FAST (3e ou 4e regard, victime consciente), à rechercher systématiquement
+    items:
+      - "Déformation de la bouche : asymétrie de la face, encore plus évidente si on demande de faire la grimace."
+      - "Faiblesse ou engourdissement d'un ou des deux côtés du corps : en demandant de lever et d'étendre les deux bras et les mains devant soi, un bras et/ou une main (ou les deux) ne peuvent être levés ou ne restent pas en position et retombent plus ou moins vite."
+      - "Difficulté du langage ou de la compréhension : en demandant de répéter une phrase, la victime a des difficultés à parler ou à comprendre."
+  - type: liste
+    titre: Autres signes possibles
+    items:
+      - Diminution ou perte de la vision d'un œil ou des deux
+      - Mal de tête important, soudain et inhabituel, sans cause apparente
+      - Perte de l'équilibre, instabilité à la marche ou chutes inexpliquées
+  - type: liste
+    titre: Interrogatoire de la victime ou de la famille
+    items:
+      - "Heure d'apparition des signes et heure où la victime a été vue pour la dernière fois sans signes."
+      - "Signes neurologiques identiques dans les 24 heures précédentes."
+      - "Antécédents de crise convulsive ; présence de fièvre."
+      - "État de validité : victime habituellement autonome ou grabataire (fauteuil roulant ou alité)."
+      - "Facteurs de risque : hypertension artérielle et maladie cardio-vasculaire, diabète ou hypercholestérolémie, obésité, tabagisme, traitement anticoagulant."
+      - "Antécédents particuliers : chirurgie récente, stimulateur cardiaque ou contre-indication à l'IRM."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Même si tous les signes sont passagers et résolutifs, ils doivent être scrupuleusement recherchés : la gravité et la conduite à tenir restent les mêmes."
+      - "Au 4e regard, la mesure de la glycémie capillaire est indispensable : une hypoglycémie peut simuler un AVC. Il faut la rechercher et la corriger avant d'affirmer des signes d'AVC."
+  - type: texte
+    titre: Principe de l'action de secours
+    contenu: "Demander un avis médical immédiat et respecter les consignes ; installer la victime en position d'attente ; surveiller la victime et réaliser les gestes de secours qui s'imposent."
+qcm:
+  - id: q1
+    enonce: "Quelle est la cause la plus fréquente d'AVC ?"
+    propositions:
+      - "L'hémorragie cérébrale"
+      - "L'obstruction d'une artère cérébrale (infarctus cérébral)"
+      - "Une tumeur"
+    bonnes:
+      - 1
+    explication: "L'obstruction d'une artère cérébrale est la cause la plus fréquente (85 %)."
+  - id: q2
+    enonce: "Dans quel délai après le début des signes les nouveaux traitements très efficaces doivent-ils être administrés ?"
+    propositions:
+      - "2 à 3 heures"
+      - "12 heures"
+      - "24 heures"
+      - "Moins de 10 minutes"
+    bonnes:
+      - 0
+    explication: "Les nouveaux traitements très efficaces doivent être administrés précocement, 2 à 3 heures après le début des signes."
+  - id: q3
+    enonce: "Quelle est la durée des signes d'un accident ischémique transitoire (AIT) ?"
+    propositions:
+      - "Quelques secondes à quelques minutes, jamais plus d'une heure"
+      - "Plusieurs heures"
+      - "Plus de 24 heures"
+    bonnes:
+      - 0
+    explication: "Les signes de l'AIT durent de quelques secondes à quelques minutes, jamais plus d'une heure, avant le retour à la normale."
+  - id: q4
+    enonce: "Quels signes spécifiques (FAST) doivent être systématiquement recherchés ?"
+    propositions:
+      - "Déformation de la bouche (asymétrie du visage)"
+      - "Faiblesse ou engourdissement d'un ou des deux côtés (bras qui ne restent pas levés)"
+      - "Difficulté du langage ou de la compréhension"
+      - "Fréquence cardiaque supérieure à 120 par minute"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Les trois signes FAST sont la déformation de la bouche, la faiblesse ou l'engourdissement d'un côté du corps, et la difficulté du langage ou de la compréhension."
+  - id: q5
+    enonce: "Pourquoi mesure-t-on la glycémie capillaire au 4e regard devant des signes d'AVC ?"
+    propositions:
+      - "Une hypoglycémie peut simuler un AVC et doit être corrigée avant d'affirmer un AVC"
+      - "L'AVC est toujours dû à un excès de sucre"
+      - "Pour évaluer la fréquence cardiaque"
+    bonnes:
+      - 0
+    explication: "Une hypoglycémie peut simuler un AVC ; il faut la rechercher et la corriger avant d'affirmer être en présence de signes d'AVC."
+  - id: q6
+    enonce: "Que recherche-t-on à l'interrogatoire devant des signes d'AVC ?"
+    propositions:
+      - "L'heure d'apparition des signes et la dernière fois où la victime a été vue sans signes"
+      - "Des signes neurologiques identiques dans les 24 heures précédentes"
+      - "Un traitement anticoagulant"
+      - "Le nom du médecin traitant uniquement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le secouriste recherche l'heure d'apparition, les signes identiques dans les 24 heures précédentes et les facteurs de risque dont un traitement anticoagulant."
+  - id: q7
+    enonce: "Quel signe évoque un AVC au 2e regard ?"
+    propositions:
+      - "Un déficit moteur touchant toute une moitié du corps"
+      - "Une douleur au mollet"
+      - "Une éruption cutanée"
+    bonnes:
+      - 0
+    explication: "Au 2e regard, l'AVC peut être évoqué par une perte de connaissance ou un trouble de la conscience, ou un déficit moteur touchant toute une moitié du corps."

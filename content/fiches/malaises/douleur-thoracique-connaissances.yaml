@@ -1,0 +1,123 @@
+id: douleur-thoracique-connaissances
+niveau: PSE2
+chapitre: malaises
+type: connaissance
+ordre: 6
+titre: Douleur thoracique non traumatique (connaissances)
+motsCles: [douleur thoracique, infarctus, embolie pulmonaire, aorte, irradiation, échelle de douleur, défibrillateur]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC02, 06-2018)
+  code: 06AC02
+  page: 184
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La douleur thoracique est un signe perçu par la victime, apparaissant de manière aiguë, au repos ou au cours d'un effort, et siégeant au niveau du thorax. Certaines causes imposent une prise en charge spécifique et urgente, notamment une orientation vers une filière de soins adaptée à la maladie."
+  - type: liste
+    titre: Causes possibles
+    items:
+      - "Cœur : occlusion d'une artère coronaire, inflammation de l'enveloppe du cœur (péricarde) ou fissuration de l'aorte."
+      - "Poumon : infection, décollement (pneumothorax), inflammation de l'enveloppe du poumon (plèvre) ou occlusion d'une artère pulmonaire (embolie pulmonaire)."
+      - "Tube digestif : reflux de liquide gastrique dans l'œsophage."
+      - "Paroi thoracique : névralgie."
+      - "Une crise d'angoisse peut aussi s'accompagner d'une douleur thoracique."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Occlusion d'une artère coronaire : infarctus, pouvant se compliquer d'un trouble du rythme cardiaque (fibrillation ventriculaire) et d'un arrêt cardiaque."
+      - "Fissuration de l'aorte : hémorragie interne."
+      - "Occlusion d'une artère pulmonaire : arrêt cardiaque si elle est massive et touche un gros vaisseau."
+      - "Atteintes d'un poumon : détresse respiratoire possible."
+  - type: liste
+    titre: Signes
+    items:
+      - "La douleur est au premier plan ; elle peut débuter spontanément au repos, pendant ou après un effort."
+      - "Circonstances spécifiques orientant vers une cause : descente d'avion, alitement prolongé, immobilisation avec plâtre, après un accouchement."
+      - "Signes de détresse éventuels détectés lors du 2e regard, traduisant la gravité."
+      - "Au 4e regard, analyse de la douleur : « en étau » ou « en coup de poignard », comme une déchirure, un poids sur le thorax ou une brûlure, ou augmentant avec les mouvements ventilatoires."
+      - "Siège et irradiation : centre de la poitrine, latérale ou dans le dos ; extension possible au cou, à la mâchoire, aux épaules, voire aux bras ou au creux de l'estomac. Sévérité précisée grâce à l'échelle de douleur."
+      - "Évolution dans le temps : installation brutale ou progressive, douleur continue ou intermittente ; la durée est à préciser."
+  - type: liste
+    titre: Signes associés témoignant de la gravité (3e regard, 4e regard ou surveillance)
+    items:
+      - Malaise avec pâleur et sueurs
+      - Nausées voire vomissements
+      - Signes de détresse vitale
+  - type: liste
+    titre: Interrogatoire de la victime et de l'entourage
+    items:
+      - "Épisode similaire déjà présenté, hospitalisation."
+      - "Antécédents cardio-vasculaires (angine de poitrine, infarctus) ou pulmonaires (embolie pulmonaire, phlébites)."
+      - "Facteurs de risque : tabagisme, tabagisme avec contraceptifs oraux, obésité, diabète, hypertension, hypercholestérolémie."
+      - "Antécédents similaires chez les membres de la famille."
+  - type: texte
+    titre: Principe de l'action de secours
+    contenu: "Préserver les fonctions vitales ; installer la victime dans la position la mieux tolérée ; s'assurer qu'un défibrillateur est à proximité ; demander un avis médical ; aider la victime à prendre un traitement médicamenteux si nécessaire."
+qcm:
+  - id: q1
+    enonce: "Quelle complication de l'infarctus peut conduire à un arrêt cardiaque ?"
+    propositions:
+      - "Un trouble du rythme cardiaque (fibrillation ventriculaire)"
+      - "Un reflux gastrique"
+      - "Une névralgie"
+    bonnes:
+      - 0
+    explication: "L'occlusion d'une artère coronaire conduit à un infarctus qui peut se compliquer d'un trouble du rythme cardiaque (fibrillation ventriculaire) et d'un arrêt cardiaque."
+  - id: q2
+    enonce: "Lesquelles de ces causes peuvent provoquer une douleur thoracique ?"
+    propositions:
+      - "Occlusion d'une artère coronaire"
+      - "Embolie pulmonaire"
+      - "Pneumothorax"
+      - "Fissuration de l'aorte"
+      - "Fracture du poignet"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Le texte cite l'occlusion d'une artère coronaire, la fissuration de l'aorte, le pneumothorax et l'embolie pulmonaire, entre autres causes. Une fracture du poignet n'en fait pas partie."
+  - id: q3
+    enonce: "Vers quelles zones la douleur thoracique peut-elle irradier ?"
+    propositions:
+      - "Le cou et la mâchoire"
+      - "Les épaules et les bras"
+      - "Le creux de l'estomac"
+      - "Uniquement la cuisse"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La douleur peut s'étendre au cou, à la mâchoire, aux épaules, voire aux bras ou au creux de l'estomac."
+  - id: q4
+    enonce: "Dans quelle circonstance spécifique une douleur thoracique peut-elle orienter vers une cause particulière ?"
+    propositions:
+      - "Après un alitement prolongé"
+      - "Après un repas léger"
+      - "Après une douche"
+    bonnes:
+      - 0
+    explication: "Descente d'avion, alitement prolongé, immobilisation avec plâtre ou accouchement récent orientent vers une cause spécifique."
+  - id: q5
+    enonce: "Quel moyen permet de préciser la sévérité de la douleur ?"
+    propositions:
+      - "L'échelle de douleur"
+      - "La mesure de la glycémie"
+      - "La mesure de la température"
+    bonnes:
+      - 0
+    explication: "La sévérité de la douleur est précisée grâce à l'échelle de douleur."
+  - id: q6
+    enonce: "Quels éléments font partie du principe de l'action de secours face à une douleur thoracique ?"
+    propositions:
+      - "Installer la victime dans la position la mieux tolérée"
+      - "S'assurer qu'un défibrillateur est à proximité"
+      - "Demander un avis médical"
+      - "Faire marcher la victime pour la soulager"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Il faut préserver les fonctions vitales, installer la victime dans la position la mieux tolérée, s'assurer qu'un défibrillateur est à proximité et demander un avis médical."

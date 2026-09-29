@@ -1,0 +1,100 @@
+id: positions-attente-transport
+niveau: PSE1
+chapitre: malaises
+type: technique
+ordre: 3
+titre: Positions d'attente et de transport
+motsCles: [position d'attente, à plat dos, demi-assise, sur le côté, jambes fléchies, brancard, transport]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06FT01, 07-2026)
+  code: 06FT01
+  page: 178
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La position d'attente et de transport est adaptée à l'état et à la détresse de la victime. Elle stabilise ou améliore l'état de la victime et rend son attente ou son déplacement plus confortable. Outre la position latérale de sécurité, on distingue quatre positions."
+  - type: liste
+    titre: Les positions et leurs indications
+    items:
+      - "À plat dos, horizontale : position d'attente et de transport courante pour toute victime. Particulièrement indiquée en cas de détresse circulatoire, de RCP nécessaire ou de signes d'AVC."
+      - "Assise ou demi-assise : souvent confortable ; particulièrement indiquée en cas de détresse ou de gêne respiratoire pour mieux respirer."
+      - "Allongée sur le côté : facilite le transport des victimes qui vomissent ; indiquée aussi pour le transport des femmes enceintes dans les derniers mois de la grossesse ou en imminence d'accouchement."
+      - "Cuisses fléchies, jambes repliées : indiquée en cas de contusion ou de plaie grave de l'abdomen, ou de violentes douleurs abdominales."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Aucun matériel particulier n'est nécessaire pour installer la victime."
+      - "Le maintien de la position est facilité par : le brancard ; un matelas immobilisateur à dépression ; des coussins ou couvertures roulées ou repliées."
+  - type: etapes
+    titre: Réalisation selon la position
+    items:
+      - "À plat dos : la victime peut être installée ainsi après avoir été retournée si elle était initialement allongée sur le ventre."
+      - "Assise ou demi-assise : obtenue très rapidement en asseyant la victime dans un fauteuil ou sur une chaise, en l'appuyant contre une paroi verticale (arbre, mur), en glissant des oreillers ou coussins dans son dos, ou en demandant à un secouriste de se placer à genoux derrière elle. Maintenue sur le brancard en relevant la têtière."
+      - "Sur le côté : la victime peut être sur le côté, allongée ou demi-assise, en s'installant elle-même ou en étant aidée en la roulant au sol. Maintenue sur un matelas immobilisateur à dépression ou un brancard."
+      - "Jambes fléchies : obtenue en demandant à la victime consciente de maintenir ses membres inférieurs fléchis, ou en glissant des coussins ou une couverture repliée sous ses genoux. Si le brancard le permet, maintenue en relevant les parties intermédiaires du brancard au niveau des membres inférieurs."
+  - type: attention
+    titre: Risques et évaluation
+    items:
+      - "Risque : la mise en position d'attente nécessite parfois de mobiliser une victime traumatisée."
+      - "Évaluation : la position choisie est adaptée à l'état ou à la détresse de la victime ; la victime est installée confortablement et la position est stable."
+qcm:
+  - id: q1
+    enonce: "Quelle est la position d'attente et de transport courante pour toute victime ?"
+    propositions:
+      - Assise
+      - À plat dos, horizontale
+      - Sur le côté
+      - Cuisses fléchies
+    bonnes:
+      - 1
+    explication: "La position à plat dos, horizontale, est la position d'attente et de transport courante pour toute victime."
+  - id: q2
+    enonce: "Pour quelle victime la position assise ou demi-assise est-elle particulièrement indiquée ?"
+    propositions:
+      - "Une victime avec une détresse ou une gêne respiratoire"
+      - "Une victime avec une plaie grave de l'abdomen"
+      - "Une victime nécessitant une RCP"
+    bonnes:
+      - 0
+    explication: "La position assise ou demi-assise est particulièrement indiquée en cas de détresse ou de gêne respiratoire."
+  - id: q3
+    enonce: "Dans quelles situations la position à plat dos est-elle particulièrement indiquée ?"
+    propositions:
+      - Détresse circulatoire
+      - RCP nécessaire
+      - Signes d'AVC
+      - Gêne respiratoire
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La position à plat dos est particulièrement indiquée en cas de détresse circulatoire, de RCP ou de signes d'AVC. La gêne respiratoire relève de la position assise ou demi-assise."
+  - id: q4
+    enonce: "Quelle position facilite le transport d'une victime qui vomit ?"
+    propositions:
+      - Allongée sur le côté
+      - Cuisses fléchies, jambes repliées
+      - À plat dos
+    bonnes:
+      - 0
+    explication: "La position allongée sur le côté facilite le transport des victimes qui présentent des vomissements ; elle est aussi indiquée pour les femmes enceintes dans les derniers mois de la grossesse ou en imminence d'accouchement."
+  - id: q5
+    enonce: "Quelle position est indiquée pour une victime avec de violentes douleurs abdominales ?"
+    propositions:
+      - Cuisses fléchies, jambes repliées
+      - Assise
+      - Debout appuyée contre un mur
+    bonnes:
+      - 0
+    explication: "La position cuisses fléchies, jambes repliées, est indiquée en cas de contusion, plaie grave de l'abdomen ou violentes douleurs abdominales."
+  - id: q6
+    enonce: "Quel risque comporte la mise en position d'attente ?"
+    propositions:
+      - "Elle peut nécessiter de mobiliser une victime traumatisée"
+      - "Elle impose toujours un matelas immobilisateur à dépression"
+      - "Elle empêche de poursuivre le bilan"
+    bonnes:
+      - 0
+    explication: "La mise en position d'attente nécessite parfois de mobiliser une victime traumatisée. Aucun matériel particulier n'est nécessaire."

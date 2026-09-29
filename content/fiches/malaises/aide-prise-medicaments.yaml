@@ -1,0 +1,161 @@
+id: aide-prise-medicaments
+niveau: PSE1
+chapitre: malaises
+type: technique
+ordre: 4
+titre: Aide à la prise de médicaments
+motsCles: [médicament, voie sublinguale, voie orale, spray buccal, DAI, spray nasal, prescription, date de péremption]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06FT02, 07-2026)
+  code: 06FT02
+  page: 180
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'administration d'un médicament à une victime est indiquée si elle le demande, parce qu'il lui a été prescrit, ou à la demande du médecin régulateur. Le médecin régulateur peut demander cette administration même en l'absence de signes de détresse, pour prévenir. Certains médicaments ont un effet rapide et très efficace sur des malaises ou l'aggravation brutale d'une maladie : ils améliorent l'état d'une victime en détresse respiratoire ou circulatoire, et soulagent, diminuent ou font disparaître une douleur apparue au moment du malaise ou du traumatisme, ou qui vient de s'aggraver."
+  - type: liste
+    titre: Voies d'administration et formes
+    items:
+      - "Voies : injection, inhalation, pulvérisation nasale, ingestion (voie orale), sous la langue (voie sublinguale), sur la langue (voie buccale)."
+      - "Formes : gaz (ex. oxygène) ; spray buccal, parfois avec une chambre de mélange (ou d'inhalation) ; spray nasal (ex. naloxone en spray) ; comprimés ; dispositif auto-injectable (DAI), ex. DAI d'adrénaline."
+  - type: liste
+    titre: Dans tous les cas
+    items:
+      - S'assurer de la prescription médicale.
+      - Vérifier la date de péremption du produit.
+  - type: etapes
+    titre: Voie sublinguale ou buccale
+    items:
+      - "S'assurer que la victime ne présente aucun trouble de la conscience."
+      - "Demander à la victime d'ouvrir la bouche."
+      - "Déposer le comprimé ou réaliser une pulvérisation sous la langue (voie sublinguale) ou sur la langue (voie buccale)."
+      - "Demander à la victime de fermer la bouche et de ne pas avaler."
+  - type: etapes
+    titre: Voie orale
+    items:
+      - "S'assurer que la victime ne présente aucun trouble de la conscience et est capable d'avaler."
+      - "Demander à la victime d'ouvrir la bouche et de tirer la langue."
+      - "Déposer le comprimé sur la langue de la victime si elle ne peut le faire elle-même."
+      - "Demander à la victime d'avaler le comprimé avec un peu d'eau."
+  - type: etapes
+    titre: Spray buccal (suivre les instructions du fabricant, généralement)
+    items:
+      - "Secouer vigoureusement le pulvérisateur plusieurs fois."
+      - "Mettre en place le pulvérisateur au niveau de la chambre de mélange (ou d'inhalation) si nécessaire."
+      - "Enlever l'administration d'oxygène, si nécessaire."
+      - "Demander à la victime de vider autant que possible l'air contenu dans ses poumons."
+      - "Mettre les lèvres de la victime tout autour de l'embout buccal du pulvérisateur."
+      - "Demander à la victime de comprimer le pulvérisateur tout en inspirant lentement par la bouche, profondément et le plus longtemps possible."
+      - "Demander à la victime de retenir sa respiration pendant 10 secondes avant de respirer de nouveau normalement."
+      - "Replacer le masque à inhalation d'oxygène, si nécessaire."
+  - type: etapes
+    titre: Dispositif auto-injectable, DAI (suivre les instructions du fabricant, généralement)
+    items:
+      - "Après vérification de la limpidité de la solution, l'injection est intramusculaire, sur la face externe de la cuisse ou à défaut dans le deltoïde (face externe de l'extrémité proximale du bras)."
+      - "Retirer les dispositifs de protection du DAI."
+      - "Placer l'extrémité du DAI (côté seringue) contre la face externe de la cuisse, à égale distance de la hanche et du genou, ou contre le deltoïde. En cas d'urgence, l'injection peut être faite à travers le tissu d'un vêtement s'il n'est pas très épais."
+      - "Maintenir fermement le DAI perpendiculairement contre la face externe de la cuisse ou contre le deltoïde."
+      - "Presser le bouton déclencheur ou, avec un mouvement de balancement, pousser fermement l'extrémité du dispositif jusqu'au clic qui confirme le début de l'injection."
+      - "Maintenir le dispositif en place quelques secondes avant de le retirer, selon les indications du fabricant."
+      - "Masser légèrement le site d'injection pendant quelques secondes."
+      - "Éliminer le dispositif injecteur dans un conteneur de recueil de DASRI."
+  - type: etapes
+    titre: Spray nasal (suivre les instructions du fabricant, généralement)
+    items:
+      - "Se munir du ou des pulvérisateurs (le médicament peut comporter deux pulvérisateurs, un pour chaque narine)."
+      - "Tenir le pulvérisateur délicatement entre les doigts et le pouce sans appuyer sur le piston."
+      - "Placer l'embout complètement dans la narine de la victime, en direction de la paroi nasale, à l'opposé de la cloison."
+      - "Appuyer fermement sur le piston pour délivrer le médicament."
+      - "Renouveler l'opération dans l'autre narine si indiqué."
+      - "Observer les réactions de la victime."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Un médicament dont la date de péremption est absente ou dépassée ne doit pas être administré."
+      - "L'apparition d'effets secondaires impose la transmission d'un nouveau bilan pour avis médical."
+      - "Toute administration et les réactions de la victime sont relevées sur la fiche d'intervention, en particulier l'heure d'administration."
+      - "Si la solution d'un DAI est trouble, colorée ou contient des particules, le dispositif ne doit pas être utilisé (la fenêtre du DAI permet de contrôler la limpidité)."
+      - "En cas de piqûre du secouriste avec l'aiguille ayant servi à l'injection, appliquer la procédure spécifique à l'accident d'exposition à un risque viral."
+      - "L'utilisation d'une chambre de mélange lors d'une inhalation augmente l'efficacité du médicament et est recommandée ; une inspiration longue augmente l'absorption."
+  - type: texte
+    titre: Évaluation
+    contenu: "L'administration est conforme à la prescription médicale et améliore l'état de la victime."
+qcm:
+  - id: q1
+    enonce: "Dans quels cas l'administration d'un médicament à une victime est-elle indiquée ?"
+    propositions:
+      - "Si la victime le demande, car il lui a été prescrit"
+      - "À la demande du médecin régulateur"
+      - "À l'initiative du secouriste, sans prescription"
+    bonnes:
+      - 0
+      - 1
+    explication: "L'administration est indiquée si la victime le demande car le médicament lui a été prescrit, ou à la demande du médecin régulateur. La prescription médicale doit toujours être vérifiée."
+  - id: q2
+    enonce: "Quelles vérifications sont demandées dans tous les cas avant d'administrer un médicament ?"
+    propositions:
+      - "S'assurer de la prescription médicale"
+      - "Vérifier la date de péremption du produit"
+      - "Mesurer la température de la victime"
+    bonnes:
+      - 0
+      - 1
+    explication: "Dans tous les cas, on s'assure de la prescription médicale et on vérifie la date de péremption."
+  - id: q3
+    enonce: "Pour l'administration par voie sublinguale ou buccale, que demande-t-on à la victime une fois le produit déposé ?"
+    propositions:
+      - "Avaler avec un peu d'eau"
+      - "Fermer la bouche et ne pas avaler"
+      - "Mâcher le comprimé"
+    bonnes:
+      - 1
+    explication: "Après dépôt du comprimé ou pulvérisation, on demande à la victime de fermer la bouche et de ne pas avaler."
+  - id: q4
+    enonce: "Pendant combien de temps la victime retient-elle sa respiration après l'inhalation d'un spray buccal ?"
+    propositions:
+      - 5 secondes
+      - 10 secondes
+      - 20 secondes
+      - 30 secondes
+    bonnes:
+      - 1
+    explication: "La victime retient sa respiration pendant 10 secondes avant de respirer de nouveau normalement."
+  - id: q5
+    enonce: "Où réalise-t-on l'injection d'un DAI ?"
+    propositions:
+      - "Voie intramusculaire, face externe de la cuisse ou à défaut deltoïde"
+      - "Voie intraveineuse, pli du coude"
+      - "Voie sous-cutanée, abdomen uniquement"
+    bonnes:
+      - 0
+    explication: "L'injection avec un DAI est intramusculaire sur la face externe de la cuisse, à égale distance de la hanche et du genou, ou à défaut dans le deltoïde."
+  - id: q6
+    enonce: "Dans quel cas ne doit-on pas utiliser un DAI ?"
+    propositions:
+      - "La solution est trouble, colorée ou contient des particules"
+      - "La solution est limpide"
+      - "La victime porte un vêtement fin"
+    bonnes:
+      - 0
+    explication: "Si la solution est trouble, colorée ou contient des particules, le dispositif ne doit pas être utilisé. En urgence, l'injection à travers un vêtement peu épais est possible."
+  - id: q7
+    enonce: "Que faire si la date de péremption d'un médicament est dépassée ou absente ?"
+    propositions:
+      - "Ne pas l'administrer"
+      - "L'administrer si la victime insiste"
+      - "L'administrer à demi-dose"
+    bonnes:
+      - 0
+    explication: "En l'absence de date de péremption ou si elle est dépassée, le médicament ne doit pas être administré."
+  - id: q8
+    enonce: "Que faut-il noter sur la fiche d'intervention ?"
+    propositions:
+      - "L'administration du médicament, en particulier son heure"
+      - "Les réactions de la victime à cette administration"
+      - "Uniquement le nom du fabricant"
+    bonnes:
+      - 0
+      - 1
+    explication: "Toute administration ainsi que les réactions de la victime sont relevées sur la fiche d'intervention, en particulier l'heure d'administration."

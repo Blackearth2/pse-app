@@ -1,0 +1,107 @@
+id: manoeuvres-physiques
+niveau: PSE1
+chapitre: malaises
+type: technique
+ordre: 5
+titre: Manœuvres physiques
+motsCles: [manœuvres physiques, malaise vagal, orthostatique, accroupissement, croisement des jambes, crochetage des doigts]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06FT03, 11-2021)
+  code: 06FT03
+  page: 183
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les manœuvres physiques sont à réaliser dès que la victime reconnaît des signes annonciateurs d'une perte de connaissance imminente d'origine vagale ou orthostatique. En agissant sur la circulation, elles créent une contre-pression vasculaire qui augmente la pression artérielle de la victime, afin d'éviter la perte de connaissance et les lésions traumatiques secondaires à une chute."
+  - type: liste
+    titre: Principes de réalisation
+    items:
+      - "Les manœuvres sont réalisées par la victime elle-même ; si elle ne les connaît pas, le sauveteur lui explique si possible comment les réaliser."
+      - "Elles ne remplacent pas la mise en position de confort, notamment allongée."
+      - "Si l'on ne peut pas allonger immédiatement la victime (malaise dans un bus, un avion, le train), elles peuvent précéder la mise en position allongée."
+  - type: etapes
+    titre: L'accroupissement (peut précéder la mise en position allongée)
+    items:
+      - "Se placer en position accroupie."
+      - "Baisser la tête comme pour la mettre entre les deux genoux."
+  - type: etapes
+    titre: Croisement des membres inférieurs (victime allongée ou debout en appui contre un mur)
+    items:
+      - "Croiser les membres inférieurs."
+      - "Contracter les muscles en essayant de tendre les jambes."
+      - "Serrer les fesses."
+      - "Contracter la ceinture abdominale."
+  - type: etapes
+    titre: Crochetage des doigts et tension des muscles des membres supérieurs
+    items:
+      - "Agripper les deux mains par les doigts en crochets."
+      - "Écarter les coudes de la poitrine au maximum."
+      - "Contracter les deux membres supérieurs en tirant comme pour essayer de séparer les deux mains."
+  - type: attention
+    titre: À retenir
+    items:
+      - "Le croisement des membres inférieurs a une efficacité supérieure aux deux autres techniques."
+      - "Évaluation : les manœuvres sont réalisées dès l'apparition des premiers signes de malaise et poursuivies après la mise au repos."
+qcm:
+  - id: q1
+    enonce: "À quel moment réalise-t-on les manœuvres physiques ?"
+    propositions:
+      - "Dès que la victime reconnaît des signes annonciateurs d'une perte de connaissance imminente d'origine vagale ou orthostatique"
+      - "Uniquement après la perte de connaissance"
+      - "Seulement en cas d'arrêt cardiaque"
+    bonnes:
+      - 0
+    explication: "Elles sont réalisées dès que la victime reconnaît des signes annonciateurs d'une perte de connaissance imminente d'origine vagale ou orthostatique."
+  - id: q2
+    enonce: "Quel est le but des manœuvres physiques ?"
+    propositions:
+      - "Créer une contre-pression vasculaire pour augmenter la pression artérielle"
+      - "Diminuer la fréquence cardiaque"
+      - "Éviter la perte de connaissance et les lésions secondaires à une chute"
+    bonnes:
+      - 0
+      - 2
+    explication: "En créant une contre-pression vasculaire, elles augmentent la pression artérielle et évitent la perte de connaissance et les lésions traumatiques secondaires à une chute."
+  - id: q3
+    enonce: "Qui réalise les manœuvres physiques ?"
+    propositions:
+      - "La victime elle-même"
+      - "Le secouriste, en mobilisant la victime"
+      - "Uniquement le médecin"
+    bonnes:
+      - 0
+    explication: "Les manœuvres sont réalisées par la victime elle-même ; le sauveteur lui explique comment faire si elle ne les connaît pas."
+  - id: q4
+    enonce: "Quelle technique est la plus efficace ?"
+    propositions:
+      - "L'accroupissement"
+      - "Le croisement des membres inférieurs"
+      - "Le crochetage des doigts"
+    bonnes:
+      - 1
+    explication: "Le croisement des membres inférieurs a une efficacité supérieure aux deux autres techniques."
+  - id: q5
+    enonce: "Que comprend la manœuvre de croisement des membres inférieurs ?"
+    propositions:
+      - "Croiser les membres inférieurs"
+      - "Contracter les muscles en essayant de tendre les jambes"
+      - "Serrer les fesses"
+      - "Contracter la ceinture abdominale"
+      - "Baisser la tête entre les genoux"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Il faut croiser les jambes, contracter les muscles en tendant les jambes, serrer les fesses et contracter la ceinture abdominale. Baisser la tête entre les genoux relève de l'accroupissement."
+  - id: q6
+    enonce: "Les manœuvres physiques peuvent-elles précéder la mise en position allongée ?"
+    propositions:
+      - "Oui, si l'on ne peut pas allonger immédiatement la victime (bus, avion, train)"
+      - "Non, elles remplacent toujours la position allongée"
+      - "Non, elles ne se font jamais avant l'allongement"
+    bonnes:
+      - 0
+    explication: "Elles ne remplacent pas la position de confort mais peuvent la précéder si l'on ne peut pas allonger immédiatement la victime."
