@@ -2,7 +2,7 @@ id: traumatisme-crane-velo
 niveau: PSE2
 titre: Chute à vélo, coup sur la tête
 lieu: Route de campagne, en marge d'une manifestation sportive
-statut: brouillon
+statut: verifie
 liees: [traumatisme-crane-connaissances, traumatisme-crane-conduite-a-tenir, evaluation-fonction-neurologique, surveillance-victime]
 contexte: "Tu es en équipe de deux secouristes sur une manifestation cycliste. Un cycliste de 30 ans est tombé de son vélo en heurtant le sol de la tête. Il est assis sur le bord de la route, casqué, conscient. Le casque est fissuré. Il se plaint de maux de tête et ne se souvient pas de la chute, que des témoins ont décrite."
 etapes:

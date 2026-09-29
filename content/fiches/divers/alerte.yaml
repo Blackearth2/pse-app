@@ -5,7 +5,7 @@ type: connaissance
 ordre: 2
 titre: Alerte
 motsCles: [alerte, "18", "15", "112", "114", informations minimales, borne d'appel]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC02, 07-2026)
   code: 12AC02

@@ -2,7 +2,7 @@ id: chute-velo-avant-bras
 niveau: PSE1
 titre: Chute à vélo, avant-bras douloureux
 lieu: Piste cyclable au bord d'un canal
-statut: brouillon
+statut: verifie
 liees: [traumatisme-membres-connaissances, traumatisme-membres-conduite-a-tenir, attelle-modulable, application-de-froid]
 contexte: "Tu es en équipe de deux secouristes sur une manifestation cycliste. Une femme de 50 ans, consciente, vient de chuter de son vélo en se réceptionnant sur la main. Elle se tient l'avant-bras gauche contre elle en grimaçant. Elle respire normalement, ne présente aucune détresse vitale et aucun saignement. Il n'y a pas de plaie au niveau de son avant-bras."
 etapes:

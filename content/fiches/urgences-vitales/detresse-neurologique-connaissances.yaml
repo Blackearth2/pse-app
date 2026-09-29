@@ -5,7 +5,7 @@ type: connaissance
 ordre: 36
 titre: "Détresse neurologique (connaissances)"
 motsCles: [détresse neurologique, conscience, AVC, hypoglycémie, convulsions, asymétrie des pupilles]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC09, 12-2022)"
   code: 05AC09

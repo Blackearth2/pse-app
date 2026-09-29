@@ -2,7 +2,7 @@ id: noyade-au-ponton
 niveau: PSE1
 titre: Noyade au ponton
 lieu: Base de loisirs, plan d'eau en bord de plage
-statut: brouillon
+statut: verifie
 liees: [noyade-conduite-a-tenir, noyade-connaissances, rechauffement-victime]
 contexte: "Tu es de poste sur une base de loisirs, un après-midi de fin de journée un peu frais et venteux. Un cri retentit : un adolescent qui nageait au large du ponton s'est mis à couler puis refait surface en agitant les bras, à une dizaine de mètres du bord. Tu es seul secouriste à proximité, sans matériel de sauvetage à la ceinture, mais une bouée de sauvetage est accrochée au ponton."
 etapes:

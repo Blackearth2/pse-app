@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Brûlures (connaissances)
 motsCles: [brûlure simple, brûlure grave, cloques, paume de la main, règle de Wallace, inhalation, brûlure chimique, localisation]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC01, 07-2026)
   code: 07AC01

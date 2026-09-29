@@ -5,7 +5,7 @@ type: procedure
 ordre: 13
 titre: Affections liées à la chaleur (conduite à tenir)
 motsCles: [chaleur, coup de chaleur, refroidissement actif, 39 °C, 15 minutes, crampe, insolation, réhydratation]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR06, 07-2026)
   code: 08PR06

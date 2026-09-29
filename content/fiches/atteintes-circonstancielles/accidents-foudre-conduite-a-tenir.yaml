@@ -5,7 +5,7 @@ type: procedure
 ordre: 35
 titre: Accidents liés à la foudre (conduite à tenir)
 motsCles: [foudre, extraction d'urgence, arrêt cardiorespiratoire, distance entre individus, cône de protection, rappels de sécurité]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR17, 11-2021)
   code: 08PR17

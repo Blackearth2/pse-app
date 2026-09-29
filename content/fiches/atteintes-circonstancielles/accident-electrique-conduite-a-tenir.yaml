@@ -5,7 +5,7 @@ type: procedure
 ordre: 2
 titre: Accident électrique (conduite à tenir)
 motsCles: [sécurité, couper le courant, haute tension, ligne électrique, véhicule, foudre, brûlure, femme enceinte]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR01, 12-2023)
   code: 08PR01

@@ -5,7 +5,7 @@ type: procedure
 ordre: 3
 titre: Deuxième regard
 motsCles: [2e regard, menaces vitales, hémorragie externe grave, voies aériennes, arrêt cardiaque, plainte principale]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR02, 07-2026)
   code: 04PR02

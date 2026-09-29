@@ -2,7 +2,7 @@ id: chute-echafaudage-bassin
 niveau: PSE2
 titre: Chute d'un échafaudage, douleur au bassin
 lieu: Chantier de ravalement de façade
-statut: brouillon
+statut: verifie
 liees: [traumatisme-bassin-connaissances, traumatisme-bassin-conduite-a-tenir, contention-pelvienne, detresse-circulatoire-connaissances, surveillance-victime]
 contexte: "Tu es appelé sur un chantier. Un ouvrier de 30 ans est tombé d'un échafaudage et s'est réceptionné sur le sol, en position assise puis sur le côté. Il est conscient, allongé sur le flanc, et se plaint d'une vive douleur au bas du ventre et aux hanches. Tu es accompagné d'un équipier ; le chef de chantier attend à proximité."
 etapes:

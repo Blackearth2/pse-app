@@ -5,7 +5,7 @@ type: procedure
 ordre: 12
 titre: Précautions particulières contre le risque infectieux
 motsCles: [précautions particulières, FFP2, masque chirurgical, surblouse, charlotte, isolement, gants]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03PR03, 09-2014)
   code: 03PR03

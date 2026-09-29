@@ -5,7 +5,7 @@ type: procedure
 ordre: 9
 titre: Prise en charge du nouveau-né à la naissance
 motsCles: [nouveau-né, cri, tonus, clampage du cordon, réanimation, insufflations, fréquence cardiaque, hypothermie]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR05, 12-2022)
   code: 08PR05

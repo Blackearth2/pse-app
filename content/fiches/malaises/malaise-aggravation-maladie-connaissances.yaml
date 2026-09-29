@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Malaise et aggravation de maladie (connaissances)
 motsCles: [malaise, malaise bénin, malaise grave, aggravation de maladie, 4e regard, signes de gravité, fréquence cardiaque]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC01, 06-2018)
   code: 06AC01

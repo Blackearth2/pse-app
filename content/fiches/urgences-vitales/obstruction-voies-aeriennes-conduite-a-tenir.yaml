@@ -5,7 +5,7 @@ type: procedure
 ordre: 13
 titre: Obstruction des voies aériennes (conduite à tenir)
 motsCles: [OVA, claques dans le dos, compressions abdominales, compressions thoraciques, toux, perte de connaissance]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR03, 07-2026)
   code: 05PR03

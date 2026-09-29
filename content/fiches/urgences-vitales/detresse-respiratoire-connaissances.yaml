@@ -5,7 +5,7 @@ type: connaissance
 ordre: 32
 titre: "Détresse respiratoire (connaissances)"
 motsCles: [détresse respiratoire, cyanose, tirage, fréquence respiratoire, SpO2, balancement thoraco-abdominal]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC07, 07-2026)"
   code: 05AC07

@@ -2,7 +2,7 @@ id: crise-sideration-apres-accident
 niveau: PSE2
 titre: Personne sidérée après un accident
 lieu: Bord de route, après une collision entre deux véhicules
-statut: brouillon
+statut: verifie
 liees: [personnes-en-situation-de-crise-connaissances, personne-en-situation-de-crise-conduite-a-tenir]
 contexte: "Tu interviens en équipe après une collision sans blessé grave. Un conducteur d'une trentaine d'années, indemne, est assis sur le bas-côté. Il fixe le vide, ne répond pas aux questions et ne bouge plus. Une petite foule de curieux se tient autour de lui."
 etapes:

@@ -2,7 +2,7 @@ id: crise-asthme-barbecue
 niveau: PSE1
 titre: Crise d'asthme au barbecue
 lieu: Fête de quartier en plein air, stand de restauration
-statut: brouillon
+statut: verifie
 liees: [crise-d-asthme-connaissances, crise-d-asthme-conduite, malaise-aggravation-maladie-conduite-a-tenir, aide-prise-medicaments]
 contexte: "Lors d'une fête de quartier, tu es de poste près des stands. Un homme de 34 ans, asthmatique connu, se tient courbé au-dessus d'un barbecue enfumé. Il est conscient, très angoissé, agité, et sa respiration est sifflante."
 etapes:

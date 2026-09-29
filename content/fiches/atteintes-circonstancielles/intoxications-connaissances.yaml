@@ -5,7 +5,7 @@ type: connaissance
 ordre: 19
 titre: Intoxications (connaissances)
 motsCles: [intoxication, poison, toxique, ingestion, inhalation, injection, absorption, environnement toxique]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC08, 09-2019)
   code: 08AC08

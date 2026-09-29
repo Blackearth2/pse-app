@@ -5,7 +5,7 @@ type: connaissance
 ordre: 22
 titre: Piqûres et morsures (connaissances)
 motsCles: [piqûre, morsure, venin, insectes, serpents, animaux marins, rage, tétanos, allergie grave]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC09, 09-2019)
   code: 08AC09

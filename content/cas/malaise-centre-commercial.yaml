@@ -2,7 +2,7 @@ id: malaise-centre-commercial
 niveau: PSE1
 titre: Malaise dans un centre commercial
 lieu: Galerie marchande bondée, un samedi de soldes
-statut: brouillon
+statut: verifie
 liees: [malaise-aggravation-maladie-connaissances, malaise-aggravation-maladie-conduite-a-tenir, positions-attente-transport, manoeuvres-physiques, transmission-bilan]
 contexte: "Tu es de garde au poste de secours d'un centre commercial. On t'appelle pour une femme d'une cinquantaine d'années appuyée contre une vitrine, au milieu de la foule et de la musique. Elle est consciente, répond à tes questions, respire sans difficulté apparente et te dit : « Je ne me sens pas bien, j'ai la tête qui tourne. » Tu ne relèves aucun signe de détresse vitale."
 etapes:

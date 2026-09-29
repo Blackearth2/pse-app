@@ -2,7 +2,7 @@ id: reperage-collision-autocar
 niveau: PSE1
 titre: Repérage après une collision d'autocar
 lieu: Route départementale, autocar de tourisme sorti de la chaussée
-statut: brouillon
+statut: verifie
 liees: [situation-nombreuses-victimes, reperage-nombreuses-victimes]
 contexte: "Vous êtes trois secouristes arrivés les premiers sur les lieux d'une collision impliquant un autocar de tourisme. Une vingtaine de personnes sont sur place : certaines sont assises sur le bas-côté, d'autres allongées, d'autres encore errent sans but. Les renforts sont en route mais n'arriveront pas avant un moment. Le nombre de victimes graves dépasse manifestement le nombre de secouristes."
 etapes:

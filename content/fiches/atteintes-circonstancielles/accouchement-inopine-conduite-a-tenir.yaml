@@ -5,7 +5,7 @@ type: procedure
 ordre: 8
 titre: Accouchement inopiné (conduite à tenir)
 motsCles: [accouchement inopiné, parturiente, poussée, circulaire du cordon, délivrance, placenta, avis médical]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR04, 07-2026)
   code: 08PR04

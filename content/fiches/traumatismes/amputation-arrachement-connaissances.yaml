@@ -5,7 +5,7 @@ type: connaissance
 ordre: 8
 titre: Amputation ou arrachement complet d'une partie du corps (connaissances)
 motsCles: [amputation, arrachement, hémorragie externe, réimplantation, temps d'ischémie, amputation partielle]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC03, 07-2026)
   code: 07AC03

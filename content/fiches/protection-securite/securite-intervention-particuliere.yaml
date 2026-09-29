@@ -5,7 +5,7 @@ type: procedure
 ordre: 4
 titre: Sécurité sur intervention particulière
 motsCles: [accident électrique, accident de la route, monoxyde de carbone, incendie, fuite de gaz, substances dangereuses, balisage]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02PR02, 07-2026)
   code: 02PR02

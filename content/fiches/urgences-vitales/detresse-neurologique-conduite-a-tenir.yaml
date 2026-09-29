@@ -5,7 +5,7 @@ type: procedure
 ordre: 37
 titre: "Détresse neurologique (conduite à tenir)"
 motsCles: [détresse neurologique, allonger, oxygène, état neurologique, urgence vitale]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR10, 12-2022)"
   code: 05PR10

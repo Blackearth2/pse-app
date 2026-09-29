@@ -5,7 +5,7 @@ type: procedure
 ordre: 33
 titre: Victimes d'avalanche (conduite à tenir)
 motsCles: [avalanche, dégagement de la tête, poche d'air, rachis cervical, hypothermie, arrêt cardiaque]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR16, 11-2021)
   code: 08PR16

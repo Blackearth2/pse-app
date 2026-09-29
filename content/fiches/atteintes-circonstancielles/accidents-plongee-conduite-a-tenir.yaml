@@ -5,7 +5,7 @@ type: procedure
 ordre: 6
 titre: Accidents liés à la plongée (conduite à tenir)
 motsCles: [plongée, oxygène 15 l/min, masque à haute concentration, eau plate, paramètres de la plongée, fiche d'évacuation, aspirine]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR03, 06-2018)
   code: 08PR03

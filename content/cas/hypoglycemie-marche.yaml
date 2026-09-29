@@ -2,7 +2,7 @@ id: hypoglycemie-marche
 niveau: PSE1
 titre: Hypoglycémie sur le marché
 lieu: Marché de plein air, à proximité du poste de secours
-statut: brouillon
+statut: verifie
 liees: [hypoglycemie-diabetique-connaissances, hypoglycemie-diabetique-conduite, mesure-glycemie-capillaire, malaise-aggravation-maladie-conduite-a-tenir]
 contexte: "Un commerçant vient te chercher : un client de 62 ans, diabétique connu, s'est assis brusquement sur une caisse. Il est conscient, répond à tes questions mais parle lentement. Il n'a pas déjeuné et vient de porter des cageots toute la matinée."
 etapes:

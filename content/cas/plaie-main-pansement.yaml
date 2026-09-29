@@ -2,7 +2,7 @@ id: plaie-main-pansement
 niveau: PSE1
 titre: Une coupure à la main
 lieu: Stand de restauration d'une fête de village
-statut: brouillon
+statut: verifie
 liees: [plaie-connaissances, plaie-conduite-a-tenir, pansement]
 contexte: "Tu es de poste sur une fête de village. Un bénévole de 45 ans, en train d'ouvrir des boîtes de conserve, s'est coupé la paume de la main sur le bord d'un couvercle. Il est conscient, tient sa main en l'air et te montre une petite coupure superficielle, de 2 cm environ, qui saigne peu."
 etapes:

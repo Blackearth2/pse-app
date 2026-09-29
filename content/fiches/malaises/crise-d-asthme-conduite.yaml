@@ -5,7 +5,7 @@ type: procedure
 ordre: 13
 titre: Crise d'asthme (conduite à tenir)
 motsCles: [asthme, malaise, facteurs déclenchants, oxygène, respiration, position initiale]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR05, 07-2026)
   code: 06PR05

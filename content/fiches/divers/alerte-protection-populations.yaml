@@ -5,7 +5,7 @@ type: connaissance
 ordre: 3
 titre: Alerte et protection des populations
 motsCles: [alerte aux populations, signal national d'alerte, FR-Alert, confinement, évacuation, kit d'urgence, mesures barrières]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC03, 07-2026)
   code: 12AC03

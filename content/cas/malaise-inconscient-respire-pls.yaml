@@ -2,7 +2,7 @@ id: malaise-inconscient-respire-pls
 niveau: PSE1
 titre: Une femme inconsciente au supermarché
 lieu: Supermarché, rayon des surgelés
-statut: brouillon
+statut: verifie
 liees: [deuxieme-regard, lva-victime-non-traumatisee, perte-de-connaissance-connaissances, perte-de-connaissance-sauveteur-isole, pls-a-un-secouriste]
 contexte: "Tu fais tes courses lorsqu'un employé te signale qu'une cliente d'une quarantaine d'années s'est effondrée dans un rayon. Tu es seul secouriste, sans matériel. Les témoins te disent qu'elle s'est plainte d'un malaise, sans chute violente ni choc."
 etapes:

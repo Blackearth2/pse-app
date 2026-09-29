@@ -2,7 +2,7 @@ id: allergie-grave-piqure-guepe
 niveau: PSE1
 titre: Réaction allergique grave après une piqûre
 lieu: Pique-nique dans un parc, à la belle saison
-statut: brouillon
+statut: verifie
 liees: [reaction-allergique-grave-connaissances, reaction-allergique-grave-conduite, aide-prise-medicaments, malaise-aggravation-maladie-conduite-a-tenir]
 contexte: "Lors d'un pique-nique organisé dans un parc, une femme d'une trentaine d'années vient d'être piquée par une guêpe. Quelques minutes plus tard, elle se sent mal. Elle est consciente, agitée, et te dit qu'elle est allergique aux piqûres d'insectes et qu'elle a son auto-injecteur d'adrénaline dans son sac."
 etapes:

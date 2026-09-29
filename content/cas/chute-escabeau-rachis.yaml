@@ -2,7 +2,7 @@ id: chute-escabeau-rachis
 niveau: PSE2
 titre: Chute d'un escabeau, douleur à la nuque
 lieu: Garage d'une maison individuelle
-statut: brouillon
+statut: verifie
 liees: [traumatisme-dos-cou-connaissances, traumatisme-dos-cou-conduite-a-tenir, maintien-tete-position-neutre, pose-collier-cervical]
 contexte: "Tu es appelé dans le garage d'un pavillon. Un homme de 68 ans est tombé de l'escabeau sur lequel il rangeait des cartons. Il est assis contre le mur, conscient. Il se plaint d'une douleur à la nuque et de fourmillements dans les deux mains. Il n'a pas de saignement visible. Tu es accompagné d'un équipier."
 etapes:

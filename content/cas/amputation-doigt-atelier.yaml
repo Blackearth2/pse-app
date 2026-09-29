@@ -2,7 +2,7 @@ id: amputation-doigt-atelier
 niveau: PSE1
 titre: Un doigt sectionné à la scie
 lieu: Atelier de menuiserie
-statut: brouillon
+statut: verifie
 liees: [amputation-arrachement-connaissances, amputation-arrachement-conduite-a-tenir, conditionner-partie-amputee, pansement-compressif]
 contexte: "Tu es appelé dans un atelier de menuiserie. Un ouvrier de 35 ans, conscient, vient de se sectionner l'index de la main droite à la scie circulaire. La machine est arrêtée. Le sang coule abondamment de la main et le doigt sectionné est resté sur l'établi. Un collègue, sous le choc, se tient à côté de lui."
 etapes:

@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Accident d'exposition à un risque viral (connaissances)
 motsCles: [AEV, exposition au sang, VIH, VHB, VHC, liquides biologiques, projection, piqûre]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03AC01, 09-2014)
   code: 03AC01

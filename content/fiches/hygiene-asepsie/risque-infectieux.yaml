@@ -5,7 +5,7 @@ type: connaissance
 ordre: 3
 titre: Risque infectieux
 motsCles: [infection, transmission, contact, gouttelettes, voie aérienne, précautions standards, AEV, porteur sain]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03AC02, 09-2014)
   code: 03AC02

@@ -5,7 +5,7 @@ type: connaissance
 ordre: 12
 titre: Affections liées à la chaleur (connaissances)
 motsCles: [chaleur, coup de chaleur, hyperthermie, insolation, crampes, "40 °C", "37,5 °C", déshydratation]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC05, 07-2026)
   code: 08AC05

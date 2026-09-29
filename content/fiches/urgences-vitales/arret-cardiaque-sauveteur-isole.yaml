@@ -5,7 +5,7 @@ type: procedure
 ordre: 19
 titre: Arrêt cardiaque en sauveteur isolé
 motsCles: [RCP, sauveteur isolé, DAE, alerte, 30/2, 15/2, épidémie, compressions seules]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR05, 07-2026)
   code: 05PR05

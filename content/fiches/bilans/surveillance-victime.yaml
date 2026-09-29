@@ -5,7 +5,7 @@ type: procedure
 ordre: 6
 titre: Surveillance de la victime
 motsCles: [surveillance, paramètres, 5 minutes, 10 à 15 minutes, multiparamétrique, réévaluation]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR05, 07-2026)
   code: 04PR05

@@ -5,7 +5,7 @@ type: procedure
 ordre: 16
 titre: Hypothermie (conduite à tenir)
 motsCles: [hypothermie, réchauffement passif, réchauffement actif, RCP hypotherme, 30 °C, 3 défibrillations, mobilisation prudente]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR07, 12-2022)
   code: 08PR07

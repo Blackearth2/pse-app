@@ -5,7 +5,7 @@ type: connaissance
 ordre: 6
 titre: Douleur thoracique non traumatique (connaissances)
 motsCles: [douleur thoracique, infarctus, embolie pulmonaire, aorte, irradiation, échelle de douleur, défibrillateur]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC02, 06-2018)
   code: 06AC02

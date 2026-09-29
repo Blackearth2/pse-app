@@ -2,7 +2,7 @@ id: hypothermie-randonneur-refuge
 niveau: PSE2
 titre: Randonneur en hypothermie
 lieu: Sentier de moyenne montagne, abri de berger à proximité, fin d'automne
-statut: brouillon
+statut: verifie
 liees: [hypothermie-conduite-a-tenir, hypothermie-connaissances, rechauffement-victime]
 contexte: "Tu es engagé sur un dispositif de secours en moyenne montagne, par temps froid, humide et venteux. Des promeneurs te signalent un randonneur d'une soixantaine d'années, resté immobile au bord du sentier depuis un long moment après avoir été trempé par une averse. Il est assis, pâle, les vêtements mouillés."
 etapes:

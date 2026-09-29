@@ -2,7 +2,7 @@ id: douleur-thoracique-salon
 niveau: PSE2
 titre: Douleur thoracique lors d'un salon professionnel
 lieu: Salon professionnel, poste de secours
-statut: brouillon
+statut: verifie
 liees: [douleur-thoracique-connaissances, douleur-thoracique-conduite-a-tenir, realisation-electrocardiogramme, malaise-aggravation-maladie-conduite-a-tenir, quatrieme-regard]
 contexte: "Tu es chef d'équipe au poste de secours d'un salon professionnel. Un exposant de 58 ans, fumeur et hypertendu, se présente en se tenant la poitrine. Il est conscient, pâle, en sueur. Il te dit avoir une douleur au milieu de la poitrine depuis une vingtaine de minutes. Il respire sans difficulté et tu ne relèves aucun signe de détresse vitale. Un défibrillateur est à proximité."
 etapes:

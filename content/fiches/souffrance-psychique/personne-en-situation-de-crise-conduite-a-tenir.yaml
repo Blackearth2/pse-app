@@ -5,7 +5,7 @@ type: procedure
 ordre: 2
 titre: Prise en charge d'une personne en situation de crise
 motsCles: [état de crise, abord relationnel, agressivité, mort inattendue, violences, crise suicidaire, événement exceptionnel, CUMP]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09PR01, 11-2021)
   code: 09PR01

@@ -2,7 +2,7 @@ id: piqure-materiel-souille
 niveau: PSE1
 titre: Coupure au contact du sang d'une victime
 lieu: Poste de secours, fête de quartier
-statut: brouillon
+statut: verifie
 liees: [conduite-accident-exposition-risque-viral, accident-exposition-risque-viral]
 contexte: "Tu es de poste lors d'une fête de quartier. Tu prends en charge un homme qui s'est blessé sur un verre brisé : plaie saignante à la main. En ramassant un tesson au sol, tu te coupes le doigt à travers ton gant ; le tesson était souillé de sang."
 etapes:

@@ -5,7 +5,7 @@ type: procedure
 ordre: 14
 titre: Traumatisme du thorax (conduite à tenir)
 motsCles: [thorax, position assise ou demi-assise, pansement non occlusif, corps étranger pénétrant, oxygène]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR05, 07-2026)
   code: 07PR05

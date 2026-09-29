@@ -2,7 +2,7 @@ id: intoxication-opioides-domicile
 niveau: PSE2
 titre: Intoxication médicamenteuse aux opioïdes
 lieu: Domicile, salon d'un appartement
-statut: brouillon
+statut: verifie
 liees: [intoxications-conduite-a-tenir, intoxications-connaissances]
 contexte: "Vous êtes appelés pour une femme de 55 ans retrouvée par son fils très somnolente sur le canapé. Tu remarques une boîte de comprimés vide sur la table basse, un patch de médicament collé sur son épaule, et ses pupilles sont très petites. Elle répond à peine quand on l'appelle."
 etapes:

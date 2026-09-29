@@ -5,7 +5,7 @@ type: procedure
 ordre: 2
 titre: Malaise et aggravation de maladie (conduite à tenir)
 motsCles: [malaise, aggravation de maladie, position d'attente, malaise vagal, malaise orthostatique, sucre, avis médical]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR01, 07-2026)
   code: 06PR01

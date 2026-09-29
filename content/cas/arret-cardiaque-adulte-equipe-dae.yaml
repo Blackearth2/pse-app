@@ -2,7 +2,7 @@ id: arret-cardiaque-adulte-equipe-dae
 niveau: PSE1
 titre: Effondrement dans la tribune
 lieu: Tribune d'un stade, match de football amateur
-statut: brouillon
+statut: verifie
 liees: [arret-cardiaque-equipe, utilisation-dae, compressions-thoraciques, arret-cardiaque]
 contexte: "Tu es de poste avec un équipier lors d'un match de football amateur. Un témoin vous appelle en courant : un spectateur d'une cinquantaine d'années s'est effondré dans l'allée de la tribune. Vous disposez du sac de secours, d'un DAE et d'oxygène."
 etapes:

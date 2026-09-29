@@ -5,7 +5,7 @@ type: connaissance
 ordre: 8
 titre: Accident vasculaire cérébral (connaissances)
 motsCles: [AVC, AIT, FAST, infarctus cérébral, hémorragie cérébrale, glycémie capillaire, déficit moteur]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC03, 06-2018)
   code: 06AC03

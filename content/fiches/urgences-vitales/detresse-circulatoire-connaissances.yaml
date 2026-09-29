@@ -5,7 +5,7 @@ type: connaissance
 ordre: 34
 titre: "Détresse circulatoire (connaissances)"
 motsCles: [détresse circulatoire, pâleur, marbrures, TRC, pression artérielle, fréquence cardiaque]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC08, 07-2026)"
   code: 05AC08

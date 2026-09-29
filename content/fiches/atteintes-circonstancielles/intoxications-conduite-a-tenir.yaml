@@ -5,7 +5,7 @@ type: procedure
 ordre: 20
 titre: Intoxications (conduite à tenir)
 motsCles: [intoxication, opiacés, opioïdes, naloxone, patchs, projection cutanée, ne pas faire vomir]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR09, 07-2026)
   code: 08PR09

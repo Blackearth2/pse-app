@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Les personnes en situation de crise
 motsCles: [état de crise, réaction hypoactive, réaction hyperactive, sidération, dissociation, fuite panique, choc de compassion, CUMP]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09AC01, 11-2021)
   code: 09AC01

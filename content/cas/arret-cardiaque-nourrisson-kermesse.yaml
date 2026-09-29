@@ -2,7 +2,7 @@ id: arret-cardiaque-nourrisson-kermesse
 niveau: PSE1
 titre: Un nourrisson inerte
 lieu: Salle des fêtes, kermesse d'une école
-statut: brouillon
+statut: verifie
 liees: [arret-cardiaque-sauveteur-isole, lva-victime-non-traumatisee, compressions-thoraciques, ventilation-methode-orale, utilisation-dae]
 contexte: "Tu tiens seul le poste de secours d'une kermesse, avec ton sac de secours mais sans équipier. Une mère arrive en courant avec son bébé d'environ huit mois dans les bras : il est inerte. Elle est paniquée et ne sait pas depuis quand il est dans cet état."
 etapes:

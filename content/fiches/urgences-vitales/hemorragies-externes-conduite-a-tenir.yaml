@@ -5,7 +5,7 @@ type: procedure
 ordre: 4
 titre: Hémorragies externes (conduite à tenir)
 motsCles: [hémorragie externe, compression, pansement compressif, garrot, gaze hémostatique, fracture ouverte, corps étranger]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR01, 07-2026)"
   code: 05PR01

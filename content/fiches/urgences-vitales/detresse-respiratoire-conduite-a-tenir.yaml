@@ -5,7 +5,7 @@ type: procedure
 ordre: 33
 titre: "Détresse respiratoire (conduite à tenir)"
 motsCles: [détresse respiratoire, position demi-assise, oxygène, SpO2, urgence vitale]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR08, 07-2026)"
   code: 05PR08

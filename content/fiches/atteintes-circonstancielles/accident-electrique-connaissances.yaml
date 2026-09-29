@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Accident électrique (connaissances)
 motsCles: [électrisation, électrocution, foudroiement, haute tension, basse tension, points d'entrée et de sortie, fibrillation ventriculaire, femme enceinte]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC01, 06-2018)
   code: 08AC01

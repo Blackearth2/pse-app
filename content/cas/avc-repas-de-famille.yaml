@@ -2,7 +2,7 @@ id: avc-repas-de-famille
 niveau: PSE2
 titre: Signes d'AVC lors d'un repas de famille
 lieu: Domicile, salle à manger
-statut: brouillon
+statut: verifie
 liees: [avc-connaissances, avc-conduite-a-tenir, mesure-glycemie-capillaire, positions-attente-transport]
 contexte: "Tu es appelé dans un pavillon pour une femme de 72 ans, hypertendue, qui a soudain cessé de parler normalement pendant le repas. Elle est consciente, assise à table. Ses proches disent qu'elle allait très bien il y a un quart d'heure. Elle semble comprendre ce qu'on lui dit."
 etapes:

@@ -2,7 +2,7 @@ id: etouffement-adulte-restaurant
 niveau: PSE1
 titre: Un morceau de travers
 lieu: Restaurant de bord de plage, service du déjeuner
-statut: brouillon
+statut: verifie
 liees: [obstruction-voies-aeriennes-connaissances, obstruction-voies-aeriennes-conduite-a-tenir, desobstruction-claques-dos, desobstruction-compressions-abdominales, arret-cardiaque-equipe]
 contexte: "Tu déjeunes en terrasse pendant ta pause quand un serveur t'appelle : un client d'une soixantaine d'années, assis à sa table, s'est brusquement levé en portant la main à sa gorge alors qu'il mangeait. Tu es secouriste, tu n'as aucun matériel sur toi mais le restaurant possède un DAE."
 etapes:

@@ -5,7 +5,7 @@ type: connaissance
 ordre: 28
 titre: Victimes d'explosion (connaissances)
 motsCles: [explosion, blast, onde de choc, souffle, blast primaire, blast secondaire, blast tertiaire, blast quaternaire]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC12, 06-2018)
   code: 08AC12

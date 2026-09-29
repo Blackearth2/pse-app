@@ -5,7 +5,7 @@ type: procedure
 ordre: 23
 titre: Piqûres et morsures (conduite à tenir)
 motsCles: [piqûre d'insecte, méduse, serpent, tique, morsure animale, aspiration interdite, eau chaude, bagues]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR11, 07-2026)
   code: 08PR11

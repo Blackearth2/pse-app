@@ -5,7 +5,7 @@ type: procedure
 ordre: 6
 titre: Hémorragies extériorisées (conduite à tenir)
 motsCles: [hémorragie extériorisée, bouche, nez, oreille, saignement de nez, vaginale, anale]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR02, 07-2026)"
   code: 05PR02

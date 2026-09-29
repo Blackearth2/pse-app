@@ -5,7 +5,7 @@ type: connaissance
 ordre: 5
 titre: Accidents liés à la plongée (connaissances)
 motsCles: [plongée, barotraumatisme, surpression pulmonaire, désaturation, accident toxique, apnée, hyperventilation, vingt-quatre heures]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC03, 06-2018)
   code: 08AC03

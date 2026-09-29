@@ -5,7 +5,7 @@ type: technique
 ordre: 20
 titre: Mesure de la glycémie capillaire
 motsCles: [glycémie capillaire, hypoglycémie, lecteur de glycémie, autopiqueur, AES, "0,6 g/l"]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT13, 07-2026)
   code: 04FT13

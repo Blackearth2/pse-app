@@ -5,7 +5,7 @@ type: procedure
 ordre: 2
 titre: Premier regard
 motsCles: [1er regard, danger, nombre de victimes, moyens complémentaires, circonstances, sécurité]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR01, 12-2022)
   code: 04PR01

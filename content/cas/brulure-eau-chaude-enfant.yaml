@@ -2,7 +2,7 @@ id: brulure-eau-chaude-enfant
 niveau: PSE1
 titre: Une bouilloire renversée
 lieu: Cuisine d'un appartement, à proximité d'un poste de secours de fête de quartier
-statut: brouillon
+statut: verifie
 liees: [brulures-connaissances, brulures-conduite-a-tenir]
 contexte: "Tu es de poste lors d'une fête de quartier. Un père arrive en courant avec sa fille de 3 ans dans les bras : elle a attiré à elle une bouilloire d'eau bouillante posée sur un plan de travail, il y a deux minutes. L'enfant pleure, elle est consciente, respire normalement et n'a pas de détresse circulatoire. Son avant-bras et le dos de sa main sont rouges, avec plusieurs cloques."
 etapes:

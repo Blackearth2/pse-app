@@ -5,7 +5,7 @@ type: procedure
 ordre: 17
 titre: Réaction allergique grave (conduite à tenir)
 motsCles: [anaphylaxie, auto-injecteur d'adrénaline, deuxième injection, 5 minutes, médecin régulateur, allergène]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR07, 07-2026)
   code: 06PR07

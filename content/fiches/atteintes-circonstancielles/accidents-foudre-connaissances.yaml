@@ -5,7 +5,7 @@ type: connaissance
 ordre: 34
 titre: Accidents liés à la foudre (connaissances)
 motsCles: [foudre, foudroiement, tension de pas, feux de Saint-Elme, effet de pointe, arrêt cardiaque, paralysie]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC15, 11-2021)
   code: 08AC15

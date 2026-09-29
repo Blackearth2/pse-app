@@ -5,7 +5,7 @@ type: procedure
 ordre: 9
 titre: Amputation et arrachement complet d'une partie du corps (conduite à tenir)
 motsCles: [amputation, arrachement, hémorragie, pansement compressif, plaie grave, conditionnement]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR03, 07-2026)
   code: 07PR03

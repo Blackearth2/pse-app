@@ -5,7 +5,7 @@ type: connaissance
 ordre: 32
 titre: Victimes d'avalanche (connaissances)
 motsCles: [avalanche, ensevelissement, asphyxie, hypothermie, poche d'air, DVA, traumatismes]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC14, 11-2021)
   code: 08AC14

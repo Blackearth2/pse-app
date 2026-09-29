@@ -5,7 +5,7 @@ type: connaissance
 ordre: 12
 titre: Crise d'asthme (connaissances)
 motsCles: [asthme, détresse respiratoire, bronchioles, aérosol doseur, sifflement expiratoire, facteurs déclenchants]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC05, 07-2026)
   code: 06AC05

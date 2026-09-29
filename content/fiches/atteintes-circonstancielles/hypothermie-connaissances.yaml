@@ -5,7 +5,7 @@ type: connaissance
 ordre: 15
 titre: Hypothermie (connaissances)
 motsCles: [hypothermie, 35 °C, frissons, légère, modérée, sévère, grave, mobilisation]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC06, 06-2018)
   code: 08AC06

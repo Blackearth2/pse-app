@@ -5,7 +5,7 @@ type: procedure
 ordre: 5
 titre: Quatrième regard
 motsCles: [4e regard, interrogatoire, mécanisme, antécédents, paramètres physiologiques, scores]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR04, 12-2023)
   code: 04PR04

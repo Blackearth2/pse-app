@@ -5,7 +5,7 @@ type: procedure
 ordre: 9
 titre: Accident vasculaire cérébral (conduite à tenir)
 motsCles: [AVC, AIT, position à plat, position latérale de sécurité, glycémie capillaire, unité neuro-vasculaire, transport]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR03, 07-2026)
   code: 06PR03

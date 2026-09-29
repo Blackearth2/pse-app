@@ -5,7 +5,7 @@ type: procedure
 ordre: 7
 titre: Douleur thoracique non traumatique (conduite à tenir)
 motsCles: [douleur thoracique, conduite à tenir, malaise, électrocardiogramme, détresse vitale]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR02, 07-2026)
   code: 06PR02

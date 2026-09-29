@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: Équipement de protection individuelle
 motsCles: [EPI, gants, protection, objets perforants, vaccination, contamination, chasuble]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02AC01, 06-2018)
   code: 02AC01

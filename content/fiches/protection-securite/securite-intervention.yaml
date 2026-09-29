@@ -5,7 +5,7 @@ type: procedure
 ordre: 2
 titre: Sécurité sur intervention
 motsCles: [sécurité, dangers, zone d'intervention, protection collective, suraccident, dégagement d'urgence]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02PR01, 06-2018)
   code: 02PR01

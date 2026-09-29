@@ -2,7 +2,7 @@ id: electrisation-buanderie
 niveau: PSE2
 titre: Électrisation dans la buanderie
 lieu: Domicile, buanderie humide
-statut: brouillon
+statut: verifie
 liees: [accident-electrique-conduite-a-tenir, accident-electrique-connaissances]
 contexte: "Vous êtes appelés pour un homme d'une quarantaine d'années qui a reçu une décharge en branchant un appareil ménager défectueux dans sa buanderie. Sa compagne, affolée, t'accueille en criant qu'il est resté au sol contre l'appareil, dans une flaque d'eau, et veut retourner l'aider tout de suite."
 etapes:

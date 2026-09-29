@@ -5,7 +5,7 @@ type: connaissance
 ordre: 1
 titre: La bouteille d'oxygène
 motsCles: [oxygène, bouteille, détendeur-débitmètre, autonomie, 200 bar, comburant, stockage, manipulation]
-statut: brouillon
+statut: verifie
 source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC01, 06-2018)"
   code: 05AC01

@@ -5,7 +5,7 @@ type: connaissance
 ordre: 16
 titre: Réaction allergique grave (connaissances)
 motsCles: [anaphylaxie, allergène, œdème de Quincke, détresse respiratoire, détresse circulatoire, auto-injecteur d'adrénaline]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC07, 11-2021)
   code: 06AC07

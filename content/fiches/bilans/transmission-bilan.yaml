@@ -5,7 +5,7 @@ type: procedure
 ordre: 7
 titre: Transmission du bilan
 motsCles: [transmission, avis médical, renfort, orientation, relais, détresse vitale, médecin régulateur]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR06, 12-2022)
   code: 04PR06

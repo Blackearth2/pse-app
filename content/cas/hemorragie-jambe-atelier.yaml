@@ -2,7 +2,7 @@ id: hemorragie-jambe-atelier
 niveau: PSE1
 titre: Coupure profonde à l'atelier
 lieu: Atelier de menuiserie, zone industrielle
-statut: brouillon
+statut: verifie
 liees: [hemorragies-externes-conduite-a-tenir, compression-manuelle, pansement-compressif, garrot]
 contexte: "Tu es appelé dans un atelier de menuiserie : un ouvrier d'une quarantaine d'ans a été blessé à la jambe par une machine, désormais arrêtée et sécurisée. Il est conscient, assis au sol, et son pantalon est trempé de sang au niveau du mollet. Tu disposes de ton sac de secours : gants, compresses, bandes, garrot."
 etapes:

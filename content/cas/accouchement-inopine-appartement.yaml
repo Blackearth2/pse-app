@@ -2,7 +2,7 @@ id: accouchement-inopine-appartement
 niveau: PSE2
 titre: Accouchement inopiné à l'appartement
 lieu: Domicile, chambre d'un appartement
-statut: brouillon
+statut: verifie
 liees: [accouchement-inopine-conduite-a-tenir, accouchement-inopine-connaissances, prise-en-charge-nouveau-ne-naissance]
 contexte: "Vous arrivez au domicile d'une femme de 32 ans, enceinte de son troisième enfant à environ 39 semaines, qui a des contractions très rapprochées. Elle est allongée sur le dos dans son lit, en sueur. Elle dit ressentir une envie irrépressible de pousser et vient de perdre les eaux. Le médecin régulateur consulté par ton chef d'équipe indique qu'il n'est pas possible de la transporter : l'accouchement aura lieu sur place."
 etapes:

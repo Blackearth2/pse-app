@@ -2,7 +2,7 @@ id: crise-convulsive-gymnase
 niveau: PSE1
 titre: Crise convulsive au gymnase
 lieu: Gymnase, entraînement collectif
-statut: brouillon
+statut: verifie
 liees: [crise-convulsive-generalisee-connaissances, crise-convulsive-generalisee-conduite, mesure-glycemie-capillaire]
 contexte: "Tu assures le dispositif de secours d'un entraînement de badminton. Un joueur d'une vingtaine d'années s'effondre brutalement au bord du terrain. Ses bras et ses jambes se raidissent, puis il est agité de secousses rythmées. Les autres joueurs s'attroupent autour de lui."
 etapes:

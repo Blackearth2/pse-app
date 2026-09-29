@@ -2,7 +2,7 @@ id: detresse-respiratoire-oxygene-gymnase
 niveau: PSE1
 titre: Essoufflement au gymnase
 lieu: Gymnase, tournoi de handball
-statut: brouillon
+statut: verifie
 liees: [detresse-respiratoire-connaissances, detresse-respiratoire-conduite-a-tenir, administration-oxygene-inhalation, mesure-saturation-pulsee-oxygene]
 contexte: "Tu es de poste avec un équipier lors d'un tournoi de handball. Un joueur d'une vingtaine d'années, conscient, quitte le terrain en tenant sa poitrine et vient s'asseoir près de vous. Vous avez du matériel de bilan (saturomètre) et une bouteille d'oxygène avec masque à haute concentration."
 etapes:

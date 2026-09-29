@@ -2,7 +2,7 @@ id: coup-de-chaleur-semi-marathon
 niveau: PSE2
 titre: Coup de chaleur sur un semi-marathon
 lieu: Course sur route, ravitaillement au kilomètre 15, journée estivale
-statut: brouillon
+statut: verifie
 liees: [affections-chaleur-conduite-a-tenir, affections-chaleur-connaissances, techniques-refroidissement-victime]
 contexte: "Tu es en poste au ravitaillement d'un semi-marathon par forte chaleur. Un coureur d'une trentaine d'années s'effondre à l'arrivée sur la zone. Il est confus, ne répond pas de façon cohérente et se montre agressif quand on l'approche. Sa peau est rouge, chaude et sèche. Un local technique frais, une baignoire mobile remplie d'eau et de la glace sont à disposition."
 etapes:

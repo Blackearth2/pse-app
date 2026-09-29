@@ -5,7 +5,7 @@ type: connaissance
 ordre: 3
 titre: Plaie (connaissances)
 motsCles: [plaie simple, plaie grave, contusion, écorchure, coupure, plaie punctiforme, tétanos, injection sous pression]
-statut: brouillon
+statut: verifie
 source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC02, 09-2014)
   code: 07AC02
