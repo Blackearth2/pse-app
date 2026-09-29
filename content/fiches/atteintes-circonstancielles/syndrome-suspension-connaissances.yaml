@@ -1,0 +1,127 @@
+id: syndrome-suspension-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 24
+titre: Syndrome de suspension (connaissances)
+motsCles: [syndrome de suspension, traumatisme de suspension, harnais, baudrier, suspension prolongée, dégagement]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC10, 06-2018)
+  code: 08AC10
+  page: 309
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le traumatisme ou syndrome de suspension regroupe toutes les manifestations qui surviennent chez une victime suspendue, immobile, en position verticale pendant une durée prolongée (plus de 5 minutes)."
+  - type: chiffres
+    titre: Repère chiffré
+    items:
+      - valeur: "> 5 minutes"
+        libelle: "Durée de suspension immobile en position verticale définissant le syndrome. Le décès peut survenir en quelques minutes ou plusieurs heures."
+  - type: liste
+    titre: Causes (situations)
+    items:
+      - "En montagne, lors d'activités de loisir : escalade, alpinisme, canyoning."
+      - "En spéléologie."
+      - "Dans l'industrie, notamment lors de travail en grande hauteur."
+      - "Chez les sauveteurs en montagne ou en milieu périlleux (treuillage)."
+      - "Ces personnes sont « encordées », le plus souvent par un baudrier ou un harnais."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Accumulation du sang dans les parties inférieures (membres inférieurs), hypotension, ralentissement des battements du cœur, troubles du comportement, perte de connaissance et, dans les cas les plus défavorables, décès."
+      - "Le décès peut être rapide (quelques minutes) ou survenir en plusieurs heures."
+      - "La compression thoracique par du matériel (harnais, cordes) peut limiter la respiration et aggraver les conséquences."
+      - "Les survivants peuvent présenter, si la suspension a été prolongée, des complications notamment rénales."
+      - "Quelle que soit leur nature, aucun baudrier ne peut éviter les conséquences d'un phénomène de suspension."
+      - "Les mécanismes et conséquences de la suspension ne sont pas parfaitement connus."
+      - "Facteur favorisant : la prise de toxique et/ou d'alcool, qui altère les réactions normales de l'organisme."
+  - type: liste
+    titre: Signes — 1er regard
+    items:
+      - "Le 1er regard permet de constater et confirmer la suspension : la victime peut être toujours accrochée à la paroi ou avoir été dégagée."
+      - "Dans tous les cas, rechercher : la nature du harnais ou baudrier porté ; la position pendant la suspension (verticale, tête ou pied en l'air, horizontale) ; la durée de la suspension ; la hauteur de chute s'il y a lieu."
+  - type: liste
+    titre: Signes — bilan
+    items:
+      - "Victime toujours pendue à sa corde ou son matériel : un secouriste spécialisé doit prendre contact avec la victime et évaluer sa réponse, puis mettre en œuvre une opération de dégagement."
+      - "Victime dépendue : elle peut présenter les signes d'un arrêt cardiaque ; ne pas répondre et respirer ; ou répondre à la stimulation et présenter des signes de détresse (respiration superficielle, pression artérielle basse et/ou troubles de la conscience et/ou hypothermie)."
+      - "Le 4e regard est réalisé dès que possible : interrogatoire, antécédents (notamment facteurs favorisants) et examen à la recherche de lésions traumatiques associées."
+      - "Si la victime n'est pas en arrêt cardiaque, identifier les signes et symptômes pouvant précéder la perte de connaissance : étourdissement, vertige ; fatigue intense ou sensation de malaise ; nausées ; tremblement ou fatigue des membres supérieurs ou inférieurs ; angoisse ; troubles visuels."
+      - "La chute qui précède le plus souvent la suspension peut être associée à des lésions traumatiques."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Dégager le plus rapidement possible la victime et la mettre en sécurité."
+      - "Réaliser les gestes de secours nécessaires en fonction de son état."
+      - "Surveiller attentivement la victime : l'aggravation peut être rapide et brutale après son dégagement."
+      - "Obtenir un avis médical précoce."
+qcm:
+  - id: q1
+    enonce: "À partir de quelle durée de suspension immobile en position verticale parle-t-on de syndrome de suspension ?"
+    propositions:
+      - Plus de 5 minutes
+      - Plus de 30 minutes
+      - Plus de 2 heures
+      - Plus de 24 heures
+    bonnes:
+      - 0
+    explication: "Le syndrome regroupe les manifestations survenant chez une victime suspendue, immobile, en position verticale pendant une durée prolongée (plus de 5 minutes)."
+  - id: q2
+    enonce: "Quelles sont des conséquences possibles d'une suspension prolongée ?"
+    propositions:
+      - Accumulation du sang dans les membres inférieurs et hypotension
+      - Ralentissement des battements du cœur
+      - Perte de connaissance
+      - Hypertension artérielle sévère
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La suspension entraîne accumulation du sang dans les membres inférieurs, hypotension, ralentissement du cœur, troubles du comportement, perte de connaissance, voire décès."
+  - id: q3
+    enonce: "Un baudrier de bonne qualité permet-il d'éviter les conséquences d'une suspension ?"
+    propositions:
+      - Oui, si le baudrier est récent
+      - Non, quelle que soit sa nature aucun baudrier ne l'évite
+      - Oui, s'il est bien serré
+    bonnes:
+      - 1
+    explication: "Quelle que soit leur nature, aucun baudrier ne peut éviter les conséquences d'un phénomène de suspension."
+  - id: q4
+    enonce: "Que doit-on rechercher dès le 1er regard chez une victime en situation de suspension ?"
+    propositions:
+      - La nature du harnais ou baudrier porté
+      - La position de la victime pendant la suspension
+      - La durée de la suspension
+      - La hauteur de chute s'il y a lieu
+      - Le groupe sanguin de la victime
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Nature du harnais, position pendant la suspension, durée de suspension et hauteur de chute éventuelle sont à rechercher dans tous les cas."
+  - id: q5
+    enonce: "Parmi ces signes, lesquels peuvent précéder la perte de connaissance ?"
+    propositions:
+      - Étourdissement, vertige
+      - Nausées
+      - Angoisse et troubles visuels
+      - Hypersalivation
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Étourdissement, vertige, fatigue intense, nausées, tremblement ou fatigue des membres, angoisse et troubles visuels sont cités."
+  - id: q6
+    enonce: "Qui prend contact avec la victime toujours suspendue et met en œuvre le dégagement ?"
+    propositions:
+      - N'importe quel témoin
+      - Un secouriste spécialisé
+      - La victime seule
+    bonnes:
+      - 1
+    explication: "Si la victime est toujours pendue par sa corde ou son matériel, un secouriste spécialisé prend contact avec elle, évalue sa réponse et met en œuvre une opération de dégagement."

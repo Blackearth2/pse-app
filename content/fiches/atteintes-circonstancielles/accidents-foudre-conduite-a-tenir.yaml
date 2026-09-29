@@ -1,0 +1,104 @@
+id: accidents-foudre-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 35
+titre: Accidents liés à la foudre (conduite à tenir)
+motsCles: [foudre, extraction d'urgence, arrêt cardiorespiratoire, distance entre individus, cône de protection, rappels de sécurité]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR17, 11-2021)
+  code: 08PR17
+  page: 322
+liees: []
+blocs:
+  - type: etapes
+    titre: Prise en charge de la victime
+    items:
+      - "Mettre la victime en sécurité. En cas de risque de sur-accident par foudroiement ou lié au milieu hostile (chute de pierres, etc.), réaliser une extraction d'urgence."
+      - "Appliquer la conduite à tenir en cas d'arrêt cardiorespiratoire."
+      - "Appliquer la conduite à tenir en cas d'hypothermie avérée et/ou de prévention de l'hypothermie."
+      - "Si troubles neurologiques (sensibilité et/ou motricité) : il est peut-être difficile de rattacher le déficit à l'effet de la foudre ou à un éventuel traumatisme post-chute ; appliquer la conduite à tenir en cas de traumatisme du dos et du cou."
+      - "Si brûlures : appliquer la procédure face à des brûlures thermiques."
+      - "Si trouble de la conscience : appliquer la conduite à tenir face à un trouble de la conscience."
+  - type: liste
+    titre: Rappels de sécurité en cas de risque persistant de foudre
+    items:
+      - Porter un casque de protection.
+      - "Respecter une distance entre individus supérieure à 3 m."
+      - Progresser en faisant de petits pas.
+      - Protéger les moyens de communication (radios et téléphones) au fond du sac.
+      - S'éloigner des arêtes, des sommets, des arbres isolés.
+      - Éviter les clairières.
+  - type: liste
+    titre: Selon le lieu
+    items:
+      - "En montagne : s'installer dans un cône de protection dont le rayon est égal à la hauteur du pic qui domine la zone, et s'éloigner de la paroi de plus d'un mètre."
+      - "Dans une grotte : ne pas se mettre à l'entrée, mais au fond et à distance des parois."
+      - "Quand le risque de foudre est élevé : se tenir en position assise en boule sur un sac ou sur une corde, et se délester du matériel métallique conducteur."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Distance entre individus supérieure à 3 m et petits pas : à retenir pour limiter le risque de tension de pas et de foudroiement collectif."
+      - "Extraction d'urgence en cas de risque de sur-accident, avant les autres gestes."
+qcm:
+  - id: q1
+    enonce: "En cas de risque de sur-accident par foudroiement ou lié au milieu hostile, que faut-il réaliser ?"
+    propositions:
+      - Une extraction d'urgence
+      - Un bilan complet sur place
+      - Une immobilisation de tous les membres
+    bonnes:
+      - 0
+    explication: "En cas de risque de sur-accident, on réalise une extraction d'urgence après avoir mis la victime en sécurité."
+  - id: q2
+    enonce: "Quelle distance entre individus faut-il respecter en cas de risque persistant de foudre ?"
+    propositions:
+      - Plus de 1 m
+      - Plus de 3 m
+      - Plus de 10 m
+      - Aucune distance particulière
+    bonnes:
+      - 1
+    explication: "Il faut respecter une distance entre individus supérieure à 3 m."
+  - id: q3
+    enonce: "Quels rappels de sécurité sont indiqués en cas de risque persistant de foudre ?"
+    propositions:
+      - Porter un casque de protection
+      - Progresser en faisant de petits pas
+      - Protéger radios et téléphones au fond du sac
+      - Se placer sur une arête ou un sommet pour mieux voir
+      - Éviter les clairières
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 4
+    explication: "Il faut au contraire s'éloigner des arêtes, des sommets et des arbres isolés."
+  - id: q4
+    enonce: "En montagne, quel est le rayon du cône de protection ?"
+    propositions:
+      - Le double de la hauteur du pic
+      - Égal à la hauteur du pic qui domine la zone
+      - Égal à 3 mètres
+    bonnes:
+      - 1
+    explication: "On s'installe dans un cône de protection dont le rayon est égal à la hauteur du pic qui domine la zone, en s'éloignant de la paroi de plus d'un mètre."
+  - id: q5
+    enonce: "Quand le risque de foudre est élevé, quelle position et quelle précaution adopter ?"
+    propositions:
+      - Debout, adossé à la paroi
+      - Assis en boule sur un sac ou sur une corde, en se délestant du matériel métallique conducteur
+      - Couché au sol, matériel métallique sur soi
+    bonnes:
+      - 1
+    explication: "On se tient assis en boule sur un sac ou une corde et on se déleste du matériel métallique conducteur."
+  - id: q6
+    enonce: "Dans une grotte, où faut-il se placer ?"
+    propositions:
+      - À l'entrée
+      - Au fond, à distance des parois
+      - Contre les parois
+    bonnes:
+      - 1
+    explication: "Il ne faut pas se mettre à l'entrée, mais au fond et à distance des parois."

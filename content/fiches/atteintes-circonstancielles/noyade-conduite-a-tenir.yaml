@@ -1,0 +1,137 @@
+id: noyade-conduite-a-tenir
+niveau: PSE1
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 4
+titre: Noyade (conduite à tenir)
+motsCles: [sauvetage aquatique, rachis, oxygène 15 l/min, compressions thoraciques, défibrillation, régurgitations, hypothermie, mousse aux lèvres]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR02, 07-2026)
+  code: 08PR02
+  page: 273
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Assurer un sauvetage aquatique en sécurité, sortir rapidement la victime de l'eau, appliquer la conduite à tenir adaptée à son état en tenant compte des spécificités de la noyade, puis la déshabiller, la sécher et la réchauffer."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Assurer le sauvetage aquatique en toute sécurité : alerter ou faire alerter immédiatement les secours spécialisés ; éviter de pénétrer directement dans l'eau chaque fois que possible ; parler à la victime et utiliser un moyen d'aide au sauvetage (envoi d'objet : bouée, bâton, corde, vêtement) si elle est proche de la terre ferme, sinon un bateau ou toute embarcation flottante."
+      - "Sortir la victime rapidement de l'eau : la probabilité d'une lésion de la colonne vertébrale est très faible."
+      - "Si la victime présente une détresse vitale, appliquer la conduite à tenir adaptée à son état, en tenant compte des spécificités de la noyade."
+      - "Si la victime est consciente, l'installer dans la position où elle se sent le mieux, si possible à l'abri du vent."
+  - type: liste
+    titre: Si l'on doit entrer dans l'eau
+    items:
+      - "S'équiper d'une bouée ou de tout autre dispositif de flottaison."
+      - "Ne pas s'aventurer seul."
+      - "Ne pas plonger tête la première."
+  - type: liste
+    titre: Sortie de l'eau et rachis
+    items:
+      - "Si la victime est en arrêt cardiaque, la sortie doit être aussi rapide que possible, en limitant autant que possible la flexion et l'extension du cou."
+      - "Les sauveteurs spécialisés peuvent immobiliser le rachis cervical et thoracique avant la sortie de l'eau, dans les rares cas suivants : plongeon en eau profonde ; accident de sport nautique (toboggan aquatique, scooter de mer, kitesurf, ski nautique, accident de la circulation avec chute dans l'eau) avec signes d'atteinte du rachis, ou victime qui ne peut être examinée (lésions multiples, intoxication alcoolique associée...)."
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Compléter le 2e ainsi que le 3e regard."
+      - "Déshabiller la victime en évitant les mobilisations intempestives."
+      - "Sécher prudemment et sans friction la victime."
+      - "Envelopper la victime dans des couvertures et la protéger du vent."
+      - "Poursuivre le bilan et surveiller attentivement la victime."
+  - type: liste
+    titre: Spécificités de la prise en charge d'une victime de noyade
+    items:
+      - "Secouriste isolé : réaliser cinq cycles de réanimation cardio-pulmonaire avant de quitter la victime pour aller alerter les secours."
+      - "Compressions thoraciques : débutées seulement si la victime est hors de l'eau, sur terre ou dans une embarcation. Dans une embarcation, il est possible d'utiliser des dispositifs automatiques de massage cardiaque externe (efficacité similaire aux compressions manuelles, précieux en environnement difficile et étroit et pour des réanimations prolongées)."
+      - "Oxygène : administration rapide, systématique et à haute concentration (15 l/min) tant que la victime est en arrêt cardiaque et tant que l'on ne peut obtenir une SpO2 fiable."
+      - "Défibrillation : sécher le thorax avant de placer les électrodes, en respectant les consignes de sécurité."
+      - "Désobstruction : la quantité d'eau inhalée est en général faible ; la mousse aux lèvres (mélange d'eau et d'air), très fréquente, ne gêne pas la ventilation : ne pas insister pour l'enlever. Tapes dans le dos et compressions abdominales sont dangereuses et ne doivent pas être réalisées."
+      - "Régurgitations gênant la ventilation : tourner immédiatement la victime sur le côté, retirer les débris alimentaires de la bouche aux doigts et aspirer les sécrétions. Si une lésion cervicale est suspectée, retourner la victime d'un bloc, tête, cou et torse alignés."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne jamais réaliser tapes dans le dos ni compressions abdominales : régurgitation, inhalation de liquide gastrique, lésions traumatiques et retard de la réanimation cardio-pulmonaire."
+      - "Ne pas plonger tête la première et ne pas s'aventurer seul dans l'eau."
+      - "Les compressions thoraciques ne commencent qu'une fois la victime hors de l'eau."
+qcm:
+  - id: q1
+    enonce: "Que faire en priorité avant de penser à entrer dans l'eau pour secourir une victime ?"
+    propositions:
+      - "Plonger tête la première pour aller plus vite"
+      - "Alerter ou faire alerter immédiatement les secours spécialisés et éviter de pénétrer directement dans l'eau si possible"
+      - "Attendre que la victime cesse de bouger"
+    bonnes:
+      - 1
+    explication: "Il faut alerter immédiatement les secours spécialisés et éviter d'entrer directement dans l'eau chaque fois que possible."
+  - id: q2
+    enonce: "Si l'on doit entrer dans l'eau, quelles précautions sont citées ?"
+    propositions:
+      - "S'équiper d'une bouée ou d'un dispositif de flottaison"
+      - "Ne pas s'aventurer seul"
+      - "Plonger tête la première"
+      - "Entrer sans équipement pour gagner du temps"
+    bonnes:
+      - 0
+      - 1
+    explication: "Se munir d'un dispositif de flottaison et ne pas s'aventurer seul ; ne pas plonger tête la première."
+  - id: q3
+    enonce: "Un secouriste isolé se trouve face à une victime de noyade en arrêt cardiaque. Que doit-il faire avant d'aller alerter ?"
+    propositions:
+      - "Réaliser trois cycles de RCP"
+      - "Réaliser cinq cycles de RCP"
+      - "Aller alerter sans délai sans réanimer"
+    bonnes:
+      - 1
+    explication: "Le secouriste isolé réalise cinq cycles de réanimation cardio-pulmonaire avant de quitter la victime pour alerter les secours."
+  - id: q4
+    enonce: "Quel débit d'oxygène est préconisé chez une victime de noyade en arrêt cardiaque ?"
+    propositions:
+      - 6 l/min
+      - 9 l/min
+      - 15 l/min
+    bonnes:
+      - 2
+    explication: "Oxygène rapide, systématique et à haute concentration (15 l/min) tant que la victime est en arrêt cardiaque et qu'aucune SpO2 fiable n'est obtenue."
+  - id: q5
+    enonce: "Concernant la mousse aux lèvres d'une victime de noyade, que faut-il faire ?"
+    propositions:
+      - "L'enlever soigneusement avant toute ventilation"
+      - "Ne pas insister pour l'enlever : elle ne gêne pas la ventilation"
+      - "Réaliser des tapes dans le dos"
+      - "Pratiquer des compressions abdominales"
+    bonnes:
+      - 1
+    explication: "La mousse (eau et air) est très fréquente et ne gêne pas la ventilation. Tapes dans le dos et compressions abdominales sont dangereuses et à proscrire."
+  - id: q6
+    enonce: "Que faire avant de placer les électrodes du défibrillateur sur une victime de noyade ?"
+    propositions:
+      - "Sécher le thorax"
+      - "Mouiller le thorax"
+      - "Ne rien faire de particulier"
+    bonnes:
+      - 0
+    explication: "Sécher le thorax avant de placer les électrodes, en respectant les consignes de sécurité."
+  - id: q7
+    enonce: "Quelles mesures s'appliquent « dans tous les cas » après la sortie de l'eau ?"
+    propositions:
+      - "Déshabiller la victime en évitant les mobilisations intempestives"
+      - "Sécher prudemment et sans friction"
+      - "Envelopper dans des couvertures et protéger du vent"
+      - "Frictionner vigoureusement la victime"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Déshabiller sans mobilisations intempestives, sécher sans friction, envelopper et protéger du vent, puis poursuivre le bilan."
+  - id: q8
+    enonce: "À quel moment débute-t-on les compressions thoraciques chez une victime de noyade en arrêt cardiaque ?"
+    propositions:
+      - "Dès que la victime est saisie dans l'eau"
+      - "Uniquement lorsqu'elle est hors de l'eau, sur terre ou dans une embarcation"
+      - "Seulement après la défibrillation"
+    bonnes:
+      - 1
+    explication: "Les compressions thoraciques ne sont débutées que si la victime est hors de l'eau, sur terre ou dans une embarcation."

@@ -1,0 +1,105 @@
+id: accident-electrique-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 2
+titre: Accident électrique (conduite à tenir)
+motsCles: [sécurité, couper le courant, haute tension, ligne électrique, véhicule, foudre, brûlure, femme enceinte]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR01, 12-2023)
+  code: 08PR01
+  page: 270
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Avant tout geste, la sécurité de l'intervention prime : s'assurer que la victime n'est plus en contact direct ou indirect (eau) avec une source électrique, puis couper le courant, traiter les détresses et les brûlures, rechercher les lésions traumatiques et obtenir un avis médical."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "S'assurer que la victime n'est pas en contact direct ou indirect (eau) avec un conducteur endommagé (fil électrique, appareil ménager sous tension) ou un câble électrique de haute tension au sol."
+      - "Couper le courant (débrancher l'appareil en cause) ou le faire couper par une personne qualifiée, si possible."
+      - "Enlever les vêtements en combustion et les chaussures pour prévenir d'autres lésions thermiques."
+      - "En cas de détresse vitale, appliquer la conduite à tenir adaptée à l'état de la victime."
+      - "En cas de brûlures, appliquer la conduite à tenir face à une brûlure thermique et électrique."
+      - "Compléter le bilan et rechercher des lésions provoquées par une contraction musculaire ou par la projection de la victime au moment de l'électrisation."
+      - "Réaliser les gestes et soins complémentaires."
+      - "Demander un avis médical et appliquer les consignes reçues."
+  - type: liste
+    titre: Si la victime est encore en contact avec la source
+    items:
+      - "Ne pas s'approcher ni toucher la victime avant d'être certain que l'alimentation est coupée ; pour le courant haute tension, avoir été averti par les autorités responsables."
+      - "Faire écarter immédiatement les personnes présentes et leur interdire de toucher la victime."
+  - type: liste
+    titre: Véhicule en contact avec une ligne électrique
+    items:
+      - "Ne pas s'approcher du véhicule."
+      - "Ordonner aux occupants de rester à l'intérieur, tant que le service compétent n'a pas donné l'assurance que la ligne est hors tension."
+      - "Les occupants ne courent pas de risque tant qu'ils restent dans le véhicule, isolé de la terre grâce à ses pneumatiques."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "On peut s'approcher et manipuler des victimes frappées par la foudre."
+      - "Une victime électrisée présente une brûlure thermique au point de contact (arc ou flash) et des lésions internes dues à la traversée du courant : la prise en charge suit simultanément le protocole de la brûlure thermique et celui de la brûlure électrique."
+      - "Si la victime est une femme enceinte, le préciser lors de la transmission du bilan : il existe un risque pour le fœtus."
+qcm:
+  - id: q1
+    enonce: "Quelle est la première vérification à effectuer face à une victime d'accident électrique ?"
+    propositions:
+      - "Mesurer sa pression artérielle"
+      - "S'assurer qu'elle n'est pas en contact direct ou indirect (eau) avec un conducteur endommagé ou un câble haute tension"
+      - "Lui retirer ses bijoux"
+      - "La déplacer immédiatement"
+    bonnes:
+      - 1
+    explication: "La première étape est de s'assurer que la victime n'est pas en contact direct ou indirect avec la source électrique."
+  - id: q2
+    enonce: "Quand peut-on s'approcher d'une victime au contact d'un câble haute tension au sol ?"
+    propositions:
+      - "Après avoir écarté les curieux, sans autre précaution"
+      - "Uniquement après avoir été averti par les autorités responsables que l'alimentation est coupée"
+      - "Dès que l'on porte des gants"
+    bonnes:
+      - 1
+    explication: "Pour le courant haute tension, il faut avoir été averti par les autorités responsables que l'alimentation est coupée avant de s'approcher."
+  - id: q3
+    enonce: "Un véhicule est en contact accidentel avec une ligne électrique. Que faire ?"
+    propositions:
+      - "Faire sortir les occupants immédiatement"
+      - "Ne pas s'approcher et ordonner aux occupants de rester dedans tant que la ligne n'est pas hors tension"
+      - "S'approcher pour couper le contact"
+      - "Toucher la carrosserie pour vérifier la tension"
+    bonnes:
+      - 1
+    explication: "Le véhicule est isolé de la terre par ses pneumatiques : les occupants ne risquent rien tant qu'ils y restent, jusqu'à l'assurance du service compétent que la ligne est hors tension."
+  - id: q4
+    enonce: "Concernant les victimes frappées par la foudre, que dit la fiche ?"
+    propositions:
+      - "Il est interdit de s'en approcher"
+      - "On peut s'approcher et les manipuler"
+      - "Il faut attendre 30 minutes"
+    bonnes:
+      - 1
+    explication: "On peut s'approcher et manipuler des victimes frappées par la foudre."
+  - id: q5
+    enonce: "Quelles actions font partie de la conduite à tenir après la coupure du courant ?"
+    propositions:
+      - "Enlever les vêtements en combustion et les chaussures"
+      - "Compléter le bilan à la recherche de lésions dues à une contraction musculaire ou à une projection"
+      - "Demander un avis médical"
+      - "Donner à boire à la victime"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Vêtements en combustion et chaussures retirés, bilan complété, avis médical demandé. Donner à boire n'est pas cité."
+  - id: q6
+    enonce: "Pourquoi prendre en charge une brûlure électrique selon les protocoles thermique et électrique ?"
+    propositions:
+      - "L'arc ou le flash brûle au point de contact, alors que le passage du courant provoque des lésions internes"
+      - "Les deux protocoles sont identiques"
+      - "Seule la brûlure thermique est grave"
+    bonnes:
+      - 0
+    explication: "L'arc électrique ou le flash provoque une brûlure thermique au contact, et la traversée du corps par le courant des lésions internes : prise en charge simultanée."

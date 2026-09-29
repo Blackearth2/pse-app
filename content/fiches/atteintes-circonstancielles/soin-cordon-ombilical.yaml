@@ -1,0 +1,122 @@
+id: soin-cordon-ombilical
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: technique
+ordre: 10
+titre: Soin au cordon ombilical
+motsCles: [cordon ombilical, clamp de Barr, clampage, section, circulaire du cordon, nouveau-né]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08FT01, 12-2022)
+  code: 08FT01
+  page: 285
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le clampage du cordon ombilical facilite l'adaptation du nouveau-né à la vie extra-utérine (circulation et respiration). La section facilite la prise en charge du nouveau-né et de sa mère (réanimation éventuelle, soins à la mère, prévention de l'hypothermie). En présence d'une circulaire du cordon, elle permet l'expulsion du nouveau-né."
+  - type: liste
+    titre: Indications
+    items:
+      - "Après la naissance, après la 1re minute de vie."
+      - "Parfois pendant l'accouchement, en cas de circulaire serré du cordon (cordon entourant le cou du bébé)."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Des compresses stériles."
+      - "Deux clamps de Barr."
+      - "Une paire de ciseaux stériles."
+  - type: etapes
+    titre: Réalisation (clamper en deux points et sectionner entre les deux clamps)
+    items:
+      - "Changer les gants utilisés lors de l'accouchement et s'équiper de gants et de lunettes (ou visière oculaire) de protection."
+      - "Essuyer le cordon avec une compresse sur la zone prévue pour les clamps."
+      - "Poser le premier clamp à environ 10 à 15 cm de l'ombilic et le verrouiller."
+      - "Pincer le cordon avec une compresse stérile pour le vider de son sang, en partant du premier clamp sur environ 3 à 5 cm (évite les projections de sang à la section)."
+      - "Placer le second clamp sur le cordon toujours pincé et le verrouiller."
+      - "Couper le cordon entre les clamps."
+      - "Recouvrir le cordon et le clamp relié au nouveau-né d'une compresse stérile."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "10 à 15 cm"
+        libelle: "Distance du premier clamp par rapport à l'ombilic"
+      - valeur: "3 à 5 cm"
+        libelle: "Longueur de cordon vidée de son sang en partant du premier clamp"
+      - valeur: "2 clamps"
+        libelle: "Coupe uniquement entre les deux clamps"
+  - type: liste
+    titre: Cas particuliers
+    items:
+      - "Circulaire du cordon impossible à libérer : les 2 clamps sont positionnés plus près l'un de l'autre en s'adaptant à la situation ; la section se fait prudemment, les doigts du secouriste protégeant le nouveau-né entre le cordon et lui pour ne pas le blesser."
+      - "Nouveau-né en détresse : l'urgence à réanimer impose la rapidité et permet de s'affranchir de l'étape de désinfection du cordon, en mettant seulement des gants propres."
+      - "Expulsion déjà faite et cordon « rompu » avant l'arrivée des secours : poser un clamp sur la partie reliée au nouveau-né et un autre sur la partie restant reliée à la mère, après avoir désinfecté la zone de pose."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Ne jamais tirer sur le cordon."
+      - "Le premier clamp doit être suffisamment loin de l'ombilic pour ne pas pincer une partie d'intestin."
+      - "On ne peut sectionner qu'entre les deux clamps."
+  - type: texte
+    titre: Évaluation
+    contenu: "Il ne doit pas y avoir de saignement après la section."
+qcm:
+  - id: q1
+    enonce: "À quelle distance de l'ombilic pose-t-on le premier clamp ?"
+    propositions:
+      - "1 à 2 cm"
+      - "10 à 15 cm"
+      - "30 à 40 cm"
+    bonnes:
+      - 1
+    explication: "Le premier clamp est posé à environ 10 à 15 cm de l'ombilic, assez loin pour ne pas pincer une partie d'intestin."
+  - id: q2
+    enonce: "Quand réalise-t-on normalement le clampage et la section du cordon après la naissance ?"
+    propositions:
+      - "Avant la sortie de la tête"
+      - "Après la 1re minute de vie"
+      - "Après la délivrance du placenta"
+      - "Après 30 minutes de vie"
+    bonnes:
+      - 1
+    explication: "Après la naissance, le clampage et la section sont réalisés après la 1re minute de vie. Pendant l'accouchement, ils ne sont réalisés qu'en cas de circulaire serré."
+  - id: q3
+    enonce: "Quel est le matériel nécessaire à la section du cordon ?"
+    propositions:
+      - "Des compresses stériles"
+      - "Deux clamps de Barr"
+      - "Une paire de ciseaux stériles"
+      - "Un fil de suture"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Il faut des compresses stériles, deux clamps de Barr et une paire de ciseaux stériles."
+  - id: q4
+    enonce: "Pourquoi pince-t-on le cordon avec une compresse stérile sur 3 à 5 cm à partir du premier clamp ?"
+    propositions:
+      - "Pour mesurer la longueur du cordon"
+      - "Pour le vider de son sang et éviter les projections à la section"
+      - "Pour désinfecter le cordon"
+    bonnes:
+      - 1
+    explication: "On vide le cordon de son sang sur environ 3 à 5 cm pour éviter les projections de sang au moment de la section."
+  - id: q5
+    enonce: "Où sectionne-t-on le cordon ?"
+    propositions:
+      - "Au ras de l'ombilic"
+      - "Avant le premier clamp"
+      - "Uniquement entre les deux clamps"
+      - "Après le second clamp"
+    bonnes:
+      - 2
+    explication: "On ne peut sectionner qu'entre les deux clamps."
+  - id: q6
+    enonce: "Que peut-on omettre chez un nouveau-né en détresse qu'il faut réanimer d'urgence ?"
+    propositions:
+      - "Le clampage du cordon"
+      - "L'étape de désinfection du cordon, en mettant seulement des gants propres"
+      - "Le port de gants"
+    bonnes:
+      - 1
+    explication: "L'urgence à réanimer permet de s'affranchir de la désinfection du cordon, avec seulement des gants propres."

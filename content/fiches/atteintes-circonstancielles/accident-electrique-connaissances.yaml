@@ -1,0 +1,147 @@
+id: accident-electrique-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 1
+titre: Accident électrique (connaissances)
+motsCles: [électrisation, électrocution, foudroiement, haute tension, basse tension, points d'entrée et de sortie, fibrillation ventriculaire, femme enceinte]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC01, 06-2018)
+  code: 08AC01
+  page: 268
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'accident électrique regroupe toutes les lésions de l'organisme, temporaires ou définitives, provoquées par le courant électrique : effet direct du courant dans les tissus (cerveau, cœur, nerfs, vaisseaux), traumatisme contondant (contraction musculaire violente ou chute/éjection de la victime) et dégagement anormal de chaleur ou de lumière. L'électrisation désigne l'ensemble des lésions dues au passage du courant à travers le corps ; le terme électrocution est réservé à une électrisation mortelle, immédiatement ou très précocement."
+  - type: liste
+    titre: Causes (types d'accidents)
+    items:
+      - "Contact avec deux conducteurs sous tension, ou avec un conducteur sous tension et la terre."
+      - "Production d'un arc électrique."
+      - "Foudroiement : action de la foudre sur le corps humain."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "≈ 100 par an"
+        libelle: "Accidents mortels d'origine électrique en France, toutes origines confondues"
+      - valeur: "≈ 20 par an"
+        libelle: "Accidents mortels dus à la foudre, forme d'électricité naturelle la plus dangereuse"
+      - valeur: "1 mA"
+        libelle: "Sensation de picotements"
+      - valeur: "30 mA"
+        libelle: "Tétanisation des muscles respiratoires"
+      - valeur: "80 mA"
+        libelle: "Fibrillation ventriculaire"
+      - valeur: "1000 V"
+        libelle: "Seuil : haute tension (≥ 1000 V, « brûle ») / basse tension (< 1000 V, « tue »)"
+  - type: liste
+    titre: Circonstances des accidents mortels
+    items:
+      - "Accidents du travail."
+      - "Accidents domestiques : appareils ménagers défectueux (surtout en ambiance humide : cuisine, salle de bain), bricolage d'installation électrique, jeunes enfants en phase de découverte."
+      - "Conduites à risque : ascension de pylônes, marche sur le toit d'un wagon à proximité d'une caténaire."
+      - "Loisirs : parapente, pêche, cerf-volant à proximité de lignes à haute tension."
+      - "Foudroiement."
+  - type: liste
+    titre: Mécanisme
+    items:
+      - "Le courant suit le chemin offrant le moins de résistance entre le point d'entrée et le point de sortie du corps ; la recherche de ces points est systématique pour guider l'évaluation des organes traversés."
+      - "À l'inverse des nerfs et des vaisseaux sanguins, la peau est la barrière la plus résistante ; sa qualité dépend de son état (intègre, sèche, humide, mouillée)."
+      - "Le liquide amniotique est un excellent conducteur : la grossesse est systématiquement recherchée pour évaluer toute atteinte du fœtus."
+      - "Trois mécanismes de lésion selon l'intensité (mA) et le voltage (V) : stimulation/inhibition nerveuse et musculaire ; brûlures électriques (destruction de la peau et des tissus en profondeur jusqu'à la carbonisation) ; destruction irréversible de la membrane cellulaire."
+      - "Penser aux circonstances et rechercher les complications traumatiques d'une chute ou d'une projection de la victime."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Perte de connaissance (atteinte du système nerveux central)."
+      - "Arrêt de la respiration (atteinte nerveuse ou tétanisation des muscles respiratoires)."
+      - "Arrêt de la circulation : après un arrêt respiratoire prolongé, ou par fibrillation ventriculaire lors du passage du courant à travers le cœur."
+      - "Brûlure thermique souvent grave, par flash ou arc électrique lors d'un court-circuit."
+      - "Brûlure électrique interne sur le trajet du courant : seuls les points d'entrée et de sortie sont visibles et doivent être recherchés systématiquement."
+      - "Traumatismes divers, notamment du rachis cervical, si la victime a été projetée par une violente contraction musculaire."
+      - "Haute tension (≥ 1000 V), plus particulièrement continue : brûlures profondes et traumatismes."
+      - "Basse tension (< 1000 V), le plus souvent alternative : surtout fibrillation ventriculaire."
+  - type: liste
+    titre: Signes
+    items:
+      - "L'accident électrique est habituellement évoqué dès le 1er regard ; les signes ne sont pas spécifiques."
+      - "Aux 2e ou 3e regards : victime consciente ou ayant perdu connaissance, en arrêt respiratoire ou cardio-respiratoire, ou en détresse."
+      - "Au 4e regard : brûlures plus ou moins étendues ou traumatismes associés."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Assurer la sécurité de l'intervention."
+      - "Réaliser les gestes de secours adaptés en cas d'arrêt cardiaque ou de détresse vitale."
+      - "Prendre en charge les brûlures provoquées (flash ou arc électrique)."
+      - "Obtenir systématiquement un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Même sans aucun signe, des manifestations secondaires peuvent apparaître : un avis médical est indispensable."
+      - "Toujours rechercher la grossesse (risque pour le fœtus) et les lésions traumatiques associées à la projection ou à la chute."
+qcm:
+  - id: q1
+    enonce: "Quel terme est réservé à une électrisation mortelle, immédiatement ou très précocement ?"
+    propositions:
+      - Foudroiement
+      - Électrocution
+      - Électrisation
+      - Flash électrique
+    bonnes:
+      - 1
+    explication: "L'électrisation désigne l'ensemble des lésions dues au passage du courant ; le terme électrocution est réservé à une électrisation mortelle."
+  - id: q2
+    enonce: "Quel seuil de tension sépare la haute tension de la basse tension ?"
+    propositions:
+      - 50 V
+      - 500 V
+      - 1000 V
+      - 5000 V
+    bonnes:
+      - 2
+    explication: "Les hauts voltages sont à partir de 1000 V (ils « brûlent »), les faibles voltages sont inférieurs à 1000 V (ils « tuent »)."
+  - id: q3
+    enonce: "Quels effets sont associés aux intensités de courant citées dans la fiche ?"
+    propositions:
+      - "Picotements à 1 mA"
+      - "Tétanisation des muscles respiratoires à 30 mA"
+      - "Fibrillation ventriculaire à 80 mA"
+      - "Carbonisation à 1 mA"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Picotements à 1 mA, tétanisation des muscles respiratoires à 30 mA, fibrillation ventriculaire à 80 mA."
+  - id: q4
+    enonce: "Pourquoi la grossesse doit-elle être systématiquement recherchée chez une victime d'accident électrique ?"
+    propositions:
+      - "Le liquide amniotique est un excellent conducteur électrique, d'où un risque d'atteinte du fœtus"
+      - "La peau de la femme enceinte est moins résistante"
+      - "Le courant évite le fœtus"
+    bonnes:
+      - 0
+    explication: "Le liquide amniotique étant un excellent conducteur, la grossesse est recherchée pour évaluer toute atteinte du fœtus."
+  - id: q5
+    enonce: "Quelle est la barrière la plus résistante au passage du courant, à l'inverse des nerfs et des vaisseaux sanguins ?"
+    propositions:
+      - Les muscles
+      - Les os
+      - La peau
+      - Le liquide amniotique
+    bonnes:
+      - 2
+    explication: "La peau est la barrière la plus résistante ; sa qualité dépend de son état (intègre, sèche, humide, mouillée)."
+  - id: q6
+    enonce: "Que doit-on rechercher systématiquement chez une victime d'électrisation ?"
+    propositions:
+      - "Les points d'entrée et de sortie du courant"
+      - "Les complications traumatiques d'une chute ou d'une projection"
+      - "Uniquement les brûlures visibles"
+      - "La grossesse"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "On recherche les points d'entrée et de sortie, les lésions traumatiques liées à la projection ou à la chute, et la grossesse. Les brûlures internes ne sont pas toujours visibles."

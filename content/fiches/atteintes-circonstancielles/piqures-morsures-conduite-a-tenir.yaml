@@ -1,0 +1,156 @@
+id: piqures-morsures-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 23
+titre: Piqûres et morsures (conduite à tenir)
+motsCles: [piqûre d'insecte, méduse, serpent, tique, morsure animale, aspiration interdite, eau chaude, bagues]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR11, 07-2026)
+  code: 08PR11
+  page: 307
+liees: []
+blocs:
+  - type: etapes
+    titre: Conduite à tenir générale
+    items:
+      - "Soustraire la victime du danger."
+      - "Si la victime présente une hémorragie ou une détresse de l'une des fonctions vitales, appliquer la conduite à tenir adaptée à la détresse vitale constatée."
+      - "Compléter le bilan afin de déterminer l'origine de l'atteinte et adapter la conduite à tenir."
+      - "Transmettre un bilan en urgence si la victime présente une détresse vitale ou si elle a déjà présenté dans ces circonstances une réaction allergique grave (œdème de Quincke, choc allergique)."
+      - "Demander un avis médical si nécessaire et respecter les consignes."
+  - type: etapes
+    titre: Piqûre d'insecte
+    items:
+      - "Retirer le plus rapidement possible le dard (piqûre d'abeille) avec une pince à écharde, sans écraser la poche à venin."
+      - "Transmettre un bilan en urgence si la piqûre siège dans la bouche ou la gorge, ou si la victime est allergique."
+      - "Retirer les bagues et bracelets si la piqûre se situe à la main, avant l'apparition de gonflements."
+      - "Appliquer du froid (limite le gonflement et la douleur). Si la piqûre siège dans la bouche ou la gorge, demander à la victime de sucer de la glace."
+      - "Aider la victime à s'injecter son traitement si elle est allergique au venin d'hyménoptères."
+      - "Transmettre le bilan pour avis et appliquer les consignes reçues."
+      - "Conseiller de consulter un médecin si la douleur ou le gonflement persiste ou si la rougeur s'étend."
+  - type: etapes
+    titre: Piqûre de méduse
+    items:
+      - "Rincer la zone piquée avec de l'eau de mer (l'eau douce peut activer les nématocystes)."
+      - "Enlever les filaments encore en contact avec la peau, en se protégeant la main avec un gant."
+      - "Si la douleur persiste, enduire la zone atteinte de sable (pour piéger les nématocystes non encore rompus) et racler sans frotter avec une carte rigide (carte de crédit, etc.)."
+      - "Ensuite, appliquer du chaud sur la zone atteinte (immersion, arrosage ou recouvrement) jusqu'à la disparition de la douleur : compresses chaudes ou eau aussi chaude que possible, entre 40 et 45 °C, tolérable et sécuritaire pour la victime. À défaut, du froid peut être utilisé."
+  - type: liste
+    titre: Autres animaux marins (vives, rascasses, etc.)
+    items:
+      - "Placer la zone atteinte dans l'eau chaude pendant trente minutes au minimum."
+      - "Demander un avis médical si nécessaire et appliquer les consignes reçues."
+  - type: etapes
+    titre: Morsure de serpent (serpents du territoire européen)
+    items:
+      - "Ne jamais pratiquer de technique d'aspiration (buccale ou avec un dispositif d'aspiration mécanique) et ne pas injecter de sérum antivenimeux."
+      - "Allonger la victime, lui demander de rester calme et la rassurer."
+      - "Lui demander de ne pas mobiliser le membre atteint."
+      - "Retirer les bagues et bracelets à proximité de la morsure."
+      - "Effectuer un lavage à l'eau ou au sérum physiologique, sans frotter."
+      - "Protéger la plaie par un pansement."
+      - "Poursuivre le bilan et surveiller attentivement l'état de la victime."
+  - type: liste
+    titre: Morsure animale ou humaine
+    items:
+      - "Effectuer un lavage à l'eau ou au sérum physiologique."
+      - "Appliquer la conduite à tenir face à une plaie grave."
+  - type: liste
+    titre: Morsure de tique
+    items:
+      - "Retirer immédiatement l'animal, soit avec un « tire-tique » (en respectant son guide d'utilisation), soit avec une pince à épiler."
+      - "Rechercher la présence d'autres tiques."
+      - "Recommander de consulter le plus rapidement possible un médecin si une rougeur autour de la zone de morsure ou une éruption apparaît."
+  - type: liste
+    titre: Contact de la peau avec la salive d'un animal errant
+    items:
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Morsure de serpent : jamais d'aspiration (buccale ou mécanique), pas de sérum antivenimeux ; ne pas mobiliser le membre atteint."
+      - "Bagues et bracelets à retirer (piqûre ou morsure de serpent à la main) : en cas de gonflement, ils peuvent interrompre la circulation."
+      - "Méduse : rincer à l'eau de mer d'abord, pas à l'eau douce ; se protéger la main avec un gant pour retirer les filaments."
+      - "Piqûre d'abeille : retirer le dard avec une pince à écharde sans écraser la poche à venin."
+      - "Cette conduite à tenir concerne les serpents du territoire européen ; pour des serpents d'autres localités ou importés, consulter les centres antipoison ou le SAMU pour obtenir une conduite à tenir adaptée."
+qcm:
+  - id: q1
+    enonce: "Comment retirer le dard d'une abeille ?"
+    propositions:
+      - Avec les doigts en pressant la poche à venin
+      - Avec une pince à écharde, sans écraser la poche à venin
+      - On ne le retire jamais
+    bonnes:
+      - 1
+    explication: "Le dard est retiré le plus rapidement possible avec une pince à écharde, sans écraser la poche à venin."
+  - id: q2
+    enonce: "Une victime piquée à la main par un insecte porte des bagues. Que faire ?"
+    propositions:
+      - Les laisser en place
+      - Les retirer avant l'apparition de gonflements
+      - Les retirer seulement après plusieurs heures
+    bonnes:
+      - 1
+    explication: "Les bagues et bracelets sont retirés avant l'apparition de gonflements ; ils pourraient interrompre la circulation."
+  - id: q3
+    enonce: "Que faire si la piqûre d'insecte siège dans la bouche ou la gorge ?"
+    propositions:
+      - Transmettre un bilan en urgence
+      - Demander à la victime de sucer de la glace
+      - Faire boire de l'eau chaude
+    bonnes:
+      - 0
+      - 1
+    explication: "Un bilan est transmis en urgence et la victime est invitée à sucer de la glace (application de froid)."
+  - id: q4
+    enonce: "Comment rincer une piqûre de méduse ?"
+    propositions:
+      - Avec de l'eau douce
+      - Avec de l'eau de mer
+      - Sans rincer
+    bonnes:
+      - 1
+    explication: "On rince avec de l'eau de mer : l'eau douce peut activer les nématocystes."
+  - id: q5
+    enonce: "Après le rinçage d'une piqûre de méduse, si la douleur persiste, quelle est la suite de la conduite à tenir ?"
+    propositions:
+      - Enduire de sable et racler sans frotter avec une carte rigide
+      - Frotter énergiquement avec une serviette
+      - Appliquer ensuite du chaud (40 à 45 °C) jusqu'à la disparition de la douleur
+      - Appliquer de la glace pendant 30 minutes
+    bonnes:
+      - 0
+      - 2
+    explication: "Après retrait des filaments : sable puis raclage sans frotter à la carte rigide, ensuite chaud (40 à 45 °C) jusqu'à la disparition de la douleur."
+  - id: q6
+    enonce: "Pour une piqûre de vive ou de rascasse, que faut-il faire ?"
+    propositions:
+      - Placer la zone atteinte dans l'eau chaude pendant trente minutes au minimum
+      - Placer la zone atteinte dans l'eau glacée
+      - Frotter avec du sable
+    bonnes:
+      - 0
+    explication: "Dans les autres cas (vives, rascasses...), la zone atteinte est placée dans l'eau chaude pendant trente minutes au minimum."
+  - id: q7
+    enonce: "Face à une morsure de serpent (serpents européens), quelles actions sont interdites ?"
+    propositions:
+      - Aspirer le venin à la bouche
+      - Utiliser un dispositif d'aspiration mécanique
+      - Injecter un sérum antivenimeux
+      - Laver la plaie sans frotter
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Aucune technique d'aspiration (buccale ou mécanique) et aucune injection de sérum antivenimeux ; le lavage à l'eau ou au sérum physiologique, sans frotter, est indiqué."
+  - id: q8
+    enonce: "Comment retirer une tique ?"
+    propositions:
+      - Avec un tire-tique ou une pince à épiler
+      - En l'écrasant sur place
+      - En appliquant de l'alcool puis en attendant
+    bonnes:
+      - 0
+    explication: "La tique est retirée immédiatement, soit avec un tire-tique, soit avec une pince à épiler, puis on recherche d'autres tiques."

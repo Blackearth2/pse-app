@@ -1,0 +1,121 @@
+id: techniques-refroidissement-victime
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: technique
+ordre: 14
+titre: Techniques de refroidissement d'une victime
+motsCles: [refroidissement, passif, actif simple, actif avancé, immersion, eau glacée, 39 °C, hyperthermie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08FT03, 07-2026)
+  code: 08FT03
+  page: 292
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "Le refroidissement est nécessaire chez une victime qui présente une hyperthermie, par exemple lors d'affections liées à la chaleur. L'hyperthermie et le dérèglement de la thermorégulation peuvent provoquer une déshydratation et des atteintes du foie, des reins, du système nerveux et cardio-vasculaire, avec séquelles graves ou décès. Le refroidissement est un geste de premier secours essentiel pour les prévenir. Matériel : eau et glace, baignoire ou bac improvisé. Plusieurs moyens peuvent être utilisés, seuls ou associés."
+  - type: etapes
+    titre: Refroidissement passif
+    items:
+      - "Soustraire la victime à la cause."
+      - "Éloigner la victime d'un environnement chaud, l'installer dans un endroit frais, climatisé si possible."
+      - "Retirer les vêtements superflus en laissant au minimum les sous-vêtements."
+      - "Limiter tout effort."
+  - type: etapes
+    titre: Refroidissement actif avancé
+    items:
+      - "Immerger entièrement le corps de la victime dans un bain d'eau fraîche, froide ou glacée (baignoire remplie d'eau avec des glaçons)."
+      - "Maintenir la tête de la victime hors de l'eau."
+      - "La température de l'eau doit être la plus froide possible."
+      - "Remuer activement l'eau autour de la victime (favorise les échanges thermiques et évite une brûlure par de la glace restée au contact de la peau)."
+  - type: liste
+    titre: Improvisation possible pour l'immersion
+    items:
+      - "En contexte de premiers secours, improviser pour assurer coûte que coûte un refroidissement actif : baignoire de la personne, bâche plastique, glace obtenue chez un voisin ou au bar du coin, demande de renforts."
+      - "Petite piscine pour enfants remplie d'eau, ou bâche contenant de l'eau et de la glace dans laquelle on enveloppe la victime en la faisant doucement osciller."
+  - type: etapes
+    titre: Refroidissement actif simple
+    items:
+      - "Pulvériser de l'eau à température ambiante sur la victime pour la mouiller (augmente la déperdition par évaporation)."
+      - "Ventiler la victime (courant d'air, ventilateur) pour augmenter la déperdition de chaleur par convection."
+      - "Appliquer des linges ou draps imbibés d'eau froide sur le corps."
+      - "Placer de la glace, sans contact direct avec la peau pour ne pas brûler, au niveau des gros troncs vasculaires (plis de l'aine, aisselles), de la tête, de la nuque."
+  - type: chiffres
+    titre: Évaluation
+    items:
+      - valeur: "< 39 °C"
+        libelle: "Baisse de température attendue avec le refroidissement actif avancé"
+      - valeur: "Disparition"
+        libelle: "Des troubles neurologiques (en plus de la baisse de température)"
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Les victimes qui ont perdu connaissance et respirent normalement doivent bénéficier d'un refroidissement actif de façon urgente ; il leur permet souvent de redevenir conscientes rapidement."
+      - "Dans ce cas, surveillance permanente des voies aériennes et de la ventilation pendant toute la procédure."
+      - "Seules les victimes en arrêt cardiaque ou qui présentent des convulsions ne peuvent pas être immergées dans l'eau."
+      - "Ne jamais placer la glace directement au contact de la peau (risque de brûlure)."
+      - "Le refroidissement est efficace si la température corporelle diminue."
+qcm:
+  - id: q1
+    enonce: "Quelles victimes ne peuvent pas être immergées dans l'eau ?"
+    propositions:
+      - "Les victimes en arrêt cardiaque"
+      - "Les victimes qui ont perdu connaissance et respirent normalement"
+      - "Les victimes qui présentent des convulsions"
+      - "Les victimes en coup de chaleur conscientes"
+    bonnes:
+      - 0
+      - 2
+    explication: "Seules les victimes en arrêt cardiaque ou qui présentent des convulsions ne peuvent pas être immergées. Une victime inconsciente qui respire normalement doit être refroidie de façon urgente."
+  - id: q2
+    enonce: "Lors d'une immersion en refroidissement actif avancé, que faut-il faire ?"
+    propositions:
+      - "Immerger tout le corps, tête comprise"
+      - "Maintenir la tête hors de l'eau"
+      - "Remuer activement l'eau autour de la victime"
+      - "Utiliser une eau la plus froide possible"
+    bonnes:
+      - 1
+      - 2
+      - 3
+    explication: "Le corps est immergé entièrement, tête hors de l'eau, dans une eau la plus froide possible, remuée activement pour favoriser les échanges et éviter une brûlure par la glace."
+  - id: q3
+    enonce: "Comment placer la glace lors d'un refroidissement actif simple ?"
+    propositions:
+      - "Directement sur la peau, sur tout le corps"
+      - "Sans contact direct avec la peau, sur les gros troncs vasculaires, la tête et la nuque"
+      - "Uniquement sur les pieds"
+    bonnes:
+      - 1
+    explication: "La glace est placée sans contact direct avec la peau pour ne pas brûler, au niveau des plis de l'aine, des aisselles, de la tête et de la nuque."
+  - id: q4
+    enonce: "Quels critères montrent l'efficacité du refroidissement actif avancé ?"
+    propositions:
+      - "Baisse de la température en dessous de 39 °C"
+      - "Disparition des troubles neurologiques"
+      - "Apparition de frissons intenses"
+      - "Température maintenue au-dessus de 40 °C"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le refroidissement actif avancé doit permettre une baisse de la température en dessous de 39 °C et la disparition des troubles neurologiques."
+  - id: q5
+    enonce: "Quel geste relève du refroidissement passif ?"
+    propositions:
+      - "Pulvériser de l'eau sur la victime"
+      - "Appliquer des linges imbibés d'eau froide"
+      - "Retirer les vêtements superflus et installer la victime dans un endroit frais"
+      - "Immerger le corps dans un bain glacé"
+    bonnes:
+      - 2
+    explication: "Le refroidissement passif consiste à soustraire la victime à la cause, l'installer au frais, retirer les vêtements superflus (sous-vêtements conservés) et limiter tout effort."
+  - id: q6
+    enonce: "À quoi sert la pulvérisation d'eau à température ambiante sur la victime ?"
+    propositions:
+      - "À augmenter la déperdition de chaleur par évaporation"
+      - "À réchauffer la peau"
+      - "À hydrater la victime par voie cutanée"
+    bonnes:
+      - 0
+    explication: "Mouiller la victime augmente la déperdition de chaleur par évaporation ; la ventilation augmente celle par convection."

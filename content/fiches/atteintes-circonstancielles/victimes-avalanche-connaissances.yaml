@@ -1,0 +1,111 @@
+id: victimes-avalanche-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 32
+titre: Victimes d'avalanche (connaissances)
+motsCles: [avalanche, ensevelissement, asphyxie, hypothermie, poche d'air, DVA, traumatismes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC14, 11-2021)
+  code: 08AC14
+  page: 319
+liees: []
+blocs:
+  - type: liste
+    titre: Rôle des témoins sur les lieux
+    items:
+      - Donner l'alerte.
+      - "Entamer les recherches : indices de surface, dernière position visuelle et utilisation d'un appareil détecteur de victime d'avalanche (DVA)."
+      - Dégager les victimes.
+  - type: liste
+    titre: Asphyxie, cause principale de décès
+    items:
+      - "Obstruction immédiate des voies aériennes supérieures (VAS) par la neige."
+      - "Inondation pulmonaire par aérosols de neige poudreuse."
+      - "Ensevelissement dans une neige très compacte et pauvre en air, empêchant la création d'une poche d'air devant les VAS."
+      - "Compression du thorax par une neige très compacte."
+      - "Création secondaire d'un masque de glace devant les VAS."
+  - type: liste
+    titre: Traumatismes
+    items:
+      - "La victime ensevelie subit des forces mécaniques importantes et des chocs directs, causes de traumatismes."
+      - "Ils dépendent du type de neige (avalanche de neige humide, compacte et lourde), du type de terrain avec présence d'obstacles (arbres, rochers, barres rocheuses, etc.) et de la collision avec tout ce qui est emporté par l'avalanche."
+  - type: chiffres
+    titre: Hypothermie
+    items:
+      - valeur: "Environ 3 degrés par heure"
+        libelle: "Perte de température de la victime ensevelie."
+  - type: liste
+    titre: Conséquences de l'hypothermie
+    items:
+      - "En cas d'ensevelissement prolongé, l'hypothermie peut être responsable de troubles de la conscience, d'une bradycardie, voire d'un arrêt cardiaque."
+      - "Chez l'hypotherme, la rigidité n'est pas un critère de mort certaine."
+  - type: attention
+    titre: Information importante
+    items:
+      - "Identifier l'existence d'une poche d'air lors du dégagement de la tête de la victime est une information importante : elle permet à l'équipe médicale de décider de la conduite à tenir."
+qcm:
+  - id: q1
+    enonce: "Quelle est la cause principale de décès chez une victime d'avalanche ?"
+    propositions:
+      - L'hypothermie
+      - L'asphyxie
+      - Les traumatismes
+      - L'hémorragie
+    bonnes:
+      - 1
+    explication: "L'asphyxie est la cause principale de décès. L'hypothermie et les traumatismes sont d'autres mécanismes lésionnels."
+  - id: q2
+    enonce: "Quels sont des mécanismes d'asphyxie chez une victime ensevelie ?"
+    propositions:
+      - Obstruction immédiate des voies aériennes supérieures par la neige
+      - Inondation pulmonaire par aérosols de neige poudreuse
+      - Compression du thorax par une neige très compacte
+      - Création secondaire d'un masque de glace devant les voies aériennes supérieures
+      - Excès d'oxygène dans la neige
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Ces quatre mécanismes sont cités, ainsi que l'ensevelissement dans une neige très compacte et pauvre en air empêchant la création d'une poche d'air."
+  - id: q3
+    enonce: "Quelle perte de température subit environ une victime ensevelie ?"
+    propositions:
+      - 1 degré par heure
+      - 3 degrés par heure
+      - 3 degrés par minute
+      - 10 degrés par heure
+    bonnes:
+      - 1
+    explication: "La victime ensevelie perd environ 3 degrés par heure."
+  - id: q4
+    enonce: "Chez une victime hypotherme, la rigidité est-elle un critère de mort certaine ?"
+    propositions:
+      - Oui, toujours
+      - Non, la rigidité n'est pas un critère de mort certaine chez l'hypotherme
+    bonnes:
+      - 1
+    explication: "Chez l'hypotherme, la rigidité n'est pas un critère de mort certaine."
+  - id: q5
+    enonce: "Que doivent faire les témoins sur les lieux d'une avalanche ?"
+    propositions:
+      - Donner l'alerte
+      - Entamer les recherches (indices de surface, dernière position visuelle, DVA)
+      - Dégager les victimes
+      - Attendre les secours sans agir
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Les témoins donnent l'alerte, entament les recherches et dégagent les victimes."
+  - id: q6
+    enonce: "Pourquoi identifier une poche d'air lors du dégagement de la tête est-il important ?"
+    propositions:
+      - Cela permet de savoir si la neige est humide
+      - Cette information permet à l'équipe médicale de décider de la conduite à tenir
+      - Cela évite de stabiliser le rachis cervical
+    bonnes:
+      - 1
+    explication: "L'existence d'une poche d'air est une information importante qui permet à l'équipe médicale de décider de la conduite à tenir."

@@ -1,0 +1,85 @@
+id: victimes-explosion-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 29
+titre: Victimes d'explosion (conduite à tenir)
+motsCles: [explosion, blast, nombreuses victimes, regroupement, bilan systématique, protections respiratoires]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR14, 06-2018)
+  code: 08PR14
+  page: 316
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La conduite à tenir prolonge le principe de l'action de secours : assurer la sécurité de tous, considérer toute personne exposée comme susceptible d'être victime d'un blast, la surveiller attentivement et garantir la sécurité des lieux et des intervenants."
+  - type: etapes
+    titre: En présence de nombreuses victimes
+    items:
+      - Regrouper les victimes en un point.
+      - Appliquer la conduite à tenir adaptée.
+  - type: etapes
+    titre: En présence d'un nombre restreint de victimes
+    items:
+      - Demander des moyens de secours spécialisés, si nécessaire.
+      - Réaliser chaque regard ainsi que les gestes de secours adaptés.
+      - Transmettre le bilan, systématique pour toute personne exposée à l'effet de souffle, et appliquer les consignes reçues.
+      - Surveiller attentivement la ou les victimes.
+  - type: attention
+    titre: Protection du sauveteur
+    items:
+      - "Les protections respiratoires dont peuvent être dotés les services de secours publics ne protègent pas du risque respiratoire lié à l'explosion."
+      - "Le bilan est systématique pour toute personne exposée à l'effet de souffle, même sans signe apparent."
+qcm:
+  - id: q1
+    enonce: "En présence de nombreuses victimes d'une explosion, quelle est la première action indiquée ?"
+    propositions:
+      - Regrouper les victimes en un point
+      - Réaliser un bilan complet de chaque victime sur place
+      - Laisser les victimes indemnes quitter les lieux
+    bonnes:
+      - 0
+    explication: "Avec de nombreuses victimes, on les regroupe en un point puis on applique la conduite à tenir adaptée."
+  - id: q2
+    enonce: "En présence d'un nombre restreint de victimes d'une explosion, quelles actions sont prévues ?"
+    propositions:
+      - Demander des moyens de secours spécialisés si nécessaire
+      - Réaliser chaque regard et les gestes de secours adaptés
+      - Transmettre le bilan
+      - Ne surveiller que les victimes blessées
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Il faut demander des moyens spécialisés si besoin, réaliser chaque regard, transmettre le bilan et surveiller attentivement la ou les victimes (donc pas seulement les blessées)."
+  - id: q3
+    enonce: "Pour quelles personnes le bilan est-il systématique après une explosion ?"
+    propositions:
+      - Uniquement celles qui présentent des plaies
+      - Uniquement celles qui se plaignent d'une gêne respiratoire
+      - Toute personne exposée à l'effet de souffle
+      - Uniquement celles qui présentent des brûlures
+    bonnes:
+      - 2
+    explication: "Le bilan est systématique pour toute personne exposée à l'effet de souffle."
+  - id: q4
+    enonce: "Que dit le référentiel sur les protections respiratoires des services de secours publics face à une explosion ?"
+    propositions:
+      - Elles protègent totalement du risque respiratoire lié à l'explosion
+      - Elles ne protègent pas du risque respiratoire lié à l'explosion
+      - Elles ne protègent que les victimes
+    bonnes:
+      - 1
+    explication: "Les protections respiratoires dont peuvent être dotés les services de secours publics ne protègent pas du risque respiratoire lié à l'explosion."
+  - id: q5
+    enonce: "Quelles mesures de sécurité accompagnent la prise en charge de victimes d'explosion ?"
+    propositions:
+      - Assurer la sécurité de tous
+      - Garantir la sécurité des lieux et des intervenants
+      - Considérer une personne apparemment indemne comme hors de danger
+    bonnes:
+      - 0
+      - 1
+    explication: "La sécurité de tous, des lieux et des intervenants est garantie ; toute personne, même apparemment indemne, est considérée comme susceptible d'être victime d'un blast."

@@ -1,0 +1,111 @@
+id: compression-de-membre-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 30
+titre: Compression de membre (connaissances)
+motsCles: [compression de membre, crush syndrome, syndrome des ensevelis, compression prolongée, deux heures, déchets toxiques, dégagement]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC13, 06-2018)
+  code: 08AC13
+  page: 317
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une compression de membre est l'interruption de la circulation sanguine au niveau de masses musculaires comprimées. La compression prolongée des muscles des membres est aussi appelée « crush syndrome » ou « syndrome des ensevelis »."
+  - type: chiffres
+    titre: Seuil de durée
+    items:
+      - valeur: "Plus de 2 heures"
+        libelle: "Durée à partir de laquelle la compression est dite prolongée."
+  - type: liste
+    titre: Causes
+    items:
+      - "Accidents du trafic routier ou ferroviaire nécessitant une longue désincarcération."
+      - "Ensevelissements (éboulement, avalanche)."
+      - "Effondrements de bâtiments (tremblement de terre, explosion)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "L'arrêt de la circulation et la compression directe entraînent progressivement des lésions musculaires, avec production de déchets toxiques pour l'organisme."
+      - "Ces déchets restent dans le membre tant qu'il est comprimé et s'accumulent d'autant plus que la compression dure longtemps."
+      - "Au dégagement et à la levée de la compression, la circulation rétablie entraîne ces déchets dans tout l'organisme : ils agissent comme de véritables poisons, notamment pour le cœur et les reins."
+      - "Conséquences : arrêt cardiaque ou détresse circulatoire brutale juste après le dégagement ; plus tard, blocage du fonctionnement des reins."
+      - "D'autres lésions traumatiques peuvent s'y associer : plaies, fractures, luxation."
+      - "Une compression prolongée de membre peut être mortelle à plus ou moins brève échéance."
+  - type: liste
+    titre: Signes
+    items:
+      - "1er regard essentiel : il permet de constater que la victime est en partie coincée et comprimée sous une charge importante."
+      - "Lors des autres regards, des signes de détresse circulatoire peuvent exister."
+      - "Si la partie du corps située sous la compression est accessible : elle est froide, pâle, avec des troubles de la sensibilité."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - Assurer la sécurité des lieux et des intervenants.
+      - Assurer le dégagement de la victime en présence d'une équipe médicale.
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Un traitement médical est nécessaire avant la levée de la compression, car le danger survient au moment du dégagement."
+qcm:
+  - id: q1
+    enonce: "À partir de quelle durée une compression de membre est-elle dite prolongée ?"
+    propositions:
+      - Plus de 30 minutes
+      - Plus d'une heure
+      - Plus de deux heures
+      - Plus de quatre heures
+    bonnes:
+      - 2
+    explication: "Elle est dite prolongée si elle dure plus de deux heures. Le seuil de quatre heures concerne la pose d'un garrot dans la conduite à tenir exceptionnelle."
+  - id: q2
+    enonce: "Quels sont les autres noms de la compression prolongée des muscles des membres ?"
+    propositions:
+      - Syndrome des ensevelis
+      - Crush syndrome
+      - Syndrome de suspension
+    bonnes:
+      - 0
+      - 1
+    explication: "La compression prolongée est aussi appelée « crush syndrome » ou « syndrome des ensevelis »."
+  - id: q3
+    enonce: "Pourquoi le moment du dégagement est-il dangereux dans une compression prolongée ?"
+    propositions:
+      - Les déchets toxiques accumulés dans le membre sont entraînés par le sang dans tout l'organisme
+      - La victime risque de se refroidir
+      - La circulation sanguine reste interrompue
+    bonnes:
+      - 0
+    explication: "La levée de la compression rétablit la circulation : les déchets toxiques gagnent tout l'organisme, notamment le cœur et les reins."
+  - id: q4
+    enonce: "Quelles conséquences peuvent survenir juste après le dégagement, puis plus tardivement ?"
+    propositions:
+      - Arrêt cardiaque ou détresse circulatoire juste après le dégagement
+      - Blocage du fonctionnement des reins plus tard
+      - Fracture systématique du membre comprimé
+      - Aucune conséquence si la victime est consciente
+    bonnes:
+      - 0
+      - 1
+    explication: "Le dégagement peut provoquer un arrêt cardiaque ou une détresse circulatoire brutale ; un blocage rénal peut survenir ultérieurement."
+  - id: q5
+    enonce: "Comment est la partie du corps située sous la compression, si elle est accessible ?"
+    propositions:
+      - Chaude et rouge
+      - Froide, pâle, avec des troubles de la sensibilité
+      - Normale
+    bonnes:
+      - 1
+    explication: "Elle est froide, pâle et il existe des troubles de la sensibilité."
+  - id: q6
+    enonce: "Quel est le principe de l'action de secours face à une compression de membre ?"
+    propositions:
+      - Dégager rapidement la victime sans attendre
+      - Assurer la sécurité des lieux et des intervenants, puis le dégagement en présence d'une équipe médicale
+      - Poser systématiquement un garrot
+    bonnes:
+      - 1
+    explication: "La sécurité est assurée, puis la victime est dégagée en présence d'une équipe médicale."

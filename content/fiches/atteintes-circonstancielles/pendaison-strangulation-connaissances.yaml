@@ -1,0 +1,90 @@
+id: pendaison-strangulation-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 26
+titre: Pendaison, strangulation (connaissances)
+motsCles: [pendaison, strangulation, étranglement, rachis cervical, constriction du cou, arrêt cardiaque]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC11, 09-2021)
+  code: 08AC11
+  page: 312
+liees: []
+blocs:
+  - type: texte
+    titre: Définitions
+    contenu: "La pendaison est une suspension du corps par le cou. La strangulation (ou étranglement) est une constriction du cou ou une pression sur la gorge."
+  - type: liste
+    titre: Causes
+    items:
+      - "De manière accidentelle : par exemple un vêtement ou une cravate pris dans une machine, ou lors de jeux, notamment chez les enfants."
+      - "De façon volontaire, dans un but suicidaire ou criminel."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Une pression sur l'extérieur du cou comprime les voies aériennes et les vaisseaux du cou : l'afflux d'air vers les poumons comme la circulation du sang vers le cerveau sont interrompus."
+      - "Lors de la pendaison, sous l'effet du poids du corps (chute), il peut y avoir une lésion vertébrale avec atteinte de la moelle épinière."
+  - type: liste
+    titre: Signes
+    items:
+      - "Le 1er regard permet le plus souvent de constater une pendaison ou de suspecter une strangulation : corps pendu même si une partie du corps touche le sol, objet constrictif autour du cou..."
+      - "Au bilan, la victime peut présenter : une perte de connaissance ; un arrêt cardiaque ; une détresse respiratoire."
+      - "Si la victime est consciente, elle peut présenter à l'interrogatoire une raucité de la voix ou une difficulté à respirer."
+      - "L'examen permet de constater d'éventuelles marques (traces de strangulation)."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Supprimer la cause tout en protégeant le rachis cervical."
+      - "Réaliser les gestes de secours nécessaires."
+      - "Demander un avis médical."
+qcm:
+  - id: q1
+    enonce: "Comment définit-on la pendaison ?"
+    propositions:
+      - Une constriction du cou ou une pression sur la gorge
+      - Une suspension du corps par le cou
+      - Une compression du thorax par un harnais
+    bonnes:
+      - 1
+    explication: "La pendaison est une suspension du corps par le cou ; la strangulation est une constriction du cou ou une pression sur la gorge."
+  - id: q2
+    enonce: "Quelles conséquences peut avoir la compression extérieure du cou ?"
+    propositions:
+      - Compression des voies aériennes
+      - Compression des vaisseaux du cou
+      - Interruption de la circulation du sang vers le cerveau
+      - Hémorragie interne du thorax
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Voies aériennes et vaisseaux du cou sont comprimés : l'afflux d'air vers les poumons et la circulation du sang vers le cerveau sont interrompus."
+  - id: q3
+    enonce: "Quelle lésion peut survenir lors de la pendaison sous l'effet du poids du corps (chute) ?"
+    propositions:
+      - Une lésion vertébrale avec atteinte de la moelle épinière
+      - Une fracture isolée du poignet
+      - Une brûlure cutanée
+    bonnes:
+      - 0
+    explication: "Sous l'effet du poids du corps, il peut y avoir une lésion vertébrale avec atteinte de la moelle épinière."
+  - id: q4
+    enonce: "Quels signes peut présenter une victime consciente à l'interrogatoire ?"
+    propositions:
+      - Une raucité de la voix
+      - Une difficulté à respirer
+      - Une paralysie faciale
+    bonnes:
+      - 0
+      - 1
+    explication: "Une victime consciente peut présenter une raucité de la voix ou une difficulté à respirer."
+  - id: q5
+    enonce: "Quel est le principe de l'action de secours en cas de pendaison ou de strangulation ?"
+    propositions:
+      - Supprimer la cause tout en protégeant le rachis cervical
+      - Laisser la victime en place jusqu'à l'arrivée des secours
+      - Supprimer la cause sans se soucier du rachis
+    bonnes:
+      - 0
+    explication: "Il faut supprimer la cause tout en protégeant le rachis cervical, réaliser les gestes de secours nécessaires et demander un avis médical."

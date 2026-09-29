@@ -1,0 +1,152 @@
+id: prise-en-charge-nouveau-ne-naissance
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 9
+titre: Prise en charge du nouveau-né à la naissance
+motsCles: [nouveau-né, cri, tonus, clampage du cordon, réanimation, insufflations, fréquence cardiaque, hypothermie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR05, 12-2022)
+  code: 08PR05
+  page: 283
+liees: []
+blocs:
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Poser le nouveau-né sur le ventre de sa mère et sur le côté, peau contre peau, la tête bien dégagée."
+      - "Mettre une paire de gants à usage unique propre."
+      - "Examiner le nouveau-né en appréciant son cri ou sa respiration, et son tonus (mouvements spontanés des membres)."
+  - type: attention
+    titre: Pâleur
+    items:
+      - "Une pâleur doit alerter les secouristes et être indiquée lors de la transmission du bilan."
+  - type: liste
+    titre: "Nouveau-né en bonne santé : critères"
+    items:
+      - "Respiration et cri vigoureux."
+      - "Tonus vif."
+  - type: etapes
+    titre: "Nouveau-né en bonne santé : conduite à tenir"
+    items:
+      - "Clamper le cordon au minimum après 1 minute de vie ; une fois clampé, il est possible ensuite de le couper."
+      - "Protéger le nouveau-né contre le froid : sécher par tamponnement la peau et la tête avec une serviette propre, sèche et tiède ; le protéger des courants d'air et du froid en enveloppant la tête et le corps, à l'exception de la face, dans des serviettes ou vêtements secs et chauds, ou le glisser dans un sac en polyéthylène ; si possible, couvrir sa tête avec un bonnet."
+      - "Couvrir la mère."
+      - "Surveiller le nouveau-né."
+      - "Lors du transport, le placer dans un système fermé et fixé (incubateur, lit-auto)."
+  - type: liste
+    titre: "Nouveau-né qui n'est pas en bonne santé : critères"
+    items:
+      - "Il ne respire pas."
+      - "Ou il ne présente pas de cri."
+      - "Ou il ne présente pas une respiration normale."
+      - "Ou il est hypotonique."
+  - type: etapes
+    titre: "Nouveau-né qui n'est pas en bonne santé : conduite à tenir"
+    items:
+      - "Demander en urgence un avis médical tout en débutant les manœuvres de réanimation pour permettre au nouveau-né de respirer."
+      - "Clamper le cordon dès que possible ; une fois clampé, il est possible ensuite de le couper."
+      - "Placer le nouveau-né sur une surface plane recouverte d'un linge propre (pour l'isoler du froid), après avoir clampé le cordon ombilical."
+      - "Libérer ses voies aériennes en plaçant sa tête en position neutre et, si nécessaire, en aspirant prudemment sa bouche puis ses narines."
+      - "Si son état est inchangé, réaliser 40 insufflations à l'air en 1 minute. Si le thorax ne se soulève pas après les 5 premières insufflations, vérifier la liberté des voies aériennes et l'étanchéité du masque."
+      - "Si l'on dispose d'un appareil de mesure de la fréquence cardiaque pour le nouveau-né (SpO2, monitoring), le mettre en fonction."
+  - type: etapes
+    titre: L'état du nouveau-né reste inchangé
+    items:
+      - "Réaliser une réanimation cardio-pulmonaire avec apport complémentaire d'oxygène et sans pose de défibrillateur."
+      - "Réchauffer le nouveau-né pendant la réanimation (isolation, bonnet, couverture, etc.)."
+      - "Rythme de la RCP : 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation."
+      - "Réévaluer l'état du nouveau-né toutes les minutes et adapter la conduite à tenir."
+  - type: texte
+    titre: L'état du nouveau-né s'améliore
+    contenu: "Si l'enfant crie, respire et s'agite, assurer une surveillance étroite de sa respiration. En cas de doute, reprendre la réanimation cardio-pulmonaire."
+  - type: chiffres
+    titre: Conduite à tenir selon la fréquence cardiaque (si elle peut être mesurée)
+    items:
+      - valeur: "< 60 battements/min"
+        libelle: "RCP avec apport complémentaire d'oxygène et sans pose du DAE : 3 compressions (fréquence instantanée de 120 par minute) pour 1 insufflation"
+      - valeur: "60 à 100 battements/min"
+        libelle: "Insufflations à l'air, sans compressions thoraciques ; réévaluer la fréquence cardiaque toutes les minutes pour adapter la conduite à tenir"
+      - valeur: "> 100 battements/min"
+        libelle: "Surveiller étroitement le nouveau-né"
+  - type: chiffres
+    titre: Autres repères
+    items:
+      - valeur: "≥ 1 minute"
+        libelle: "Clampage du cordon d'un nouveau-né en bonne santé : au minimum après 1 minute de vie"
+      - valeur: "40 en 1 minute"
+        libelle: "Insufflations à l'air chez le nouveau-né dont l'état est inchangé (vérification après les 5 premières si le thorax ne se soulève pas)"
+      - valeur: "3 pour 1"
+        libelle: "Compressions pour insufflation en RCP du nouveau-né, à 120/min"
+      - valeur: "Toutes les minutes"
+        libelle: "Réévaluation de l'état du nouveau-né pendant la réanimation"
+qcm:
+  - id: q1
+    enonce: "Quels éléments apprécie-t-on pour examiner le nouveau-né à la naissance ?"
+    propositions:
+      - "Son cri ou sa respiration"
+      - "Son tonus (mouvements spontanés des membres)"
+      - "Son poids"
+      - "Sa taille"
+    bonnes:
+      - 0
+      - 1
+    explication: "L'examen initial apprécie le cri ou la respiration et le tonus. Une pâleur doit aussi alerter et être transmise dans le bilan."
+  - id: q2
+    enonce: "Quand clampe-t-on le cordon d'un nouveau-né en bonne santé ?"
+    propositions:
+      - "Immédiatement à la sortie du nouveau-né"
+      - "Au minimum après 1 minute de vie"
+      - "Après la délivrance du placenta"
+    bonnes:
+      - 1
+    explication: "Chez un nouveau-né en bonne santé, le cordon est clampé au minimum après 1 minute de vie, puis il peut être coupé."
+  - id: q3
+    enonce: "Un nouveau-né qui ne présente pas de cri ou qui est hypotonique est considéré comme :"
+    propositions:
+      - "En bonne santé si sa peau est rosée"
+      - "Pas en bonne santé : avis médical urgent et manœuvres de réanimation"
+      - "À simplement surveiller pendant 10 minutes"
+    bonnes:
+      - 1
+    explication: "Un nouveau-né qui ne respire pas, sans cri, sans respiration normale ou hypotonique n'est pas en bonne santé : avis médical urgent tout en débutant la réanimation."
+  - id: q4
+    enonce: "Chez un nouveau-né qui n'est pas en bonne santé dont l'état est inchangé après libération des voies aériennes, quelle ventilation réalise-t-on ?"
+    propositions:
+      - "20 insufflations à l'oxygène en 1 minute"
+      - "30 insufflations à l'air en 2 minutes"
+      - "40 insufflations à l'air en 1 minute"
+      - "5 insufflations à l'air puis surveillance"
+    bonnes:
+      - 2
+    explication: "Si l'état est inchangé, on réalise 40 insufflations à l'air en 1 minute ; si le thorax ne se soulève pas après les 5 premières, on vérifie les voies aériennes et l'étanchéité du masque."
+  - id: q5
+    enonce: "Quel est le rythme de la RCP chez le nouveau-né dont l'état reste inchangé ?"
+    propositions:
+      - "30 compressions pour 2 insufflations"
+      - "15 compressions pour 2 insufflations"
+      - "3 compressions (120 par minute) pour 1 insufflation"
+    bonnes:
+      - 2
+    explication: "La RCP du nouveau-né associe 3 compressions à une fréquence instantanée de 120 par minute pour 1 insufflation, avec oxygène et sans pose du DAE."
+  - id: q6
+    enonce: "La fréquence cardiaque du nouveau-né est mesurée à 80 battements par minute. Que réalise-t-on ?"
+    propositions:
+      - "Une RCP avec compressions thoraciques"
+      - "Des insufflations à l'air sans compressions thoraciques, avec réévaluation chaque minute"
+      - "Une simple surveillance étroite"
+    bonnes:
+      - 1
+    explication: "Entre 60 et 100 battements par minute : insufflations à l'air sans compressions, réévaluation toutes les minutes. En dessous de 60 : RCP ; au-dessus de 100 : surveillance étroite."
+  - id: q7
+    enonce: "Comment protège-t-on du froid un nouveau-né en bonne santé ?"
+    propositions:
+      - "En séchant par tamponnement la peau et la tête avec une serviette propre, sèche et tiède"
+      - "En l'enveloppant, tête et corps à l'exception de la face, dans des linges secs et chauds ou un sac en polyéthylène"
+      - "En le laissant nu contre sa mère, sans rien d'autre"
+      - "En couvrant aussi sa face"
+    bonnes:
+      - 0
+      - 1
+    explication: "On sèche par tamponnement, on enveloppe la tête et le corps à l'exception de la face (ou sac en polyéthylène), si possible avec un bonnet, et on couvre la mère."

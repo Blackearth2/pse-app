@@ -1,0 +1,134 @@
+id: hypothermie-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 16
+titre: Hypothermie (conduite à tenir)
+motsCles: [hypothermie, réchauffement passif, réchauffement actif, RCP hypotherme, 30 °C, 3 défibrillations, mobilisation prudente]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR07, 12-2022)
+  code: 08PR07
+  page: 296
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Soustraire la victime à la cause et éviter toute perte de chaleur supplémentaire, puis adapter la conduite : détresse vitale (arrêt cardiaque, perte de connaissance), hypothermie sévère ou modérée, ou hypothermie légère. Toute mobilisation doit être délicate, sans à-coups, car le risque d'arrêt cardiaque brutal est réel."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "≥ 1 min"
+        libelle: "Durée minimale de recherche des signes de vie chez une victime hypotherme"
+      - valeur: "< 30 °C"
+        libelle: "Température à partir de laquelle le nombre de défibrillations successives est limité"
+      - valeur: "3"
+        libelle: "Nombre maximal de défibrillations successives tant que la victime n'est pas réchauffée (température < 30 °C)"
+  - type: etapes
+    titre: Dans tous les cas, soustraire la victime à la cause
+    items:
+      - "Certaines circonstances nécessiteront l'intervention d'équipes spécialisées."
+      - "Mettre la victime à l'abri du vent."
+      - "L'isoler dans un endroit chaud (point chaud, refuge, habitation, véhicule, ambulance) afin d'éviter toute perte de chaleur supplémentaire par conduction ou convection."
+      - "Ôter les vêtements, surtout mouillés ou humides, en mobilisant la victime délicatement et avec prudence (risque d'arrêt cardiaque brutal) ; si la mobilisation est pénible ou douloureuse, couper les vêtements."
+  - type: etapes
+    titre: "Victime sans signe de vie (inconsciente, ne respire plus ou mort apparente) : conduite devant un arrêt cardiaque avec précautions particulières"
+    items:
+      - "Rechercher les signes de vie au moins pendant 1 minute (ventilation et pouls très difficiles à trouver ; en cas de doute, débuter la RCP)."
+      - "Tenir compte de la rigidité de la paroi thoracique, qui peut rendre plus difficiles compressions et insufflations."
+      - "Dès que la RCP est en cours, confirmer l'hypothermie en mesurant la température avec un thermomètre hypotherme s'il est disponible."
+      - "Un cœur hypotherme peut ne pas réagir à la défibrillation : limiter à 3 le nombre de défibrillations successives si la température est < 30 °C, tant que la victime n'est pas réchauffée."
+      - "Ne débuter la RCP que si l'équipe de secours se trouve dans des conditions de sécurité satisfaisantes."
+  - type: etapes
+    titre: Victime qui a perdu connaissance et respire, même très lentement
+    items:
+      - "Appliquer la conduite à tenir devant une victime qui a perdu connaissance, même si elle respire lentement."
+      - "Réchauffer la victime."
+  - type: etapes
+    titre: Hypothermie sévère ou modérée
+    items:
+      - "Allonger la victime et la mobiliser avec précaution."
+      - "Administrer de l'oxygène."
+      - "Transmettre le bilan pour avis, assurer une évacuation rapide et appliquer les consignes reçues."
+      - "Réchauffer la victime."
+      - "Surveiller attentivement la victime dans tous les cas."
+      - "Réaliser toute mobilisation très prudemment et sans à-coups (victimes très instables, arrêt cardiaque facile)."
+  - type: etapes
+    titre: Hypothermie légère
+    items:
+      - "Transmettre le bilan et respecter les consignes."
+      - "Réchauffer la victime."
+      - "Mobiliser la victime si aucun moyen de réchauffement n'est disponible, dans l'attente de secours complémentaires."
+  - type: liste
+    titre: Choix du réchauffement (victime consciente)
+    items:
+      - "Hypothermie légère (avec frissons intenses) : réchauffement passif."
+      - "Hypothermie modérée ou sévère (sans frisson) : réchauffement actif."
+      - "Voir la fiche « Techniques de réchauffement d'une victime »."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Mobiliser la victime délicatement : risque d'arrêt cardiaque brutal."
+      - "La rigidité thoracique peut gêner compressions et insufflations."
+      - "Défibrillations limitées à 3 successives si la température est < 30 °C tant que la victime n'est pas réchauffée."
+      - "Ne pas débuter la RCP si les conditions de sécurité de l'équipe ne sont pas satisfaisantes."
+qcm:
+  - id: q1
+    enonce: "Pendant combien de temps au minimum recherche-t-on les signes de vie chez une victime hypotherme ?"
+    propositions:
+      - "10 secondes"
+      - "30 secondes"
+      - "1 minute"
+      - "5 minutes"
+    bonnes:
+      - 2
+    explication: "La recherche des signes de vie dure au moins 1 minute, car la ventilation et le pouls sont très difficiles à percevoir. En cas de doute, débuter la RCP."
+  - id: q2
+    enonce: "Quel est le nombre maximal de défibrillations successives chez une victime dont la température est inférieure à 30 °C, tant qu'elle n'est pas réchauffée ?"
+    propositions:
+      - "1"
+      - "3"
+      - "5"
+      - "Aucune limite"
+    bonnes:
+      - 1
+    explication: "Un cœur hypotherme peut ne pas réagir à la défibrillation : le nombre de chocs successifs est limité à 3 si la température est < 30 °C tant que la victime n'est pas réchauffée."
+  - id: q3
+    enonce: "Quel réchauffement réalise-t-on chez une victime consciente en hypothermie modérée ou sévère (sans frisson) ?"
+    propositions:
+      - "Un réchauffement passif"
+      - "Un réchauffement actif"
+      - "Aucun réchauffement"
+    bonnes:
+      - 1
+    explication: "Hypothermie légère avec frissons intenses : réchauffement passif ; modérée ou sévère sans frisson : réchauffement actif."
+  - id: q4
+    enonce: "Comment enlever les vêtements mouillés d'une victime hypotherme ?"
+    propositions:
+      - "Les arracher rapidement"
+      - "Mobiliser délicatement et avec prudence, en coupant les vêtements si la mobilisation est pénible ou douloureuse"
+      - "Les laisser en place pour garder la victime au chaud"
+    bonnes:
+      - 1
+    explication: "Les vêtements mouillés ou humides sont ôtés en mobilisant la victime avec prudence (risque d'arrêt cardiaque brutal) ; on les coupe si la mobilisation est pénible ou douloureuse."
+  - id: q5
+    enonce: "Quelles actions concernent une victime en hypothermie sévère ou modérée ?"
+    propositions:
+      - "L'allonger et la mobiliser avec précaution"
+      - "Administrer de l'oxygène"
+      - "Transmettre le bilan pour avis et assurer une évacuation rapide"
+      - "La faire marcher pour la réchauffer"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Allonger et mobiliser avec précaution, oxygène, bilan pour avis avec évacuation rapide, réchauffement et surveillance attentive."
+  - id: q6
+    enonce: "Que fait-on pour une hypothermie légère si l'on ne dispose d'aucun moyen de réchauffement ?"
+    propositions:
+      - "On attend sans rien faire"
+      - "On mobilise la victime dans l'attente de secours complémentaires"
+      - "On lui donne de l'alcool"
+    bonnes:
+      - 1
+    explication: "En hypothermie légère, on peut mobiliser la victime si l'on n'a pas de moyen de réchauffement, dans l'attente de secours complémentaires."

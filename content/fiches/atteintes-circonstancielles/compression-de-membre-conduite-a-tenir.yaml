@@ -1,0 +1,116 @@
+id: compression-de-membre-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 31
+titre: Compression de membre (conduite à tenir)
+motsCles: [compression de membre, avis médical, durée de compression, garrot, quatre heures, dégagement, crush syndrome]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR15, 06-2018)
+  code: 08PR15
+  page: 318
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le principe de l'action de secours est d'assurer la sécurité des lieux et des intervenants et le dégagement de la victime en présence d'une équipe médicale. La conduite à tenir repose sur la transmission d'un bilan afin d'obtenir un avis médical."
+  - type: etapes
+    titre: Conduite à tenir habituelle
+    items:
+      - "Évaluer la durée de la compression par rapport à l'horaire de l'événement."
+      - "Réaliser chaque regard ainsi que les gestes de secours adaptés. Le plus souvent, ces gestes sont limités du fait de la situation de la victime (en général peu accessible) et du risque lié aux circonstances de l'accident."
+      - "Transmettre un bilan afin d'obtenir un avis médical."
+      - "Protéger la victime contre le froid, la chaleur, les intempéries ainsi que les risques liés au dégagement (projections)."
+      - "Rassurer la victime en lui parlant, en particulier si elle est inaccessible."
+      - "Assurer la surveillance de la victime."
+  - type: liste
+    titre: Situations exceptionnelles où les secours peuvent être
+    items:
+      - "Dans l'impossibilité de transmettre le bilan afin d'obtenir un avis médical quant à la suite de la prise en charge."
+      - "Dans l'impossibilité de disposer d'une équipe médicale dans un délai approprié à l'état de la victime."
+      - "Dans une situation d'urgence absolue."
+  - type: etapes
+    titre: Conduite à tenir en cas d'impossibilité d'avis médical ou de bilan
+    items:
+      - "Évaluer la durée de la compression par rapport à l'horaire de l'événement."
+      - "Mettre en place un garrot si la durée de compression est supérieure à quatre heures, ou s'il est nécessaire pour arrêter une hémorragie externe non accessible."
+      - "Dégager la victime dans tous les cas."
+      - "Réaliser chaque regard ainsi que les gestes de secours adaptés (immobilisation des fractures, etc.)."
+      - "Assurer la surveillance de la victime."
+  - type: chiffres
+    titre: Seuil pour le garrot (si aucun avis médical n'est possible)
+    items:
+      - valeur: "Plus de 4 heures"
+        libelle: "Durée de compression justifiant la pose d'un garrot, en l'absence d'avis médical possible."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le garrot pour compression de plus de quatre heures ne s'envisage que dans les situations exceptionnelles où aucun avis médical ni aucune équipe médicale n'est disponible : sinon, on transmet le bilan et on suit l'avis médical."
+      - "Un garrot est aussi possible dans ce cadre pour arrêter une hémorragie externe non accessible."
+      - "Dans les deux conduites à tenir, la durée de la compression est évaluée par rapport à l'horaire de l'événement."
+qcm:
+  - id: q1
+    enonce: "Que faut-il évaluer en premier lors de la prise en charge d'une compression de membre ?"
+    propositions:
+      - La durée de la compression par rapport à l'horaire de l'événement
+      - La taille de la charge
+      - La température extérieure uniquement
+    bonnes:
+      - 0
+    explication: "Dans les deux conduites à tenir, on évalue la durée de la compression par rapport à l'horaire de l'événement."
+  - id: q2
+    enonce: "En conduite à tenir habituelle, que faut-il faire pour obtenir la suite de la prise en charge ?"
+    propositions:
+      - Poser systématiquement un garrot
+      - Dégager la victime sans délai
+      - Transmettre un bilan afin d'obtenir un avis médical
+      - Attendre sans rien transmettre
+    bonnes:
+      - 2
+    explication: "Le bilan est transmis afin d'obtenir un avis médical ; le dégagement se fait en présence d'une équipe médicale."
+  - id: q3
+    enonce: "Contre quoi faut-il protéger la victime comprimée ?"
+    propositions:
+      - Le froid
+      - La chaleur
+      - Les intempéries
+      - Les risques liés au dégagement (projections)
+      - Le regard des curieux
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Il faut protéger la victime contre le froid, la chaleur, les intempéries ainsi que les risques liés au dégagement (projections)."
+  - id: q4
+    enonce: "Sans avis médical possible, à partir de quelle durée de compression un garrot est-il mis en place ?"
+    propositions:
+      - Plus de 30 minutes
+      - Plus de deux heures
+      - Plus de quatre heures
+      - Plus de six heures
+    bonnes:
+      - 2
+    explication: "En l'absence d'avis médical possible, le garrot est posé si la compression dure plus de quatre heures (ou pour une hémorragie externe non accessible)."
+  - id: q5
+    enonce: "Quelles situations exceptionnelles justifient la conduite à tenir sans avis médical ?"
+    propositions:
+      - Impossibilité de transmettre le bilan pour obtenir un avis médical
+      - Impossibilité de disposer d'une équipe médicale dans un délai approprié à l'état de la victime
+      - Situation d'urgence absolue
+      - Victime consciente et parlant normalement
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ce sont les trois circonstances exceptionnelles citées par le référentiel."
+  - id: q6
+    enonce: "Sans avis médical possible, que fait-on de la victime comprimée ?"
+    propositions:
+      - Elle est laissée sur place en attendant les secours
+      - Elle est dégagée dans tous les cas
+      - Elle est dégagée uniquement si un garrot n'est pas posé
+    bonnes:
+      - 1
+    explication: "Dans cette situation, la victime est dégagée dans tous les cas, avec les gestes de secours adaptés (immobilisation des fractures, etc.) et une surveillance."

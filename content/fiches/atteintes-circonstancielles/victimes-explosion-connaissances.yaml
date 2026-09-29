@@ -1,0 +1,121 @@
+id: victimes-explosion-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 28
+titre: Victimes d'explosion (connaissances)
+motsCles: [explosion, blast, onde de choc, souffle, blast primaire, blast secondaire, blast tertiaire, blast quaternaire]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC12, 06-2018)
+  code: 08AC12
+  page: 314
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une explosion libère des gaz sous pression et à haute température en un temps extrêmement court. Cette libération brutale d'énergie augmente la pression atmosphérique environnante, suivie d'une dépression immédiate, et se transmet dans toutes les directions sous forme d'onde de choc. Les lésions de « blast » désignent l'ensemble des lésions anatomiques générées à la suite d'une forte explosion."
+  - type: liste
+    titre: Les quatre mécanismes lésionnels
+    items:
+      - "Blast primaire : lésions provoquées par l'onde de choc, à l'air libre, dans l'eau ou au contact de surfaces solides."
+      - "Blast secondaire : lésions induites par la projection de matériaux sur la victime, du fait du déplacement d'air (souffle)."
+      - "Blast tertiaire : lésions provoquées par la projection de la victime elle-même si le souffle est très puissant."
+      - "Blast quaternaire : lésions induites par l'explosion elle-même : brûlure externe ou des voies aériennes, intoxication due aux fumées ou aux produits chimiques."
+  - type: texte
+    titre: Une même victime, plusieurs mécanismes
+    contenu: "Une même victime peut être soumise à tout ou partie de ces mécanismes, selon son éloignement de l'origine de l'explosion."
+  - type: liste
+    titre: Lésions de blast primaire
+    items:
+      - "En milieu aérien (cisaillement et surpression), les organes creux sont plutôt touchés : contusion ou rupture des tympans, lésions du larynx, contusions pulmonaires ou rupture des alvéoles pulmonaires, lésions des organes creux abdominaux."
+      - "En milieu liquide, les organes pleins sont plutôt touchés : foie, rate, cerveau, yeux."
+      - "Les lésions peuvent être immédiates et évidentes, ou inapparentes et se manifester de façon retardée, parfois plus de 24 heures après."
+  - type: liste
+    titre: Autres types de lésions
+    items:
+      - "Blast secondaire : lésions réalisant classiquement un véritable criblage (visage, avant-bras, zones découvertes)."
+      - "Blast tertiaire : lésions proches de celles des traumatisés sévères par projection de la victime elle-même."
+      - "Blast quaternaire : brûlures, intoxications (fumées, produits chimiques, etc.) et traumatismes psychologiques."
+      - "Initialement, la victime exposée est abordée comme une victime à multiples lésions : blastée (primaire), blessée, brûlée, bouleversée et intoxiquée."
+  - type: liste
+    titre: Signes
+    items:
+      - "Le 1er regard est essentiel : il permet de retrouver la survenue d'une explosion, en particulier en milieu clos. Cette notion suffit à considérer que toutes les personnes exposées sont susceptibles de présenter un effet de souffle. Les victimes peuvent être multiples."
+      - "La survenue d'une détresse vitale, respiratoire ou circulatoire, traduit la gravité de l'atteinte."
+      - "Le 4e regard retrouve souvent de multiples lésions (plaies, brûlures, fractures, lésions internes). Ces dernières peuvent passer inaperçues au début et se révéler secondairement."
+      - "Signes auditifs révélateurs : bourdonnement d'oreille, saignement du conduit auditif, surdité."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - Assurer la sécurité de tous.
+      - Considérer toute personne, même apparemment indemne, comme susceptible d'être victime d'un blast.
+      - Surveiller attentivement la victime.
+      - Garantir la sécurité des lieux et des intervenants.
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une personne apparemment indemne, qui se trouvait à proximité d'une victime blessée, doit être considérée comme suspecte de blast, même si elle ne se plaint de rien, et fera l'objet d'un bilan."
+      - "Toute personne exposée à une explosion, même sans signe évident, peut présenter secondairement une détresse respiratoire : la faire examiner systématiquement par un médecin."
+qcm:
+  - id: q1
+    enonce: "Quel mécanisme de blast correspond aux lésions provoquées directement par l'onde de choc ?"
+    propositions:
+      - Le blast secondaire
+      - Le blast primaire
+      - Le blast tertiaire
+      - Le blast quaternaire
+    bonnes:
+      - 1
+    explication: "Le blast primaire regroupe les lésions provoquées par l'onde de choc, à l'air libre, dans l'eau ou au contact de surfaces solides."
+  - id: q2
+    enonce: "Une victime est projetée elle-même par un souffle très puissant. De quel type de blast s'agit-il ?"
+    propositions:
+      - Blast primaire
+      - Blast secondaire
+      - Blast tertiaire
+    bonnes:
+      - 2
+    explication: "Le blast tertiaire correspond aux lésions provoquées par la projection de la victime elle-même si le souffle est très puissant. Le blast secondaire correspond à la projection de matériaux sur la victime."
+  - id: q3
+    enonce: "Quelles lésions relèvent du blast quaternaire ?"
+    propositions:
+      - Les brûlures
+      - Les contusions pulmonaires
+      - Les intoxications par fumées ou produits chimiques
+      - Les traumatismes psychologiques
+      - La rupture des tympans
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Le blast quaternaire comprend les brûlures, les intoxications (fumées, produits chimiques, etc.) et les traumatismes psychologiques. Contusions pulmonaires et rupture des tympans relèvent du blast primaire."
+  - id: q4
+    enonce: "Quels organes sont plutôt touchés lorsque l'onde de choc se propage en milieu aérien ?"
+    propositions:
+      - Les organes creux (tympans, larynx, poumons, organes creux abdominaux)
+      - Les organes pleins (foie, rate, cerveau, yeux)
+    bonnes:
+      - 0
+    explication: "En milieu aérien, les lésions touchent plutôt les organes creux ; en milieu liquide, elles touchent plutôt les organes pleins (foie, rate, cerveau, yeux)."
+  - id: q5
+    enonce: "Une personne apparemment indemne se trouvait près d'une victime blessée par une explosion et ne se plaint de rien. Que faut-il faire ?"
+    propositions:
+      - La laisser partir, car elle n'a aucun signe
+      - La considérer comme suspecte de blast, réaliser un bilan et la faire examiner par un médecin
+      - Ne s'occuper d'elle que si elle se plaint d'une douleur
+    bonnes:
+      - 1
+    explication: "Les lésions de blast peuvent être inapparentes et retardées, parfois plus de 24 heures après. Toute personne exposée est suspecte, fait l'objet d'un bilan et est examinée par un médecin."
+  - id: q6
+    enonce: "Parmi ces signes, lesquels sont des signes auditifs révélateurs d'un effet de souffle ?"
+    propositions:
+      - Un bourdonnement d'oreille
+      - Un saignement du conduit auditif
+      - Une surdité
+      - Une douleur au mollet
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Bourdonnement d'oreille, saignement du conduit auditif et surdité sont des signes révélateurs."

@@ -1,0 +1,125 @@
+id: gelures-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 18
+titre: Gelures (conduite à tenir)
+motsCles: [gelures, réchauffement, 37 à 39 °C, 24 heures, ne pas frictionner, cloques, réexposition au froid]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR08, 06-2018)
+  code: 08PR08
+  page: 300
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Soustraire la victime au froid, prévenir ou prendre en charge une hypothermie, retirer tout ce qui serre, sécher sans frictionner, protéger les zones atteintes et demander un avis médical. Le réchauffement des gelures est très encadré."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "10 min"
+        libelle: "Réchauffement d'une gelure mineure des extrémités contre la peau du sauveteur (main, creux de l'aisselle)"
+      - valeur: "37 à 39 °C"
+        libelle: "Température de l'eau tempérée pour le réchauffement des gelures sévères et graves"
+      - valeur: "< 24 h"
+        libelle: "Ancienneté maximale de la gelure sévère ou grave pour envisager ce réchauffement"
+      - valeur: "20 à 30 min"
+        libelle: "Durée de l'immersion, ou jusqu'à couleur rouge ou pourpre et souplesse au toucher"
+      - valeur: "> 39 °C"
+        libelle: "À proscrire : aggrave les lésions et peut créer des brûlures"
+      - valeur: "> 4000 m"
+        libelle: "Très haute altitude : oxygène en inhalation en complément"
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Soustraire la victime à la cause : l'isoler dans un endroit chaud, à l'abri du vent (point chaud, refuge, habitation, véhicule, ambulance)."
+      - "Prendre toutes les mesures pour éviter une hypothermie, ou appliquer la conduite devant une victime hypotherme, et prendre en charge un traumatisme associé si nécessaire."
+      - "Enlever doucement gants, bagues, chaussures, desserrer élastiques ou bandes auto-agrippantes des manches (bagues, bracelets, montres : risque d'effet garrot)."
+      - "Ôter les vêtements, surtout mouillés ou humides."
+      - "Sécher la victime (prévient l'hypothermie) sans frictionner les zones gelées."
+      - "Si les gelures sont mineures, réchauffer les extrémités contre la peau du sauveteur (main, creux de l'aisselle) pendant 10 minutes."
+      - "Transmettre le bilan pour avis et appliquer les consignes reçues."
+      - "Rhabiller la victime, si possible avec des vêtements amples, secs et chauds (moufles, chaussons), ou l'envelopper dans une couverture."
+      - "Si la sensibilité est récupérée et en situation d'isolement complet, on peut envisager, après avoir rhabillé la victime, de la laisser marcher ; sinon rejoindre l'abri le plus proche et attendre un avis ou une intervention médicale."
+      - "À très haute altitude (> 4000 m), administrer de l'oxygène en inhalation en complément."
+  - type: etapes
+    titre: Réchauffement des gelures sévères et graves (conditions restrictives)
+    items:
+      - "Conditions : aucun risque de réexposition au froid ET prise en charge médicalisée non rapidement possible ET gelure de moins de 24 heures, si le matériel est disponible."
+      - "Immerger les parties atteintes dans de l'eau tempérée entre 37 °C et 39 °C pendant 20 à 30 minutes, ou jusqu'à ce que la zone devienne rouge ou pourpre et souple au toucher."
+      - "En l'absence de récipient, des sachets de chauffage liquide peuvent être utilisés sans les poser directement sur la gelure : interposer une épaisseur de tissu pour que la température ne dépasse pas 39 °C."
+  - type: etapes
+    titre: Si des cloques apparaissent au réchauffement
+    items:
+      - "Recouvrir les lésions d'un pansement de gaze stérile, avec de la gaze placée entre les doigts."
+      - "Ne pas toucher aux cloques."
+      - "Éviter tout nouveau refroidissement."
+      - "Permettre à la victime de recevoir des soins médicaux."
+  - type: attention
+    titre: À ne pas faire
+    items:
+      - "Ne pas frictionner les zones gelées."
+      - "Ne jamais réchauffer une gelure s'il existe le moindre risque de nouvelle exposition au froid de la partie atteinte, ou si l'on est à proximité d'un centre médical ou d'une prise en charge médicale."
+      - "Ne jamais dépasser 39 °C ni utiliser de chaleur sèche : cela aggrave les lésions et peut créer des brûlures."
+      - "Ne pas toucher aux cloques."
+      - "Aucun médicament préventif ou curatif n'est nécessaire pour lutter contre la gelure."
+qcm:
+  - id: q1
+    enonce: "Que fait-on pour sécher une victime présentant des gelures ?"
+    propositions:
+      - "On frictionne énergiquement les zones gelées"
+      - "On sèche la victime sans frictionner les zones gelées"
+      - "On ne la sèche pas"
+    bonnes:
+      - 1
+    explication: "Il faut sécher la victime (ce qui prévient l'hypothermie) mais ne pas frictionner les zones gelées."
+  - id: q2
+    enonce: "Quelle température d'eau est utilisée pour réchauffer une gelure sévère ou grave dans les conditions prévues ?"
+    propositions:
+      - "Entre 20 et 30 °C"
+      - "Entre 37 et 39 °C"
+      - "Entre 40 et 45 °C"
+      - "Supérieure à 45 °C"
+    bonnes:
+      - 1
+    explication: "L'eau tempérée entre 37 °C et 39 °C, pendant 20 à 30 minutes ; toute température supérieure à 39 °C est à proscrire."
+  - id: q3
+    enonce: "Quelles conditions doivent être réunies pour réchauffer une gelure sévère ou grave par immersion ?"
+    propositions:
+      - "Absence de risque de réexposition au froid"
+      - "Prise en charge médicalisée impossible rapidement"
+      - "Gelure de moins de 24 heures"
+      - "Proximité d'un centre médical"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le réchauffement n'est possible que sans risque de réexposition au froid, si la prise en charge médicalisée n'est pas rapide, pour une gelure de moins de 24 heures. Près d'un centre médical, on ne réchauffe pas."
+  - id: q4
+    enonce: "Comment réchauffer une gelure mineure des extrémités ?"
+    propositions:
+      - "Les placer contre la peau du sauveteur pendant 10 minutes"
+      - "Les placer près d'une source de chaleur sèche"
+      - "Les frictionner avec de la neige"
+    bonnes:
+      - 0
+    explication: "Pour une gelure mineure, on réchauffe les extrémités contre la peau du sauveteur (main, creux de l'aisselle) pendant 10 minutes."
+  - id: q5
+    enonce: "Que faire des cloques apparues au réchauffement ?"
+    propositions:
+      - "Les percer"
+      - "Ne pas y toucher et recouvrir les lésions de gaze stérile, avec de la gaze entre les doigts"
+      - "Les frotter avec un linge sec"
+    bonnes:
+      - 1
+    explication: "On ne touche pas aux cloques : pansement de gaze stérile, gaze entre les doigts, éviter tout nouveau refroidissement."
+  - id: q6
+    enonce: "Quel élément complète la prise en charge à très haute altitude (> 4000 m) ?"
+    propositions:
+      - "L'administration d'oxygène en inhalation"
+      - "Un réchauffement par chaleur sèche"
+      - "Un médicament préventif contre la gelure"
+    bonnes:
+      - 0
+    explication: "À très haute altitude (> 4000 m), on administre de l'oxygène en inhalation en complément. Aucun médicament contre la gelure n'est nécessaire."

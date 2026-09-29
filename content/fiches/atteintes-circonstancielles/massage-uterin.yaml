@@ -1,0 +1,118 @@
+id: massage-uterin
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: technique
+ordre: 11
+titre: Massage utérin
+motsCles: [massage utérin, hémorragie post-partum, atonie utérine, délivrance, fond utérin, parturiente]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08FT02, 07-2026)
+  code: 08FT02
+  page: 287
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "Le massage utérin est indiqué pour prévenir ou réduire les hémorragies extériorisées immédiates après l'accouchement (post-partum). L'hémorragie post-partum immédiate est une cause majeure de mortalité et de complications chez les mères. Elle est le plus souvent due à un manque de tonicité (atonie) du muscle utérin, qui normalement se contracte après le détachement du placenta pour fermer les vaisseaux de la paroi utérine. L'atonie peut être causée par un épuisement musculaire ou la présence de résidus dans l'utérus. Le massage externe du fond de l'utérus à travers l'abdomen stimule les contractions et peut arrêter ou réduire le saignement, ou limiter le risque qu'il survienne."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Gants à usage unique."
+  - type: etapes
+    titre: Réalisation (après avoir expliqué le geste à la mère)
+    items:
+      - "Placer la tranche d'une main au niveau de l'ombilic de la mère, paume dirigée vers ses pieds."
+      - "Exercer une pression douce de 5 à 8 cm vers l'arrière et vers le bas pour percevoir le fond de l'utérus avec la surface de la paume."
+      - "Effectuer un massage doux, avec une légère pression et des mouvements rotatifs circulaires, comme pour créer une boule. L'utérus est alors perçu car il devient de plus en plus dur."
+      - "Pendant 1 minute toutes les 10 minutes en l'absence d'hémorragie ; en continu en cas d'hémorragie."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "5 à 8 cm"
+        libelle: "Profondeur de la pression douce vers l'arrière et vers le bas, pour percevoir le fond utérin"
+      - valeur: "1 min toutes les 10 min"
+        libelle: "Rythme du massage en l'absence d'hémorragie"
+      - valeur: "En continu"
+        libelle: "Rythme du massage en cas d'hémorragie"
+  - type: texte
+    titre: À savoir
+    contenu: "Le fond utérin est perçu comme une zone ronde et dure de la taille d'un pamplemousse (dur comme un ballon de basket une fois contracté). Parfois il n'est pas perçu car complètement relâché (atone) : le massage le fera durcir peu à peu. Le massage peut être effectué en laissant le nouveau-né en peau à peau avec sa mère. Si la mère est d'accord, on peut lui proposer de mettre le bébé au sein : la succion stimule la libération de substances dans son corps, ce qui aide l'utérus à se contracter."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le massage utérin est un geste très douloureux : en informer la parturiente avant de le pratiquer."
+      - "Si elle refuse qu'il soit réalisé par le secouriste, lui proposer de l'effectuer elle-même en lui expliquant la technique : mouvement circulaire ferme avec le talon de la main, situé sous le nombril, au niveau du fond utérin."
+      - "En cas d'hémorragie, il est préférable que le massage soit réalisé par le secouriste car il est beaucoup plus efficace."
+  - type: texte
+    titre: Évaluation
+    contenu: "Le massage utérin après la naissance est efficace si le saignement s'arrête, diminue ou ne se produit pas."
+qcm:
+  - id: q1
+    enonce: "Dans quel but réalise-t-on un massage utérin ?"
+    propositions:
+      - "Accélérer la sortie du nouveau-né"
+      - "Prévenir ou réduire les hémorragies extériorisées après l'accouchement"
+      - "Calmer les contractions du travail"
+    bonnes:
+      - 1
+    explication: "Le massage utérin est indiqué pour prévenir ou réduire les hémorragies extériorisées immédiates du post-partum, en stimulant la contraction de l'utérus."
+  - id: q2
+    enonce: "Quelle est la cause la plus fréquente de l'hémorragie post-partum immédiate ?"
+    propositions:
+      - "Un manque de tonicité du muscle utérin (atonie)"
+      - "Une rupture de la poche des eaux"
+      - "Une circulaire du cordon"
+    bonnes:
+      - 0
+    explication: "Ce saignement est le plus souvent dû à un manque de tonicité du muscle utérin, qui doit normalement se contracter pour fermer les vaisseaux après le détachement du placenta."
+  - id: q3
+    enonce: "Comment place-t-on la main pour percevoir le fond utérin ?"
+    propositions:
+      - "Paume vers le ciel, au niveau du pubis"
+      - "Tranche de la main au niveau de l'ombilic, paume dirigée vers les pieds de la mère"
+      - "Poing fermé au niveau des côtes"
+    bonnes:
+      - 1
+    explication: "On place la tranche d'une main au niveau de l'ombilic, paume vers les pieds, puis on exerce une pression douce de 5 à 8 cm vers l'arrière et le bas."
+  - id: q4
+    enonce: "Quel est le rythme du massage utérin en l'absence d'hémorragie ?"
+    propositions:
+      - "En continu"
+      - "1 minute toutes les 10 minutes"
+      - "10 minutes toutes les heures"
+      - "5 minutes toutes les 30 minutes"
+    bonnes:
+      - 1
+    explication: "En l'absence d'hémorragie : 1 minute toutes les 10 minutes. En cas d'hémorragie : massage en continu."
+  - id: q5
+    enonce: "Que peut-on associer au massage utérin ?"
+    propositions:
+      - "Le peau à peau avec le nouveau-né"
+      - "La mise au sein, si la mère est d'accord"
+      - "Une forte pression avec les deux poings"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le massage peut être fait en laissant le bébé en peau à peau, et la succion du bébé au sein aide l'utérus à se contracter. La pression doit rester douce."
+  - id: q6
+    enonce: "La parturiente refuse que le secouriste réalise le massage utérin. Que fait-on ?"
+    propositions:
+      - "On l'impose car le geste est indispensable"
+      - "On abandonne toute surveillance de l'utérus"
+      - "On lui propose de le réaliser elle-même en lui expliquant la technique"
+    bonnes:
+      - 2
+    explication: "On propose à la mère de l'effectuer elle-même (mouvement circulaire ferme avec le talon de la main sous le nombril, au niveau du fond utérin). En cas d'hémorragie, le massage par le secouriste est plus efficace."
+  - id: q7
+    enonce: "Quand le massage utérin est-il jugé efficace ?"
+    propositions:
+      - "Si le saignement s'arrête"
+      - "Si le saignement diminue"
+      - "Si aucun saignement ne se produit"
+      - "Si la mère ne ressent aucune douleur"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Il est efficace si le saignement s'arrête, diminue ou ne se produit pas. Le geste reste très douloureux."

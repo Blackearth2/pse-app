@@ -1,0 +1,86 @@
+id: intoxication-environnement-toxique
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 21
+titre: Intoxication en environnement toxique
+motsCles: [environnement toxique, protection du sauveteur, soustraire la victime, atmosphère toxique, nombreuses victimes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR10, 09-2014)
+  code: 08PR10
+  page: 304
+liees: []
+blocs:
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Se protéger du toxique : en restant à distance ; si nécessaire en supprimant la cause ou en aérant le local."
+      - "Soustraire la victime, le plus rapidement possible, de l'environnement toxique."
+  - type: liste
+    titre: En présence de nombreuses victimes
+    items:
+      - "Appliquer la conduite à tenir adaptée."
+  - type: liste
+    titre: En présence d'un nombre restreint de victimes
+    items:
+      - "Placer les victimes à distance de l'atmosphère toxique."
+      - "Demander des moyens de secours spécialisés, si nécessaire."
+      - "Réaliser chaque regard ainsi que les gestes de secours adaptés."
+      - "L'ensemble de ces actions est réalisé à distance de l'atmosphère toxique."
+      - "Transmettre le bilan et appliquer les consignes reçues."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le sauveteur se protège d'abord : il reste à distance de l'atmosphère toxique."
+      - "Tous les regards et les gestes de secours sont réalisés à distance de l'atmosphère toxique."
+qcm:
+  - id: q1
+    enonce: "Quelle est la première action face à une victime en environnement toxique ?"
+    propositions:
+      - Se protéger du toxique
+      - Réaliser immédiatement le bilan sur place
+      - Faire vomir la victime
+    bonnes:
+      - 0
+    explication: "Le sauveteur se protège d'abord du toxique, en restant à distance et, si nécessaire, en supprimant la cause ou en aérant le local."
+  - id: q2
+    enonce: "Comment le sauveteur peut-il se protéger du toxique ?"
+    propositions:
+      - En restant à distance
+      - En supprimant la cause si nécessaire
+      - En aérant le local si nécessaire
+      - En entrant dans l'atmosphère toxique pour réaliser le bilan
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Se protéger : rester à distance, si nécessaire supprimer la cause ou aérer le local."
+  - id: q3
+    enonce: "Où sont réalisés les regards et les gestes de secours en présence d'un nombre restreint de victimes ?"
+    propositions:
+      - Dans l'atmosphère toxique, pour gagner du temps
+      - À distance de l'atmosphère toxique
+      - Uniquement à l'arrivée des renforts
+    bonnes:
+      - 1
+    explication: "Les victimes sont placées à distance de l'atmosphère toxique et l'ensemble des actions est réalisé à distance."
+  - id: q4
+    enonce: "Quelles actions sont indiquées, après avoir placé les victimes à distance, si le nombre de victimes est restreint ?"
+    propositions:
+      - Demander des moyens de secours spécialisés, si nécessaire
+      - Transmettre le bilan et appliquer les consignes reçues
+      - Attendre sans rien transmettre
+    bonnes:
+      - 0
+      - 1
+    explication: "On demande des moyens spécialisés si nécessaire, on réalise chaque regard et les gestes adaptés, puis on transmet le bilan et on applique les consignes."
+  - id: q5
+    enonce: "Que fait-on en présence de nombreuses victimes en environnement toxique ?"
+    propositions:
+      - On applique la conduite à tenir adaptée
+      - On traite chaque victime l'une après l'autre sans priorité
+      - On ne fait rien
+    bonnes:
+      - 0
+    explication: "En présence de nombreuses victimes, il faut appliquer la conduite à tenir adaptée."

@@ -1,0 +1,125 @@
+id: intoxications-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 20
+titre: Intoxications (conduite à tenir)
+motsCles: [intoxication, opiacés, opioïdes, naloxone, patchs, projection cutanée, ne pas faire vomir]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR09, 07-2026)
+  code: 08PR09
+  page: 303
+liees: []
+blocs:
+  - type: etapes
+    titre: Intoxication par ingestion ou injection
+    items:
+      - "Réaliser le 2e ainsi que le 3e regard et les gestes de secours adaptés."
+      - "Réaliser le 4e regard, en particulier : déterminer les circonstances de survenue, la nature du ou des toxiques en cause, la dose supposée absorbée ainsi que l'heure de prise ; rechercher les emballages et flacons des produits en cause."
+      - "Ne pas faire vomir ni boire la victime."
+      - "Transmettre le bilan et appliquer les consignes reçues."
+      - "Surveiller la victime."
+  - type: texte
+    titre: Intoxication aux opiacés ou aux opioïdes
+    contenu: "L'usage excessif, volontaire ou non, d'opiacés ou d'opioïdes est une cause fréquente de décès par intoxication. La dépression respiratoire avec troubles de la conscience et le myosis sont les signes caractéristiques d'un surdosage ou d'une intoxication. L'évolution peut se faire vers la perte de connaissance et la mort de la victime par anoxie."
+  - type: chiffres
+    titre: Repères chiffrés (opiacés / opioïdes)
+    items:
+      - valeur: "FR < 12 mvts/min"
+        libelle: "Dépression respiratoire : seuil déclenchant la conduite à tenir (avec ou sans perte de connaissance)"
+      - valeur: "14 ans et plus"
+        libelle: "Naloxone par pulvérisation intranasale : une pulvérisation dans une narine ; sécurité et efficacité non établies chez les moins de 14 ans"
+      - valeur: "2 à 3 min"
+        libelle: "Délai pour renouveler la naloxone si l'état ne s'améliore pas ou si les signes réapparaissent"
+      - valeur: "FR < 6 mvts/min"
+        libelle: "Seuil de la ventilation artificielle"
+  - type: etapes
+    titre: Victime avec dépression respiratoire (FR < 12 mvts/min) et/ou perte de connaissance
+    items:
+      - "Administrer de l'oxygène en inhalation."
+      - "Retirer les patchs de médicaments éventuels."
+      - "Demander un avis médical."
+      - "Si de la naloxone administrable par pulvérisation intranasale est disponible, administrer une pulvérisation dans une narine chez toute victime âgée de 14 ans et plus (voir fiche administration de médicaments). Si l'état ne s'améliore pas ou en cas de réapparition des signes, renouveler l'administration au bout de 2 à 3 min."
+      - "Surveiller en permanence la ventilation : si FR < 6 mvts/min, réaliser une ventilation artificielle ; si la victime est en arrêt cardiaque, administrer la naloxone après avoir débuté la réanimation."
+  - type: liste
+    titre: Projection d'un toxique sur la peau
+    items:
+      - "Si le produit a provoqué une brûlure : adopter la conduite à tenir face à une brûlure chimique."
+      - "En l'absence de brûlure : appliquer la procédure spécifique à l'entreprise si l'accident a lieu en milieu professionnel (ou inscrite dans les fiches de données sécurité) ; appliquer la procédure communiquée par les services de secours lors de la transmission du bilan."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne jamais faire vomir ni faire boire la victime intoxiquée par ingestion ou injection."
+      - "Naloxone : pas d'administration par pulvérisation intranasale chez les moins de 14 ans (sécurité et efficacité non établies)."
+      - "En arrêt cardiaque, la naloxone n'est administrée qu'après avoir débuté la réanimation."
+      - "Ne pas oublier de retirer les patchs de médicaments éventuels."
+qcm:
+  - id: q1
+    enonce: "Face à une victime intoxiquée par ingestion, que faut-il faire ?"
+    propositions:
+      - La faire vomir rapidement
+      - Lui donner à boire
+      - Ne pas la faire vomir ni boire
+      - Attendre sans bilan
+    bonnes:
+      - 2
+    explication: "Il faut ne pas faire vomir ni boire la victime, transmettre le bilan et appliquer les consignes reçues."
+  - id: q2
+    enonce: "Quels sont les signes caractéristiques d'un surdosage ou d'une intoxication aux opiacés ou opioïdes ?"
+    propositions:
+      - Dépression respiratoire avec troubles de la conscience
+      - Myosis
+      - Mydriase avec agitation
+      - Hypersalivation
+    bonnes:
+      - 0
+      - 1
+    explication: "La dépression respiratoire avec troubles de la conscience et le myosis sont les signes caractéristiques."
+  - id: q3
+    enonce: "Chez quelle victime peut-on administrer la naloxone par pulvérisation intranasale ?"
+    propositions:
+      - Toute victime âgée de 14 ans et plus
+      - Toute victime âgée de 6 ans et plus
+      - Uniquement les nourrissons
+      - Toute victime, quel que soit son âge
+    bonnes:
+      - 0
+    explication: "La naloxone est administrée chez toute victime âgée de 14 ans et plus ; sécurité et efficacité non établies chez les moins de 14 ans."
+  - id: q4
+    enonce: "Au bout de combien de temps renouvelle-t-on la naloxone si l'état de la victime ne s'améliore pas ?"
+    propositions:
+      - 30 secondes
+      - 2 à 3 minutes
+      - 10 minutes
+      - 30 minutes
+    bonnes:
+      - 1
+    explication: "L'administration est renouvelée au bout de 2 à 3 min si l'état ne s'améliore pas ou si les signes réapparaissent."
+  - id: q5
+    enonce: "Quelle fréquence respiratoire impose de réaliser une ventilation artificielle chez la victime intoxiquée aux opiacés ?"
+    propositions:
+      - FR < 12 mvts/min
+      - FR < 6 mvts/min
+      - FR < 20 mvts/min
+    bonnes:
+      - 1
+    explication: "Le seuil de 12 mvts/min déclenche la conduite à tenir (oxygène, avis médical, naloxone) ; la ventilation artificielle est réalisée si FR < 6 mvts/min."
+  - id: q6
+    enonce: "Que faire des patchs médicamenteux chez une victime intoxiquée aux opiacés avec dépression respiratoire ?"
+    propositions:
+      - Les laisser en place
+      - Les retirer
+      - Les recouvrir d'un pansement
+    bonnes:
+      - 1
+    explication: "Il faut retirer les patchs de médicaments éventuels."
+  - id: q7
+    enonce: "Une victime intoxiquée aux opiacés est en arrêt cardiaque. Quand administre-t-on la naloxone ?"
+    propositions:
+      - Avant toute autre action
+      - Après avoir débuté la réanimation
+      - Jamais
+    bonnes:
+      - 1
+    explication: "En cas d'arrêt cardiaque, la naloxone est administrée après avoir débuté la réanimation."

@@ -1,0 +1,135 @@
+id: affections-chaleur-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 12
+titre: Affections liées à la chaleur (connaissances)
+motsCles: [chaleur, coup de chaleur, hyperthermie, insolation, crampes, "40 °C", "37,5 °C", déshydratation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC05, 07-2026)
+  code: 08AC05
+  page: 289
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les affections liées à la chaleur sont des élévations anormales de la température corporelle au-dessus de 37,5 °C, accompagnées de symptômes non spécifiques. La forme la plus grave, qui engage le pronostic vital, est le coup de chaleur (ou hyperthermie maligne d'effort) : température supérieure à 40 °C et troubles neurologiques, avec évolution vers une détresse vitale, notamment circulatoire."
+  - type: chiffres
+    titre: Repères de température
+    items:
+      - valeur: "> 37,5 °C"
+        libelle: "Température corporelle anormalement élevée (affections liées à la chaleur)"
+      - valeur: "≤ 40 °C"
+        libelle: "Insolation : température qui reste inférieure ou égale à 40 °C"
+      - valeur: "> 40 °C"
+        libelle: "Coup de chaleur : température corporelle, mesurée de manière fiable, supérieure à 40 °C avec troubles neurologiques"
+  - type: liste
+    titre: Causes
+    items:
+      - "Exposition prolongée à des températures élevées (canicule, enfant dans une voiture...) : épuisement lié à la chaleur, insolation (exposition prolongée au soleil), coup de chaleur."
+      - "Effort important : hyperthermie maligne d'effort, couramment appelée « coup de chaleur d'exercice »."
+      - "Association des deux."
+      - "Plus la température ambiante est élevée, plus l'organisme perd difficilement sa chaleur, surtout en milieu chaud et humide avec un effort ; la température centrale s'élève, avec perte d'eau et de sels minéraux."
+  - type: liste
+    titre: Facteurs favorisants et aggravants
+    items:
+      - "Personnes âgées et nourrissons particulièrement sensibles, notamment en cas de maladies chroniques."
+      - "Certains traitements ou toxiques (drogues)."
+      - "Durée de l'exposition."
+      - "Vêtements contraignants qui empêchent l'évaporation de la sueur."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "Lorsque le système de thermorégulation est dépassé ou cesse de fonctionner, l'exposition prolongée peut entraîner une déshydratation, des atteintes du foie, des reins et des fonctions neurologiques et circulatoires, avec possibles séquelles graves ou décès."
+  - type: liste
+    titre: "Signes (le 1er regard est essentiel : exposition à la chaleur, au soleil ou contexte d'effort important)"
+    items:
+      - "Détresse respiratoire (2e ou 3e regard) : fréquence respiratoire élevée, oppression thoracique, sensation d'étouffement."
+      - "Détresse circulatoire : fréquence cardiaque élevée, hypotension artérielle, troubles du rythme (pouls irrégulier)."
+      - "Détresse neurologique : confusion, désorientation, délire, trouble du comportement (prostration, agressivité, agitation), perte de connaissance, convulsions."
+      - "Signes cutanéomuqueux : peau chaude, rouge, couverte ou non de sueurs ; hémorragie sous-cutanée puis extériorisée ; température supérieure à 37,5 °C."
+      - "Victime consciente sans atteinte neurologique : faiblesse musculaire, fatigue générale, céphalées, bourdonnements d'oreilles, vertiges, nausées, crampes ou hypertonie musculaire (muscle tendu, dur)."
+  - type: liste
+    titre: Formes selon les circonstances et l'importance des manifestations
+    items:
+      - "Crampes liées à la chaleur : la victime présente seulement des crampes."
+      - "Insolation (ou épuisement hyperthermique) : impression de chaleur, céphalées voire vertiges, peau rouge, température inférieure ou égale à 40 °C."
+      - "Coup de chaleur, selon le contexte : effort physique prolongé (< 30 min) avec trouble neurologique quelle que soit la température ambiante ; exposition prolongée à la chaleur d'un enfant ou d'une personne âgée avec troubles neurologiques."
+      - "Coup de chaleur, selon les signes cliniques : les signes neurologiques peuvent précéder la température élevée, la température peut être en phase ascendante ; la température, mesurée de manière fiable, dépasse 40 °C."
+      - "Signes cliniques du coup de chaleur (note de la source) : nausées, vomissements, déshydratation, peau rouge, sèche et brûlante, troubles neurologiques progressifs (démarche instable, confusion, troubles visuels et comportementaux). Convulsions ou perte de connaissance = aggravation."
+  - type: etapes
+    titre: "Principe de l'action de secours"
+    items:
+      - "Soustraire la victime à la cause."
+      - "Refroidir la victime rapidement."
+      - "Réhydrater, si possible, et refroidir."
+      - "Demander un avis médical dans les cas de l'épuisement et du coup de chaleur."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le coup de chaleur engage le pronostic vital : température > 40 °C et troubles neurologiques."
+      - "Les signes neurologiques peuvent précéder l'élévation de la température : ne pas attendre une température élevée pour suspecter un coup de chaleur."
+qcm:
+  - id: q1
+    enonce: "Quelle association définit le coup de chaleur ?"
+    propositions:
+      - "Température supérieure à 40 °C et troubles neurologiques"
+      - "Température supérieure à 37,5 °C et crampes seules"
+      - "Température inférieure à 35 °C et frissons"
+      - "Peau rouge et céphalées avec température inférieure ou égale à 40 °C"
+    bonnes:
+      - 0
+    explication: "Le coup de chaleur associe une température corporelle supérieure à 40 °C et des troubles neurologiques. Peau rouge et céphalées avec température ≤ 40 °C décrivent l'insolation."
+  - id: q2
+    enonce: "Au-dessus de quelle température parle-t-on d'élévation anormale de la température corporelle dans les affections liées à la chaleur ?"
+    propositions:
+      - "36,5 °C"
+      - "37,5 °C"
+      - "38,5 °C"
+      - "40 °C"
+    bonnes:
+      - 1
+    explication: "Les affections liées à la chaleur sont des élévations anormales de la température corporelle au-dessus de 37,5 °C."
+  - id: q3
+    enonce: "Quels sont des signes de détresse neurologique lors d'un coup de chaleur ?"
+    propositions:
+      - "Confusion et désorientation"
+      - "Délire"
+      - "Convulsions"
+      - "Frissons permanents avec peau froide"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Confusion, désorientation, délire, trouble du comportement, perte de connaissance et convulsions sont des signes neurologiques. Les frissons avec peau froide relèvent de l'hypothermie."
+  - id: q4
+    enonce: "Quels facteurs aggravent les manifestations liées à la chaleur ?"
+    propositions:
+      - "Des vêtements contraignants qui empêchent l'évaporation de la sueur"
+      - "La durée de l'exposition"
+      - "Un milieu chaud et humide associé à un effort"
+      - "Un environnement sec avec une température ambiante basse"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La durée d'exposition, les vêtements contraignants et un milieu chaud et humide avec effort aggravent les manifestations liées à la chaleur."
+  - id: q5
+    enonce: "Quelle forme correspond à une victime avec impression de chaleur, céphalées, peau rouge et température inférieure ou égale à 40 °C ?"
+    propositions:
+      - "Le coup de chaleur"
+      - "L'insolation"
+      - "Les crampes liées à la chaleur seules"
+    bonnes:
+      - 1
+    explication: "L'insolation (ou épuisement hyperthermique) associe impression de chaleur, céphalées voire vertiges, peau rouge et température ≤ 40 °C."
+  - id: q6
+    enonce: "Quel élément fait partie du principe de l'action de secours face à une affection liée à la chaleur ?"
+    propositions:
+      - "Réchauffer la victime"
+      - "Refroidir la victime rapidement"
+      - "Faire marcher la victime pour favoriser la sudation"
+      - "Attendre l'apparition d'une température supérieure à 40 °C"
+    bonnes:
+      - 1
+    explication: "Le principe est de soustraire la victime à la cause, la refroidir rapidement, réhydrater si possible et demander un avis médical (épuisement, coup de chaleur)."

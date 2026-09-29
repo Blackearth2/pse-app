@@ -1,0 +1,139 @@
+id: noyade-connaissances
+niveau: PSE1
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 3
+titre: Noyade (connaissances)
+motsCles: [noyade, submersion, immersion, hypoxie, hypothermie, régurgitations, arrêt cardiaque, stades 1 à 4]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC02, 07-2026)
+  code: 08AC02
+  page: 271
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La noyade est une détresse respiratoire due à l'immersion ou à la submersion de la victime. Quel que soit son devenir (décès, survie avec ou sans séquelles), une personne est dite « victime d'une noyade ». La durée de l'hypoxie est le facteur essentiel qui conditionne le devenir."
+  - type: liste
+    titre: Définitions
+    items:
+      - "Submersion : le visage de la victime est recouvert d'eau ou d'un liquide, ce qui entraîne asphyxie et arrêt cardiaque en quelques minutes."
+      - "Immersion : le corps est dans l'eau, la tête au-dessus du niveau de l'eau (le plus souvent grâce à un gilet de sauvetage) ; les voies aériennes sont hors de l'eau, même si le visage est éclaboussé, mais la victime devient rapidement hypotherme."
+      - "Noyé : victime décédée à la suite d'une noyade sans qu'aucun geste de réanimation n'ait été réalisé."
+  - type: liste
+    titre: Causes
+    items:
+      - "Incapacité à maintenir les voies aériennes hors de l'eau : ne sait pas nager (chute dans l'eau) ou sait nager mais en est incapable (crampes, épuisement musculaire, incarcération dans un véhicule tombé à l'eau, bateau qui a coulé)."
+      - "Affection médicale survenant dans l'eau : trouble de la conscience, crise convulsive, accident vasculaire cérébral, trouble du rythme cardiaque."
+      - "Traumatisme, comme un traumatisme du rachis, la plupart du temps consécutif à un plongeon en eau peu profonde."
+      - "Problèmes spécifiques d'une plongée sous-marine (apnée ou scaphandre autonome)."
+      - "Facteurs facilitants : hypothermie, hypoglycémie, prise d'alcool ou de toxiques."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Hypoxie : conséquence majeure et la plus néfaste, secondaire à l'arrêt volontaire de la respiration et au spasme laryngé réactionnel à l'arrivée d'eau dans les voies aériennes ; parfois aggravée par la pénétration d'eau dans les poumons, le plus souvent en très petite quantité."
+      - "Perte de connaissance : due à l'hypoxie ou parfois à un traumatisme (nuque, crâne)."
+      - "Régurgitations fréquentes : le risque d'inhalation de liquide gastrique est très élevé, et augmente si l'on tente d'extraire l'eau de l'estomac (compressions abdominales)."
+      - "Hypothermie fréquente, toujours rapide, amplifiée chez le nourrisson et l'enfant."
+      - "Arrêt cardiaque : le plus souvent d'origine respiratoire (secondaire à la noyade), plus rarement d'origine cardiaque (précédant la noyade)."
+  - type: chiffres
+    titre: Épidémiologie en France
+    items:
+      - valeur: "> 500 décès par an"
+        libelle: "Noyades accidentelles, avec parfois de graves séquelles"
+      - valeur: "2e cause"
+        libelle: "De décès accidentel chez les enfants de 1 à 14 ans"
+      - valeur: "> 2/3"
+        libelle: "Des victimes sont des hommes ; noyades surtout à la mer ou dans des cours ou plans d'eau"
+  - type: liste
+    titre: Signes
+    items:
+      - "Le 1er regard permet d'évoquer la noyade."
+      - "Stade 1 : victime consciente, fatiguée, ayant froid, souvent angoissée."
+      - "Stade 2 : victime consciente avec détresse respiratoire (toux persistante = signe de passage d'eau dans les poumons), souvent des vomissements et des frissons."
+      - "Stade 3 : victime ayant perdu connaissance avec détresse respiratoire, sans arrêt de la respiration."
+      - "Stade 4 : victime en arrêt cardiaque."
+      - "Facteurs de gravité à prendre en compte au bilan : temps passé dans l'eau, âge, antécédents."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Assurer le dégagement immédiat et permanent de la victime du milieu aquatique, en toute sécurité."
+      - "Identifier son état de gravité."
+      - "Réaliser les gestes de secours adaptés à son état."
+      - "Assurer une prise en charge médicale rapide."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne pas tenter d'extraire l'eau de l'estomac (compressions abdominales) : risque de régurgitation et d'inhalation de liquide gastrique."
+      - "L'hypothermie s'installe toujours rapidement, davantage chez le nourrisson et l'enfant."
+qcm:
+  - id: q1
+    enonce: "Comment définit-on la submersion ?"
+    propositions:
+      - "Le corps est dans l'eau, la tête au-dessus de l'eau grâce à un gilet"
+      - "Le visage de la victime est recouvert d'eau ou d'un liquide, entraînant asphyxie et arrêt cardiaque en quelques minutes"
+      - "La victime décède sans réanimation"
+    bonnes:
+      - 1
+    explication: "La submersion correspond au visage recouvert d'eau ou de liquide. L'immersion correspond à la tête hors de l'eau ; le noyé est la victime décédée sans réanimation."
+  - id: q2
+    enonce: "Quelle est la conséquence majeure et la plus néfaste de la noyade ?"
+    propositions:
+      - "L'hypothermie"
+      - "Les régurgitations"
+      - "L'hypoxie"
+      - "L'inhalation massive d'eau"
+    bonnes:
+      - 2
+    explication: "L'hypoxie est la conséquence majeure ; la durée de l'hypoxie conditionne le devenir. L'eau pénètre le plus souvent en très petite quantité dans les poumons."
+  - id: q3
+    enonce: "Quels stades correspondent à une victime consciente ?"
+    propositions:
+      - "Stade 1 : consciente, fatiguée, à froid, angoissée"
+      - "Stade 2 : consciente avec détresse respiratoire"
+      - "Stade 3 : perte de connaissance sans arrêt respiratoire"
+      - "Stade 4 : arrêt cardiaque"
+    bonnes:
+      - 0
+      - 1
+    explication: "Les stades 1 et 2 concernent une victime consciente ; le stade 3 une victime ayant perdu connaissance sans arrêt de la respiration, le stade 4 un arrêt cardiaque."
+  - id: q4
+    enonce: "Chez l'enfant de 1 à 14 ans, que représentent les noyades accidentelles en France ?"
+    propositions:
+      - "La première cause de décès accidentel"
+      - "La deuxième cause de décès accidentel"
+      - "Une cause rare de décès"
+    bonnes:
+      - 1
+    explication: "Elles représentent la deuxième cause de décès accidentel chez les enfants de un à quatorze ans."
+  - id: q5
+    enonce: "Pourquoi éviter les compressions abdominales chez une victime de noyade ?"
+    propositions:
+      - "Elles augmentent le risque d'inhalation de liquide gastrique"
+      - "Elles sont sans risque mais inefficaces"
+      - "Elles aggravent l'hypothermie"
+    bonnes:
+      - 0
+    explication: "Les régurgitations sont fréquentes et le risque d'inhalation de liquide gastrique est très élevé ; il augmente si l'on tente d'extraire l'eau de l'estomac."
+  - id: q6
+    enonce: "Parmi ces facteurs, lesquels peuvent faciliter une noyade ?"
+    propositions:
+      - "L'hypothermie"
+      - "L'hypoglycémie"
+      - "La prise d'alcool ou de toxiques"
+      - "Un gilet de sauvetage porté"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Hypothermie, hypoglycémie, alcool ou toxiques facilitent la noyade. Le gilet de sauvetage maintient au contraire la tête hors de l'eau (immersion)."
+  - id: q7
+    enonce: "Quelle est l'origine la plus fréquente de l'arrêt cardiaque chez une victime de noyade ?"
+    propositions:
+      - "Une origine cardiaque précédant la noyade"
+      - "Une origine respiratoire, secondaire à la noyade"
+      - "Une origine traumatique"
+    bonnes:
+      - 1
+    explication: "L'arrêt cardiaque est le plus souvent d'origine respiratoire, plus rarement d'origine cardiaque."

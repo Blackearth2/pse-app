@@ -1,0 +1,115 @@
+id: affections-chaleur-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 13
+titre: Affections liées à la chaleur (conduite à tenir)
+motsCles: [chaleur, coup de chaleur, refroidissement actif, 39 °C, 15 minutes, crampe, insolation, réhydratation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR06, 07-2026)
+  code: 08PR06
+  page: 291
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La conduite à tenir dépend de la forme : dans tous les cas, refroidissement passif ; détresse vitale éventuelle prise en charge en priorité ; crampe, insolation et coup de chaleur/hyperthermie maligne d'effort ont chacun leur conduite."
+  - type: chiffres
+    titre: Critères d'arrêt du refroidissement actif (coup de chaleur)
+    items:
+      - valeur: "< 39 °C"
+        libelle: "Température corporelle à atteindre (avec disparition des signes neurologiques)"
+      - valeur: "15 min"
+        libelle: "Durée du refroidissement actif si la température ne peut pas être mesurée"
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Réaliser un refroidissement passif de la victime."
+      - "Victime en détresse vitale : appliquer la conduite à tenir adaptée."
+      - "Victime sans détresse vitale : l'installer en position d'attente, puis la réhydrater avec de l'eau ou mieux un liquide contenant des glucides et des sels minéraux (jus de fruits), sauf si elle vomit."
+  - type: etapes
+    titre: Crampe
+    items:
+      - "Refroidir éventuellement avec l'application de glace."
+      - "Compléter par des étirements doux et des massages musculaires."
+      - "Indiquer à la victime de ne pas reprendre l'activité avant l'arrêt complet des signes."
+  - type: etapes
+    titre: Insolation
+    items:
+      - "Réaliser un refroidissement actif simple en fonction des moyens disponibles."
+      - "Poursuivre le bilan et surveiller attentivement."
+  - type: etapes
+    titre: Coup de chaleur et hyperthermie maligne d'effort
+    items:
+      - "Réaliser un refroidissement actif avancé (mettre tout en œuvre pour obtenir les moyens de le réaliser)."
+      - "Poursuivre le bilan et surveiller attentivement l'évolution des signes de détresse vitale et la température corporelle."
+      - "Transmettre le bilan pour avis sans délai (présenter tous les signes de gravité et appliquer les consignes reçues ; une prise en charge médicale d'urgence est nécessaire)."
+      - "Poursuivre le refroidissement actif jusqu'à la disparition des signes neurologiques et jusqu'à ce que la température devienne inférieure à 39 °C, ou pendant 15 minutes si la température ne peut pas être mesurée."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Un bilan complet est nécessaire avant toute verticalisation ou mobilisation de la victime après l'immersion."
+      - "Ces victimes peuvent présenter une hypotension (notamment par déshydratation) aggravée à l'orthostatisme, pouvant aller jusqu'à un désamorçage cardiaque."
+      - "Pas de réhydratation orale si la victime vomit."
+qcm:
+  - id: q1
+    enonce: "Jusqu'à quand poursuit-on le refroidissement actif d'une victime de coup de chaleur dont la température peut être mesurée ?"
+    propositions:
+      - "Jusqu'à la disparition des signes neurologiques et une température inférieure à 39 °C"
+      - "Jusqu'à une température inférieure à 37,5 °C"
+      - "Pendant 5 minutes exactement"
+      - "Jusqu'à l'apparition de frissons"
+    bonnes:
+      - 0
+    explication: "Le refroidissement actif se poursuit jusqu'à la disparition des signes neurologiques et jusqu'à ce que la température devienne inférieure à 39 °C."
+  - id: q2
+    enonce: "Si la température d'une victime de coup de chaleur ne peut pas être mesurée, pendant combien de temps poursuit-on le refroidissement actif ?"
+    propositions:
+      - "5 minutes"
+      - "10 minutes"
+      - "15 minutes"
+      - "30 minutes"
+    bonnes:
+      - 2
+    explication: "Le refroidissement actif se poursuit pendant 15 minutes si la température ne peut pas être mesurée."
+  - id: q3
+    enonce: "Quel type de refroidissement est réalisé en cas de coup de chaleur ou d'hyperthermie maligne d'effort ?"
+    propositions:
+      - "Un refroidissement passif seul"
+      - "Un refroidissement actif simple seul"
+      - "Un refroidissement actif avancé"
+    bonnes:
+      - 2
+    explication: "Le coup de chaleur et l'hyperthermie maligne d'effort relèvent du refroidissement actif avancé (immersion), alors que l'insolation relève du refroidissement actif simple."
+  - id: q4
+    enonce: "Que fait-on chez une victime avec crampes liées à la chaleur ?"
+    propositions:
+      - "Étirements doux et massages musculaires"
+      - "Refroidissement éventuel avec de la glace"
+      - "Reprise immédiate de l'activité"
+      - "Consigne de ne pas reprendre l'activité avant l'arrêt complet des signes"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Pour une crampe : refroidissement éventuel avec de la glace, étirements doux, massages, et pas de reprise d'activité avant l'arrêt complet des signes."
+  - id: q5
+    enonce: "Comment réhydrater une victime sans détresse vitale ?"
+    propositions:
+      - "Uniquement avec de l'alcool"
+      - "Avec de l'eau ou mieux un liquide contenant des glucides et des sels minéraux, sauf vomissements"
+      - "Avec des boissons chaudes exclusivement"
+      - "Ne jamais réhydrater"
+    bonnes:
+      - 1
+    explication: "La victime est réhydratée avec de l'eau ou mieux un liquide contenant glucides et sels minéraux (jus de fruits), sauf si elle présente des vomissements."
+  - id: q6
+    enonce: "Pourquoi un bilan complet est-il nécessaire avant toute verticalisation d'une victime après immersion ?"
+    propositions:
+      - "Elle peut présenter une hypotension aggravée à l'orthostatisme"
+      - "Elle risque de se réchauffer trop vite"
+      - "Elle doit d'abord être pesée"
+    bonnes:
+      - 0
+    explication: "Une hypotension (notamment par déshydratation) peut être aggravée à l'orthostatisme, jusqu'au désamorçage cardiaque."

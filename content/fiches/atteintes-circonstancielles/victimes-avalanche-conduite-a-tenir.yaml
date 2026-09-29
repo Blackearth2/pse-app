@@ -1,0 +1,90 @@
+id: victimes-avalanche-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 33
+titre: Victimes d'avalanche (conduite à tenir)
+motsCles: [avalanche, dégagement de la tête, poche d'air, rachis cervical, hypothermie, arrêt cardiaque]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR16, 11-2021)
+  code: 08PR16
+  page: 320
+liees: []
+blocs:
+  - type: etapes
+    titre: Au moment du dégagement de la tête
+    items:
+      - "Porter une attention toute particulière au dégagement de la tête de la victime pour repérer la présence ou non d'une poche d'air au niveau des voies aériennes supérieures."
+      - "Si cela ne retarde pas le dégagement de la tête, le faire en présence du médecin."
+      - "Noter l'heure de l'ensevelissement et l'heure de dégagement de la tête."
+  - type: etapes
+    titre: Prise en charge de la victime
+    items:
+      - Stabiliser le rachis cervical.
+      - Libérer les voies aériennes supérieures si nécessaire.
+      - Administrer de l'oxygène en complément si nécessaire.
+      - Effectuer le bilan des lésions traumatiques et appliquer la conduite à tenir correspondant aux lésions.
+      - Réchauffer la victime.
+      - Appliquer la conduite à tenir devant une victime en hypothermie.
+      - Rassurer la victime, car il s'agit d'un accident très anxiogène.
+  - type: etapes
+    titre: Si la victime est en arrêt cardiaque
+    items:
+      - Stabiliser le rachis cervical.
+      - Appliquer la conduite à tenir devant une victime en arrêt cardiaque.
+      - Rechercher les lésions traumatiques en parallèle.
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le repérage d'une poche d'air ne doit pas retarder le dégagement de la tête ; il se fait si possible en présence du médecin."
+      - "L'heure de l'ensevelissement et l'heure de dégagement de la tête sont à noter."
+qcm:
+  - id: q1
+    enonce: "Que faut-il repérer avec une attention particulière lors du dégagement de la tête d'une victime d'avalanche ?"
+    propositions:
+      - La présence d'une poche d'air au niveau des voies aériennes supérieures
+      - La couleur des vêtements
+      - La présence d'un DVA
+    bonnes:
+      - 0
+    explication: "On repère la présence ou non d'une poche d'air devant les voies aériennes supérieures."
+  - id: q2
+    enonce: "Quelles heures faut-il noter ?"
+    propositions:
+      - L'heure de l'ensevelissement
+      - L'heure de dégagement de la tête
+      - L'heure du dernier repas de la victime
+    bonnes:
+      - 0
+      - 1
+    explication: "Il faut noter l'heure de l'ensevelissement et l'heure de dégagement de la tête."
+  - id: q3
+    enonce: "Le repérage de la poche d'air peut-il justifier de retarder le dégagement de la tête ?"
+    propositions:
+      - Oui, il faut toujours attendre le médecin
+      - Non, il se fait en présence du médecin seulement si cela ne retarde pas le dégagement de la tête
+    bonnes:
+      - 1
+    explication: "Le repérage se fait en présence du médecin si cela ne retarde pas le dégagement de la tête."
+  - id: q4
+    enonce: "Parmi ces gestes, lesquels font partie de la prise en charge d'une victime d'avalanche ?"
+    propositions:
+      - Stabiliser le rachis cervical
+      - Libérer les voies aériennes supérieures si nécessaire
+      - Réchauffer la victime et appliquer la conduite à tenir en cas d'hypothermie
+      - Ne rien faire tant que la victime ne parle pas
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le rachis cervical est stabilisé, les voies aériennes libérées si besoin, l'oxygène administré si nécessaire, la victime réchauffée avec la conduite à tenir en cas d'hypothermie."
+  - id: q5
+    enonce: "Que fait-on si la victime d'avalanche est en arrêt cardiaque ?"
+    propositions:
+      - Ne pas stabiliser le rachis cervical
+      - Stabiliser le rachis cervical, appliquer la conduite à tenir devant un arrêt cardiaque et rechercher les lésions traumatiques en parallèle
+      - Rechercher les lésions traumatiques avant de débuter la réanimation
+    bonnes:
+      - 1
+    explication: "On stabilise le rachis cervical, on applique la conduite à tenir en cas d'arrêt cardiaque et on recherche les lésions traumatiques en parallèle."

@@ -1,0 +1,127 @@
+id: gelures-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 17
+titre: Gelures (connaissances)
+motsCles: [gelures, froid, vasoconstriction, ischémie, degrés, phlyctènes, extrémités, amputation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC07, 06-2018)
+  code: 08AC07
+  page: 298
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les gelures sont des lésions de la peau et des tissus sous-jacents provoquées par un refroidissement local intense après une exposition prolongée au froid. Elles siègent en général aux extrémités (pieds, mains) et au visage (nez, oreilles, joues, lèvres)."
+  - type: texte
+    titre: Mécanisme
+    contenu: "Quand la température ambiante approche 0 °C, les vaisseaux de la peau se contractent (vasoconstriction), ce qui permet normalement de maintenir la température du corps. Si elle est intense et prolongée, elle diminue le débit sanguin des extrémités et entraîne une lésion par ischémie de la peau et des tissus, à laquelle s'ajoutent des cristaux intra et extracellulaires, des caillots intravasculaires et une réaction inflammatoire au réchauffement."
+  - type: liste
+    titre: Circonstances
+    items:
+      - "Activités en montagne : alpinisme, motoneige, chasse, camping d'hiver."
+      - "Activités récréatives ou d'exploration en extérieur par temps ou en zone froide : randonnées."
+      - "Personnes sans domicile exposées aux basses températures."
+      - "Utilisation intempestive de sachets de froid chez certains athlètes."
+  - type: liste
+    titre: Facteurs favorisants
+    items:
+      - "Personne âgée, personne habitant habituellement dans les pays chauds."
+      - "Maladie, fatigue, prise de médicaments."
+      - "Alimentation insuffisante, déshydratation."
+      - "Alcool, tabac, drogues."
+      - "Humidité."
+      - "Striction des extrémités par les vêtements ou équipements."
+      - "Immobilité et immobilisation."
+  - type: liste
+    titre: Degrés de gravité (aspect final, identifié en milieu hospitalier)
+    items:
+      - "1er degré : zone insensible, rouge, peu œdémateuse, sans cloques (phlyctènes). Après réchauffement, la zone se recolore et la sensibilité revient."
+      - "2e degré : zone localisée, insensible, rouge, œdémateuse, avec cloques remplies de liquide clair. Après réchauffement, la perte de sensibilité persiste et les dernières phalanges restent bleues ou violacées."
+      - "3e degré : zone insensible, bleutée ou noirâtre, remontant le plus souvent au-dessus des dernières phalanges sans atteindre toute la main ou le pied. Après réchauffement : anesthésie persistante et cloques sanglantes (phlyctènes hématiques). Amputation de la zone la plus atteinte le plus souvent."
+      - "4e degré : zone extensive, totalement insensible, bleutée, englobant la main ou l'avant-pied, sans œdème. Après réchauffement, pas de cloques, tissus froids et insensibles, certains nécrosés. Amputation nécessaire."
+      - "Comme pour la brûlure, les degrés peuvent s'associer."
+  - type: liste
+    titre: Signes
+    items:
+      - "1er regard : exposition prolongée au froid."
+      - "2e ou 3e regard : rechercher plus particulièrement une hypothermie ou d'autres détresses vitales associées."
+      - "4e regard, interrogatoire : nature des signes ressentis (piqûres d'aiguilles, douleur, engourdissement des extrémités ou insensibilisation totale), régions atteintes, durée d'exposition au froid."
+      - "Antécédents favorisants : tabagisme, alcool, maladies vasculaires et infectieuses, diabète, médicaments (bêta-bloquants, sédatifs, neuroleptiques)."
+      - "Examen des zones exposées : pâleur cireuse locale, zone glacée, durcissement au toucher ; si gelure évoluée, cloques et œdème."
+      - "Préciser la présence d'autres traumatismes, qui favorisent l'installation de la gelure (immobilisation)."
+  - type: etapes
+    titre: "Principe de l'action de secours"
+    items:
+      - "Soustraire la victime à la cause."
+      - "Éviter toute perte de chaleur supplémentaire."
+      - "Réchauffer et protéger les parties atteintes."
+      - "Demander un avis médical."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Chercher systématiquement une hypothermie ou une autre détresse vitale associée."
+      - "Le degré définitif de la gelure n'est identifié qu'en milieu hospitalier."
+qcm:
+  - id: q1
+    enonce: "Quelles zones sont le plus souvent atteintes par les gelures ?"
+    propositions:
+      - "Les pieds et les mains"
+      - "Le nez, les oreilles, les joues, les lèvres"
+      - "Le thorax et l'abdomen"
+      - "Le dos"
+    bonnes:
+      - 0
+      - 1
+    explication: "Les gelures siègent aux extrémités les plus éloignées du cœur (pieds, mains) et au visage (nez, oreilles, joues, lèvres)."
+  - id: q2
+    enonce: "Quel mécanisme est à l'origine des lésions de gelure ?"
+    propositions:
+      - "Une vasodilatation intense"
+      - "Une vasoconstriction intense et prolongée entraînant une ischémie"
+      - "Une hémorragie locale"
+    bonnes:
+      - 1
+    explication: "La vasoconstriction, si elle est intense et prolongée, diminue le débit sanguin des extrémités et entraîne une lésion par ischémie de la peau et des tissus."
+  - id: q3
+    enonce: "Quel degré de gelure présente des cloques remplies d'un liquide clair, avec persistance de la perte de sensibilité après réchauffement ?"
+    propositions:
+      - "1er degré"
+      - "2e degré"
+      - "3e degré"
+      - "4e degré"
+    bonnes:
+      - 1
+    explication: "Au 2e degré : zone localisée, insensible, rouge, œdémateuse, avec cloques à liquide clair ; les dernières phalanges restent bleues ou violacées. Au 3e degré, les cloques sont sanglantes."
+  - id: q4
+    enonce: "Quel degré de gelure est extensif, sans œdème, sans cloques après réchauffement, avec nécessité d'amputation ?"
+    propositions:
+      - "2e degré"
+      - "3e degré"
+      - "4e degré"
+    bonnes:
+      - 2
+    explication: "Au 4e degré, la zone est extensive, totalement insensible, bleutée, sans œdème ni cloques après réchauffement, et l'amputation est nécessaire."
+  - id: q5
+    enonce: "Quels facteurs favorisent les gelures ?"
+    propositions:
+      - "Humidité"
+      - "Striction des extrémités par les vêtements ou équipements"
+      - "Déshydratation"
+      - "Mouvements fréquents des extrémités"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Humidité, striction des extrémités, déshydratation, immobilité ou immobilisation, alcool, tabac et alimentation insuffisante favorisent les gelures."
+  - id: q6
+    enonce: "Que recherche-t-on aux 2e ou 3e regards face à une victime présentant des gelures ?"
+    propositions:
+      - "Uniquement l'aspect de la peau"
+      - "Des signes d'hypothermie ou d'autres détresses vitales associées"
+      - "Le degré définitif de la gelure"
+    bonnes:
+      - 1
+    explication: "Aux 2e ou 3e regards, on recherche plus particulièrement une hypothermie ou d'autres détresses vitales ; le degré n'est identifié qu'à l'hôpital."

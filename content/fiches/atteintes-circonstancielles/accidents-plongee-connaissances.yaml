@@ -1,0 +1,138 @@
+id: accidents-plongee-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 5
+titre: Accidents liés à la plongée (connaissances)
+motsCles: [plongée, barotraumatisme, surpression pulmonaire, désaturation, accident toxique, apnée, hyperventilation, vingt-quatre heures]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC03, 06-2018)
+  code: 08AC03
+  page: 275
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Est un accident lié à la plongée toute manifestation survenant pendant, immédiatement après ou dans les vingt-quatre heures qui suivent une plongée en apnée ou en scaphandre autonome. Toute manifestation inhabituelle ou anormale dans ce délai doit être considérée comme un accident de plongée."
+  - type: liste
+    titre: Accidents barotraumatiques (surpression, biomécaniques)
+    items:
+      - "Cause : variation des volumes de gaz dans les cavités naturelles (sinus, poumon, intestin), pathologiques (caries, emphysème) ou artificielles (masque de plongée) ; elles se compriment à la descente et se distendent à la remontée. Surviennent à toutes les profondeurs."
+      - "À la descente : principale atteinte de l'oreille moyenne (gaz rétractés, tympan mis en pression : douleur, otite, voire déchirure si le plongeur ne rééquilibre pas par des manœuvres d'équilibration) ; placage de masque, compensé en soufflant de l'air par le nez dans le masque."
+      - "À la remontée : surpression pulmonaire, accident le plus grave (peut entraîner la mort), due à un blocage de l'expiration ou à une expiration insuffisante ; l'air inspiré au fond se dilate dans les alvéoles, les distend puis les déchire : œdème aigu du poumon, emphysème, pneumothorax ou embolies gazeuses. Favorisée par une réaction de panique ou des problèmes de matériel."
+      - "Conséquences : passage d'air dans la plèvre (pneumothorax), entre les deux poumons (pneumomédiastin), sous la peau, particulièrement à la base du cou (emphysème sous-cutané) ; passage possible dans les vaisseaux pulmonaires puis la circulation générale : bulles de gaz pouvant atteindre le cerveau (manifestations neurologiques)."
+  - type: liste
+    titre: Accidents de désaturation (décompression, biophysiques)
+    items:
+      - "En scaphandre autonome, les gaz inspirés (principalement l'azote) se dissolvent dans le sang et les tissus, d'autant plus que la plongée est longue et profonde. À la remontée, les tissus libèrent normalement l'azote en microbulles éliminées par les poumons."
+      - "Des bulles peuvent se bloquer dans les capillaires, en particulier sous la peau, dans les articulations, la moelle épinière, le cerveau ou la circulation pulmonaire."
+      - "Favorisés par : remontées rapides, surpoids, fatigue, stress, déshydratation, voyage en avion trop proche de la dernière plongée. Dans 1/3 des cas, aucune raison n'est retrouvée."
+      - "Conséquences : interruption de la circulation aggravée par la formation de caillots ; mineures (fourmillements cutanés, douleurs) ou majeures (paralysie, arrêt cardiaque)."
+  - type: liste
+    titre: Accidents toxiques (biochimiques)
+    items:
+      - "Avec la profondeur, la pression des gaz augmente et la quantité de gaz dissous dans les tissus aussi : narcose des profondeurs à l'azote, toxicité de l'oxygène."
+      - "Des gaz polluants peuvent contaminer l'air des bouteilles au remplissage, surtout si le local du compresseur n'est pas conforme : gaz carbonique, monoxyde de carbone, vapeurs d'huile."
+      - "Conséquences principales : perturbations de l'état de conscience pouvant entraîner une noyade ou un accident de décompression par remontée rapide."
+  - type: liste
+    titre: Accidents de plongée en apnée après hyperventilation
+    items:
+      - "L'hyperventilation préalable rend insensible à la baisse d'oxygène dans le sang : troubles du jugement voire perte de connaissance, responsables de noyades."
+  - type: liste
+    titre: Autres accidents
+    items:
+      - "Pathologies cardiaques sur terrain prédisposé, traumatismes, hypothermies, envenimations, réactions toxiques ou allergiques, compliqués par l'hostilité du milieu ; peuvent causer noyade ou accident de décompression par remontée rapide."
+  - type: liste
+    titre: Signes
+    items:
+      - "1er regard : victime ayant réalisé une plongée dans les vingt-quatre heures précédant l'apparition des signes."
+      - "2e ou 3e regard : perte de connaissance, arrêt cardiaque, atteinte neurologique (hémiplégie ou paraplégie), convulsions, détresse respiratoire (cyanose, toux et crachats de sang, ou gêne objectivée par accélération des fréquences respiratoire et cardiaque et baisse de la saturation artérielle en oxygène), détresse circulatoire."
+      - "Victime consciente, plaintes possibles : maux de tête, vertiges et étourdissements, fourmillements et engourdissement des membres, douleurs de la poitrine ou du dos, douleurs des articulations, picotements sous la peau, crampes."
+      - "À l'examen : troubles de la parole, de la vision ou de l'audition ; troubles psychiques (raisonnement, attention, mémoire, humeur) ; signes cutanés ou musculo-squelettiques, comme de l'air perçu sous la peau à la palpation, particulièrement à la base du cou."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Limiter l'évolution et l'extension des lésions : administration d'oxygène, lutte contre la détresse vitale, contre le refroidissement et la déshydratation."
+      - "Recueillir toutes les informations nécessaires, particulièrement celles liées à la plongée."
+      - "Faciliter l'évacuation de la victime vers un service spécialisé dans les accidents de plongée."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le délai de vingt-quatre heures après la plongée est le critère qui fait considérer toute manifestation anormale comme un accident de plongée."
+      - "La surpression pulmonaire à la remontée est l'accident le plus grave et peut entraîner la mort."
+qcm:
+  - id: q1
+    enonce: "Dans quel délai après une plongée toute manifestation inhabituelle doit-elle être considérée comme un accident de plongée ?"
+    propositions:
+      - "Dans l'heure"
+      - "Dans les six heures"
+      - "Dans les vingt-quatre heures"
+      - "Dans les quarante-huit heures"
+    bonnes:
+      - 2
+    explication: "Toute manifestation pendant, immédiatement après ou dans les vingt-quatre heures qui suivent une plongée en apnée ou en scaphandre autonome."
+  - id: q2
+    enonce: "Quel est l'accident barotraumatique le plus grave, survenant à la remontée ?"
+    propositions:
+      - "Le placage de masque"
+      - "L'atteinte de l'oreille moyenne"
+      - "La surpression pulmonaire"
+      - "La narcose"
+    bonnes:
+      - 2
+    explication: "La surpression pulmonaire, due à un blocage ou une insuffisance d'expiration, peut entraîner la mort du plongeur."
+  - id: q3
+    enonce: "Quels facteurs favorisent un accident de désaturation ?"
+    propositions:
+      - "Remontées rapides"
+      - "Surpoids, fatigue, stress, déshydratation"
+      - "Voyage en avion trop proche de la dernière plongée"
+      - "Plongée en eau chaude uniquement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Remontées rapides, surpoids, fatigue, stress, déshydratation et avion trop proche de la dernière plongée. Dans 1/3 des cas, aucune raison n'est retrouvée."
+  - id: q4
+    enonce: "Quel gaz est principalement responsable des bulles dans un accident de désaturation ?"
+    propositions:
+      - "L'oxygène"
+      - "L'azote"
+      - "Le monoxyde de carbone"
+    bonnes:
+      - 1
+    explication: "Les gaz inspirés, principalement l'azote, se dissolvent dans le sang et les tissus et forment des bulles si la remontée est trop rapide."
+  - id: q5
+    enonce: "Quels gaz polluants peuvent contaminer l'air des bouteilles au remplissage ?"
+    propositions:
+      - "Gaz carbonique"
+      - "Monoxyde de carbone"
+      - "Vapeurs d'huile"
+      - "Hélium"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Gaz carbonique, monoxyde de carbone et vapeurs d'huile, surtout si le local du compresseur n'est pas conforme."
+  - id: q6
+    enonce: "Quelle est la conséquence de l'hyperventilation avant une plongée en apnée ?"
+    propositions:
+      - "Une meilleure oxygénation sans risque"
+      - "Une insensibilité à la baisse d'oxygène, pouvant causer perte de connaissance et noyade"
+      - "Une narcose à l'azote"
+    bonnes:
+      - 1
+    explication: "L'hyperventilation rend insensible à la baisse d'oxygène dans le sang, avec troubles du jugement voire perte de connaissance, responsables de noyades."
+  - id: q7
+    enonce: "Quels éléments font partie du principe de l'action de secours dans un accident de plongée ?"
+    propositions:
+      - "Administrer de l'oxygène et lutter contre le refroidissement et la déshydratation"
+      - "Recueillir les informations liées à la plongée"
+      - "Faciliter l'évacuation vers un service spécialisé dans les accidents de plongée"
+      - "Faire réaliser une nouvelle plongée pour recomprimer la victime"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Limiter les lésions (oxygène, détresse vitale, froid, déshydratation), recueillir les informations et évacuer vers un service spécialisé."

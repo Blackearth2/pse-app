@@ -1,0 +1,140 @@
+id: accouchement-inopine-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 8
+titre: Accouchement inopiné (conduite à tenir)
+motsCles: [accouchement inopiné, parturiente, poussée, circulaire du cordon, délivrance, placenta, avis médical]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR04, 07-2026)
+  code: 08PR04
+  page: 281
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La conduite à tenir dépend de la situation : l'accouchement n'a pas encore eu lieu (transport possible ou non, après avis médical) ou il est déjà réalisé. Dans tous les cas, un avis médical est demandé en transmettant le bilan."
+  - type: etapes
+    titre: L'accouchement n'a pas encore eu lieu
+    items:
+      - "Installer la femme enceinte sur le côté (de préférence le côté gauche ; l'installation sur le dos est à proscrire)."
+      - "Réaliser un bilan et, au cours du 4e regard, recueillir (en questionnant la femme ou son entourage, ou en consultant le carnet de maternité) : date et lieu prévus de l'accouchement ; contractions (heure de début des douleurs régulières, durée, intervalle entre deux) ; perte des eaux (heure, couleur du liquide : transparent, trouble, sanglant) ; perte de sang ; mouvements du bébé ; suivi ou non de la grossesse ; problèmes liés à la grossesse (malformation fœtale, diabète, hypertension, œdèmes, etc.) ; grossesse simple ou multiple et son déroulement ; type d'accouchement prévu (voie basse ou césarienne) et nature de la présentation (tête, siège, épaule) ; nombre d'accouchements déjà réalisés et leur déroulement."
+      - "Demander un avis médical en transmettant le bilan."
+  - type: etapes
+    titre: Si le transport peut être réalisé
+    items:
+      - "Relever et installer la victime sur un brancard, allongée sur le côté et ceinturée."
+      - "Transporter la victime en milieu hospitalier."
+      - "Surveiller la victime durant le transport."
+  - type: etapes
+    titre: "Si le transport ne peut pas être réalisé (après avis médical) : accouchement sur place"
+    items:
+      - "Se protéger contre le risque de projection de liquides (gants, masque, lunettes de protection)."
+      - "Préparer le matériel : serviettes de bain propres et sèches ; récipient pour recueillir les liquides corporels et le placenta ; matériel de réanimation éventuelle du nouveau-né (bouteille d'oxygène, insufflateur manuel pédiatrique, aspirateur de mucosités avec sonde adaptée au nouveau-né, oxymètre de pouls)."
+      - "Installer la parturiente dans la position qui lui convient le mieux (demi-assise, sur le côté, bord du lit, etc.). En position demi-assise, il est préférable que ses fesses dépassent légèrement le bord du lit ou du brancard, cuisses fléchies, le bassin étant partiellement dans le vide."
+      - "Lui demander de pousser à partir du moment où le haut du crâne du nouveau-né commence à apparaître à la vulve, et lorsqu'elle ressent un besoin irrépressible de pousser : pousser vers le bas en retenant sa respiration dès la contraction et, si possible, jusqu'au maximum de la contraction. En position demi-assise, attraper ses cuisses avec les mains et les hyper-fléchir sur l'abdomen pendant la poussée. Faire reposer les jambes à la fin de la contraction."
+      - "Recommencer la même manœuvre jusqu'à l'apparition de la moitié de la tête du nouveau-né."
+      - "Dès que la moitié de la tête est apparue, cesser de faire pousser la parturiente, laisser l'expulsion se terminer naturellement en ralentissant la sortie de la tête, maintenue d'une main, pour éviter les déchirures du périnée."
+      - "Accompagner la sortie spontanée du nouveau-né : lâcher la tête pour ne pas s'opposer à sa rotation ; une fois la tête totalement sortie, si elle ne tourne pas, demander à la parturiente d'arrêter de pousser et vérifier s'il y a un circulaire du cordon autour du cou ; en cas de circulaire, procéder à son dégagement ; maintenir la tête le temps du dégagement des épaules (l'une après l'autre : antérieure, puis postérieure) ; soutenir le corps avec les mains placées sous lui pendant sa sortie."
+      - "Noter l'heure de naissance."
+      - "Assurer la prise en charge du nouveau-né."
+      - "Surveiller la mère jusqu'à la délivrance."
+  - type: etapes
+    titre: L'accouchement est déjà réalisé
+    items:
+      - "Réaliser simultanément un bilan complet de la mère et du nouveau-né."
+      - "Demander l'heure de la naissance."
+      - "Demander un avis médical en transmettant les deux bilans et appliquer les consignes reçues."
+      - "Prendre en charge le nouveau-né."
+      - "En l'absence d'équipe médicale, surveiller la mère et l'assister pendant la délivrance."
+  - type: etapes
+    titre: La délivrance (en l'absence d'équipe médicale)
+    items:
+      - "Laisser sortir le placenta sans tirer dessus, ni sur le cordon ombilical, en faisant pousser."
+      - "Recueillir le placenta dans une cuvette ou un sac plastique une fois expulsé."
+      - "L'acheminer avec la mère à l'hôpital pour vérifier son intégrité."
+      - "Réaliser un massage utérin pour prévenir les hémorragies après la naissance."
+      - "Placer un pansement absorbant."
+      - "Surveiller la mère et s'assurer de l'absence d'hémorragie extériorisée."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "30 minutes"
+        libelle: "Si le placenta ne sort pas 30 minutes après la naissance : réaliser un massage utérin pour prévenir une hémorragie"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne jamais tirer sur l'enfant : le nouveau-né, recouvert de liquide amniotique et de sang, est glissant et doit être maintenu fermement."
+      - "Ne pas tirer sur le placenta ni sur le cordon ombilical pendant la délivrance."
+      - "Installation sur le dos proscrite, de préférence sur le côté gauche pour la femme enceinte avant l'accouchement."
+      - "Une hémorragie secondaire peut survenir après la délivrance : appliquer alors la conduite à tenir adaptée."
+qcm:
+  - id: q1
+    enonce: "Dans quelle position installe-t-on de préférence la femme enceinte avant l'accouchement pour le bilan et le transport ?"
+    propositions:
+      - "Sur le dos"
+      - "Sur le côté, de préférence gauche"
+      - "Assise, jambes tendues"
+    bonnes:
+      - 1
+    explication: "La femme enceinte est installée sur le côté, de préférence gauche ; l'installation sur le dos est à proscrire."
+  - id: q2
+    enonce: "À quel moment demande-t-on à la parturiente de pousser ?"
+    propositions:
+      - "Dès que le haut du crâne du nouveau-né apparaît à la vulve"
+      - "Lorsqu'elle ressent un besoin irrépressible de pousser"
+      - "Dès la première contraction"
+      - "En permanence, sans relâcher entre les contractions"
+    bonnes:
+      - 0
+      - 1
+    explication: "On demande de pousser à partir du moment où le haut du crâne apparaît à la vulve et lorsque la parturiente ressent un besoin irrépressible ; les jambes reposent à la fin de la contraction."
+  - id: q3
+    enonce: "Que fait-on dès que la moitié de la tête du nouveau-né est apparue ?"
+    propositions:
+      - "On continue à faire pousser fortement la parturiente"
+      - "On tire doucement sur la tête pour aider"
+      - "On cesse de la faire pousser et on ralentit la sortie de la tête en la maintenant d'une main"
+    bonnes:
+      - 2
+    explication: "On laisse l'expulsion se terminer naturellement en ralentissant la sortie de la tête, maintenue d'une main, pour éviter les déchirures du périnée. On ne tire jamais sur l'enfant."
+  - id: q4
+    enonce: "La tête est totalement sortie mais ne tourne pas. Quelle est la conduite à tenir ?"
+    propositions:
+      - "Demander à la parturiente d'arrêter de pousser et vérifier s'il y a un circulaire du cordon autour du cou"
+      - "Tirer sur les épaules pour accélérer la sortie"
+      - "Clamper immédiatement le cordon sans le regarder"
+    bonnes:
+      - 0
+    explication: "Si la tête ne tourne pas, on demande d'arrêter de pousser et on vérifie la présence d'un circulaire du cordon ; le cas échéant, on procède à son dégagement."
+  - id: q5
+    enonce: "Parmi les éléments à recueillir au cours du 4e regard avant l'accouchement, lesquels figurent dans la fiche ?"
+    propositions:
+      - "L'heure de début, la durée et l'intervalle des contractions"
+      - "L'heure de la perte des eaux et la couleur du liquide"
+      - "Le nombre d'accouchements déjà réalisés"
+      - "La profession de la parturiente"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le bilan recueille notamment les contractions, la perte des eaux (heure, couleur), la perte de sang, le suivi de la grossesse, la présentation prévue et le nombre d'accouchements antérieurs."
+  - id: q6
+    enonce: "En l'absence d'équipe médicale, que fait-on lors de la délivrance ?"
+    propositions:
+      - "On tire sur le cordon pour faire sortir le placenta"
+      - "On laisse sortir le placenta sans tirer, on le recueille et on l'achemine avec la mère à l'hôpital"
+      - "On jette le placenta dans un sac poubelle"
+    bonnes:
+      - 1
+    explication: "On laisse sortir le placenta sans tirer sur lui ni sur le cordon, on le recueille dans une cuvette ou un sac plastique et on l'achemine avec la mère pour vérifier son intégrité."
+  - id: q7
+    enonce: "Au bout de combien de temps, si le placenta ne sort pas, réalise-t-on un massage utérin ?"
+    propositions:
+      - "10 minutes après la naissance"
+      - "30 minutes après la naissance"
+      - "2 heures après la naissance"
+    bonnes:
+      - 1
+    explication: "Si le placenta ne sort pas au bout de 30 minutes après la naissance, on réalise un massage utérin pour prévenir une hémorragie."

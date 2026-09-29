@@ -1,0 +1,119 @@
+id: piqures-morsures-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 22
+titre: Piqûres et morsures (connaissances)
+motsCles: [piqûre, morsure, venin, insectes, serpents, animaux marins, rage, tétanos, allergie grave]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC09, 09-2019)
+  code: 08AC09
+  page: 305
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le terme de piqûre est réservé aux atteintes provoquées par certains insectes ou par certains animaux marins. Le terme de morsure est réservé aux plaies provoquées par des dents ou des crochets : il concerne l'Homme, les animaux domestiques ou sauvages et les serpents."
+  - type: liste
+    titre: Causes
+    items:
+      - "Insectes : hyménoptères (guêpes, frelons, abeilles), fourmis, etc."
+      - "Animaux marins : méduses, vives, rascasses, etc."
+      - "Mammifères : Homme, animaux domestiques ou sauvages."
+      - "Serpents, arachnides (scorpions, araignées, etc.)."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Hémorragie externe."
+      - "Plaie avec risque infectieux, notamment pour les morsures : très grave (tétanos) voire mortelle (rage)."
+      - "Inoculation de substances toxiques (« venin ») : manifestations locales désagréables (gonflement, rougeur, douleur...) ou détresses vitales (venin de serpents exotiques, réaction allergique grave)."
+      - "Risques fonctionnels et esthétiques."
+  - type: liste
+    titre: Points de connaissance
+    items:
+      - "En France métropolitaine, les serpents sont habituellement peu dangereux, sauf espèces exotiques importées ou espèces vivant naturellement dans les territoires ultra-marins."
+      - "Les morsures d'origine humaine présentent un risque infectieux important et sont systématiquement considérées comme des plaies graves."
+      - "Une victime mordue par un animal susceptible d'être infecté par la rage (région endémique, animal malade, animal non capturé) doit obligatoirement suivre un traitement médical particulier ; une consultation médicale est indispensable."
+      - "L'animal doit légalement être mis en observation chez un vétérinaire et présenté, soit par ses propriétaires, soit par les forces de police s'il s'agit d'un animal errant."
+      - "Depuis 2007, la déclaration en mairie de toute morsure de chien, quelle que soit la race, est obligatoire."
+  - type: liste
+    titre: Signes au bilan
+    items:
+      - "La victime dit avoir été mordue ou piquée."
+      - "Hémorragie externe."
+      - "Détresse respiratoire si la piqûre siège dans la bouche ou la gorge : le gonflement peut entraîner une obstruction des voies aériennes."
+      - "Détresse circulatoire par action d'un venin (action directe ou réaction allergique grave), plus particulièrement chez l'enfant."
+      - "Détresse neurologique par effet toxique de certains venins de serpents, d'araignées ou de scorpions."
+  - type: liste
+    titre: Constatations lors du 4e regard (examen)
+    items:
+      - "Une ou plusieurs plaies : lacérations (morsures), coupures ou piqûre (insecte). La morsure de certains serpents se reconnaît à une ou deux plaies punctiformes distantes de quelques millimètres."
+      - "Gonflement, rougeur et douleur locale, plus ou moins étendus autour de la piqûre."
+      - "Une ou plusieurs « traces rouges » très douloureuses, plus ou moins larges, avec gonflement périphérique en cas de contact avec des filaments de méduse."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Soustraire la victime à la cause."
+      - "Arrêter le saignement et limiter le risque d'infection."
+      - "Limiter la diffusion du venin, si possible."
+      - "Obtenir un avis médical."
+qcm:
+  - id: q1
+    enonce: "Quelle atteinte est désignée par le terme « morsure » ?"
+    propositions:
+      - Une atteinte provoquée par certains insectes
+      - Une plaie provoquée par des dents ou des crochets
+      - Une atteinte provoquée par certains animaux marins
+    bonnes:
+      - 1
+    explication: "Le terme de morsure est réservé aux plaies provoquées par des dents ou des crochets ; celui de piqûre aux atteintes par insectes ou animaux marins."
+  - id: q2
+    enonce: "Quels risques peuvent entraîner les piqûres et morsures d'animaux ?"
+    propositions:
+      - Une hémorragie externe
+      - Une plaie avec risque infectieux (tétanos, rage)
+      - Une inoculation de venin
+      - Un risque de brûlure chimique
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Hémorragie externe, plaie avec risque infectieux (tétanos, rage), inoculation de venin et risques fonctionnels et esthétiques sont cités."
+  - id: q3
+    enonce: "Comment sont considérées les morsures d'origine humaine ?"
+    propositions:
+      - Comme des plaies bénignes
+      - Comme des plaies graves, à risque infectieux important
+      - Comme des piqûres
+    bonnes:
+      - 1
+    explication: "Les morsures humaines ont un risque infectieux important et sont systématiquement considérées comme des plaies graves."
+  - id: q4
+    enonce: "Pourquoi une piqûre dans la bouche ou la gorge est-elle dangereuse ?"
+    propositions:
+      - Le gonflement peut entraîner une obstruction des voies aériennes
+      - Elle provoque toujours une hémorragie abondante
+      - Elle provoque une hypothermie
+    bonnes:
+      - 0
+    explication: "Le gonflement provoqué peut entraîner une obstruction des voies aériennes, donc une détresse respiratoire."
+  - id: q5
+    enonce: "Que doit-on faire d'un animal susceptible d'être infecté par la rage ayant mordu une victime ?"
+    propositions:
+      - L'animal doit légalement être mis en observation chez un vétérinaire
+      - L'animal doit être relâché immédiatement
+      - Aucune démarche n'est nécessaire
+    bonnes:
+      - 0
+    explication: "L'animal doit légalement être mis en observation chez un vétérinaire, présenté par ses propriétaires ou par les forces de police s'il est errant."
+  - id: q6
+    enonce: "Depuis quand la déclaration en mairie de toute morsure de chien est-elle obligatoire ?"
+    propositions:
+      - Depuis 1990
+      - Depuis 2007
+      - Depuis 2020
+      - Elle n'est pas obligatoire
+    bonnes:
+      - 1
+    explication: "Depuis 2007, la déclaration en mairie de toute morsure de chien, quelle que soit la race, est obligatoire."

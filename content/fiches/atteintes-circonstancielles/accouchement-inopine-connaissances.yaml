@@ -1,0 +1,117 @@
+id: accouchement-inopine-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 7
+titre: Accouchement inopiné (connaissances)
+motsCles: [accouchement inopiné, parturiente, travail, expulsion, délivrance, poche des eaux, accouchement imminent]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC04, 12-2023)
+  code: 08AC04
+  page: 279
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'accouchement inopiné est l'acte de mettre au monde un nouveau-né hors d'une maternité, avant l'arrivée des secours ou en leur présence. Une femme enceinte dont le travail a commencé est appelée parturiente."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "37 à 41 semaines révolues"
+        libelle: "d'aménorrhée : accouchement normal (9e mois de grossesse)"
+      - valeur: "< 37 semaines"
+        libelle: "d'aménorrhée : accouchement prématuré"
+      - valeur: "20 à 30 minutes"
+        libelle: "après la sortie du nouveau-né : délivrance (sortie du placenta et du reste du cordon), en général"
+  - type: etapes
+    titre: Les 3 étapes de l'accouchement
+    items:
+      - "Le travail : l'utérus se contracte de plus en plus régulièrement et fort, la partie basse de l'utérus s'ouvre. Cela se traduit par la sortie de glaires sanguinolentes (bouchon muqueux) puis d'un liquide normalement clair (rupture de la poche des eaux, qui peut aussi survenir avant le début du travail). Durée de plusieurs minutes à plusieurs heures, habituellement plus courte chez une femme ayant déjà accouché."
+      - "L'expulsion : le col de l'utérus s'ouvre sous l'effet des contractions, le fœtus descend vers le vagin, en général la tête la première, puis le nouveau-né sort progressivement. Il reste relié à la mère par le cordon ombilical et peut être pris en charge. L'expulsion peut durer plusieurs minutes."
+      - "La délivrance : sortie hors de l'utérus du placenta et du reste du cordon ombilical, en général 20 à 30 minutes après la sortie du nouveau-né."
+  - type: liste
+    titre: Signes
+    items:
+      - "Contractions régulières en fréquence et en intensité : signe d'un début de travail. En général douloureuses, perceptibles en posant doucement la main sur le ventre, qui devient très dur puis se relâche. Peu intenses et espacées au début, elles deviennent de plus en plus fréquentes, rapprochées et douloureuses."
+      - "Rupture de la poche des eaux (liquide normalement clair), secondaire ou survenant avant le début du travail sans contraction."
+      - "Signes d'accouchement imminent (début de l'expulsion) : rupture de la poche des eaux et envie irrépressible de pousser, ou tête du nouveau-né visible à la vulve."
+      - "Après l'expulsion : nouvelles contractions, envie de pousser et petite perte de sang, traduisant l'expulsion du placenta et de ses annexes (délivrance)."
+  - type: liste
+    titre: Causes et risques
+    items:
+      - "Causes multiples : antécédents d'accouchement rapide ou inopiné, grossesse mal ou non suivie, multiparité."
+      - "L'accouchement se déroule normalement sans complication, mais peut parfois entraîner des complications mettant en jeu la vie du fœtus ou de la mère."
+      - "Présentation normale : tête en avant (céphalique). Les présentations par le siège ou l'épaule sont sources de complications parfois très graves : ralentissement de l'accouchement, impossibilité d'accoucher, procidence du cordon ombilical."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Réaliser un bilan, complété par des éléments spécifiques de l'accouchement, pour permettre au médecin d'évaluer l'imminence de l'accouchement et ses risques."
+      - "Assister la future maman pendant l'accouchement lorsqu'il n'est plus possible de la transporter à l'hôpital."
+      - "Assurer une prise en charge et une surveillance attentive de la mère."
+      - "Prendre en charge le nouveau-né à la naissance."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "La rupture de la poche des eaux et l'envie irrépressible de pousser traduisent généralement un accouchement imminent."
+      - "Une présentation par le siège ou l'épaule expose à des complications parfois très graves, dont la procidence du cordon ombilical."
+qcm:
+  - id: q1
+    enonce: "À partir de quel terme parle-t-on d'accouchement prématuré ?"
+    propositions:
+      - "Avant 37 semaines d'aménorrhée"
+      - "Avant 41 semaines d'aménorrhée"
+      - "Avant 39 semaines d'aménorrhée"
+    bonnes:
+      - 0
+    explication: "L'accouchement normal survient entre 37 et 41 semaines révolues d'aménorrhée ; avant 37 semaines, on parle d'accouchement prématuré."
+  - id: q2
+    enonce: "Comment appelle-t-on une femme enceinte lorsque le travail a commencé ?"
+    propositions:
+      - "Une primipare"
+      - "Une parturiente"
+      - "Une multipare"
+      - "Une gestante"
+    bonnes:
+      - 1
+    explication: "On appelle parturiente une femme enceinte lorsque le travail a commencé."
+  - id: q3
+    enonce: "Quelles sont, dans l'ordre, les trois étapes de l'accouchement ?"
+    propositions:
+      - "Expulsion, travail, délivrance"
+      - "Travail, délivrance, expulsion"
+      - "Travail, expulsion, délivrance"
+    bonnes:
+      - 2
+    explication: "L'accouchement se déroule en trois étapes : le travail, l'expulsion, puis la délivrance (sortie du placenta et du reste du cordon)."
+  - id: q4
+    enonce: "Quels signes traduisent généralement un accouchement imminent ?"
+    propositions:
+      - "La rupture de la poche des eaux"
+      - "L'envie irrépressible de pousser"
+      - "La tête du nouveau-né visible à la vulve"
+      - "Une contraction isolée et peu douloureuse"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La rupture de la poche des eaux, l'envie irrépressible de pousser et l'apparition de la tête à la vulve traduisent un accouchement imminent et le début de l'expulsion."
+  - id: q5
+    enonce: "Quand survient en général la délivrance ?"
+    propositions:
+      - "Immédiatement avant la sortie du nouveau-né"
+      - "Vingt à trente minutes après la sortie du nouveau-né"
+      - "Plusieurs heures après la naissance"
+    bonnes:
+      - 1
+    explication: "La délivrance (sortie du placenta et du reste du cordon) survient généralement vingt à trente minutes après la sortie du nouveau-né."
+  - id: q6
+    enonce: "Quelles présentations du nouveau-né sont sources de complications parfois très graves ?"
+    propositions:
+      - "La présentation par le siège"
+      - "La présentation par l'épaule"
+      - "La présentation céphalique (tête en avant)"
+    bonnes:
+      - 0
+      - 1
+    explication: "La présentation normale est céphalique. Les présentations par le siège ou l'épaule peuvent entraîner ralentissement, impossibilité d'accoucher ou procidence du cordon."

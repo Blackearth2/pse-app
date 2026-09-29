@@ -1,0 +1,118 @@
+id: intoxications-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 19
+titre: Intoxications (connaissances)
+motsCles: [intoxication, poison, toxique, ingestion, inhalation, injection, absorption, environnement toxique]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC08, 09-2019)
+  code: 08AC08
+  page: 301
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'intoxication est un trouble engendré par la pénétration dans l'organisme d'une substance appelée poison ou toxique. Sa gravité, pouvant parfois conduire à la mort, varie selon la nature du toxique et la quantité qui a pénétré dans l'organisme ; les troubles peuvent être immédiats ou retardés."
+  - type: liste
+    titre: Causes possibles
+    items:
+      - "Aliments contaminés, plantes vénéneuses."
+      - "Toxiques domestiques : lessives, détergents, décapants, désherbants..."
+      - "Toxiques industriels : gaz toxiques, produits chimiques..."
+      - "Actes malveillants (terrorisme, etc.)."
+      - "Drogues, médicaments et alcool."
+  - type: liste
+    titre: Les 4 voies de pénétration du poison
+    items:
+      - "Ingestion : le poison est avalé et absorbé par le tube digestif (aliments contaminés, médicaments, produits domestiques)."
+      - "Inhalation : il pénètre par les voies respiratoires et est absorbé par les poumons (gaz toxiques, aérosols)."
+      - "Injection : il pénètre à l'occasion d'une plaie (venins, piqûres)."
+      - "Absorption : il pénètre à travers la peau saine (produits industriels : désherbants, pesticides)."
+  - type: texte
+    titre: Environnement toxique
+    contenu: "L'intoxication peut aussi être causée par un environnement toxique : le toxique est dans l'air, sous forme de gaz ou de fines particules en suspension (monoxyde de carbone, gaz carbonique, fumées d'incendie, gaz irritants, toxiques de guerre). Le mode de pénétration privilégié est alors l'inhalation, secondairement l'absorption. La sécurité des intervenants est une priorité : ils peuvent sans le savoir entrer en contact avec le toxique, d'autant que certains gaz mortels sont totalement inodores et invisibles, comme le monoxyde de carbone."
+  - type: liste
+    titre: Signes en environnement toxique (le 1er regard est essentiel)
+    items:
+      - "Voir, dans certains cas, un nuage toxique."
+      - "Sentir une odeur forte, caractéristique, désagréable ou irritante."
+      - "Constater que plusieurs personnes présentent les mêmes signes ou les mêmes plaintes."
+      - "Repérer des animaux malades, agonisants ou morts."
+  - type: liste
+    titre: Hors environnement toxique
+    items:
+      - "L'intoxication est principalement due à une ingestion volontaire ou accidentelle (erreur de dosage, aliments toxiques ou avariés)."
+      - "Le 1er regard permet de relever : comprimés ou boîtes de médicaments vides (table, poubelle) ; flacons « suspects » au contenu non identifié ou portant des pictogrammes de danger ; bouteilles d'alcool ; « lettre d'adieu » ; plantes vénéneuses ou fruits toxiques (enfants : « intoxication de la dînette »)."
+      - "L'interrogatoire de la victime et de son entourage détermine : les circonstances de survenue, la nature du ou des toxiques en cause, la dose supposée absorbée et l'heure de l'ingestion."
+      - "L'examen peut retrouver des signes évoquant une consommation de drogues : timbres médicamenteux autocollants (patchs) sur la peau, quelle que soit leur localisation (creux axillaire, périnée, scrotum, etc.) ; traces de piqûres, de scarification ou cicatrices."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Identifier autant que possible le toxique."
+      - "Assurer la sécurité de tous."
+      - "Demander des renforts si l'environnement est toxique."
+      - "Lutter contre une détresse vitale."
+      - "Demander un avis médical et suivre les instructions."
+qcm:
+  - id: q1
+    enonce: "Quelles sont les quatre voies de pénétration d'un poison dans l'organisme ?"
+    propositions:
+      - Ingestion, inhalation, injection, absorption
+      - Ingestion, inhalation, fixation, dilution
+      - Injection, absorption, diffusion, évaporation
+    bonnes:
+      - 0
+    explication: "Le poison pénètre par ingestion, inhalation, injection (plaie, piqûre) ou absorption (à travers la peau saine)."
+  - id: q2
+    enonce: "Quel est le mode de pénétration privilégié du toxique dans un environnement toxique ?"
+    propositions:
+      - L'injection
+      - L'inhalation
+      - L'ingestion
+      - L'absorption cutanée exclusivement
+    bonnes:
+      - 1
+    explication: "En environnement toxique, le toxique est dans l'air : le mode de pénétration privilégié est l'inhalation, secondairement l'absorption."
+  - id: q3
+    enonce: "Parmi ces éléments, lesquels peuvent faire évoquer un environnement toxique lors du 1er regard ?"
+    propositions:
+      - Une odeur forte, désagréable ou irritante
+      - Plusieurs personnes présentant les mêmes plaintes
+      - Des animaux malades, agonisants ou morts
+      - Une température ambiante élevée
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Nuage toxique visible, odeur caractéristique, plusieurs personnes avec les mêmes signes et animaux malades ou morts sont cités. La température ambiante ne l'est pas."
+  - id: q4
+    enonce: "Que doit permettre de déterminer l'interrogatoire de la victime et de son entourage en cas d'intoxication ?"
+    propositions:
+      - Les circonstances de survenue et la nature du ou des toxiques
+      - La dose supposée absorbée et l'heure de l'ingestion
+      - Le groupe sanguin de la victime
+    bonnes:
+      - 0
+      - 1
+    explication: "L'interrogatoire détermine les circonstances de survenue, la nature du ou des toxiques, la dose supposée absorbée et l'heure de l'ingestion."
+  - id: q5
+    enonce: "Pourquoi la sécurité des intervenants est-elle une priorité en environnement toxique ?"
+    propositions:
+      - Parce que les intervenants peuvent entrer en contact avec le toxique sans le savoir
+      - Parce que tous les toxiques sont visibles et odorants
+      - Parce que le monoxyde de carbone est facilement repérable à l'odeur
+    bonnes:
+      - 0
+    explication: "Certains gaz mortels, comme le monoxyde de carbone, sont totalement inodores et invisibles : les intervenants peuvent être exposés sans le savoir."
+  - id: q6
+    enonce: "Quels éléments évoquent une consommation de drogues à l'examen de la victime ?"
+    propositions:
+      - Des timbres médicamenteux autocollants (patchs), quelle que soit leur localisation
+      - Des traces de piqûres, de scarification ou des cicatrices sur la peau
+      - Une rougeur du visage isolée
+    bonnes:
+      - 0
+      - 1
+    explication: "La présence de patchs et de traces de piqûres, de scarification ou de cicatrices peut faire évoquer une consommation de drogues."

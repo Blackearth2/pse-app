@@ -1,0 +1,112 @@
+id: accidents-plongee-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 6
+titre: Accidents liés à la plongée (conduite à tenir)
+motsCles: [plongée, oxygène 15 l/min, masque à haute concentration, eau plate, paramètres de la plongée, fiche d'évacuation, aspirine]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR03, 06-2018)
+  code: 08PR03
+  page: 278
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Sortir la victime de l'eau et la déséquiper, traiter d'abord toute détresse vitale, puis en l'absence de détresse : repos, protection contre le froid, oxygène à 15 l/min au masque à haute concentration quelle que soit la saturation, hydratation, recueil des paramètres de la plongée, transmission du bilan et surveillance."
+  - type: etapes
+    titre: Au préalable
+    items:
+      - "Sortir le plus rapidement possible de l'eau."
+      - "Déséquiper la victime."
+  - type: liste
+    titre: Face à une urgence ou une détresse vitale, ou en cas d'aggravation
+    items:
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent."
+  - type: etapes
+    titre: En l'absence de détresse vitale
+    items:
+      - "Mettre la victime au repos et l'installer en position adaptée, ou demi-assise si elle préfère."
+      - "Déshabiller et sécher la victime, la protéger du froid."
+      - "Administrer de l'oxygène en inhalation à l'aide d'un masque à haute concentration à un débit de 15 l/min, quelle que soit la saturation en oxygène, jusqu'à la prise en charge médicale."
+      - "Faire boire de l'eau plate (0,5 à 1 l en fractionnant les prises sur une heure), sauf trouble de la conscience, vomissements ou refus de boire."
+      - "Transmettre le bilan et appliquer les consignes reçues."
+      - "Surveiller la victime."
+  - type: liste
+    titre: Renseignements à rechercher avant de transmettre le bilan (dans tous les cas)
+    items:
+      - "Paramètres de la plongée : type (apnée, bouteilles...), lieu, profondeur atteinte, durée, remontées avec paliers, heure de sortie."
+      - "Tables utilisées ou ordinateur de plongée, à joindre à la fiche d'intervention secouriste lors de l'évacuation."
+      - "Nombre de plongées dans les vingt-quatre heures précédant l'action de secours."
+      - "Événements survenus pendant la plongée : stress, remontée rapide, douleurs à la descente..."
+      - "Heure de survenue des symptômes et leur évolution."
+      - "Reporter ces renseignements sur la fiche d'évacuation du plongeur accidenté."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "L'oxygène est administré à 15 l/min au masque à haute concentration quelle que soit la saturation en oxygène."
+      - "Ne pas faire boire en cas de trouble de la conscience, de vomissements ou de refus de boire."
+      - "Dans les trente premières minutes, le médecin peut demander l'administration orale d'aspirine, en l'absence d'allergie ou de saignement et si le médicament est disponible."
+      - "La fiche d'évacuation du plongeur accidenté fait partie du matériel de secours qui devrait être présent sur le lieu de mise à l'eau ou d'immersion."
+qcm:
+  - id: q1
+    enonce: "Quel dispositif et quel débit d'oxygène sont préconisés pour un plongeur accidenté sans détresse vitale ?"
+    propositions:
+      - "Lunettes à oxygène à 2 l/min"
+      - "Masque à haute concentration à 15 l/min"
+      - "Masque à haute concentration à 6 l/min"
+    bonnes:
+      - 1
+    explication: "Oxygène en inhalation au masque à haute concentration à 15 l/min, quelle que soit la saturation, jusqu'à la prise en charge médicale."
+  - id: q2
+    enonce: "L'administration d'oxygène dépend-elle de la saturation mesurée chez une victime d'accident de plongée ?"
+    propositions:
+      - "Oui, seulement si la SpO2 est inférieure à 94 %"
+      - "Non, elle est réalisée quelle que soit la saturation en oxygène"
+      - "Oui, seulement en cas de perte de connaissance"
+    bonnes:
+      - 1
+    explication: "La fiche précise 15 l/min quelle que soit la saturation en oxygène."
+  - id: q3
+    enonce: "Quelle quantité d'eau plate peut-on faire boire à la victime, et sur quelle durée ?"
+    propositions:
+      - "0,5 à 1 l en fractionnant les prises sur une heure"
+      - "2 l en une seule prise"
+      - "0,1 l toutes les 5 minutes pendant 6 heures"
+    bonnes:
+      - 0
+    explication: "0,5 à 1 l d'eau plate, en fractionnant les prises sur une heure."
+  - id: q4
+    enonce: "Dans quelles situations ne faut-il PAS faire boire la victime ?"
+    propositions:
+      - "Trouble de la conscience"
+      - "Vomissements"
+      - "Refus de boire"
+      - "Douleur articulaire"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Pas de boisson en cas de trouble de la conscience, de vomissements ou de refus de boire."
+  - id: q5
+    enonce: "Quels renseignements sur la plongée faut-il rechercher avant de transmettre le bilan ?"
+    propositions:
+      - "Type de plongée, lieu, profondeur atteinte, durée, remontées avec paliers, heure de sortie"
+      - "Tables utilisées ou ordinateur de plongée"
+      - "Nombre de plongées dans les vingt-quatre heures précédentes"
+      - "Marque du matériel de plongée uniquement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Paramètres de la plongée, tables ou ordinateur, nombre de plongées sur 24 heures, événements survenus, heure et évolution des symptômes."
+  - id: q6
+    enonce: "Que faire des tables ou de l'ordinateur de plongée utilisés par la victime ?"
+    propositions:
+      - "Les conserver sur le lieu de l'accident"
+      - "Les joindre à la fiche d'intervention secouriste lors de l'évacuation"
+      - "Les rendre à l'entourage"
+    bonnes:
+      - 1
+    explication: "Ils sont à joindre à la fiche d'intervention secouriste lors de l'évacuation de la victime."

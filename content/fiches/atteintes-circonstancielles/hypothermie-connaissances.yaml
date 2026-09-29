@@ -1,0 +1,126 @@
+id: hypothermie-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 15
+titre: Hypothermie (connaissances)
+motsCles: [hypothermie, 35 °C, frissons, légère, modérée, sévère, grave, mobilisation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC06, 06-2018)
+  code: 08AC06
+  page: 294
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La température normale de l'homme (homéotherme) est constante, aux alentours de 37 °C. L'hypothermie accidentelle est une chute involontaire de la température corporelle au-dessous de 35 °C. Elle ralentit les fonctions vitales, jusqu'à leur interruption possible (perte de connaissance, arrêt cardiaque)."
+  - type: chiffres
+    titre: Classification selon la température
+    items:
+      - valeur: "35 à 32 °C"
+        libelle: "Hypothermie légère : victime consciente, ventilation et fréquence cardiaque rapides, frissons permanents, peau froide"
+      - valeur: "32 à 28 °C"
+        libelle: "Hypothermie modérée : délire, hallucinations, troubles de la conscience d'aggravation progressive ; ventilation et fréquence cardiaque ralenties ; plus de frissons, rigidité musculaire modérée"
+      - valeur: "28 à 24 °C"
+        libelle: "Hypothermie sévère : perte de connaissance, pouls difficile à percevoir, fréquence cardiaque et ventilation lentes, rigidité musculaire importante ; très sensible aux mobilisations (troubles du rythme, voire arrêt cardiaque)"
+      - valeur: "< 24 °C"
+        libelle: "Hypothermie grave : arrêt cardiaque apparent"
+  - type: liste
+    titre: Causes et facteurs favorisants
+    items:
+      - "Hémorragie, ou exposition prolongée à un environnement froid, en particulier humide."
+      - "Enfant, personne âgée, sujets originaires de pays chauds."
+      - "Maladie, fatigue, alimentation insuffisante, alcool, tabac, drogues, intoxication médicamenteuse."
+      - "Activités physiques ayant entraîné de la transpiration (réduit le pouvoir isolant des vêtements)."
+      - "Immobilité ou immersion."
+      - "L'hypothermie menace aussi toute victime d'un traumatisme ou d'une brûlure grave, même sans froid important."
+  - type: liste
+    titre: "Signes (1er regard : exposition prolongée au froid ou immersion/noyade)"
+    items:
+      - "Perte de connaissance, arrêt cardiaque."
+      - "Détresse neurologique : désorientation ou confusion."
+      - "Détresse respiratoire : ralentissement de la respiration."
+      - "Détresse circulatoire : ralentissement du pouls, très difficile à percevoir."
+      - "Température inférieure à 35 °C."
+      - "Frissons : ils surviennent habituellement avant l'hypothermie sévère, entre 36 °C et 32 °C ; leur absence (hypothermie modérée, sévère et grave) signe l'épuisement de l'organisme qui n'arrive plus à lutter contre le froid."
+      - "Peau pâle, froide et sèche."
+  - type: texte
+    titre: Mesure de la température
+    contenu: "Il est souvent très difficile de mesurer sur les lieux la température d'une victime hypotherme. La corrélation des signes avec la température centrale aide le secouriste et le médecin régulateur à évaluer la gravité."
+  - type: etapes
+    titre: "Principe de l'action de secours"
+    items:
+      - "Soustraire la victime à la cause."
+      - "Éviter toute déperdition supplémentaire de chaleur."
+      - "Demander un avis médical."
+      - "Réchauffer la victime."
+      - "Surveiller attentivement la victime (risque d'arrêt cardiaque)."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une victime en hypothermie sévère est très sensible aux mobilisations, qui peuvent déclencher des troubles du rythme voire un arrêt cardiaque."
+      - "La disparition des frissons n'est pas rassurante : elle signe l'épuisement de l'organisme."
+qcm:
+  - id: q1
+    enonce: "Comment se définit l'hypothermie accidentelle ?"
+    propositions:
+      - "Une chute involontaire de la température corporelle au-dessous de 35 °C"
+      - "Une température inférieure à 37 °C"
+      - "Une température inférieure à 32 °C"
+      - "Une baisse volontaire de la température corporelle"
+    bonnes:
+      - 0
+    explication: "L'hypothermie accidentelle est une chute involontaire de la température corporelle au-dessous de 35 °C."
+  - id: q2
+    enonce: "Quelle plage de température correspond à l'hypothermie légère ?"
+    propositions:
+      - "35 à 32 °C"
+      - "32 à 28 °C"
+      - "28 à 24 °C"
+      - "Moins de 24 °C"
+    bonnes:
+      - 0
+    explication: "Hypothermie légère : 35 à 32 °C, victime consciente avec frissons permanents, ventilation et fréquence cardiaque rapides."
+  - id: q3
+    enonce: "Que signifie la disparition des frissons chez une victime hypotherme ?"
+    propositions:
+      - "L'organisme est réchauffé"
+      - "L'organisme est épuisé et n'arrive plus à lutter contre le froid"
+      - "La victime est en hypothermie légère"
+    bonnes:
+      - 1
+    explication: "La disparition du frisson signe l'épuisement de l'organisme ; il n'y a plus de frisson en hypothermie modérée, sévère et grave."
+  - id: q5
+    enonce: "Quels facteurs favorisent l'hypothermie ?"
+    propositions:
+      - "Immersion ou immobilité"
+      - "Prise d'alcool"
+      - "Activité physique ayant entraîné de la transpiration"
+      - "Alimentation abondante"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Immersion, immobilité, alcool et transpiration (qui réduit le pouvoir isolant des vêtements) favorisent l'hypothermie ; une alimentation insuffisante, et non abondante, est un facteur."
+  - id: q4
+    enonce: "Pourquoi la mobilisation d'une victime en hypothermie sévère doit-elle être prudente ?"
+    propositions:
+      - "Elle peut déclencher des troubles du rythme voire un arrêt cardiaque"
+      - "Elle risque de faire disparaître les frissons"
+      - "Elle provoque une hémorragie"
+    bonnes:
+      - 0
+    explication: "La victime en hypothermie sévère est très sensible à toutes mobilisations, qui peuvent déclencher des troubles du rythme voire un arrêt cardiaque."
+  - id: q6
+    enonce: "Quels éléments font partie du principe de l'action de secours face à une hypothermie ?"
+    propositions:
+      - "Éviter toute déperdition supplémentaire de chaleur"
+      - "Demander un avis médical"
+      - "Surveiller attentivement (risque d'arrêt cardiaque)"
+      - "Frictionner énergiquement la victime"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Soustraire à la cause, éviter toute déperdition de chaleur, demander un avis médical, réchauffer et surveiller attentivement. La friction n'est pas citée."

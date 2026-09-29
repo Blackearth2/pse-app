@@ -1,0 +1,103 @@
+id: pendaison-strangulation-conduite-a-tenir
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: procedure
+ordre: 27
+titre: Pendaison, strangulation (conduite à tenir)
+motsCles: [pendaison, strangulation, constriction du cou, stabilisation du rachis, détresse vitale, forces de l'ordre]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR13, 12-2022)
+  code: 08PR13
+  page: 313
+liees: []
+blocs:
+  - type: etapes
+    titre: Conduite à tenir initiale
+    items:
+      - "Ne pas détruire, jeter ou déplacer les objets plus que nécessaire (une corde nouée par exemple peut servir de preuve aux forces de l'ordre)."
+      - "Soutenir la victime en cas de pendaison, en se faisant aider."
+      - "Desserrer et enlever rapidement toute source de constriction du cou."
+      - "Allonger la victime au sol en limitant autant que possible les mouvements du rachis cervical."
+      - "Réaliser le bilan de la victime tout en assurant une stabilisation du rachis."
+  - type: liste
+    titre: Si la victime présente une détresse vitale
+    items:
+      - "Arrêt cardiaque, en l'absence de respiration, doute ou respiration agonique (gasps) : appliquer la conduite à tenir devant une victime en arrêt cardiaque."
+      - "Perte de connaissance, même si la victime respire difficilement : appliquer la conduite à tenir devant une victime qui a perdu connaissance."
+      - "Autre détresse vitale, notamment respiratoire : appliquer la conduite à tenir devant une victime présentant cette détresse."
+  - type: etapes
+    titre: En l'absence de détresse vitale
+    items:
+      - "Compléter le bilan tout en poursuivant la stabilisation de la tête de la victime."
+      - "Transmettre le bilan pour obtenir un avis médical et respecter les consignes."
+      - "Réaliser une immobilisation complète de la colonne vertébrale si nécessaire."
+      - "Surveiller attentivement la victime."
+      - "Demander les forces de l'ordre si nécessaire."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne pas détruire, jeter ou déplacer les objets plus que nécessaire : ils peuvent servir de preuve aux forces de l'ordre."
+      - "Toujours limiter les mouvements du rachis cervical et stabiliser la tête."
+      - "Une victime qui a perdu connaissance est prise en charge comme telle même si elle respire difficilement."
+qcm:
+  - id: q1
+    enonce: "Que faire des objets présents sur les lieux (corde nouée, par exemple) ?"
+    propositions:
+      - Les jeter pour dégager la scène
+      - Ne pas les détruire, jeter ou déplacer plus que nécessaire
+      - Les emporter avec la victime
+    bonnes:
+      - 1
+    explication: "Ces éléments peuvent servir de preuve aux forces de l'ordre : on ne les détruit, jette ou déplace pas plus que nécessaire."
+  - id: q2
+    enonce: "Quelles actions sont indiquées au début de la prise en charge d'une victime pendue ?"
+    propositions:
+      - Soutenir la victime en se faisant aider
+      - Desserrer et enlever rapidement toute source de constriction du cou
+      - Allonger la victime au sol en limitant les mouvements du rachis cervical
+      - Relever la tête de la victime pour dégager le cou
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On soutient la victime en se faisant aider, on supprime rapidement toute constriction du cou puis on l'allonge en limitant les mouvements du rachis cervical."
+  - id: q3
+    enonce: "Quelle précaution majeure accompagne la réalisation du bilan ?"
+    propositions:
+      - Une stabilisation du rachis
+      - Un déplacement rapide de la victime
+      - Une position assise
+    bonnes:
+      - 0
+    explication: "Le bilan est réalisé tout en assurant une stabilisation du rachis."
+  - id: q4
+    enonce: "Une victime a perdu connaissance mais respire difficilement. Quelle conduite à tenir applique-t-on ?"
+    propositions:
+      - Celle d'une victime qui a perdu connaissance
+      - Celle d'une victime consciente
+      - On attend une aggravation
+    bonnes:
+      - 0
+    explication: "On applique la conduite à tenir devant une victime qui a perdu connaissance, même si elle respire difficilement."
+  - id: q5
+    enonce: "En l'absence de détresse vitale, quelles actions sont prévues ?"
+    propositions:
+      - Compléter le bilan en poursuivant la stabilisation de la tête
+      - Transmettre le bilan pour obtenir un avis médical
+      - Réaliser une immobilisation complète de la colonne vertébrale si nécessaire
+      - Faire marcher la victime
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On complète le bilan, on transmet pour avis médical, on immobilise la colonne si nécessaire, on surveille et on demande les forces de l'ordre si nécessaire."
+  - id: q6
+    enonce: "Dans quel cas applique-t-on la conduite à tenir de l'arrêt cardiaque ?"
+    propositions:
+      - En l'absence de respiration, en cas de doute ou de respiration agonique (gasps)
+      - Uniquement si la victime est cyanosée
+      - Uniquement après l'arrivée des forces de l'ordre
+    bonnes:
+      - 0
+    explication: "L'arrêt cardiaque est pris en charge en cas d'absence de respiration, de doute ou de respiration agonique (gasps)."

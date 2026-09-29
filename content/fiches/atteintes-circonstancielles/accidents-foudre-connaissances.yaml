@@ -1,0 +1,104 @@
+id: accidents-foudre-connaissances
+niveau: PSE2
+chapitre: atteintes-circonstancielles
+type: connaissance
+ordre: 34
+titre: Accidents liés à la foudre (connaissances)
+motsCles: [foudre, foudroiement, tension de pas, feux de Saint-Elme, effet de pointe, arrêt cardiaque, paralysie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC15, 11-2021)
+  code: 08AC15
+  page: 321
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La foudre est une décharge électrique entre le nuage et la terre. Le foudroyé est possiblement électrisé, polytraumatisé, blasté, brûlé et hypotherme."
+  - type: liste
+    titre: Risque
+    items:
+      - "Le risque est majeur lorsque la distance entre le sol et la base du nuage est faible."
+      - "L'effet de pointe (aiguille rocheuse, arbre isolé, homme debout, etc.) multiplie le risque de recevoir la décharge."
+      - "L'augmentation du champ électrique se manifeste par des filaments bleus ou violets (« feux de Saint-Elme ») et la perception de crépitements (« abeille ») : danger immédiat."
+      - "Le métal (mousquetons, piolet, crampons...) n'attire pas la foudre, mais reste un excellent conducteur."
+  - type: liste
+    titre: Mécanismes de foudroiement
+    items:
+      - "Direct : la foudre tombe sur la victime et peut se propager d'individu en individu s'ils sont proches (groupe avec foudroiement collectif)."
+      - "Indirect, à partir d'un point de contact : la foudre passe au travers du corps de la victime (arbre, paroi rocheuse, etc.)."
+      - "Indirect, par « tension de pas » : un champ électrique se forme en périphérie de l'impact et électrise la victime. Le risque est majoré quand les pieds sont écartés (pas long), ce qui explique l'exposition majeure des quadrupèdes."
+  - type: liste
+    titre: Conséquences possibles
+    items:
+      - "Blast : l'onde de choc précédant le tonnerre peut être responsable d'un blast aérien (tympans)."
+      - "Traumatisme : risque de chute de pierres, de branches, de la victime elle-même."
+      - "Hypothermie : la victime est le plus souvent dans un environnement hostile et défavorable sur le plan météorologique."
+      - "Arrêt cardiaque : plus fréquent dans les foudroiements directs, secondaire à un trouble du rythme cardiaque engendré par le courant de foudre."
+      - "Paralysie liée à la foudre (paraplégie ou tétraplégie, plus ou moins complète) : elle peut régresser spontanément dans les 48 heures."
+      - "Trouble de la conscience ; troubles de l'audition par lésion du tympan (blast aérien) ; troubles de la vision par atteinte directe du cristallin."
+      - "Marques cutanées en forme de fougère : ce ne sont pas des brûlures, elles disparaissent progressivement."
+      - "Brûlures : superficielles sur les zones les plus humides et en regard de bijoux ou ceinture ; les brûlures internes sont moins importantes que lors des électrisations industrielles."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "En cas de paralysie, la victime doit être systématiquement considérée comme suspecte d'un traumatisme de la colonne vertébrale, même si la paralysie peut régresser spontanément dans les 48 heures."
+      - "Le métal n'attire pas la foudre mais conduit très bien le courant."
+qcm:
+  - id: q1
+    enonce: "Qu'est-ce que la foudre ?"
+    propositions:
+      - Une décharge électrique entre le nuage et la terre
+      - Un courant électrique industriel à haute tension
+      - Un phénomène de dépression atmosphérique
+    bonnes:
+      - 0
+    explication: "La foudre est une décharge électrique entre le nuage et la terre."
+  - id: q2
+    enonce: "Quels signes annoncent un danger immédiat de foudroiement ?"
+    propositions:
+      - Des filaments bleus ou violets (feux de Saint-Elme)
+      - La perception de crépitements (« abeille »)
+      - Un ciel dégagé
+    bonnes:
+      - 0
+      - 1
+    explication: "L'augmentation du champ électrique se manifeste par des filaments bleus ou violets et des crépitements : danger immédiat."
+  - id: q3
+    enonce: "Le métal (mousquetons, piolet, crampons) attire-t-il la foudre ?"
+    propositions:
+      - Oui, il l'attire fortement
+      - Non, il ne l'attire pas mais reste un excellent conducteur
+    bonnes:
+      - 1
+    explication: "Le métal n'attire pas la foudre, mais reste un excellent conducteur."
+  - id: q4
+    enonce: "Qu'est-ce que la « tension de pas » ?"
+    propositions:
+      - Un champ électrique formé en périphérie de l'impact, qui électrise la victime, avec un risque majoré si les pieds sont écartés
+      - La foudre qui tombe directement sur la victime
+      - Un courant qui passe uniquement par les mains
+    bonnes:
+      - 0
+    explication: "Un champ électrique se forme en périphérie de l'impact ; le risque est majoré quand le pas est long, d'où l'exposition majeure des quadrupèdes."
+  - id: q5
+    enonce: "Quelles affirmations sont exactes sur les conséquences du foudroiement ?"
+    propositions:
+      - L'arrêt cardiaque est plus fréquent dans les foudroiements directs
+      - Les marques cutanées en forme de fougère sont des brûlures profondes
+      - Les paralysies peuvent régresser spontanément dans les 48 heures
+      - Un blast aérien peut lésionner les tympans
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Les marques en fougère ne sont pas des brûlures et disparaissent progressivement ; les autres affirmations sont exactes."
+  - id: q6
+    enonce: "Une victime de foudre présente une paralysie des membres. Comment doit-elle être considérée ?"
+    propositions:
+      - Comme sans risque, la paralysie régresse toujours seule
+      - Comme suspecte d'un traumatisme de la colonne vertébrale
+      - Comme brûlée au troisième degré
+    bonnes:
+      - 1
+    explication: "Même si ces paralysies peuvent régresser spontanément dans les 48 heures, la victime doit être systématiquement considérée comme suspecte d'un traumatisme de la colonne vertébrale."
