@@ -1,0 +1,76 @@
+id: lva-victime-assise
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 13
+titre: Libération des voies aériennes chez une victime assise
+motsCles: [libération des voies aériennes, victime assise, véhicule, tête penchée en avant, traction douce]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT06, 09-2019)
+  code: 04FT06
+  page: 81
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "Victime qui a perdu connaissance, en position assise, tête penchée en avant. Aucun matériel n'est nécessaire."
+  - type: texte
+    titre: Justification
+    contenu: "Chez une victime inconsciente assise (notamment dans un véhicule), la tête penchée en avant applique la paroi postérieure du pharynx contre la base de la langue et empêche le passage de l'air. Cette technique est souvent suffisante pour rétablir la liberté des voies aériennes et contrôler la respiration."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - Se placer à côté de la tête de la victime, en restant à l'extérieur du véhicule pour des raisons de sécurité (airbag ou autre).
+      - Ouvrir la porte du véhicule ou passer les avant-bras par la fenêtre.
+      - "Saisir la tête à deux mains : une main en arrière de la tête, juste au-dessus de la nuque ; l'autre main sous le menton."
+      - "Ramener la tête en position neutre, dans l'axe du tronc, en exerçant une légère traction vers le haut (elle déleste le rachis cervical du poids de la tête)."
+      - Apprécier la respiration de la victime.
+      - Maintenir cette position jusqu'à la réalisation d'une stabilisation de la tête, si la victime respire.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Réaliser la LVA avec précaution pour éviter toute aggravation d'un traumatisme du rachis cervical.
+  - type: liste
+    titre: Critère d'efficacité
+    items:
+      - La respiration de la victime peut s'effectuer normalement.
+qcm:
+  - id: q1
+    enonce: "Cette technique concerne une victime :"
+    propositions:
+      - Inconsciente, assise, tête penchée en avant
+      - Consciente et assise
+      - Inconsciente et allongée sur le dos
+      - En arrêt cardiaque sur un brancard
+    bonnes:
+      - 0
+    explication: "Indication : victime qui a perdu connaissance, en position assise, tête penchée en avant."
+  - id: q2
+    enonce: "Où se place le secouriste face à une victime dans un véhicule ?"
+    propositions:
+      - À l'intérieur du véhicule, à l'arrière
+      - À côté de la tête, à l'extérieur du véhicule
+      - Sur le capot
+    bonnes:
+      - 1
+    explication: "Le secouriste reste à l'extérieur pour des raisons de sécurité (airbag ou autre) et ouvre la porte ou passe les avant-bras par la fenêtre."
+  - id: q3
+    enonce: "Quelle position des mains est correcte ?"
+    propositions:
+      - Les deux mains sur le front
+      - Une main sous le menton, l'autre en arrière de la tête au-dessus de la nuque
+      - Les deux mains sur les épaules
+      - Une main sur le thorax, l'autre sur le front
+    bonnes:
+      - 1
+    explication: "Une main derrière la tête, juste au-dessus de la nuque, l'autre sous le menton."
+  - id: q4
+    enonce: "Pourquoi exerce-t-on une légère traction vers le haut en ramenant la tête dans l'axe ?"
+    propositions:
+      - Pour ouvrir la bouche
+      - Pour délester le rachis cervical du poids de la tête
+      - Pour vérifier le pouls
+    bonnes:
+      - 1
+    explication: "Cette traction douce déleste le rachis cervical du poids de la tête de la victime."

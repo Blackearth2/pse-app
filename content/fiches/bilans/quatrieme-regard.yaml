@@ -1,0 +1,138 @@
+id: quatrieme-regard
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 5
+titre: Quatrième regard
+motsCles: [4e regard, interrogatoire, mécanisme, antécédents, paramètres physiologiques, scores]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR04, 12-2023)
+  code: 04PR04
+  page: 69
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le 4e regard vient préciser les plaintes de la victime et compléter son examen. Il comprend l'interrogatoire de la victime ou de son entourage, l'examen, la mesure des paramètres physiologiques et, selon le contexte, des scores ou échelles. À l'issue, l'ensemble des éléments recueillis est transmis au médecin régulateur sans les interpréter."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Interroger la victime ou son entourage en débutant par la recherche du mécanisme de l'accident, de l'événement ou de l'histoire de la maladie (recherche essentielle)."
+      - "Analyser les plaintes en fonction du contexte : facteur déclenchant ou améliorant (Provoqué par), Qualité, Région du corps, Sévérité, Temporalité."
+      - "Terminer l'interrogatoire par la recherche des antécédents : Médicaux et chirurgicaux, Hospitalisations, Traitements en cours et modifications récentes, Allergies, Facteurs de risques."
+      - "Examiner la victime : lésions de la peau (plaies, brûlures, contusion), autres atteintes (taches, rougeurs), hématomes, gonflements, écoulements, déformations."
+      - "Mesurer systématiquement les 4 paramètres physiologiques ; ajouter d'autres mesures ou des scores selon le contexte."
+      - "Transmettre l'ensemble des éléments recueillis au médecin régulateur sans les interpréter."
+  - type: liste
+    titre: Mécanisme et contexte
+    items:
+      - "Traumatisme : nature (chute, faux mouvement, accident de la voie publique, victime heurtée par un objet), intensité (hauteur de chute, niveau de décélération) et éléments particuliers (position dans le véhicule, port et état du casque, port de la ceinture de sécurité)."
+      - "Atteinte circonstancielle : événement déclencheur (noyade, pendaison, accident de plongée, intoxication, exposition à la chaleur ou au froid) et ses particularités (durée d'immersion ou d'exposition, nature du produit toxique et voie d'administration)."
+      - "Malaise ou affection spécifique : symptômes d'apparition récente ou aggravation d'une maladie connue, et son évolution."
+      - "Suspicion de violence ou tentative de suicide : formuler clairement la problématique repérée lorsqu'elle n'est pas spontanément exprimée."
+  - type: liste
+    titre: Analyse des plaintes (initiales en majuscule dans la source)
+    items:
+      - "P : Provoqué par (facteur déclenchant ou améliorant)."
+      - "Q : Qualité (comment la douleur ou la gêne est décrite)."
+      - "R : Région du corps (localisation)."
+      - "S : Sévérité (comment la douleur ou la gêne est ressentie)."
+      - "T : Temporalité (depuis combien de temps, à quel moment de la journée, première fois ou non)."
+  - type: liste
+    titre: Recherche des antécédents (initiales en majuscule dans la source)
+    items:
+      - "M : antécédents Médicaux (asthme, diabète, épilepsie, arthrose, insuffisance respiratoire chronique, hypertension artérielle, hypercholestérolémie, etc.) et chirurgicaux."
+      - "H : Hospitalisations."
+      - "T : Traitements en cours et modifications récentes."
+      - "A : Allergies."
+      - "F : Facteurs de risques (tabagisme, sédentarité, stress, surpoids, etc.)."
+  - type: chiffres
+    titre: Paramètres mesurés systématiquement
+    items:
+      - valeur: FR
+        libelle: Fréquence respiratoire
+      - valeur: SpO2
+        libelle: Saturation pulsée en oxygène
+      - valeur: FC
+        libelle: Fréquence cardiaque
+      - valeur: PA
+        libelle: Pression artérielle
+  - type: liste
+    titre: Mesures et scores selon le contexte
+    items:
+      - Glycémie capillaire, température corporelle, réalisation et télétransmission d'un électrocardiogramme (secouristes habilités).
+      - Mesure de la douleur.
+      - Niveau de conscience (EVDA/AVPU ou score de Glasgow).
+      - Superficie d'une surface corporelle brûlée (score de Wallace ou tables de Lund et Browder).
+      - Score de reconnaissance des AVC.
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - Compte tenu de la fiabilité des appareils, la prise en compte des signes cliniques prime sur les mesures des paramètres vitaux.
+      - À plusieurs secouristes, la mesure des paramètres ou des scores peut se faire pendant qu'un autre secouriste réalise l'interrogatoire et l'examen.
+      - Les éléments sont transmis au médecin régulateur sans interprétation.
+qcm:
+  - id: q1
+    enonce: "Par quoi débute l'interrogatoire lors du 4e regard ?"
+    propositions:
+      - La recherche des antécédents
+      - La recherche du mécanisme de l'accident, de l'événement ou de l'histoire de la maladie
+      - La mesure de la glycémie capillaire
+      - La recherche des allergies
+    bonnes:
+      - 1
+    explication: "L'interrogatoire débute par la recherche du mécanisme, de l'événement ou de l'histoire de la maladie, recherche jugée essentielle ; la recherche des antécédents le termine."
+  - id: q2
+    enonce: "Quels paramètres physiologiques sont systématiquement mesurés lors du 4e regard ?"
+    propositions:
+      - Fréquence respiratoire
+      - Glycémie capillaire
+      - Saturation pulsée en oxygène
+      - Fréquence cardiaque
+      - Pression artérielle
+    bonnes:
+      - 0
+      - 2
+      - 3
+      - 4
+    explication: "FR, SpO2, FC et PA sont systématiques. La glycémie capillaire, la température ou l'électrocardiogramme dépendent du contexte, de la plainte et de l'examen."
+  - id: q3
+    enonce: "Quelles sont les 5 dimensions selon lesquelles les plaintes sont analysées ?"
+    propositions:
+      - Provoqué par, Qualité, Région, Sévérité, Temporalité
+      - Pouls, Qualité, Respiration, Saturation, Température
+      - Plainte, Question, Réponse, Suivi, Transmission
+    bonnes:
+      - 0
+    explication: "Les plaintes sont analysées selon : Provoqué par, Qualité, Région du corps, Sévérité, Temporalité."
+  - id: q4
+    enonce: "Lorsque les mesures des appareils et les signes cliniques semblent discordants, que faut-il privilégier ?"
+    propositions:
+      - Les mesures des appareils
+      - Les signes cliniques
+      - La moyenne des deux
+    bonnes:
+      - 1
+    explication: "Compte tenu de la fiabilité des appareils, la prise en compte des signes cliniques prime sur les mesures des paramètres vitaux."
+  - id: q5
+    enonce: "À l'issue du 4e regard, comment les éléments recueillis sont-ils transmis au médecin régulateur ?"
+    propositions:
+      - Après les avoir interprétés pour poser un diagnostic
+      - Sans les interpréter
+      - Uniquement si la victime présente une détresse vitale
+    bonnes:
+      - 1
+    explication: "L'ensemble des éléments recueillis doit être transmis au médecin régulateur sans les interpréter."
+  - id: q6
+    enonce: "Parmi ces éléments, lesquels relèvent de la recherche des antécédents ?"
+    propositions:
+      - Les traitements en cours et leurs modifications récentes
+      - La durée d'apparition de la douleur
+      - Les allergies
+      - Les hospitalisations
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Les antécédents comprennent : antécédents médicaux et chirurgicaux, hospitalisations, traitements, allergies, facteurs de risques. La durée d'apparition relève de la Temporalité des plaintes."

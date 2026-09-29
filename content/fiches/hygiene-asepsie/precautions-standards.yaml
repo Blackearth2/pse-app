@@ -1,0 +1,92 @@
+id: precautions-standards
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: procedure
+ordre: 4
+titre: Précautions standards contre le risque infectieux
+motsCles: [précautions standards, gants, masque, lunettes, tenue, mains, surfaces, couverture bactériostatique]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03PR02, 09-2014)
+  code: 03PR02
+  page: 47
+liees:
+  - risque-infectieux
+  - precautions-particulieres
+  - lavage-des-mains
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les précautions standards s'appliquent à toute victime, en permanence : hygiène corporelle du secouriste, puis mesures pendant l'intervention (tenue, mains, gants, masque, déchets, pansements, draps, couverture) et entretien des surfaces et du matériel après chaque intervention."
+  - type: liste
+    titre: De façon générale
+    items:
+      - "Se laver quotidiennement le corps."
+      - "Avoir les ongles coupés courts."
+      - "Se laver et se désinfecter régulièrement les mains dans la vie courante."
+  - type: liste
+    titre: Au cours de l'intervention
+    items:
+      - "Porter une tenue adaptée, confortable et lavable, changée dès qu'elle est souillée."
+      - "Se nettoyer régulièrement les mains et les désinfecter."
+      - "Porter des gants à usage unique et les changer régulièrement."
+      - "Porter un masque à usage unique lors de certains gestes de secours (brûlés), associé à des lunettes ou une visière de protection s'il existe un risque de projections (aspirations, risques de vomissements, toux)."
+      - "Respecter les procédures de gestion des déchets d'activités de soins à risques infectieux et du matériel souillé par des liquides biologiques, ainsi que la procédure en cas d'AEV."
+      - "Recouvrir toute plaie par un pansement."
+      - "Utiliser sur le brancard des draps à usage unique ou lavés après chaque transport."
+      - "Utiliser si possible une couverture bactériostatique ; la nettoyer ou la changer si elle est souillée."
+      - "Assurer l'entretien des surfaces et du matériel après chaque intervention."
+  - type: attention
+    items:
+      - "La tenue doit être changée dès qu'elle est souillée."
+      - "Masque associé à des lunettes ou une visière dès qu'il y a un risque de projections."
+qcm:
+  - id: q1
+    enonce: "Quels éléments relèvent des précautions standards au cours de l'intervention ?"
+    propositions:
+      - "Porter des gants à usage unique et les changer régulièrement"
+      - "Recouvrir toute plaie par un pansement"
+      - "Utiliser des draps à usage unique ou lavés après chaque transport sur le brancard"
+      - "Enfiler une charlotte systématiquement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ces trois mesures figurent dans la fiche. La charlotte relève des précautions particulières."
+  - id: q2
+    enonce: "Quand associer le masque à des lunettes ou à une visière de protection ?"
+    propositions:
+      - "Jamais"
+      - "En cas de risque de projections (aspirations, risques de vomissements, toux)"
+      - "Uniquement de nuit"
+    bonnes:
+      - 1
+    explication: "Le masque à usage unique est associé à des lunettes ou une visière s'il existe un risque de projections."
+  - id: q3
+    enonce: "Que faire de la tenue si elle est souillée ?"
+    propositions:
+      - "La garder jusqu'à la fin de la garde"
+      - "La changer dès qu'elle est souillée"
+      - "La retourner"
+    bonnes:
+      - 1
+    explication: "La tenue doit être changée dès qu'elle est souillée."
+  - id: q4
+    enonce: "Concernant la couverture utilisée pour la victime :"
+    propositions:
+      - "Une couverture bactériostatique est utilisée si possible"
+      - "Elle est nettoyée ou changée si elle est souillée"
+      - "Elle n'est jamais nettoyée"
+    bonnes:
+      - 0
+      - 1
+    explication: "La fiche recommande, si possible, une couverture bactériostatique, nettoyée ou changée si elle a été souillée."
+  - id: q5
+    enonce: "Quelle hygiène corporelle est demandée au secouriste ?"
+    propositions:
+      - "Se laver quotidiennement le corps, avoir les ongles coupés courts, se laver et se désinfecter régulièrement les mains"
+      - "Porter des bijoux pour identification"
+      - "Se laver uniquement les mains après l'intervention"
+    bonnes:
+      - 0
+    explication: "Ces trois mesures constituent l'hygiène générale demandée."

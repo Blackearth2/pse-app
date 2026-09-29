@@ -1,0 +1,103 @@
+id: emballages-dasri
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 5
+titre: Utilisation des emballages à élimination de déchets (DASRI)
+motsCles: [DASRI, collecteur, sac jaune, aiguilles, recapuchonnage, déchets, emballage]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT01, 07-2026)
+  code: 03FT01
+  page: 48
+liees:
+  - accident-exposition-risque-viral
+  - retrait-des-gants
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les déchets d'activités de soins à risques infectieux (DASRI) représentent une source importante de transmission d'infections et d'AEV. Leur recueil, stockage et élimination sont réglementés et utilisent des emballages spéciaux, manipulés avec des gants."
+  - type: liste
+    titre: Indications
+    items:
+      - "Matériels piquants, coupants et tranchants : aiguilles, scalpels, lames de rasoir…"
+      - "Déchets fortement imprégnés de sang, de sécrétions ou d'excrétions avec risque d'écoulement : compresses, pansements, champs, draps à usage unique…"
+  - type: liste
+    titre: Les emballages
+    items:
+      - "Agréés et homologués, avec mode d'emploi inscrit sur les parois extérieures."
+      - "Reconnaissables à leur couleur jaune et à leur pictogramme spécifique reconnu internationalement."
+      - "Sacs souples mais étanches pour les déchets mous ; collecteurs en plastique rigide pour les déchets tranchants, coupants et piquants."
+      - "Stockage également réglementé, dans des collecteurs en carton ou de grands récipients."
+  - type: liste
+    titre: Règles générales
+    items:
+      - "Ne rien laisser sur les lieux de l'action de secours."
+      - "Ne jamais recapuchonner les aiguilles, ni séparer les aiguilles d'une seringue ou d'une tubulure à perfusion avant de les mettre dans le collecteur."
+      - "Utiliser l'emballage conforme adapté au déchet."
+      - "Ne pas jeter de DASRI aux ordures ménagères."
+      - "Déposer les emballages pleins dans un lieu prévu à cet effet."
+  - type: etapes
+    titre: Manipulation
+    items:
+      - "Ouvrir l'emballage (sac ou collecteur) au préalable."
+      - "Déposer le déchet dans l'emballage et le fermer immédiatement après avec la fermeture provisoire (collecteur)."
+      - "Ne pas remplir l'emballage au-delà de la limite indiquée et ne pas tasser les déchets."
+      - "Fermer l'emballage lorsque le taux maximum de remplissage ou la date de péremption est atteint, avec le dispositif de fermeture définitive s'il en est doté."
+      - "Déposer l'emballage dans le container prévu à cet effet."
+  - type: attention
+    items:
+      - "Jamais de recapuchonnage des aiguilles, ni de séparation de l'aiguille et de la seringue ou de la tubulure avant le collecteur."
+      - "Emballage ni perforé ni surchargé : ne pas dépasser la limite de remplissage, ne pas tasser."
+      - "Manipuler les DASRI avec des gants : risque infectieux, notamment AEV."
+qcm:
+  - id: q1
+    enonce: "Comment reconnaît-on un emballage à DASRI ?"
+    propositions:
+      - "Couleur verte, sans pictogramme"
+      - "Couleur jaune et pictogramme spécifique reconnu internationalement"
+      - "Couleur noire"
+      - "Couleur bleue"
+    bonnes:
+      - 1
+    explication: "Les emballages agréés et homologués sont reconnaissables à leur couleur jaune et à leur pictogramme spécifique."
+  - id: q2
+    enonce: "Que fait-on d'une aiguille usagée ?"
+    propositions:
+      - "On la recapuchonne avant de la jeter"
+      - "On la sépare de la seringue avant de la mettre dans le collecteur"
+      - "On la dépose sans recapuchonnage, sans séparation, dans le collecteur"
+      - "On la jette avec les ordures ménagères"
+    bonnes:
+      - 2
+    explication: "Ne jamais recapuchonner ni séparer les aiguilles d'une seringue ou d'une tubulure avant de les mettre dans le collecteur ; ne pas jeter de DASRI aux ordures ménagères."
+  - id: q3
+    enonce: "Quel emballage pour les déchets tranchants, coupants et piquants ?"
+    propositions:
+      - "Un sac souple étanche"
+      - "Un collecteur en plastique rigide"
+      - "Un sac en papier"
+    bonnes:
+      - 1
+    explication: "Sacs souples étanches pour les déchets mous ; collecteurs en plastique rigide pour les déchets tranchants, coupants et piquants."
+  - id: q4
+    enonce: "Quelles règles s'appliquent au remplissage de l'emballage ?"
+    propositions:
+      - "Tasser les déchets pour gagner de la place"
+      - "Ne pas dépasser la limite indiquée"
+      - "Fermer l'emballage au taux maximum de remplissage ou à la date de péremption"
+      - "Laisser l'emballage ouvert sur les lieux"
+    bonnes:
+      - 1
+      - 2
+    explication: "On ne remplit pas au-delà de la limite indiquée, on ne tasse pas, et on ferme définitivement au taux maximum ou à la date de péremption."
+  - id: q5
+    enonce: "Quels déchets vont dans un emballage DASRI ?"
+    propositions:
+      - "Compresses ou pansements fortement imprégnés de sang"
+      - "Lames de rasoir, scalpels"
+      - "Emballages papier propres"
+    bonnes:
+      - 0
+      - 1
+    explication: "Matériels piquants, coupants, tranchants et déchets fortement imprégnés de sang, sécrétions ou excrétions avec risque d'écoulement."

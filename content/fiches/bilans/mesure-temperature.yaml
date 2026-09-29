@@ -1,0 +1,111 @@
+id: mesure-temperature
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 21
+titre: Mesure de la température
+motsCles: [température, hypothermie, hyperthermie, thermomètre auriculaire, tympanique, thermomètre hypothermique]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT14, 07-2026)
+  code: 04FT14
+  page: 101
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "La température est mesurée systématiquement chez toute victime suspecte d'hypothermie ou d'hyperthermie (victime anormalement chaude ou froide au toucher lors de l'examen). L'objectif est de dépister une augmentation (hyperthermie) ou une diminution (hypothermie) de la température."
+  - type: liste
+    titre: Types de thermomètres
+    items:
+      - "Tympanique (auriculaire) : mesure la chaleur infrarouge émise par la membrane du tympan ; couvre-sondes à usage unique, écran, bouton de mesure, batteries."
+      - "Électronique : mesure rectale, buccale ou axillaire selon le modèle ; signal sonore après environ soixante secondes ; selon la localisation, ajouter entre un demi et un degré au résultat (cf. notice fabricant)."
+      - "Médical (liquide remplaçant le mercure) : mesure rectale ou axillaire ; résultat après environ trois minutes ; lu en inclinant le thermomètre de profil."
+      - "Frontal : barrette plastique posée sur le front, ou thermomètre infrarouge avec contact ou à distance."
+      - "Hypothermique : conçu pour les températures très basses (à partir de 25 °C ou moins) afin de détecter et suivre une hypothermie sévère."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: 36,5 à 37,5 °C
+        libelle: Température normale
+      - valeur: "≈ 60 s"
+        libelle: Thermomètre électronique
+      - valeur: "≈ 3 min"
+        libelle: Thermomètre médical
+      - valeur: "< 3 mois"
+        libelle: Thermomètre auriculaire interdit (nourrisson)
+  - type: etapes
+    titre: Prise auriculaire (seule technique décrite)
+    items:
+      - Placer un couvre-sonde à usage unique sur la sonde.
+      - Saisir le pavillon de l'oreille et exercer une légère traction vers le haut et vers l'arrière.
+      - Positionner sonde et couvre-sonde à l'entrée du conduit auditif externe, puis pousser doucement dans le conduit.
+      - Appuyer sur le bouton de mesure.
+      - Retirer le thermomètre après le signal de fin de prise et noter la température affichée.
+      - Éjecter le couvre-sonde dans un conteneur de recueil de DASRI.
+      - Pour un autre type d'appareil, suivre le guide du constructeur.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Prévenir tout mouvement excessif de la tête pendant la mesure, pour limiter le risque traumatique.
+      - "Ne pas utiliser le thermomètre auriculaire chez un nourrisson de moins de 3 mois (conduit auditif plus étroit que la sonde) ni chez une victime d'un traumatisme auriculaire bilatéral (explosion, par exemple)."
+      - Une variation brusque de la température ambiante (passage de l'ambulance au froid extérieur) peut donner des chiffres erronés.
+  - type: liste
+    titre: Techniques recommandées selon l'âge
+    items:
+      - "De la naissance à 2 ans : 1 rectale (indiquée) ; 2 axillaire (dépistage des enfants peu vulnérables)."
+      - "De 2 à 5 ans : 1 rectale (indiquée) ; 2 axillaire ou tympanique (dépistage)."
+      - "Au-delà de 5 ans : 1 buccale (définitive) ; 2 axillaire, tympanique, frontale (dépistage)."
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - La température s'affiche correctement à la fin de la mesure.
+qcm:
+  - id: q1
+    enonce: "À partir de quel âge le thermomètre auriculaire peut-il être utilisé ?"
+    propositions:
+      - Dès la naissance
+      - À partir de 3 mois
+      - À partir de 5 ans uniquement
+    bonnes:
+      - 1
+    explication: "Il ne doit pas être utilisé chez un nourrisson de moins de 3 mois, le conduit auditif étant plus étroit que la sonde."
+  - id: q2
+    enonce: "Quel geste facilite l'introduction de la sonde auriculaire ?"
+    propositions:
+      - Traction du pavillon vers le bas et vers l'avant
+      - Traction du pavillon vers le haut et vers l'arrière
+      - Pression sur le tragus
+    bonnes:
+      - 1
+    explication: "Saisir le pavillon et exercer une légère traction vers le haut et vers l'arrière."
+  - id: q3
+    enonce: "Quel thermomètre permet de suivre une hypothermie sévère ?"
+    propositions:
+      - Frontal à barrette
+      - Thermomètre hypothermique
+      - Thermomètre tympanique standard
+      - Thermomètre médical
+    bonnes:
+      - 1
+    explication: "Le thermomètre hypothermique mesure à partir de 25 °C ou moins ; un thermomètre ordinaire ne le permet pas."
+  - id: q4
+    enonce: "Quelle technique est recommandée en priorité de la naissance à 2 ans ?"
+    propositions:
+      - Buccale
+      - Frontale
+      - Rectale
+      - Tympanique
+    bonnes:
+      - 2
+    explication: "Rectale en premier choix jusqu'à 5 ans ; axillaire (et tympanique de 2 à 5 ans) pour le dépistage ; au-delà de 5 ans, buccale."
+  - id: q5
+    enonce: "Quelles situations peuvent fausser la mesure auriculaire ou la contre-indiquer ?"
+    propositions:
+      - Traumatisme auriculaire bilatéral
+      - Variation brusque de la température ambiante
+      - Victime parlant à voix basse
+    bonnes:
+      - 0
+      - 1
+    explication: "Le traumatisme auriculaire bilatéral contre-indique la mesure ; une variation brusque de température ambiante peut donner des chiffres erronés."

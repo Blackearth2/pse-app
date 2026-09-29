@@ -1,0 +1,123 @@
+id: mesure-glycemie-capillaire
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 20
+titre: Mesure de la glycémie capillaire
+motsCles: [glycémie capillaire, hypoglycémie, lecteur de glycémie, autopiqueur, AES, "0,6 g/l"]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT13, 07-2026)
+  code: 04FT13
+  page: 99
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "En situation d'urgence et en l'absence d'un infirmier ou d'un médecin, le secouriste mesure la glycémie devant toute victime présentant les signes suivants. La mesure peut aussi être faite à la demande du médecin régulateur."
+  - type: liste
+    titre: Situations concernées
+    items:
+      - Signes évoquant un accident vasculaire cérébral.
+      - "Malaise susceptible d'être lié à une hypoglycémie : malaise chez un diabétique, malaise à l'effort, à jeun."
+      - Troubles du comportement (agitation, prostration, agressivité).
+      - Perte de connaissance.
+  - type: chiffres
+    titre: Seuil de resucrage
+    items:
+      - valeur: "< 0,6 g/l"
+        libelle: Seuil pouvant faire décider l'administration de sucre
+      - valeur: "< 60 mg/dl"
+        libelle: Même seuil, autre unité
+      - valeur: "< 3,3 mmol/ml"
+        libelle: Même seuil, unité indiquée dans le document
+  - type: liste
+    titre: Matériel
+    items:
+      - Lecteur de glycémie (certains nécessitent une calibration préalable) et bandelettes réactives adaptées.
+      - Manuel d'utilisation.
+      - Autopiqueurs (lancettes autorétractables).
+      - Savon et compresses.
+      - Gants à usage unique non stériles.
+      - Collecteur OPTC (objets piquants, tranchants, coupants) et sac à DASRI.
+      - "Le stockage, notamment des bandelettes, respecte les conditions d'humidité et de température du fabricant."
+  - type: texte
+    titre: Si la victime a son propre lecteur
+    contenu: "Si la victime ou un aidant a l'habitude de mesurer la glycémie, le laisser faire ou l'aider. Même si la victime porte un dispositif de mesure en continu, il faut mesurer la glycémie capillaire."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - Installer la victime confortablement et lui expliquer le geste.
+      - Préparer le matériel.
+      - Se frictionner les mains avec une solution hydroalcoolique et mettre des gants à usage unique non stériles.
+      - Nettoyer l'extrémité du doigt avec une compresse imbibée d'eau ou d'eau et de savon, puis sécher avec une seconde compresse.
+      - Insérer une bandelette dans le lecteur comme indiqué par le fabricant (le lecteur s'allume) et attendre le signal de disponibilité.
+      - "Poser l'autopiqueur à usage unique sur la face latérale de l'extrémité du doigt (troisième phalange du majeur, de l'annulaire ou de l'auriculaire ; exclure le pouce et l'index)."
+      - Prévenir la victime et déclencher la piqûre.
+      - Comprimer le doigt en amont de la troisième phalange pour obtenir une grosse goutte de sang.
+      - "Mettre la fente de la bandelette au contact de la goutte : le sang est aspiré par capillarité."
+      - Lire le résultat au bout de quelques secondes.
+      - Appliquer une compresse sur la piqûre et comprimer jusqu'à l'arrêt du saignement.
+      - Jeter l'autopiqueur dans le collecteur OPTC, la bandelette dans le sac à DASRI.
+      - Transmettre le résultat en indiquant son unité de mesure, puis éteindre le lecteur.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Une piqûre accidentelle du secouriste est un AES : appliquer la conduite à tenir spécifique."
+      - Les bandelettes périmées ne doivent pas être utilisées ; non utilisées, elles peuvent être éliminées avec les ordures ménagères.
+      - Certains appareils donnent seulement une indication, sans taux, quand la glycémie est très haute ou très basse.
+      - Entretenir l'appareil selon le fabricant ; en cas de message d'erreur, se reporter à la notice.
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - L'appareil affiche dans les délais impartis, sans message d'erreur, le taux de sucre dans le sang.
+qcm:
+  - id: q1
+    enonce: "Quel seuil de glycémie peut conduire à décider l'administration de sucre ?"
+    propositions:
+      - Inférieur à 0,6 g/l
+      - Inférieur à 1,2 g/l
+      - Supérieur à 1,8 g/l
+      - Inférieur à 0,2 g/l
+    bonnes:
+      - 0
+    explication: "Le seuil est de moins de 60 mg/dl, soit moins de 0,6 g/l."
+  - id: q2
+    enonce: "Sur quels doigts pique-t-on ?"
+    propositions:
+      - Pouce ou index
+      - Majeur, annulaire ou auriculaire, sur la face latérale de l'extrémité
+      - Uniquement l'index
+    bonnes:
+      - 1
+    explication: "Face latérale de l'extrémité (troisième phalange) du majeur, de l'annulaire ou de l'auriculaire, en excluant le pouce et l'index."
+  - id: q3
+    enonce: "Chez quelles victimes mesure-t-on la glycémie ?"
+    propositions:
+      - Signes évocateurs d'AVC
+      - Perte de connaissance
+      - Troubles du comportement
+      - Plaie superficielle isolée
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "AVC suspecté, malaise (diabétique, effort, à jeun), troubles du comportement, perte de connaissance, ou demande du médecin régulateur."
+  - id: q4
+    enonce: "Où jette-t-on l'autopiqueur usagé ?"
+    propositions:
+      - Dans le sac à DASRI
+      - Dans le collecteur OPTC
+      - Dans une poubelle ordinaire
+    bonnes:
+      - 1
+    explication: "L'autopiqueur va dans le collecteur OPTC ; la bandelette utilisée dans le sac à DASRI."
+  - id: q5
+    enonce: "La victime porte un dispositif de mesure continue de la glycémie. Que fait-on ?"
+    propositions:
+      - On se fie à son dispositif
+      - On mesure quand même la glycémie capillaire
+      - On ne mesure rien
+    bonnes:
+      - 1
+    explication: "Même avec un dispositif en continu, il faut mesurer la glycémie capillaire."

@@ -1,0 +1,81 @@
+id: evaluation-impact-psychologique
+niveau: PSE1
+chapitre: attitude-comportement
+type: technique
+ordre: 7
+titre: Évaluation de l'impact psychologique
+motsCles: [impact psychologique, bilan secouriste, observer, présentation, état de conscience, vigilance, expression, détresse psychologique]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01FT01, 11-2021)
+  code: 01FT01
+  page: 25
+liees: [attitude-comportement-secouriste, stabiliser-etat-psycho-physiologique, preservation-potentiel-mental]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Au même titre que les détresses vitales, l'évaluation de l'impact psychologique fait partie intégrante du bilan secouriste. Les éléments révélant un impact psychologique potentiel sont recherchés et transmis comme les paramètres vitaux."
+  - type: liste
+    titre: Pourquoi évaluer (risques si la détresse n'est pas prise en compte)
+    items:
+      - "Parasiter ou complexifier le travail des secouristes : manifestations émotionnelles difficiles à contenir, victime non coopérante, opposante ou agressive."
+      - "Impacter les paramètres vitaux et les ressentis : élévation du rythme cardiaque, augmentation de la perception de la douleur."
+      - "Engendrer des répercussions psychologiques négatives à plus long terme (troubles liés à des traumatismes ou facteurs de stress)."
+  - type: liste
+    titre: Observer — la présentation
+    items:
+      - "Expression du visage et regard : état affectif et émotionnel, en cohérence avec les propos ?"
+      - "Comportement et gestuelle : attitude générale calme, agitée, coopérante, réticente ?"
+      - "Blessures, marques visibles, attitudes particulières pouvant révéler un état douloureux ou autre."
+  - type: liste
+    titre: Observer — l'état de conscience
+    items:
+      - "Vigilance : capacité à réagir de façon appropriée aux événements et à prendre des décisions (hypervigilante, hypovigilante, désorientée dans le temps et l'espace ?)."
+      - "Mémoire : troubles de la mémoire, amnésie ; capacité à se remémorer les faits et à retenir de nouvelles informations."
+      - "Langage : discours accéléré ou ralenti, bégaiement, répétition, anomalies, particularité de la voix."
+      - "Jugement et raisonnement : capacité à penser, analyser, émettre un avis."
+  - type: liste
+    titre: Observer — l'expression
+    items:
+      - "Contenu du discours, ce dont la personne se plaint."
+      - "Ce qu'elle dit de ses émotions et de son état d'esprit."
+      - "Sa façon de percevoir son environnement et les autres : semble-t-elle consciente de sa situation, sa perception est-elle cohérente avec la réalité ?"
+  - type: attention
+    titre: Points d'attention
+    items:
+      - "Les signes de détresse psychologique non pris en compte peuvent compliquer l'intervention et majorer la douleur perçue."
+      - "L'évaluation porte sur trois axes : présentation, état de conscience, expression ; les éléments doivent être transmis avec les paramètres vitaux."
+qcm:
+  - id: q1
+    enonce: "Quels sont les trois axes d'observation de l'impact psychologique dans le bilan ?"
+    propositions:
+      - "Présentation, état de conscience, expression"
+      - "Pouls, pression artérielle, température"
+      - "Respiration, circulation, conscience"
+    bonnes: [0]
+    explication: "L'observation porte sur la présentation, l'état de conscience (vigilance, mémoire, langage, jugement) et l'expression."
+  - id: q2
+    enonce: "Que risque-t-il de se produire si des signes de détresse psychologique ne sont pas pris en compte ?"
+    propositions:
+      - "Aucune conséquence pour le bilan"
+      - "Complexification du travail des secouristes"
+      - "Élévation du rythme cardiaque et augmentation de la perception de la douleur"
+      - "Répercussions psychologiques négatives à plus long terme"
+    bonnes: [1, 2, 3]
+    explication: "Le référentiel cite le travail parasité, l'impact sur les paramètres vitaux et les ressentis (rythme cardiaque, douleur) et les répercussions psychologiques à plus long terme."
+  - id: q3
+    enonce: "Quels éléments relèvent de la vigilance dans l'état de conscience ?"
+    propositions:
+      - "Hypervigilance, hypovigilance, désorientation temporelle et spatiale"
+      - "Couleur de la peau"
+      - "Existence d'antécédents médicaux"
+    bonnes: [0]
+    explication: "La vigilance est la capacité à réagir de façon appropriée aux événements ; elle peut être hypervigilante, hypovigilante ou désorientée dans le temps et l'espace."
+  - id: q4
+    enonce: "Comment les éléments révélant un impact psychologique doivent-ils être traités ?"
+    propositions:
+      - "Ignorés s'ils ne gênent pas l'intervention"
+      - "Recherchés et transmis au même titre que les paramètres vitaux"
+      - "Notés uniquement en fin d'intervention"
+    bonnes: [1]
+    explication: "Ils nécessitent d'être recherchés et transmis au même titre que les paramètres vitaux."

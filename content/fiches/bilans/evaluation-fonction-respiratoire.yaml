@@ -1,0 +1,113 @@
+id: evaluation-fonction-respiratoire
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 14
+titre: Évaluation de la fonction respiratoire
+motsCles: [fonction respiratoire, fréquence ventilatoire, SpO2, détresse respiratoire, recherche de la respiration, valeurs normales]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT07, 12-2022)
+  code: 04FT07
+  page: 82
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "L'évaluation de la fonction respiratoire, fonction vitale, est réalisée lors du bilan et de la surveillance. Elle permet de rechercher la présence de la respiration (2e regard), d'identifier une détresse respiratoire (3e regard) ou des signes d'évolution vers une détresse (4e regard), et de suivre l'évolution et l'efficacité des gestes. Matériel : un chronomètre ou équivalent et un oxymètre de pouls."
+  - type: liste
+    titre: Trois temps
+    items:
+      - "Rechercher la présence de la respiration (2e regard)."
+      - "Apprécier la fonction respiratoire (3e regard et surveillance) : plaintes de la victime, constatations visuelles, auditives ou tactiles du secouriste."
+      - "Mesurer (4e regard et surveillance) : fréquence ventilatoire et saturation pulsée en oxygène (SpO2)."
+  - type: etapes
+    titre: Rechercher la respiration (victime inconsciente)
+    items:
+      - Assurer la liberté des voies aériennes.
+      - Se pencher sur la victime, l'oreille et la joue au-dessus de sa bouche et de son nez.
+      - "Rechercher pendant dix secondes au plus : avec la joue, le flux d'air expiré ; avec l'oreille, les bruits normaux (souffle) ou anormaux (sifflement, ronflement, gargouillement) ; avec les yeux, le soulèvement du ventre ou de la poitrine."
+  - type: etapes
+    titre: Apprécier la respiration
+    items:
+      - Écouter les dires de la victime et la facilité avec laquelle elle parle ou respire.
+      - "Observer la respiration pendant 15 secondes environ (rapidité, amplitude, régularité) en regardant la partie supérieure de l'abdomen et du thorax, ou en plaçant une main à cheval sur la partie inférieure du sternum et le haut de l'abdomen."
+      - "Apprécier la coloration de la peau (face, extrémités) et des muqueuses (lèvres)."
+  - type: liste
+    titre: Conditions normales
+    items:
+      - La victime ventile sans s'en apercevoir, ne s'en plaint pas et parle facilement, sans essoufflement.
+      - La respiration est silencieuse, sans bruit surajouté ni difficulté.
+      - "Mouvements ventilatoires identifiables environ toutes les 5 secondes chez l'adulte (3 à 4 secondes chez l'enfant), visibles, sans effort particulier, symétriques, réguliers, sans pause de plus de six secondes."
+      - La peau est colorée et sèche ; les muqueuses sont rosées.
+  - type: etapes
+    titre: Mesurer
+    items:
+      - "Compter les mouvements ventilatoires pendant une minute au chronomètre (un mouvement = un soulèvement et un abaissement de la poitrine)."
+      - Mesurer la SpO2 avec un oxymètre de pouls.
+  - type: chiffres
+    titre: Fréquence ventilatoire selon l'âge (mouvements par minute)
+    items:
+      - valeur: 12 à 20
+        libelle: Adulte
+      - valeur: 20 à 30
+        libelle: Enfant
+      - valeur: 30 à 40
+        libelle: Nourrisson
+      - valeur: 40 à 60
+        libelle: Nouveau-né
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - Mesurer avec un appareil ne doit pas retarder les gestes de secours en présence d'une détresse.
+      - L'évaluation doit permettre d'identifier une détresse respiratoire ou des signes d'une détresse en voie de constitution.
+qcm:
+  - id: q1
+    enonce: "Combien de temps au plus dure la recherche de la respiration chez une victime inconsciente ?"
+    propositions:
+      - 5 secondes
+      - 10 secondes
+      - 15 secondes
+      - 30 secondes
+    bonnes:
+      - 1
+    explication: "La recherche de la respiration dure dix secondes au plus ; l'observation pour apprécier la respiration dure environ 15 secondes."
+  - id: q2
+    enonce: "Quelle est la fréquence ventilatoire normale chez l'adulte ?"
+    propositions:
+      - 8 à 12 mouvements par minute
+      - 12 à 20 mouvements par minute
+      - 20 à 30 mouvements par minute
+      - 40 à 60 mouvements par minute
+    bonnes:
+      - 1
+    explication: "Adulte : 12 à 20 ; enfant : 20 à 30 ; nourrisson : 30 à 40 ; nouveau-né : 40 à 60 mouvements par minute."
+  - id: q3
+    enonce: "Quelles observations correspondent à une respiration normale ?"
+    propositions:
+      - Mouvements symétriques et réguliers
+      - Pause respiratoire de dix secondes
+      - Respiration silencieuse sans bruit surajouté
+      - Muqueuses bleutées
+    bonnes:
+      - 0
+      - 2
+    explication: "Une respiration normale est silencieuse, symétrique, régulière, sans pause de plus de six secondes, avec des muqueuses rosées."
+  - id: q4
+    enonce: "Comment compte-t-on la fréquence ventilatoire ?"
+    propositions:
+      - Sur 15 secondes, multiplié par 4
+      - Sur une minute avec un chronomètre ou équivalent
+      - Sur 10 secondes seulement
+    bonnes:
+      - 1
+    explication: "Compter le nombre de mouvements sur une minute ; un mouvement équivaut à un soulèvement et un abaissement de la poitrine."
+  - id: q5
+    enonce: "Que doit-on faire si l'on mesure la fonction respiratoire avec un appareil chez une victime en détresse ?"
+    propositions:
+      - Terminer la mesure avant tout geste
+      - Ne pas retarder les gestes de secours
+      - Attendre l'avis du médecin
+    bonnes:
+      - 1
+    explication: "La mesure avec un appareil ne doit pas retarder la réalisation des gestes de secours en présence d'une détresse."

@@ -1,0 +1,107 @@
+id: respiration-controlee
+niveau: PSE1
+chapitre: attitude-comportement
+type: technique
+ordre: 10
+titre: La respiration contrôlée
+motsCles: [respiration contrôlée, expiration, respiration abdominale, respiration complète, système parasympathique, relaxation, stress]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01FT04, 11-2021)
+  code: 01FT04
+  page: 30
+liees: [stabiliser-etat-psycho-physiologique, focalisation-defocalisation, preservation-potentiel-mental]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La respiration est la seule fonction à la fois volontaire et involontaire. Son contrôle volontaire régule les états internes via le système nerveux autonome (orthosympathique, l'accélérateur ; parasympathique, le frein). Chez une victime stressée, la respiration est souvent rapide et superficielle : l'objectif est d'induire une respiration relaxante. La technique est aussi applicable par le secouriste pour lui-même."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "3 temps d'expiration minimum pour 1 temps d'inspiration"
+        libelle: Effet de détente
+      - valeur: "3 temps d'inspiration pour 1 temps d'expiration brève"
+        libelle: Effet dynamisant
+      - valeur: "Expiration 3, 4 ou 5 fois plus longue que l'inspiration"
+        libelle: Pour se relaxer
+      - valeur: "Sur 3 à 5 minutes"
+        libelle: Durée de l'exercice en pratique
+      - valeur: "Inspiration 2 temps, expiration 6 temps"
+        libelle: Exemple de respiration complète
+      - valeur: "Inspiration 3 temps, expiration 6 temps"
+        libelle: Exemple de respiration abdominale
+      - valeur: "Rétention de l'air 3 temps maximum"
+        libelle: Variante de respiration abdominale, après l'inspiration
+  - type: liste
+    titre: Deux types de respiration
+    items:
+      - "Respiration complète : mobilise successivement ou simultanément les trois étages respiratoires, abdominal, thoracique et scapulaire (ventre, thorax, épaules)."
+      - "Respiration abdominale : gonfler le ventre pour inspirer et le rentrer pour expirer, sans mobiliser thorax ni épaules ; inspiration lente et profonde par le nez, main sur le ventre, expiration profonde par la bouche."
+  - type: liste
+    titre: Principes pour se relaxer
+    items:
+      - "Insister sur l'expiration, lente, ample et profonde, pour activer le système parasympathique (relâchement musculaire, baisse de la tension artérielle, ralentissement des pulsations) et bloquer les effets anxiogènes du système sympathique (adrénaline, accélération du rythme cardiaque, hausse de la tension musculaire)."
+      - "Veiller à des volumes inspiratoires et expiratoires identiques : une expiration forcée entraîne par réflexe une inspiration profonde, dynamisante, donc l'effet inverse de celui recherché."
+      - "En cas de difficulté, demander à la personne de se concentrer uniquement sur l'expiration : l'inspiration suit automatiquement."
+      - "Associer des images de détente (mer calme, musique douce) ou des mots (« relax », « calme ») accentue l'effet relaxant."
+  - type: etapes
+    titre: Réalisation (3 à 5 minutes)
+    items:
+      - "Respiration complète : inspirer avec les 3 étages en 2 temps, expirer lentement et profondément sur 6 temps, laisser venir des images de calme et de détente, répéter plusieurs fois, puis reprendre le rythme habituel."
+      - "Respiration abdominale : main sur le ventre, inspirer lentement et profondément par le nez en gonflant le ventre sur 3 temps, expirer par la bouche en rentrant le ventre sur 6 temps, répéter avec des inspirations et expirations amples, le ventre gonflé comme un ballon et la poitrine qui bouge le moins possible."
+      - "Autre exemple : après avoir inspiré sur 3 temps, retenir l'air (maximum 3 temps), expirer sans effort, comme un ballon qui se dégonfle, sur 6 temps, à son rythme."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "La pathologie de la victime peut contre-indiquer la mise en œuvre d'une respiration contrôlée, ou l'une des techniques (complète ou abdominale)."
+      - "Une expiration forcée déclenche une inspiration profonde dynamisante : l'inverse de l'effet recherché."
+qcm:
+  - id: q1
+    enonce: "Pour induire la détente, quel rapport minimal entre temps d'expiration et temps d'inspiration ?"
+    propositions:
+      - "1 temps d'expiration pour 1 temps d'inspiration"
+      - "3 temps d'expiration minimum pour 1 temps d'inspiration"
+      - "1 temps d'expiration pour 3 temps d'inspiration"
+    bonnes: [1]
+    explication: "Prolonger l'expiration (3 temps minimum pour 1 d'inspiration) favorise la détente ; l'inverse est dynamisant."
+  - id: q2
+    enonce: "Quelle est la durée de l'exercice de respiration contrôlée en pratique ?"
+    propositions:
+      - "30 secondes"
+      - "3 à 5 minutes"
+      - "15 à 20 minutes"
+    bonnes: [1]
+    explication: "Le référentiel indique une pratique sur 3 à 5 minutes."
+  - id: q3
+    enonce: "Pourquoi éviter une expiration forcée ?"
+    propositions:
+      - "Elle bloque le système parasympathique définitivement"
+      - "Elle provoque par réflexe une inspiration profonde dynamisante, effet inverse de la détente"
+      - "Elle est douloureuse pour le thorax"
+    bonnes: [1]
+    explication: "Une expiration forcée entraîne une inspiration profonde, dynamisante, par un mécanisme réflexe."
+  - id: q4
+    enonce: "Parmi ces éléments, lesquels caractérisent la respiration abdominale ?"
+    propositions:
+      - "Gonfler le ventre à l'inspiration et le rentrer à l'expiration"
+      - "Mobiliser thorax et épaules"
+      - "Inspiration lente et profonde par le nez, main sur le ventre"
+      - "Expiration profonde par la bouche"
+    bonnes: [0, 2, 3]
+    explication: "La respiration abdominale ne mobilise ni thorax ni épaules ; ceux-ci relèvent de la respiration complète."
+  - id: q5
+    enonce: "Quelles branches du système nerveux autonome sont comparées à l'accélérateur et au frein ?"
+    propositions:
+      - "Parasympathique = accélérateur, orthosympathique = frein"
+      - "Orthosympathique = accélérateur, parasympathique = frein"
+      - "Somatique = accélérateur, sympathique = frein"
+    bonnes: [1]
+    explication: "La branche orthosympathique est l'accélérateur, la branche parasympathique le frein."
+  - id: q6
+    enonce: "Que peut-on faire si la victime a du mal à respirer selon le rythme demandé ?"
+    propositions:
+      - "Lui faire forcer l'expiration"
+      - "Lui demander de se concentrer uniquement sur l'expiration, l'inspiration suivant automatiquement"
+      - "Arrêter et ne rien proposer"
+    bonnes: [1]
+    explication: "En cas de difficulté, le secouriste demande de se concentrer uniquement sur l'expiration ; l'inspiration se fait ensuite automatiquement."

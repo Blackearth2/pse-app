@@ -5,3 +5,6 @@ coverage
 *.local
 .DS_Store
 Thumbs.db
+
+# Référentiel officiel : consulté en local, non republié
+docs/*.pdf

@@ -1,0 +1,81 @@
+id: abord-relationnel-pratique
+niveau: PSE1
+chapitre: attitude-comportement
+type: procedure
+ordre: 4
+titre: L'abord relationnel en pratique
+motsCles: [abord relationnel, question ouverte, reformuler, poser le cadre, alliance, passer le relais, honnêteté]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01PR01, 11-2021)
+  code: 01PR01
+  page: 17
+liees: [attitude-comportement-secouriste, ecoute-active, intervenir-aupres-enfant]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'abord relationnel vise à assurer une écoute et à établir le contact et le dialogue. Il favorise souvent l'apaisement émotionnel et permet de rechercher les éléments essentiels du bilan avant d'engager les actions nécessaires."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Aborder la victime : privilégier un interlocuteur principal au sein de l'équipe (de préférence celui vers lequel la victime se tourne le plus naturellement), n'en changer que si la communication n'est plus efficace."
+      - "Établir le contact : hors urgence vitale, prendre le temps de se présenter (« Mr X, je m'appelle Y, je suis secouriste ») ; nommer la personne si l'on obtient son identité ; n'employer le prénom qu'après avoir obtenu sa permission."
+      - "Expliquer les raisons de la présence et le but de l'intervention si le contexte le permet (« Je suis là pour vous aider », « je reste avec vous »)."
+      - "Instaurer le dialogue et la confiance en commençant par une question ouverte (« Pouvez-vous me dire ce qu'il se passe ? », « Comment puis-je vous aider ? »)."
+      - "Poser le cadre : annoncer le déroulé (bilan, point avec le médecin, décision éventuelle de transport à l'hôpital)."
+      - "Informer et expliquer chaque geste avant de le réaliser (main sur le ventre pour évaluer la respiration, masque à oxygène)."
+      - "Reconnaître la situation et le caractère déstabilisant de l'événement, nommer l'émotion perçue (« Vous vivez un événement stressant », « Je vous sens en colère »)."
+      - "Questionner la problématique repérée quand elle n'est pas exprimée spontanément (suspicion de violence subie, intention suicidaire) par des questions directes."
+      - "Reformuler pour s'assurer d'avoir bien compris ce qui est exprimé verbalement et non verbalement (cf. écoute active)."
+      - "Favoriser l'alliance en impliquant la victime : solliciter son accord, paroles encourageantes et positives ; demander ce qui la soulage ou ce qui a marché la dernière fois, ce dont elle a besoin ; proposer d'appeler une personne qui la soutient ; être honnête."
+      - "Passer le relais : préparer le passage (prise en charge, orientation, hospitalisation), présenter la victime à l'équipe qui prend le relais, saluer la victime avec des paroles encourageantes."
+  - type: attention
+    titre: Points d'attention
+    items:
+      - "Honnêteté : aborder la réalité de la situation avec tact, ne pas mentir et ne pas faire de promesses sauf si l'on est certain de pouvoir les tenir."
+      - "Ne pas changer d'interlocuteur principal sans nécessité."
+      - "Le prénom ne s'emploie qu'avec la permission de la personne."
+      - "Ne pas laisser de côté les problématiques sensibles (violences, intention suicidaire) : elles sont à questionner lorsqu'elles ne sont pas spontanément explicitées."
+qcm:
+  - id: q1
+    enonce: "Par quel type de question est-il recommandé de commencer pour instaurer le dialogue ?"
+    propositions:
+      - "Une question fermée (oui/non)"
+      - "Une question ouverte"
+      - "Une question sur les antécédents médicaux"
+    bonnes: [1]
+    explication: "Le secouriste commence par une question ouverte pour permettre à la victime d'entamer la discussion et d'expliquer ce qu'elle vit."
+  - id: q2
+    enonce: "À quelle condition peut-on appeler la victime par son prénom ?"
+    propositions:
+      - "Toujours, pour créer de la proximité"
+      - "Après avoir obtenu la permission de la personne"
+      - "Jamais"
+      - "Uniquement si la victime est un homme"
+    bonnes: [1]
+    explication: "Le prénom peut faciliter la relation mais ne sera employé qu'après avoir obtenu la permission de la personne concernée."
+  - id: q3
+    enonce: "Comment s'organise l'interlocuteur au sein de l'équipe ?"
+    propositions:
+      - "Tous les équipiers parlent à tour de rôle"
+      - "Un interlocuteur principal, de préférence celui vers lequel la victime se tourne naturellement, changé seulement si la communication n'est plus efficace"
+      - "Le chef d'équipe seul, sans exception"
+    bonnes: [1]
+    explication: "Le référentiel recommande un interlocuteur principal, à ne changer que si la communication devient inefficace."
+  - id: q4
+    enonce: "Que faire lorsqu'une problématique (violence subie, intention suicidaire) est suspectée mais non exprimée ?"
+    propositions:
+      - "L'ignorer pour ne pas déstabiliser la victime"
+      - "La questionner directement"
+      - "Attendre l'arrivée du médecin sans en parler"
+    bonnes: [1]
+    explication: "Le secouriste questionne la problématique repérée lorsqu'elle n'est pas spontanément explicitée (par exemple : « Avez-vous subi des violences ? »)."
+  - id: q5
+    enonce: "Quelles attitudes correspondent à l'honnêteté attendue du secouriste ?"
+    propositions:
+      - "Aborder la réalité de la situation avec tact"
+      - "Ne pas faire de promesses sauf si l'on est certain de pouvoir les tenir"
+      - "Rassurer en affirmant que tout ira bien"
+      - "Ne pas mentir"
+    bonnes: [0, 1, 3]
+    explication: "Il est primordial de ne pas mentir et de ne pas faire de promesses à moins d'être certain de les tenir, en abordant la réalité avec tact."

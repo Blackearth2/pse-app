@@ -1,0 +1,88 @@
+id: retournement-deux-secouristes
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 8
+titre: Retournement à deux secouristes
+motsCles: [retournement, victime sur le ventre, traumatisme du rachis, axe tête-cou-tronc, deux secouristes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT01, 12-2023)
+  code: 04FT01
+  page: 73
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "Technique indiquée après avoir trouvé une victime sur le ventre. Elle est réalisée systématiquement lorsque l'on est en équipe et que la victime est suspecte d'un traumatisme du rachis. Aucun matériel n'est nécessaire."
+  - type: liste
+    titre: Justification (pourquoi mettre la victime sur le dos)
+    items:
+      - Libérer les voies aériennes et rechercher les signes de respiration.
+      - Réaliser les gestes d'urgence (ventilation artificielle, compressions thoraciques).
+      - Examiner la victime en vue d'une éventuelle immobilisation.
+  - type: etapes
+    titre: Secouriste 1 (tête) et secouriste 2 (corps)
+    items:
+      - "Le retournement s'effectue du côté opposé au visage de la victime."
+      - "Secouriste 1 : se placer dans le prolongement de la tête, un genou à terre, l'autre en l'air du côté du retournement ; saisir la tête à deux mains (prise occipito-frontale, ou latéro-latérale si la victime porte un casque) sans la bouger."
+      - "Secouriste 2 : allonger le membre supérieur de la victime le long du corps, du côté du retournement ; glisser sa main sous la cuisse."
+      - "Secouriste 2 : se placer dans une position stable (à genoux ou en trépied) du côté du retournement, à distance suffisante ; saisir la victime par l'épaule et par la hanche du côté opposé au retournement."
+      - "Secouriste 1 annonce : « Êtes-vous prêt ? » ; secouriste 2 répond : « Prêt ! » ; secouriste 1 : « Attention pour tourner… Tournez ! »."
+      - "Secouriste 2 fait rouler doucement et d'un seul bloc la victime sur le côté ; secouriste 1 accompagne la tête, qui effectue une rotation moindre que le corps, pour la ramener dans l'axe."
+      - "Victime sur le côté, secouriste 1 : « Halte ! - Repositionnez-vous ! » ; secouriste 2 repositionne ses mains et s'écarte pour pouvoir allonger la victime sans encombre."
+      - "Secouriste 1 : « Attention pour tourner… Tournez ! » ; secouriste 2 termine le retournement sur le dos, secouriste 1 maintient la tête dans l'axe."
+      - "Une fois la victime sur le dos, rechercher les signes de respiration et débuter si besoin les manœuvres de réanimation."
+  - type: liste
+    titre: Avec trois secouristes
+    items:
+      - Le troisième secouriste se place au niveau des membres inférieurs, les maintient et accompagne le mouvement.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Pour limiter le risque d'aggravation d'un traumatisme de la colonne cervicale, il est préférable de retourner la victime à deux sauveteurs au moins.
+      - À l'issue de la manœuvre, le maintien de la tête est conservé, éventuellement après s'être replacé pour adopter une position efficace.
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - L'axe tête-cou-tronc de la victime est maintenu le plus rectiligne possible tout au long du retournement.
+qcm:
+  - id: q1
+    enonce: "Le retournement à deux secouristes est réalisé systématiquement lorsque :"
+    propositions:
+      - La victime est en équipe et suspecte d'un traumatisme du rachis
+      - La victime est seule et consciente
+      - La victime respire normalement sur le dos
+      - Le secouriste est isolé
+    bonnes:
+      - 0
+    explication: "Technique indiquée pour une victime trouvée sur le ventre, systématique en équipe si un traumatisme du rachis est suspecté."
+  - id: q2
+    enonce: "De quel côté s'effectue le retournement ?"
+    propositions:
+      - Du côté du visage de la victime
+      - Du côté opposé au visage de la victime
+      - Indifféremment
+    bonnes:
+      - 1
+    explication: "Le retournement s'effectue du côté opposé au visage de la victime."
+  - id: q3
+    enonce: "Quel est le rôle du secouriste 1 pendant le retournement ?"
+    propositions:
+      - Faire rouler le corps d'un seul bloc
+      - Maintenir les membres inférieurs
+      - Tenir la tête à deux mains, la ramener dans l'axe et donner les commandements
+      - Rechercher le pouls carotidien
+    bonnes:
+      - 2
+    explication: "Le secouriste 1 tient la tête (prise occipito-frontale, ou latéro-latérale si casque), accompagne le mouvement et annonce les commandements ; le secouriste 2 fait rouler le corps."
+  - id: q4
+    enonce: "Quel critère permet de juger le retournement correct ?"
+    propositions:
+      - La victime est sur le côté gauche
+      - L'axe tête-cou-tronc est maintenu le plus rectiligne possible tout au long de la manœuvre
+      - La manœuvre dure moins de dix secondes
+      - Le casque est retiré
+    bonnes:
+      - 1
+    explication: "Le critère d'évaluation est le maintien de l'axe tête-cou-tronc le plus rectiligne possible."

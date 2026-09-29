@@ -1,0 +1,92 @@
+id: accident-exposition-risque-viral
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: connaissance
+ordre: 1
+titre: Accident d'exposition à un risque viral (connaissances)
+motsCles: [AEV, exposition au sang, VIH, VHB, VHC, liquides biologiques, projection, piqûre]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03AC01, 09-2014)
+  code: 03AC01
+  page: 43
+liees:
+  - conduite-accident-exposition-risque-viral
+  - risque-infectieux
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Un accident d'exposition à un risque viral (AEV) est toute exposition percutanée (piqûre ou coupure) ou tout contact direct sur une peau lésée ou des muqueuses (bouche, yeux) avec du sang ou un liquide biologique souillé par du sang."
+  - type: liste
+    titre: Liquides biologiques et risque de transmission
+    items:
+      - "Les liquides biologiques sont tous les éléments liquides issus du corps humain : sang, salive, urines, vomissures, liquide amniotique, liquide céphalo-rachidien…"
+      - "Le risque de transmission est prouvé pour les trois virus VIH, VHB et VHC par le sang et les liquides biologiques contenant du sang."
+      - "Urines et selles : risque considéré comme nul, sauf si elles contiennent du sang (liquides biologiques à risque prouvé)."
+      - "Sperme et sécrétions vaginales : risque de transmission intrinsèque pour VIH, VHB, VHC."
+      - "Salive : risque faible, mais liquide à risque prouvé dès qu'elle contient du sang (gencives fragiles, traumatisme facial)."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "Le sang est normalement stérile en dehors de toute maladie, mais peut véhiculer bactéries, champignons, parasites et virus. Des médicaments anti-infectieux efficaces existent pour la plupart des agents ; pour les virus de l'AEV (VIH, VHB, VHC), il y a peu de traitements curatifs. Le risque est plus important lors d'une effraction cutanée par un objet piquant, tranchant ou coupant que lors d'un simple contact avec la peau ou les muqueuses. Le risque lié à une projection de sang dans les yeux ne doit pas être négligé."
+  - type: liste
+    titre: Suspecter un AEV si
+    items:
+      - "Une coupure ou une piqûre s'est produite avec un objet ayant été en contact avec un liquide biologique contaminé par du sang (vomissements, sécrétions oropharyngées)."
+      - "Du sang ou un liquide biologique contenant du sang est projeté sur une muqueuse (en particulier yeux et bouche) ou sur une peau lésée (lésions non cicatrisées, maladies de la peau)."
+  - type: texte
+    titre: Principe de l'action de secours
+    contenu: "Réaliser immédiatement les soins adaptés en cas d'accident d'exposition à un risque viral avéré."
+  - type: attention
+    items:
+      - "Ne pas négliger une projection de sang dans les yeux."
+      - "Urines, selles : risque nul sauf présence de sang."
+qcm:
+  - id: q1
+    enonce: "Quelles situations définissent un accident d'exposition à un risque viral ?"
+    propositions:
+      - "Une piqûre ou une coupure avec un objet souillé de sang"
+      - "Un contact d'un liquide biologique souillé de sang avec une peau saine"
+      - "Une projection de sang sur les yeux ou la bouche"
+      - "Un contact de sang avec une peau lésée"
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "L'AEV est une exposition percutanée (piqûre, coupure) ou un contact direct sur peau lésée ou muqueuses (bouche, yeux) avec du sang ou un liquide souillé de sang. La peau saine n'entre pas dans la définition."
+  - id: q2
+    enonce: "Quels virus voient leur risque de transmission prouvé par le sang ?"
+    propositions:
+      - "VIH, VHB et VHC"
+      - "Uniquement le VIH"
+      - "Grippe et varicelle"
+    bonnes:
+      - 0
+    explication: "Le risque de transmission par le sang et les liquides biologiques contenant du sang est prouvé pour les trois virus VIH, VHB et VHC."
+  - id: q3
+    enonce: "Les urines et les selles présentent-elles un risque de transmission ?"
+    propositions:
+      - "Toujours un risque élevé"
+      - "Un risque nul, sauf si elles contiennent du sang"
+      - "Un risque nul dans tous les cas"
+    bonnes:
+      - 1
+    explication: "Le risque est considéré comme nul pour les urines et les selles, sauf si elles contiennent du sang : ce sont alors des liquides biologiques à risque prouvé."
+  - id: q4
+    enonce: "Quand la salive devient-elle un liquide à risque prouvé ?"
+    propositions:
+      - "Lorsqu'elle est abondante"
+      - "Lorsqu'elle contient du sang"
+      - "Lorsqu'elle est projetée à distance"
+      - "Jamais"
+    bonnes:
+      - 1
+    explication: "Les risques avec la salive sont faibles, mais dès qu'elle contient du sang (gencives fragiles, traumatisme facial), c'est un liquide biologique à risque prouvé."
+  - id: q5
+    enonce: "Qu'est-ce qui expose au risque le plus important ?"
+    propositions:
+      - "Un simple contact avec la peau"
+      - "Une effraction cutanée par un objet piquant, tranchant ou coupant"
+      - "Un contact avec les muqueuses uniquement"
+    bonnes:
+      - 1
+    explication: "Les risques sont plus importants lors d'une effraction cutanée par un objet piquant, tranchant ou coupant que lors d'un simple contact avec la peau ou les muqueuses."

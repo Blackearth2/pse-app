@@ -1,0 +1,83 @@
+id: detergents-desinfectants
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 9
+titre: Utilisation des détergents et désinfectants
+motsCles: [détergent, désinfectant, détersion, un temps, deux temps, éponges proscrites, eau de Javel]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT05, 09-2014)
+  code: 03FT05
+  page: 53
+liees:
+  - nettoyage-desinfection-materiel
+  - nettoyage-desinfection-vehicule-local
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Détergents et désinfectants s'utilisent lors des opérations de nettoyage et de désinfection, selon les protocoles en vigueur. Le matériel souillé peut transmettre des maladies infectieuses. Le matériel est soit à usage unique, soit réutilisable (détersion puis désinfection nécessaires)."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Un produit détergent."
+      - "Un produit désinfectant, à défaut de l'eau de Javel diluée."
+      - "Certains produits comportent les deux fonctions (détergent-désinfectant)."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Si le degré de saleté est important et si la surface le permet : nettoyer à grande eau et dépoussiérer avec un linge humide simple avant la détersion, en respectant les mesures de protection indiquées par le fabricant."
+      - "Traiter en un temps avec un produit détergent-désinfectant (détersion simple périodique nécessaire pour éliminer le film laissé), ou en deux temps avec un détergent suivi d'un désinfectant, en respectant températures et temps d'application."
+      - "Progresser des zones les plus propres vers les zones les plus sales, du haut vers le bas."
+      - "Utiliser des chiffons propres ou des non-tissés jetables à usage unique."
+  - type: attention
+    items:
+      - "Les éponges réutilisables sont proscrites."
+      - "Ces produits ne doivent pas être utilisés sur la peau : l'utilisateur doit se protéger."
+      - "Respecter la notice d'utilisation, qui précise les risques du produit."
+qcm:
+  - id: q1
+    enonce: "Dans quel sens progresse-t-on lors du traitement des surfaces ?"
+    propositions:
+      - "Des zones les plus sales vers les plus propres, du bas vers le haut"
+      - "Des zones les plus propres vers les plus sales, du haut vers le bas"
+      - "Sans ordre particulier"
+    bonnes:
+      - 1
+    explication: "On progresse des zones les plus propres vers les plus sales, du haut vers le bas."
+  - id: q2
+    enonce: "Quel support est proscrit ?"
+    propositions:
+      - "Les non-tissés jetables"
+      - "Les chiffons propres"
+      - "Les éponges réutilisables"
+    bonnes:
+      - 2
+    explication: "Les éponges réutilisables sont proscrites ; on utilise des chiffons propres ou des non-tissés jetables."
+  - id: q3
+    enonce: "Que faire quand aucun désinfectant n'est disponible ?"
+    propositions:
+      - "Utiliser de l'eau de Javel diluée"
+      - "Utiliser uniquement de l'eau claire"
+      - "Ne rien faire"
+    bonnes:
+      - 0
+    explication: "À défaut de désinfectant, on utilise de l'eau de Javel diluée."
+  - id: q4
+    enonce: "Que doit-on faire avec un produit détergent-désinfectant utilisé en un temps ?"
+    propositions:
+      - "Prévoir une détersion simple périodique pour éliminer le film laissé sur les surfaces"
+      - "Rincer systématiquement à chaque fois"
+      - "Le mélanger avec un autre produit"
+    bonnes:
+      - 0
+    explication: "Le traitement en un temps impose une détersion simple périodique pour éliminer le film laissé."
+  - id: q5
+    enonce: "Peut-on utiliser détergents et désinfectants sur la peau ?"
+    propositions:
+      - "Oui, s'ils sont dilués"
+      - "Non, ils nécessitent une protection de l'utilisateur"
+      - "Oui, en cas d'AEV"
+    bonnes:
+      - 1
+    explication: "Ces produits ne doivent pas être utilisés sur la peau ; leur utilisation nécessite une protection de l'utilisateur."

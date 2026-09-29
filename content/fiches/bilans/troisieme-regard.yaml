@@ -1,0 +1,78 @@
+id: troisieme-regard
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 4
+titre: Troisième regard
+motsCles: [3e regard, fonctions vitales, détresse vitale, avis médical, rachis cervical, paramètres physiologiques]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR03, 12-2023)
+  code: 04PR03
+  page: 68
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Au contact de la victime, le secouriste se focalise sur l'évaluation des 3 fonctions vitales. Il les évalue successivement, selon le principe « traiter en priorité ce qui tue en premier », en appréciant la fonction concernée grâce aux dires de la victime et aux constatations du secouriste."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Évaluer successivement les 3 fonctions vitales, selon le principe « traiter en priorité ce qui tue en premier ».
+      - "Dès qu'une détresse est identifiée, réaliser immédiatement les gestes de premiers secours appropriés, même si l'examen de la fonction n'est pas terminé, et demander un avis médical."
+      - "Compléter l'appréciation par la mesure de l'ensemble des paramètres physiologiques vitaux, s'ils ne ralentissent pas la progression."
+      - "Si le contexte est traumatique, maintenir la stabilisation du rachis cervical à titre conservatoire tant qu'une décision d'immobilisation par un autre moyen n'est pas confirmée."
+      - "Rester à l'écoute des informations ou de l'aide proposée par l'entourage ou les témoins, pour gagner du temps dans la compréhension de la situation."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Les gestes de secours ne sont pas différés : ils sont réalisés dès qu'une détresse est identifiée."
+      - La mesure des paramètres ne doit pas ralentir la progression de l'évaluation.
+qcm:
+  - id: q1
+    enonce: "Sur combien de fonctions vitales se focalise le secouriste lors du 3e regard ?"
+    propositions:
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+    bonnes:
+      - 1
+    explication: "Le secouriste se focalise sur l'évaluation des 3 fonctions vitales, évaluées successivement."
+  - id: q2
+    enonce: "Une détresse vitale est identifiée avant la fin de l'examen de la fonction. Que faire ?"
+    propositions:
+      - Terminer d'abord l'examen de la fonction
+      - Réaliser immédiatement les gestes de secours appropriés et demander un avis médical
+      - Attendre le 4e regard
+    bonnes:
+      - 1
+    explication: "Dès qu'une détresse est identifiée, les gestes appropriés sont réalisés immédiatement, même si l'examen n'est pas terminé, et un avis médical est demandé."
+  - id: q3
+    enonce: "Comment la fonction vitale est-elle appréciée lors du 3e regard ?"
+    propositions:
+      - Uniquement grâce aux appareils de mesure
+      - Grâce aux dires de la victime et aux constatations du secouriste
+      - Uniquement grâce aux dires des témoins
+      - Grâce à un électrocardiogramme systématique
+    bonnes:
+      - 1
+    explication: "L'évaluation se fait en appréciant la fonction grâce aux dires de la victime et aux constatations du secouriste, puis elle est complétée par la mesure des paramètres."
+  - id: q4
+    enonce: "Dans un contexte traumatique, jusqu'à quand la stabilisation du rachis cervical à titre conservatoire est-elle maintenue ?"
+    propositions:
+      - Jusqu'à la fin du 3e regard
+      - Jusqu'à ce que la victime dise ne plus avoir mal
+      - Tant qu'une décision d'immobilisation par un autre moyen n'est pas confirmée
+    bonnes:
+      - 2
+    explication: "La stabilisation est maintenue tant qu'une décision d'immobilisation du rachis cervical par un autre moyen n'est pas confirmée."
+  - id: q5
+    enonce: "La mesure des paramètres physiologiques lors du 3e regard est réalisée :"
+    propositions:
+      - À condition qu'elle ne ralentisse pas la progression
+      - Avant toute action, même en cas de détresse
+      - Jamais lors du 3e regard
+    bonnes:
+      - 0
+    explication: "L'appréciation est complétée par la mesure de l'ensemble des paramètres physiologiques vitaux s'ils ne ralentissent pas la progression."

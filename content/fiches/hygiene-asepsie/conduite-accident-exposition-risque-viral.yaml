@@ -1,0 +1,99 @@
+id: conduite-accident-exposition-risque-viral
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: procedure
+ordre: 2
+titre: Accident d'exposition à un risque viral (conduite à tenir)
+motsCles: [AEV, plaie, projection, Dakin, eau de Javel, sérum physiologique, cinq minutes, rendre compte]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03PR01, 09-2014)
+  code: 03PR01
+  page: 44
+liees:
+  - accident-exposition-risque-viral
+  - friction-des-mains
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Dès la constatation d'un AEV : interrompre si possible l'action de secours en cours et se faire relayer, puis réaliser les soins immédiats selon qu'il s'agit d'une plaie ou d'une projection sur les muqueuses, et enfin rendre compte sans délai à l'autorité d'emploi."
+  - type: chiffres
+    titre: À retenir en chiffres
+    items:
+      - valeur: 5 min minimum
+        libelle: Temps de contact du produit d'asepsie sur une plaie
+      - valeur: 5 min minimum
+        libelle: Durée du rinçage d'une projection sur les muqueuses
+      - valeur: 9° chlorométriques, dilué au 1/5
+        libelle: Eau de Javel fraîchement préparée
+  - type: etapes
+    titre: Conduite à tenir — plaie
+    items:
+      - "Interrompre l'action de secours en cours si possible et se faire relayer."
+      - "Ne pas faire saigner."
+      - "Nettoyer immédiatement à l'eau courante et au savon, puis rincer."
+      - "Réaliser l'asepsie avec un temps de contact d'au moins cinq minutes, avec un dérivé chloré stable (soluté de Dakin), ou un dérivé chloré fraîchement préparé (eau de Javel à 9° chlorométriques diluée au 1/5), ou à défaut un antiseptique à large spectre (produits iodés, par exemple)."
+      - "Rendre compte sans délai à l'autorité d'emploi (poursuite de la procédure de soins et formalités administratives obligatoires)."
+  - type: etapes
+    titre: Conduite à tenir — projection sur les muqueuses (notamment conjonctive)
+    items:
+      - "Interrompre l'action de secours en cours si possible et se faire relayer."
+      - "Rincer abondamment pendant au moins cinq minutes, de préférence avec un soluté isotonique (sérum physiologique), à défaut avec de l'eau."
+      - "Rendre compte sans délai à l'autorité d'emploi (poursuite de la procédure de soins et formalités administratives obligatoires)."
+  - type: attention
+    items:
+      - "Ne pas faire saigner la plaie."
+      - "Ne pas utiliser les produits pour traitement hygiénique des mains par friction."
+      - "Le compte rendu à l'autorité d'emploi doit être fait sans délai, après les soins immédiats."
+qcm:
+  - id: q1
+    enonce: "Quelle est la première conduite face à une piqûre accidentelle avec une plaie ?"
+    propositions:
+      - "Faire saigner la plaie"
+      - "Nettoyer immédiatement à l'eau courante et au savon, sans faire saigner, puis rincer"
+      - "Appliquer un gel hydroalcoolique"
+      - "Attendre la fin de l'intervention pour agir"
+    bonnes:
+      - 1
+    explication: "Il faut interrompre l'action de secours si possible, ne pas faire saigner, nettoyer immédiatement à l'eau courante et au savon puis rincer."
+  - id: q2
+    enonce: "Quel est le temps de contact minimal du produit d'asepsie sur une plaie après AEV ?"
+    propositions:
+      - "30 secondes"
+      - "1 minute"
+      - "Au moins 5 minutes"
+      - "15 minutes"
+    bonnes:
+      - 2
+    explication: "L'asepsie est réalisée avec un temps de contact d'au moins cinq minutes."
+  - id: q3
+    enonce: "Quels produits sont utilisables pour l'asepsie d'une plaie après un AEV ?"
+    propositions:
+      - "Le soluté de Dakin"
+      - "L'eau de Javel à 9° chlorométriques diluée au 1/5, fraîchement préparée"
+      - "À défaut, un antiseptique à large spectre (produits iodés par exemple)"
+      - "Le gel hydroalcoolique pour friction des mains"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Dakin, eau de Javel fraîchement préparée ou, à défaut, antiseptique à large spectre. Les produits pour traitement hygiénique des mains par friction ne doivent pas être utilisés."
+  - id: q4
+    enonce: "Projection de sang dans l'œil du secouriste. Quelle conduite ?"
+    propositions:
+      - "Rincer au moins 5 minutes, de préférence au sérum physiologique, à défaut à l'eau"
+      - "Frotter l'œil"
+      - "Rincer une minute à l'eau savonneuse"
+      - "Appliquer de l'eau de Javel diluée"
+    bonnes:
+      - 0
+    explication: "En cas de projection sur les muqueuses, notamment la conjonctive, rincer abondamment pendant au moins cinq minutes avec de préférence un soluté isotonique, à défaut de l'eau."
+  - id: q5
+    enonce: "Après les soins immédiats, que doit faire le secouriste ?"
+    propositions:
+      - "Ne rien signaler s'il n'y a pas de saignement"
+      - "Rendre compte sans délai à son autorité d'emploi"
+      - "Attendre les symptômes"
+    bonnes:
+      - 1
+    explication: "Il rend compte sans délai à son autorité d'emploi pour poursuivre la procédure de soins et réaliser les formalités administratives obligatoires."

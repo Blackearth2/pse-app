@@ -1,0 +1,78 @@
+id: lva-victime-non-traumatisee
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 11
+titre: Libération des voies aériennes chez une victime non traumatisée
+motsCles: [libération des voies aériennes, bascule de la tête, élévation du menton, perte de connaissance, nourrisson]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT04, 12-2023)
+  code: 04FT04
+  page: 78
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "La libération des voies aériennes (LVA) par bascule prudente de la tête en arrière et élévation du menton est réalisée chez toute victime ayant perdu connaissance, non suspecte d'un traumatisme du rachis, avant d'apprécier sa respiration. Aucun matériel n'est nécessaire."
+  - type: texte
+    titre: Justification
+    contenu: "La perte de connaissance entraîne une forte baisse du tonus musculaire : victime sur le dos, la langue et l'épiglotte chutent en arrière et obstruent les voies aériennes. La LVA dégage la langue de la paroi postérieure du pharynx. Elle sert à apprécier la ventilation (2e regard), à faciliter la ventilation d'une victime qui ventile, et à réaliser une ventilation artificielle."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - Desserrer ou dégrafer rapidement tout ce qui peut gêner la respiration.
+      - Placer la paume d'une main sur le front de la victime.
+      - Placer 2 ou 3 doigts de l'autre main juste sous la pointe du menton, en prenant appui sur l'os (le pouce peut aider à saisir le menton).
+      - "Adulte ou enfant : basculer doucement la tête en arrière en appuyant sur le front tout en élevant le menton."
+      - "Nouveau-né ou nourrisson : amener doucement la tête en position neutre dans l'alignement du torse, puis élever le menton en évitant une bascule excessive (extension du rachis cervical, gêne de la ventilation)."
+      - "Dans tous les cas : retirer avec la main qui était sur le front les corps étrangers visibles dans la bouche, y compris les prothèses dentaires décrochées, sans toucher à celles qui sont restées en place."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Geste salvateur, mais à réaliser avec précaution pour éviter d'aggraver un traumatisme cervical méconnu.
+      - Chez le nouveau-né et le nourrisson, ne pas basculer la tête en arrière, au risque d'obstruer les voies aériennes.
+  - type: liste
+    titre: Critères d'efficacité
+    items:
+      - La respiration de la victime peut s'effectuer normalement.
+      - La ventilation artificielle permet un soulèvement de la poitrine chez une victime qui ne respire pas.
+qcm:
+  - id: q1
+    enonce: "Quelle technique de LVA est réalisée chez une victime inconsciente non suspecte de traumatisme du rachis ?"
+    propositions:
+      - Élévation du menton seule
+      - Bascule prudente de la tête en arrière et élévation du menton
+      - Antépulsion de la tête
+      - Traction sur les épaules
+    bonnes:
+      - 1
+    explication: "Chez toute victime ayant perdu connaissance, non suspecte de traumatisme du rachis : bascule prudente de la tête en arrière et élévation du menton."
+  - id: q2
+    enonce: "Chez le nourrisson, le mouvement de la tête se limite à :"
+    propositions:
+      - Une bascule maximale en arrière
+      - Ramener la tête en position neutre
+      - Une flexion vers l'avant
+    bonnes:
+      - 1
+    explication: "Du fait de son anatomie, la tête est ramenée en position neutre pour ne pas obstruer les voies aériennes."
+  - id: q3
+    enonce: "Quelle est la cause de l'obstruction des voies aériennes chez une victime inconsciente sur le dos ?"
+    propositions:
+      - Chute de la langue et de l'épiglotte en arrière
+      - Gonflement de la trachée
+      - Fermeture des mâchoires par contracture
+      - Régurgitation systématique
+    bonnes:
+      - 0
+    explication: "La baisse du tonus musculaire fait chuter la langue et l'épiglotte en arrière."
+  - id: q4
+    enonce: "Concernant les corps étrangers visibles dans la bouche, que fait-on ?"
+    propositions:
+      - On les retire, y compris les prothèses dentaires décrochées
+      - On retire aussi les prothèses restées en place
+      - On ne touche à rien
+    bonnes:
+      - 0
+    explication: "Les corps étrangers visibles et les prothèses décrochées sont retirés ; les prothèses restées en place ne sont pas touchées."

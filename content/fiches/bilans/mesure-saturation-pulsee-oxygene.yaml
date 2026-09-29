@@ -1,0 +1,103 @@
+id: mesure-saturation-pulsee-oxygene
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 15
+titre: Mesure de la saturation pulsée en oxygène
+motsCles: [SpO2, oxymètre de pouls, saturation, monoxyde de carbone, oxygène]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT08, 07-2026)
+  code: 04FT08
+  page: 84
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "L'oxymètre de pouls mesure la saturation en oxygène des globules rouges au niveau de la circulation capillaire. Il détecte très vite un manque d'oxygène, complète le bilan de la fonction respiratoire et aide à la surveillance. La mesure ne doit en aucun cas retarder les gestes de secours évidents. Elle guide l'administration d'oxygène selon les valeurs affichées."
+  - type: liste
+    titre: Situations où la mesure est utile
+    items:
+      - Détresse vitale (sauf arrêt cardiorespiratoire).
+      - Gêne ou plainte respiratoire.
+      - Malaise ou aggravation d'une maladie.
+      - Traumatisme grave ou violent, ou traumatisme thoracique.
+  - type: liste
+    titre: Matériel
+    items:
+      - Une unité de mesure avec écran, alimentée par batteries.
+      - Un capteur posé sur le doigt, le lobe de l'oreille, le front ou le nez ; des capteurs existent selon l'âge (adulte, enfant, nourrisson, nouveau-né).
+      - L'oxymètre peut être intégré à un dispositif multiparamétrique.
+  - type: etapes
+    titre: Réalisation
+    items:
+      - Placer le capteur sur une peau ou un ongle non verni, propre.
+      - Mettre l'appareil en marche en respectant les indications du fabricant.
+      - "Relever le résultat sur l'écran : deux valeurs s'affichent en règle générale, la SpO2 et la fréquence du pouls."
+  - type: chiffres
+    titre: Valeur normale
+    items:
+      - valeur: 94 à 100 %
+        libelle: SpO2 normale
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Signal parfois non détecté, donc mesure non fiable : victime agitée, tremblements, extrémités refroidies, détresse circulatoire, maladies vasculaires, pigmentation de la peau."
+      - Les intoxications par les fumées et au monoxyde de carbone (CO) faussent la mesure et donnent à tort des valeurs rassurantes.
+      - Un vernis à ongles ou un doigt sale empêchent une bonne mesure au bout du doigt.
+      - "La fréquence du pouls affichée donne une tendance qui peut être faussée : ne pas négliger la mesure manuelle de la fréquence."
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - La SpO2 s'affiche correctement, sans message d'erreur, et le résultat est cohérent avec l'état de la victime.
+qcm:
+  - id: q1
+    enonce: "Quelle est la valeur normale de la SpO2 ?"
+    propositions:
+      - Entre 80 et 90 %
+      - Entre 90 et 94 %
+      - Entre 94 et 100 %
+      - Strictement 100 %
+    bonnes:
+      - 2
+    explication: "La SpO2 se situe normalement entre 94 et 100 %."
+  - id: q2
+    enonce: "Quelle intoxication donne à tort des valeurs rassurantes de SpO2 ?"
+    propositions:
+      - Intoxication médicamenteuse
+      - Intoxication au monoxyde de carbone (CO) et aux fumées
+      - Intoxication alimentaire
+    bonnes:
+      - 1
+    explication: "Les intoxications aux fumées et au CO faussent la mesure et donnent à tort des valeurs rassurantes."
+  - id: q3
+    enonce: "Quels éléments peuvent empêcher une mesure fiable au doigt ?"
+    propositions:
+      - Vernis à ongles
+      - Doigt sale
+      - Victime bien réchauffée
+      - Extrémités refroidies
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Vernis, saleté, refroidissement des extrémités, agitation, tremblements, détresse circulatoire, pigmentation peuvent empêcher une mesure fiable."
+  - id: q4
+    enonce: "Dans quelle situation la mesure de la SpO2 n'est-elle pas utile ?"
+    propositions:
+      - Gêne respiratoire
+      - Traumatisme thoracique
+      - Arrêt cardiorespiratoire
+      - Malaise
+    bonnes:
+      - 2
+    explication: "Elle est utile en détresse vitale sauf arrêt cardiorespiratoire."
+  - id: q5
+    enonce: "La fréquence du pouls affichée par l'oxymètre :"
+    propositions:
+      - Remplace toujours la mesure manuelle
+      - Donne une tendance, la mesure manuelle ne doit pas être négligée
+      - Est plus fiable qu'un ECG
+    bonnes:
+      - 1
+    explication: "L'affichage donne une tendance qui peut être faussée dans certaines situations ; la mesure manuelle reste importante."

@@ -1,0 +1,88 @@
+id: retrait-des-gants
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 8
+titre: Retrait des gants à usage unique
+motsCles: [gants, retrait, contamination, DASRI, face externe, poignet]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT04, 07-2026)
+  code: 03FT04
+  page: 52
+liees:
+  - lavage-des-mains
+  - emballages-dasri
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les gants à usage unique protègent le secouriste mais peuvent contaminer ses mains au moment du retrait ou une autre personne. La technique de retrait évite cette contamination. Les gants retirés sont des DASRI."
+  - type: liste
+    titre: Indications
+    items:
+      - "À la fin de chaque action de secours."
+      - "Chaque fois que les gants apparaissent souillés."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Saisir un gant au niveau du poignet en évitant de toucher la peau."
+      - "Retirer le premier gant en le retournant."
+      - "Rouler le gant retiré dans la paume de l'autre main."
+      - "Insérer un ou deux doigts en crochet à l'intérieur de l'autre gant, sans toucher sa face externe, et le pincer entre le pouce et l'index sur sa face interne."
+      - "Retirer le second gant en le retournant."
+      - "Jeter les gants dans un conteneur de déchets d'activités de soins prévu à cet effet."
+  - type: texte
+    titre: Critères d'évaluation
+    contenu: "Les mains nues n'ont pas touché les faces externes des gants, et les gants ôtés sont placés directement dans l'emballage à élimination de déchets."
+  - type: attention
+    items:
+      - "Risque : entrer en contact avec la face externe souillée des gants lors du retrait."
+      - "Les gants ôtés vont directement dans l'emballage à DASRI."
+qcm:
+  - id: q1
+    enonce: "Quand retire-t-on les gants à usage unique selon la technique ?"
+    propositions:
+      - "À la fin de chaque action de secours"
+      - "Chaque fois qu'ils apparaissent souillés"
+      - "Uniquement à la fin de la journée"
+    bonnes:
+      - 0
+      - 1
+    explication: "Retrait à chaque fin d'action de secours et chaque fois que les gants sont souillés."
+  - id: q2
+    enonce: "Comment saisit-on le premier gant ?"
+    propositions:
+      - "Par les doigts"
+      - "Au niveau du poignet, en évitant de toucher la peau"
+      - "Par le bout des doigts avec les dents"
+    bonnes:
+      - 1
+    explication: "On saisit un gant au niveau du poignet en évitant de toucher la peau, puis on le retire en le retournant."
+  - id: q3
+    enonce: "Que fait-on du gant retiré en premier ?"
+    propositions:
+      - "On le jette au sol"
+      - "On le roule dans la paume de l'autre main"
+      - "On le pose sur le brancard"
+    bonnes:
+      - 1
+    explication: "Le premier gant retiré est roulé dans la paume de l'autre main."
+  - id: q4
+    enonce: "Où jette-t-on les gants retirés ?"
+    propositions:
+      - "Dans les ordures ménagères"
+      - "Directement dans l'emballage à élimination de déchets (DASRI)"
+      - "Dans la poche de la tenue"
+      - "Dans un sac quelconque"
+    bonnes:
+      - 1
+    explication: "Les gants retirés font partie des DASRI et sont placés directement dans l'emballage prévu."
+  - id: q5
+    enonce: "Pour retirer le second gant, comment procède-t-on ?"
+    propositions:
+      - "On insère un ou deux doigts en crochet à l'intérieur, sans toucher la face externe, et on retourne le gant"
+      - "On le saisit par la face externe"
+      - "On le déchire"
+    bonnes:
+      - 0
+    explication: "Les doigts en crochet à l'intérieur du gant évitent de toucher la face externe souillée."

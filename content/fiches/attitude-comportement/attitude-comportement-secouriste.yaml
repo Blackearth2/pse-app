@@ -1,0 +1,100 @@
+id: attitude-comportement-secouriste
+niveau: PSE1
+chapitre: attitude-comportement
+type: connaissance
+ordre: 3
+titre: Attitude et comportement du secouriste
+motsCles: [victime primaire, victime secondaire, réaction de stress, impact psychologique, CUMP, secret professionnel, abord relationnel, empathie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01AC03, 11-2021)
+  code: 01AC03
+  page: 14
+liees: [enjeux-principes, abord-relationnel-pratique, evaluation-impact-psychologique]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Au-delà des gestes techniques, le secouriste doit être en mesure de dispenser les premiers secours psychologiques. Il prend en compte l'impact psychologique de l'événement critique sur les victimes primaires et secondaires, adopte un comportement calme, professionnel et respectueux, et soigne l'abord relationnel, qui est une véritable compétence professionnelle."
+  - type: liste
+    titre: Victimes primaires et secondaires
+    items:
+      - "Victimes primaires : directement exposées à l'événement en tant que sujet (avoir subi), acteur (avoir provoqué volontairement ou non) ou témoin (avoir vu, assisté) ; impactées dans leur corps et/ou moralement."
+      - "Victimes secondaires : proches des victimes primaires (parents, amis, collègues), non confrontées directement à l'événement, qui le deviennent en découvrant ce qui est arrivé et en ressentant un stress intense et des émotions douloureuses."
+  - type: liste
+    titre: Réaction de stress adaptée (brève, utile)
+    items:
+      - "Réaction psychologique et physiologique urgente, moyen de défense favorisant la fuite ou la défense face à une situation soudaine, imprévue, potentiellement menaçante."
+      - "Signes physiologiques : hormones du stress, état d'alerte avec augmentation de la fréquence respiratoire, de la fréquence cardiaque et de la pression artérielle ; frissons, tremblements, pâleur ; faiblesse, « boule dans la gorge », striction thoracique, « nœud à l'estomac », spasmes viscéraux, maux de tête, nausées, envie impérieuse d'uriner ; lenteur ou imprécision des gestes, altération de la voix."
+      - "Signes psychologiques adaptatifs : incitation à l'action, focalisation sur la situation dangereuse, identification rapide de stratégies ; possibles vécu d'irréalité et tension."
+      - "Réaction très coûteuse en énergie : une fois la menace écartée apparaît un état ambigu d'euphorie et d'épuisement."
+  - type: liste
+    titre: Stress incapacitant (état de crise)
+    items:
+      - "Stress trop intense, trop prolongé ou chronique : la personne perçoit le danger ou la contrainte comme supérieur à ses capacités à faire face et ressent une insécurité massive."
+      - "Le cortex préfrontal (capacités cognitives) ne régule plus les amygdales cérébrales (émotions) : perte de la capacité d'adaptation, rupture d'équilibre, réactions inhabituelles traduisant un état de crise."
+      - "Le retentissement est un vécu personnel (contexte, sens attribué, culture, éducation, histoire personnelle, antécédents, personnalité)."
+      - "Effets observables sur les fonctions cognitives (pensée), émotionnelles (peur, tristesse, impuissance, colère) et comportementales (agressivité, prostration, stupeur, fuite panique)."
+      - "Plus l'impact est important, plus le risque de blessure psychologique est élevé : orientation vers une prise en charge psychologique spécialisée aux urgences hospitalières, ou sur les lieux par la CUMP (Cellule d'Urgence Médico-Psychologique) en cas d'événement à nombreuses victimes."
+  - type: liste
+    titre: Comportement général du secouriste
+    items:
+      - "Mission : prévenir et soulager toute souffrance, physique ou psychique ; il est apprécié autant sur la qualité des gestes que sur sa capacité de relation d'aide et de soutien."
+      - "Organisation, rigueur, professionnalisme ; tenue propre et correcte, bonne hygiène (la première impression est primordiale et influence la réaction de la victime et de l'entourage)."
+      - "Calme, humanité, courtoisie, attention, attitude posée ; veiller à ce que peut induire sa propre attitude pour éviter tout conflit (une dégradation ne tient souvent qu'à une parole ou un comportement)."
+      - "L'intervention peut être vécue comme une intrusion : agir avec calme et humilité, respect des personnes, des lieux (précautions en déplaçant meubles, bibelots) et de la vie privée."
+      - "Secret professionnel, comme les personnels de santé : les informations recueillies ne sont divulguées qu'aux personnes contribuant à la prise en charge (article L1110-4 ; article 226-13 du code pénal qui incrimine la révélation d'une information secrète)."
+      - "La victime est vulnérable : c'est au secouriste de s'adapter à elle et à ses besoins."
+  - type: liste
+    titre: Principes de l'abord relationnel
+    items:
+      - "L'abord est une phase déterminante : la qualité de la relation influence toute la prise en charge et l'adhésion de la victime. L'empathie est une compétence professionnelle à développer."
+      - "Soigner la communication verbale et non verbale, en s'adressant toujours directement à la victime, quel que soit son âge."
+      - "Distance interpersonnelle : établir une « juste distance »."
+      - "Se placer à son niveau et la regarder dans les yeux."
+      - "Attitude verbale : vocabulaire et ton adaptés, phrases courtes, claires et respectueuses ; vouvoiement et appel de la personne par son nom ; tutoiement et prénom pour un enfant."
+      - "Toucher : manifeste soutien, réconfort et qualité de présence."
+qcm:
+  - id: q1
+    enonce: "Qu'est-ce qu'une victime secondaire ?"
+    propositions:
+      - "Une personne blessée légèrement"
+      - "Un proche d'une victime primaire, non confronté directement à l'événement, qui ressent un stress intense en découvrant ce qui est arrivé"
+      - "Un témoin ayant vu l'événement"
+      - "Une personne ayant provoqué l'événement"
+    bonnes: [1]
+    explication: "Les victimes secondaires sont les proches des victimes primaires. Sujet, acteur et témoin de l'événement sont des victimes primaires."
+  - id: q2
+    enonce: "Parmi ces manifestations, lesquelles font partie de la réaction de stress adaptée ?"
+    propositions:
+      - "Augmentation de la fréquence respiratoire et cardiaque"
+      - "Baisse de la pression artérielle"
+      - "Frissons, tremblements et pâleur"
+      - "Envie impérieuse d'uriner"
+    bonnes: [0, 2, 3]
+    explication: "L'état d'alerte s'accompagne d'une augmentation de la fréquence respiratoire, de la fréquence cardiaque et de la pression artérielle (pas d'une baisse), avec frissons, tremblements, pâleur et envie impérieuse d'uriner."
+  - id: q3
+    enonce: "En cas d'événement impliquant de nombreuses victimes, qui peut assurer sur les lieux une prise en charge psychologique spécialisée ?"
+    propositions:
+      - "La CUMP (Cellule d'Urgence Médico-Psychologique)"
+      - "Le chef de poste seul"
+      - "Le secouriste, sans relais"
+    bonnes: [0]
+    explication: "Les victimes très impactées sont orientées vers une prise en charge spécialisée aux urgences hospitalières ou sur les lieux par la CUMP en cas de nombreuses victimes."
+  - id: q4
+    enonce: "Que dit le référentiel du secret professionnel du secouriste ?"
+    propositions:
+      - "Il ne concerne que les médecins"
+      - "Les informations recueillies ne peuvent être divulguées qu'aux personnes contribuant à la prise en charge"
+      - "Il peut être levé auprès de l'entourage curieux"
+      - "Il ne s'applique pas aux enfants"
+    bonnes: [1]
+    explication: "Au même titre que les personnels de santé, les secouristes sont tenus par le secret professionnel."
+  - id: q5
+    enonce: "Quelle adresse verbale est recommandée par le référentiel ?"
+    propositions:
+      - "Vouvoiement et nom pour un adulte ; tutoiement et prénom pour un enfant"
+      - "Tutoiement systématique pour créer de la proximité"
+      - "Vouvoiement systématique, y compris pour un enfant"
+      - "Parler à l'accompagnant plutôt qu'à la victime"
+    bonnes: [0]
+    explication: "Le secouriste s'adresse toujours directement à la victime, quel que soit son âge : vouvoiement et nom, sauf pour un enfant (tutoiement et prénom)."

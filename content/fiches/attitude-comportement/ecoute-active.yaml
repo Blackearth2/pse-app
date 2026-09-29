@@ -1,0 +1,90 @@
+id: ecoute-active
+niveau: PSE1
+chapitre: attitude-comportement
+type: technique
+ordre: 9
+titre: L'écoute active
+motsCles: [écoute active, reformuler, recontextualiser, renforcer, résumer, question ouverte, contraintes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01FT03, 11-2021)
+  code: 01FT03
+  page: 28
+liees: [abord-relationnel-pratique, stabiliser-etat-psycho-physiologique]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'écoute active est une technique de communication qui utilise le questionnement et la reformulation pour s'assurer d'avoir compris au mieux le message de l'interlocuteur. Elle consiste à adopter une attitude ouverte et bienveillante, en laissant l'autre s'exprimer sans jugement, pour favoriser une alliance positive."
+  - type: chiffres
+    titre: Les 4 R
+    items:
+      - valeur: Recontextualiser
+        libelle: Replacer les propos dans le contexte de survenue, avec des questions ouvertes
+      - valeur: Reformuler
+        libelle: S'assurer d'avoir bien compris, relancer à partir des mots de la personne
+      - valeur: Renforcer
+        libelle: Approfondir et valoriser (faits, actions, qualités) pour favoriser la participation
+      - valeur: Résumer
+        libelle: Synthétiser pour confirmer que la personne a été écoutée et comprise
+  - type: liste
+    titre: Mise en pratique
+    items:
+      - "Recontextualiser : aider la personne à préciser la situation par des questions ouvertes (« J'ai mal » : « Pouvez-vous me dire où vous avez mal exactement ? » ; « J'ai peur » : « Quand, de quoi, de qui avez-vous peur ? »)."
+      - "Reformuler : demander de clarifier le sens de certains éléments ; relancer à partir des mots utilisés (« Vous ne sentez plus votre pied ? ») ; reprendre les propos par « Si je comprends bien... », « En somme... », « Ce que vous me dites c'est... »."
+      - "Renforcer : demander si nécessaire des approfondissements sur le point de vue de l'autre ; renforcer positivement un fait ou une action (« Vous voyez, vous réussissez à... ») ou les qualités de la personne (« Vous avez de bonnes ressources pour... ») afin d'augmenter la probabilité d'un comportement adapté et d'améliorer la collaboration."
+      - "Résumer : confirmer que l'interlocuteur a été écouté et compris (« Si j'ai bien compris... », « Si je résume la situation... »), ce qui apaise la relation et fait avancer la situation."
+  - type: attention
+    titre: Contraintes — le secouriste veille à ne pas
+    items:
+      - "Conseiller, proposer des solutions (« Si j'étais à votre place... », « Vous devriez... »)."
+      - "Juger négativement, critiquer (« Vous avez tort... », « C'est ridicule »)."
+      - "Rationaliser, raisonner (« Mais enfin, réfléchissez ! », « Vous savez que ce n'est pas possible »)."
+      - "Menacer, faire du chantage (« Je vous avertis... », « Si vous faites cela... »)."
+      - "Culpabiliser, faire la morale (« vous rouliez sans doute trop vite », « c'est de votre faute »)."
+      - "Rabaisser, ridiculiser (« Ne faites pas le douillet », « Un enfant de 10 ans le ferait... »)."
+      - "Pratiquer une pseudo-analyse (« Vous dites cela parce que vous manquez de confiance en vous... »)."
+      - "Consoler, minimiser (« Ne vous en faites pas, ça va passer », « Ce n'est pas grave », « Vous avez de la chance »)."
+      - "Parler de soi (« Moi, ça m'est aussi arrivé... »)."
+      - "Faire des comparaisons (« Regardez untel, il le fait bien, lui ! », « il y a pire que vous »)."
+qcm:
+  - id: q1
+    enonce: "Quels sont les quatre temps (4 R) de l'écoute active ?"
+    propositions:
+      - "Recontextualiser, Reformuler, Renforcer, Résumer"
+      - "Rassurer, Réconforter, Rapporter, Répéter"
+      - "Réagir, Répondre, Rectifier, Rassurer"
+    bonnes: [0]
+    explication: "Le référentiel s'appuie sur les 4 R : Recontextualiser, Reformuler, Renforcer, Résumer."
+  - id: q2
+    enonce: "Face à « J'ai mal », quelle relance relève de la recontextualisation ?"
+    propositions:
+      - "« Ne vous en faites pas, ça va passer »"
+      - "« Pouvez-vous me dire où vous avez mal exactement ? »"
+      - "« Vous devriez vous asseoir »"
+    bonnes: [1]
+    explication: "Recontextualiser consiste à aider la personne à préciser la situation par des questions ouvertes."
+  - id: q3
+    enonce: "Parmi ces phrases, lesquelles sont à éviter lors de l'écoute active ?"
+    propositions:
+      - "« Si j'étais à votre place... »"
+      - "« Si je comprends bien... »"
+      - "« Ce n'est pas grave »"
+      - "« Vous avez de bonnes ressources pour... »"
+    bonnes: [0, 2]
+    explication: "Conseiller et consoler ou minimiser sont des contraintes à éviter ; « Si je comprends bien » relève de la reformulation et valoriser les ressources du renforcement."
+  - id: q4
+    enonce: "Quel est le rôle du renforcement positif ?"
+    propositions:
+      - "Augmenter la probabilité d'un comportement adapté et améliorer la collaboration"
+      - "Contredire la victime"
+      - "Clore rapidement l'échange"
+    bonnes: [0]
+    explication: "Renforcer positivement développe la participation active de la personne et améliore la collaboration."
+  - id: q5
+    enonce: "Que permet le résumé en fin d'échange ?"
+    propositions:
+      - "Confirmer que l'interlocuteur a été écouté et compris, apaiser la relation"
+      - "Poser un diagnostic"
+      - "Donner des consignes à la victime"
+    bonnes: [0]
+    explication: "Résumer confirme que l'interlocuteur a été écouté et compris, ce qui apaise la relation et permet de faire avancer la situation."

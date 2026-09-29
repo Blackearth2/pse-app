@@ -1,0 +1,99 @@
+id: intervenir-aupres-enfant
+niveau: PSE1
+chapitre: attitude-comportement
+type: procedure
+ordre: 5
+titre: Intervenir auprès d'un enfant
+motsCles: [enfant, peluche, douleur, communication, parents, victime primaire, victime secondaire, 5 ans]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01PR02, 11-2021)
+  code: 01PR02
+  page: 19
+liees: [abord-relationnel-pratique, attitude-comportement-secouriste]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à un enfant conscient (blessé ou non), victime primaire (a subi, provoqué ou vu l'événement) ou secondaire (lien affectif avec la victime, n'ayant pas assisté), le secouriste adapte sa communication. Un seul et même secouriste assure la continuité auprès de l'enfant."
+  - type: liste
+    titre: Particularités de l'enfant face à un événement grave
+    items:
+      - "Sa réaction de stress peut être modérée ou de forte intensité, comme chez l'adulte."
+      - "Impact sur la compréhension et l'expression : l'enfant ne peut pas toujours s'appuyer sur les mots pour donner du sens à l'événement et exprimer sa peur ; il se mure plus souvent dans le silence."
+      - "Confronté aux vulnérabilités de ses parents (blessés, en pleurs, paniqués), il perd un élément fondamental de sa sécurité : la présence du secouriste est d'autant plus déterminante pour le sécuriser et le contenir."
+      - "Il peut aussi agir pour protéger son parent (ne pas montrer sa détresse, être faussement calme)."
+  - type: chiffres
+    titre: Évaluation de la douleur
+    items:
+      - valeur: Au-delà de 5 ans
+        libelle: Échelles d'auto-évaluation adaptées à l'âge et à la compréhension de l'enfant
+      - valeur: En dessous de 5 ans
+        libelle: Appréciation des modifications physiques et comportementales (pleurs, crispations, agitation, etc.)
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Un seul secouriste assure la continuité auprès de l'enfant."
+      - "Adapter la communication : se positionner à la hauteur de l'enfant, ton posé et tonalité grave ; lui parler directement, quel que soit son âge (y compris un bébé) avec des mots simples et honnêtes ; utiliser son imagination (outils présentés comme de petits robots, références aux dessins animés ou contes)."
+      - "Impliquer les parents au maximum selon les circonstances, si possible installer l'enfant dans leurs bras."
+      - "Signifier à l'enfant qu'on a besoin de sa participation (par exemple lui demander dans quelle position il se sent le mieux)."
+      - "Évaluer la douleur selon l'âge (seuil de 5 ans)."
+      - "Simultanément, couvrir au plus vite une plaie, une déformation de membre ou tout facteur générateur d'angoisse."
+      - "Utiliser une peluche si présente dans le matériel (ou le doudou / la tétine de l'enfant, à privilégier ou en complément) : la présenter, proposer à l'enfant de la prendre après présentation et explications simples ; elle sert de médiateur pendant toute l'intervention."
+  - type: liste
+    titre: Rôle de la peluche
+    items:
+      - "Faciliter la prise de contact et créer un lien plus rapidement, en rencontrant l'enfant dans son monde."
+      - "Expliquer et prévenir les gestes avant de les faire, sur la peluche puis sur l'enfant (masque, etc.)."
+      - "Permettre à l'enfant de montrer où il a mal, comme un miroir de son corps."
+      - "Détourner son attention pendant les gestes, par le jeu, de sa douleur et de ses angoisses."
+  - type: attention
+    titre: Tout au long de l'intervention, ne pas
+    items:
+      - "Mentir (par exemple « Ça ne fait pas mal ») : dire plutôt qu'il est possible qu'il sente quelque chose et lui demander de le dire."
+      - "L'obliger à parler."
+      - "Banaliser ou dramatiser (« Ce n'est pas grave », « Tu as de la chance ») : rassurer sur la fin de la situation de danger."
+      - "Encourager les attitudes héroïques (« Sois courageux ») : l'autoriser à exprimer ses émotions et accepter ses réactions normales."
+      - "Menacer (« Si tu cries, je dis à tes parents de partir ») : valoriser l'enfant et encourager ses comportements adaptés."
+qcm:
+  - id: q1
+    enonce: "Comment évalue-t-on la douleur d'un enfant de moins de 5 ans ?"
+    propositions:
+      - "Par une échelle d'auto-évaluation"
+      - "Essentiellement par l'appréciation des modifications physiques et comportementales (pleurs, crispations, agitation)"
+      - "On ne l'évalue pas avant 5 ans"
+    bonnes: [1]
+    explication: "En dessous de 5 ans, l'évaluation repose essentiellement sur les modifications physiques et comportementales ; au-delà, sur des échelles d'auto-évaluation."
+  - id: q2
+    enonce: "Quelle position adopter pour communiquer avec un enfant ?"
+    propositions:
+      - "Debout, pour montrer son autorité"
+      - "À la hauteur de l'enfant, avec un ton posé et une tonalité grave"
+      - "À distance, en parlant fort"
+      - "Derrière les parents, sans lui parler directement"
+    bonnes: [1]
+    explication: "Le secouriste se positionne à la hauteur de l'enfant, avec un rythme posé et une tonalité grave, et lui parle directement quel que soit son âge."
+  - id: q3
+    enonce: "Parmi ces phrases, lesquelles sont à éviter face à un enfant ?"
+    propositions:
+      - "« Ça ne fait pas mal »"
+      - "« Sois courageux, tu es un grand »"
+      - "« Tu peux pleurer si tu en as besoin »"
+      - "« Si tu cries, je dis à tes parents de partir »"
+    bonnes: [0, 1, 3]
+    explication: "Il ne faut ni mentir, ni encourager les attitudes héroïques, ni menacer. Autoriser l'expression des émotions est au contraire recommandé."
+  - id: q4
+    enonce: "Quel est l'un des rôles de la peluche dans la prise en charge d'un enfant ?"
+    propositions:
+      - "Remplacer le bilan"
+      - "Servir de médiateur : expliquer les gestes, montrer où il a mal, détourner son attention"
+      - "Remplacer la présence des parents"
+    bonnes: [1]
+    explication: "La peluche facilite le contact, permet d'annoncer les gestes, de montrer la douleur et détourne l'attention pendant les gestes."
+  - id: q5
+    enonce: "Combien de secouriste(s) assure(nt) la continuité auprès de l'enfant ?"
+    propositions:
+      - "Un seul et même secouriste"
+      - "Tous les équipiers à tour de rôle"
+      - "Les parents uniquement"
+    bonnes: [0]
+    explication: "Un seul et même secouriste assure une continuité auprès de l'enfant."

@@ -1,0 +1,130 @@
+id: preservation-potentiel-mental
+niveau: PSE1
+chapitre: attitude-comportement
+type: connaissance
+ordre: 6
+titre: Préservation du potentiel mental du secouriste
+motsCles: [stress, trouble de stress aigu, stress post-traumatique, traumatisme vicariant, burn-out, usure de compassion, opérationnalité mentale, débriefing]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01AC04, 11-2021)
+  code: 01AC04
+  page: 21
+liees: [attitude-comportement-secouriste, respiration-controlee, evaluation-impact-psychologique]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le secouriste est soumis à une charge mentale élevée et n'est pas préservé de la souffrance psychique. Connaître les risques (stress, traumatisme, usure, épuisement) permet de les repérer, de s'y préparer et de limiter leurs conséquences sur sa santé."
+  - type: liste
+    titre: Réactions immédiates de stress
+    items:
+      - "Stress d'intensité modérée : focalise l'attention, mobilise l'énergie, incite à l'action."
+      - "Stress de forte intensité : les capacités d'adaptation se dégradent, avec des réactions inhabituelles et inadaptées."
+      - "Agitation désordonnée : gestes fébriles, parfois inutiles, actions incohérentes et non coordonnées avec l'équipe."
+      - "Fuite : mise à distance ou refuge dans des actions permettant de se soustraire à la situation."
+      - "Action automatique : mode réflexe, gestes mécaniques et/ou ralentis, incapacité à s'adapter si la situation change."
+      - "Sidération : incapacité d'agir et de penser, comme « anesthésié » sur le plan émotionnel."
+  - type: chiffres
+    titre: Troubles psychotraumatiques
+    items:
+      - valeur: Jusqu'à 1 mois
+        libelle: Trouble de Stress Aigu (symptômes durant jusqu'à un mois après l'exposition)
+      - valeur: Au-delà d'1 mois
+        libelle: Trouble de Stress Post-Traumatique (pathologique)
+  - type: liste
+    titre: Symptômes psychotraumatiques et formes associées
+    items:
+      - "Symptômes : répétition de l'événement (souvenirs envahissants, flashbacks, cauchemars), évitement de tout ce qui rappelle l'événement, hypervigilance malgré l'absence de danger, pensée plus négative et difficulté à éprouver des sentiments positifs."
+      - "Apparition dans les premières heures suivant un stress de forte intensité, ou plus rarement de manière décalée."
+      - "Le trouble installé peut modifier durablement la personnalité et s'associer à la dépression et aux conduites addictives (alcool, autres substances) : soins médicaux et psychologiques préconisés."
+      - "Traumatisme vicariant : exposition répétée et chronique aux horreurs vécues par les victimes (viol, maltraitance, violence, accidents graves, torture, mort, mutilations) ; conviction d'un monde dangereux, peur d'être mis en danger, symptômes de stress aigu ou post-traumatique."
+  - type: liste
+    titre: Usure et épuisement
+    items:
+      - "Le stress répété à de trop brefs intervalles, surtout avec fortes réactions émotionnelles, peut conduire à l'épuisement."
+      - "Burn-out, trois dimensions : épuisement émotionnel ; déshumanisation (insensibilité, cynisme systématique, vision négative des autres et du travail) ; diminution du sentiment d'accomplissement personnel (autodépréciation, perte d'estime de soi, perte de l'idéal du métier)."
+      - "Fatigue ou usure de compassion : exposition répétée à la souffrance intense, hypersensibilité à l'état émotionnel des victimes, impuissance, tristesse, cynisme ou colère, remise en cause de son engagement."
+      - "Symptômes associés : dépressifs et somatiques (fatigue généralisée, migraines, douleurs gastriques, TMS, tensions musculaires, troubles du sommeil, hypertension artérielle)."
+  - type: liste
+    titre: Opérationnalité mentale
+    items:
+      - "Trois compétences indissociables : condition physique, technique, mental (pour se réguler, s'adapter et être efficace)."
+      - "Opérationnalité mentale : capacité à mobiliser les ressources mentales (sang-froid, lucidité, capacités d'analyse et d'adaptation) ; elle permet d'analyser sans biais, de prendre des décisions rationnelles et de s'engager dans l'action."
+      - "Le stress, certaines émotions, ressentis et sensations peuvent générer des troubles cognitifs : il faut savoir les reconnaître et les gérer."
+      - "Entraîner ses capacités comportementales, cognitives et émotionnelles pour amortir les impacts psychologiques."
+  - type: etapes
+    titre: Augmenter le potentiel mental (avant, pendant, après)
+    items:
+      - "Se préparer avant l'action : acquérir et entretenir des compétences par la formation et l'entraînement ; se construire une représentation juste et réaliste des missions ; connaître les risques psychologiques."
+      - "Se réguler pendant l'action : appliquer les mesures de protection physique et psychologique des intervenants ; utiliser les techniques de gestion du stress (exemple : respiration contrôlée)."
+      - "Récupérer / se reconditionner après : hygiène de vie (repos, alimentation équilibrée, activité physique, exclusion des comportements addictifs, équilibre vie familiale / professionnelle / sociale, connaître ses limites)."
+  - type: liste
+    titre: Détecter (situations critiques)
+    items:
+      - "Situations impliquant des proches (famille, collègues, amis)."
+      - "Interventions auprès d'enfants en détresse ou décédés."
+      - "Contextes violents : morts violentes, cadavres mutilés, morts par la main de l'homme (homicide, féminicide, infanticide, fratricide) ou de responsabilité humaine (AVP, accident du travail)."
+      - "Événements exceptionnels : nombreuses victimes, attentats, accidents, catastrophes industrielles ou naturelles."
+      - "Situations d'impuissance, d'échec ou de responsabilité ressentie, ou de danger perçu pour son intégrité physique et/ou psychique (dont violences physiques ou verbales à son encontre)."
+      - "Dans l'équipe, repérer : manifestations émotionnelles intenses, perte de capacité ou de réflexe, réactions inhabituelles ou inadaptées, réactions physiques inattendues (malaise), tension inhabituelle (isolement, silence, regards fuyants, ou agitation, logorrhée, excitation, colère, désarroi, abattement)."
+  - type: liste
+    titre: Réagir
+    items:
+      - "Informer le chef d'équipe lorsqu'un ou plusieurs membres perçoivent ou présentent des manifestations inhabituelles, afin d'ajuster la mission."
+      - "Après une intervention éprouvante : organiser un temps de répit dans un climat favorable, avec communication entre équipiers, après avoir assuré un confort de base (propreté, hydratation)."
+      - "Maintenir une vigilance sur les personnels submergés par leurs émotions, en trop plein d'excitation ou qui s'isolent."
+      - "Participer à un débriefing technique de l'opération ; suivre les recommandations de l'autorité d'emploi."
+      - "Recourir à des équipes spécialisées (psychologues, médecins, infirmiers formés) qui définissent elles-mêmes leurs modalités d'intervention selon des protocoles établis."
+      - "Soutien psychologique : chaque secouriste peut y faire appel (prévention et traitement immédiat ou différé) ; un appui précoce et approprié permet la récupération ; une orientation vers une aide professionnelle spécialisée peut être nécessaire."
+qcm:
+  - id: q1
+    enonce: "Jusqu'à quand parle-t-on de Trouble de Stress Aigu ?"
+    propositions:
+      - "Jusqu'à 48 heures après l'exposition"
+      - "Jusqu'à un mois après l'exposition"
+      - "Jusqu'à six mois après l'exposition"
+    bonnes: [1]
+    explication: "On parle de Trouble de Stress Aigu si les symptômes durent jusqu'à un mois après l'exposition ; au-delà, il s'agit d'un Trouble de Stress Post-Traumatique."
+  - id: q2
+    enonce: "Quelles sont les trois dimensions du burn-out décrites par le référentiel ?"
+    propositions:
+      - "Épuisement émotionnel"
+      - "Déshumanisation"
+      - "Diminution du sentiment d'accomplissement personnel"
+      - "Agitation désordonnée"
+    bonnes: [0, 1, 2]
+    explication: "Le burn-out associe épuisement émotionnel, déshumanisation (cynisme, insensibilité) et diminution du sentiment d'accomplissement personnel. L'agitation désordonnée est une réaction immédiate de stress."
+  - id: q3
+    enonce: "Comment nomme-t-on l'état où le secouriste agit en mode réflexe, par gestes mécaniques et/ou ralentis, sans pouvoir s'adapter aux changements ?"
+    propositions:
+      - "Sidération"
+      - "Fuite"
+      - "Action automatique"
+      - "Agitation désordonnée"
+    bonnes: [2]
+    explication: "L'action automatique correspond à un mode réflexe de gestes mécaniques et/ou ralentis. La sidération est une incapacité d'agir et de penser."
+  - id: q4
+    enonce: "Quel trouble résulte d'une exposition répétée et chronique aux horreurs vécues par les victimes, avec conviction d'un monde dangereux ?"
+    propositions:
+      - "Le traumatisme vicariant"
+      - "Le stress adapté"
+      - "L'usure de compassion uniquement"
+    bonnes: [0]
+    explication: "Le traumatisme vicariant est une forme moins connue de psychotraumatisme : le secouriste développe la conviction d'un monde dangereux et peut présenter des symptômes de stress aigu ou post-traumatique."
+  - id: q5
+    enonce: "Quelles sont les trois compétences indissociables pour être efficient sur le plan opérationnel ?"
+    propositions:
+      - "Condition physique, technique, mental"
+      - "Technique, rapidité, autorité"
+      - "Condition physique, matériel, hiérarchie"
+    bonnes: [0]
+    explication: "Le secouriste doit disposer de la condition physique, de la technique et du mental."
+  - id: q6
+    enonce: "Parmi ces situations, lesquelles sont qualifiées de critiques pour le secouriste ?"
+    propositions:
+      - "Intervention auprès d'un enfant décédé"
+      - "Situation impliquant un proche ou un collègue"
+      - "Malaise bénin sans particularité"
+      - "Événement exceptionnel avec nombreuses victimes"
+    bonnes: [0, 1, 3]
+    explication: "Les situations impliquant des proches, les enfants en détresse ou décédés et les événements exceptionnels figurent parmi les situations critiques."

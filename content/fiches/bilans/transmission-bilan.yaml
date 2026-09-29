@@ -1,0 +1,107 @@
+id: transmission-bilan
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 7
+titre: Transmission du bilan
+motsCles: [transmission, avis médical, renfort, orientation, relais, détresse vitale, médecin régulateur]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR06, 12-2022)
+  code: 04PR06
+  page: 72
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La transmission du bilan est un compte rendu de l'intervention, de l'état de la victime et des actions menées. Elle est adressée directement ou indirectement à une autorité médicale ou paramédicale, avec les moyens et selon les procédures en vigueur entre l'autorité employant les intervenants et l'autorité médicale destinataire. Elle doit être concise, complète, structurée, logique et présentée de façon chronologique."
+  - type: liste
+    titre: Objectifs de la transmission
+    items:
+      - Demander un avis médical.
+      - Demander du renfort.
+      - Définir l'orientation de la victime.
+      - Réaliser un relais.
+  - type: etapes
+    titre: Situation nécessitant immédiatement des moyens en renfort
+    items:
+      - Transmettre tout ou partie du bilan, en précisant la nature de l'intervention ; la description doit être particulièrement précise lorsque des moyens de secours particuliers sont demandés.
+      - Indiquer les moyens déjà présents sur place.
+      - Demander les moyens supplémentaires nécessaires.
+      - Corriger éventuellement les informations de départ erronées.
+  - type: etapes
+    titre: La victime présente une détresse vitale
+    items:
+      - Transmettre sans délai une demande de moyen médical en renfort, motivée par la constatation d'une ou plusieurs détresses vitales.
+      - "Préciser en particulier : la nature de l'intervention, le motif de la demande de renfort médical, le sexe et l'âge de la victime."
+      - Compléter ultérieurement, dans les meilleurs délais, par la transmission d'un bilan complet.
+  - type: etapes
+    titre: La victime ne présente pas de détresse vitale
+    items:
+      - Terminer l'interrogatoire, l'examen de la victime et la mesure des paramètres physiologiques.
+      - "Transmettre la totalité du bilan de façon concise et ordonnée : motif réel de l'intervention, sexe et âge de la victime, plainte principale, résultat du bilan et gestes de secours entrepris."
+  - type: attention
+    titre: Point de vigilance
+    items:
+      - "En cas de détresse vitale, le renfort médical est demandé sans délai : le bilan complet vient ensuite, il ne retarde pas la demande."
+      - Selon les organismes autorisés et les lésions de la victime, une procédure de transmission simplifiée du bilan peut être utilisée.
+qcm:
+  - id: q1
+    enonce: "Quels sont les objectifs de la transmission du bilan ?"
+    propositions:
+      - Demander un avis médical
+      - Demander du renfort
+      - Définir l'orientation de la victime
+      - Poser un diagnostic médical
+      - Réaliser un relais
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 4
+    explication: "Le bilan est transmis pour demander un avis médical, du renfort, définir l'orientation de la victime et réaliser un relais."
+  - id: q2
+    enonce: "Une victime présente une détresse vitale. Que faut-il transmettre sans délai ?"
+    propositions:
+      - Le bilan complet, après avoir terminé tous les examens
+      - Une demande de moyen médical en renfort, motivée par la ou les détresses vitales
+      - Uniquement le nom de la victime
+    bonnes:
+      - 1
+    explication: "Une demande de renfort médical motivée par la détresse est transmise sans délai ; le bilan complet est transmis ultérieurement, dans les meilleurs délais."
+  - id: q3
+    enonce: "Quels éléments sont à préciser en particulier lors de la demande de renfort médical pour détresse vitale ?"
+    propositions:
+      - La nature de l'intervention
+      - Le motif de la demande de renfort médical
+      - Les antécédents complets de la victime
+      - Le sexe et l'âge de la victime
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Il faut préciser la nature de l'intervention, le motif de la demande de renfort médical, le sexe et l'âge de la victime."
+  - id: q4
+    enonce: "En l'absence de détresse vitale, quel est le contenu de la transmission du bilan complet ?"
+    propositions:
+      - Le motif réel de l'intervention, le sexe et l'âge, la plainte principale, le résultat du bilan et les gestes entrepris
+      - Uniquement la plainte principale
+      - Uniquement les gestes de secours entrepris
+      - Les seules valeurs des paramètres physiologiques
+    bonnes:
+      - 0
+    explication: "La transmission indique le motif réel de l'intervention, le sexe et l'âge de la victime, la plainte principale, le résultat du bilan et les gestes de secours entrepris."
+  - id: q5
+    enonce: "Quelles qualités doit avoir la transmission du bilan ?"
+    propositions:
+      - Concise
+      - Complète
+      - Structurée
+      - Présentée de façon chronologique
+      - Interprétative
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "La transmission doit être concise, complète, structurée, logique et présentée de façon chronologique."

@@ -1,0 +1,121 @@
+id: moyens-protection-agents-infectieux
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 13
+titre: Équipement en moyens de protection contre les agents infectieux
+motsCles: [habillage, déshabillage, masque, surblouse, charlotte, lunettes, gants, retrait]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT08, 07-2026)
+  code: 03FT08
+  page: 62
+liees:
+  - precautions-particulieres
+  - retrait-des-gants
+  - friction-des-mains
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Il est impossible de dire si une personne, même apparemment saine, est porteuse d'une maladie infectieuse : l'intervenant se protège chaque fois qu'il prend en charge une victime. Pour ne pas alourdir les mesures, le choix des moyens dépend des gestes de secours, des manifestations de la victime et des consignes de l'autorité d'emploi. L'équipement peut être complet ou partiel ; l'habillage et le déshabillage sont facilités en binôme."
+  - type: liste
+    titre: Objectif
+    items:
+      - "Limiter le risque de contamination par contact (peau de la victime, sang, matériels souillés)."
+      - "Limiter le risque de contamination par voie aérienne (postillons, gouttes de salive)."
+  - type: liste
+    titre: Moyens de protection
+    items:
+      - "Gants à usage unique (PVC, nitrile, sans latex) : protègent les mains contre le sang ou un autre liquide biologique (salive, urine, selles)."
+      - "Masque médical, porté par la victime : protège l'intervenant des projections (salive, éternuement)."
+      - "Masque de protection respiratoire : protège l'intervenant d'une contamination aérienne."
+      - "Masque imperméable avec protection oculaire, porté par l'intervenant : protège bouche et yeux des projections liquides."
+      - "Lunettes de protection : contre les projections dans les yeux."
+      - "Charlotte ou cagoule : protège les cheveux des projections."
+      - "Surblouse : protège les vêtements des projections."
+  - type: etapes
+    titre: Mise en place
+    items:
+      - "Se laver les mains préalablement."
+      - "Mettre la charlotte ou la cagoule, en recouvrant la totalité des cheveux."
+      - "Mettre le masque de protection, puis resserrer avec deux doigts l'agrafe située au-dessus de la racine du nez."
+      - "Mettre la surblouse par l'avant, ouverture dans le dos, et faire nouer les lanières (se faire assister)."
+      - "Mettre les lunettes de protection."
+      - "Mettre les gants à usage unique."
+  - type: etapes
+    titre: Retrait de l'équipement
+    items:
+      - "Retirer les gants à usage unique."
+      - "Retirer le tablier plastique s'il est présent."
+      - "Retirer la surblouse vers l'avant après avoir détaché les lanières."
+      - "Se frictionner les mains."
+      - "Retirer la charlotte, puis la protection oculaire, puis la protection respiratoire."
+      - "Placer les équipements souillés dans les conteneurs DASRI."
+  - type: texte
+    titre: Critères d'évaluation
+    contenu: "Les mains nues n'ont pas touché les faces externes des équipements, et les équipements ôtés sont placés directement dans l'emballage à élimination de déchets."
+  - type: attention
+    items:
+      - "Au retrait, ne pas entrer en contact avec la face externe souillée des équipements."
+      - "L'ordre de retrait commence par les gants, se poursuit par la friction des mains, et termine par le masque."
+      - "Le masque est placé avant la protection oculaire s'il n'en possède pas une lui-même ; les branches des lunettes passent sous la charlotte."
+qcm:
+  - id: q1
+    enonce: "Quel est l'ordre de mise en place des équipements de protection ?"
+    propositions:
+      - "Gants, surblouse, masque, lunettes, charlotte"
+      - "Charlotte, masque, surblouse, lunettes, gants"
+      - "Masque, gants, charlotte, lunettes, surblouse"
+      - "Surblouse, gants, charlotte, masque, lunettes"
+    bonnes:
+      - 1
+    explication: "Après lavage des mains : charlotte ou cagoule, masque, surblouse, lunettes de protection, puis gants."
+  - id: q2
+    enonce: "Quel est le premier équipement retiré ?"
+    propositions:
+      - "La charlotte"
+      - "Le masque"
+      - "Les gants à usage unique"
+      - "La surblouse"
+    bonnes:
+      - 2
+    explication: "On retire d'abord les gants pour éviter toute contamination des mains, puis le tablier plastique, la surblouse, on se frictionne les mains, puis charlotte, protection oculaire, protection respiratoire."
+  - id: q3
+    enonce: "Que fait-on entre le retrait de la surblouse et celui de la charlotte ?"
+    propositions:
+      - "On se frictionne les mains"
+      - "On retire le masque"
+      - "On remet des gants"
+    bonnes:
+      - 0
+    explication: "Après la surblouse, on se frictionne les mains, puis on retire charlotte, protection oculaire et protection respiratoire."
+  - id: q4
+    enonce: "Comment met-on la surblouse ?"
+    propositions:
+      - "Par l'avant, ouverture dans le dos, lanières nouées (avec assistance)"
+      - "Par l'arrière, ouverture devant"
+      - "Sans nouer les lanières"
+    bonnes:
+      - 0
+    explication: "La surblouse se met par l'avant, ouverture dans le dos, et les lanières sont nouées avec l'aide d'un assistant."
+  - id: q5
+    enonce: "Que protège chacun de ces équipements ?"
+    propositions:
+      - "Le masque de protection respiratoire protège d'une contamination aérienne"
+      - "La charlotte protège les cheveux des projections"
+      - "Le masque médical porté par l'intervenant protège de la voie aérienne"
+      - "Les lunettes protègent les yeux des projections"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Le masque médical est porté par la victime pour protéger l'intervenant des projections ; le masque de protection respiratoire protège de la contamination aérienne."
+  - id: q6
+    enonce: "Que fait-on des équipements souillés après retrait ?"
+    propositions:
+      - "On les place dans les conteneurs DASRI"
+      - "On les réutilise"
+      - "On les jette aux ordures ménagères"
+    bonnes:
+      - 0
+    explication: "Les équipements souillés sont placés dans les conteneurs de DASRI."

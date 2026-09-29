@@ -1,0 +1,87 @@
+id: premier-regard
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 2
+titre: Premier regard
+motsCles: [1er regard, danger, nombre de victimes, moyens complémentaires, circonstances, sécurité]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR01, 12-2022)
+  code: 04PR01
+  page: 66
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Après avoir signalé son arrivée sur les lieux ou son engagement, l'équipe d'intervention réalise une vision globale de la situation : c'est le 1er regard."
+  - type: etapes
+    titre: Objectifs et conduite à tenir
+    items:
+      - "Déterminer la nature de l'intervention et les circonstances de survenue (« Que s'est-il passé ? ») : observer la scène et les lieux, questionner les tiers et/ou la victime, s'assurer de la justesse des informations transmises à l'équipe (ordre de mission). Transmettre la nature de l'intervention (accident, maladie, intoxication, situation de violence, accouchement, etc.), les circonstances et tout élément complémentaire ou à corriger."
+      - "Identifier les dangers et évaluer leurs risques (« Existe-t-il un danger immédiat à venir ? ») : rechercher les dangers évidents (véhicules accidentés, structure instable, situation violente), les dangers moins évidents (risque électrique, toxique, impact psychologique) et les personnes exposées (intervenants, victimes, tiers). Assurer la protection et la sécurité, appliquer les précautions standards ou particulières en cas de risque infectieux, indiquer les mesures de sécurité prises."
+      - "Déterminer le nombre de victimes (« Combien y a-t-il de victimes ? ») : faire si nécessaire une reconnaissance des lieux et de leurs alentours (victime éjectée, victimes dans des lieux différents). En cas de nombreuses victimes, appliquer les principes de leur prise en charge : repérage, puis transmission sans délai de la situation, du nombre approximatif de victimes et de leur état de gravité apparent."
+      - "Demander si besoin des moyens complémentaires (« Les moyens sont-ils suffisants pour le moment ? ») : identifier les moyens sur place et les moyens complémentaires nécessaires, puis les demander le plus rapidement possible."
+  - type: liste
+    titre: Les 4 questions du 1er regard
+    items:
+      - Que s'est-il passé ? Les informations initiales sont-elles correctes ?
+      - Existe-t-il un danger immédiat à venir ?
+      - Combien y a-t-il de victimes ?
+      - Les moyens sont-ils suffisants pour le moment ?
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - Les dangers moins évidents (électrique, toxique, impact psychologique) sont à rechercher au même titre que les dangers évidents.
+      - En cas de nombreuses victimes, la situation est transmise sans délai, avec le nombre approximatif de victimes et leur état de gravité apparent.
+qcm:
+  - id: q1
+    enonce: "Quel est l'objectif du 1er regard ?"
+    propositions:
+      - Mesurer la pression artérielle de la victime
+      - Réaliser une vision globale de la situation
+      - Rechercher les antécédents de la victime
+      - Évaluer la respiration de la victime
+    bonnes:
+      - 1
+    explication: "Le 1er regard est une vision globale de la situation, réalisée après avoir signalé son arrivée sur les lieux ou son engagement."
+  - id: q2
+    enonce: "Parmi ces dangers, lesquels sont cités comme des dangers évidents à rechercher lors du 1er regard ?"
+    propositions:
+      - Véhicules accidentés
+      - Structure instable
+      - Antécédents médicaux de la victime
+      - Situation violente
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Les dangers évidents sont les véhicules accidentés, une structure instable, une situation violente. Les antécédents relèvent du 4e regard."
+  - id: q3
+    enonce: "En cas de nombreuses victimes repérées lors du 1er regard, que faut-il transmettre sans délai ?"
+    propositions:
+      - Uniquement le nom des victimes
+      - Le bilan complet de chaque victime
+      - La situation, le nombre approximatif de victimes et leur état de gravité apparent
+    bonnes:
+      - 2
+    explication: "Il faut transmettre sans délai la situation de nombreuses victimes, leur nombre approximatif et leur état de gravité apparent."
+  - id: q4
+    enonce: "Quelle question correspond à la recherche de dangers lors du 1er regard ?"
+    propositions:
+      - Combien y a-t-il de victimes ?
+      - Les moyens sont-ils suffisants pour le moment ?
+      - Existe-t-il un danger immédiat à venir ?
+      - Les informations initiales sont-elles correctes ?
+    bonnes:
+      - 2
+    explication: "Identifier les dangers et évaluer leurs risques correspond à la question « Existe-t-il un danger immédiat à venir ? »."
+  - id: q5
+    enonce: "Si les moyens présents sont insuffisants, que faut-il faire lors du 1er regard ?"
+    propositions:
+      - Les demander le plus rapidement possible
+      - Attendre la fin du 4e regard pour les demander
+      - Poursuivre seul sans les demander
+    bonnes:
+      - 0
+    explication: "Après avoir identifié les moyens sur place et les moyens complémentaires nécessaires, il faut demander ces derniers le plus rapidement possible."

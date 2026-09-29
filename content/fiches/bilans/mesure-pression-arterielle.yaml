@@ -1,0 +1,127 @@
+id: mesure-pression-arterielle
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 17
+titre: Mesure de la pression artérielle
+motsCles: [pression artérielle, tensiomètre, auscultation, palpation, systolique, diastolique, brassard]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT10, 12-2023)
+  code: 04FT10
+  page: 89
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "La pression artérielle (PA) est un indicateur de la fonction circulatoire, mesurée chaque fois que possible lors du bilan et de la surveillance, sans jamais retarder un geste de secours d'urgence. Deux valeurs sont relevées, en millimètres de mercure : la pression systolique (la plus élevée, lors de la contraction du cœur) et la pression diastolique (la plus basse, lors du relâchement du cœur). Une hypertension ou une hypotension peuvent survenir après un traumatisme ou une maladie."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Tensiomètre manuel : manchon gonflable (tailles adulte et enfant), tuyau relié à une poire munie d'une valve de dégonflage, manomètre."
+      - "Tensiomètre automatique : centrale sur batterie affichant PA et fréquence cardiaque, manchon gonflable, tuyau."
+      - Un stéthoscope pour la mesure par auscultation.
+  - type: texte
+    titre: Position
+    contenu: "Idéalement, victime immobile, en position assise, demi-assise ou allongée, brassard posé au niveau du bras."
+  - type: etapes
+    titre: Mesure automatique (préférable pour le secouriste)
+    items:
+      - "Placer le manchon autour du bras, idéalement à même la peau (un vêtement fin peut être toléré ; un bourrelet de tissu ou une manche épaisse invalide la mesure)."
+      - Disposer le repère artériel juste au-dessus du passage de l'artère (face interne du bras).
+      - La mesure est automatique ; respecter le mode d'emploi. La PA et la fréquence cardiaque s'affichent.
+  - type: etapes
+    titre: Mesure par auscultation (tensiomètre manuel et stéthoscope)
+    items:
+      - Placer le manchon autour du bras accessible et non traumatisé, bord inférieur au moins 2 cm au-dessus du pli du coude (face interne) ; le manomètre doit être visible.
+      - Placer les embouts du stéthoscope dans les oreilles, dirigés vers l'avant.
+      - Localiser avec les doigts le pouls de l'artère au pli du coude (partie interne).
+      - Placer le pavillon du stéthoscope sur l'artère, juste au-dessus du pouls, à 1 cm sous le bord inférieur du brassard, maintenu avec l'index et le majeur.
+      - Gonfler doucement jusqu'à ne plus entendre le pouls, puis 30 mmHg de plus.
+      - Dégonfler doucement (aiguille descendant de 2 à 3 mmHg par seconde).
+      - Noter la valeur quand le bruit du pouls redevient audible, c'est la pression systolique.
+      - Continuer à dégonfler et noter la valeur quand le bruit disparaît, c'est la pression diastolique.
+  - type: etapes
+    titre: Mesure par palpation (ambiance bruyante, systolique seulement)
+    items:
+      - Placer le manchon comme ci-dessus (bras accessible, non traumatisé, 2 cm au moins au-dessus du pli du coude).
+      - Tenir la poire d'une main et fermer la valve ; localiser le pouls radial de l'autre main.
+      - Gonfler doucement jusqu'à ne plus percevoir le pouls radial, puis 30 mmHg de plus.
+      - Dégonfler doucement (2 à 3 mmHg par seconde).
+      - Noter la valeur dès que le pouls radial est à nouveau perceptible, c'est la pression systolique ; dégonfler totalement.
+  - type: chiffres
+    titre: Valeurs et repères
+    items:
+      - valeur: 100 / 80 mmHg
+        libelle: Adulte au repos et réveillé, systolique / diastolique (autour de)
+      - valeur: +30 mmHg
+        libelle: Surgonflage après disparition du pouls
+      - valeur: 2 à 3 mmHg/s
+        libelle: Vitesse de dégonflage
+      - valeur: ≥ 2 cm
+        libelle: Bord inférieur du brassard au-dessus du pli du coude
+  - type: texte
+    titre: Chez l'enfant
+    contenu: "Il n'existe pas de valeur de référence chez l'enfant : la PA varie selon le sexe, l'âge, la taille et le poids. Le secouriste se limite à transmettre les valeurs mesurées pour demander un avis médical."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Prévenir la victime que le gonflement du brassard peut être douloureux.
+      - "Si le manchon reste en place pour une nouvelle mesure : vérifier qu'il est bien dégonflé, pas trop serré et qu'il ne gêne pas la victime."
+      - Les appareils peuvent ne pas afficher de résultat si la PA est trop basse ou trop élevée.
+      - "Choisir le bras approprié en cas de contre-indication médicale, de plainte de la victime, de perfusion ou de lésion de membre."
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - La mise en place correcte de l'appareil garantit l'efficacité de la technique.
+qcm:
+  - id: q1
+    enonce: "Par auscultation, la valeur notée quand le bruit du pouls redevient audible correspond à :"
+    propositions:
+      - La pression diastolique
+      - La pression systolique
+      - La fréquence cardiaque
+    bonnes:
+      - 1
+    explication: "Réapparition du bruit = pression systolique ; disparition du bruit = pression diastolique."
+  - id: q2
+    enonce: "De combien gonfle-t-on le brassard après la disparition du pouls ?"
+    propositions:
+      - 10 mmHg
+      - 20 mmHg
+      - 30 mmHg
+      - 50 mmHg
+    bonnes:
+      - 2
+    explication: "On continue de gonfler de 30 mmHg en plus après disparition du bruit du pouls (ou du pouls radial en palpation)."
+  - id: q3
+    enonce: "Quelle méthode est réservée à l'ambiance bruyante et ne donne que la pression systolique ?"
+    propositions:
+      - La mesure automatique
+      - La mesure par auscultation
+      - La mesure par palpation du pouls radial
+    bonnes:
+      - 2
+    explication: "La palpation ne mesure que la systolique et s'utilise en ambiance bruyante."
+  - id: q4
+    enonce: "Quelles affirmations sur la pose du brassard sont exactes ?"
+    propositions:
+      - Le bord inférieur est à 2 cm au moins au-dessus du pli du coude
+      - Le bras choisi est accessible et non traumatisé
+      - Le pavillon du stéthoscope est placé sous le brassard, à 1 cm de son bord inférieur
+      - Une manche épaisse est acceptable
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La peau nue est préférable ; un bourrelet de tissu ou une manche épaisse invalide la mesure."
+  - id: q5
+    enonce: "Quelle est la vitesse de dégonflage recommandée ?"
+    propositions:
+      - 2 à 3 mmHg par seconde
+      - 10 mmHg par seconde
+      - Le plus vite possible
+      - 1 mmHg par minute
+    bonnes:
+      - 0
+    explication: "L'aiguille du manomètre doit descendre doucement, de 2 à 3 mmHg par seconde."

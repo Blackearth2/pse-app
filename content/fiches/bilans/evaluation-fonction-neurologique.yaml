@@ -1,0 +1,131 @@
+id: evaluation-fonction-neurologique
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 19
+titre: Évaluation de la fonction neurologique
+motsCles: [fonction neurologique, perte de connaissance, EVDA, score de Glasgow, AVC, FAST, pupilles]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT12, 07-2026)
+  code: 04FT12
+  page: 95
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "L'évaluation de la fonction neurologique, fonction vitale, est réalisée lors du bilan et de la surveillance. Elle permet d'identifier une perte de connaissance (2e regard), d'évaluer le niveau de conscience (3e regard), de rechercher troubles de l'orientation, perte de connaissance passagère, altérations de la motricité et de la sensibilité, puis d'examiner les pupilles (4e regard), et de suivre l'évolution. Aucun appareil n'est nécessaire."
+  - type: liste
+    titre: Trois temps
+    items:
+      - "Rechercher une perte de connaissance (2e regard)."
+      - "Apprécier la fonction neurologique (3e regard) : questions, stimulation, gestes demandés."
+      - "Mesurer (4e regard) : score EVDA (AVPU), score de Glasgow, scores de l'AVC. Le choix de la méthode de mesure du niveau de conscience relève de l'autorité médicale de chaque organisme."
+  - type: etapes
+    titre: Rechercher une perte de connaissance (quelques secondes, quelle que soit la position)
+    items:
+      - "Poser une question simple (« Comment ça va ? Vous m'entendez ? ») tout en secouant doucement les épaules."
+      - "Prendre la main de la victime et lui demander un ordre simple (« Ouvrez les yeux, serrez-moi la main »)."
+      - "Une victime a perdu connaissance si elle ne répond pas, n'exécute pas le geste simple et ne réagit pas aux sollicitations physiques."
+  - type: liste
+    titre: Apprécier la fonction neurologique
+    items:
+      - "Orientation dans le temps et l'espace : nom, année, jour, lieu."
+      - "Perte de connaissance initiale ou passagère : interroger l'entourage, demander à la victime si elle se souvient de ce qui s'est passé."
+      - "Motricité et sensibilité : remuer doigts et orteils ou pieds, serrer la main, fermer les yeux et identifier successivement les membres touchés."
+      - "Pupilles : symétrie et taille, à la lumière du jour puis sous une lumière de faible intensité."
+  - type: liste
+    titre: Conditions normales
+    items:
+      - La victime répond correctement, de façon cohérente et compréhensible, et se souvient des circonstances de l'accident ou du malaise si elle n'a pas perdu connaissance.
+      - Elle bouge les membres supérieurs et inférieurs et sent quand on la touche.
+      - Les pupilles sont de diamètre égal et se resserrent à la lumière.
+  - type: etapes
+    titre: Score EVDA (AVPU)
+    items:
+      - Interpeller la victime, lui poser une question simple.
+      - Lui prendre la main et lui demander un ordre simple.
+      - "En l'absence de réaction, stimuler par une pression sur la base d'un ongle (aucune autre stimulation douloureuse)."
+      - "E : Éveillée, alerte (ouvre les yeux, répond, bouge spontanément)."
+      - "V : réactive à la Voix (n'ouvre les yeux, ne parle ou n'exécute un ordre que sur demande)."
+      - "D : réactive à la Douleur (ne réagit qu'à la pression à la base de l'ongle, pas à la voix)."
+      - "A : Aréactive (inerte, ne réagit ni à la voix ni à la douleur)."
+      - "L'examen peut être renouvelé autant que nécessaire, notamment en surveillance."
+  - type: chiffres
+    titre: Score de Glasgow (3 à 15)
+    items:
+      - valeur: "3"
+        libelle: Coma aréactif (minimum)
+      - valeur: "15"
+        libelle: Victime parfaitement consciente (maximum)
+      - valeur: "Y 1 à 4"
+        libelle: Ouverture des yeux (aucune, douleur, demande, spontanée)
+      - valeur: "V 1 à 5"
+        libelle: Réponse verbale (aucune, sons incompréhensibles, paroles inappropriées, confuse, normale)
+      - valeur: "M 1 à 6"
+        libelle: Réponse motrice (aucune, extension anormale, flexion anormale, retrait à la douleur, localise la douleur, normale)
+      - valeur: "> 12"
+        libelle: Résultat considéré comme normal
+  - type: etapes
+    titre: Score de l'AVC (FAST)
+    items:
+      - "Face : demander de sourire ou de montrer les dents (asymétrie du visage)."
+      - "Arm : demander de fermer les yeux et d'étendre les bras devant soi 10 secondes (faiblesse d'un membre supérieur)."
+      - "Speech : demander de répéter une phrase (anomalie de la parole)."
+      - "Time : score positif si asymétrie faciale, faiblesse des bras ou anomalie de la parole ; suspecter un AVC et demander immédiatement un avis médical."
+      - "D'autres scores existent (CPSS, LAPSS) ; certains incluent la glycémie capillaire, qui doit être supérieure à 0,6 g/l pour considérer le score comme positif (LAPSS)."
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - "L'évaluation doit permettre d'identifier une perte de connaissance, des troubles de la conscience ou des signes d'une détresse neurologique en voie de constitution."
+qcm:
+  - id: q1
+    enonce: "Comment stimule-t-on une victime qui ne réagit ni à la voix ni à un ordre simple pour le score EVDA ?"
+    propositions:
+      - Par un pincement du lobe de l'oreille
+      - Par une pression sur la base d'un ongle, sans autre stimulation douloureuse
+      - Par une gifle légère
+      - Par une pression sur le sternum
+    bonnes:
+      - 1
+    explication: "Seule la pression sur la base d'un ongle est utilisée ; aucune autre méthode de stimulation douloureuse ne doit être réalisée."
+  - id: q2
+    enonce: "Quelle est l'étendue du score de Glasgow ?"
+    propositions:
+      - De 0 à 10
+      - De 1 à 15
+      - De 3 à 15
+      - De 3 à 20
+    bonnes:
+      - 2
+    explication: "De 3 (coma aréactif) à 15 (victime parfaitement consciente) ; un résultat supérieur à 12 est considéré comme normal."
+  - id: q3
+    enonce: "Que recherche-t-on avec le test FAST ?"
+    propositions:
+      - Un arrêt cardiaque
+      - Un accident vasculaire cérébral
+      - Une hypoglycémie
+      - Une intoxication
+    bonnes:
+      - 1
+    explication: "Face (sourire), Arm (bras tendus 10 secondes), Speech (phrase), Time : score de reconnaissance de l'AVC."
+  - id: q4
+    enonce: "Quels éléments correspondent à un état neurologique normal ?"
+    propositions:
+      - Pupilles de diamètre égal qui se resserrent à la lumière
+      - Pupilles asymétriques
+      - Victime qui sent quand on la touche
+      - Réponses confuses
+    bonnes:
+      - 0
+      - 2
+    explication: "Une victime normale répond de façon cohérente, bouge ses membres, sent le toucher, et ses pupilles sont symétriques et réactives à la lumière."
+  - id: q5
+    enonce: "Que signifie la lettre V dans le score EVDA ?"
+    propositions:
+      - Vigilante
+      - Réactive à la Voix
+      - Vomissante
+    bonnes:
+      - 1
+    explication: "E Éveillée, V réactive à la Voix, D réactive à la Douleur, A Aréactive."

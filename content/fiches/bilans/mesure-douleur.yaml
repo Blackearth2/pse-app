@@ -1,0 +1,115 @@
+id: mesure-douleur
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 23
+titre: Mesure de la douleur
+motsCles: [douleur, échelle verbale simple, échelle numérique, EVA, échelle des 6 visages, EVENDOL]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT16, 12-2023)
+  code: 04FT16
+  page: 105
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "La mesure de la douleur se fait lors de l'analyse des plaintes (4e regard) et régulièrement en surveillance. Elle donne le niveau initial de douleur, permet de suivre son évolution pendant et après les gestes de premiers secours, et sert à porter l'indication des antalgiques (certains peuvent être utilisés par des secouristes habilités sur indication médicale). On utilise une échelle d'évaluation, verbale ou avec un outil visuel ; son choix relève de l'autorité médicale de chaque organisme."
+  - type: chiffres
+    titre: Seuils de prise en charge de la douleur
+    items:
+      - valeur: EVS ≥ 2
+        libelle: Échelle verbale simple (0 à 4)
+      - valeur: EN ≥ 4/10
+        libelle: Échelle numérique (0 à 10)
+      - valeur: EVA ≥ 4/10
+        libelle: Échelle visuelle analogique
+      - valeur: Visages ≥ 4
+        libelle: Échelle des 6 visages (enfant de 4 à 10 ans)
+      - valeur: EVENDOL ≥ 4/15
+        libelle: Hétéroévaluation (enfant de 0 à 7 ans)
+  - type: liste
+    titre: Échelle verbale simple (EVS), 5 points de 0 à 4
+    items:
+      - "0 douleur nulle ; 1 faible ; 2 modérée ; 3 intense ; 4 insupportable."
+      - Demander à la victime de noter sa douleur à l'instant présent.
+  - type: liste
+    titre: Échelle numérique (EN), 11 points de 0 à 10
+    items:
+      - "0 : absence de douleur ; 1 à 3 : faible ; 4 à 5 : modérée ; 6 à 7 : forte ; 8 à 10 : insupportable."
+      - Nécessite une bonne explication et la compréhension de la victime ; plus facile chez l'adulte.
+  - type: liste
+    titre: Échelle visuelle analogique (EVA)
+    items:
+      - "Même principe que l'EN, avec une réglette graduée en mm : la victime déplace un curseur sur une ligne (de « pas de douleur » à « douleur maximale imaginable »), le secouriste lit la valeur en millimètres sur l'autre face."
+      - Demande une bonne coopération et une explication claire ; s'assurer de la compréhension.
+      - En cas de plusieurs points douloureux, évaluer chacun.
+  - type: liste
+    titre: Échelle des 6 visages (enfant de 4 à 10 ans)
+    items:
+      - "Basée sur le principe de l'EVA ; six visages, donc six niveaux : 0, 2, 4, 6, 8 et 10."
+      - De compréhension facile, même chez l'enfant jeune, douloureux ou fatigué ; échelle la mieux validée et la plus appréciée des enfants.
+  - type: liste
+    titre: Échelle EVENDOL (hétéroévaluation, enfant de 0 à 7 ans)
+    items:
+      - "Utilisée pour les enfants les plus jeunes, stressés ou qui ne s'expriment pas ; évaluation comportementale."
+      - "15 points : cinq critères notés de 0 à 3 (expression vocale ou verbale, mimique, mouvements, position, relation avec l'environnement)."
+      - Plus difficile à utiliser, souvent réservée à un personnel habitué ; son usage par les secouristes relève de l'autorité médicale de chaque organisme.
+  - type: liste
+    titre: Critères d'évaluation
+    items:
+      - Mesure réalisée pour chaque victime qui présente une douleur.
+      - Utilisation d'un outil de mesure validé.
+      - Mesure répétée pour suivre l'évolution tout au long de la prise en charge.
+      - Résultat renseigné sur la fiche de bilan.
+qcm:
+  - id: q1
+    enonce: "À partir de quelle valeur de l'échelle numérique une prise en charge de la douleur est-elle nécessaire ?"
+    propositions:
+      - EN ≥ 2/10
+      - EN ≥ 4/10
+      - EN ≥ 6/10
+      - EN ≥ 8/10
+    bonnes:
+      - 1
+    explication: "La victime nécessite une prise en charge de la douleur si EN ≥ 4/10 (idem pour l'EVA)."
+  - id: q2
+    enonce: "Quel est le seuil de prise en charge sur l'échelle verbale simple (0 à 4) ?"
+    propositions:
+      - EVS ≥ 1
+      - EVS ≥ 2
+      - EVS ≥ 3
+      - EVS = 4 uniquement
+    bonnes:
+      - 1
+    explication: "Une prise en charge est nécessaire si EVS ≥ 2 (douleur modérée ou plus)."
+  - id: q3
+    enonce: "Quelle échelle est adaptée à un enfant de 4 à 10 ans ?"
+    propositions:
+      - EVENDOL
+      - Échelle des 6 visages
+      - Échelle verbale simple uniquement
+    bonnes:
+      - 1
+    explication: "L'échelle des 6 visages est adaptée de 4 à 10 ans ; EVENDOL est une hétéroévaluation validée de 0 à 7 ans."
+  - id: q4
+    enonce: "Quelles affirmations sur EVENDOL sont exactes ?"
+    propositions:
+      - Elle est notée sur 15
+      - Elle repose sur des critères comportementaux
+      - Elle s'adresse à l'adulte
+      - Une prise en charge est nécessaire si le score est ≥ 4/15
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "EVENDOL évalue le comportement de l'enfant de 0 à 7 ans, sur 15 points ; seuil de prise en charge : ≥ 4/15."
+  - id: q5
+    enonce: "Qu'est-il précisé dans les critères d'évaluation de la mesure de la douleur ?"
+    propositions:
+      - La mesure n'est faite qu'une fois
+      - La mesure est répétée et renseignée sur la fiche de bilan
+      - Un outil non validé est acceptable
+    bonnes:
+      - 1
+    explication: "La mesure est faite pour chaque victime douloureuse, avec un outil validé, répétée et renseignée sur la fiche de bilan."

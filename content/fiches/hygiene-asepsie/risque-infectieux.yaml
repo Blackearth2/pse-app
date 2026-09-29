@@ -1,0 +1,96 @@
+id: risque-infectieux
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: connaissance
+ordre: 3
+titre: Risque infectieux
+motsCles: [infection, transmission, contact, gouttelettes, voie aérienne, précautions standards, AEV, porteur sain]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03AC02, 09-2014)
+  code: 03AC02
+  page: 45
+liees:
+  - precautions-standards
+  - precautions-particulieres
+  - accident-exposition-risque-viral
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une infection résulte de la pénétration dans l'organisme d'un nombre suffisant d'agents (bactérie, virus, champignon, parasite) pour y proliférer. Elle peut s'accompagner de signes après une incubation variable, ou rester muette : on parle de porteur sain. L'intervenant ignorant souvent si la victime ou les secouristes sont infectés, il applique systématiquement les précautions standards."
+  - type: liste
+    titre: Modes de transmission
+    items:
+      - "Par contact : voie la plus importante ; le réservoir principal est l'être humain, les mains sont le plus souvent le vecteur. Tout contact avec une victime potentiellement infectée (peau, sang, liquides biologiques), du matériel ou des surfaces souillés, ou des déchets d'activités de soins est dangereux."
+      - "Par les gouttelettes (postillons) : fines gouttes d'eau ou de salive émises en expirant, parlant ou toussant ; elles ne restent pas longtemps en suspension et ne contaminent que sur une courte distance (ex. grippe)."
+      - "Par l'air : très fines particules (gouttelettes déshydratées, poussières) qui restent longtemps en suspension et restent contaminantes même sans source directe (ex. tuberculose, varicelle)."
+      - "Par d'autres voies : eau contaminée par des déjections, nourriture (toxi-infection alimentaire), certains médicaments issus de porteurs sains (sang et dérivés), matériel de secours insuffisamment désinfecté (aspirateur de mucosités, insufflateurs manuels)."
+  - type: liste
+    titre: Précautions à prendre
+    items:
+      - "Précautions standards : appliquées systématiquement par tous les intervenants, avec un double objectif (protection du personnel et protection de la victime). Elles concernent l'hygiène corporelle quotidienne et les précautions pendant et après l'intervention."
+      - "Précautions particulières : complémentaires aux précautions standards, mises en œuvre selon le niveau de risque ou sur consignes des autorités d'emploi."
+      - "Appliquées par les intervenants, elles réduisent la transmission de microorganismes dangereux ou résistants, ou de maladies transmissibles (tuberculose, méningite)."
+  - type: liste
+    titre: Prévention des AEV
+    items:
+      - "En amont : vaccination contre l'hépatite B, port d'équipements de protection, respect des précautions standards et particulières, utilisation de matériel de sécurité, formation spécifique à la prévention des AEV."
+      - "Pendant l'intervention : précautions standards pour tous dès la prise en charge ; porter tous les équipements de sécurité adaptés (désincarcération : baisser la visière ; manches longues ; gants à usage unique, voire double gantage en cas d'hémorragie externe)."
+      - "Vigilance en présence d'objets coupants ou piquants et respect impératif des règles d'utilisation des emballages à DASRI."
+      - "Après l'intervention : peau, tenue, matériel et véhicule peuvent être contaminés ; retirer les gants selon la procédure adaptée, nettoyer et désinfecter les matériels."
+  - type: attention
+    items:
+      - "Un porteur sain n'a pas de signes mais peut transmettre : on ne peut pas se fier à l'apparence de la victime."
+      - "Air : les particules restent longtemps en suspension ; gouttelettes : elles ne contaminent que sur une courte distance."
+qcm:
+  - id: q1
+    enonce: "Quelle est la voie de transmission la plus importante des microorganismes ?"
+    propositions:
+      - "La voie aérienne"
+      - "Le contact"
+      - "L'eau"
+      - "Les gouttelettes"
+    bonnes:
+      - 1
+    explication: "Le contact est la voie la plus importante ; le réservoir principal est l'être humain et les mains sont dans la plupart des cas le vecteur."
+  - id: q2
+    enonce: "Quelles maladies sont citées comme transmises par l'air ?"
+    propositions:
+      - "La tuberculose"
+      - "La varicelle"
+      - "La grippe"
+      - "L'hépatite B"
+    bonnes:
+      - 0
+      - 1
+    explication: "L'air est le vecteur de la tuberculose et de la varicelle. La grippe est citée pour les gouttelettes (postillons)."
+  - id: q3
+    enonce: "Que désigne l'expression « porteur sain » ?"
+    propositions:
+      - "Une personne dont l'infection reste muette"
+      - "Une personne vaccinée"
+      - "Une personne sans aucun germe"
+    bonnes:
+      - 0
+    explication: "L'infection peut rester muette : on parle de porteur sain."
+  - id: q4
+    enonce: "Les précautions standards sont :"
+    propositions:
+      - "Appliquées seulement sur consigne de l'autorité d'emploi"
+      - "Appliquées systématiquement par tous les intervenants, pour protéger le personnel et la victime"
+      - "Réservées aux victimes présentant une maladie connue"
+    bonnes:
+      - 1
+    explication: "Elles doivent être appliquées par tous les intervenants avec un double objectif : protection du personnel et de la victime. Les précautions particulières sont mises en œuvre selon le niveau de risque ou sur consigne."
+  - id: q5
+    enonce: "Parmi ces mesures, lesquelles participent à la prévention des AEV ?"
+    propositions:
+      - "La vaccination contre l'hépatite B"
+      - "L'utilisation de matériel de sécurité"
+      - "Une formation spécifique à la prévention des AEV"
+      - "Le recapuchonnage des aiguilles"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Vaccination, équipements de protection, précautions, matériel de sécurité et formation font partie de la prévention. Le recapuchonnage est interdit (fiche DASRI)."

@@ -1,0 +1,126 @@
+id: degagement-urgence
+niveau: PSE1
+chapitre: protection-securite
+type: technique
+ordre: 3
+titre: Dégagement d'urgence
+motsCles: [dégagement d'urgence, traction, chevilles, poignets, aisselles, sortie de véhicule, équipier relais]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02FT01, 09-2019)
+  code: 02FT01
+  page: 38
+liees:
+  - securite-intervention
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le dégagement d'urgence déplace la victime, de quelques mètres ou plus, en quelques secondes, jusqu'à un lieu sûr, sans aucun matériel. Il permet de réaliser en sécurité le bilan, les gestes de secours d'urgence et la surveillance."
+  - type: liste
+    titre: Indications
+    items:
+      - "Soustraire une victime à un danger réel, vital, immédiat et non contrôlable."
+      - "Rendre possibles les gestes d'urgence vitale sur une victime se trouvant dans un lieu ou une position ne permettant pas de les réaliser."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Assurer d'abord la sécurité de toute intervention."
+      - "Choisir la technique adaptée, puis tirer la victime jusqu'à ce qu'elle soit en lieu sûr."
+  - type: liste
+    titre: Tractions simples sur le sol
+    items:
+      - "Par les chevilles : saisir la victime par les chevilles et la tirer sur le sol."
+      - "Par les poignets : saisir la victime par les poignets et la tirer sur le sol."
+      - "Par les vêtements : saisir la victime par ses vêtements et la tirer sur le sol."
+  - type: etapes
+    titre: Traction sous les aisselles
+    items:
+      - "Asseoir la victime en la saisissant par ses vêtements."
+      - "Se placer derrière elle et saisir ses poignets opposés en passant les avant-bras sous ses aisselles."
+      - "Surélever la partie supérieure de son corps, ses pieds restant en contact avec le sol."
+      - "Tirer la victime à reculons jusqu'à ce qu'elle soit en lieu sûr."
+  - type: etapes
+    titre: Sortie d'un véhicule
+    items:
+      - "Détacher ou couper la ceinture de sécurité."
+      - "Dégager éventuellement les pieds de la victime des pédales."
+      - "Passer la main sous l'aisselle la plus proche et maintenir son menton."
+      - "Passer l'autre main sous l'autre aisselle et saisir sa ceinture ou son poignet opposé."
+      - "Tirer la victime hors du véhicule en se redressant, tout en poursuivant le maintien de sa tête."
+      - "Allonger la victime au sol en zone sûre en accompagnant sa tête et sa nuque (un second secouriste peut aider)."
+  - type: texte
+    titre: Enfant ou nourrisson
+    contenu: "Dégager le jeune enfant ou le nourrisson en le portant dans les bras."
+  - type: etapes
+    titre: Traction sur le sol par « équipier relais » (technique exceptionnelle)
+    items:
+      - "Le 1er secouriste s'allonge au sol et saisit la victime : aux chevilles si l'abord se fait par les pieds ; aux poignets, à la ceinture ou aux aisselles si l'abord se fait par la tête."
+      - "Un ou deux autres secouristes saisissent les chevilles du 1er secouriste."
+      - "Ils tirent de dessous l'obstacle la victime, par l'intermédiaire du 1er secouriste, lorsque celui-ci en donne l'ordre."
+  - type: texte
+    titre: Critères d'évaluation
+    contenu: "La victime doit se trouver en quelques secondes hors de danger, en zone sûre, avec une prise de risque minimale pour le sauveteur."
+  - type: attention
+    items:
+      - "Ces techniques sont susceptibles d'aggraver les lésions de la victime, notamment de la colonne vertébrale, mais permettent de soustraire une victime à une mort quasi certaine."
+      - "Traction par les aisselles : elle permet de déplacer la victime dans des escaliers ou sur un sol accidenté, tout en protégeant sa tête."
+      - "Équipier relais : avant toute manœuvre, le calage du véhicule ou de l'obstacle est réalisé ou vérifié."
+qcm:
+  - id: q1
+    enonce: "Dans quels cas réalise-t-on un dégagement d'urgence ?"
+    propositions:
+      - "Pour soustraire la victime à un danger réel, vital, immédiat et non contrôlable"
+      - "Pour rendre possibles les gestes d'urgence vitale quand la position de la victime ne le permet pas"
+      - "Systématiquement à toute victime au sol"
+      - "Uniquement si la victime est inconsciente"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le dégagement d'urgence répond à un danger réel, vital, immédiat et non contrôlable, ou à l'impossibilité de réaliser les gestes d'urgence vitale à l'endroit où se trouve la victime."
+  - id: q2
+    enonce: "Quel matériel faut-il pour réaliser un dégagement d'urgence ?"
+    propositions:
+      - "Une planche de relevage"
+      - "Un brancard"
+      - "Une paire de gants de manutention"
+      - "Aucun matériel"
+    bonnes:
+      - 3
+    explication: "La fiche indique : aucun matériel."
+  - id: q3
+    enonce: "Lors de la sortie d'un véhicule, que fait le secouriste pour la tête de la victime ?"
+    propositions:
+      - "Il maintient son menton puis poursuit le maintien de la tête pendant qu'il la dégage"
+      - "Il ne s'en occupe pas, l'urgence étant la vitesse"
+      - "Il fléchit la tête vers l'avant"
+    bonnes:
+      - 0
+    explication: "La main passée sous l'aisselle maintient le menton, puis le maintien de la tête est poursuivi jusqu'à l'allongement de la victime en accompagnant tête et nuque."
+  - id: q4
+    enonce: "Quelle technique permet de déplacer une victime dans un escalier ou sur un sol accidenté en protégeant sa tête ?"
+    propositions:
+      - "Traction par les chevilles"
+      - "Traction par les vêtements"
+      - "Traction sous les aisselles"
+      - "Traction par les poignets"
+    bonnes:
+      - 2
+    explication: "La traction sous les aisselles permet de déplacer la victime dans des escaliers ou sur un sol accidenté tout en protégeant sa tête."
+  - id: q5
+    enonce: "Comment dégager un jeune enfant ou un nourrisson ?"
+    propositions:
+      - "Le porter dans les bras"
+      - "Le tirer par les chevilles"
+      - "Le tirer par les vêtements"
+    bonnes:
+      - 0
+    explication: "Le jeune enfant ou le nourrisson est dégagé en le portant dans les bras."
+  - id: q6
+    enonce: "Quel est le principal risque des techniques de dégagement d'urgence ?"
+    propositions:
+      - "Aggraver les lésions de la victime, notamment de la colonne vertébrale"
+      - "Contaminer le secouriste"
+      - "Retarder l'alerte"
+    bonnes:
+      - 0
+    explication: "Ces techniques peuvent aggraver les lésions, notamment vertébrales, mais permettent de soustraire une victime à une mort quasi certaine."

@@ -1,0 +1,87 @@
+id: retrait-casque-protection
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 10
+titre: Retrait d'un casque de protection
+motsCles: [casque, retrait du casque, rachis cervical, deux secouristes, secouriste isolé, mentonnière]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT03, 09-2019)
+  code: 04FT03
+  page: 76
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "Le retrait du casque est indiqué dans tous les cas si au moins deux intervenants sont présents, et si la victime a perdu connaissance lorsqu'un seul intervenant est présent. Il doit permettre de rechercher les signes de respiration après avoir libéré les voies aériennes. Le casque gêne l'examen et les gestes de secours. Aucun matériel n'est nécessaire ; la victime est allongée sur le dos."
+  - type: etapes
+    titre: À deux secouristes
+    items:
+      - "Secouriste 1 (retrait) : se placer à genoux dans l'axe de la tête, assez loin pour retirer le casque sans avoir à reculer ; maintenir le casque en plaquant les mains de chaque côté, tête en position neutre dans l'axe du tronc."
+      - "Secouriste 2 : s'installer à côté de la tête, en trépied, genou relevé du côté des pieds de la victime."
+      - "Secouriste 2 : détacher ou couper la sangle de la mentonnière (jugulaire) ou déverrouiller la fixation au niveau du menton ; relever la visière et retirer les lunettes si nécessaire."
+      - "Secouriste 2 : glisser la main du côté de la tête sous la nuque (avant-bras en appui sur sa cuisse), placer les doigts de l'autre main en crochet sous le menton (coude sur le genou relevé) et maintenir fermement tête et cou dans l'axe."
+      - "Secouriste 1 : saisir le casque par les parties latérales du bord inférieur et le tirer doucement vers soi dans l'axe, en le faisant glisser sur le sol (basculer légèrement le casque d'arrière en avant sans le décoller du sol si besoin, pour ne pas accrocher le nez)."
+      - "Secouriste 1 : arrêter la manœuvre lorsque le bord inférieur du casque est au-dessus de la racine du nez. Le maintien de la tête n'est jamais relâché."
+      - "Secouriste 2 : repositionner ses prises en glissant la main de la nuque vers le bas du crâne, pour éviter une chute brutale de la tête lors du retrait complet."
+      - "Secouriste 1 : retirer complètement le casque, maintenir la tête en position neutre (prise latéro-latérale) et l'accompagner délicatement jusqu'au sol."
+  - type: etapes
+    titre: En secouriste isolé (geste extrêmement délicat)
+    items:
+      - "Relever la visière, retirer éventuellement les lunettes."
+      - "Maintenir le casque d'une main ; de l'autre, détacher ou couper la sangle de la mentonnière ou déverrouiller la fixation au menton."
+      - "Se placer dans l'axe de la tête, assez loin pour ne pas avoir à reculer."
+      - "Saisir le casque par les parties latérales du bord inférieur et le tirer doucement dans l'axe, en le faisant glisser sur le sol, jusqu'à ce que le bord inférieur de la mentonnière soit à la racine du nez."
+      - "Déplacer une main pour saisir le bord inférieur de la partie supérieure du casque ; glisser doucement l'autre main sous la base du crâne pour la maintenir."
+      - "Tirer doucement le casque en arrière en le basculant légèrement (sans accrocher le nez) et déposer simultanément la tête sur le sol, le plus possible dans l'axe."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Une mobilisation du rachis cervical ou de la tête pendant le retrait peut aggraver l'état de la victime et entraîner des séquelles graves.
+      - Le retrait par un seul secouriste reste un geste exceptionnel, réalisé seulement si un renfort immédiat ne peut pas être obtenu.
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - La nuque et la tête de la victime restent immobiles durant toute la manœuvre.
+qcm:
+  - id: q1
+    enonce: "Un seul intervenant est présent et la victime casquée est consciente. Le retrait du casque est-il indiqué ?"
+    propositions:
+      - Oui, dans tous les cas
+      - Non, il n'est indiqué que si la victime a perdu connaissance
+      - Oui, sauf en cas de jugulaire
+    bonnes:
+      - 1
+    explication: "À deux intervenants ou plus, le retrait est indiqué dans tous les cas ; en secouriste isolé, seulement si la victime a perdu connaissance."
+  - id: q2
+    enonce: "À deux secouristes, à quel moment le secouriste 1 arrête-t-il de tirer le casque avant le repositionnement des prises ?"
+    propositions:
+      - Quand le casque est totalement retiré
+      - Quand le bord inférieur du casque est au-dessus de la racine du nez
+      - Quand la visière est relevée
+      - Quand la jugulaire est détachée
+    bonnes:
+      - 1
+    explication: "La manœuvre est arrêtée lorsque le bord inférieur du casque se trouve au-dessus de la racine du nez ; le secouriste 2 repositionne alors ses prises."
+  - id: q3
+    enonce: "Pourquoi le secouriste 2 glisse-t-il sa main de la nuque vers le bas du crâne avant le retrait complet ?"
+    propositions:
+      - Pour détacher la mentonnière
+      - Pour éviter une chute brutale de la tête lors du retrait complet du casque
+      - Pour retirer les lunettes
+    bonnes:
+      - 1
+    explication: "Ce repositionnement a pour objet d'éviter une chute brutale de la tête."
+  - id: q4
+    enonce: "Quelles affirmations sur le retrait du casque sont exactes ?"
+    propositions:
+      - Le maintien de la tête n'est jamais relâché durant le retrait
+      - Le retrait à un secouriste est un geste exceptionnel
+      - Il faut retirer le casque avec un mouvement de rotation rapide
+      - La tête et la nuque doivent rester immobiles pendant toute la manœuvre
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Le retrait se fait doucement, dans l'axe, en glissant sur le sol ; aucune rotation rapide."

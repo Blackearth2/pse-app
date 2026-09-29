@@ -1,0 +1,74 @@
+id: lva-victime-traumatisee
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 12
+titre: Libération des voies aériennes chez une victime traumatisée
+motsCles: [libération des voies aériennes, traumatisme du rachis, élévation du menton, angle de la mâchoire, perte de connaissance]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT05, 12-2023)
+  code: 04FT05
+  page: 80
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "La libération des voies aériennes (LVA) par simple élévation du menton est réalisée chez toute victime ayant perdu connaissance et suspecte d'un traumatisme du rachis. Aucun matériel n'est nécessaire."
+  - type: texte
+    titre: Justification
+    contenu: "La perte de connaissance entraîne une chute de la langue en arrière chez une victime sur le dos. L'élévation du menton seule peut suffire à dégager la langue de la paroi postérieure du pharynx sans mobiliser le rachis cervical. Elle permet d'apprécier la ventilation (2e regard), de la faciliter et de réaliser une ventilation artificielle. Chez le nourrisson, le mouvement se limite à ramener la tête en position neutre, pour ne pas obstruer les voies aériennes."
+  - type: etapes
+    titre: Réalisation (en maintenant la tête à deux mains)
+    items:
+      - Placer l'index ou le majeur de chaque main derrière l'angle de la mâchoire, sous les oreilles de la victime.
+      - Ouvrir la bouche avec les pouces placés sur le menton.
+      - Pousser vers l'avant la mâchoire inférieure.
+      - Maintenir cette position.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Réaliser la LVA avec précaution pour éviter toute aggravation d'un traumatisme du rachis cervical.
+  - type: liste
+    titre: Critère d'efficacité
+    items:
+      - La respiration de la victime peut s'effectuer normalement.
+qcm:
+  - id: q1
+    enonce: "Quelle technique de LVA est indiquée chez une victime inconsciente suspecte d'un traumatisme du rachis ?"
+    propositions:
+      - Bascule de la tête en arrière
+      - Simple élévation du menton
+      - Flexion de la tête vers l'avant
+    bonnes:
+      - 1
+    explication: "La LVA par simple élévation du menton évite de mobiliser le rachis cervical."
+  - id: q2
+    enonce: "Où placent-on l'index ou le majeur de chaque main ?"
+    propositions:
+      - Sur le front
+      - Sous le menton, au centre
+      - Derrière l'angle de la mâchoire, sous les oreilles
+      - Sur les joues
+    bonnes:
+      - 2
+    explication: "Les doigts sont placés derrière l'angle de la mâchoire et sous les oreilles, les pouces sur le menton pour ouvrir la bouche."
+  - id: q3
+    enonce: "Que fait-on de la mâchoire inférieure ?"
+    propositions:
+      - On la pousse vers l'avant
+      - On la tire vers l'arrière
+      - On la laisse en place
+    bonnes:
+      - 0
+    explication: "La mâchoire inférieure est poussée vers l'avant et la position est maintenue."
+  - id: q4
+    enonce: "La LVA est jugée efficace lorsque :"
+    propositions:
+      - La victime reprend connaissance
+      - La respiration de la victime peut s'effectuer normalement
+      - La bouche est fermée
+      - Le pouls est perçu
+    bonnes:
+      - 1
+    explication: "Critère d'efficacité : la respiration peut s'effectuer normalement."

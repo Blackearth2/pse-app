@@ -1,0 +1,86 @@
+id: precautions-particulieres
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: procedure
+ordre: 12
+titre: Précautions particulières contre le risque infectieux
+motsCles: [précautions particulières, FFP2, masque chirurgical, surblouse, charlotte, isolement, gants]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03PR03, 09-2014)
+  code: 03PR03
+  page: 61
+liees:
+  - precautions-standards
+  - risque-infectieux
+  - moyens-protection-agents-infectieux
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les précautions particulières sont complémentaires aux précautions standards. Elles sont mises en œuvre selon le niveau de risque ou sur consignes des autorités d'emploi."
+  - type: liste
+    titre: Mesures possibles
+    items:
+      - "Porter des gants à usage unique non stériles dès l'entrée dans la pièce ou le véhicule où se trouve la victime."
+      - "Se laver les mains avant de sortir de la pièce ou du véhicule ; ne plus toucher l'environnement de la victime après avoir ôté les gants et s'être lavé les mains."
+      - "Intervenants : masque de protection classé FFP2 avant d'entrer dans la pièce où se trouve la victime."
+      - "Intervenants : surblouse et protection des cheveux (charlotte) en cas de contact avec la victime ou avec des surfaces ou matériels pouvant être contaminés."
+      - "Victime : masque de type chirurgical ou masque de protection respiratoire sans soupape d'expiration (il évite ou limite la dissémination des particules infectieuses)."
+      - "Utiliser au maximum du matériel à usage unique."
+      - "Limiter les déplacements de la victime et l'isoler dans une pièce particulière lors de sa prise en charge."
+      - "Envelopper la victime dans un drap à usage unique."
+      - "Nettoyer et désinfecter le véhicule et le matériel dès la fin du transport."
+      - "Transporter individuellement chaque victime."
+  - type: attention
+    items:
+      - "Le masque FFP2 est porté par l'intervenant avant d'entrer dans la pièce."
+      - "Le masque de la victime ne doit pas avoir de soupape d'expiration."
+qcm:
+  - id: q1
+    enonce: "Quel masque l'intervenant porte-t-il avant d'entrer dans la pièce où se trouve la victime (précautions particulières) ?"
+    propositions:
+      - "Un masque chirurgical"
+      - "Un masque de protection respiratoire classé FFP2"
+      - "Aucun masque"
+    bonnes:
+      - 1
+    explication: "Pour les intervenants, un masque de protection classé FFP2, avant d'entrer dans la pièce."
+  - id: q2
+    enonce: "Quel masque pour la victime ?"
+    propositions:
+      - "Un masque de protection respiratoire avec soupape d'expiration"
+      - "Un masque de type chirurgical ou de protection respiratoire sans soupape d'expiration"
+      - "Aucun masque"
+    bonnes:
+      - 1
+    explication: "Le masque de la victime, chirurgical ou de protection respiratoire sans soupape d'expiration, limite la dissémination des particules infectieuses."
+  - id: q3
+    enonce: "Quand met-on la surblouse et la charlotte ?"
+    propositions:
+      - "Systématiquement, à toute intervention"
+      - "En cas de contact avec la victime ou avec des surfaces ou matériels pouvant être contaminés"
+      - "Uniquement pour la conduite"
+    bonnes:
+      - 1
+    explication: "Surblouse et protection des cheveux sont prévues en cas de contact avec la victime ou des surfaces ou matériels pouvant être contaminés."
+  - id: q4
+    enonce: "Quelles mesures font partie des précautions particulières ?"
+    propositions:
+      - "Isoler la victime dans une pièce particulière"
+      - "Envelopper la victime dans un drap à usage unique"
+      - "Transporter individuellement chaque victime"
+      - "Regrouper les victimes dans le même véhicule"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'isolement, l'enveloppement dans un drap à usage unique et le transport individuel figurent dans la fiche."
+  - id: q5
+    enonce: "Quand met-on les gants à usage unique non stériles et quand se lave-t-on les mains ?"
+    propositions:
+      - "Gants dès l'entrée dans la pièce ou le véhicule ; lavage des mains avant d'en sortir"
+      - "Gants à la sortie ; lavage à l'entrée"
+      - "Gants seulement au contact du sang"
+    bonnes:
+      - 0
+    explication: "Gants dès l'entrée, lavage des mains avant de sortir ; on ne touche plus l'environnement de la victime ensuite."

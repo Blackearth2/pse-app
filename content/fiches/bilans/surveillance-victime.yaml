@@ -1,0 +1,89 @@
+id: surveillance-victime
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 6
+titre: Surveillance de la victime
+motsCles: [surveillance, paramètres, 5 minutes, 10 à 15 minutes, multiparamétrique, réévaluation]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR05, 07-2026)
+  code: 04PR05
+  page: 71
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La surveillance permet de suivre l'évolution de l'état de la victime, de prendre en compte et surveiller la sensation de froid ou de chaud et de vérifier l'efficacité des gestes de secours effectués. Elle débute dès le 2e regard, est constante et se termine lors de la transmission de la victime à l'équipe chargée d'assurer la continuité des soins."
+  - type: chiffres
+    titre: Fréquence de renouvellement de la mesure des paramètres
+    items:
+      - valeur: Toutes les 5 minutes
+        libelle: En cas de détresse vitale
+      - valeur: Toutes les 10 à 15 minutes
+        libelle: En l'absence de détresse vitale
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - Débuter la surveillance dès le 2e regard et la maintenir en continu.
+      - Renouveler la mesure des paramètres physiologiques toutes les 5 minutes en cas de détresse vitale, sinon toutes les 10 à 15 minutes.
+      - "Adapter immédiatement les gestes de secours devant tout changement d'état de la victime."
+      - "Transmettre les éléments de la surveillance au médecin régulateur, à l'équipe de renfort éventuelle et à l'équipe chargée d'assurer la continuité des soins."
+  - type: liste
+    titre: Outil
+    items:
+      - "La surveillance régulière peut être optimisée par un appareil « multiparamétrique » (FC, PA, SpO2, température)."
+  - type: attention
+    titre: Point de vigilance
+    items:
+      - "La surveillance ne s'arrête pas après le bilan : elle prend fin uniquement à la transmission de la victime à l'équipe chargée de la continuité des soins."
+qcm:
+  - id: q1
+    enonce: "À quel rythme les paramètres physiologiques sont-ils renouvelés en cas de détresse vitale ?"
+    propositions:
+      - Toutes les 2 minutes
+      - Toutes les 5 minutes
+      - Toutes les 10 minutes
+      - Toutes les 15 minutes
+    bonnes:
+      - 1
+    explication: "La mesure des paramètres est renouvelée toutes les 5 minutes en cas de détresse vitale, sinon toutes les 10 à 15 minutes."
+  - id: q2
+    enonce: "À quel rythme les paramètres sont-ils renouvelés lorsque la victime ne présente pas de détresse vitale ?"
+    propositions:
+      - Toutes les 5 minutes
+      - Toutes les 30 minutes
+      - Toutes les 10 à 15 minutes
+    bonnes:
+      - 2
+    explication: "En l'absence de détresse vitale, la mesure est renouvelée toutes les 10 à 15 minutes."
+  - id: q3
+    enonce: "Quand débute la surveillance de la victime ?"
+    propositions:
+      - Dès le 1er regard
+      - Dès le 2e regard
+      - À la fin du 4e regard
+    bonnes:
+      - 1
+    explication: "La surveillance débute dès le 2e regard, est constante, et se termine à la transmission à l'équipe chargée de la continuité des soins."
+  - id: q4
+    enonce: "À qui les éléments de la surveillance sont-ils transmis ?"
+    propositions:
+      - Au médecin régulateur
+      - À l'équipe de renfort éventuelle
+      - À l'équipe chargée d'assurer la continuité des soins
+      - Uniquement à l'entourage de la victime
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ces éléments sont transmis au médecin régulateur, à l'équipe de renfort éventuelle et à l'équipe chargée de la continuité des soins."
+  - id: q5
+    enonce: "Devant un changement d'état de la victime, que faut-il faire ?"
+    propositions:
+      - Attendre le prochain contrôle programmé
+      - Adapter immédiatement les gestes de secours
+      - Recommencer le bilan depuis le 1er regard sans agir
+    bonnes:
+      - 1
+    explication: "Devant tout changement d'état de la victime, les gestes de secours sont adaptés immédiatement."

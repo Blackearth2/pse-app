@@ -1,0 +1,96 @@
+id: generalites-bilans
+niveau: PSE1
+chapitre: bilans
+type: connaissance
+ordre: 1
+titre: Généralités sur les bilans
+motsCles: [bilan, 4 regards, ce qui tue en premier, cercles de contrôle, surveillance, transmission]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04AC01, 12-2023)
+  code: 04AC01
+  page: 65
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le bilan est la phase de recueil d'informations qui permet d'évaluer une situation et l'état d'une victime pendant toute sa prise en charge. La chronologie proposée définit un langage commun : chaque autorité d'emploi peut nommer les regards à sa façon ou rédiger sa propre procédure, à condition de respecter cette chronologie et ces principes."
+  - type: liste
+    titre: Ce que permet un bilan structuré et rigoureux
+    items:
+      - La mise en sécurité des intervenants, des victimes, des témoins et des lieux.
+      - La recherche de détresses vitales et la mise en œuvre rapide d'une conduite à tenir adaptée.
+      - Une évaluation globale de l'état physique et psychique de la victime, pour réaliser des gestes de premiers secours complémentaires.
+      - La transmission au médecin régulateur de tous les éléments lui permettant d'établir un diagnostic aussi précis que possible et de proposer une suite à l'intervention.
+      - Le suivi de l'évolution de l'état de la victime.
+  - type: liste
+    titre: Les 3 principes du bilan
+    items:
+      - Commencer par une évaluation globale, puis aller dans le détail.
+      - Rechercher et traiter en priorité « ce qui tue en premier ».
+      - "Fonctionner en cercles de contrôle continu, de l'abord de la victime à la fin de l'intervention : évaluer (apprécier et mesurer les fonctions vitales de manière hiérarchisée), agir, contrôler l'action et réévaluer."
+  - type: etapes
+    titre: Les 4 regards successifs
+    items:
+      - "1er regard : apprécier la situation dans sa globalité pour déceler d'éventuels dangers pour l'équipe, la victime et son environnement."
+      - "2e regard : progresser vers la victime pour identifier une menace vitale et la plainte principale."
+      - "3e regard : évaluer de façon hiérarchisée et structurée les fonctions vitales, l'une après l'autre, pour rechercher une détresse vitale moins évidente."
+      - "4e regard : compléter l'évaluation en approfondissant l'interrogatoire, en examinant la victime et en poursuivant la mesure des paramètres vitaux."
+  - type: texte
+    titre: Surveillance et synthèse
+    contenu: "Dès le 2e regard, une logique de surveillance de la victime débute et se poursuit jusqu'à la fin de l'intervention. La synthèse des informations et des actions entreprises pendant toute l'intervention doit être consignée et transmise à l'équipe qui prend le relais."
+  - type: attention
+    titre: Point de vigilance
+    items:
+      - L'attitude et le comportement des secouristes ont un impact direct sur la qualité des informations recueillies auprès de la victime et sur sa prise en charge.
+qcm:
+  - id: q1
+    enonce: "Combien de regards successifs comporte l'approche chronologique du bilan ?"
+    propositions:
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+    bonnes:
+      - 1
+    explication: "L'approche chronologique distingue 4 regards successifs, du premier regard (situation globale) au quatrième (interrogatoire, examen, paramètres)."
+  - id: q2
+    enonce: "Parmi ces propositions, lesquelles sont des principes du bilan ?"
+    propositions:
+      - Traiter en priorité ce qui tue en premier
+      - Commencer par le détail avant la vue d'ensemble
+      - Commencer par une évaluation globale pour aller ensuite dans le détail
+      - Attendre la fin de l'examen complet avant toute action
+    bonnes:
+      - 0
+      - 2
+    explication: "Les 3 principes sont : évaluation globale puis détail, traiter en priorité ce qui tue en premier, et fonctionner en cercles de contrôle continu (évaluer, agir, contrôler, réévaluer)."
+  - id: q3
+    enonce: "À partir de quel regard débute la logique de surveillance de la victime ?"
+    propositions:
+      - Dès le 1er regard
+      - Dès le 2e regard
+      - Dès le 3e regard
+      - Seulement après le 4e regard
+    bonnes:
+      - 1
+    explication: "Une logique de surveillance débute dès le 2e regard et se poursuit jusqu'à la fin de l'intervention."
+  - id: q4
+    enonce: "Quel regard vise à rechercher une détresse vitale moins évidente par une évaluation hiérarchisée des fonctions vitales ?"
+    propositions:
+      - Le 1er regard
+      - Le 2e regard
+      - Le 4e regard
+      - Le 3e regard
+    bonnes:
+      - 3
+    explication: "Le 3e regard repose sur une évaluation hiérarchisée et structurée des fonctions vitales, l'une après l'autre."
+  - id: q5
+    enonce: "Que signifie fonctionner en « cercles de contrôle continu » ?"
+    propositions:
+      - "Évaluer, agir, contrôler l'action et réévaluer, de l'abord de la victime à la fin de l'intervention"
+      - "Réaliser un seul bilan complet en fin d'intervention"
+      - "Répéter uniquement la transmission au médecin régulateur"
+    bonnes:
+      - 0
+    explication: "Le principe des cercles de contrôle continu est d'évaluer, agir, contrôler l'action et réévaluer tout au long de l'intervention."

@@ -1,0 +1,130 @@
+id: realisation-electrocardiogramme
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 18
+titre: Réaliser un électrocardiogramme
+motsCles: [ECG, électrodes, dérivations, télétransmission, prescription médicale, tracé parasité]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT11, 12-2022)
+  code: 04FT11
+  page: 92
+liees: []
+blocs:
+  - type: texte
+    titre: Indication
+    contenu: "Un électrocardiogramme (ECG) peut être réalisé par l'équipe secouriste sur prescription d'un médecin présent sur les lieux ou du médecin régulateur, lors du bilan ou de la surveillance. Seule une personne formée et habilitée peut utiliser un appareil pour enregistrer et télétransmettre un ECG. L'ECG enregistre l'activité électrique du cœur et permet au médecin de juger si le rythme est normal ou irrégulier et si le muscle cardiaque est intact ou lésé."
+  - type: liste
+    titre: Matériel
+    items:
+      - Appareil d'enregistrement et de télétransmission de l'ECG.
+      - Câbles de connexion.
+      - Électrodes à usage unique non périmées, éventuellement ceinture d'électrodes.
+      - Sacoche de transport et de protection.
+      - Accessoires permettant la télétransmission.
+  - type: etapes
+    titre: Préalable
+    items:
+      - Installer la victime confortablement, de préférence sur le dos.
+      - Écarter si possible tout appareil électronique (montre, portable, radio) ou objet métallique en contact avec la victime.
+      - S'assurer que les câbles entre l'appareil et les électrodes sont bien connectés.
+      - Demander à la victime de dénuder sa poitrine en respectant son intimité (garder si possible le soutien-gorge).
+      - Demander à la victime de ne pas parler, de ne pas bouger et de respirer calmement pendant l'enregistrement.
+  - type: etapes
+    titre: ECG avec électrodes
+    items:
+      - Raser si nécessaire les poils des zones où seront collées les électrodes.
+      - Positionner les électrodes des extrémités (dérivations périphériques), puis les électrodes précordiales.
+      - Brancher les câbles sur les électrodes correspondantes.
+      - Allumer l'appareil, vérifier le mode ECG, puis enregistrer.
+  - type: liste
+    titre: Positions des électrodes (ECG 12 dérivations)
+    items:
+      - "Périphériques : rouge, membre supérieur droit (poignet) ; jaune, membre supérieur gauche (poignet) ; noir, membre inférieur droit (cheville) ; vert, membre inférieur gauche (cheville). Toujours sur la face antérieure de l'articulation."
+      - "C1 : 4e espace intercostal droit, bord droit du sternum."
+      - "C2 : 4e espace intercostal gauche, bord gauche du sternum."
+      - "C3 : milieu de la ligne entre C2 et C4."
+      - "C4 : 5e espace intercostal gauche, ligne médioclaviculaire."
+      - "C5 : milieu de la ligne entre C4 et C6."
+      - "C6 : 5e espace intercostal gauche, ligne médioaxillaire (même niveau que C4)."
+  - type: etapes
+    titre: ECG avec ceinture d'électrodes
+    items:
+      - Brancher les câbles selon les coloris ou désignations.
+      - Humidifier les électrodes de la ceinture si besoin.
+      - Positionner la ceinture comme préconisé par le constructeur, avec la participation de la victime.
+      - Bloquer la ceinture avec les anses ou la sangle.
+      - Vérifier que toutes les électrodes sont en contact avec le corps.
+      - Allumer l'appareil, vérifier le mode ECG, puis enregistrer.
+  - type: liste
+    titre: Transmission et reconditionnement
+    items:
+      - La télétransmission se fait pendant l'intervention, automatisée ou non selon l'appareil ; un exemplaire électronique ou papier peut être laissé à l'équipe qui assure la suite des soins.
+      - "Après l'intervention : désinfecter les surfaces et les câbles, recharger l'appareil, ranger soigneusement les câbles, remplacer les électrodes utilisées."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Tracé parasité : vérifier la connexion des câbles (appareil et électrodes) et l'adhérence des électrodes à la peau."
+      - "Amputation ou impossibilité d'accès aux extrémités : placer les électrodes périphériques à la racine des membres (épaule pour le membre supérieur, pli de l'aine pour le membre inférieur) et informer le médecin de la modification."
+      - "Seins volumineux : relever le sein avec le dos de la main et placer les électrodes C4, C5 et C6 sous le sein, au plus près de la paroi thoracique."
+      - "Tremblements (angoisse, froid, maladie de Parkinson) : rassurer, réchauffer, et placer les électrodes périphériques à la racine des membres si les tremblements persistent."
+      - "Autres interférences : victime immobile, moteur du véhicule arrêté, pas de contact avec des éléments métalliques (brancard, montant de lit), lit électrique débranché."
+  - type: liste
+    titre: Critères d'évaluation
+    items:
+      - Réalisation sur prescription médicale, dans le respect des protocoles internes.
+      - Électrodes ou ceinture bien positionnées et câbles correctement branchés.
+      - Tracé sans artéfact.
+      - Télétransmission permettant une interprétation à distance par un médecin.
+qcm:
+  - id: q1
+    enonce: "Dans quel cadre un secouriste peut-il réaliser et télétransmettre un ECG ?"
+    propositions:
+      - À l'initiative de tout secouriste devant une douleur thoracique
+      - Sur prescription d'un médecin présent ou du médecin régulateur, s'il est formé et habilité
+      - Uniquement en l'absence de médecin régulateur
+    bonnes:
+      - 1
+    explication: "L'ECG est réalisé sur prescription médicale, et seule une personne formée et habilitée peut utiliser l'appareil."
+  - id: q2
+    enonce: "En cas de tremblements persistants, que fait-on ?"
+    propositions:
+      - On renonce à l'ECG
+      - On place les électrodes périphériques à la racine des membres
+      - On raccourcit l'enregistrement
+      - On place les électrodes sur le dos
+    bonnes:
+      - 1
+    explication: "Après avoir rassuré ou réchauffé la victime, les électrodes périphériques sont placées à la racine des membres."
+  - id: q3
+    enonce: "Où placer C4 ?"
+    propositions:
+      - 4e espace intercostal droit, bord droit du sternum
+      - 4e espace intercostal gauche, bord gauche du sternum
+      - 5e espace intercostal gauche, ligne médioclaviculaire
+      - 5e espace intercostal gauche, ligne médioaxillaire
+    bonnes:
+      - 2
+    explication: "C1 4e EIC droit, C2 4e EIC gauche, C4 5e EIC gauche médioclaviculaire, C6 5e EIC gauche médioaxillaire ; C3 et C5 sont des milieux de lignes."
+  - id: q4
+    enonce: "Quelles mesures limitent un tracé parasité ?"
+    propositions:
+      - Vérifier la connexion des câbles
+      - Vérifier l'adhérence des électrodes
+      - Arrêter le moteur du véhicule
+      - Demander à la victime de parler pour la rassurer
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La victime doit rester immobile, ne pas parler et respirer calmement pendant l'enregistrement."
+  - id: q5
+    enonce: "Où place-t-on les électrodes périphériques en cas d'amputation ?"
+    propositions:
+      - À la racine des membres (épaule, pli de l'aine)
+      - Sur le thorax
+      - On ne place que les précordiales
+    bonnes:
+      - 0
+    explication: "Elles sont placées à la racine des membres et le médecin qui interprète l'ECG est informé."

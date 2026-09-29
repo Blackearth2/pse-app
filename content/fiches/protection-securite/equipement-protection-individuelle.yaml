@@ -1,0 +1,93 @@
+id: equipement-protection-individuelle
+niveau: PSE1
+chapitre: protection-securite
+type: connaissance
+ordre: 1
+titre: Équipement de protection individuelle
+motsCles: [EPI, gants, protection, objets perforants, vaccination, contamination, chasuble]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02AC01, 06-2018)
+  code: 02AC01
+  page: 35
+liees:
+  - securite-intervention
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'équipement de protection individuelle (EPI) doit être simple, léger et efficace : il participe à la sécurité de l'intervenant. Son contenu dépend des missions. La protection contre la contamination repose sur les précautions standards et particulières, à appliquer à chaque victime prise en charge, car il est impossible de savoir si une personne, même apparemment saine, est porteuse d'une maladie infectieuse."
+  - type: liste
+    titre: Composition de l'EPI (selon les missions)
+    items:
+      - "Une paire de gants à usage unique : prévient le risque de transmission de germes dangereux par les mains."
+      - "Des bandes réfléchissantes sur les vêtements ou une chasuble : améliorent la visibilité du secouriste, notamment la nuit."
+      - "Des gants de manutention : protègent des plaies des mains lors de la manipulation d'objets tranchants."
+      - "Un blouson adapté aux conditions climatiques difficiles et, éventuellement, un casque de protection (accident de la circulation, de chantier)."
+      - "Une lampe de poche ou frontale : pour travailler en sécurité dans l'obscurité."
+  - type: texte
+    titre: Objectif des techniques de protection contre la contamination
+    contenu: "Interrompre la transmission d'un germe d'un individu à l'autre et limiter le risque de transmission d'un germe dangereux aux secouristes. Pour être efficaces, ces techniques sont utilisées chaque fois qu'une victime est prise en charge."
+  - type: liste
+    titre: Objets perforants et réanimation
+    items:
+      - "Les gants à usage unique protègent d'une contamination par des liquides biologiques (sang, urine, salive), mais nullement du risque de plaie par un objet perforant."
+      - "Les objets tranchants ou piquants sont déposés dans les boîtes de recueil des déchets d'activités de soins."
+      - "Face à des débris de verre ou à d'autres objets perforants : mettre des gants épais de manutention et veiller à ne pas se blesser ni blesser un tiers."
+      - "Même si le risque de transmission par la salive est très faible, éviter la ventilation orale directe (bouche-à-bouche, bouche-à-nez) si l'on dispose d'un insufflateur manuel."
+  - type: texte
+    titre: Vaccination
+    contenu: "Être contaminé par un agent infectieux n'entraîne pas obligatoirement la maladie, notamment si l'organisme est immunisé ou résistant. La vaccination consiste à injecter tout ou partie de l'agent infectieux tué ou atténué afin que le système immunitaire développe une résistance spécifique. Pour certains vaccins, un rappel à intervalle régulier est nécessaire. Les vaccinations recommandées au secouriste le sont en règle générale par le service médical de l'autorité d'emploi. Il n'existe pas de vaccin pour chaque germe : les méthodes de protection restent indispensables."
+  - type: attention
+    items:
+      - "Les gants à usage unique ne protègent pas contre les coupures et piqûres."
+      - "Il n'existe pas de vaccination contre tous les germes : la vaccination ne remplace pas les mesures de protection."
+qcm:
+  - id: q1
+    enonce: "Que protègent les gants à usage unique ?"
+    propositions:
+      - "Contre les plaies provoquées par un objet perforant"
+      - "Contre la contamination par des liquides biologiques (sang, urine, salive)"
+      - "Contre les débris de verre"
+      - "Contre le froid"
+    bonnes:
+      - 1
+    explication: "Les gants à usage unique protègent d'une contamination par des liquides biologiques, mais nullement du risque de plaie par un objet perforant."
+  - id: q2
+    enonce: "Devant des débris de verre, quel équipement le secouriste met-il ?"
+    propositions:
+      - "Une seconde paire de gants à usage unique"
+      - "Des gants épais de manutention"
+      - "Un masque à usage unique"
+      - "Une lampe frontale"
+    bonnes:
+      - 1
+    explication: "Devant des débris de verre ou d'autres objets perforants, il faut mettre des gants épais de manutention et veiller à ne pas se blesser ni blesser un tiers."
+  - id: q3
+    enonce: "Le secouriste dispose d'un insufflateur manuel. Quelle méthode de ventilation artificielle faut-il éviter ?"
+    propositions:
+      - "L'insufflateur manuel"
+      - "La méthode orale directe (bouche-à-bouche, bouche-à-nez)"
+    bonnes:
+      - 1
+    explication: "Même si le risque par la salive est très faible, il faut éviter la méthode orale directe quand un moyen de ventilation (insufflateur manuel) est disponible."
+  - id: q4
+    enonce: "À quoi servent les bandes réfléchissantes ou la chasuble de l'EPI ?"
+    propositions:
+      - "À protéger contre les objets tranchants"
+      - "À éviter la transmission de germes par les mains"
+      - "À améliorer la visibilité du secouriste, notamment la nuit"
+      - "À protéger contre le froid"
+    bonnes:
+      - 2
+    explication: "Les bandes réfléchissantes ou la chasuble améliorent la visibilité du secouriste, notamment la nuit."
+  - id: q5
+    enonce: "À propos de la vaccination du secouriste :"
+    propositions:
+      - "Elle rend inutiles les mesures de protection"
+      - "Un rappel peut être nécessaire à intervalle régulier pour certains vaccins"
+      - "Il existe un vaccin contre chaque germe"
+      - "Les vaccinations sont recommandées en règle générale par le service médical de l'autorité d'emploi"
+    bonnes:
+      - 1
+      - 3
+    explication: "La résistance peut s'atténuer avec le temps (rappel) et le service médical de l'autorité d'emploi recommande en général les vaccinations. Il n'existe pas de vaccin pour chaque germe : les méthodes de protection restent indispensables."

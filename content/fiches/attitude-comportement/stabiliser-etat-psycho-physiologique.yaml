@@ -1,0 +1,74 @@
+id: stabiliser-etat-psycho-physiologique
+niveau: PSE1
+chapitre: attitude-comportement
+type: technique
+ordre: 8
+titre: Stabiliser l'état psycho-physiologique d'une victime
+motsCles: [stabilisation, focalisation, canal auditif, canal kinesthésique, canal visuel, code de communication, défocalisation, normaliser]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01FT02, 11-2021)
+  code: 01FT02
+  page: 26
+liees: [evaluation-impact-psychologique, respiration-controlee, focalisation-defocalisation, ecoute-active]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La stabilisation consiste à focaliser positivement l'attention de la victime sur le secouriste afin de réduire sa réaction de stress et d'augmenter son sentiment de contrôle, au fur et à mesure des étapes de sa prise en charge. Le niveau de stress élevé peut aggraver la blessure psychologique."
+  - type: attention
+    titre: Indications et limites
+    items:
+      - "Protocole applicable aux victimes conscientes et non sous emprise d'alcool ou de produits stupéfiants."
+      - "Un seul secouriste reste auprès de la victime et l'accompagne tout au long de l'action de secours."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Demander à la victime de focaliser son attention sur le secouriste, du début à la fin de l'intervention, en utilisant les canaux auditif (la voix, annonce de ce qui se passe), kinesthésique (le toucher : sentir les mains, la pression, le soutien d'une attelle) et visuel (fixer un point, yeux ouverts ou fermés au choix)."
+      - "Si des éléments visuels négatifs (blessure importante, sang) captent l'attention, les masquer ou proposer de fermer les yeux en restant concentrée sur la voix du secouriste."
+      - "Déterminer avec la victime un code de communication (signe de la main ou du pouce, clignement d'œil pour oui / non), utile en cas de bruit important, ou si elle ne peut pas parler (traumatisme de la face, masque O2, difficultés respiratoires)."
+      - "Suggérer un travail sur la respiration : guider la respiration et favoriser la focalisation sur ce processus tout au long de l'intervention (cf. respiration contrôlée)."
+      - "Encourager la défocalisation : orienter l'attention vers un sujet agréable (passion, loisirs, lieux, personnes), explorer détails et sensations, proposer un déplacement mental (par exemple durant la désincarcération ou le transport), en surveillant la conscience par le code de communication."
+      - "Apporter des explications et normaliser les réactions du corps : expliquer la normalité des mécanismes de stress et des réactions de la victime."
+      - "Maintenir la stabilisation à chaque phase, notamment lors du passage dans l'ambulance ou vers l'hôpital, en préparant la fin de l'intervention des secours ; suggérer à la victime de garder le contrôle et de pouvoir réactiver les sensations de calme."
+qcm:
+  - id: q1
+    enonce: "À quelles victimes s'applique le protocole de stabilisation psycho-physiologique ?"
+    propositions:
+      - "Aux victimes inconscientes"
+      - "Aux victimes conscientes, non sous emprise d'alcool ou de stupéfiants"
+      - "À toutes les victimes sans exception"
+    bonnes: [1]
+    explication: "Le protocole s'applique auprès de victimes conscientes et n'étant pas sous emprise d'alcool ou de produits stupéfiants."
+  - id: q2
+    enonce: "Quels canaux de communication sont utilisés pour focaliser l'attention de la victime sur le secouriste ?"
+    propositions:
+      - "Auditif (la voix)"
+      - "Kinesthésique (le toucher)"
+      - "Visuel (le regard)"
+      - "Olfactif"
+    bonnes: [0, 1, 2]
+    explication: "Le référentiel décrit les canaux auditif, kinesthésique et visuel."
+  - id: q3
+    enonce: "À quoi sert le code de communication convenu avec la victime ?"
+    propositions:
+      - "À faire signe oui ou non en cas de bruit, ou si la victime ne peut pas parler, et à surveiller sa conscience"
+      - "À remplacer toute communication verbale"
+      - "À signaler au secouriste qu'elle veut arrêter les soins"
+    bonnes: [0]
+    explication: "Un signe de la main, du pouce ou un clignement d'œil pour dire oui ou non permet de communiquer malgré le bruit, un traumatisme de la face, le masque O2 ou des difficultés respiratoires, et de surveiller la conscience pendant la défocalisation."
+  - id: q4
+    enonce: "Que faire si des éléments visuels négatifs (blessure importante, sang) focalisent l'attention de la victime ?"
+    propositions:
+      - "Les lui montrer pour qu'elle s'habitue"
+      - "Les masquer ou proposer de fermer les yeux en restant concentrée sur la voix du secouriste"
+      - "Interrompre la stabilisation"
+    bonnes: [1]
+    explication: "Le secouriste masque ces éléments à sa vue ou propose de fermer les yeux."
+  - id: q5
+    enonce: "Quand faut-il maintenir la stabilisation ?"
+    propositions:
+      - "Seulement pendant le bilan"
+      - "À chaque phase de l'intervention, y compris le passage dans l'ambulance ou vers l'hôpital"
+      - "Jusqu'à l'arrivée des renforts uniquement"
+    bonnes: [1]
+    explication: "Il est important de maintenir la stabilisation à chaque phase, notamment lors du passage dans l'ambulance ou vers l'hôpital."

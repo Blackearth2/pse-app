@@ -1,0 +1,117 @@
+id: recherche-lesions
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 22
+titre: Recherche de lésions
+motsCles: [examen de la victime, lésions, palpation, tête aux pieds, bassin, pouls périphériques]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT15, 12-2022)
+  code: 04FT15
+  page: 103
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "La recherche de lésions et d'anomalies est réalisée lors de l'examen de la victime, au cours du bilan. Elle vise les lésions cutanées (contusions, plaies, brûlures) et d'autres anomalies (hématome, gonflement, déformation, rougeur, taches cutanées) secondaires à un traumatisme, à une affection médicale ou à une atteinte circonstancielle. Aucun matériel n'est nécessaire."
+  - type: texte
+    titre: Principe
+    contenu: "L'examen est d'abord orienté par les plaintes de la victime. Il peut se terminer par un examen exhaustif « de la tête aux pieds », notamment en cas de traumatisme violent ou de troubles de la conscience. Il est visuel, accompagné d'une palpation douce de certaines zones pour révéler des points douloureux parfois non exprimés spontanément."
+  - type: liste
+    titre: Tête
+    items:
+      - "Observer le cuir chevelu et la face (narines, oreilles, yeux, bouche) ; passer la main dans les cheveux."
+      - "Rechercher : plaies, brûlures, hématomes, déformations, gonflements, écoulement par le nez ou les oreilles, asymétrie de l'expression faciale ou déformation de la bouche, asymétrie pupillaire."
+      - "Maintenir la tête pour ne pas mobiliser la tête et le cou en cas de traumatisme."
+  - type: liste
+    titre: Cou
+    items:
+      - Observer, passer délicatement la main sous la nuque.
+      - Rechercher plaies, brûlures, hématomes, déformations, gonflements, douleur à la palpation.
+      - Maintenir la tête pour ne pas mobiliser tête et cou en cas de traumatisme.
+  - type: liste
+    titre: Thorax
+    items:
+      - Observer, palper délicatement, en soulevant ou écartant les vêtements.
+      - "Rechercher : plaies (plaie soufflante), brûlures, hématomes, anomalie ou asymétrie du soulèvement de la poitrine (seule une partie du thorax se soulève), douleur à la palpation."
+  - type: liste
+    titre: Abdomen
+    items:
+      - Observer, palper délicatement, en soulevant ou écartant les vêtements.
+      - "Rechercher : plaies (parfois avec sortie de l'intestin), brûlures, hématomes, douleur à la palpation, mobilité de l'abdomen (soulèvement à chaque inspiration)."
+      - "Localiser la zone atteinte, par exemple par rapport au nombril considéré comme le centre d'une horloge."
+  - type: liste
+    titre: Dos
+    items:
+      - Observer, palper, en glissant les mains sous la victime sans la mobiliser ni la déplacer en cas de traumatisme.
+      - Profiter du relevage ou du déplacement de la victime pour observer ou palper le dos.
+      - "Rechercher : plaies (sang sur la main qui palpe), hématomes, brûlures, douleur à la palpation."
+  - type: liste
+    titre: Bassin
+    items:
+      - Observer ; ne pas palper.
+      - "La palpation du bassin peut déplacer d'éventuelles fractures et aggraver un saignement interne."
+      - "Rechercher : plaies et brûlures, hématomes, taches de sang sur les sous-vêtements (suspicion de traumatisme des organes génitaux ou urinaires)."
+  - type: liste
+    titre: Membres
+    items:
+      - "Observer chaque membre et les comparer ; palper en empaumant latéralement le membre sans le mobiliser, en appuyant délicatement à deux mains de la racine à l'extrémité."
+      - Rechercher les pouls périphériques (radial, pédieux, tibial postérieur) ; l'apprentissage des deux derniers relève de la décision de l'autorité d'emploi.
+      - Demander de bouger les doigts ou les orteils, et si la victime sent le toucher à plusieurs endroits.
+      - "Rechercher : plaies et brûlures, gonflements, déformations, hématomes, douleur provoquée, état de la circulation du membre (coloration, température de la peau, pouls), altération motrice ou sensitive."
+      - Soulever ou écarter les vêtements, enlever ce qui gêne l'examen, retirer si possible chaussures et chaussettes.
+  - type: liste
+    titre: Critère d'évaluation
+    items:
+      - Après l'examen, les lésions, anomalies ou points douloureux sont identifiés et localisés.
+qcm:
+  - id: q1
+    enonce: "Quelle zone ne doit pas être palpée lors de la recherche de lésions ?"
+    propositions:
+      - Le thorax
+      - L'abdomen
+      - Le bassin
+      - Les membres
+    bonnes:
+      - 2
+    explication: "La palpation du bassin peut déplacer d'éventuelles fractures et aggraver un saignement interne."
+  - id: q2
+    enonce: "Comment palpe-t-on un membre ?"
+    propositions:
+      - En le mobilisant fortement pour tester la douleur
+      - En l'empaumant latéralement, sans le mobiliser, de la racine à l'extrémité
+      - En pressant fortement de l'extrémité vers la racine
+    bonnes:
+      - 1
+    explication: "On appuie délicatement à deux mains en allant de la racine du membre vers son extrémité, sans le mobiliser."
+  - id: q3
+    enonce: "Que recherche-t-on à la tête ?"
+    propositions:
+      - Écoulement par le nez ou les oreilles
+      - Asymétrie pupillaire
+      - Asymétrie de l'expression faciale
+      - Mobilité de l'abdomen
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La mobilité de l'abdomen se recherche à l'abdomen, pas à la tête."
+  - id: q4
+    enonce: "Comment examine-t-on le dos d'une victime traumatisée ?"
+    propositions:
+      - En la retournant systématiquement
+      - En glissant les mains sous la victime sans la mobiliser ni la déplacer
+      - On ne l'examine jamais
+    bonnes:
+      - 1
+    explication: "On glisse les mains sous la victime sans la mobiliser, et on profite du relevage ou du déplacement pour observer le dos."
+  - id: q5
+    enonce: "Quels pouls périphériques sont recherchés aux membres ?"
+    propositions:
+      - Radial, pédieux, tibial postérieur
+      - Carotidien uniquement
+      - Fémoral uniquement
+    bonnes:
+      - 0
+    explication: "Radial, pédieux et tibial postérieur ; l'apprentissage des deux derniers dépend de l'autorité d'emploi."

@@ -1,0 +1,161 @@
+id: securite-intervention-particuliere
+niveau: PSE2
+chapitre: protection-securite
+type: procedure
+ordre: 4
+titre: Sécurité sur intervention particulière
+motsCles: [accident électrique, accident de la route, monoxyde de carbone, incendie, fuite de gaz, substances dangereuses, balisage]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 02PR02, 07-2026)
+  code: 02PR02
+  page: 40
+liees:
+  - securite-intervention
+  - degagement-urgence
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Cinq risques particuliers ont chacun leurs consignes de protection : accident électrique, accident de la route, monoxyde de carbone, incendie (dont fuite de gaz et victime en feu) et substances dangereuses."
+  - type: chiffres
+    titre: À retenir en chiffres
+    items:
+      - valeur: 150 à 200 m
+        libelle: Distance de balisage de part et d'autre d'un accident de la route
+      - valeur: "Plus de 5 m"
+        libelle: Distance à laquelle éloigner une clé ou carte de démarrage à distance du véhicule
+  - type: etapes
+    titre: Accident électrique
+    items:
+      - "S'assurer que la victime n'est pas en contact direct ou indirect (eau, surface métallique) avec un appareil ou un câble électrique ; si c'est le cas, faire écarter les personnes présentes et leur interdire de toucher la victime."
+      - "Si la victime est en contact avec un appareil électrique : couper le courant (disjoncteur) ou débrancher l'appareil."
+      - "Ne pas s'approcher ni toucher la victime avant d'être certain que l'alimentation est coupée."
+      - "En présence d'un câble électrique basse ou haute tension au sol : ne pas s'approcher et attendre les équipes spécialisées."
+  - type: etapes
+    titre: Accident de la route — intervenants en véhicule
+    items:
+      - "Mettre en œuvre les moyens de protection collective possédés (gyrophares…)."
+      - "Allumer les feux de détresse dès l'approche du lieu de l'accident et ralentir."
+      - "Garer le véhicule équipé de signalisation en amont, en protection de la zone d'accident (sur le bas-côté ou la bande d'arrêt d'urgence sur voie rapide ou autoroute)."
+      - "Si le véhicule n'est pas équipé de signalisation, ou si la sécurité est déjà assurée : se garer après le lieu de l'accident."
+      - "Mettre un gilet de sécurité haute visibilité avant même de quitter le véhicule."
+  - type: liste
+    titre: Accident de la route — pour éviter un suraccident, dans tous les cas
+    items:
+      - "Baliser ou faire baliser de part et d'autre de l'accident, à 150 à 200 m (triangle de signalisation sauf sur voie rapide ou autoroute, ou lampe électrique, linge blanc, feux de détresse du véhicule)."
+      - "Interdire toute approche si un danger persiste (fuite de matières dangereuses, danger électrique…)."
+      - "Ne pas fumer et ne pas laisser fumer."
+      - "Feu naissant dans un compartiment moteur : utiliser un extincteur ou de la terre."
+      - "Couper le contact de chaque véhicule accidenté ; si clé ou carte de démarrage à distance, l'éloigner à plus de 5 mètres du véhicule."
+      - "Serrer le frein à main ou caler le véhicule."
+  - type: etapes
+    titre: Monoxyde de carbone
+    items:
+      - "Faire évacuer les personnes présentes dans le local et les rassembler."
+      - "Alerter immédiatement les sapeurs-pompiers, qui disposent de détecteurs de ce gaz."
+      - "Attendre les secours en sécurité."
+  - type: texte
+    titre: Quand suspecter le monoxyde de carbone ?
+    contenu: "Dans un endroit fermé où plusieurs personnes présentent des signes communs de malaise avec maux de tête et vomissements, une intoxication par libération de monoxyde de carbone doit être suspectée."
+  - type: liste
+    titre: Incendie — protection des personnes
+    items:
+      - "Alerter immédiatement les sapeurs-pompiers et appliquer leurs consignes (évacuation des occupants ou confinement)."
+      - "Fermer ou faire fermer chaque porte derrière soi."
+      - "Ne jamais utiliser les ascenseurs ou monte-charges."
+      - "Se baisser le plus près possible du sol."
+      - "Ne pas s'engager dans un local ou escalier enfumé ; ne pas pénétrer dans un local en feu."
+  - type: liste
+    titre: Victime dans un local enfumé et non ventilé
+    items:
+      - "Dégagement en urgence seulement si la victime est visible depuis l'entrée du local, si le sauveteur juge ses capacités suffisantes, si la configuration des lieux lui est favorable, et en retenant sa respiration uniquement."
+      - "Dans le cas contraire, informer immédiatement les sapeurs-pompiers."
+  - type: liste
+    titre: Fuite de gaz avérée ou suspectée dans un local
+    items:
+      - "Ne pas pénétrer dans le local ; rester à distance et empêcher l'accès."
+      - "Ne pas provoquer d'étincelles (interrupteurs, sonnerie, lampe de poche, téléphone portable…)."
+  - type: liste
+    titre: Victime dont les vêtements sont en feu
+    items:
+      - "Allonger la victime sur le sol le plus rapidement possible."
+      - "Éteindre les flammes ou, à défaut, les étouffer (couverture ou manteau retiré dès que les flammes sont éteintes)."
+  - type: liste
+    titre: Substances dangereuses
+    items:
+      - "Rester à distance de la fuite ou de la matière dangereuse et écarter les témoins."
+      - "Interdire de fumer."
+      - "Rester en amont de l'accident par rapport au vent."
+      - "Alerter immédiatement les sapeurs-pompiers et indiquer si le véhicule en cause porte un panneau de danger signalant des toxiques."
+  - type: attention
+    items:
+      - "Accident électrique : le bois humide et les vêtements ne procurent aucune protection contre le courant électrique."
+      - "Incendie : ne jamais utiliser les ascenseurs ou monte-charges ; ne pas pénétrer dans un local en feu ni s'engager dans un local ou escalier enfumé."
+      - "Fuite de gaz : aucune source d'étincelle, y compris le téléphone portable ou la lampe de poche."
+qcm:
+  - id: q1
+    enonce: "À quelle distance balise-t-on de part et d'autre d'un accident de la route ?"
+    propositions:
+      - "10 à 20 m"
+      - "50 à 100 m"
+      - "150 à 200 m"
+      - "300 à 500 m"
+    bonnes:
+      - 2
+    explication: "Le balisage se fait de part et d'autre de l'accident, à une distance de 150 à 200 m."
+  - id: q2
+    enonce: "Un véhicule accidenté possède une clé ou carte de démarrage à distance. Que faire ?"
+    propositions:
+      - "L'éloigner à plus de 5 mètres du véhicule"
+      - "La laisser dans le véhicule"
+      - "La garder dans la poche du secouriste, à côté du véhicule"
+    bonnes:
+      - 0
+    explication: "Après avoir coupé le contact, la clé ou carte de démarrage à distance est éloignée à plus de 5 mètres du véhicule."
+  - id: q3
+    enonce: "Une victime est en contact avec un appareil électrique. Que faut-il faire ?"
+    propositions:
+      - "La tirer immédiatement par les vêtements"
+      - "Couper le courant (disjoncteur) ou débrancher l'appareil, sans s'approcher avant d'être certain que l'alimentation est coupée"
+      - "L'isoler avec du bois humide"
+      - "Jeter de l'eau sur l'appareil"
+    bonnes:
+      - 1
+    explication: "On coupe le courant ou on débranche l'appareil ; on ne touche pas la victime avant d'être certain que l'alimentation est coupée. Le bois humide et les vêtements ne protègent pas."
+  - id: q4
+    enonce: "Un câble électrique haute tension est au sol près d'une victime. Que faire ?"
+    propositions:
+      - "Le déplacer avec un objet en bois"
+      - "Ne pas s'approcher et attendre les équipes spécialisées"
+      - "Couper le câble"
+    bonnes:
+      - 1
+    explication: "En présence d'un câble électrique basse ou haute tension au sol, on ne s'approche pas et on attend l'intervention d'équipes spécialisées."
+  - id: q5
+    enonce: "Plusieurs personnes dans une pièce fermée ont maux de tête et vomissements. Quelle conduite ?"
+    propositions:
+      - "Faire évacuer et rassembler les personnes, alerter les sapeurs-pompiers et attendre les secours en sécurité"
+      - "Ouvrir les portes et rester dans la pièce pour surveiller"
+      - "Allumer la lumière pour mieux évaluer"
+      - "Entrer sans précaution pour rechercher la source"
+    bonnes:
+      - 0
+    explication: "Une intoxication au monoxyde de carbone est suspectée : évacuation et rassemblement des personnes, alerte des sapeurs-pompiers (détecteurs), attente des secours en sécurité."
+  - id: q6
+    enonce: "Que fait-on face à une victime dont les vêtements sont en feu ?"
+    propositions:
+      - "L'allonger sur le sol le plus rapidement possible et éteindre ou étouffer les flammes"
+      - "La faire courir vers l'extérieur"
+      - "Attendre les sapeurs-pompiers"
+    bonnes:
+      - 0
+    explication: "La victime est allongée au sol le plus rapidement possible, les flammes sont éteintes ou à défaut étouffées avec une couverture ou un manteau retiré dès l'extinction."
+  - id: q7
+    enonce: "En cas de fuite de gaz avérée ou suspectée dans un local, que faut-il éviter ?"
+    propositions:
+      - "Rester à distance et empêcher l'accès"
+      - "Actionner un interrupteur ou utiliser son téléphone portable"
+      - "Ne pas pénétrer dans le local"
+    bonnes:
+      - 1
+    explication: "Il ne faut pas provoquer d'étincelles (interrupteurs, sonnerie, lampe de poche, téléphone portable) ; on ne pénètre pas dans le local et on empêche l'accès."

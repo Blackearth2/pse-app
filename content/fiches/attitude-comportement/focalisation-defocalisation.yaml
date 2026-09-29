@@ -1,0 +1,89 @@
+id: focalisation-defocalisation
+niveau: PSE1
+chapitre: attitude-comportement
+type: technique
+ordre: 11
+titre: La focalisation / défocalisation attentionnelle
+motsCles: [focalisation, défocalisation, visualisation, tâches attentionnelles, ancrage, régulation du stress]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01FT05, 12-2023)
+  code: 01FT05
+  page: 32
+liees: [stabiliser-etat-psycho-physiologique, respiration-controlee]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Focalisation et défocalisation de l'attention sont d'excellents outils de régulation du stress : plus la victime dégage son attention des facteurs de pression liés à l'événement critique ou à l'intervention, plus sa vulnérabilité émotionnelle diminue. Le secouriste oriente l'attention vers des éléments favorisant le bon déroulement de l'intervention et un état psychologique stabilisé."
+  - type: liste
+    titre: Focalisation attentionnelle
+    items:
+      - "Déjà utilisée naturellement dans le bilan : questions sur la date de naissance, les coordonnées, les antécédents et traitements, recherche des papiers, qui sont des tâches attentionnelles distractives."
+      - "Renforcement par une implication directe de la victime : compter les mouvements de son ventre sur 30 secondes, maintenir un pansement ou une poche de froid, surveiller sa fréquence cardiaque à l'aide d'un appareil et signaler quand elle passe en dessous de 100."
+      - "Autres tâches : inciter à parler d'un sujet extérieur à l'intervention (activité professionnelle, loisirs, dernières vacances)."
+      - "Tâches d'ancrage : quand elles ne sont plus liées au bilan, préciser au préalable qu'elles visent la stabilisation émotionnelle ; à adapter à la capacité de la personne et au contexte (certaines demandent plus de ressources cognitives)."
+  - type: liste
+    titre: Exemples de tâches d'implication physique
+    items:
+      - "Serrer les poings 5 secondes puis relâcher, recommencer."
+      - "Contracter alternativement le bras droit puis le bras gauche."
+      - "Contracter 1 fois la main gauche et 2 fois la droite, 3 fois la gauche et 4 fois la droite, etc. jusqu'à 10, puis redescendre en alternance."
+      - "Se concentrer sur sa respiration : air sur la lèvre supérieure, dans les narines, fraîcheur qui monte dans les sinus, chaleur à l'expiration, mouvement du souffle dans le ventre."
+  - type: liste
+    titre: Exemples de tâches d'implication mentale
+    items:
+      - "Phrase d'enracinement dans le présent, dite puis répétée par la victime à chaque hausse du stress (date, présence du secouriste, sécurité)."
+      - "Reprendre conscience du lieu : nommer un nombre précisé d'objets vus (5, 10, 15 ou 20)."
+      - "Compter à rebours depuis 100 en soustrayant 3 ou 7."
+      - "Nommer un pays pour chaque lettre de l'alphabet."
+      - "Nommer 5 objets d'une même couleur dans l'environnement."
+  - type: liste
+    titre: Défocalisation attentionnelle ou visualisation
+    items:
+      - "Se concentrer sur des images, des lieux ou des événements et percevoir l'émotion et les sensations qui les accompagnent ; accessible à tous."
+      - "Visualisation conforme à la réalité (lieu, objets, gestes, enchaînement d'étapes d'une scène) ou créatrice / abstraite (objet, situation ou émotion déclenchant les mêmes effets physiologiques que la réalité)."
+      - "Visualiser une situation apaisante aide à se détendre."
+      - "Exemple : proposer à la victime d'imaginer un lieu de sécurité qu'elle choisit (barque sur un lac calme, plage au soleil, souvenir heureux) et d'explorer ses sens : couleurs, sons, odeurs, température."
+      - "Demander à la victime d'indiquer par le signal « OUI » quand elle est arrivée dans ce lieu."
+qcm:
+  - id: q1
+    enonce: "Parmi ces questions du bilan, lesquelles constituent des tâches attentionnelles distractives ?"
+    propositions:
+      - "La date de naissance"
+      - "Les antécédents et traitements"
+      - "La recherche des papiers"
+      - "La mesure de la glycémie"
+    bonnes: [0, 1, 2]
+    explication: "Date de naissance, coordonnées, antécédents et traitements, recherche des papiers sont cités comme tâches attentionnelles distractives naturelles du bilan."
+  - id: q2
+    enonce: "Que faut-il préciser à la victime avant une tâche d'ancrage non liée au bilan ?"
+    propositions:
+      - "Qu'elle doit rester silencieuse"
+      - "Que ces exercices visent la stabilisation émotionnelle"
+      - "Rien, pour ne pas l'inquiéter"
+    bonnes: [1]
+    explication: "Quand les tâches ne sont plus en lien avec le bilan, il est essentiel de préciser qu'elles visent la stabilisation émotionnelle."
+  - id: q3
+    enonce: "Quelle est la durée proposée pour compter les mouvements du ventre dans l'exemple de focalisation ?"
+    propositions:
+      - "10 secondes"
+      - "30 secondes"
+      - "5 minutes"
+    bonnes: [1]
+    explication: "L'exemple demande de compter combien de fois le ventre se soulève sur 30 secondes."
+  - id: q4
+    enonce: "Quel exercice mental est cité dans le référentiel ?"
+    propositions:
+      - "Compter à rebours depuis 100 en soustrayant 3 ou 7"
+      - "Réciter un texte appris par cœur"
+      - "Résoudre une équation"
+    bonnes: [0]
+    explication: "Compter à rebours depuis 100 en soustrayant 3 ou 7 fait partie des tâches d'implication mentale, avec le nom de pays pour chaque lettre de l'alphabet."
+  - id: q5
+    enonce: "En quoi consiste la défocalisation attentionnelle (visualisation) ?"
+    propositions:
+      - "Se concentrer sur des images, des lieux ou des événements et percevoir émotions et sensations associées, par exemple un lieu de sécurité choisi par la victime"
+      - "Fixer la blessure pour mieux l'accepter"
+      - "Éviter toute communication avec le secouriste"
+    bonnes: [0]
+    explication: "La visualisation consiste à se concentrer sur des images, lieux ou événements et à percevoir l'émotion et les sensations qui les accompagnent ; visualiser une situation apaisante aide à se détendre."

@@ -1,0 +1,139 @@
+id: nettoyage-desinfection-materiel
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 10
+titre: Nettoyage et désinfection du matériel
+motsCles: [nettoyage, désinfection, matériel immergeable, non immergeable, 15 minutes, traçabilité, deux plans de travail]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT06, 09-2014)
+  code: 03FT06
+  page: 54
+liees:
+  - detergents-desinfectants
+  - nettoyage-desinfection-vehicule-local
+  - lavage-des-mains
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Applicable aux matériels de secours réutilisables, après chaque prise en charge où le matériel a été utilisé, ou de manière périodique (en général hebdomadaire) lors du protocole de désinfection approfondie du véhicule sanitaire. Le nettoyage suivi de la désinfection assure la propreté microbiologique du dispositif médico-secouriste."
+  - type: chiffres
+    titre: À retenir en chiffres
+    items:
+      - valeur: Au minimum 15 minutes
+        libelle: Temps de contact du matériel immergé dans la solution détergente désinfectante (ou temps de la notice si plus long)
+      - valeur: "Environ 10 L"
+        libelle: Contenance des deux seaux de couleurs différentes
+      - valeur: "> 60 °C"
+        libelle: Lavage en machine des textiles de nettoyage réutilisés, avec javellisation au dernier rinçage
+      - valeur: Hebdomadaire (en général)
+        libelle: Fréquence de la désinfection périodique
+  - type: liste
+    titre: Matériel nécessaire (principaux éléments)
+    items:
+      - "Point d'eau propre ; gants non stériles à usage unique à manchette longue ; savon liquide et/ou gel pour l'antisepsie des mains."
+      - "Bac d'immersion ; deux plans de travail (matériel sale / matériel propre)."
+      - "Deux seaux de couleurs différentes (ex. rouge et bleu), d'environ dix litres ; sac jaune pour DASRI ; sac d'une autre couleur pour les ordures ménagères ; essuie-tout."
+      - "Lavettes à usage unique ou lingettes préimprégnées ; solution détergente désinfectante ; pulvérisateur prêt à l'emploi ; brosse de nettoyage elle-même désinfectée ; documents de traçabilité."
+  - type: liste
+    titre: Règles générales
+    items:
+      - "La désinfection est toujours précédée d'un nettoyage, même avec un produit détergent-désinfectant."
+      - "Respecter un circuit précis distinguant zone propre et zone sale ; nettoyer et désinfecter les plans de travail à la fin."
+      - "Les souillures biologiques (sang, salive…) sont éliminées dès leur production avec un essuie-tout imprégné de détergent-désinfectant."
+      - "Avant : se laver les mains, mettre des gants à usage unique non stériles, jeter le matériel à usage unique dans les emballages prévus (tri), sortir tout le matériel de la cellule sanitaire, le déposer sur le plan de travail réservé au matériel non désinfecté, préparer un bac de trempage à la dilution prescrite."
+      - "Après : retirer les gants et les jeter dans le sac jaune à déchets mous, se laver les mains, réintégrer le matériel nettoyé et désinfecté dans la cellule sanitaire et faire son inventaire."
+  - type: etapes
+    titre: Matériels immergeables
+    items:
+      - "Démonter le matériel démontable et faire tremper dans le bac les parties immergeables ainsi que la brosse de nettoyage."
+      - "Laisser en contact pendant le temps imposé par la notice, au minimum quinze minutes."
+      - "Nettoyer et brosser méthodiquement les différentes pièces."
+      - "Rincer abondamment les pièces une par une sous l'eau courante."
+      - "Sécher chaque pièce avec un support absorbant à usage unique."
+      - "Remonter et vérifier le fonctionnement du matériel."
+  - type: etapes
+    titre: Matériels non immergeables
+    items:
+      - "Démonter les parties amovibles."
+      - "Pulvériser la solution détergente désinfectante sans projeter directement sur les parties électriques sensibles."
+      - "Étaler la solution avec une lavette non tissée à usage unique, propre et sèche."
+      - "Laisser sécher, ne pas rincer."
+      - "Remonter et vérifier le fonctionnement du matériel."
+  - type: liste
+    titre: Traçabilité (fiche de suivi)
+    items:
+      - "Type de matériel et numéro d'identification."
+      - "Type de nettoyage-désinfection réalisé."
+      - "Date de réalisation."
+      - "Nom et signature de la personne."
+      - "Procédures écrites, à disposition et mises à jour régulièrement ; l'autorité d'emploi les met à jour et vise les fiches de suivi."
+  - type: attention
+    items:
+      - "Serpillères et éponges interdites : réservoirs de micro-organismes potentiellement pathogènes."
+      - "Ne jamais pulvériser sur du matériel électrique (DAE, aspirateur de mucosités)."
+      - "Ne pas mélanger les différents produits entre eux ; ne pas respirer l'aérosol de pulvérisation."
+      - "Désinfectants irritants pour la peau et les yeux : gants adaptés (gants de ménage en cas d'immersion), lunettes, blouse, éventuellement masque de protection respiratoire."
+      - "Contact avec les yeux : laver abondamment sous l'eau et consulter un médecin ; ingestion : consulter immédiatement un médecin en montrant l'emballage ou l'étiquette."
+      - "Vérifier le fonctionnement du matériel avant sa remise en service."
+qcm:
+  - id: q1
+    enonce: "Quel est le temps de contact minimal du matériel immergeable dans la solution détergente désinfectante ?"
+    propositions:
+      - "1 minute"
+      - "5 minutes"
+      - "15 minutes"
+      - "60 minutes"
+    bonnes:
+      - 2
+    explication: "Le matériel reste en contact pendant le temps imposé par la notice, au minimum quinze minutes."
+  - id: q2
+    enonce: "Que fait-on avant la désinfection, même avec un produit détergent-désinfectant ?"
+    propositions:
+      - "Rien, le produit suffit"
+      - "Un nettoyage"
+      - "Un rinçage à l'eau de Javel pure"
+    bonnes:
+      - 1
+    explication: "La désinfection est toujours précédée d'une étape de nettoyage."
+  - id: q3
+    enonce: "Sur quel matériel ne doit-on jamais pulvériser de produit ?"
+    propositions:
+      - "Brancard"
+      - "Matériel électrique (DAE, aspirateur de mucosités)"
+      - "Plans de travail"
+    bonnes:
+      - 1
+    explication: "Ne jamais pulvériser sur du matériel électrique comme le DAE ou l'aspirateur de mucosités."
+  - id: q4
+    enonce: "Concernant les textiles de nettoyage et les supports :"
+    propositions:
+      - "Les serpillères et éponges sont interdites"
+      - "Les textiles réutilisés se lavent en machine à plus de 60 °C avec javellisation au dernier rinçage"
+      - "Les éponges réutilisables sont recommandées"
+    bonnes:
+      - 0
+      - 1
+    explication: "Serpillères et éponges sont réservoirs de micro-organismes ; les textiles réutilisés sont lavés en machine à haute température (> 60 °C) avec javellisation."
+  - id: q5
+    enonce: "Après le nettoyage-désinfection du matériel, que fait-on des gants ?"
+    propositions:
+      - "On les retire et on les jette dans le sac jaune à déchets mous"
+      - "On les garde pour l'opération suivante"
+      - "On les jette avec les ordures ménagères"
+    bonnes:
+      - 0
+    explication: "On retire les gants, on les jette dans le sac jaune, puis on se lave les mains."
+  - id: q6
+    enonce: "Que doit comporter la fiche de suivi d'une opération de nettoyage-désinfection du matériel ?"
+    propositions:
+      - "Le type et le numéro d'identification du matériel"
+      - "La date de réalisation"
+      - "Le nom et la signature de la personne"
+      - "Le nom de la victime prise en charge"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La fiche mentionne le type de matériel et son numéro, le type d'opération, la date, ainsi que le nom et la signature de l'opérateur."

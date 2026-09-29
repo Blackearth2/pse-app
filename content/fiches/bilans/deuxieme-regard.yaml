@@ -1,0 +1,87 @@
+id: deuxieme-regard
+niveau: PSE1
+chapitre: bilans
+type: procedure
+ordre: 3
+titre: Deuxième regard
+motsCles: [2e regard, menaces vitales, hémorragie externe grave, voies aériennes, arrêt cardiaque, plainte principale]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR02, 07-2026)
+  code: 04PR02
+  page: 67
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le secouriste avance vers la victime, la visualise et apprécie sa globalité (genre, âge : personne âgée, adulte, enfant, nourrisson ; position : allongée, assise, debout, recroquevillée), sa conscience et la présence de menaces vitales nécessitant une réaction immédiate, selon le principe « traiter en priorité ce qui tue en premier »."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Apprécier la victime dans sa globalité : genre, âge, position."
+      - "Apprécier sa conscience en lui demandant comment elle va, d'ouvrir les yeux ou de serrer les mains."
+      - "Rechercher les menaces vitales dans l'ordre du tableau (hémorragie externe grave, puis obstruction ou menace sur les voies aériennes, puis absence de réaction avec absence de respiration ou respiration anormale) et agir immédiatement."
+      - "Repérer la plainte principale, exprimée spontanément ou visible par l'observation : attitude douloureuse, essoufflement, vigilance altérée, lésions traumatiques évidentes ou suspectées (traumatisme du rachis)."
+      - "Installer la victime dans une position adaptée à son état, en la retournant si nécessaire, et stabiliser le rachis cervical à titre conservatoire devant une lésion traumatique évidente ou suspectée du rachis."
+  - type: liste
+    titre: Menaces vitales et actions à entreprendre
+    items:
+      - "Hémorragie externe grave : arrêter l'hémorragie."
+      - "Obstruction des voies aériennes ou liberté des voies aériennes menacée : assurer la liberté des voies aériennes pour permettre le passage de l'air ; en présence d'un casque de protection, le retirer ; installer sur le dos une victime qui a perdu connaissance avant de rechercher sa ventilation."
+      - "Absence de réaction sans respiration ou respiration anormale : débuter une réanimation cardiopulmonaire."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - En parallèle des actions entreprises, toute détresse vitale constatée doit faire l'objet d'un avis médical ou d'une demande de renfort.
+      - "La stabilisation du rachis cervical est conservatoire : elle est assurée devant une lésion traumatique évidente ou suspectée du rachis."
+qcm:
+  - id: q1
+    enonce: "Quel est l'objectif principal du 2e regard ?"
+    propositions:
+      - Réaliser l'interrogatoire complet des antécédents
+      - Identifier une menace vitale et la plainte principale
+      - Mesurer tous les paramètres physiologiques
+      - Déterminer le nombre de victimes
+    bonnes:
+      - 1
+    explication: "Le 2e regard progresse vers la victime pour identifier une menace vitale ainsi que la plainte principale."
+  - id: q2
+    enonce: "Quelles sont les menaces vitales recherchées lors du 2e regard ?"
+    propositions:
+      - Hémorragie externe grave
+      - Obstruction ou menace sur la liberté des voies aériennes
+      - Absence de réaction sans respiration ou respiration anormale
+      - Douleur au ventre depuis plusieurs jours
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le tableau des menaces vitales comprend l'hémorragie externe grave, l'obstruction des voies aériennes (ou leur liberté menacée) et l'absence de réaction sans respiration ou avec respiration anormale."
+  - id: q3
+    enonce: "Une victime est sans réaction, sans respiration ou avec une respiration anormale. Quelle action entreprendre ?"
+    propositions:
+      - La placer en position latérale de sécurité
+      - Débuter une réanimation cardiopulmonaire
+      - Attendre le 3e regard
+      - Mesurer la glycémie capillaire
+    bonnes:
+      - 1
+    explication: "Absence de réaction avec absence de respiration ou respiration anormale : débuter une réanimation cardiopulmonaire."
+  - id: q4
+    enonce: "Une victime porte un casque de protection et ses voies aériennes sont menacées. Que faut-il faire ?"
+    propositions:
+      - Le laisser en place dans tous les cas
+      - Le retirer pour assurer la liberté des voies aériennes
+      - Attendre l'arrivée du médecin pour le retirer
+    bonnes:
+      - 1
+    explication: "Pour assurer la liberté des voies aériennes, le casque de protection est retiré s'il est présent."
+  - id: q5
+    enonce: "Que doit-on faire devant une lésion traumatique évidente ou suspectée du rachis lors du 2e regard ?"
+    propositions:
+      - Stabiliser le rachis cervical à titre conservatoire
+      - Ne rien faire tant que la victime ne se plaint pas
+      - Asseoir la victime pour faciliter l'examen
+    bonnes:
+      - 0
+    explication: "Il convient d'installer la victime dans une position adaptée et d'assurer une stabilisation du rachis cervical à titre conservatoire."

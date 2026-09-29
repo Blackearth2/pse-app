@@ -1,14 +1,8 @@
-- id: generalites
-  titre: Généralités
-- id: urgences-vitales
-  titre: Urgences vitales
-- id: malaises
-  titre: Malaises et affections spécifiques
-- id: atteintes-circonstancielles
-  titre: Atteintes circonstancielles
-- id: traumatismes
-  titre: Traumatismes
-- id: situations-particulieres
-  titre: Situations particulières
-- id: techniques
-  titre: Fiches techniques
+- id: attitude-comportement
+  titre: Attitude et comportement
+- id: protection-securite
+  titre: Protection et sécurité
+- id: hygiene-asepsie
+  titre: Hygiène et asepsie
+- id: bilans
+  titre: Bilans

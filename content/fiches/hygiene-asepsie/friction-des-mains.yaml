@@ -1,0 +1,96 @@
+id: friction-des-mains
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 7
+titre: Friction des mains
+motsCles: [friction, gel hydroalcoolique, 30 secondes, inflammable, mains propres, sans eau]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT03, 09-2014)
+  code: 03FT03
+  page: 51
+liees:
+  - lavage-des-mains
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La friction avec un gel hydroalcoolique remplace le lavage à l'eau et au savon quand l'accès à l'eau est impossible, ou le complète quand un degré d'asepsie plus élevé est requis. Elle est aussi efficace que le lavage si les mains sont visuellement propres et non talquées."
+  - type: chiffres
+    titre: À retenir en chiffres
+    items:
+      - valeur: Au moins 30 secondes
+        libelle: Durée de la friction, jusqu'à évaporation complète
+  - type: liste
+    titre: Justification
+    items:
+      - "Compléter l'élimination des germes de surface après un lavage simple à l'eau et au savon."
+      - "Conserver un niveau d'asepsie acceptable des mains : le contact avec les victimes ou leur environnement introduit progressivement des souillures, même si les mains paraissent propres."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Gel hydroalcoolique en flacon individuel fermé par un bouchon antiretour."
+      - "Ou en récipient mural fixe muni d'une pompe dont la commande est accessible sans utiliser les mains."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Enlever montre, bagues et autres bijoux."
+      - "Déposer dans le creux de la paume d'une main une quantité suffisante (ce que le creux de la main peut contenir)."
+      - "Frictionner sans arrêter, au moins 30 secondes et jusqu'à évaporation complète, toutes les surfaces des mains en insistant sur la pulpe des doigts et les paumes, sans oublier espaces interdigitaux, pouces, dos de la main et poignets."
+      - "Ne pas rincer ni essuyer."
+  - type: texte
+    titre: Évaluation
+    contenu: "Les mains doivent être sèches à l'issue de la procédure."
+  - type: attention
+    items:
+      - "Le gel hydroalcoolique est inflammable : ne pas frictionner à proximité d'une source de chaleur (briquet, cigarette)."
+      - "La friction sur des gants est inutile."
+      - "Mains visiblement sales ou talquées : la friction n'est pas aussi efficace qu'un lavage."
+qcm:
+  - id: q1
+    enonce: "Quand réalise-t-on une friction hydroalcoolique à la place d'un lavage ?"
+    propositions:
+      - "Quand les mains sont visiblement souillées"
+      - "Quand l'accès à l'eau n'est pas possible"
+      - "Sur des gants souillés"
+    bonnes:
+      - 1
+    explication: "La friction est indiquée quand le lavage à l'eau et au savon ne peut pas être réalisé (absence d'accès à l'eau), sur des mains visuellement propres et non talquées."
+  - id: q2
+    enonce: "Quelle est la durée minimale de friction ?"
+    propositions:
+      - "5 secondes"
+      - "15 secondes"
+      - "Au moins 30 secondes"
+      - "Au moins 5 minutes"
+    bonnes:
+      - 2
+    explication: "On frictionne sans arrêter au moins 30 secondes, jusqu'à évaporation complète."
+  - id: q3
+    enonce: "Après la friction, que fait-on ?"
+    propositions:
+      - "On rince à l'eau"
+      - "On essuie avec un essuie-mains"
+      - "On ne rince ni n'essuie : les mains doivent être sèches"
+    bonnes:
+      - 2
+    explication: "On ne rince pas et on n'essuie pas ; les mains sont sèches à l'issue de la procédure."
+  - id: q4
+    enonce: "Quelles précautions et risques sont liés au gel hydroalcoolique ?"
+    propositions:
+      - "Il est inflammable"
+      - "À éviter près d'une flamme de briquet ou d'une cigarette"
+      - "Il peut être appliqué sur des gants pour les désinfecter"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le gel est inflammable ; la friction sur des gants est inutile."
+  - id: q5
+    enonce: "Avant la friction, que faut-il faire ?"
+    propositions:
+      - "Enlever montre, bagues et autres bijoux"
+      - "Mettre des gants"
+      - "Mouiller les mains"
+    bonnes:
+      - 0
+    explication: "On enlève montre, bagues et bijoux avant de déposer le gel dans le creux de la paume."

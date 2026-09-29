@@ -1,0 +1,171 @@
+id: nettoyage-desinfection-vehicule-local
+niveau: PSE1
+chapitre: hygiene-asepsie
+type: technique
+ordre: 11
+titre: Nettoyage et désinfection d'un véhicule ou d'un local
+motsCles: [véhicule sanitaire, protocole simplifié, protocole quotidien, protocole approfondi, deux seaux, traçabilité]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 03FT07, 09-2014)
+  code: 03FT07
+  page: 57
+liees:
+  - nettoyage-desinfection-materiel
+  - detergents-desinfectants
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Pour les véhicules sanitaires et locaux utilisés comme poste de secours. L'entretien assure la propreté visuelle et microbiologique. Trois protocoles existent selon la situation : simplifié, quotidien (et périodique), approfondi."
+  - type: liste
+    titre: Quand réaliser quel protocole
+    items:
+      - "Protocole simplifié : entre chaque victime prise en charge ou à l'issue de chaque transport."
+      - "Protocole quotidien : avant la prise de service d'une nouvelle équipe ou avant le début d'une mission de longue durée."
+      - "Protocole de désinfection approfondie : après le transport d'une victime à risque infectieux particulier connu (après conseil de l'autorité médicale ou d'emploi), ou de manière périodique à la fréquence recommandée par l'autorité d'emploi."
+  - type: chiffres
+    titre: À retenir en chiffres
+    items:
+      - valeur: Environ 10 L
+        libelle: Contenance des deux seaux de couleurs différentes (rouge et bleu par exemple)
+      - valeur: "> 60 °C"
+        libelle: Lavage en machine des textiles de nettoyage réutilisés, avec javellisation au dernier rinçage
+  - type: liste
+    titre: Matériel (principaux éléments)
+    items:
+      - "Point d'eau propre ; gants non stériles à usage unique à manchette longue ; savon liquide et/ou gel."
+      - "Deux seaux de couleurs différentes ; balai brosse ou équivalent ; frange adaptée lavée en machine ; aspirateur réservé aux véhicules sanitaires ; sac jaune DASRI ; sac d'une autre couleur pour les ordures ménagères ; essuie-tout."
+      - "Lavettes à usage unique ou lingettes préimprégnées (non-tissé préféré) ; solution détergente désinfectante ; pulvérisateur prêt à l'emploi ; brosse de nettoyage désinfectée ; cahier de traçabilité."
+  - type: texte
+    titre: Lieu de réalisation
+    contenu: "Le protocole simplifié peut se réaliser n'importe où (aucun point d'eau nécessaire), son matériel pouvant être stocké dans le véhicule. Quotidien et approfondi se font si possible dans un endroit réservé, avec au minimum un point d'eau du réseau, une évacuation des eaux usées, le matériel spécifique et des plans de travail sans joints."
+  - type: etapes
+    titre: Avant et après, quel que soit le protocole
+    items:
+      - "Bien aérer le véhicule ou le local en ouvrant les portes."
+      - "Se laver les mains ; se protéger avec des gants à usage unique non stériles et une paire de lunettes de protection."
+      - "Avoir dépoussiéré et nettoyé le sol ainsi que l'intérieur du véhicule ou du local."
+      - "À la fin : placer les matériels à usage unique usagés dans les emballages DASRI, retirer les gants et les jeter dans le sac jaune à déchets mous, se laver les mains, noter ce qui a été fait sur le cahier de traçabilité."
+  - type: etapes
+    titre: Protocole simplifié
+    items:
+      - "Pulvériser une solution détergente désinfectante sur le matériel en contact avec la victime ou exposé à des liquides biologiques (brancard, matelas immobilisateur à dépression, plans de travail, poignées de portes…)."
+      - "Étaler la solution avec une lavette à usage unique, propre et sèche."
+      - "Laisser sécher, ne pas rincer."
+      - "Jeter la lavette dans le sac à déchets mous DASRI."
+  - type: etapes
+    titre: Protocole périodique — cellule sanitaire
+    items:
+      - "Ôter le matériel encombrant les surfaces."
+      - "Nettoyer et désinfecter toutes les surfaces sauf le sol, avec une lingette à usage unique selon la technique des 2 seaux."
+      - "Laisser sécher sans rincer."
+      - "Réintégrer le matériel préalablement nettoyé et désinfecté."
+      - "Nettoyer et désinfecter le sol avec la même technique et un balai à franges."
+      - "Laisser sécher le sol avant de pénétrer dans la cellule sanitaire."
+  - type: liste
+    titre: Protocole périodique — cabine de conduite
+    items:
+      - "Pulvériser la solution sur le tableau de bord, le volant, le levier de vitesse, les manettes, le frein à main, les portes intérieures (surtout les poignées) et les appareils de communication (radios, téléphones mobiles)."
+      - "Pas de pulvérisation directe sur les matériels sensibles aux projections humides."
+      - "Étaler avec une lavette non tissée propre et sèche, laisser sécher, ne pas rincer."
+      - "Laver le sol de l'intérieur vers l'extérieur."
+  - type: etapes
+    titre: Protocole approfondi
+    items:
+      - "Sortir de la cellule sanitaire l'ensemble du matériel et le déposer sur un plan de travail réservé au matériel non désinfecté."
+      - "Nettoyer et désinfecter la cellule comme pour le protocole périodique, en commençant par le plafond puis en descendant sur les parois, sans oublier tiroirs et intérieur des placards, en insistant sur le support de brancard, et en terminant par le sol."
+      - "Nettoyer et désinfecter le matériel stocké hors de la cellule."
+      - "Réintégrer le matériel nettoyé et désinfecté après vérification de son fonctionnement."
+      - "Nettoyer et désinfecter la cabine de conduite comme pour le protocole périodique."
+  - type: etapes
+    titre: Technique des deux seaux
+    items:
+      - "Seau rouge (lavage) : préparer la solution détergent-désinfectant à la dilution prescrite par le fournisseur."
+      - "Seau bleu (rinçage) : le remplir d'eau propre du réseau."
+      - "Tremper la frange dans le seau rouge et la fixer au balai."
+      - "Nettoyer le sol de la cellule en commençant par le fond et en terminant vers l'extérieur, en déplaçant la frange en faisant des « S »."
+      - "Essorer la frange dans le seau de rinçage autant que nécessaire, puis retremper dans le seau de lavage."
+      - "Dès que l'eau de rinçage devient trouble, la vider et la remplacer par de l'eau claire ; renouveler ces étapes autant que nécessaire."
+      - "Vider et rincer les deux seaux, essorer et rincer la frange (au besoin la laver en machine séparément de tout linge) et laisser sécher."
+  - type: liste
+    titre: Traçabilité
+    items:
+      - "Nom du local ou type de véhicule et son immatriculation."
+      - "Type de protocole réalisé."
+      - "Date et heure de réalisation."
+      - "Nom et signature de la personne."
+  - type: attention
+    items:
+      - "Serpillères et éponges interdites : réservoirs de micro-organismes potentiellement pathogènes."
+      - "Ne jamais pulvériser sur du matériel électrique (DAE, aspirateur de mucosités)."
+      - "Ne pas mélanger les produits entre eux ; ne pas respirer l'aérosol."
+      - "Désinfectants irritants pour peau et yeux : gants appropriés (gants de ménage si immersion), lunettes, blouse, éventuellement masque de protection respiratoire."
+      - "Contact avec les yeux : laver abondamment et consulter un médecin ; ingestion : consulter immédiatement un médecin en montrant l'emballage ou l'étiquette."
+qcm:
+  - id: q1
+    enonce: "Quand réalise-t-on le protocole simplifié ?"
+    propositions:
+      - "Entre chaque victime ou à l'issue de chaque transport"
+      - "Une fois par mois seulement"
+      - "Uniquement après une victime à risque infectieux connu"
+    bonnes:
+      - 0
+    explication: "Protocole simplifié : entre chaque victime prise en charge ou à l'issue de chaque transport ; il ne nécessite aucun point d'eau."
+  - id: q2
+    enonce: "Après le transport d'une victime à risque infectieux particulier connu, quel protocole ?"
+    propositions:
+      - "Simplifié"
+      - "Quotidien"
+      - "Approfondi (après conseil de l'autorité médicale ou d'emploi)"
+    bonnes:
+      - 2
+    explication: "La désinfection approfondie suit le transport d'une victime à risque infectieux particulier connu, après conseil de l'autorité médicale ou d'emploi, ou se fait périodiquement."
+  - id: q3
+    enonce: "Dans la technique des deux seaux, que contiennent-ils ?"
+    propositions:
+      - "Rouge : solution détergent-désinfectant ; bleu : eau propre de rinçage"
+      - "Rouge : eau de rinçage ; bleu : solution détergent-désinfectant"
+      - "Les deux : solution détergent-désinfectant"
+    bonnes:
+      - 0
+    explication: "Seau de lavage (rouge) avec la solution à la dilution prescrite ; seau de rinçage (bleu) avec de l'eau propre du réseau."
+  - id: q4
+    enonce: "Dans quel sens nettoie-t-on le sol de la cellule sanitaire avec la frange ?"
+    propositions:
+      - "En commençant par la porte pour aller vers le fond"
+      - "En commençant par le fond et en terminant vers l'extérieur, en faisant des « S »"
+      - "En cercles"
+    bonnes:
+      - 1
+    explication: "On nettoie en commençant par le fond, en terminant vers l'extérieur, en déplaçant la frange en « S »."
+  - id: q5
+    enonce: "Dans le protocole approfondi, par où commence-t-on le nettoyage de la cellule ?"
+    propositions:
+      - "Par le sol"
+      - "Par le plafond, en descendant progressivement sur les parois, et on termine par le sol"
+      - "Par les tiroirs"
+    bonnes:
+      - 1
+    explication: "On commence par le plafond, on descend sur les parois (sans oublier tiroirs et placards, en insistant sur le support de brancard) et on termine par le sol."
+  - id: q6
+    enonce: "Que faire avant de commencer le nettoyage, quel que soit le protocole ?"
+    propositions:
+      - "Bien aérer en ouvrant les portes"
+      - "Se laver les mains et mettre gants à usage unique et lunettes de protection"
+      - "Fermer toutes les portes pour éviter les courants d'air"
+    bonnes:
+      - 0
+      - 1
+    explication: "Il faut aérer, se laver les mains, se protéger (gants non stériles à usage unique, lunettes) et avoir dépoussiéré et nettoyé le sol et l'intérieur."
+  - id: q7
+    enonce: "Que note-t-on sur la fiche de suivi du véhicule ?"
+    propositions:
+      - "Le type de véhicule et son immatriculation (ou le nom du local)"
+      - "Le type de protocole réalisé"
+      - "La date et l'heure"
+      - "Le nom de la victime transportée"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La fiche indique le véhicule ou local, le type de protocole, la date et l'heure, ainsi que le nom et la signature de l'opérateur."

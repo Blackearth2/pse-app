@@ -1,0 +1,91 @@
+id: enjeux-principes
+niveau: PSE1
+chapitre: attitude-comportement
+type: connaissance
+ordre: 2
+titre: Enjeux et principes
+motsCles: [rôles et missions, principes de base, hygiène et sécurité, ne pas nuire, adaptation, formation continue, équipe]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 01AC02, 07-2026)
+  code: 01AC02
+  page: 12
+liees: [le-citoyen-securite-civile, attitude-comportement-secouriste]
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le secouriste est le premier acteur opérationnel, formé et entraîné à la prise en charge de personnes victimes d'un accident, d'un malaise, d'une aggravation brutale d'une maladie ou de toute autre situation soudaine et inattendue susceptible de déborder les capacités individuelles ou collectives à faire face. Il agit seul ou en équipe selon des missions et des principes de base."
+  - type: etapes
+    titre: Rôles et missions (chronologie)
+    items:
+      - "À la prise de poste (en équipe) : vérifier le matériel, prendre connaissance des notes internes, faire le lien avec l'équipe."
+      - "Se rendre sur les lieux : la connaissance du lieu et de la zone géographique permet de rejoindre plus vite la victime ; en équipe, un message indique l'arrivée sur les lieux."
+      - "Protéger : rechercher un danger pour soi, la victime ou les tiers ; action immédiate pour mettre tout le monde en sécurité ou compléter un dispositif existant."
+      - "Accéder à la victime : parfois seulement après une manœuvre de sauvetage spécialisée (aquatique, secours routier) ; dans la limite de ses qualifications et de son entraînement."
+      - "Examiner : réaliser un bilan (avec matériel en équipe) pour déceler une détresse vitale et/ou psychique et déterminer une prise en charge adaptée."
+      - "Alerter / faire alerter : alerte des secours publics le plus précocement possible, seul ou via un témoin ; le téléphone portable offre haut-parleur et échange victime-médecin ; en équipe, respect des procédures internes."
+      - "Secourir : conduites à tenir et techniques adaptées ; seul, avec les moyens du bord et l'aide des témoins ; en équipe, avec le matériel à disposition ou à défaut les moyens du bord, et les témoins en cas de nécessité."
+      - "Surveiller : surveillance constante de la victime sur le plan physique et psychologique, évolution éventuelle, efficacité des moyens mis en œuvre."
+      - "Aider les renforts : transmettre les éléments de l'intervention et proposer son aide, dans la limite de ses compétences."
+      - "Après l'intervention : le secouriste isolé peut contacter son autorité d'emploi ; en équipe, reconditionnement du matériel, débriefing technique et psychologique, transmission des documents pour archivage."
+  - type: liste
+    titre: Principes de base
+    items:
+      - "1er principe, respecter les règles d'hygiène et de sécurité individuelles et collectives : équipements de protection individuelle (gilet de signalisation, casque, gants), condition physique, règles liées aux véhicules (ceinture, vigilance à la montée et descente, limitations de vitesse, signaux lumineux), gestes et postures, protection de l'environnement (balisage, périmètre de sécurité, élimination des déchets), collaboration avec équipiers et responsables (rendre compte, respecter les consignes)."
+      - "Gestes et postures : solliciter au maximum la victime pour réaliser une action, principes de sécurité physique et d'économie d'effort (travailler avec les cuisses et non le dos, proximité de la charge, courbure naturelle du dos respectée, appuis stables, prises solides)."
+      - "2e principe, ne pas nuire : ne pas aggraver l'état de la victime ni nuire à son environnement ; en l'absence de risque vital, il est souvent judicieux de laisser la victime dans la position où elle se trouve plutôt que de la déplacer sans personnel ni matériel nécessaires."
+      - "3e principe, mettre en œuvre les techniques et utiliser le matériel : réaliser parfaitement les techniques, savoir utiliser le matériel et en connaître les mesures de sécurité et d'entretien."
+      - "S'adapter à la situation : par exemple utiliser des morceaux de vêtements pour un tampon compressif ou une chaise d'ameublement pour déplacer une victime."
+      - "Aider les autres équipes de secours : lors de certaines techniques (relevage, brancardage) la participation de plus de trois équipiers est requise ; le secouriste est alors mis à disposition du responsable de l'intervention."
+  - type: texte
+    titre: Maintenir ses acquis
+    contenu: "Le secouriste a le devoir de maintenir ses connaissances et compétences à jour par la formation continue : retour d'expérience, meilleure coordination avec les équipiers, apprentissage des nouveaux matériels, connaissance des nouvelles techniques et procédures."
+  - type: attention
+    titre: Points d'attention
+    items:
+      - "L'alerte doit être la plus précoce possible, même quand le secouriste est seul (il peut la faire faire par un témoin)."
+      - "Le secouriste accède à la victime dans la limite de ses qualifications et de son entraînement : certaines manœuvres de sauvetage sont spécialisées."
+qcm:
+  - id: q1
+    enonce: "Quel est le premier principe de base du secouriste ?"
+    propositions:
+      - "Ne pas nuire aux victimes"
+      - "Respecter les règles d'hygiène et de sécurité"
+      - "Mettre en œuvre les techniques et utiliser le matériel"
+      - "Aider les autres équipes de secours"
+    bonnes: [1]
+    explication: "Le premier principe est le respect des règles d'hygiène et de sécurité ; ne pas nuire est le deuxième et la maîtrise des techniques et du matériel le troisième."
+  - id: q2
+    enonce: "Sur opération, pour certaines techniques de relevage ou de brancardage, combien d'équipiers la participation requiert-elle ?"
+    propositions:
+      - "Plus de deux équipiers"
+      - "Plus de trois équipiers"
+      - "Plus de cinq équipiers"
+    bonnes: [1]
+    explication: "Pour certaines techniques de relevage ou de brancardage, la participation de plus de trois équipiers est requise ; le secouriste est alors mis à disposition du responsable de l'intervention."
+  - id: q3
+    enonce: "En l'absence de risque vital, que fait souvent judicieusement le secouriste de la victime ?"
+    propositions:
+      - "La déplacer systématiquement vers un endroit sûr"
+      - "La laisser dans la position où elle se trouve plutôt que la déplacer sans personnel ni matériel nécessaires"
+      - "La relever pour faciliter le bilan"
+      - "La faire marcher"
+    bonnes: [1]
+    explication: "Au titre du principe « ne pas nuire », il est souvent judicieux de laisser la victime dans sa position plutôt que de la déplacer sans moyens adaptés."
+  - id: q4
+    enonce: "Parmi ces exemples, lesquels relèvent de l'économie d'effort en manutention ?"
+    propositions:
+      - "Travailler avec les cuisses et non avec le dos"
+      - "Tenir la charge à distance du corps"
+      - "Respecter la courbure naturelle du dos"
+      - "Prises solides et appuis stables"
+    bonnes: [0, 2, 3]
+    explication: "Le référentiel cite : travail préférentiel avec les cuisses, proximité de la charge (donc pas à distance), courbure naturelle du dos, stabilité des appuis, solidité des prises."
+  - id: q5
+    enonce: "Quel est le but de l'examen (bilan) réalisé par le secouriste ?"
+    propositions:
+      - "Poser un diagnostic médical précis"
+      - "Déceler une détresse vitale et/ou psychique pour déterminer une prise en charge adaptée"
+      - "Décider seul du transport à l'hôpital"
+    bonnes: [1]
+    explication: "Le bilan vise à déceler une détresse vitale et/ou psychique en vue de déterminer une prise en charge adaptée."

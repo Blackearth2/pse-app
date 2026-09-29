@@ -1,0 +1,126 @@
+id: evaluation-fonction-circulatoire
+niveau: PSE1
+chapitre: bilans
+type: technique
+ordre: 16
+titre: Évaluation de la fonction circulatoire
+motsCles: [fonction circulatoire, pouls, fréquence cardiaque, temps de recoloration cutanée, détresse circulatoire, pouls carotidien]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT09, 12-2022)
+  code: 04FT09
+  page: 86
+liees: []
+blocs:
+  - type: texte
+    titre: Indication et justification
+    contenu: "L'évaluation de la fonction circulatoire, fonction vitale, est réalisée lors du bilan et de la surveillance. Elle permet d'identifier un arrêt cardiaque (2e regard), une détresse circulatoire (3e regard), une altération pouvant évoluer vers une détresse (4e regard), et de suivre l'évolution et l'efficacité des gestes. Matériel : chronomètre ou équivalent, tensiomètre manuel ou automatique, appareil de surveillance (oxymètre de pouls ou appareil de surveillance cardiaque)."
+  - type: liste
+    titre: Trois temps
+    items:
+      - "Rechercher la présence du pouls (2e regard)."
+      - "Apprécier la fonction circulatoire (3e regard et surveillance) : plaintes de la victime, constatations visuelles, auditives ou tactiles."
+      - "Mesurer (4e regard et surveillance) : fréquence cardiaque (FC), temps de recoloration cutanée (TRC), pression artérielle (PA)."
+  - type: texte
+    titre: Rechercher la circulation
+    contenu: "Cette recherche n'est pas systématique pour identifier un arrêt cardiaque ; si elle est réalisée, elle ne doit pas retarder la RCP et se fait en même temps que la recherche de ventilation (idem pour les contrôles pendant la RCP). Durée : dix secondes au plus."
+  - type: etapes
+    titre: Pouls carotidien (adulte et enfant)
+    items:
+      - Se placer du côté de la carotide à palper.
+      - Maintenir la tête de la victime avec une main sur le front.
+      - "Positionner 2 à 3 doigts de l'autre main sur la ligne médiane du cou, puis glisser la pulpe sur la face latérale, vers soi."
+      - Effectuer une légère pression pour percevoir les battements, pendant dix secondes au plus.
+  - type: etapes
+    titre: Pouls fémoral (nourrisson)
+    items:
+      - Poser la pulpe de 2 à 3 doigts au niveau et dans l'axe du pli de l'aine, à la racine de la cuisse.
+      - Effectuer une légère pression pour percevoir les battements, pendant dix secondes au plus.
+  - type: etapes
+    titre: Apprécier la circulation
+    items:
+      - "Apprécier la rapidité, l'amplitude (force) et la régularité du pouls pendant 15 secondes environ."
+      - "Pouls radial : face antérieure du poignet, pulpe de 2 à 3 doigts sur l'artère radiale, dans le prolongement du pouce."
+      - "Si le pouls radial est imperceptible : pouls carotidien ; si le carotidien est impossible : pouls fémoral, au milieu du pli de l'aine."
+      - Observer la coloration de la peau et des muqueuses.
+      - Apprécier avec la main la température et l'humidité de la peau.
+  - type: liste
+    titre: Conditions normales
+    items:
+      - "Pouls perçu toutes les secondes chez l'adulte (plus rapide chez l'enfant et le nourrisson), facilement perceptible, régulier, symétrique, sans pause."
+      - Peau chaude et sèche ; peau et muqueuses colorées (roses).
+      - Temps de recoloration cutanée inférieur à deux secondes.
+      - "Pression artérielle de l'adulte au repos et réveillé : autour de 100 mmHg de systolique et 80 mmHg de diastolique."
+  - type: chiffres
+    titre: Fréquence cardiaque selon l'âge (battements par minute)
+    items:
+      - valeur: 60 à 100
+        libelle: Adulte
+      - valeur: 70 à 140
+        libelle: Enfant
+      - valeur: 100 à 160
+        libelle: Nourrisson
+      - valeur: 120 à 160
+        libelle: Nouveau-né
+  - type: etapes
+    titre: Mesurer la circulation
+    items:
+      - "FC : prendre un pouls et compter les battements sur une minute au chronomètre ; un oxymètre ou un appareil de surveillance peut la compléter, mais la mesure manuelle reste importante."
+      - "TRC : s'assurer de l'absence de vernis ; comprimer fortement pendant 3 secondes l'extrémité d'un doigt entre pouce et index (lit de l'ongle pâle) ; relâcher ; mesurer en secondes le temps de recoloration."
+      - Mesurer la pression artérielle.
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - Mesurer avec un appareil ne doit pas retarder les gestes de secours en présence d'une détresse.
+qcm:
+  - id: q1
+    enonce: "Chez quelle victime recherche-t-on le pouls fémoral pour rechercher la circulation ?"
+    propositions:
+      - Chez l'adulte
+      - Chez l'enfant
+      - Chez le nourrisson
+      - Chez la femme enceinte
+    bonnes:
+      - 2
+    explication: "Pouls carotidien chez l'adulte et l'enfant ; pouls fémoral chez le nourrisson."
+  - id: q2
+    enonce: "Comment mesure-t-on le temps de recoloration cutanée (TRC) ?"
+    propositions:
+      - Comprimer fortement le bout d'un doigt pendant 3 secondes, relâcher et mesurer le temps de recoloration du lit de l'ongle
+      - Pincer la peau de l'avant-bras pendant 10 secondes
+      - Comprimer le lobe de l'oreille pendant 15 secondes
+    bonnes:
+      - 0
+    explication: "Compression forte de 3 secondes entre pouce et index, sur un ongle sans vernis ; la recoloration normale est inférieure à deux secondes."
+  - id: q3
+    enonce: "Quelle est la fréquence cardiaque normale d'un adulte ?"
+    propositions:
+      - 40 à 60 battements par minute
+      - 60 à 100 battements par minute
+      - 100 à 160 battements par minute
+      - 120 à 160 battements par minute
+    bonnes:
+      - 1
+    explication: "Adulte 60 à 100 ; enfant 70 à 140 ; nourrisson 100 à 160 ; nouveau-né 120 à 160."
+  - id: q4
+    enonce: "Quelles affirmations sont exactes ?"
+    propositions:
+      - La recherche du pouls dure dix secondes au plus
+      - "Le pouls radial est imperceptible : on peut palper la carotide"
+      - La recherche du pouls peut retarder la RCP
+      - Le pouls fémoral est utilisé si le carotidien est impossible
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "La recherche du pouls ne doit jamais retarder la RCP ; elle se fait en même temps que la recherche de ventilation."
+  - id: q5
+    enonce: "Pendant combien de temps apprécie-t-on la rapidité, l'amplitude et la régularité du pouls ?"
+    propositions:
+      - 5 secondes
+      - 10 secondes
+      - 15 secondes environ
+      - Une minute pleine
+    bonnes:
+      - 2
+    explication: "L'appréciation dure environ 15 secondes ; la mesure de la fréquence cardiaque se fait sur une minute."
