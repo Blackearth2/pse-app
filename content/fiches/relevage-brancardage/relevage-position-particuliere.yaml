@@ -1,0 +1,118 @@
+id: relevage-position-particuliere
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 10
+titre: Relevage d'une victime en position particulière
+motsCles: [position latérale de sécurité, demi-assise, plat dos cuisses fléchies, chaise de transport, relevage]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT09, 07-2026)
+  code: 10FT09
+  page: 361
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Cette technique est indiquée dès que la victime est en position latérale de sécurité, en position assise ou demi-assise, ou à plat dos, cuisses fléchies. Elle permet de relever la victime en conservant sa position d'attente, qui doit être maintenue pendant tout le relevage pour éviter une aggravation de son état."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Matériel de relevage et de brancardage préalablement préparé, adapté pour recevoir une victime et la garder dans la position choisie."
+  - type: liste
+    titre: Victime en position latérale de sécurité
+    items:
+      - "Technique à quatre secouristes, selon une méthode en pont. Si la victime n'est pas traumatisée, elle peut être adaptée à 3 secouristes, toujours en pont."
+      - "Le secouriste de tête maintient la tête de la victime en position latéro-latérale."
+      - "Le secouriste situé aux pieds, dès que les autres secouristes maintiennent la victime, ramène le membre inférieur fléchi sur l'autre et saisit les chevilles ensemble."
+      - "La position finale obtenue est si possible maintenue à l'aide d'un matelas immobilisateur à dépression."
+  - type: liste
+    titre: Victime à plat dos, cuisses fléchies
+    items:
+      - "Deux ou trois secouristes soulèvent la moitié supérieure du corps selon une méthode en pont."
+      - "Les membres inférieurs sont saisis au niveau des genoux par le secouriste placé aux pieds de la victime."
+  - type: liste
+    titre: Victime en position demi-assise
+    items:
+      - "La partie supérieure du corps est soutenue par le secouriste de tête, qui glisse ses avant-bras sous les aisselles de la victime ; il peut éventuellement saisir les poignets opposés ou la ceinture."
+      - "La position des autres secouristes ne diffère pas des règles générales du relevage."
+      - "Les matériels de calage sont transférés du sol sur le brancard après la dépose de la victime, si le brancard n'est pas équipé d'un dispositif permettant de maintenir cette position."
+  - type: texte
+    titre: Victime en position assise, transfert sur une chaise de transport
+    contenu: "La chaise de transport facilite le brancardage, notamment dans des escaliers ou un ascenseur. Elle n'est possible que si la victime peut tenir la position assise et que cette position n'est pas contre-indiquée. Trois intervenants sont nécessaires : un secouriste maintient la chaise (secouriste 1), deux sont placés devant et derrière la victime (secouristes 2 et 3)."
+  - type: etapes
+    titre: Transfert sur la chaise de transport
+    items:
+      - "Secouriste 1 : il place sur le côté de la victime la chaise de transport préalablement préparée."
+      - "Secouriste 2 : il croise les bras de la victime sur sa poitrine, se place derrière elle, glisse ses avant-bras sous les aisselles et saisit les poignets opposés."
+      - "Secouriste 3 : face à la victime, légèrement accroupi, un pied décalé vers la chaise, il saisit les genoux de la victime en glissant ses avant-bras dessous."
+      - "Commandements : secouriste 2 « Êtes-vous prêts ? » ; secouristes 1 et 3 « Prêts ! » ; secouriste 2 « Attention pour lever... Levez ! »."
+      - "Secouristes 2 et 3 : ils se relèvent en gardant le dos plat, soulèvent la victime, la déplacent latéralement au-dessus de la chaise et la posent doucement. Le secouriste 1 aide à la réception de la victime."
+      - "Envelopper la victime avec le drap, la recouvrir éventuellement d'une couverture, puis l'arrimer avant de la transporter."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le commandement du transfert sur chaise de transport est donné par le secouriste 2 (derrière la victime), et non par le secouriste 1."
+      - "La position d'attente choisie doit être maintenue pendant tout le relevage."
+      - "Le risque de chute est évité si la technique est correctement choisie et réalisée ; les règles de manutention protègent le secouriste."
+qcm:
+  - id: q1
+    enonce: "Pour quelles positions de la victime cette technique est-elle indiquée ?"
+    propositions:
+      - "Position latérale de sécurité"
+      - "Position assise ou demi-assise"
+      - "À plat dos, cuisses fléchies"
+      - "Position debout"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La fiche vise la PLS, les positions assise et demi-assise, et le plat dos cuisses fléchies."
+  - id: q2
+    enonce: "Combien de secouristes pour relever une victime en PLS, et une adaptation est-elle possible ?"
+    propositions:
+      - "Quatre en pont ; adaptable à 3 en pont si la victime n'est pas traumatisée"
+      - "Deux, sans adaptation possible"
+      - "Trois uniquement, en toutes circonstances"
+    bonnes:
+      - 0
+    explication: "La technique est réalisée à quatre secouristes en pont ; elle peut être adaptée à 3 secouristes si la victime n'est pas traumatisée."
+  - id: q3
+    enonce: "Pour la victime en PLS, que fait le secouriste situé aux pieds ?"
+    propositions:
+      - "Il maintient la tête en position latéro-latérale"
+      - "Il ramène le membre inférieur fléchi sur l'autre et saisit les chevilles ensemble, dès que les autres maintiennent la victime"
+      - "Il glisse ses avant-bras sous les aisselles"
+    bonnes:
+      - 1
+    explication: "Le secouriste de tête maintient la tête ; celui des pieds ramène le membre fléchi sur l'autre et saisit les deux chevilles."
+  - id: q4
+    enonce: "Pour la chaise de transport, quelles conditions doivent être réunies ?"
+    propositions:
+      - "La victime peut tenir la position assise"
+      - "La position assise n'est pas contre-indiquée"
+      - "La victime est inconsciente"
+      - "Trois secouristes sont disponibles"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Il faut que la victime puisse tenir la position assise, que celle-ci ne soit pas contre-indiquée, et la manœuvre nécessite trois intervenants."
+  - id: q5
+    enonce: "Qui commande le transfert sur la chaise de transport ?"
+    propositions:
+      - "Le secouriste 1, qui maintient la chaise"
+      - "Le secouriste 3, face à la victime"
+      - "Le secouriste 2, placé derrière la victime"
+    bonnes:
+      - 2
+    explication: "Le secouriste 2 demande « Êtes-vous prêts ? » et commande « Attention pour lever... Levez ! » ; les secouristes 1 et 3 répondent « Prêts ! »."
+  - id: q6
+    enonce: "Que faire une fois la victime posée sur la chaise de transport ?"
+    propositions:
+      - "L'envelopper avec le drap, éventuellement la recouvrir d'une couverture, puis l'arrimer avant de la transporter"
+      - "La transporter immédiatement, l'arrimage n'étant pas nécessaire"
+      - "La replacer à plat dos"
+    bonnes:
+      - 0
+    explication: "La victime est enveloppée dans le drap, éventuellement recouverte d'une couverture, et arrimée avant le transport."

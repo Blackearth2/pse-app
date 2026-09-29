@@ -1,0 +1,78 @@
+id: aide-marche
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 2
+titre: Aide à la marche
+motsCles: [aide à la marche, blessé léger, station debout, un secouriste, deux secouristes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT01, 09-2019)
+  code: 10FT01
+  page: 345
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique sans matériel pour aider un blessé léger, capable de maintenir la station debout, à marcher sur quelques mètres. Elle permet de le déplacer vers une zone calme (bord du terrain) ou un abri, pour le protéger de la pluie ou de toute autre intempérie."
+  - type: etapes
+    titre: À un secouriste (victime capable de porter son propre poids et de se tenir debout sur ses deux jambes)
+    items:
+      - "Aider la victime à se mettre debout."
+      - "Passer le bras de la victime autour de son cou et le maintenir au niveau du poignet avec une main."
+      - "Passer son avant-bras derrière le dos de la victime et la maintenir, en passant la main sous l'aisselle ou au niveau de la ceinture."
+  - type: texte
+    titre: À deux secouristes
+    contenu: "Utilisée si la victime a des difficultés à se tenir debout seule. La technique est la même qu'à un secouriste, mais un secouriste se place de chaque côté de la victime."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Ne jamais utiliser une technique d'aide à la marche si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres inférieurs."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Le déplacement de la victime n'entraîne pas de désagrément pour celle-ci."
+qcm:
+  - id: q1
+    enonce: "Pour quelle victime l'aide à la marche est-elle indiquée ?"
+    propositions:
+      - "Une victime inconsciente"
+      - "Un blessé léger qui peut maintenir la station debout, sur quelques mètres"
+      - "Une victime suspecte de traumatisme de la colonne vertébrale"
+      - "Une victime incapable de se tenir debout"
+    bonnes: [1]
+    explication: "La technique est indiquée pour un blessé léger qui peut maintenir la station debout, pour marcher sur quelques mètres."
+  - id: q2
+    enonce: "Dans quel cas ne faut-il jamais utiliser une technique d'aide à la marche ?"
+    propositions:
+      - "Si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres inférieurs"
+      - "Si la victime doit être protégée de la pluie"
+      - "Si la victime est légèrement blessée"
+    bonnes: [0]
+    explication: "Le secouriste ne doit jamais utiliser l'aide à la marche si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres inférieurs."
+  - id: q3
+    enonce: "À un secouriste, comment est maintenu le bras de la victime ?"
+    propositions:
+      - "Autour de son cou, maintenu au niveau du poignet avec une main"
+      - "Le long de son corps, maintenu au niveau du coude"
+      - "Sur le thorax du secouriste, maintenu au niveau de l'épaule"
+      - "Dans le dos de la victime"
+    bonnes: [0]
+    explication: "Le bras de la victime est passé autour du cou du secouriste et maintenu au niveau du poignet avec une main ; l'autre avant-bras passe derrière le dos de la victime."
+  - id: q4
+    enonce: "Quand faut-il utiliser deux secouristes pour l'aide à la marche ?"
+    propositions:
+      - "Quand la victime a des difficultés pour se tenir debout seule"
+      - "Quand la victime est inconsciente"
+      - "Systématiquement"
+      - "Quand la victime est suspecte d'un traumatisme du rachis"
+    bonnes: [0]
+    explication: "À deux secouristes si la victime a des difficultés à se tenir debout seule : un secouriste se place de chaque côté, avec la même technique qu'à un secouriste."
+  - id: q5
+    enonce: "Quel matériel est nécessaire pour l'aide à la marche ?"
+    propositions:
+      - "Une chaise de transport"
+      - "Un brancard cuillère"
+      - "Aucun matériel"
+    bonnes: [2]
+    explication: "La fiche indique « Aucun matériel »."

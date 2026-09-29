@@ -1,0 +1,142 @@
+id: brancardage-trois-secouristes
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 13
+titre: Brancardage à trois secouristes
+motsCles: [brancardage, trois secouristes, brancard, chariot brancard, obstacle, passage étroit, escalier]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT12, 09-2019)
+  code: 10FT12
+  page: 367
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le brancardage à trois secouristes est indiqué pour transporter une victime du lieu de prise en charge vers un poste de secours ou un véhicule d'évacuation lorsque sa corpulence permet un brancardage à seulement trois secouristes. La victime a été installée et arrimée dans le brancard avant la manœuvre. Traditionnellement, elle est brancardée tête en avant, dans le sens de la marche."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Dispositif de transport de victime (brancard) équipé d'un système d'arrimage."
+      - "Sangles de fixation ou sangle-araignée."
+  - type: liste
+    titre: Rôles des trois secouristes
+    items:
+      - "Secouriste 1 : placé au pied de la victime, entre les deux hampes du brancard, il commande la manœuvre."
+      - "Secouristes 2 et 3 : placés à la tête de la victime, de part et d'autre du brancard."
+  - type: etapes
+    titre: Brancardage en terrain plat
+    items:
+      - "Secouriste 1 : « Pour le brancardage... En position ! ». Tous s'accroupissent devant leur poignée en faisant face au brancard, cuisses écartées, dos plat."
+      - "Secouriste 1 : « Êtes-vous prêts ? » ; les autres secouristes : « Prêts ! »."
+      - "Secouriste 1 : « Attention pour lever... Levez ! ». Tous se relèvent à la force des cuisses en conservant le dos plat."
+      - "Secouriste 1 : « Attention pour avancer... ». Les secouristes 2 et 3 pivotent d'un quart de tour pour se retrouver dans le sens de la marche, une main tenant la poignée, l'autre libre."
+      - "Secouriste 1 : « Avancez ! ». Les secouristes avancent avec le brancard."
+      - "En cours de déplacement, les secouristes placés à l'avant annoncent tout obstacle dès qu'ils l'aperçoivent."
+      - "Pour arrêter (relais, passage d'obstacle...) : secouriste 1 « Attention pour arrêter... Arrêtez ! »."
+      - "Pour poser : secouriste 1 « Attention pour poser... ». Les secouristes 2 et 3 pivotent d'un quart de tour pour faire face au brancard et reposent la main libre sur la poignée. Secouriste 1 : « Posez ! ». Le brancard est descendu horizontalement et posé doucement sur le sol."
+  - type: liste
+    titre: Cas du chariot brancard
+    items:
+      - "Le brancardage est plus facile après avoir soulevé le chariot et déployé ses pieds."
+      - "Un équipier se place à l'arrière, entre les hampes du chariot, et le pousse tout en le dirigeant."
+      - "Les deux autres saisissent le chariot par les hampes avant pour faciliter sa progression et le maintenir."
+  - type: etapes
+    titre: Franchissement d'obstacle
+    items:
+      - "Après signalement de l'obstacle par l'un des secouristes de l'avant, ramener le brancard perpendiculairement à l'obstacle, tout contre celui-ci."
+      - "Secouriste 1 : « Face au brancard ! ». Les secouristes 2 et 3 font un quart de tour pour faire face au brancard, reposent la main libre sur la poignée et posent l'avant du brancard sur l'obstacle. Le secouriste 1 maintient le brancard."
+      - "Les secouristes 2 et 3 se dégagent du brancard, passent rapidement de l'autre côté de l'obstacle et saisissent les poignées avant du brancard."
+      - "Secouriste 1 : « Envoyez ! ». Les secouristes 2 et 3 font progresser le brancard vers l'avant jusqu'à ce que le secouriste 1, resté en arrière, soit au contact de l'obstacle."
+      - "Après l'arrêt du brancard commandé par le secouriste 1 : celui-ci se dégage du brancard, passe rapidement de l'autre côté de l'obstacle et vient se placer entre les deux poignées avant du brancard."
+      - "Les secouristes 2 et 3 coulissent le long du brancard, sans le lâcher, jusqu'au contact de l'obstacle et saisissent la hampe à deux mains."
+      - "Secouriste 1 : « Envoyez ! ». Les secouristes dégagent le brancard de l'obstacle."
+      - "Le secouriste 1 commande de poser le brancard. Une fois au sol, chacun reprend sa place initiale."
+  - type: etapes
+    titre: Passage étroit
+    items:
+      - "À proximité du passage étroit, le secouriste 1 fait arrêter la progression."
+      - "Il commande aux secouristes 2 et 3 de passer, l'un après l'autre, à l'intérieur de la hampe du brancard sans la lâcher. À l'issue, ils sont dos à dos à l'intérieur des hampes."
+      - "Secouriste 1 : « Avancez ! ». Les secouristes progressent au travers du passage, en pas chassés pour ceux situés entre les hampes."
+      - "Une fois le passage franchi, le brancard est de nouveau arrêté pour que les secouristes 2 et 3 reprennent leur place initiale, à l'extérieur des hampes, dans le sens de la progression."
+  - type: etapes
+    titre: Pente ou escalier
+    items:
+      - "Vérifier l'arrimage de la victime."
+      - "Le chef place un secouriste à l'avant et deux à l'arrière si la progression se fait dans le sens de la montée."
+      - "Le chef place deux secouristes vers l'avant et un vers l'arrière si la progression se fait dans le sens de la descente."
+      - "Il commande aux secouristes situés vers le bas de tenir les poignées à deux mains et de les relever jusqu'à la ceinture, la poitrine ou l'épaule, pour maintenir le brancard en position horizontale."
+      - "Si la progression se fait dans le sens de la descente, il est préférable de brancarder la victime les pieds en avant."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Pour limiter les lésions du dos, garder le dos plat et travailler avec les cuisses."
+      - "Le respect des ordres donnés assure la synchronisation des gestes et évite toute chute du brancard et de la victime."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Les ordres de brancardage sont audibles, clairs et justes."
+      - "Le brancard est maintenu en position horizontale."
+      - "Le déplacement de la victime est souple, sans secousse ni balancement."
+qcm:
+  - id: q1
+    enonce: "Où se place le secouriste qui commande le brancardage à trois secouristes ?"
+    propositions:
+      - "À la tête de la victime, à gauche du brancard"
+      - "Au pied de la victime, entre les deux hampes du brancard"
+      - "Sur le côté, au niveau du bassin"
+    bonnes:
+      - 1
+    explication: "Le secouriste 1 se place au pied de la victime, entre les deux hampes, et commande la manœuvre ; les secouristes 2 et 3 sont à la tête, de part et d'autre du brancard."
+  - id: q2
+    enonce: "Quand le brancardage à trois secouristes est-il indiqué ?"
+    propositions:
+      - "Quand la corpulence de la victime permet un brancardage à seulement trois secouristes"
+      - "Toujours, quelle que soit la corpulence"
+      - "Uniquement dans les escaliers"
+      - "Uniquement pour une victime légère et consciente"
+    bonnes:
+      - 0
+    explication: "L'indication repose sur la corpulence de la victime, qui doit permettre un brancardage à trois."
+  - id: q3
+    enonce: "Lors du franchissement d'un obstacle, que font les secouristes 2 et 3 après « Face au brancard ! » ?"
+    propositions:
+      - "Ils lâchent le brancard et le laissent au secouriste 1"
+      - "Ils font un quart de tour, reposent la main libre sur la poignée et posent l'avant du brancard sur l'obstacle"
+      - "Ils soulèvent le brancard au-dessus de l'obstacle"
+    bonnes:
+      - 1
+    explication: "Ils font un quart de tour, reposent la main libre sur la poignée et posent l'avant du brancard sur l'obstacle, pendant que le secouriste 1 maintient le brancard."
+  - id: q4
+    enonce: "Dans un escalier, comment le chef répartit-il les trois secouristes ?"
+    propositions:
+      - "Un à l'avant et deux à l'arrière en montée"
+      - "Deux à l'avant et un à l'arrière en descente"
+      - "Deux à l'avant et un à l'arrière en montée"
+      - "Trois à l'arrière dans les deux sens"
+    bonnes:
+      - 0
+      - 1
+    explication: "En montée : un secouriste à l'avant et deux à l'arrière. En descente : deux vers l'avant et un vers l'arrière. En descente, on préfère brancarder les pieds en avant."
+  - id: q5
+    enonce: "Que doit-on faire pour brancarder à l'aide d'un chariot brancard ?"
+    propositions:
+      - "Soulever le chariot et déployer ses pieds ; un équipier pousse et dirige à l'arrière, entre les hampes, les deux autres tiennent les hampes avant"
+      - "Le faire rouler sans le soulever, avec un seul secouriste"
+      - "Placer deux secouristes à l'arrière et un seul à l'avant"
+    bonnes:
+      - 0
+    explication: "Il est plus facile de brancarder après avoir soulevé le chariot et déployé ses pieds ; un équipier pousse et dirige à l'arrière, entre les hampes, les deux autres saisissent les hampes avant."
+  - id: q6
+    enonce: "Quels sont les critères d'évaluation du brancardage ?"
+    propositions:
+      - "Ordres audibles, clairs et justes"
+      - "Brancard maintenu en position horizontale"
+      - "Déplacement souple, sans secousse ni balancement"
+      - "Brancard incliné pour aller plus vite"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Les ordres sont audibles, clairs et justes ; le brancard est maintenu horizontal ; le déplacement est souple, sans secousse ni balancement."

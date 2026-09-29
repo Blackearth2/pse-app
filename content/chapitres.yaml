@@ -14,3 +14,13 @@
   titre: Traumatismes
 - id: atteintes-circonstancielles
   titre: Atteintes circonstancielles et environnementales
+- id: souffrance-psychique
+  titre: Souffrance psychique et comportements inhabituels
+- id: relevage-brancardage
+  titre: Relevage et brancardage
+- id: situations-particulieres
+  titre: Situations particulières
+- id: divers
+  titre: Divers
+- id: formations
+  titre: Formations

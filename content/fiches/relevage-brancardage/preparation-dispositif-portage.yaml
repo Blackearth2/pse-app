@@ -1,0 +1,99 @@
+id: preparation-dispositif-portage
+niveau: PSE1
+chapitre: relevage-brancardage
+type: technique
+ordre: 5
+titre: Préparation d'un dispositif de portage
+motsCles: [dispositif de portage, brancard, drap, couverture, couverture de survie, sangles, chaise de transport]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT04, 09-2019)
+  code: 10FT04
+  page: 349
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée chaque fois qu'une victime doit être installée sur un brancard ou un autre dispositif permettant son transport. Pour assurer un transport correct et confortable, le dispositif de portage est préparé par les secouristes."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Un matériel de relevage ou de brancardage."
+      - "Un drap (en toile ou en matériau intissé ; de préférence à usage unique). Les draps stériles servent à envelopper une victime qui présente des brûlures étendues."
+      - "Une couverture, destinée à protéger la victime du froid : de préférence bactériostatique, lavable, ou avec un drap (de préférence à usage unique) intercalé entre la couverture et la victime."
+      - "Une couverture de survie (sa face ou sa couleur ont peu d'incidence sur la déperdition de chaleur)."
+      - "Des sangles de fixation : les brancards en sont équipés ou peuvent l'être ; avec les plans durs, des sangles-araignées peuvent être utilisées."
+  - type: etapes
+    titre: Pour un brancard (chaque fois que possible, victime enveloppée dans un drap puis une couverture avant arrimage)
+    items:
+      - "Assurer le montage du brancard, si nécessaire."
+      - "Installer un drap ou une couverture de survie sur le brancard. Ils sont placés en règle générale avant d'y déposer la victime, qui peut ensuite être enveloppée avec."
+      - "Une fois la victime installée sur le brancard par une technique adaptée à son état, la recouvrir d'une couverture."
+      - "Sangler la victime : les sangles passent par-dessus la couverture afin que l'ensemble soit parfaitement maintenu."
+  - type: liste
+    titre: Pour une chaise de transport
+    items:
+      - "Un drap (ou une couverture) peut être disposé sur la chaise pour envelopper la victime."
+      - "Le drap est placé en prenant soin de ne pas le laisser traîner au sol, pour ne pas gêner le déplacement."
+  - type: attention
+    titre: Erreurs à éviter
+    items:
+      - "En aucun cas la couverture ou le drap ne doivent rendre inaccessibles les sangles qui maintiennent la victime installée sur la chaise."
+      - "Sur un brancard, les sangles passent par-dessus la couverture (et non dessous)."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Le dispositif préparé permet d'envelopper facilement et totalement le corps de la victime dans un drap ou une couverture de survie."
+      - "Il permet de maintenir la victime à l'aide de sangles pour éviter qu'elle ne chute pendant le transport."
+      - "Risques et contraintes : néant."
+qcm:
+  - id: q1
+    enonce: "Quand la préparation d'un dispositif de portage est-elle indiquée ?"
+    propositions:
+      - "Uniquement pour une victime inconsciente"
+      - "Chaque fois qu'une victime doit être installée sur un brancard ou un autre dispositif permettant son transport"
+      - "Uniquement en cas de traumatisme du rachis"
+    bonnes: [1]
+    explication: "La technique est indiquée chaque fois qu'une victime doit être installée sur un brancard ou un autre dispositif qui permet son transport."
+  - id: q2
+    enonce: "Sur un brancard, où passent les sangles de fixation ?"
+    propositions:
+      - "Sous la couverture"
+      - "Par-dessus la couverture, afin que l'ensemble soit parfaitement maintenu"
+      - "Uniquement sur les jambes"
+      - "Elles ne sont pas utilisées si la victime est enveloppée"
+    bonnes: [1]
+    explication: "Les sangles doivent passer par-dessus la couverture afin que l'ensemble soit parfaitement maintenu."
+  - id: q3
+    enonce: "Quel est l'usage des draps stériles dans la préparation du dispositif ?"
+    propositions:
+      - "Envelopper une victime qui présente des brûlures étendues"
+      - "Protéger la victime du froid uniquement"
+      - "Remplacer les sangles"
+    bonnes: [0]
+    explication: "Les draps stériles sont utilisés pour envelopper une victime qui présente des brûlures étendues."
+  - id: q4
+    enonce: "Sur une chaise de transport, quelle précaution prendre avec le drap ou la couverture ?"
+    propositions:
+      - "Ne pas le laisser traîner au sol"
+      - "Ne jamais rendre inaccessibles les sangles qui maintiennent la victime"
+      - "Recouvrir entièrement les sangles pour éviter qu'elles ne blessent"
+      - "Le fixer au sol"
+    bonnes: [0, 1]
+    explication: "Le drap ne doit pas traîner au sol (pour ne pas gêner le déplacement) et ne doit en aucun cas rendre inaccessibles les sangles qui maintiennent la victime."
+  - id: q5
+    enonce: "Quand place-t-on en règle générale le drap ou la couverture de survie sur le brancard ?"
+    propositions:
+      - "Après l'installation de la victime"
+      - "Avant d'y déposer la victime, qui peut ensuite être enveloppée avec"
+      - "Pendant le brancardage"
+    bonnes: [1]
+    explication: "Le drap ou la couverture de survie sont placés en règle générale sur le brancard avant d'y déposer la victime."
+  - id: q6
+    enonce: "Quel est le rôle de la couverture ?"
+    propositions:
+      - "Immobiliser le rachis"
+      - "Protéger la victime du froid"
+      - "Remplacer le brancard"
+    bonnes: [1]
+    explication: "La couverture est destinée à protéger la victime du froid ; on préfère les couvertures bactériostatiques, lavables, ou l'on intercale un drap entre la couverture et la victime."

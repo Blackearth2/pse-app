@@ -1,0 +1,250 @@
+id: obligations-formations
+niveau: PSE1
+chapitre: formations
+type: connaissance
+ordre: 1
+titre: Obligations pour les formations
+motsCles: [formation initiale, conditions d'accueil, matériel obligatoire, apprenants, EQS, formation continue, handicap]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 13AC01, 09-2014)
+  code: 13AC01
+  page: 385
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Contenu réglementaire destiné aux formateurs : conditions minimales d'accueil d'une formation et liste du matériel obligatoire pour les formations initiales, en quantité selon le nombre d'apprenants (6 à 12 ou 13 à 18). Les mises en situation ou simulations peuvent se dérouler dans des conditions les plus proches de la réalité."
+  - type: liste
+    titre: Conditions minimales d'accueil
+    items:
+      - "Lieu suffisamment spacieux pour que les apprenants évoluent sans contrainte"
+      - "Chaises en quantité suffisante"
+      - "Protection contre les contraintes climatiques (abrité de la pluie et du vent, chauffé ou climatisé, etc.)"
+      - "Toilettes et point d'eau à proximité"
+      - "Formations destinées à des personnes en situation de handicap : lieu conforme aux règles en vigueur sur l'accessibilité et l'accueil des personnes en situation de handicap"
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "2 m²"
+        libelle: "surface minimale par personne pour le lieu de formation"
+      - valeur: "6 à 12"
+        libelle: "première tranche d'effectif d'apprenants pour les quantités de matériel"
+      - valeur: "13 à 18"
+        libelle: "seconde tranche d'effectif d'apprenants (les quantités de la seconde tranche sont en général le double de celles de la première)"
+  - type: texte
+    titre: Principe du matériel de formation initiale
+    contenu: "Le matériel présent doit être adapté aux enseignements dispensés : inutile d'avoir le matériel PSE2 lors d'une formation PSE1, et le matériel des fiches optionnelles n'est nécessaire que si ces fiches sont dispensées. Tout autre matériel utile à la formation peut être ajouté à la liste. « EQS » signifie en quantité suffisante pour l'ensemble des apprenants, pour la durée de la formation, en fonction des techniques pédagogiques imposées par l'organisme habilité. Le lecteur de glycémie, l'oxymètre de pouls et le DAE de formation doivent être opérants et disposer de leurs moyens d'alimentation (câble, batteries, chargeur, etc.)."
+  - type: liste
+    titre: Documents obligatoires
+    items:
+      - "Références techniques nationales PSE : 1"
+      - "Référentiel interne de formation et de certification de l'organisme habilité et dispensateur : 1"
+      - "Feuille de présence : 1"
+      - "Fiches d'évaluation : EQS"
+      - "Fiches de certification : EQS"
+      - "Fiches bilan (ou dispositif électronique équivalent) : EQS"
+  - type: liste
+    titre: Matériel de réanimation et de secours (quantités 6 à 12 / 13 à 18 apprenants)
+    items:
+      - "Mannequin de RCP adulte (corps entier : bras et jambes) : 1 / 2"
+      - "Mannequin de RCP enfant (corps entier : bras et jambes) : 1 / 2"
+      - "Mannequin de RCP nourrisson : 1 / 2"
+      - "DAE de formation avec électrodes adultes et enfant (ou dispositif d'adaptation) et ses accessoires : 1 / 2"
+      - "Insufflateur manuel avec ballon réserve (adulte, pédiatrique, nouveau-né) : 1 / 2 chacun"
+      - "Masque d'insufflation (adulte, pédiatrique, nouveau-né) : 1 / 2 chacun"
+      - "Bouteille d'O2 médicale normalisée avec dispositif de détente de gaz (factice ou neutralisée) : 1 / 2"
+      - "Lunettes à oxygène : 1 / 2"
+      - "Masques à inhalation simple et à haute concentration (adulte, enfant) : EQS"
+      - "Aspirateur de mucosités (électrique ou mécanique) : 1 / 2"
+      - "Pompe à dépression : 1 / 2"
+      - "Canules oropharyngées de différentes tailles : 1 / 2"
+      - "Dispositif auto-injecteur de formation : 1 / 2"
+      - "Lecteur de glycémie : 1 / 2 (autopiqueurs et bandelettes réactives : EQS)"
+      - "Oxymètre de pouls : 1 / 2"
+      - "Tensiomètre électronique : 1 / 2 ; tensiomètre manuel : 1 / 2 ; stéthoscope adulte : 1 / 2 ; thermomètre électronique : 1 / 2"
+  - type: liste
+    titre: Matériel pour hémorragies, plaies et immobilisation (6 à 12 / 13 à 18)
+    items:
+      - "Garrots : 2 / 4"
+      - "Matériel pour garrots improvisés : 1 / 2 ; pour pansements compressifs improvisés : 1 / 2"
+      - "Pansements imbibés de substance hémostatique de formation : 2 / 4"
+      - "Pansements individuels : 2 / 4"
+      - "Écharpes triangulaires : 2 / 4"
+      - "Compresses chimiques de froid : 2 / 4"
+      - "Couvertures de survie : 5 / 10"
+      - "Attelles à dépression et attelles modulables, membres supérieur et inférieur (adulte / enfant) : 1 / 2 pour chaque type"
+      - "Colliers cervicaux : 1 / 2 ; casque de motocycliste intégral : 1 / 2"
+      - "Brancard normalisé : 1 / 2 ; chaise de transport : 1 / 2 ; sangles de fixation : 3 / 6"
+      - "Lot pour membre arraché ou sectionné : 1 / 2"
+      - "Dispositif de repérage secouriste (situation à nombreuses victimes) : EQS"
+  - type: liste
+    titre: Protection, hygiène et divers (6 à 12 / 13 à 18)
+    items:
+      - "Appareil de communication mobile (téléphone, radio, etc.) : 2 / 4"
+      - "Gilets de signalisation à bandes rétro-réfléchissantes : 3 / 6"
+      - "Gants de manutention (paire) : 3 / 6"
+      - "Lunettes ou visière de protection : 3 / 6"
+      - "Lampe de poche ou frontale : 1 / 2"
+      - "Seaux de couleurs différentes : 2 / 4"
+      - "Conteneur de recueil DASRI : 1 / 1"
+      - "Gants à usage unique, gants stériles, masques FFP2, masques chirurgicaux, surblouses, solution hydro-alcoolique, savon neutre liquide, produits d'entretien et d'hygiène : EQS"
+      - "Balai brosse, balai à franges, brosse de nettoyage, cahier de traçabilité (nettoyage), bac d'immersion pour matériel : 1 / 2 chacun"
+  - type: liste
+    titre: Autres matériels à quantité fixe (6 à 12 / 13 à 18)
+    items:
+      - "Couverture bactériostatique : 1 / 2 ; coussin de tête : 1 / 2"
+      - "Chambre de mélange (ou d'inhalation) pour spray buccal : 1 / 2"
+      - "Collecteur rigide pour OPTC : 1 / 2 ; paire de ciseaux type Jesco : 1 / 2 ; pince à échardes : 1 / 2"
+      - "Distributeur d'essuie-mains à usage unique : 1 / 2 ; échelle visuelle analogique : 1 / 2 ; film étirable alimentaire en rouleau : 1 / 2"
+      - "Matériels de simulation (factices ou neutralisés), maquillages, fausses plaies, etc. : 1 / 2"
+      - "Poubelles DAOM : 1 / 2 ; ruban adhésif : 1 / 2 ; ruban de balisage : 1 / 2 ; sac de secours : 1 / 2 ; sachet plastique refermable : 1 / 2"
+      - "Maquette de coupe de tête : 1 / 1 (comme le conteneur de recueil DASRI)"
+  - type: liste
+    titre: Consommables en quantité suffisante (EQS)
+    items:
+      - "Antiseptique cutané ; solution hydro-alcoolique ; savon neutre liquide ; sérum physiologique"
+      - "Bande élastique adhésive ou auto-agrippante ; bandes extensibles de différentes tailles ; filets de mailles tubulaires de différentes tailles"
+      - "Compresses ; compresses stériles ; champs stériles ; charlotte ou cagoule ; couvre-sonde à usage unique pour thermomètre"
+      - "Pansements adhésifs de différentes tailles ; pansements « à l'américaine » ; pansements stériles pour brûlure type SSA ; pansement type C"
+      - "Sondes d'aspiration buccale de différentes tailles"
+      - "Lavettes à usage unique ou lingettes pré-imprégnées de détergent-désinfectant ; solution détergente/désinfectante pour sol et en spray pour surfaces"
+      - "Sacs poubelles DAOM ; sacs DASRI"
+  - type: texte
+    titre: Fin de la liste
+    contenu: "En fin de liste figurent, avec 1 / 2 pour chacun : alèse portoir, attelle cervico-thoracique, bassin d'accouchement, bonnet pour nouveau-né, brancard cuillère, brancard simple, ceinture pelvienne de taille moyenne, dispositifs médicaux non occlusifs pour plaie au thorax, immobilisateur de tête pour plan dur et brancard cuillère, kit accouchement comprenant au moins 2 clamps et une paire de ciseaux stériles, matelas immobilisateur à dépression, plan dur radio-transparent ; draps à usage unique en quantité suffisante (EQS)."
+  - type: texte
+    titre: Formations continues
+    contenu: "Le matériel présent doit être adapté au programme annuel de la DGSCGC, aux compléments décidés par l'autorité d'emploi, et aux mises en situation permettant de revalider les compétences visées réglementairement."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Aucune durée de formation n'est fixée dans cette fiche : elle ne traite que des conditions d'accueil, des effectifs de référence (6 à 12, 13 à 18) et du matériel."
+      - "EQS ne veut pas dire « facultatif » : c'est une quantité suffisante pour tous les apprenants et pour la durée de la formation."
+      - "Le matériel PSE2 n'est pas exigé lors d'une formation PSE1, et le matériel des fiches optionnelles n'est requis que si ces fiches sont dispensées."
+qcm:
+  - id: q1
+    enonce: "Quelle surface minimale par personne doit offrir le lieu de formation ?"
+    propositions:
+      - "1 m²"
+      - "2 m²"
+      - "4 m²"
+      - "10 m²"
+    bonnes:
+      - 1
+    explication: "Le lieu doit être suffisamment spacieux : minimum 2 m² par personne."
+  - id: q2
+    enonce: "Quelles sont les conditions minimales d'accueil d'une formation ?"
+    propositions:
+      - "Chaises en quantité suffisante"
+      - "Protection contre les contraintes climatiques"
+      - "Toilettes et point d'eau à proximité"
+      - "Un parking réservé à chaque apprenant"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Chaises, protection climatique (abri, chauffage ou climatisation), toilettes et point d'eau à proximité. Aucun parking n'est exigé."
+  - id: q3
+    enonce: "Que signifie « EQS » dans la liste du matériel ?"
+    propositions:
+      - "Équipement de qualité supérieure"
+      - "En quantité suffisante pour l'ensemble des apprenants, pour la durée de la formation"
+      - "Exigé qu'en situation de simulation"
+    bonnes:
+      - 1
+    explication: "EQS : en quantité suffisante pour l'ensemble des apprenants, pour la durée de la formation, en fonction des techniques pédagogiques imposées par l'organisme habilité."
+  - id: q4
+    enonce: "Quelles sont les deux tranches d'effectif d'apprenants pour les quantités de matériel ?"
+    propositions:
+      - "1 à 6 et 7 à 12"
+      - "6 à 12 et 13 à 18"
+      - "6 à 10 et 11 à 20"
+      - "10 à 15 et 16 à 30"
+    bonnes:
+      - 1
+    explication: "Les quantités sont données pour 6 à 12 apprenants et pour 13 à 18 apprenants."
+  - id: q5
+    enonce: "Combien de mannequins de RCP adulte faut-il pour 6 à 12 apprenants, et pour 13 à 18 ?"
+    propositions:
+      - "1 puis 2"
+      - "2 puis 4"
+      - "3 puis 6"
+      - "1 puis 1"
+    bonnes:
+      - 0
+    explication: "Mannequin de RCP adulte (corps entier) : 1 pour 6 à 12 apprenants, 2 pour 13 à 18."
+  - id: q6
+    enonce: "Combien de couvertures de survie (6 à 12 puis 13 à 18 apprenants) ?"
+    propositions:
+      - "2 puis 4"
+      - "3 puis 6"
+      - "5 puis 10"
+      - "EQS"
+    bonnes:
+      - 2
+    explication: "Couvertures de survie : 5 pour 6 à 12 apprenants, 10 pour 13 à 18."
+  - id: q7
+    enonce: "Combien de garrots (6 à 12 puis 13 à 18 apprenants) ?"
+    propositions:
+      - "1 puis 2"
+      - "2 puis 4"
+      - "3 puis 6"
+    bonnes:
+      - 1
+    explication: "Garrots : 2 pour 6 à 12 apprenants, 4 pour 13 à 18."
+  - id: q8
+    enonce: "Quels matériels doivent être opérants et disposer de leurs moyens d'alimentation (câble, batteries, chargeur) ?"
+    propositions:
+      - "Le DAE de formation"
+      - "Le lecteur de glycémie"
+      - "L'oxymètre de pouls"
+      - "Le brancard normalisé"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Les matériels marqués d'un astérisque (DAE de formation, lecteur de glycémie, oxymètre de pouls) doivent être opérants et disposer de leurs moyens d'alimentation."
+  - id: q9
+    enonce: "Le matériel PSE2 est-il nécessaire lors d'une formation PSE1 ?"
+    propositions:
+      - "Oui, toujours"
+      - "Non, le matériel doit être adapté aux enseignements dispensés"
+      - "Oui, mais seulement pour 13 à 18 apprenants"
+    bonnes:
+      - 1
+    explication: "Le matériel doit être adapté aux enseignements ; il ne sert à rien d'avoir du matériel PSE2 sur une formation PSE1, ni du matériel de fiches optionnelles non dispensées."
+  - id: q10
+    enonce: "Combien de gilets de signalisation à bandes rétro-réfléchissantes pour 6 à 12 apprenants ?"
+    propositions:
+      - "1"
+      - "2"
+      - "3"
+      - "5"
+    bonnes:
+      - 2
+    explication: "Gilets de signalisation : 3 pour 6 à 12 apprenants, 6 pour 13 à 18."
+  - id: q11
+    enonce: "Sur quoi le matériel d'une formation continue doit-il être adapté ?"
+    propositions:
+      - "Au programme annuel de la DGSCGC"
+      - "Aux compléments décidés par l'autorité d'emploi"
+      - "Aux mises en situation permettant de revalider les compétences visées réglementairement"
+      - "Au nombre de véhicules de l'organisme"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le matériel de formation continue est adapté au programme annuel de la DGSCGC, aux compléments de l'autorité d'emploi et aux mises en situation de revalidation."
+  - id: q12
+    enonce: "Quels documents figurent parmi les obligatoires, en un exemplaire ?"
+    propositions:
+      - "Les Références techniques nationales PSE"
+      - "Le référentiel interne de formation et de certification de l'organisme habilité et dispensateur"
+      - "La feuille de présence"
+      - "Le carnet de santé de chaque apprenant"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Références techniques nationales PSE, référentiel interne et feuille de présence : 1 chacun. Fiches d'évaluation et de certification : EQS."

@@ -1,0 +1,167 @@
+id: alerte-protection-populations
+niveau: PSE1
+chapitre: divers
+type: connaissance
+ordre: 3
+titre: Alerte et protection des populations
+motsCles: [alerte aux populations, signal national d'alerte, FR-Alert, confinement, évacuation, kit d'urgence, mesures barrières]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC03, 07-2026)
+  code: 12AC03
+  page: 382
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'alerte aux populations est une mesure exceptionnelle, dont l'efficacité repose sur une connaissance préalable des risques particuliers auxquels les personnes sont exposées (Document d'Information Départemental/Communal des Risques Majeurs). Elle avertit les individus d'un danger imminent ou d'un événement grave, en train de produire ses effets et susceptible de porter atteinte à leur intégrité physique. Elle est diffusée par les services de l'État via un ensemble d'outils."
+  - type: liste
+    titre: Outils de diffusion
+    items:
+      - "Sirènes : signal national d'alerte (SNA) pour inciter au confinement ou à l'évacuation ; signal de type corne de brume pour les dispositifs d'alerte propres aux aménagements hydrauliques (incite à l'évacuation) ; signal spécifique en cas de risques particuliers (chimiques, radioactifs, infectieux, etc.)"
+      - "Notifications FR-Alert sur les téléphones portables"
+      - "Médias : Radio France, France Télévisions, radios locales, vigilance météo, etc."
+      - "Réseaux sociaux : X (compte du ministère de l'Intérieur, en s'abonnant et en activant les notifications), Facebook via « Safety Check », Google via son moteur de recherche et « Posts on Google », comptes des services de l'État et des préfectures"
+      - "Autres outils : panneaux communaux à messages variables, panneaux des opérateurs routiers, aériens et ferroviaires"
+  - type: chiffres
+    titre: Signal national d'alerte (SNA)
+    items:
+      - valeur: "3 cycles"
+        libelle: "début d'alerte : variation du signal sur trois cycles successifs, chacun d'une durée de 1 minute 41 secondes, espacés de 5 secondes"
+      - valeur: "30 s"
+        libelle: "fin d'alerte : signal continu de 30 secondes"
+      - valeur: "1er mercredi, midi"
+        libelle: "test du SNA chaque premier mercredi du mois, à midi"
+      - valeur: "1 cycle de 1 min 41 s"
+        libelle: "signal émis lors de l'essai mensuel (un seul cycle), pour ne pas être confondu avec le SNA"
+  - type: liste
+    titre: Notification FR-Alert
+    items:
+      - "Le téléphone doit être dans une zone géographique affectée, allumé et avoir du réseau"
+      - "Dispositif actif depuis juin 2022"
+      - "Ne nécessite ni inscription ni application"
+  - type: texte
+    titre: En amont de toute crise
+    contenu: "Toute personne concourt par son comportement à la sécurité civile (article L721-1 du Code de la sécurité intérieure). A minima, chaque citoyen doit se préparer en s'informant sur les risques et procédures pouvant l'impacter sur son lieu d'habitation, son environnement professionnel ou de loisirs, et en préparant un kit d'urgence."
+  - type: etapes
+    titre: Conduite à tenir dès la connaissance d'une alerte aux populations
+    items:
+      - "Se mettre en sécurité (bâtiment le plus proche, etc.)"
+      - "Ne pas aller chercher les enfants à l'école, car ils y sont protégés par leurs enseignants"
+      - "S'informer sur la situation"
+      - "Sauf urgence vitale, ne pas téléphoner, pour laisser les réseaux disponibles pour les services de secours"
+      - "Respecter les consignes des autorités"
+  - type: liste
+    titre: Consignes des autorités (minimum)
+    items:
+      - "Confinement : fermer les portes et fenêtres ; calfeutrer les portes, fenêtres et bouches d'aération ; arrêter les systèmes de ventilation ou de climatisation"
+      - "Évacuation : emporter le kit d'urgence préparé à l'avance"
+  - type: liste
+    titre: "En période d'épidémie : mesures minimales"
+    items:
+      - "Se laver régulièrement les mains ou utiliser une solution hydroalcoolique"
+      - "Tousser ou éternuer dans son coude ou dans son mouchoir"
+      - "Se moucher dans un mouchoir à usage unique puis le jeter"
+      - "Éviter de se toucher le visage"
+      - "Respecter une distance d'au moins un mètre avec les autres"
+      - "Saluer sans serrer la main et arrêter les embrassades"
+      - "En complément : porter un masque quand la distance d'un mètre ne peut pas être respectée"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne pas aller chercher les enfants à l'école pendant une alerte aux populations."
+      - "Sauf urgence vitale, ne pas téléphoner pour ne pas saturer les réseaux."
+      - "Ne pas confondre le signal du test mensuel (un seul cycle) avec le SNA (trois cycles)."
+qcm:
+  - id: q1
+    enonce: "Quelle est la durée d'un cycle du signal national d'alerte (début d'alerte) ?"
+    propositions:
+      - "30 secondes"
+      - "1 minute 41 secondes"
+      - "5 minutes"
+      - "3 minutes"
+    bonnes:
+      - 1
+    explication: "Le début d'alerte comprend trois cycles successifs de 1 minute et 41 secondes, espacés de 5 secondes."
+  - id: q2
+    enonce: "Combien de cycles comporte le signal de début d'alerte du SNA ?"
+    propositions:
+      - "1"
+      - "2"
+      - "3"
+      - "5"
+    bonnes:
+      - 2
+    explication: "Le signal de début d'alerte est une variation sur trois cycles successifs, espacés de 5 secondes."
+  - id: q3
+    enonce: "Comment se caractérise le signal de fin d'alerte ?"
+    propositions:
+      - "Un signal continu de 30 secondes"
+      - "Trois cycles de 1 min 41 s"
+      - "Un signal de type corne de brume"
+    bonnes:
+      - 0
+    explication: "La fin d'alerte est signalée par un signal continu de 30 secondes."
+  - id: q4
+    enonce: "Quand le signal national d'alerte est-il testé ?"
+    propositions:
+      - "Le premier lundi de chaque mois, à 8 h"
+      - "Le premier mercredi de chaque mois, à midi"
+      - "Le dernier vendredi de chaque mois, à midi"
+      - "Chaque premier janvier"
+    bonnes:
+      - 1
+    explication: "Le test a lieu le premier mercredi de chaque mois à midi."
+  - id: q5
+    enonce: "Que caractérise le signal émis lors de l'essai mensuel ?"
+    propositions:
+      - "Une variation sur un seul cycle de 1 min 41 s, pour ne pas être confondu avec le SNA"
+      - "Trois cycles de 1 min 41 s"
+      - "Un signal continu de 30 secondes"
+    bonnes:
+      - 0
+    explication: "Lors des essais mensuels, un seul cycle de 1 min 41 s est émis pour éviter la confusion avec le SNA."
+  - id: q6
+    enonce: "Que faut-il pour recevoir une notification FR-Alert ?"
+    propositions:
+      - "Être dans une zone géographique affectée"
+      - "Avoir le téléphone allumé"
+      - "Avoir du réseau"
+      - "S'être inscrit sur une application dédiée"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le téléphone doit être dans la zone affectée, allumé et avoir du réseau ; le dispositif, actif depuis juin 2022, ne nécessite ni inscription ni application."
+  - id: q7
+    enonce: "Lors d'une alerte aux populations, que faut-il faire ?"
+    propositions:
+      - "Se mettre en sécurité et s'informer sur la situation"
+      - "Aller chercher immédiatement ses enfants à l'école"
+      - "Téléphoner à ses proches pour les prévenir"
+      - "Respecter les consignes des autorités"
+    bonnes:
+      - 0
+      - 3
+    explication: "Se mettre en sécurité, s'informer, respecter les consignes. Ne pas aller chercher les enfants à l'école (protégés par leurs enseignants) et, sauf urgence vitale, ne pas téléphoner."
+  - id: q8
+    enonce: "Quelles sont les mesures minimales en cas de confinement ?"
+    propositions:
+      - "Fermer les portes et fenêtres"
+      - "Calfeutrer portes, fenêtres et bouches d'aération"
+      - "Arrêter les systèmes de ventilation ou de climatisation"
+      - "Ouvrir les fenêtres pour aérer"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le confinement suppose de fermer et calfeutrer ouvertures et aérations, et d'arrêter ventilation et climatisation."
+  - id: q9
+    enonce: "Quelle distance minimale respecter avec les autres pour limiter la propagation d'une maladie contagieuse ?"
+    propositions:
+      - "Au moins un demi-mètre"
+      - "Au moins un mètre"
+      - "Au moins deux mètres"
+    bonnes:
+      - 1
+    explication: "La fiche demande une distance d'au moins un mètre ; un masque est porté quand cette distance ne peut pas être respectée."

@@ -1,0 +1,104 @@
+id: deplacement-victime-non-valide
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 4
+titre: Déplacement d'une victime non valide
+motsCles: [victime non valide, saisie des extrémités, chaise à mains, chaise d'ameublement, deux secouristes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT03, 09-2019)
+  code: 10FT03
+  page: 347
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Techniques pour déplacer sur quelques mètres une victime non valide, non suspecte d'un traumatisme de la colonne vertébrale ou des membres. Elles permettent de la déplacer sur une courte distance vers une zone calme, un abri contre les intempéries ou un endroit où elle pourra être allongée. Matériel : une chaise, éventuellement. Chaque technique est réalisée au minimum par deux secouristes."
+  - type: etapes
+    titre: Déplacement par saisie des extrémités (adapté à un espace étroit)
+    items:
+      - "Aider la victime à s'asseoir."
+      - "Secouriste 1 : s'accroupir derrière le dos de la victime, passer ses avant-bras sous ses aisselles et saisir les poignets opposés."
+      - "Secouriste 2 : s'accroupir entre les jambes de la victime, face à la marche, et passer ses bras de l'extérieur vers l'intérieur sous les genoux de la victime."
+      - "Secouriste 1 : « Êtes-vous prêt ? » ; secouriste 2 : « Prêt ! » ; secouriste 1 : « Avancez ! »."
+      - "Les secouristes se redressent et se dirigent vers l'avant."
+      - "Arrivés à destination, secouriste 1 : « Halte ! Attention pour poser… Posez ! »."
+      - "Les deux secouristes déposent délicatement la victime au sol ou sur une chaise."
+  - type: etapes
+    titre: Déplacement par une chaise à mains
+    items:
+      - "Se placer de chaque côté de la victime, au niveau de ses hanches."
+      - "Passer un avant-bras derrière le dos de la victime puis saisir l'épaule du secouriste placé en face."
+      - "Passer l'autre avant-bras sous les genoux de la victime et agripper l'autre secouriste par les poignets. Un anneau de toile solide peut être utilisé : chaque secouriste agrippe alors l'anneau."
+      - "Demander à la victime de s'asseoir et de placer ses bras autour du cou de chacun des secouristes."
+      - "Déplacer la victime au commandement de l'un des secouristes."
+  - type: etapes
+    titre: Déplacement à l'aide d'une chaise
+    items:
+      - "Choisir une chaise d'ameublement suffisamment solide pour supporter le poids de la victime, et y faire asseoir la victime."
+      - "Secouriste 1 : s'accroupir derrière le dossier de la chaise et saisir le bas du dossier ; basculer tout doucement la chaise en arrière après avoir prévenu la victime, en la maintenant d'une main."
+      - "Secouriste 2 : s'accroupir entre les pieds avant de la chaise, face à la victime, et saisir l'extrémité des pieds de la chaise. Les jambes de la victime restent entre les pieds de la chaise."
+      - "Au commandement du secouriste 1, les deux secouristes se relèvent simultanément."
+      - "Déplacer la victime sur sa chaise."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Ne jamais utiliser une technique de déplacement si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres."
+      - "Si l'indication de ces techniques est respectée, l'état de la victime ne doit pas être aggravé."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Le déplacement de la victime n'entraîne pas de désagrément pour celle-ci."
+qcm:
+  - id: q1
+    enonce: "Combien de secouristes au minimum sont nécessaires pour les techniques de déplacement d'une victime non valide ?"
+    propositions:
+      - "Un"
+      - "Deux"
+      - "Trois"
+      - "Quatre"
+    bonnes: [1]
+    explication: "Chaque technique (saisie des extrémités, chaise à mains, chaise) est réalisée au minimum par deux secouristes."
+  - id: q2
+    enonce: "Pour la saisie des extrémités, où se place le secouriste 2 ?"
+    propositions:
+      - "Accroupi derrière le dos de la victime"
+      - "Accroupi entre les jambes de la victime, face à la marche, ses bras passés sous les genoux de la victime"
+      - "Debout à côté de la victime"
+      - "Accroupi derrière le dossier d'une chaise"
+    bonnes: [1]
+    explication: "Le secouriste 2 s'accroupit entre les jambes de la victime, face à la marche, et passe ses bras de l'extérieur vers l'intérieur sous les genoux. Le secouriste 1 est derrière le dos, avant-bras sous les aisselles."
+  - id: q3
+    enonce: "Dans la saisie des extrémités, quel est le déroulé des commandements ?"
+    propositions:
+      - "« Êtes-vous prêt ? » — « Prêt ! » — « Avancez ! » ; à l'arrivée « Halte ! Attention pour poser… Posez ! »"
+      - "« Attention pour lever… Levez ! » puis « Marchez ! »"
+      - "« Prêt ? » — « Partez ! » ; à l'arrivée « Stop ! »"
+    bonnes: [0]
+    explication: "Le secouriste 1 demande « Êtes-vous prêt ? », le secouriste 2 répond « Prêt ! », puis « Avancez ! » ; à destination : « Halte ! Attention pour poser… Posez ! »."
+  - id: q4
+    enonce: "Quelle technique convient particulièrement pour déplacer une victime dans un espace étroit ?"
+    propositions:
+      - "La chaise à mains"
+      - "Le déplacement à l'aide d'une chaise"
+      - "La saisie des extrémités"
+    bonnes: [2]
+    explication: "La saisie des extrémités est pratique pour déplacer une victime qui se trouve dans un espace étroit."
+  - id: q5
+    enonce: "Pour le déplacement à l'aide d'une chaise, quelles règles sont exactes ?"
+    propositions:
+      - "Le secouriste 1 s'accroupit derrière le dossier et bascule doucement la chaise en arrière après avoir prévenu la victime"
+      - "Le secouriste 2 s'accroupit entre les pieds avant de la chaise, face à la victime"
+      - "Les jambes de la victime doivent rester entre les pieds de la chaise"
+      - "Les secouristes se relèvent l'un après l'autre"
+    bonnes: [0, 1, 2]
+    explication: "Les deux secouristes se relèvent simultanément, au commandement du secouriste 1 ; les jambes de la victime restent entre les pieds de la chaise."
+  - id: q6
+    enonce: "Ces techniques peuvent-elles être utilisées chez une victime suspecte d'un traumatisme de la colonne vertébrale ?"
+    propositions:
+      - "Oui, si l'on utilise trois secouristes"
+      - "Oui, sur quelques mètres seulement"
+      - "Non, jamais, si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres"
+    bonnes: [2]
+    explication: "Le secouriste ne doit jamais utiliser ces techniques si la victime est suspecte d'un traumatisme de la colonne vertébrale ou des membres."

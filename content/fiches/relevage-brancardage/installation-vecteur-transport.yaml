@@ -1,0 +1,126 @@
+id: installation-vecteur-transport
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 14
+titre: Installation d'une victime dans un vecteur de transport
+motsCles: [vecteur de transport, véhicule de secours, chariot-brancard, rails, porte-brancard, verrouillage, chargement]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT13, 09-2019)
+  code: 10FT13
+  page: 370
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Cette technique sert à isoler ou transporter une victime installée sur un brancard. Le véhicule de secours rend la prise en charge plus confortable, voire son transport."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Un véhicule de secours et son brancard."
+  - type: liste
+    titre: Brancard sans chariot
+    items:
+      - "Le brancard est chargé dans le véhicule soit directement sur des rails placés au sol, soit sur un porte-brancard fixe ou mobile."
+      - "Le brancard doit être verrouillé au sol ou au porte-brancard."
+  - type: liste
+    titre: Chariot-brancard, principe
+    items:
+      - "Le brancard est chargé dans le véhicule soit directement sur des rails placés au sol, soit sur un porte-brancard fixe ou mobile."
+      - "Le brancard doit être verrouillé au sol ou au porte-brancard."
+      - "Le chariot est chargé dans le véhicule de secours par trois secouristes, parfois quatre."
+  - type: etapes
+    titre: Chargement d'un chariot-brancard
+    items:
+      - "Deux secouristes, placés à la tête de la victime, maintiennent le chariot et guident les roulettes dans les rails du véhicule."
+      - "Dès que l'avant du chariot est posé sur les rails, le ou les secouristes placés aux pieds de la victime libèrent les pieds avant du brancard en appuyant sur la poignée de commande, puis poussent le brancard à l'intérieur du véhicule (si besoin aidés par les deux secouristes de la tête)."
+      - "Lorsque le chariot est rentré des deux tiers dans le véhicule, les secouristes placés à la tête soutiennent le chariot."
+      - "Le ou les secouristes placés aux pieds libèrent les pieds arrière du chariot et les replient pour terminer la manœuvre."
+      - "Ils vérifient que le système de fixation du chariot est verrouillé et immobilisé."
+  - type: texte
+    titre: Déchargement
+    contenu: "Le déchargement d'une victime d'un véhicule de secours se fait exactement de manière inverse au chargement. S'assurer que les pieds du chariot-brancard sont bien verrouillés avant de déplacer le brancard."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "3 (parfois 4)"
+        libelle: "secouristes pour charger le chariot dans le véhicule"
+      - valeur: "2/3"
+        libelle: "chariot rentré : les secouristes de la tête le soutiennent"
+      - valeur: "3 points"
+        libelle: "fixation du chariot sur son support une fois installé"
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "L'arrimage de la victime doit toujours être vérifié avant la manœuvre pour éviter toute chute."
+      - "Pour limiter les lésions dorsales, garder le dos droit et travailler en fléchissant les genoux et les hanches."
+      - "La responsabilité de l'arrimage de la victime dans le moyen de transport et de la fermeture des portes incombe au conducteur du véhicule."
+      - "En aucun cas la manœuvre ne doit être réalisée par un seul secouriste."
+      - "Dans les véhicules dotés de plusieurs brancards, le blessé le plus grave doit être le plus facilement accessible par les personnels d'accompagnement."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "La personne qui commande la manœuvre est placée au pied du brancard pour surveiller les autres secouristes et la victime."
+      - "Le brancard est maintenu le plus horizontalement possible."
+      - "Une fois installé dans le véhicule, le chariot est fixé sur son support (fixation 3 points)."
+qcm:
+  - id: q1
+    enonce: "Combien de secouristes chargent normalement un chariot-brancard dans un véhicule de secours ?"
+    propositions:
+      - "Un seul"
+      - "Deux exactement"
+      - "Trois, parfois quatre"
+    bonnes:
+      - 2
+    explication: "Le chariot est chargé par trois secouristes, parfois quatre. En aucun cas la manœuvre ne doit être réalisée par un seul secouriste."
+  - id: q2
+    enonce: "Quel est le rôle des deux secouristes placés à la tête de la victime au début du chargement ?"
+    propositions:
+      - "Libérer les pieds avant du brancard"
+      - "Maintenir le chariot et guider les roulettes dans les rails du véhicule"
+      - "Fermer les portes du véhicule"
+      - "Vérifier l'arrimage à la fin"
+    bonnes:
+      - 1
+    explication: "Les secouristes de la tête maintiennent le chariot et guident les roulettes dans les rails ; les secouristes des pieds libèrent les pieds avant en appuyant sur la poignée de commande."
+  - id: q3
+    enonce: "Quand les pieds arrière du chariot sont-ils libérés et repliés ?"
+    propositions:
+      - "Dès que l'avant du chariot est posé sur les rails"
+      - "Lorsque le chariot est rentré des deux tiers dans le véhicule"
+      - "Avant tout début de manœuvre"
+    bonnes:
+      - 1
+    explication: "Dès que l'avant est posé sur les rails, on libère les pieds avant ; une fois le chariot rentré des deux tiers, les secouristes de la tête le soutiennent et ceux des pieds libèrent et replient les pieds arrière."
+  - id: q4
+    enonce: "Qui est responsable de l'arrimage de la victime dans le moyen de transport et de la fermeture des portes ?"
+    propositions:
+      - "Le secouriste qui commande la manœuvre"
+      - "Le conducteur du véhicule"
+      - "Le secouriste placé à la tête"
+      - "La victime elle-même"
+    bonnes:
+      - 1
+    explication: "Cette responsabilité incombe au conducteur du véhicule."
+  - id: q5
+    enonce: "Quelles affirmations sont exactes sur la fin de la manœuvre et le déchargement ?"
+    propositions:
+      - "Le chariot est fixé sur son support (fixation 3 points) et on vérifie que la fixation est verrouillée et immobilisée"
+      - "Le déchargement se fait exactement de manière inverse au chargement"
+      - "Avant de déplacer le brancard, on s'assure que les pieds du chariot-brancard sont bien verrouillés"
+      - "Le déchargement peut être réalisé par un seul secouriste"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le chariot est fixé sur son support en 3 points et vérifié ; le déchargement suit l'ordre inverse, pieds du chariot verrouillés avant de déplacer ; jamais à un seul secouriste."
+  - id: q6
+    enonce: "Dans un véhicule doté de plusieurs brancards, quelle victime doit être la plus facilement accessible au personnel d'accompagnement ?"
+    propositions:
+      - "La plus légère"
+      - "Le blessé le plus grave"
+      - "La première installée"
+    bonnes:
+      - 1
+    explication: "Le blessé le plus grave doit être le plus facilement accessible par les personnels d'accompagnement."

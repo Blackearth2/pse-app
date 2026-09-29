@@ -1,0 +1,234 @@
+id: personnes-en-situation-de-crise-connaissances
+niveau: PSE2
+chapitre: souffrance-psychique
+type: connaissance
+ordre: 1
+titre: Les personnes en situation de crise
+motsCles: [état de crise, réaction hypoactive, réaction hyperactive, sidération, dissociation, fuite panique, choc de compassion, CUMP]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09AC01, 11-2021)
+  code: 09AC01
+  page: 324
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Lors d'une action de secours, le secouriste peut rencontrer une victime aux réactions inhabituelles, d'intensité et de formes variables : c'est un état de crise. La crise est une manifestation brusque et intense, de durée limitée, pouvant avoir des conséquences néfastes. Elle révèle une rupture d'équilibre et génère une souffrance aiguë difficile à contenir par la victime elle-même ou par autrui. La demande de secours émane le plus souvent de l'entourage et appelle une réponse urgente et immédiate."
+  - type: liste
+    titre: Formes que peut prendre l'état de crise
+    items:
+      - Contact impossible à établir
+      - Agitation extrême
+      - État d'ébriété
+      - Vécu délirant, hallucinations
+      - Angoisse massive
+      - Comportement agressif, violence incontrôlable
+      - Intentions suicidaires
+  - type: texte
+    titre: Pourquoi une réponse urgente
+    contenu: "Deux raisons : l'intensité émotionnelle des manifestations, qui peut mettre en danger la personne elle-même et/ou son entourage, et le risque vital pouvant exister selon l'origine du trouble. Les origines peuvent être physiques, psychologiques ou psychiatriques. L'état de crise prend souvent l'allure de troubles psychiatriques alors qu'il peut être l'expression d'un problème physique."
+  - type: liste
+    titre: Causes — facteur ou déclencheur externe
+    items:
+      - "Événement stressant, voire potentiellement traumatisant : atteinte soudaine à l'intégrité physique et/ou morale, menace de mort (la sienne ou celle d'autrui) ou événement bouleversant."
+      - "Exemples : accident de la voie publique, situation de violence, événement catastrophique, auxquels la victime répond par une réaction aiguë."
+  - type: liste
+    titre: Causes — facteur ou déclencheur interne
+    items:
+      - "Troubles organiques : hypoglycémie, hypoxie, hypo ou hyperthermie, déshydratation, tumeur cérébrale, accident vasculaire cérébral."
+      - "Traumatismes physiques : traumatisme crânien, hémorragie grave, douleur intense générée par le traumatisme."
+      - "Intoxications (volontaires ou involontaires) : alcool, stupéfiants, médicaments (arrêt brutal, surdosage, interactions médicamenteuses). Les prises de toxiques sont souvent associées entre elles (alcool et cocaïne par exemple)."
+      - "Troubles psychiatriques, états aigus : états transitoires pouvant parfois révéler une maladie psychiatrique."
+      - "Troubles psychiatriques, états chroniques : affection psychiatrique permanente (schizophrénie, troubles bipolaires, troubles du comportement alimentaire, troubles addictifs...)."
+  - type: attention
+    titre: Risques pour le secouriste
+    items:
+      - "En crise, la victime n'est pas toujours raisonnable ni consciente de la réalité de la situation, ce qui complexifie l'action de secours."
+      - "Le secouriste risque d'être confronté à une attitude opposante, de l'agressivité, voire de la violence."
+      - "Il est exposé à un potentiel passage à l'acte agressif sur soi ou sur autrui."
+      - "Il peut être contraint, dans certains cas, de se retirer par mesure conservatoire."
+  - type: liste
+    titre: Signes et manifestations à repérer
+    items:
+      - "Les manifestations inhabituelles peuvent être le motif de l'intervention ou apparaître secondairement en cours de prise en charge. Le secouriste observe la personne dans ses sphères comportementale, émotionnelle et cognitive."
+      - "Présentation : état vestimentaire inadapté ; état d'hygiène (manque ou excès) ; présence de marques, blessures."
+      - "Signes physiques et physiologiques de stress, de tension, d'anxiété : hyperventilation, sensation d'étouffement, pâleur ou coloration du visage, sueurs, tremblements, tension musculaire."
+      - "Comportement : hypoactivité avec contact difficile voire impossible (mutisme, isolement, incapacité à réagir, prostration) ; hyperactivité avec agitation stérile, actions désordonnées, irréfléchies, incontrôlables ; agressivité, voire violence incontrôlable."
+      - "Discours : accéléré ou ralenti ; bégaiement ou autre anomalie du langage ; discours désorganisé, propos incohérents."
+      - "Cognition : incapacité à penser ou à émettre un avis (sidération) ; troubles de la mémoire (amnésie) ; absence de conscience de son état ; confusion, désorientation ; perception négative de la vie, intentions suicidaires."
+      - "État d'esprit et émotionnel : hyperémotivité (cris, pleurs, panique/euphorie, exaltation) ; peur intense, fort sentiment d'insécurité ; colère avec tendance à l'agressivité ou à la violence ; perte de contrôle de soi (impulsivité) ; absence d'émotion, comme « déconnectée de ses émotions » ; tristesse, désespoir."
+  - type: chiffres
+    titre: Deux grands profils de réaction
+    items:
+      - valeur: Hypoactif
+        libelle: "Attitude et comportement inhibés (absence d'émotion, sidération, mutisme) : réactions « silencieuses »."
+      - valeur: Hyperactif
+        libelle: "Manifestations extériorisées, désinhibées ou non contrôlées (hyperventilation, hyperémotivité, agitation) : réactions « bruyantes »."
+  - type: liste
+    titre: Les réactions « silencieuses » (état de dissociation)
+    items:
+      - "Après un événement stressant, potentiellement traumatisant ou bouleversant, la victime répond par une réaction aiguë pouvant prendre la forme d'un état de dissociation : phénomène protecteur automatique face à un stress extrême, qui permet de se soustraire à la frayeur et de se déconnecter d'une réalité insupportable."
+      - "Stupeur (sidération) : paralysie de la capacité d'agir et de la volonté, à la fois physique (ne bouge plus) et psychique (ne pense plus). Regard vide, expression d'incompréhension totale ; la victime peut rester immobile dans le danger. Durée : d'une minute à plusieurs heures."
+      - "Actions automatiques : gestes répétitifs, inutiles ou peu adaptés qui peuvent sembler normaux ; visage « absent » ; elle semble écouter mais n'enregistre pas. Ensuite, elle ne sait pas dire ce qu'elle a fait ou n'en garde qu'un souvenir flou (« trous », « blancs »). Durée : de quelques minutes à plusieurs heures, avec l'impression d'émerger d'un rêve."
+      - "La victime est coupée de ses émotions et incapable de les exprimer. Parfois totalement confuse et désorientée, sans notion du temps, amnésique, elle peut errer sans savoir qui elle est ni où elle est : elle ne peut ni juger ni évaluer la situation."
+      - "Ces manifestations signent une détresse psychologique aiguë, voire une blessure psychologique grave (risque de troubles psychotraumatiques). Orientation vers une prise en charge psychologique spécialisée : urgences hospitalières, ou CUMP en cas d'événement à nombreuses victimes."
+  - type: liste
+    titre: Les réactions « bruyantes »
+    items:
+      - "Hyperactivité physique ou psychique d'intensité et de durée variables, pouvant traduire une souffrance psychologique tout aussi grave."
+      - "Fuite panique : fuite impulsive, non raisonnée, éperdue ; la victime se heurte aux obstacles, bouscule, renverse et piétine autrui, sans savoir où elle va. Faciès hagard, regard vide, expression d'incompréhension totale. Elle peut pousser la personne droit dans le danger. Réaction très contagieuse, pouvant dégénérer par imitation en panique collective. Durée : quelques instants (le temps de l'impulsion) à plus longtemps, voire jusqu'à l'épuisement physique."
+      - "Agitation désordonnée : excitation, gesticulation, propos incohérents, logorrhée. Elle ne parvient pas à fixer son attention, à se contrôler ni à décider ; actions désordonnées, irréfléchies, incontrôlables ; risque d'être dangereuse pour elle-même et pour les autres. Terreur et affolement se lisent sur le visage ; elle ne reconnaît pas toujours les autres et ne les écoute pas. Durée : éphémère (quelques minutes) ou prolongée (plusieurs heures)."
+  - type: liste
+    titre: Précisions
+    items:
+      - "La victime peut passer d'une réaction à l'autre au cours de la prise en charge."
+      - "Les réactions de stress peuvent se prolonger quelques heures, voire quelques jours, laissant la personne « sous tension ». Elles ne sont pas forcément pathologiques et peuvent disparaître naturellement, telles des « courbatures psychologiques »."
+      - "Une réaction de stress semblant adaptée dans l'immédiat ne garantit pas l'absence de blessure psychique."
+      - "Des manifestations inhabituelles peuvent apparaître après la fin de l'événement : crises de larmes, abattement, dépression brève, irritabilité passagère."
+      - "La blessure psychologique peut entraîner des pathologies du stress : trouble de l'adaptation, trouble de stress aigu (TSA), trouble de stress post-traumatique (TSPT)."
+  - type: texte
+    titre: Autres réactions — choc de compassion et perte
+    contenu: "Le stress n'est pas la seule réaction possible : les personnes peuvent aussi être violemment frappées par un choc de compassion ou par une perte, quelle qu'elle soit. Dans le choc de compassion, la victime est marquée par la douleur de l'autre et rumine autour du drame ; les sentiments ne sont pas la peur mais plutôt la tristesse, la colère ou l'impuissance. Les réactions peuvent donner lieu à une décharge brutale de souffrance psychique et à des mécanismes de défense : sidération, malaise, incompréhension, déni, culpabilité, recherche de responsabilité, agressivité, etc."
+qcm:
+  - id: q1
+    enonce: "Comment la crise est-elle définie ?"
+    propositions:
+      - Une manifestation progressive et durable, sans conséquence
+      - "Une manifestation brusque et intense, de durée limitée, pouvant avoir des conséquences néfastes"
+      - Un trouble psychiatrique chronique
+      - Une simple réaction de fatigue
+    bonnes:
+      - 1
+    explication: "La crise est une manifestation brusque et intense, de durée limitée, révélatrice d'une rupture d'équilibre et génératrice d'une souffrance aiguë."
+  - id: q2
+    enonce: "Qui est le plus souvent à l'origine de la demande de secours en cas d'état de crise ?"
+    propositions:
+      - La victime elle-même
+      - L'entourage
+      - Les forces de l'ordre exclusivement
+      - Un médecin
+    bonnes:
+      - 1
+    explication: "La plupart du temps, la demande de secours émane de l'entourage et non de la victime."
+  - id: q3
+    enonce: "Parmi ces causes, lesquelles sont des troubles organiques pouvant provoquer un état de crise ?"
+    propositions:
+      - Hypoglycémie
+      - Hypoxie
+      - Déshydratation
+      - Accident vasculaire cérébral
+      - Bonne hydratation
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Hypoglycémie, hypoxie, hypo ou hyperthermie, déshydratation, tumeur cérébrale et AVC figurent parmi les troubles organiques cités."
+  - id: q4
+    enonce: "Pourquoi un état de crise doit-il être pris au sérieux même s'il ressemble à un trouble psychiatrique ?"
+    propositions:
+      - Parce qu'il n'a jamais de cause physique
+      - Parce qu'il peut être l'expression d'un problème physique, avec un risque vital selon l'origine
+      - Parce qu'il disparaît toujours spontanément
+      - Parce qu'il ne concerne que l'entourage
+    bonnes:
+      - 1
+    explication: "L'état de crise prend souvent l'allure de troubles psychiatriques alors qu'il peut traduire un problème physique ; un risque vital peut exister selon l'origine."
+  - id: q5
+    enonce: "Dans quelles sphères le secouriste observe-t-il la personne pour repérer un état de crise ?"
+    propositions:
+      - Comportementale
+      - Émotionnelle
+      - Cognitive
+      - Financière
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le secouriste observe la personne dans ses sphères comportementale, émotionnelle et cognitive."
+  - id: q6
+    enonce: "Quelle caractéristique correspond à une réaction « silencieuse » (hypoactive) ?"
+    propositions:
+      - Fuite éperdue en bousculant autrui
+      - Logorrhée et gesticulation
+      - Sidération, mutisme, absence d'émotion
+      - Cris et pleurs incontrôlés
+    bonnes:
+      - 2
+    explication: "Les réactions silencieuses correspondent à une attitude inhibée : absence d'émotion, sidération, mutisme."
+  - id: q7
+    enonce: "Quelle est la durée possible d'un état de sidération (stupeur) ?"
+    propositions:
+      - Toujours moins de 10 secondes
+      - D'une minute à plusieurs heures
+      - Exactement 15 minutes
+      - Toujours plusieurs jours
+    bonnes:
+      - 1
+    explication: "Selon la source, la sidération peut durer une minute comme plusieurs heures."
+  - id: q8
+    enonce: "Quel est le rôle de l'état de dissociation ?"
+    propositions:
+      - "C'est un phénomène protecteur automatique face à un stress extrême, permettant de se déconnecter d'une réalité insupportable"
+      - C'est une simulation volontaire de la victime
+      - C'est un signe d'ivresse
+      - C'est toujours un signe de bonne santé psychique
+    bonnes:
+      - 0
+    explication: "La dissociation protège automatiquement la victime en lui permettant de se soustraire à la frayeur ; elle signe cependant une détresse aiguë nécessitant une orientation spécialisée."
+  - id: q9
+    enonce: "Que risque-t-il de se passer lors d'une fuite panique ?"
+    propositions:
+      - "La victime peut se diriger droit vers le danger"
+      - "Elle peut se heurter aux obstacles et piétiner autrui"
+      - "Elle peut entraîner par imitation une panique collective"
+      - Elle est sans danger et jamais contagieuse
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La fuite panique est impulsive, éperdue et très contagieuse ; elle peut pousser la personne dans le danger et dégénérer en panique collective."
+  - id: q10
+    enonce: "Jusqu'à quand peut durer une fuite panique ?"
+    propositions:
+      - Uniquement quelques secondes
+      - Quelques instants, mais aussi plus longtemps voire jusqu'à épuisement physique
+      - Toujours exactement une heure
+      - Jusqu'à l'arrivée des secours dans tous les cas
+    bonnes:
+      - 1
+    explication: "Elle peut durer le temps de l'impulsion, mais aussi plus longtemps, voire jusqu'à l'épuisement physique."
+  - id: q11
+    enonce: "Parmi ces propositions, lesquelles sont exactes sur les réactions de stress ?"
+    propositions:
+      - "Elles peuvent se prolonger quelques heures, voire quelques jours"
+      - Elles sont toujours pathologiques
+      - "Une réaction apparemment adaptée dans l'immédiat garantit l'absence de blessure psychique"
+      - "Elles peuvent disparaître naturellement, telles des « courbatures psychologiques »"
+    bonnes:
+      - 0
+      - 3
+    explication: "Les réactions de stress ne sont pas forcément pathologiques ; en revanche, une réaction apparemment adaptée ne garantit pas l'absence de blessure psychique."
+  - id: q12
+    enonce: "Quelles sont les pathologies du stress citées dans la fiche ?"
+    propositions:
+      - Trouble de l'adaptation
+      - Trouble de stress aigu (TSA)
+      - Trouble de stress post-traumatique (TSPT)
+      - Trouble du rythme cardiaque
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La blessure psychologique peut entraîner un trouble de l'adaptation, un trouble de stress aigu ou un trouble de stress post-traumatique."
+  - id: q13
+    enonce: "Que ressent principalement une personne touchée par un choc de compassion ?"
+    propositions:
+      - De la peur
+      - "De la tristesse, de la colère ou de l'impuissance"
+      - De l'euphorie
+      - Une indifférence totale
+    bonnes:
+      - 1
+    explication: "Dans le choc de compassion, la victime est marquée par la douleur de l'autre ; les sentiments sont plutôt la tristesse, la colère ou l'impuissance que la peur."

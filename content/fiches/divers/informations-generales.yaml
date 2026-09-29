@@ -1,0 +1,192 @@
+id: informations-generales
+niveau: PSE1
+chapitre: divers
+type: connaissance
+ordre: 1
+titre: Informations générales
+motsCles: [abréviations, sigles, détergent, désinfectant, morphologie, adulte, enfant, nourrisson, nouveau-né]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC01, 09-2014)
+  code: 12AC01
+  page: 378
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Fiche de référence : liste des abréviations utilisées dans les Référentiels techniques nationaux, définitions du détergent et du désinfectant, et définition de la morphologie (adulte, enfant, nourrisson, nouveau-né)."
+  - type: liste
+    titre: Abréviations (A à D)
+    items:
+      - "AC : arrêt cardiaque"
+      - "ACT : attelle cervico-thoracique"
+      - "AEV : accident d'exposition à un risque viral"
+      - "AVC : accident vasculaire cérébral"
+      - "CO : monoxyde de carbone"
+      - "CO2 : dioxyde de carbone"
+      - "CUMP : cellule d'urgence médico-psychologique"
+      - "DAE : défibrillateur automatisé externe"
+      - "DASRI : déchets d'activités de soins à risques infectieux"
+      - "DEA : défibrillateur entièrement automatisé"
+      - "DGSCGC : Direction Générale de la Sécurité Civile et de la Gestion des Crises"
+      - "DSA : défibrillateur semi-automatique"
+  - type: liste
+    titre: Abréviations (F à O)
+    items:
+      - "FAST : Face, Arm, Speech, Time"
+      - "FC : fréquence cardiaque"
+      - "FFP2 : masque de protection respiratoire individuel"
+      - "FR : fréquence respiratoire"
+      - "Hg : mercure"
+      - "LVA : libération des voies aériennes"
+      - "MID : matelas immobilisateur à dépression"
+      - "MIN : mort inattendue et inexpliquée du nourrisson"
+      - "O2 : (di)oxygène"
+      - "OVA : obstruction des voies aériennes"
+  - type: liste
+    titre: Abréviations (P à V)
+    items:
+      - "PA : pression artérielle"
+      - "PLS : position latérale de sécurité"
+      - "RCP : réanimation cardio-pulmonaire"
+      - "SAI : seringue auto-injectable"
+      - "SpO2 : saturation pulsée en oxygène"
+      - "TA : tension artérielle"
+      - "VA : voies aériennes"
+      - "VHB : virus de l'hépatite B"
+      - "VHC : virus de l'hépatite C"
+      - "VIH : virus de l'immunodéficience humaine"
+  - type: texte
+    titre: Détergent
+    contenu: "Produit nettoyant qui rend propre visuellement le support. Il dégraisse et détache les particules infectées du support où elles sont collées et les met en suspension dans une solution qui peut s'éliminer par rinçage ou par un second passage du produit, selon les préconisations du fabricant (certains détergents sont pulvérisables). Il ne contient pas de substance antimicrobienne. C'est un agent tensioactif : son action chimique nécessite, en plus de l'action mécanique (brossage ou frottement pour décoller la salissure), le respect d'une température d'utilisation et d'un temps d'action du produit."
+  - type: texte
+    titre: Désinfectant
+    contenu: "Produit qui ne peut être utilisé que sur les surfaces propres pour éliminer, inactiver ou tuer les microorganismes après le temps de détersion. On utilise des produits normés selon les normes AFNOR, pour les activités bactéricide et fongicide."
+  - type: liste
+    titre: Morphologie
+    items:
+      - "Adulte : ressemblant à un adulte morphologiquement"
+      - "Enfant : ressemblant à un enfant, pouvant tenir sur la cuisse du secouriste"
+      - "Nourrisson : ressemblant à un nourrisson, peut tenir sur l'avant-bras du secouriste"
+      - "Nouveau-né : ressemblant à un nouveau-né de quelques semaines, peut tenir sur l'avant-bras du secouriste"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne pas confondre DAE (défibrillateur automatisé externe), DEA (défibrillateur entièrement automatisé) et DSA (défibrillateur semi-automatique)."
+      - "Ne pas confondre AC (arrêt cardiaque), PA/TA (pression/tension artérielle), FC (fréquence cardiaque) et FR (fréquence respiratoire)."
+      - "Le détergent nettoie mais ne contient pas de substance antimicrobienne ; le désinfectant s'utilise seulement sur des surfaces propres, après détersion."
+qcm:
+  - id: q1
+    enonce: "Que signifie l'abréviation LVA ?"
+    propositions:
+      - "Ligature vasculaire artérielle"
+      - "Libération des voies aériennes"
+      - "Localisation de la victime adulte"
+      - "Lésion des voies aériennes"
+    bonnes:
+      - 1
+    explication: "LVA désigne la libération des voies aériennes."
+  - id: q2
+    enonce: "Que signifie l'abréviation OVA ?"
+    propositions:
+      - "Obstruction des voies aériennes"
+      - "Oxygénation des voies alvéolaires"
+      - "Oxygène en ventilation artificielle"
+      - "Observation de la victime adulte"
+    bonnes:
+      - 0
+    explication: "OVA désigne l'obstruction des voies aériennes."
+  - id: q3
+    enonce: "Que signifient les abréviations DAE, DEA et DSA ?"
+    propositions:
+      - "DAE : défibrillateur automatisé externe"
+      - "DEA : défibrillateur entièrement automatisé"
+      - "DSA : défibrillateur semi-automatique"
+      - "DAE : défibrillateur semi-automatique"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "DAE = défibrillateur automatisé externe ; DEA = défibrillateur entièrement automatisé ; DSA = défibrillateur semi-automatique."
+  - id: q4
+    enonce: "Que signifie l'abréviation MIN ?"
+    propositions:
+      - "Matelas immobilisateur normalisé"
+      - "Mesure de l'intensité neurologique"
+      - "Mort inattendue et inexpliquée du nourrisson"
+    bonnes:
+      - 2
+    explication: "MIN désigne la mort inattendue et inexpliquée du nourrisson. MID désigne le matelas immobilisateur à dépression."
+  - id: q5
+    enonce: "Que signifient les abréviations ACT et MID ?"
+    propositions:
+      - "ACT : attelle cervico-thoracique"
+      - "MID : matelas immobilisateur à dépression"
+      - "ACT : arrêt cardiaque traumatique"
+      - "MID : mort inattendue de l'enfant"
+    bonnes:
+      - 0
+      - 1
+    explication: "ACT = attelle cervico-thoracique ; MID = matelas immobilisateur à dépression."
+  - id: q6
+    enonce: "Que signifient les abréviations AEV et CUMP ?"
+    propositions:
+      - "AEV : accident d'exposition à un risque viral"
+      - "CUMP : cellule d'urgence médico-psychologique"
+      - "AEV : accident d'évacuation vitale"
+      - "CUMP : centre d'urgence des maladies pulmonaires"
+    bonnes:
+      - 0
+      - 1
+    explication: "AEV = accident d'exposition à un risque viral ; CUMP = cellule d'urgence médico-psychologique."
+  - id: q7
+    enonce: "Que signifient les abréviations SAI et DASRI ?"
+    propositions:
+      - "SAI : seringue auto-injectable"
+      - "DASRI : déchets d'activités de soins à risques infectieux"
+      - "SAI : saturation artérielle instantanée"
+      - "DASRI : dispositif d'aide au secours en risque infectieux"
+    bonnes:
+      - 0
+      - 1
+    explication: "SAI = seringue auto-injectable ; DASRI = déchets d'activités de soins à risques infectieux."
+  - id: q8
+    enonce: "Que signifie l'abréviation FAST ?"
+    propositions:
+      - "Face, Arm, Speech, Time"
+      - "Fréquence, Amplitude, Saturation, Temps"
+      - "Fracture, Appui, Soutien, Traction"
+    bonnes:
+      - 0
+    explication: "FAST correspond à Face, Arm, Speech, Time (dans la liste des abréviations, à côté de AVC)."
+  - id: q9
+    enonce: "Qu'est-ce qui caractérise un détergent ?"
+    propositions:
+      - "Il ne contient pas de substance antimicrobienne"
+      - "Il tue les microorganismes sur une surface sale"
+      - "Son action nécessite, en plus de l'action mécanique, le respect d'une température d'utilisation et d'un temps d'action"
+      - "Il ne peut être utilisé que sur des surfaces déjà désinfectées"
+    bonnes:
+      - 0
+      - 2
+    explication: "Le détergent nettoie (agent tensioactif), sans substance antimicrobienne, avec action mécanique, température et temps d'action. C'est le désinfectant qui s'utilise sur surfaces propres."
+  - id: q10
+    enonce: "Comment se définit morphologiquement un nourrisson ?"
+    propositions:
+      - "Il ressemble à un nourrisson et peut tenir sur l'avant-bras du secouriste"
+      - "Il peut tenir sur la cuisse du secouriste"
+      - "Il ressemble à un adulte"
+    bonnes:
+      - 0
+    explication: "Nourrisson : peut tenir sur l'avant-bras du secouriste. Enfant : peut tenir sur la cuisse du secouriste (définitions de la fiche)."
+  - id: q11
+    enonce: "Que signifient FFP2 et SpO2 ?"
+    propositions:
+      - "FFP2 : masque de protection respiratoire individuel"
+      - "SpO2 : saturation pulsée en oxygène"
+      - "FFP2 : filtre de fumées pulvérisées"
+      - "SpO2 : spirométrie en oxygène"
+    bonnes:
+      - 0
+      - 1
+    explication: "FFP2 = masque de protection respiratoire individuel ; SpO2 = saturation pulsée en oxygène."

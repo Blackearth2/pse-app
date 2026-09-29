@@ -1,0 +1,100 @@
+id: relevage-trois-secouristes
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 9
+titre: Relevage à trois secouristes
+motsCles: [relevage, pont néerlandais, pont simple, trois secouristes, brancard]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT08, 07-2026)
+  code: 10FT08
+  page: 358
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Ces techniques, très couramment utilisées, permettent d'installer une victime sur un brancard. Elles sont réalisées à trois secouristes porteurs si la corpulence de la victime le permet. Une quatrième personne (aide) peut faire glisser le brancard sous la victime lorsque c'est nécessaire."
+  - type: liste
+    titre: Matériel et rôles
+    items:
+      - "Un dispositif de relevage ou de brancardage préalablement préparé (nommé « brancard »)."
+      - "Secouriste 1 : en pont au-dessus de la tête de la victime ; il guide et commande toute la manœuvre."
+      - "Secouriste 2 : en pont au-dessus des pieds de la victime."
+      - "Secouriste 3 : en pont au-dessus de la victime, entre les deux autres."
+  - type: etapes
+    titre: Pont néerlandais à trois porteurs
+    items:
+      - "Préalable : disposer le brancard le long du corps de la victime et, s'il a des roulettes, les bloquer. Ramener les avant-bras de la victime sur son tronc."
+      - "Secouristes 1 et 2 : ils se font face, prennent position respectivement à la tête et aux pieds de la victime et placent le pied côté brancard à l'intérieur des poignées situées contre la victime, de manière à les bloquer."
+      - "Secouriste 3 : il s'appuie sur l'épaule du secouriste 1, enjambe la victime et pose son pied sur le milieu de la hampe extérieure, sous le drap."
+      - "Secouriste 1 : une main sous la nuque, l'autre sous les omoplates. Secouriste 2 : il saisit les chevilles. Secouriste 3 : il engage les mains sous la taille et saisit les parties latérales de la ceinture ou du pantalon, si elles sont solides."
+      - "Commandements : secouriste 1 « Êtes-vous prêts ? » ; secouristes 2 et 3 « Prêts ! » ; secouriste 1 « Attention pour lever... Levez ! »."
+      - "Les secouristes se relèvent en gardant le dos plat, soulèvent la victime et la déplacent latéralement jusqu'au brancard. Le secouriste 1 ordonne de poser la victime en fin de déplacement."
+      - "Les secouristes posent doucement la victime sur le brancard et se dégagent successivement, sans la heurter."
+  - type: etapes
+    titre: Pont simple (trois porteurs et un aide)
+    items:
+      - "Préalable : disposer le brancard dans l'axe de la victime, si possible au niveau des pieds ; un aide assurera son glissement sous la victime au commandement. Ramener les avant-bras de la victime sur son tronc."
+      - "Secouriste 1 : il se place à la tête de la victime, jambes suffisamment écartées."
+      - "Secouristes 2 et 3 : face au secouriste 1, en pont au-dessus de la victime, jambes suffisamment écartées et pieds légèrement décalés, respectivement au niveau des pieds et du bassin ; ils s'accroupissent en gardant le dos plat."
+      - "Secouriste 1 : une main sous la nuque, l'autre sous les omoplates. Secouriste 2 : il saisit les chevilles. Secouriste 3 : il engage les mains sous la taille et saisit les parties latérales de la ceinture ou du pantalon, si elles sont solides."
+      - "Commandements : secouriste 1 « Êtes-vous prêts ? » ; secouristes 2 et 3 « Prêts ! » ; secouriste 1 « Attention pour lever... Levez ! »."
+      - "Les secouristes se relèvent en gardant le dos plat et soulèvent la victime pour permettre le passage du brancard."
+      - "Secouriste 1 : « Envoyez le brancard ! ». L'aide glisse le brancard entre les jambes des secouristes, sous la victime ; le secouriste 1 commande l'arrêt lorsque le brancard est arrivé sous la tête de la victime."
+      - "Une fois le brancard en place, secouriste 1 : « Posez ! ». Les secouristes posent doucement la victime et se dégagent successivement, sans la heurter."
+  - type: liste
+    titre: Risques et évaluation
+    items:
+      - "Tout risque de chute de la victime est évité si la technique est correctement choisie et exécutée ; le respect des règles de manutention évite au secouriste de se blesser."
+      - "Le transfert est doux, sans à-coup et le moins traumatisant possible ; à l'issue, la victime est en position correcte sur le brancard."
+qcm:
+  - id: q1
+    enonce: "Quand le relevage à trois secouristes est-il réalisé ?"
+    propositions:
+      - "Si la corpulence de la victime le permet"
+      - "Uniquement pour les victimes de forte corpulence"
+      - "Uniquement pour une victime suspecte d'un traumatisme du rachis"
+    bonnes:
+      - 0
+    explication: "Les techniques à trois secouristes porteurs sont réalisées si la corpulence de la victime le permet."
+  - id: q2
+    enonce: "Où se place le secouriste 3 dans le pont néerlandais à trois porteurs ?"
+    propositions:
+      - "Au-dessus de la tête de la victime"
+      - "Au-dessus des pieds de la victime"
+      - "Au-dessus de la victime, entre les deux autres secouristes"
+      - "À côté du brancard, sans enjamber la victime"
+    bonnes:
+      - 2
+    explication: "Le secouriste 1 est à la tête, le secouriste 2 aux pieds et le secouriste 3 entre les deux ; il enjambe la victime en s'appuyant sur l'épaule du secouriste 1."
+  - id: q3
+    enonce: "Comment est disposé le brancard avant un pont néerlandais à trois porteurs ?"
+    propositions:
+      - "Dans l'axe de la victime, au niveau des pieds"
+      - "Le long du corps de la victime, roulettes bloquées s'il en a"
+      - "À la tête de la victime, perpendiculairement"
+    bonnes:
+      - 1
+    explication: "Pour le pont néerlandais, le brancard est disposé le long du corps de la victime et ses roulettes éventuelles sont bloquées. C'est dans le pont simple qu'il est placé dans l'axe, si possible aux pieds."
+  - id: q4
+    enonce: "Dans le pont simple, quelles affirmations sont exactes ?"
+    propositions:
+      - "Un aide glisse le brancard sous la victime au commandement"
+      - "Le secouriste 1 commande « Envoyez le brancard ! »"
+      - "Le brancard est posé le long de la victime avant la manœuvre"
+      - "Le secouriste 1 commande l'arrêt du brancard lorsqu'il est arrivé sous la tête de la victime"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Dans le pont simple, le brancard est placé dans l'axe de la victime, un aide le glisse sous la victime à l'ordre « Envoyez le brancard ! » et le secouriste 1 commande l'arrêt sous la tête."
+  - id: q5
+    enonce: "Que fait le secouriste 1 pendant le relevage à trois ?"
+    propositions:
+      - "Il tient les chevilles de la victime"
+      - "Il glisse une main sous la nuque et l'autre sous les omoplates, et commande la manœuvre"
+      - "Il engage ses mains sous la taille de la victime"
+    bonnes:
+      - 1
+    explication: "Le secouriste 2 saisit les chevilles, le secouriste 3 engage les mains sous la taille ; le secouriste 1 soutient nuque et omoplates et commande."

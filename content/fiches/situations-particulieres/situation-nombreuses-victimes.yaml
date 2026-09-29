@@ -1,0 +1,124 @@
+id: situation-nombreuses-victimes
+niveau: PSE1
+chapitre: situations-particulieres
+type: connaissance
+ordre: 1
+titre: Situation à nombreuses victimes
+motsCles: [nombreuses victimes, accident catastrophique à effet limité, ORSEC, impliqués, CUMP, inadéquation des moyens]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 11AC01, 12-2023)
+  code: 11AC01
+  page: 373
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une situation à nombreuses victimes est une situation accidentelle d'ampleur ayant fait de nombreuses victimes, ou ayant un potentiel évolutif pouvant en entraîner. C'est un événement particulier qui nécessite une méthode de travail différente des autres interventions."
+  - type: chiffres
+    titre: Accident catastrophique à effet limité
+    items:
+      - valeur: "10 à 100"
+        libelle: "victimes : afflux brutal mais relativement limité, plus ou moins gravement atteintes au plan physique ou psychique, auquel les secours ne peuvent pas immédiatement faire face"
+      - valeur: "moins de 100"
+        libelle: "victimes potentielles dans une situation évolutive (un incendie par exemple), nécessitant rapidement l'envoi de moyens en nombre"
+  - type: liste
+    titre: Causes (types de sinistres)
+    items:
+      - "Accidents de trafic : routier, ferroviaire, aérien, maritime ou fluvial"
+      - "Incendies : habitations collectives, établissements de soins (hôpitaux, maisons de retraite), établissements recevant du public (salles de spectacles), tunnel"
+      - "Effondrements de structures (explosion, glissement de terrain, avalanche, vétusté)"
+      - "Accidents sociaux : manifestations avec grands mouvements de foule (émeutes, paniques), agressions collectives"
+      - "Actes de terrorisme : explosions, armes chimiques"
+      - "Catastrophes naturelles limitées : avalanches, glissements de terrain, tremblements de terre, inondations, raz-de-marée, tornades"
+      - "Catastrophes technologiques : fuites de produits, explosion d'installations de matières dangereuses, rupture de barrage"
+      - "Accidents infectieux : intoxications collectives, épidémies, bioterrorisme"
+  - type: liste
+    titre: Trois caractéristiques principales
+    items:
+      - "Présence de nombreuses victimes réelles ou potentielles"
+      - "Dégâts matériels importants"
+      - "Inadéquation initiale et temporaire entre les moyens immédiatement disponibles et les besoins"
+  - type: texte
+    titre: Présence de nombreuses victimes
+    contenu: "Le nombre de blessés est souvent difficile à apprécier au début, car les blessés valides ont tendance à fuir les lieux avant l'arrivée des secours. Les lésions sont uniques ou multiples, visibles ou non, leurs conséquences immédiates ou retardées. Des lésions internes (explosion, compression prolongée d'un membre, exposition à des toxiques chimiques, radiologiques, fumées d'incendie) peuvent entraîner des détresses vitales après un temps de latence. L'accès aux victimes est un élément important : certaines sont accessibles en surface, d'autres difficilement repérables (poussières) ou emprisonnées sous des structures ou des gravats et nécessitent des moyens spécialisés de dégagement ; le piétinement des structures et le bruit gênent leur localisation. Certaines victimes seront découvertes en arrêt cardiaque ou mortes, avec des corps intacts ou fortement mutilés."
+  - type: texte
+    titre: Les impliqués
+    contenu: "Les blessés ne sont pas les seules victimes : de nombreuses personnes non blessées sont considérées comme victimes (proche perdu de vue, tué ou blessé ; scènes difficilement supportables ; perte d'un bien important comme une habitation détruite). Victimes d'un traumatisme psychique, elles présentent des manifestations caractéristiques que les secours reconnaissent. Leur regroupement dans une zone dédiée aux impliqués est primordial pour assurer leur prise en charge. Aux côtés du personnel spécialisé des cellules d'urgence médico-psychologique (CUMP), le secouriste peut apporter une aide et une écoute réconfortante et faciliter l'expression des émotions ressenties."
+  - type: texte
+    titre: Dégâts matériels et inadéquation des moyens
+    contenu: "Les dégâts, souvent importants et étendus, touchent véhicules, habitations, bâtiments, parfois établissements sanitaires ou industriels. Ils peuvent engendrer des risques persistants pour les intervenants (feux, fumées, fuite de produits toxiques, éboulements), rendre l'accès au site et aux victimes difficile, et ont un impact direct sur le sauvetage, le dégagement et la nature des gestes de secours. Pour limiter les effets du sinistre, il faut adopter une méthode spécifique de prise en charge des victimes et organiser les secours selon une organisation qui intègre et coordonne les maillons de la chaîne des secours, fondée sur la planification ORSEC (organisation de la réponse de sécurité civile fixée par le Code de la sécurité intérieure)."
+  - type: etapes
+    titre: Principe de l'action de secours
+    items:
+      - "Procéder à une reconnaissance rapide du site"
+      - "Assurer la sécurité"
+      - "Transmettre sans délai les informations recueillies et demander des moyens de renforcement"
+      - "Procéder au repérage des nombreuses victimes"
+      - "Réaliser les gestes de secours les plus urgents"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le nombre de victimes est sous-estimé au début : les blessés valides quittent souvent les lieux avant l'arrivée des secours."
+      - "Une lésion interne peut entraîner une détresse vitale après un temps de latence."
+      - "Les personnes non blessées mais impliquées ont aussi besoin d'une prise en charge (zone dédiée aux impliqués)."
+qcm:
+  - id: q1
+    enonce: "Quel est l'ordre de grandeur du nombre de victimes d'un accident catastrophique à effet limité ?"
+    propositions:
+      - "Moins de 5 victimes"
+      - "Entre 10 et 100 victimes"
+      - "Plus de 1 000 victimes"
+      - "Exactement 50 victimes"
+    bonnes:
+      - 1
+    explication: "L'accident catastrophique à effet limité entraîne un afflux brutal mais relativement limité de victimes (entre 10 et 100)."
+  - id: q2
+    enonce: "Quelles sont les caractéristiques d'un accident entraînant de nombreuses victimes ?"
+    propositions:
+      - "La présence de nombreuses victimes réelles ou potentielles"
+      - "Des dégâts matériels importants"
+      - "Une inadéquation initiale et temporaire entre moyens disponibles et besoins"
+      - "Une intervention toujours limitée à un seul blessé grave"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ce sont les trois conséquences principales citées ; la situation ne se limite pas à un seul blessé grave."
+  - id: q3
+    enonce: "Pourquoi le nombre de victimes est-il souvent difficile à apprécier au début ?"
+    propositions:
+      - "Les blessés valides ont tendance à fuir les lieux avant l'arrivée des secours"
+      - "Les secours ne comptent jamais les victimes"
+      - "Les blessés graves quittent toujours seuls la zone"
+    bonnes:
+      - 0
+    explication: "Les blessés valides fuient souvent les lieux avant l'arrivée des secours, ce qui rend le décompte initial difficile."
+  - id: q4
+    enonce: "Où faut-il regrouper les personnes non blessées mais choquées ou endeuillées par la catastrophe ?"
+    propositions:
+      - "Dans la zone où se trouvent les victimes en détresse vitale"
+      - "Dans une zone dédiée aux impliqués"
+      - "Elles doivent quitter les lieux immédiatement sans prise en charge"
+    bonnes:
+      - 1
+    explication: "Le regroupement des impliqués dans une zone dédiée est primordial pour assurer leur prise en charge, avec les CUMP et l'aide du secouriste (écoute réconfortante)."
+  - id: q5
+    enonce: "Quel est l'ordre du principe de l'action de secours en situation à nombreuses victimes ?"
+    propositions:
+      - "Reconnaissance rapide du site ; sécurité ; transmission des informations et demande de renforts ; repérage des victimes ; gestes de secours les plus urgents"
+      - "Repérage des victimes ; gestes de secours ; reconnaissance du site ; sécurité ; transmission"
+      - "Gestes de secours ; transmission ; repérage ; sécurité ; reconnaissance"
+    bonnes:
+      - 0
+    explication: "L'ordre est : reconnaissance rapide du site, sécurité, transmission sans délai et demande de renforts, repérage des victimes, gestes de secours les plus urgents."
+  - id: q6
+    enonce: "Sur quelle planification s'appuie l'organisation des secours en cas de nombreuses victimes ?"
+    propositions:
+      - "La planification ORSEC"
+      - "Le signal national d'alerte"
+      - "Le repérage par couleurs"
+      - "Le kit d'urgence individuel"
+    bonnes:
+      - 0
+    explication: "L'organisation des secours s'appuie sur la planification ORSEC, fixée par le Code de la sécurité intérieure."

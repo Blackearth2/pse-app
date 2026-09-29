@@ -1,0 +1,92 @@
+id: deplacement-chaise-transport
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 3
+titre: Déplacement d'une victime à l'aide d'une chaise de transport
+motsCles: [chaise de transport, escalier, arrimage, dos plat, trois secouristes]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT02, 09-2019)
+  code: 10FT02
+  page: 346
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La chaise de transport répond à une difficulté réelle de brancardage en étages, dans les escaliers ou ascenseurs étroits. Elle peut être utilisée si la victime ne présente ni détresse ni atteinte grave, et si elle peut supporter la position assise. Matériel : une chaise de transport préalablement préparée."
+  - type: etapes
+    titre: Conduite à tenir (victime installée et arrimée sur la chaise)
+    items:
+      - "Demander à la victime de garder ses mains croisées sur sa poitrine et de ne pas essayer de s'agripper."
+      - "Saisir la chaise par les poignées."
+      - "Basculer légèrement la chaise en arrière, après avoir prévenu la victime."
+      - "Faire rouler la chaise sur le sol en prenant garde aux obstacles."
+      - "Dès que possible, placer la chaise à côté du brancard pour procéder au transfert."
+  - type: liste
+    titre: Franchissement d'un obstacle ou d'un escalier
+    items:
+      - "Un deuxième secouriste saisit les poignées au niveau des pieds de la victime pour aider le premier à soulever la chaise."
+      - "Un troisième secouriste précède les déplacements de la chaise : il ouvre les portes, enlève les objets qui pourraient gêner le passage et sécurise le secouriste placé aux pieds en le tenant par la ceinture lors de la descente des escaliers."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le verrouillage de la chaise et l'arrimage de la victime sont systématiquement vérifiés avant la manœuvre, pour éviter toute chute."
+      - "Pour limiter les lésions du dos, les secouristes gardent le dos plat et travaillent avec les cuisses."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "La victime reste convenablement assise et son état ne s'aggrave pas."
+qcm:
+  - id: q1
+    enonce: "À quelles conditions la chaise de transport peut-elle être utilisée ?"
+    propositions:
+      - "La victime ne présente pas de détresse ou d'atteinte grave"
+      - "La victime peut supporter la position assise"
+      - "La victime est inconsciente"
+      - "La victime est suspecte d'un traumatisme du rachis"
+    bonnes: [0, 1]
+    explication: "La chaise de transport s'utilise si la victime ne présente pas de détresse ou d'atteinte grave et si elle peut supporter la position assise."
+  - id: q2
+    enonce: "Que demande-t-on à la victime installée sur la chaise de transport ?"
+    propositions:
+      - "De s'agripper aux accoudoirs"
+      - "De garder ses mains croisées sur sa poitrine et de ne pas essayer de s'agripper"
+      - "De se pencher en avant"
+    bonnes: [1]
+    explication: "La victime garde ses mains croisées sur sa poitrine et ne cherche pas à s'agripper."
+  - id: q3
+    enonce: "Comment déplace-t-on la chaise sur le sol ?"
+    propositions:
+      - "On la porte à bout de bras"
+      - "On la saisit par les poignées, on la bascule légèrement en arrière après avoir prévenu la victime et on la fait rouler"
+      - "On la traîne en la tirant par les pieds"
+      - "On la bascule vers l'avant"
+    bonnes: [1]
+    explication: "Le secouriste saisit les poignées, bascule légèrement la chaise en arrière après avoir prévenu la victime, puis la fait rouler en prenant garde aux obstacles."
+  - id: q4
+    enonce: "Pour franchir un escalier, quel est le rôle du troisième secouriste ?"
+    propositions:
+      - "Saisir les poignées aux pieds de la victime"
+      - "Précéder la chaise, ouvrir les portes, dégager le passage et sécuriser le secouriste aux pieds en le tenant par la ceinture lors de la descente"
+      - "Surveiller la victime en marchant à côté du brancard"
+      - "Rester en bas de l'escalier"
+    bonnes: [1]
+    explication: "Le troisième secouriste précède les déplacements : il ouvre les portes, enlève les objets gênants et tient par la ceinture le secouriste placé aux pieds lors de la descente. Le deuxième saisit les poignées aux pieds."
+  - id: q5
+    enonce: "Que vérifie-t-on systématiquement avant la manœuvre ?"
+    propositions:
+      - "Le poids de la victime"
+      - "Le verrouillage de la chaise et l'arrimage de la victime"
+      - "La tension artérielle de la victime"
+      - "La couleur de la chaise"
+    bonnes: [1]
+    explication: "Le verrouillage de la chaise et l'arrimage de la victime sont systématiquement vérifiés pour éviter toute chute."
+  - id: q6
+    enonce: "Quelle posture adopter pour limiter les lésions du dos ?"
+    propositions:
+      - "Dos plat et travail avec les cuisses"
+      - "Dos arrondi et travail avec les bras"
+      - "Jambes tendues et buste penché"
+    bonnes: [0]
+    explication: "Les secouristes gardent le dos plat et travaillent avec les cuisses."

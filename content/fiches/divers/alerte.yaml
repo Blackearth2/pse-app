@@ -1,0 +1,139 @@
+id: alerte
+niveau: PSE1
+chapitre: divers
+type: connaissance
+ordre: 2
+titre: Alerte
+motsCles: [alerte, "18", "15", "112", "114", informations minimales, borne d'appel]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC02, 07-2026)
+  code: 12AC02
+  page: 380
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'alerte consiste à informer un service d'urgence de la présence d'une ou plusieurs victimes affectées par une ou plusieurs détresses, ainsi que de la nature de l'assistance qui leur est apportée. L'absence d'information d'un service d'urgence peut compromettre la vie ou la santé d'une victime malgré les gestes de premiers secours : le rôle du sauveteur est essentiel. L'alerte est transmise par le sauveteur ou un témoin, par les moyens disponibles les plus appropriés, de façon rapide et précise, après une évaluation rapide de la situation et des risques et une éventuelle mise en sécurité des personnes."
+  - type: chiffres
+    titre: Numéros d'urgence gratuits
+    items:
+      - valeur: "18"
+        libelle: "sapeurs-pompiers : secours d'urgence aux personnes, accidents divers, incendies"
+      - valeur: "15"
+        libelle: "SAMU : réponse médicale, problèmes urgents de santé, conseil médical"
+      - valeur: "112"
+        libelle: "numéro réservé aux appels d'urgence, valide dans toute l'Union Européenne"
+      - valeur: "114"
+        libelle: "numéro d'urgence unique, national et gratuit, accessible en visio, tchat, images et SMS, en lien direct avec le service d'urgence de proximité ; réservé aux personnes sourdes, sourdaveugles, malentendantes et aphasiques ; utilisable aussi pour alerter dans le cadre de violences intrafamiliales quand on ne peut pas parler à voix haute"
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Contacter un service d'urgence à l'aide d'un téléphone portable ou, à défaut, d'un téléphone fixe ou d'une borne d'appel (borne orange sur le bord des routes et autoroutes)"
+      - "Transmettre les informations"
+      - "Répondre aux questions posées par les services de secours"
+      - "Appliquer les consignes données"
+      - "Raccrocher sur les instructions de l'opérateur"
+  - type: liste
+    titre: Informations minimales à transmettre
+    items:
+      - "Le numéro de téléphone ou de la borne à partir duquel l'appel est passé"
+      - "La nature du problème : maladie, accident, attaque terroriste, etc."
+      - "En cas de situation à multiples victimes, le nombre de victimes"
+      - "La localisation la plus précise possible de l'événement"
+  - type: liste
+    titre: Si l'alerte est donnée par une autre personne
+    items:
+      - "Avant l'alerte, s'assurer qu'elle possède tous les éléments"
+      - "Après l'alerte, vérifier qu'elle a correctement exécuté l'action"
+      - "Si possible, envoyer une personne accueillir les secours et organiser leur accès sur le lieu de l'accident, au plus près de la victime"
+  - type: texte
+    titre: "Cas particulier : maladie infectieuse respiratoire évoquée"
+    contenu: "Si la victime présente de la toux et de la fièvre ou tout autre symptôme grippal sans signe de détresse vitale, lui demander (ou à son entourage) d'appeler son médecin traitant, qui pourra éventuellement réaliser une téléconsultation, et de respecter les mesures barrières et de distanciation physique. Si la victime a du mal à respirer au repos ou à l'effort, ou présente les signes d'une urgence vitale, appeler un numéro d'urgence."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Les secours peuvent garder l'appelant au téléphone pour le conseiller ou le guider dans les gestes, jusqu'à leur arrivée : ne raccrocher que sur instruction de l'opérateur."
+      - "Le 114 est réservé aux personnes sourdes, sourdaveugles, malentendantes et aphasiques (et aux situations de violences intrafamiliales sans possibilité de parler à voix haute)."
+qcm:
+  - id: q1
+    enonce: "Quel numéro est celui des sapeurs-pompiers ?"
+    propositions:
+      - "15"
+      - "17"
+      - "18"
+      - "114"
+    bonnes:
+      - 2
+    explication: "Le 18 est le numéro d'appel des sapeurs-pompiers ; le 15 est celui du SAMU."
+  - id: q2
+    enonce: "Quel numéro est celui du SAMU, en charge de la réponse médicale et du conseil médical ?"
+    propositions:
+      - "15"
+      - "18"
+      - "112"
+      - "114"
+    bonnes:
+      - 0
+    explication: "Le 15 est le numéro d'appel des SAMU."
+  - id: q3
+    enonce: "Quel numéro d'urgence est valide dans l'ensemble de l'Union Européenne ?"
+    propositions:
+      - "15"
+      - "112"
+      - "114"
+      - "18"
+    bonnes:
+      - 1
+    explication: "Le 112 est le numéro de téléphone réservé aux appels d'urgence, valide dans toute l'Union Européenne."
+  - id: q4
+    enonce: "À qui est réservé le 114 ?"
+    propositions:
+      - "Aux personnes sourdes, sourdaveugles, malentendantes et aphasiques"
+      - "Aux appels venant de l'étranger uniquement"
+      - "Aux seuls professionnels de santé"
+    bonnes:
+      - 0
+    explication: "Le 114 (visio, tchat, images, SMS) est réservé aux personnes sourdes, sourdaveugles, malentendantes et aphasiques ; il peut aussi servir en cas de violences intrafamiliales quand on ne peut pas parler à voix haute."
+  - id: q5
+    enonce: "Quelles informations minimales faut-il transmettre lors de l'alerte ?"
+    propositions:
+      - "Le numéro de téléphone ou de la borne d'appel"
+      - "La nature du problème"
+      - "Le nombre de victimes en cas de situation à multiples victimes"
+      - "La localisation la plus précise possible"
+      - "Le nom des victimes"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Les quatre informations minimales sont le numéro d'appel, la nature du problème, le nombre de victimes (si multiples) et la localisation précise."
+  - id: q6
+    enonce: "Quand raccroche-t-on après avoir donné l'alerte ?"
+    propositions:
+      - "Dès que l'adresse a été donnée"
+      - "Sur les instructions de l'opérateur"
+      - "Après 1 minute d'appel"
+    bonnes:
+      - 1
+    explication: "Il faut raccrocher sur les instructions de l'opérateur ; les secours peuvent conserver l'appelant pour le guider jusqu'à leur arrivée."
+  - id: q7
+    enonce: "Quelle est la couleur de la borne d'appel sur le bord des routes et autoroutes ?"
+    propositions:
+      - "Bleue"
+      - "Orange"
+      - "Verte"
+      - "Rouge"
+    bonnes:
+      - 1
+    explication: "La fiche précise : borne orange sur le bord des routes et autoroutes."
+  - id: q8
+    enonce: "Une victime tousse, a de la fièvre et un symptôme grippal, sans signe de détresse vitale. Que demander à la victime ou à son entourage ?"
+    propositions:
+      - "D'appeler son médecin traitant et de respecter les mesures barrières et de distanciation physique"
+      - "D'appeler systématiquement le 18"
+      - "De se rendre seule aux urgences sans prévenir"
+    bonnes:
+      - 0
+    explication: "Sans détresse vitale, on demande d'appeler le médecin traitant (téléconsultation possible) et de respecter les mesures barrières. En cas de difficulté à respirer ou d'urgence vitale, on appelle un numéro d'urgence."

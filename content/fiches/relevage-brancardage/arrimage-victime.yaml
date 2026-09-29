@@ -1,0 +1,89 @@
+id: arrimage-victime
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 11
+titre: Arrimage de la victime
+motsCles: [arrimage, sangles, harnais, brancard, sangle-araignée, brancardage]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT10, 09-2019)
+  code: 10FT10
+  page: 363
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Toute victime doit être arrimée sur un brancard ou tout autre dispositif de transport avant son brancardage. Les mouvements entraînés au cours du brancardage peuvent provoquer une chute : l'arrimage est obligatoire."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Harnais de sécurité adapté à la corpulence de la victime (enfant, adulte, obèse)."
+      - "Sangles d'arrimage fixées au brancard."
+      - "Sangles de fixation ou sangle-araignée."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Refermer le drap et la ou les couvertures sur la victime."
+      - "Arrimer la victime au brancard au moyen du harnais de sécurité du brancard s'il en est doté, ou d'une sangle-araignée, ou de trois sangles passant au niveau de la partie supérieure du thorax (au-dessus d'un bras et en dessous de l'autre), du bassin, et des cuisses juste au-dessus des genoux."
+      - "Veiller à ce qu'aucune sangle n'appuie sur une blessure, le cou, la partie inférieure du thorax ou la partie supérieure de l'abdomen."
+  - type: liste
+    titre: Cas particuliers
+    items:
+      - "Victime installée dans un matelas immobilisateur à dépression posé sur un brancard : l'arrimage de l'ensemble « victime-matelas » s'effectue de la même façon."
+      - "Brancard sans sangles de fixation : utiliser des sangles, en évitant les cordes et cordages."
+  - type: attention
+    titre: Risques et évaluation
+    items:
+      - "Un serrage excessif peut provoquer une compression ou une blessure, et une sensation d'oppression."
+      - "L'arrimage doit maintenir la victime en totalité, sans compression de la partie inférieure du thorax, de la partie supérieure de l'abdomen ou d'une éventuelle lésion."
+qcm:
+  - id: q1
+    enonce: "Quelle victime doit être arrimée avant son brancardage ?"
+    propositions:
+      - "Uniquement la victime inconsciente"
+      - "Uniquement la victime suspecte d'un traumatisme du rachis"
+      - "Toute victime"
+    bonnes:
+      - 2
+    explication: "Toute victime doit être arrimée sur un brancard ou tout autre dispositif de transport avant son brancardage."
+  - id: q2
+    enonce: "Par quelles sangles peut-on arrimer la victime si l'on utilise trois sangles ?"
+    propositions:
+      - "Thorax (partie supérieure), bassin et cuisses juste au-dessus des genoux"
+      - "Cou, abdomen et chevilles"
+      - "Thorax (partie inférieure), abdomen (partie supérieure) et genoux"
+    bonnes:
+      - 0
+    explication: "Les trois sangles passent au niveau de la partie supérieure du thorax, du bassin et des cuisses, juste au-dessus des genoux."
+  - id: q3
+    enonce: "Sur quelles zones aucune sangle ne doit-elle appuyer ?"
+    propositions:
+      - "Une blessure"
+      - "Le cou"
+      - "La partie inférieure du thorax"
+      - "Le bassin"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Aucune sangle ne doit appuyer sur une blessure, le cou, la partie inférieure du thorax ni la partie supérieure de l'abdomen."
+  - id: q4
+    enonce: "Le brancard n'est pas équipé de sangles de fixation : que faire ?"
+    propositions:
+      - "Utiliser des cordes, plus solides"
+      - "Utiliser des sangles en évitant les cordes et cordages"
+      - "Renoncer à l'arrimage"
+    bonnes:
+      - 1
+    explication: "Les secouristes peuvent arrimer la victime avec des sangles, en évitant l'utilisation de cordes et cordages."
+  - id: q5
+    enonce: "Quels risques présente un serrage excessif ?"
+    propositions:
+      - "Une compression ou une blessure"
+      - "Une sensation d'oppression"
+      - "Aucun, l'arrimage doit être le plus serré possible"
+    bonnes:
+      - 0
+      - 1
+    explication: "Un serrage excessif peut occasionner une compression, une blessure et une sensation d'oppression."

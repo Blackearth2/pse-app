@@ -1,0 +1,447 @@
+id: personne-en-situation-de-crise-conduite-a-tenir
+niveau: PSE2
+chapitre: souffrance-psychique
+type: procedure
+ordre: 2
+titre: Prise en charge d'une personne en situation de crise
+motsCles: [état de crise, abord relationnel, agressivité, mort inattendue, violences, crise suicidaire, événement exceptionnel, CUMP]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09PR01, 11-2021)
+  code: 09PR01
+  page: 328
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'action de secours vise à protéger les intervenants, la victime et son entourage ; à identifier les réactions inhabituelles, recueillir et transmettre un maximum d'informations au médecin régulateur ou à l'équipe médicale sur place ; et à stabiliser l'état de crise de la victime dans la mesure du possible."
+  - type: etapes
+    titre: Conduite à tenir générale
+    items:
+      - "Observer, rechercher : le 1er regard est essentiel. Observer la victime, son entourage et l'environnement pour repérer les risques potentiels (armes, emballages de médicaments, lettre, bouteilles d'alcool...) ou particularités de l'environnement ; les facteurs de stress (l'entourage est-il un soutien ou une source de pression ? éléments extérieurs perturbants ?) ; l'élément déclencheur (interne ou externe, « suite à quoi ? ») ; les caractéristiques de la réaction inhabituelle (ce qui est différent, depuis quand, ce qui paraît inhabituel par rapport aux normes de la société ou de sa culture) ; les antécédents, hospitalisations, traitements (maladie particulière, hospitalisation antérieure et contexte, traitement pris régulièrement ou rupture de traitement). C'est à partir de cette étape que les stratégies de protection et de prise en charge sont déterminées."
+      - "Sécuriser, protéger. Si le contact est possible : choisir un lieu propice à l'échange, où la personne se sent en confiance et en sécurité, à l'écart de la source de stress et des pressions extérieures (séparer l'entourage s'il exacerbe l'état de crise, même sans le vouloir) ; réduire la réaction de stress en évitant de surexposer la victime (vue des blessures, facteurs environnementaux stressants) ; assurer une surveillance constante."
+      - "Si contact et dialogue sont impossibles : demander une médicalisation en vue d'une éventuelle sédation afin de minimiser le risque d'agression et de blessures ; faire intervenir les forces de l'ordre en protection si la sécurité et la sûreté des personnes sont compromises."
+      - "Apaiser la détresse, répondre aux besoins : favoriser l'apaisement émotionnel et prévenir l'escalade d'agressivité pouvant conduire à un passage à l'acte auto ou hétéro-agressif, dans le calme, sans précipitation ni hésitation. Cet abord permet de compléter le bilan puis d'engager les soins nécessaires."
+  - type: attention
+    titre: Limite de l'abord relationnel
+    items:
+      - "Lors d'états d'agitation incontrôlables et dangereux, l'abord relationnel a ses limites : la sédation par un traitement médicamenteux est alors indispensable (elle relève de la médicalisation demandée)."
+      - "Le secouriste s'adapte à chaque situation et à chaque personne, en appliquant les principes de l'abord relationnel."
+  - type: etapes
+    titre: Réaction hypoactive (silencieuse)
+    items:
+      - "Objectif essentiel : orienter l'attention de la victime sur des éléments sécurisants et sur des tâches simples, positives et non stressantes."
+      - "Rechercher le contact visuel (« Madame, regardez-moi bien dans les yeux »)."
+      - "Rassurer : présence calme, bienveillante et protectrice (« Nous sommes là pour vous ») ; soigner le langage non verbal, les postures, les gestes (main sur l'épaule ou le bras, à adapter avec précaution ; regard bienveillant ; voix apaisante)."
+      - "Ramener doucement dans « l'ici et maintenant » : l'aider à prendre conscience que l'événement est terminé et qu'elle est en sécurité ; reprendre contact avec elle-même et la réalité par des questions concrètes (« Pouvez-vous me décrire ce que vous voyez ? », « dites-moi ce que vous entendez », « touchez l'objet devant vous et dites-moi ce que vous percevez »)."
+      - "L'interroger sur ses besoins (« De quoi auriez-vous besoin dans l'immédiat ? », « Qu'est-ce qui pourrait vous aider ? »)."
+      - "L'inviter à s'exprimer, mais pas à tout prix : privilégier une communication cognitive plutôt qu'émotionnelle, avec des questions simples et concrètes, pour lui redonner une position active."
+      - "Utiliser des techniques de focalisation de l'attention sur le présent : respiration contrôlée, techniques de focalisation attentionnelle."
+      - "Informer sur l'événement et sur ses réactions."
+      - "Ne jamais la laisser seule."
+  - type: attention
+    titre: Réaction hypoactive — à éviter
+    items:
+      - "Questionner la victime sur l'événement vécu, lui demander d'en faire le récit et/ou de parler de ses émotions : cela maintient ou réactive l'état de dissociation."
+      - "Ne pas laisser la victime seule."
+  - type: etapes
+    titre: Réaction hyperactive (bruyante)
+    items:
+      - "Établir un contact verbal et tenter d'apaiser : voix calme, débit lent, gestuelle bien réglée (pas de gestes brusques)."
+      - "Montrer que l'on a perçu la tension émotionnelle et l'agitation, et inviter la personne à s'exprimer."
+      - "Identifier les besoins immédiats et proposer son aide (« Y a-t-il quelque chose que je puisse faire pour vous aider ? ») : cela peut activer la réflexion et stopper la montée en tension."
+      - "Utiliser la reformulation (écoute active)."
+      - "En cas d'hallucinations ou de propos incohérents, ne pas contredire la victime."
+      - "Être attentif aux mouvements du corps (secousses, impatience des jambes : besoin d'action) ; si la victime a besoin de bouger, proposer des contractions alternées (techniques de focalisation/défocalisation attentionnelles) qui remplissent une fonction exutoire."
+  - type: liste
+    titre: Contextes particuliers nécessitant d'adapter la conduite
+    items:
+      - La victime au comportement agressif ou violent
+      - Les morts inattendues
+      - Les victimes de violences
+      - La crise suicidaire
+      - Les événements exceptionnels
+  - type: texte
+    titre: Comportement agressif ou violent — contexte
+    contenu: "Les violences peuvent être non intentionnelles (personnes en état d'irresponsabilité : patients psychiatriques, toxicomanes, personnes ivres), dirigées contre la victime elle-même (automutilation) ou intentionnelles, en direction du secouriste. Le processus : après une accumulation émotionnelle, tension nerveuse avec anxiété et agitation psychomotrice ; la personne ne raisonne plus, d'où un état de panique sans recul possible ; si la situation n'est pas maîtrisée et le processus interrompu, la tension se libère : c'est le passage à l'acte, suivi immédiatement d'une phase de soulagement (personne vidée de son énergie). L'agressivité, tournée vers la victime elle-même, des tiers ou les secouristes, est sous-tendue par une émotion de colère ; la victime agressive est une personne qui souffre et se défend face à un problème qu'elle ne sait pas gérer."
+  - type: liste
+    titre: Formes du comportement agressif
+    items:
+      - "Incivilités : impolitesse, grossièretés."
+      - "Comportement menaçant : gestes du poing, destruction matérielle, objets lancés."
+      - "Violence verbale : menaces, intimidations, insultes, chantage, propos infériorisants ou dégradants portant atteinte à l'intégrité psychologique d'autrui."
+  - type: liste
+    titre: Signes d'alerte d'un passage à l'acte violent
+    items:
+      - Regard fixe, menaçant ou fuyant
+      - Dilatation des pupilles
+      - Pâleur ou rougissement du visage
+      - Raidissement des membres, serrement des mâchoires
+      - Soupirs, respiration modifiée (rapide et peu profonde)
+      - Sueurs, transpiration
+      - Tremblements
+      - Ton de voix saccadé
+      - Agitation, mouvements saccadés, apparition de tics
+      - Postures menaçantes (pointe du doigt, poings montrés)
+      - Tendance à s'approcher, empiétement sur l'espace personnel
+      - Objets lancés ou jetés par terre
+  - type: etapes
+    titre: Conduite face au geste violent (coups, bousculades, crachats...)
+    items:
+      - "Évaluer la dangerosité de la personne et du lieu : rechercher et mettre en sécurité les objets potentiellement dangereux ; enlever les objets pouvant servir d'armes et pouvoir placer un obstacle entre la personne et soi ; veiller à ce que la personne ne soit pas près d'une porte ou d'une fenêtre ouverte en cas de risque de fuite ou de défenestration (prévention du suicide notamment) ; ne pas laisser la personne seule et ne pas rester seul avec elle."
+      - "Utiliser l'espace avec stratégie : garder une échappatoire, un accès à la sortie ; positionner l'équipe en triangle : un seul secouriste parle, les deux autres, situés en arrière, sont en soutien et en communication avec lui ; garder une distance de sécurité ; s'approcher en s'annonçant et en se faisant voir pour ne pas la surprendre ; éviter toute attitude oppressante ; ne pas lui tourner le dos."
+      - "Avec plusieurs intervenants, un secouriste est l'interlocuteur principal : c'est lui, exclusivement, qui s'adresse à la victime et introduit les gestes réalisés par ses équipiers (« mon collègue va évaluer votre respiration »). L'interlocuteur choisi est celui qui a le meilleur contact ; si un équipier suscite de l'agressivité, il se met à distance."
+      - "Aborder la victime en assurant sa protection personnelle : éviter toute attitude agressive (bras croisés, mains sur les hanches, doigt pointé) ; ne pas regarder fixement dans les yeux mais rester vigilant en maintenant un contact oculaire ; ne pas toucher, contraindre physiquement, tirer, tenir."
+      - "Ne pas monter le ton, rester calme et posé, maintenir les marques de respect (Mme, Mr, vouvoiement, même si la personne tutoie). Fermeté mais toujours avec diplomatie, sans jamais « attaquer » la personne. Éviter dans un premier temps toute contradiction pour ne pas augmenter l'agressivité, sans approuver systématiquement (rappeler les limites et le cadre)."
+  - type: liste
+    titre: Si l'abord relationnel est possible
+    items:
+      - "Maintenir un contact verbal : laisser la victime s'exprimer ; écoute sans jugement, savoir se taire, l'écouter jusqu'au bout sans lui couper la parole."
+      - "Montrer que l'on a perçu l'agressivité ; utiliser la reformulation ; clarifier tous les points de désaccord ; chercher à positiver le dialogue ; encourager la personne à suggérer une solution."
+      - "En aucun cas accepter qu'elle s'exprime avec agressivité ou manque de respect."
+      - "Analyser en permanence la situation et appeler du renfort même si la personne est redevenue calme, car elle pourrait à nouveau devenir agressive."
+  - type: attention
+    titre: Si l'abord relationnel est impossible
+    items:
+      - "Mesures de sauvegarde : dans les situations de crise avec danger, les secouristes doivent se retirer et alerter."
+      - "L'usage de la force pour maîtriser la victime n'est pas du ressort du secouriste, sauf 2 exceptions : pour préserver sa propre intégrité, ou, dans la mesure du possible, pour limiter un danger manifestement grave et imminent."
+  - type: texte
+    titre: Morts inattendues — contexte
+    contenu: "Le décès est dit inattendu lorsque la mort survient brutalement chez un sujet a priori en bonne santé ; il peut être naturel, violent, accidentel ou homicide. Les secouristes sont confrontés à la personne décédée (mort constatée dès l'arrivée ou à l'issue de l'intervention ; selon le besoin de l'entourage, l'équipe peut accepter la présence des proches pendant les manœuvres de réanimation, en particulier si la victime est un enfant), à un témoin ayant découvert la personne, et à l'entourage du défunt. Ces derniers nécessitent une prise en charge à part entière. Leurs réactions (sidération, malaise, effondrement, incompréhension, déni, culpabilité, recherche de responsabilité, agressivité, colère) sont naturelles et ne relèvent pas nécessairement d'un professionnel de la santé mentale : une présence empreinte d'humanité et de bienveillance est la première réponse."
+  - type: liste
+    titre: Facteurs influençant la souffrance des témoins et de l'entourage
+    items:
+      - "Typologie des personnes décédées (nourrisson, enfant, adolescent, adulte, personne âgée), leur nombre et les liens avec les proches."
+      - "Circonstances du décès : suicide, homicide, infanticide, fratricide, féminicide..."
+      - "Conditions de la découverte du corps et son état d'altération."
+      - "Éventuelles investigations scientifiques, judiciaires et médico-légales."
+  - type: etapes
+    titre: Conduite face à une mort inattendue
+    items:
+      - "Décès sur la voie publique : soustraire au mieux le corps à la vue du public dès que possible. En l'absence de danger, ne le déplacer que sur décision du médecin (ou de l'autorité judiciaire en cas d'obstacle médico-légal)."
+      - "En l'absence d'obstacle médico-légal : préserver la dignité du corps et le manipuler avec précaution et délicatesse ; l'installer selon le souhait de la famille, en tenant compte des rituels culturels et religieux ; le rendre présentable (enlever le matériel, nettoyer) en tenant compte de la dégradation rapide et des risques de relâchement, cacher une partie si le corps est abîmé ; accompagner les proches auprès du défunt s'ils le souhaitent (la présentation du corps est proposée, sans obligation)."
+      - "L'annonce du décès (point de départ du travail de deuil, moment très important) est du ressort du médecin, de la police ou d'un officier de police judiciaire (le maire par exemple). À titre très exceptionnel, le secouriste peut être amené à la réaliser."
+      - "Annoncer de façon claire et adaptée, avec informations honnêtes, empathie et respect, sans brutalité supplémentaire : dans un lieu calme, hors de la zone d'intervention, avec un minimum de confort, intimité et disponibilité ; intervenir à deux, avec un médecin si possible qui se charge de l'annonce ; reprendre le contexte, la cause, la chronologie et les actions entreprises."
+      - "Veiller sur la famille et les proches : attitude respectueuse envers le défunt (facteur de réconfort notable) ; leur laisser du temps pour comprendre ; être présent et à l'écoute ; apporter des réponses (conseils, explications sur les premières démarches et la suite) ; les accompagner dans l'annonce aux enfants et adolescents sans tarder, avec des mots simples et directs (utiliser le mot « mort »), en les associant aux autres personnes de leur entourage."
+      - "Passer le relais à une personne qui pourra rester présente (famille, voisins, amis) au départ des secours ; ne pas laisser seul un proche endeuillé."
+      - "Décès d'un enfant : le corps est transporté par les services de secours sur réquisition judiciaire, accompagné des parents s'ils le souhaitent, vers un centre de référence où des investigations médicales recherchent la cause du décès."
+  - type: texte
+    titre: Victimes de violences — contexte
+    contenu: "Violences commises dans l'intimité familiale (violences conjugales, maltraitances) ou à l'extérieur, par des inconnus ou des connaissances ; elles peuvent être verbales, physiques, psychologiques, sexuelles et/ou liées à la négligence et aux privations, geste isolé ou cycle de maltraitance. La relation et l'évaluation sont complexes en cas de danger persistant pour la victime et/ou l'équipage ; de lien affectif, de dépendance, de vulnérabilité ou d'emprise (partenaire, parent) ; d'auteur présent qui nie fréquemment ; de faible visibilité et loi du silence (peur de parler, crainte de représailles, minimisation, banalisation) ; après une agression sexuelle (grande souffrance, méfiance envers les secouristes, d'autant plus s'ils sont du même sexe que l'agresseur, rendant le contact physique et les gestes parfois difficiles, voire impossibles). Le secouriste est souvent le premier soutien : son regard bienveillant, son écoute et son empathie sont déterminants ; la victime ne doit pas vivre la prise en charge comme une nouvelle agression."
+  - type: etapes
+    titre: Conduite face à une victime de violences
+    items:
+      - Isoler la victime et limiter le nombre d'intervenants.
+      - Instaurer un climat d'écoute, de confiance et de sécurité.
+      - Employer un ton calme et rassurant, avec des gestes délicats, préalablement annoncés.
+      - "Parler honnêtement des éléments évocateurs repérés, signifier en mots simples sa perception de la situation, encourager (sans forcer) à en parler."
+      - "Aborder clairement la question des violences : rien ne les justifie, elles sont interdites et punies par la loi, la victime n'est pas responsable et peut déposer plainte. Si elle ne veut pas parler, lui dire qu'elle pourra le faire plus tard. Il ne s'agit pas de l'interroger mais de l'écouter."
+      - Tenter de convaincre de la nécessité d'un transport à l'hôpital.
+      - "Transporter la victime dans la position où elle se sent le mieux (surtout après une agression sexuelle)."
+      - "Informer sur la possibilité d'être aidée, sans promesses non tenables ni solutions hors de sa portée."
+      - "En l'absence de transport : transmettre les coordonnées des services compétents et inciter la victime à identifier une personne-ressource."
+  - type: liste
+    titre: Précisions — violences
+    items:
+      - "Il ne s'agit pas de mener une enquête mais d'évaluer les risques pour déterminer la réponse opérationnelle la plus adaptée dans l'immédiat."
+      - "Recours aux forces de l'ordre uniquement dans trois conditions : danger persistant pour la ou les victimes, danger pour l'équipage, ou demande de la victime."
+      - "Repérer et préserver tout élément informatif ou de preuve utile à une future procédure judiciaire (par exemple sous-vêtements conservés dans plusieurs sacs neufs séparés en cas d'agression sexuelle)."
+      - "En cas d'agression sexuelle, orienter le plus rapidement possible vers des services spécialisés, urgences médico-judiciaires notamment (examens, prélèvements et traitement à réaliser au plus vite)."
+      - "En cas de transport hospitalier, faire des transmissions complètes ; le contexte de violences selon les dires de la victime, ou les suspicions selon les éléments observés, figurent dans les écrits professionnels."
+      - "Sauf danger imminent, accepter le choix et le rythme de la victime (si majeure et apte à consentir) : toute intervention a un intérêt, même si les effets ne sont pas mesurables dans l'immédiat."
+  - type: texte
+    titre: Crise suicidaire — contexte
+    contenu: "État de crise psychique temporaire et réversible dont le risque majeur est le suicide (acte de se donner délibérément la mort). La personne se sent dans une souffrance majeure, dans une impasse, submergée par les émotions ; la fatigue physique et morale altère son jugement et l'idée suicidaire finit par s'imposer comme seule issue. Le processus résulte d'une accumulation de facteurs (familiaux, professionnels, sociaux), jamais d'une seule origine."
+  - type: liste
+    titre: Signes et manifestations de la crise suicidaire
+    items:
+      - "Messages directs : « je veux mourir », « je veux en finir », « j'ai perdu le goût de vivre »."
+      - "Messages indirects : « je n'en peux plus, je voudrais partir, disparaître », « ils seraient mieux sans moi »."
+      - "Manifestations de crise psychique : fatigue, anxiété, tristesse, irritabilité/agressivité, troubles du sommeil, troubles des conduites alimentaires, perte d'intérêt et de plaisir, sentiment d'échec et d'inutilité, mauvaise image de soi et dévalorisation, impuissance à trouver des solutions, troubles de la mémoire, ruminations, consommation tabagique et alcoolique augmentée."
+      - "Contexte de vulnérabilité : dépression, affections psychiatriques existantes, antécédents de passage à l'acte suicidaire, alcoolisme, toxicomanies, pathologies graves (cancer...), histoire familiale ou événement douloureux, rupture familiale ou conjugale, licenciement."
+  - type: liste
+    titre: Évaluation du potentiel suicidaire
+    items:
+      - "Objectif des secouristes : repousser l'échéance du passage à l'acte en reconnaissant la souffrance et en discernant les éléments qui augmentent le risque. L'évaluation est rapide et détermine les priorités."
+      - "Facteurs d'urgence (imminence du geste) : intensité, temporalité, lieu et modalités de l'acte envisagés."
+      - "Facteurs de dangerosité : accessibilité et létalité (risque d'entraîner la mort) du moyen envisagé."
+  - type: liste
+    titre: Critères d'une urgence élevée
+    items:
+      - "Planification claire, passage à l'acte prévu pour les jours à venir (scénario : Comment, Où, Quand ?)."
+      - "Sentiment d'avoir tout fait et tout essayé, refus de toute aide."
+      - "Douleur et expression de la souffrance omniprésentes ou complètement tues."
+      - "Accès direct et immédiat à un moyen de se suicider (médicaments, armes, corde...)."
+  - type: etapes
+    titre: Conduite face à une crise suicidaire
+    items:
+      - "Dialoguer avec tact, sans jugement de valeur, de façon que la victime se sente prise en compte et respectée ; reconnaître et aborder clairement la crise."
+      - "Évaluer le risque (Comment, Où, Quand ?) par des questions directes : « Souffrez-vous au point de vouloir mourir (vous faire du mal) ? », « Pensez-vous à une façon de vous suicider ? », « Avez-vous prévu un moment ? Quand ? », « Pensez-vous à un endroit en particulier ? »."
+      - "Évaluer la facilité d'accès aux moyens létaux évoqués (« Disposez-vous de ce matériel ? », « Avez-vous envisagé un moyen de vous le procurer ? ») et les éloigner autant que possible."
+      - "Proposer systématiquement le transport vers l'hôpital pour une évaluation spécialisée et éventuellement une hospitalisation."
+      - "Transmettre l'ensemble des éléments observés (victime, entourage, lieux) et rapporter à l'hôpital les éléments informatifs (emballages de médicaments, lettre, photo du dispositif...)."
+  - type: attention
+    titre: Crise suicidaire — à éviter et précisions
+    items:
+      - "Bannir toute provocation et tout ordre catégorique ; ne pas tenir de propos moralisateurs ou de « bon sens » ; ne pas minimiser les problèmes ni dévaloriser le geste (« une bêtise »)."
+      - "Toute idée suicidaire est à considérer comme un suicide en cours de réalisation : même face à un geste « bénin », un transport pour évaluation par un spécialiste est indispensable."
+      - "Surveiller la victime pendant toute l'intervention, y compris durant le transport : l'impulsion au passage à l'acte peut être accentuée par la crainte de l'hospitalisation."
+      - "Les questions directes, même embarrassantes, précisent le mode d'action envisagé ; la personne peut y voir une compréhension de sa souffrance, et l'absence de questionnement comme un désintérêt."
+  - type: texte
+    titre: Événements exceptionnels — contexte
+    contenu: "Événements inhabituels, brutaux, avec dégâts humains et matériels et afflux de victimes : catastrophes majeures (inondations, feux de forêt, ouragans), accidents catastrophiques à effet limité (carambolages, transports en commun, incendies en milieu urbain, accidents liés au gaz, accidents technologiques, rassemblements de foule, attentats terroristes) ou pandémies. Impacts psychologiques plus importants si des proches disparaissent ou si les médias relaient largement l'événement ; insécurité psychique de communautés entières. L'action de secours est complexe : débordement temporaire des moyens (mode dégradé), afflux de victimes avec nécessité de triage, risque de débordement émotionnel collectif. L'anonymat et l'imitation favorisent l'impulsivité ; des comportements primaires peuvent apparaître (fuite éperdue, bousculades, piétinement). La panique accroît le danger et le nombre de victimes."
+  - type: liste
+    titre: Face à un attroupement ou une foule
+    items:
+      - "Donner des consignes de dispersion : demander à toute personne présente de s'écarter pour ne pas gêner l'organisation des secours ni incommoder les victimes."
+      - "Donner des tâches à réaliser aux victimes en état de le faire, aux personnes impliquées ou aux témoins les plus agités (attendre les renforts pour les guider, aller chercher des documents, évacuer...) : cela diminue en général leur angoisse."
+  - type: etapes
+    titre: En cas de mouvement de panique
+    items:
+      - Être facilement identifiable en tant que secouriste.
+      - Agir de façon coordonnée avec calme.
+      - "Faire preuve d'autorité en donnant des informations et directives brèves et claires (anticipation)."
+      - "Isoler les personnes susceptibles de réenclencher un mouvement de panique, une fois celui-ci enrayé."
+      - Créer un périmètre de sécurité.
+      - "Extraire rapidement la ou les victimes vers un périmètre sécurisé (véhicule, PMA ou bâtiment)."
+  - type: texte
+    titre: Orientation et CUMP
+    contenu: "Les réactions de détresse doivent alerter : elles indiquent une blessure psychologique grave. Une prise en charge médicale et/ou psychologique est indiquée face au risque de troubles psychotraumatiques durables ; orienter vers une prise en charge psychologique spécialisée (urgences hospitalières ou, à proximité de la catastrophe, Cellules d'Urgence Médico-Psychologique). Les CUMP sont, en France, un dispositif de prise en charge psychologique précoce des blessés psychiques dans les situations d'urgence collective (événements majeurs, sinistres, attentats), intervenant dans le cadre du SAMU ; elles sont composées de spécialistes (psychiatres, psychologues, infirmiers) formés à ces urgences et déclenchées à l'initiative du SAMU."
+qcm:
+  - id: q1
+    enonce: "Quels sont les objectifs de l'action de secours face à une personne en situation de crise ?"
+    propositions:
+      - "Protéger les intervenants, la victime et son entourage"
+      - "Identifier les réactions inhabituelles et transmettre un maximum d'informations au médecin régulateur ou à l'équipe médicale"
+      - "Stabiliser l'état de crise dans la mesure du possible"
+      - "Confronter la victime à la vision de ses blessures"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'action de secours protège, identifie et transmet, et stabilise l'état de crise ; il faut au contraire éviter de surexposer la victime (vision des blessures)."
+  - id: q2
+    enonce: "Que faut-il faire si le contact et le dialogue avec la personne en crise sont impossibles ?"
+    propositions:
+      - "Demander une médicalisation en vue d'une éventuelle sédation"
+      - "Faire intervenir les forces de l'ordre en protection si la sécurité des personnes est compromise"
+      - "Maîtriser physiquement la personne dans tous les cas"
+      - "Insister pour obtenir un récit détaillé"
+    bonnes:
+      - 0
+      - 1
+    explication: "Contact impossible : médicalisation (sédation éventuelle) et forces de l'ordre en protection si la sécurité et la sûreté sont compromises."
+  - id: q3
+    enonce: "Face à une victime hypoactive (silencieuse), quelle attitude faut-il éviter ?"
+    propositions:
+      - "Lui demander de faire le récit de l'événement ou de parler de ses émotions"
+      - Rechercher le contact visuel
+      - La ramener dans « l'ici et maintenant »
+      - La laisser seule
+    bonnes:
+      - 0
+      - 3
+    explication: "Faire raconter l'événement ou les émotions maintient ou réactive la dissociation ; il ne faut jamais laisser la victime seule."
+  - id: q4
+    enonce: "Quelle technique convient face à une victime hypoactive pour la ramener dans le présent ?"
+    propositions:
+      - "Lui poser des questions concrètes sur ce qu'elle voit, entend ou touche"
+      - "L'interroger longuement sur ses souvenirs de l'événement"
+      - "La contredire sur sa perception"
+      - "L'isoler dans le calme sans lui parler"
+    bonnes:
+      - 0
+    explication: "On l'aide à reprendre contact avec la réalité par des questions concrètes, la respiration contrôlée et des techniques de focalisation attentionnelle."
+  - id: q5
+    enonce: "Face à une victime hyperactive présentant des hallucinations ou des propos incohérents, que faut-il faire ?"
+    propositions:
+      - La contredire fermement
+      - Ne pas la contredire
+      - Se moquer de ses propos
+      - Hausser le ton
+    bonnes:
+      - 1
+    explication: "Dans le cas d'hallucinations ou de propos incohérents, on ne contredit pas la victime ; on garde une voix calme, un débit lent et des gestes non brusques."
+  - id: q6
+    enonce: "Une victime hyperactive exprime le besoin de bouger. Que peut-on lui proposer ?"
+    propositions:
+      - Des contractions alternées à fonction exutoire
+      - De rester immobile de force
+      - De courir hors de la zone
+      - De s'allonger immédiatement
+    bonnes:
+      - 0
+    explication: "Des contractions alternées (techniques de focalisation/défocalisation attentionnelles) remplissent une fonction exutoire."
+  - id: q7
+    enonce: "Quelles sont les trois phases du processus menant à un passage à l'acte violent, dans l'ordre ?"
+    propositions:
+      - "Accumulation émotionnelle avec tension, puis panique, puis passage à l'acte suivi d'un soulagement"
+      - "Soulagement, puis accumulation, puis passage à l'acte"
+      - "Passage à l'acte, puis panique, puis accumulation"
+      - "Panique, soulagement, puis tension"
+    bonnes:
+      - 0
+    explication: "Tension nerveuse et agitation, état de panique, puis libération de la tension (passage à l'acte) suivie d'une phase de soulagement."
+  - id: q8
+    enonce: "Lesquels sont des signes d'alerte d'un passage à l'acte violent ?"
+    propositions:
+      - Regard fixe ou menaçant
+      - Dilatation des pupilles
+      - Serrement des mâchoires
+      - Empiétement sur l'espace personnel
+      - Sourire détendu et voix posée
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Regard fixe, dilatation des pupilles, raidissement et serrement des mâchoires, tendance à s'approcher font partie des signes d'alerte."
+  - id: q9
+    enonce: "Face à une personne violente, comment l'équipe se positionne-t-elle et qui parle ?"
+    propositions:
+      - "En triangle, un seul secouriste parle et les deux autres, en arrière, le soutiennent"
+      - "En cercle autour de la victime, tous parlent"
+      - "En ligne, avec un secouriste dos à la sortie"
+      - "Un secouriste seul face à la victime"
+    bonnes:
+      - 0
+    explication: "L'équipe se place en triangle ; un seul interlocuteur s'adresse à la victime et présente les gestes de ses équipiers."
+  - id: q10
+    enonce: "Quelles attitudes sont à éviter face à une personne agressive ?"
+    propositions:
+      - Bras croisés ou mains sur les hanches
+      - Pointer du doigt
+      - Regarder fixement la personne dans les yeux
+      - "Toucher, contraindre physiquement, tirer, tenir"
+      - Vouvoyer la personne
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Les attitudes agressives et le contact physique sont à éviter ; on maintient au contraire les marques de respect comme le vouvoiement."
+  - id: q11
+    enonce: "Dans quels cas l'usage de la force pour maîtriser une personne agressive est-il admis pour le secouriste ?"
+    propositions:
+      - "Pour préserver sa propre intégrité"
+      - "Pour limiter, dans la mesure du possible, un danger manifestement grave et imminent"
+      - "Dès que la personne refuse de coopérer"
+      - "Pour gagner du temps"
+    bonnes:
+      - 0
+      - 1
+    explication: "L'usage de la force n'est pas du ressort du secouriste, sauf 2 exceptions : préserver sa propre intégrité ou limiter un danger manifestement grave et imminent."
+  - id: q12
+    enonce: "Si l'abord relationnel d'une personne agressive est impossible et la situation dangereuse, que font les secouristes ?"
+    propositions:
+      - Ils se retirent et alertent
+      - Ils restent seuls avec la victime
+      - Ils la contraignent physiquement
+      - Ils lui tournent le dos
+    bonnes:
+      - 0
+    explication: "Dans les situations de crise avec danger, les secouristes doivent se retirer et alerter."
+  - id: q13
+    enonce: "Qui est chargé de l'annonce d'un décès, en principe ?"
+    propositions:
+      - Le médecin, la police ou un officier de police judiciaire
+      - Toujours le secouriste
+      - Le premier témoin
+      - Un voisin
+    bonnes:
+      - 0
+    explication: "L'annonce est du ressort du médecin, de la police ou d'un OPJ (le maire par exemple) ; à titre très exceptionnel, le secouriste peut la faire."
+  - id: q14
+    enonce: "Comment annoncer un décès ?"
+    propositions:
+      - "Dans un lieu calme, hors de la zone d'intervention, en intervenant à deux"
+      - "Sur la voie publique devant les témoins"
+      - "En reprenant le contexte, la cause, la chronologie et les actions entreprises"
+      - "En évitant le mot « mort » pour les enfants"
+    bonnes:
+      - 0
+      - 2
+    explication: "L'annonce se fait dans un lieu calme et intime, à deux, avec un médecin si possible ; aux enfants et adolescents, on utilise des mots simples et directs, dont le mot « mort »."
+  - id: q15
+    enonce: "Dans quelles conditions le recours aux forces de l'ordre est-il apprécié face à une victime de violences ?"
+    propositions:
+      - "Danger persistant pour la ou les victimes"
+      - "Danger pour l'équipage"
+      - "Demande de la victime"
+      - "Systématiquement, dans tous les cas"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le recours aux forces de l'ordre ne se fait que dans trois conditions : danger persistant pour la victime, danger pour l'équipage ou demande de la victime."
+  - id: q16
+    enonce: "Face à une victime d'agression sexuelle, quelles conduites sont correctes ?"
+    propositions:
+      - "Conserver les sous-vêtements dans plusieurs sacs neufs séparés"
+      - "Transporter la victime dans la position où elle se sent le mieux"
+      - "Orienter vers des services spécialisés dont les urgences médico-judiciaires"
+      - "Mener un interrogatoire détaillé sur place"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Il ne s'agit pas de mener une enquête : on écoute, on préserve les éléments de preuve et on oriente rapidement vers des services spécialisés."
+  - id: q17
+    enonce: "Quels éléments constituent des critères d'une urgence élevée dans une crise suicidaire ?"
+    propositions:
+      - "Planification claire, passage à l'acte prévu pour les jours à venir"
+      - "Accès direct et immédiat à un moyen de se suicider"
+      - "Sentiment d'avoir tout essayé et refus de toute aide"
+      - "Absence totale de tout projet et demande d'aide"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Scénario précis (Comment, Où, Quand), moyen immédiatement accessible, sentiment d'avoir tout essayé et refus d'aide sont des critères d'urgence élevée."
+  - id: q18
+    enonce: "Face à une personne en crise suicidaire, que faut-il faire ?"
+    propositions:
+      - "Poser des questions directes sur le projet (comment, où, quand)"
+      - "Éloigner les moyens létaux autant que possible"
+      - "Proposer systématiquement un transport vers l'hôpital"
+      - "Minimiser le geste en le qualifiant de bêtise"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "On évalue le risque par des questions directes, on éloigne les moyens létaux et on propose systématiquement le transport ; il faut éviter de dévaloriser le geste."
+  - id: q19
+    enonce: "Pourquoi surveiller une victime en crise suicidaire y compris pendant le transport ?"
+    propositions:
+      - "Car l'impulsion de passage à l'acte peut être accentuée par la crainte de l'hospitalisation"
+      - "Car le transport supprime tout risque"
+      - "Uniquement par obligation administrative"
+      - "Car elle est forcément inconsciente"
+    bonnes:
+      - 0
+    explication: "La crainte de l'hospitalisation peut accentuer l'impulsion ; toute idée suicidaire est considérée comme un suicide en cours de réalisation."
+  - id: q20
+    enonce: "En cas de mouvement de panique, quelles actions sont à mener ?"
+    propositions:
+      - "Être facilement identifiable en tant que secouriste"
+      - "Donner des informations et directives brèves et claires"
+      - "Créer un périmètre de sécurité"
+      - "Extraire rapidement les victimes vers un périmètre sécurisé"
+      - "Laisser la foule se disperser sans consigne"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "Le secouriste est identifiable, coordonné et calme, directif, crée un périmètre de sécurité et extrait les victimes vers un lieu sécurisé (véhicule, PMA, bâtiment)."
+  - id: q21
+    enonce: "Qui déclenche les CUMP et de qui sont-elles composées ?"
+    propositions:
+      - "Elles sont déclenchées à l'initiative du SAMU"
+      - "Elles sont composées de psychiatres, psychologues et infirmiers spécialement formés"
+      - "Elles sont déclenchées par la victime elle-même"
+      - "Elles sont composées uniquement de secouristes bénévoles"
+    bonnes:
+      - 0
+      - 1
+    explication: "Les CUMP interviennent dans le cadre du SAMU, à son initiative, avec des spécialistes formés aux urgences collectives."

@@ -1,0 +1,143 @@
+id: relevage-brancardage-generalites
+niveau: PSE2
+chapitre: relevage-brancardage
+type: connaissance
+ordre: 1
+titre: Relevage et brancardage
+motsCles: [relevage, brancardage, manutention, gestes et postures, brancard, dispositif de portage, chaise de transport, commandement]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10AC01, 09-2019)
+  code: 10AC01
+  page: 341
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le relevage consiste à placer une victime sur un brancard, directement ou à l'aide d'un dispositif particulier de relevage, afin d'assurer son déplacement (le brancardage). Il est réalisé après avoir soustrait la victime à la cause de sa détresse et l'avoir installée dans la position que nécessite son état. Ces techniques comportent des risques pour la victime mais aussi pour le secouriste : un bon entraînement et le respect des techniques les évitent ou les minimisent."
+  - type: liste
+    titre: Principes généraux de manutention
+    items:
+      - "Les manœuvres se font de manière coordonnée, sous la conduite d'un chef, et exigent la stabilité des secouristes et la sécurité de leurs mouvements."
+      - "Stabilité des positions et sécurité des mouvements : debout, pieds écartés, décalés, non parallèles ; à genoux, position du « trépied » (un genou à terre, l'autre écarté en dehors des avant-bras) ; penché en avant, dos plat, en travaillant avec les muscles des membres inférieurs et en s'éloignant le moins possible de la verticale. Il vaut mieux s'accroupir que se pencher. Ces principes évitent les « faux mouvements » à l'origine des douleurs dorso-lombaires."
+      - "Fermeté des prises : la charge est saisie à pleines mains et non du bout des doigts ; elle porte sur les avant-bras et non sur les mains."
+      - "Bonne répartition des charges : les secouristes doivent être plusieurs (3 à 6 selon les cas) ; la charge est rapprochée au maximum des porteurs."
+      - "Synchronisation des mouvements : en équipe, les mouvements sont doux et synchronisés, sous les ordres d'un chef."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "3 à 6"
+        libelle: "nombre de secouristes selon les cas pour répartir la charge"
+      - valeur: "2 temps"
+        libelle: "commandement le plus souvent : ordre préparatoire puis ordre d'exécution (« Attention pour lever… Levez ! »)"
+      - valeur: "43 cm"
+        libelle: "largeur du cadre tubulaire du brancard cuillère au niveau du tronc"
+      - valeur: "6 ou 8"
+        libelle: "poignées d'une alèse portoir (symétriques ou dissymétriques)"
+  - type: liste
+    titre: Règles générales de brancardage
+    items:
+      - "Le brancardage est une épreuve inconfortable pour la victime : il faut en minimiser les effets."
+      - "Préalablement au déplacement : arrimer ou sangler la victime ; positionner les secouristes en fonction de leur taille et de leur force."
+      - "Lors du déplacement : maintenir le brancard en position horizontale ; exécuter les mouvements de façon coordonnée pour qu'ils soient les plus doux possible ; déplacer en marchant, sans secousse ni balancement ; placer en règle générale la tête de la victime vers l'avant."
+      - "Le chef se place préférentiellement à l'arrière : il voit toute son équipe et surveille constamment la victime. Il coordonne la manœuvre et commande chaque action. Les ordres sont donnés à haute et intelligible voix, pour être entendus de tous."
+  - type: liste
+    titre: Matériel de relevage et de brancardage
+    items:
+      - "Les véhicules dédiés au transport des victimes sont en général équipés de brancards adaptés à des chariots porte-brancard, dont ils peuvent parfois être désolidarisés."
+      - "Brancard pliant à compas sans tétière : brancard plat à fond en toile, hampes en bois ou métal avec pieds fixes, réunies par des compas métalliques (pliage dans la largeur). Peut avoir des bretelles pour le brancardage à trois."
+      - "Brancard dit principal : muni de roues, utilisable seul ou combiné à un chariot de transport ; dossier (appui-tête) permettant la position demi-assise, repose-pied possible (brancard articulé) ; zone du thorax rigide pour réaliser une RCP ; matelas de transport, parfois appuis latéraux rabattables. Il répond à la norme NF EN 1865."
+      - "Brancards de catastrophe : plats, rigides, aisément empilables, stockage et transport à vide sous faible volume."
+      - "Brancard pour aéronefs : brancards spéciaux, plus étroits, sur certains aéronefs en version sanitaire."
+      - "Chaise de transport (pliante ou non pliante) : répond à une difficulté réelle de brancardage en étages, dans les immeubles sans ascenseur ou aux escaliers ou ascenseurs étroits. Pour une victime qui peut se tenir assise et ne présente aucune détresse. Poignées sur le cadre supérieur (dans le dos) et sur la barre inférieure (aux pieds)."
+      - "Les brancards et dispositifs de portage sont prévus pour des victimes de corpulence courante et ne doivent pas être utilisés au-delà du poids maximal indiqué par le fabricant. Pour une corpulence supérieure, faire appel à des services dotés de dispositifs de portage adaptés, dits « dispositifs bariatriques »."
+  - type: liste
+    titre: Autres dispositifs de portage
+    items:
+      - "Brancard cuillère : deux parties glissées latéralement sous le blessé puis réunies pour former un brancard rigide (métal inoxydable ou PVC). Cadre tubulaire large de 43 cm au niveau du tronc, réglable en longueur, avec deux systèmes à encliquetage articulés (ouverture en éventail ou dissociation en deux parties) ; lames pleines légèrement incurvées permettant la « cueillette » ; trois sangles d'arrimage ; forme « en auge » permettant de glisser les lames sans soulever la victime ; stockage replié. Surtout utilisé pour relever une victime et la transférer sur un autre moyen de transport ; peut être équipé de blocs de tête pour restreindre les mouvements du rachis cervical."
+      - "Alèse portoir : rectangle de toile épaisse, solide, plastifiée, radiotransparente, à la dimension de la surface utile du brancard, avec 6 ou 8 poignées latérales renforcées de sangles. Placée à l'avance sur le brancard sous la couverture, elle permet de faire glisser le blessé d'un brancard sur un autre ou sur un lit, une table d'examen ou de radiologie. Utilisée isolément et de façon transitoire, elle permet de transporter une victime sans lésion traumatique jusqu'au brancard si on ne peut l'amener à la victime. Lavable, stockable sous faible volume, mais ne constitue pas un plan dur."
+      - "Brancard Piguilem : cadre tubulaire métallique monté sur patins, avec plaque plastique à l'avant ; léger, adapté au treuillage ou au glissage (sur neige par exemple). Le brancard claie de portage Pigui 3 en dérive, formé de deux éléments tubulaires facilitant le portage."
+      - "Barquette : dispositif rigide muni de bords sur ses quatre côtés et de sangles d'immobilisation, avec quatre anneaux de fixation pour les élingues de treuillage ou d'hélitreuillage ; certains modèles se séparent en deux parties pour le portage à vide."
+      - "Civières pour hélicoptères : en hélicoptère moyen ou léger, la victime doit être transférée sur la civière de l'appareil (intérêt du portoir) ; seuls les hélicoptères lourds acceptent les brancards normalisés."
+      - "Gouttière Bellisle (ou portoir corset) : utilisée sur les bâtiments de la Marine nationale ; enveloppe souple en toile lavable rigidifiée dans la longueur par des lamelles, contention de la victime dans toutes les positions, portage par poignées et hampes amovibles, hissage en position verticale ou horizontale. Elle s'enroule autour de la victime et la protège des chocs sur un plan dur ; facilite l'évacuation par des passages étroits (ascenseur, escalier, trou d'homme)."
+      - "Le plan dur et le matelas immobilisateur à dépression sont deux autres dispositifs couramment utilisés, traités dans leurs fiches techniques propres."
+  - type: attention
+    titre: Erreurs à éviter
+    items:
+      - "Se pencher en avant dos rond au lieu de s'accroupir et de garder le dos plat."
+      - "Saisir la charge du bout des doigts au lieu de la saisir à pleines mains."
+      - "Se déplacer avec secousses ou balancements, ou incliner le brancard : il doit rester horizontal."
+      - "Dépasser le poids maximal indiqué par le fabricant du dispositif de portage."
+      - "Utiliser une chaise de transport pour une victime qui présente une détresse ou ne peut supporter la position assise."
+qcm:
+  - id: q1
+    enonce: "Selon les principes généraux de manutention, comment le secouriste doit-il se positionner pour lever une charge ?"
+    propositions:
+      - "Dos arrondi, jambes tendues, pieds parallèles"
+      - "Pieds écartés et décalés, dos plat, en travaillant avec les muscles des membres inférieurs"
+      - "Pieds joints, buste penché en avant"
+      - "Pieds parallèles, en s'appuyant sur les bras"
+    bonnes: [1]
+    explication: "Debout, le secouriste a les pieds écartés, décalés, non parallèles ; penché en avant, il garde le dos plat et travaille avec les muscles des membres inférieurs. Il vaut mieux s'accroupir que se pencher."
+  - id: q2
+    enonce: "Pour saisir une charge, quelles règles s'appliquent ?"
+    propositions:
+      - "Elle est saisie du bout des doigts"
+      - "Elle est saisie à pleines mains"
+      - "Elle porte sur les avant-bras"
+      - "Elle porte sur les mains"
+    bonnes: [1, 2]
+    explication: "La charge est saisie à pleines mains et non du bout des doigts ; elle porte sur les avant-bras et non sur les mains."
+  - id: q3
+    enonce: "Où se place préférentiellement le chef lors d'un brancardage, et pourquoi ?"
+    propositions:
+      - "À l'avant, pour ouvrir la voie"
+      - "Sur le côté, pour porter le brancard"
+      - "À l'arrière, pour voir toute l'équipe et surveiller constamment la victime"
+      - "À l'écart, pour ne pas gêner les porteurs"
+    bonnes: [2]
+    explication: "Le chef se place préférentiellement à l'arrière : il a une vision sur l'ensemble de l'équipe et peut exercer une surveillance constante de la victime."
+  - id: q4
+    enonce: "Comment est donné le commandement lors des manœuvres de relevage et de brancardage ?"
+    propositions:
+      - "En un seul temps, à voix basse"
+      - "En deux temps : un ordre préparatoire puis un ordre d'exécution, à haute et intelligible voix"
+      - "En trois temps, chacun donnant son avis"
+      - "Sans commandement quand l'équipe est expérimentée"
+    bonnes: [1]
+    explication: "Le commandement se fait le plus souvent en deux temps, l'ordre d'exécution étant précédé d'un ordre préparatoire (« Attention pour lever… Levez ! »), à haute et intelligible voix."
+  - id: q5
+    enonce: "Lors du déplacement d'une victime sur un brancard, quelles règles sont exactes ?"
+    propositions:
+      - "Le brancard est maintenu en position horizontale"
+      - "Les déplacements se font en marchant, sans secousse ni balancement"
+      - "La tête de la victime est placée vers l'avant, en règle générale"
+      - "La victime est arrimée uniquement après le déplacement"
+    bonnes: [0, 1, 2]
+    explication: "Préalablement au déplacement, la victime est arrimée ou sanglée. Pendant le déplacement, le brancard reste horizontal, on marche sans secousse ni balancement et la tête de la victime est en règle générale placée vers l'avant."
+  - id: q6
+    enonce: "Pour quel type de victime la chaise de transport peut-elle être utilisée ?"
+    propositions:
+      - "Une victime en détresse respiratoire"
+      - "Une victime qui peut se tenir assise et ne présente aucune détresse"
+      - "Une victime inconsciente"
+      - "Une victime suspecte de traumatisme du rachis"
+    bonnes: [1]
+    explication: "La chaise de transport répond à une difficulté de brancardage en étages ; elle est utilisée pour une victime qui peut se tenir assise et ne présente aucune détresse."
+  - id: q7
+    enonce: "Que faire si la corpulence de la victime dépasse le poids maximal indiqué par le fabricant du brancard ?"
+    propositions:
+      - "Utiliser le brancard malgré tout avec davantage de porteurs"
+      - "Faire appel à des services dotés de dispositifs de portage adaptés, dits bariatriques"
+      - "Sangler plus fermement la victime"
+    bonnes: [1]
+    explication: "Les brancards sont prévus pour des victimes de corpulence courante : au-delà du maximum du fabricant, il faut faire appel à des services dotés de dispositifs bariatriques."
+  - id: q8
+    enonce: "Quelle est la largeur du cadre tubulaire du brancard cuillère au niveau du tronc ?"
+    propositions:
+      - "33 cm"
+      - "43 cm"
+      - "53 cm"
+      - "63 cm"
+    bonnes: [1]
+    explication: "Le cadre tubulaire du brancard cuillère est large de 43 cm au niveau du tronc."

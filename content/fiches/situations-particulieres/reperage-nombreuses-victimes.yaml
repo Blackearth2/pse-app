@@ -1,0 +1,146 @@
+id: reperage-nombreuses-victimes
+niveau: PSE1
+chapitre: situations-particulieres
+type: technique
+ordre: 2
+titre: Repérage en cas de nombreuses victimes
+motsCles: [repérage, code couleur, noir, rouge, jaune, vert, détresse vitale, PRV]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 11FT01, 12-2023)
+  code: 11FT01
+  page: 375
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le repérage des victimes est réalisé chaque fois que l'on se trouve en présence de plusieurs victimes et que le nombre de victimes apparemment graves est supérieur au nombre de secouristes présents. Il doit être très rapide et repose sur des critères simples."
+  - type: liste
+    titre: Justification (dans l'attente des renforts)
+    items:
+      - "Localiser les victimes"
+      - "Déterminer les victimes dont l'état nécessite une action de secours immédiate et rapide (pose d'un garrot, libération des voies aériennes, mise en position d'attente, etc.)"
+      - "Déterminer les victimes qui devront être examinées prioritairement par un médecin"
+  - type: texte
+    titre: Matériel
+    contenu: "Un dispositif de repérage (fiches d'identification, bracelets...) permet d'identifier rapidement la victime et son état. Il peut inclure une numérotation pour que l'identification soit unique tout au long de la chaîne de prise en charge. L'état de la victime est généralement repéré par un code couleur. En l'absence de dispositif, il peut être remplacé par un marquage de la victime à l'aide d'un stylo."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Aborder les victimes les unes après les autres, en commençant par la plus proche de l'endroit où l'on se trouve"
+      - "Rechercher une menace vitale ; en son absence, apprécier rapidement les fonctions respiratoire et circulatoire, ainsi que les lésions éventuelles"
+      - "Réaliser les gestes de secours adaptés"
+      - "Identifier la victime avec la couleur appropriée"
+      - "Passer à la victime suivante"
+      - "À l'issue du repérage, prendre ses consignes auprès du commandement, notamment pour engager des gestes complémentaires selon les consignes du moment"
+  - type: liste
+    titre: Code couleur
+    items:
+      - "NOIR : victime dont le décès ne fait aucun doute (tête séparée du tronc, victime déchiquetée, démembrée, raideur cadavérique) ; victime qui a perdu connaissance et ne respire pas après libération des voies aériennes (LVA)"
+      - "ROUGE : victime qui a perdu connaissance et respire après LVA ; victime avec une hémorragie ; victime consciente qui présente une détresse vitale"
+      - "JAUNE : victime consciente qui ne présente pas de détresse vitale et ne pouvant se déplacer seule"
+      - "VERT : personne exposée à la situation, ne présentant pas de détresse vitale et pouvant se déplacer seule ou aidée"
+  - type: chiffres
+    titre: Repères chiffrés (adulte, nombreuses victimes)
+    items:
+      - valeur: "15 s"
+        libelle: "maximum pour apprécier la respiration, et 15 s maximum pour apprécier la circulation (sans excéder 15 s par fonction)"
+      - valeur: "> 30 mvt/min"
+        libelle: "fréquence respiratoire considérée comme une détresse respiratoire"
+      - valeur: "> 120 bat/min"
+        libelle: "fréquence cardiaque considérée comme une détresse circulatoire"
+  - type: etapes
+    titre: Logigramme de décision (résumé de la fiche)
+    items:
+      - "Engagement auprès de la victime la plus proche. Le décès ne fait pas de doute : victime NOIRE, ne pas la déplacer, poser un bracelet si possible, changer de victime."
+      - "Hémorragie : la traiter."
+      - "Recherche de perte de connaissance : si oui, libération des voies aériennes ; si la victime ne respire pas, ne pas la déplacer (NOIR) ; si elle respire, position latérale de sécurité, couvrir si possible, laisser la victime sur place, ROUGE."
+      - "Appréciation d'une détresse vitale : si oui, position d'attente, couvrir si possible, laisser la victime sur place, ROUGE."
+      - "Incapacité à se déplacer : si oui, laisser dans sa position, laisser la victime sur place, JAUNE."
+      - "Sinon : victime VERTE, à envoyer au PRV."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le repérage doit permettre une catégorisation précoce de l'ensemble des victimes afin de prioriser leur prise en charge en fonction des moyens disponibles."
+      - "Ne pas dépasser 15 secondes par fonction (respiration, circulation) lors de l'appréciation."
+      - "Une victime inconsciente qui ne respire pas après libération des voies aériennes est repérée en noir."
+qcm:
+  - id: q1
+    enonce: "Dans quel cas réalise-t-on le repérage des victimes ?"
+    propositions:
+      - "Dès qu'il y a une seule victime"
+      - "Quand il y a plusieurs victimes et que le nombre de victimes apparemment graves est supérieur au nombre de secouristes présents"
+      - "Uniquement à l'arrivée des renforts médicaux"
+    bonnes:
+      - 1
+    explication: "Le repérage est réalisé en présence de plusieurs victimes dont le nombre de victimes apparemment graves dépasse le nombre de secouristes."
+  - id: q2
+    enonce: "Quelle couleur attribuer à une victime inconsciente qui respire après libération des voies aériennes ?"
+    propositions:
+      - "Noir"
+      - "Jaune"
+      - "Vert"
+      - "Rouge"
+    bonnes:
+      - 3
+    explication: "La victime qui a perdu connaissance et respire après LVA est repérée en rouge (puis mise en PLS)."
+  - id: q3
+    enonce: "Quelle couleur attribuer à une victime inconsciente qui ne respire pas après libération des voies aériennes ?"
+    propositions:
+      - "Noir"
+      - "Rouge"
+      - "Jaune"
+      - "Vert"
+    bonnes:
+      - 0
+    explication: "La victime qui a perdu connaissance et ne respire pas après LVA est repérée en noir, comme la victime dont le décès ne fait aucun doute."
+  - id: q4
+    enonce: "Quelles victimes sont repérées en rouge ?"
+    propositions:
+      - "Victime avec une hémorragie"
+      - "Victime consciente présentant une détresse vitale"
+      - "Victime consciente sans détresse vitale ne pouvant se déplacer seule"
+      - "Victime inconsciente qui respire après LVA"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "Rouge : hémorragie, détresse vitale chez une victime consciente, inconscience avec respiration après LVA. La victime consciente sans détresse vitale qui ne peut se déplacer seule est en jaune."
+  - id: q5
+    enonce: "Quelle est la durée maximale d'appréciation de chaque fonction (respiration, circulation) lors du repérage ?"
+    propositions:
+      - "5 secondes"
+      - "10 secondes"
+      - "15 secondes"
+      - "30 secondes"
+    bonnes:
+      - 2
+    explication: "L'appréciation de la respiration et de la circulation ne doit pas excéder 15 secondes par fonction."
+  - id: q6
+    enonce: "Chez l'adulte, en cas de nombreuses victimes, à partir de quelles fréquences parle-t-on de détresse respiratoire et circulatoire ?"
+    propositions:
+      - "Fréquence respiratoire supérieure à 30 mvt/min ; fréquence cardiaque supérieure à 120 bat/min"
+      - "Fréquence respiratoire supérieure à 20 mvt/min ; fréquence cardiaque supérieure à 100 bat/min"
+      - "Fréquence respiratoire supérieure à 40 mvt/min ; fréquence cardiaque supérieure à 150 bat/min"
+    bonnes:
+      - 0
+    explication: "Les seuils de la fiche sont supérieur à 30 mvt/min (respiration) et supérieur à 120 bat/min (circulation)."
+  - id: q7
+    enonce: "Comment est repérée une personne exposée à la situation, sans détresse vitale et pouvant se déplacer seule ou aidée ?"
+    propositions:
+      - "Vert"
+      - "Jaune"
+      - "Rouge"
+      - "Noir"
+    bonnes:
+      - 0
+    explication: "Cette personne est repérée en vert et est envoyée au PRV."
+  - id: q8
+    enonce: "Par quelle victime commence-t-on le repérage ?"
+    propositions:
+      - "La plus grave d'après les témoins"
+      - "La plus proche de l'endroit où l'on se trouve"
+      - "La plus éloignée"
+    bonnes:
+      - 1
+    explication: "On aborde les victimes les unes après les autres, en commençant par la plus proche de l'endroit où l'on se trouve."

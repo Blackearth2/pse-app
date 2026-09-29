@@ -1,0 +1,127 @@
+id: relevage-quatre-secouristes
+niveau: PSE2
+chapitre: relevage-brancardage
+type: technique
+ordre: 8
+titre: Relevage à quatre secouristes
+motsCles: [relevage, pont néerlandais, pont amélioré, quatre secouristes, rachis, brancard]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT07, 09-2019)
+  code: 10FT07
+  page: 355
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le relevage à quatre secouristes permet de relever une victime lourde et de maintenir l'axe tête-cou-tronc. Il est réalisé si la corpulence de la victime le nécessite, ou si un brancard cuillère ne peut pas être utilisé pour relever une victime suspecte d'un traumatisme de la colonne vertébrale. Une cinquième personne peut faire glisser le brancard sous la victime lorsque c'est nécessaire."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Un dispositif de portage préalablement préparé et adapté, si nécessaire, à recevoir une victime qui présente un traumatisme du rachis (matelas immobilisateur, plan dur). L'ensemble est nommé « brancard » dans la fiche."
+  - type: liste
+    titre: Rôles des quatre intervenants
+    items:
+      - "Secouriste 1 : placé à la tête de la victime, il stabilise le rachis en maintenant la tête par une prise latéro-latérale. Il guide et commande toute la manœuvre. Dans le pont néerlandais, il est un genou côté brancard à terre, à l'intérieur des deux hampes et contre la poignée pour la caler. Dans le pont amélioré, il est en trépied."
+      - "Secouristes 2, 3 et 4 : placés en pont, jambes écartées au-dessus de la victime."
+  - type: etapes
+    titre: Préalable (pont néerlandais)
+    items:
+      - "Disposer le brancard le long du corps de la victime et, s'il a des roulettes, les bloquer."
+      - "Assurer la stabilisation du rachis cervical par un maintien de tête si la victime est suspecte d'un traumatisme du rachis."
+      - "Si la victime porte un collier cervical mis en place pour son extraction ou son dégagement avant le relevage, le maintenir en place jusqu'à la fin du relevage et de l'immobilisation de la victime."
+  - type: etapes
+    titre: Pont néerlandais à quatre porteurs
+    items:
+      - "Les secouristes 2, 3 ou 4 ramènent les bras de la victime sur son tronc."
+      - "Secouriste 2 : il prend position au niveau des pieds de la victime et place le pied côté brancard à l'intérieur des poignées, de manière à les bloquer."
+      - "Secouristes 3 et 4 : debout au niveau du bassin et des épaules de la victime, ils se font face, enjambent successivement la victime en prenant appui l'un sur l'autre et posent leur pied sur la hampe extérieure, sous le drap. Ils engagent les mains respectivement sous les épaules et sous la taille de la victime (ou saisissent les parties latérales de la ceinture si elle est solide)."
+      - "Secouriste 2 : il saisit les chevilles de la victime."
+      - "Commandements : secouriste 1 « Êtes-vous prêts ? » ; secouristes 2, 3 et 4 « Prêts ! » ; secouriste 1 « Attention pour lever... Levez ! »."
+      - "Secouristes 2, 3 et 4 : ils se relèvent en gardant le dos plat, soulèvent la victime et la déplacent latéralement jusqu'au brancard. Le secouriste 1 accompagne le mouvement et ordonne de poser la victime à la fin du déplacement."
+      - "Les secouristes posent doucement la victime sur le brancard, puis se dégagent successivement dans l'ordre 3 et 4, puis le secouriste placé aux pieds (secouriste 2)."
+  - type: attention
+    titre: Dégagement de l'équipier de tête (pont néerlandais)
+    items:
+      - "Le secouriste de tête (secouriste 1) ne peut se dégager que si la stabilisation du rachis cervical est assurée."
+  - type: etapes
+    titre: Pont amélioré
+    items:
+      - "Préalable : disposer le brancard dans l'axe de la victime, si possible au niveau des pieds ; un aide assurera son glissement sous la victime au commandement. Si ce n'est pas possible, le secouriste 1 se place en pont à la tête de la victime comme les autres secouristes, pour laisser passer le brancard par la tête."
+      - "Préalable : maintien de tête si la victime est suspecte d'un traumatisme du rachis ; conserver en place un éventuel collier cervical posé pour l'extraction ou le dégagement jusqu'à la fin du relevage et de l'immobilisation, si la victime est suspecte d'un traumatisme du rachis."
+      - "Les secouristes 2, 3 ou 4 ramènent les bras de la victime sur son tronc."
+      - "Les secouristes 2, 3 et 4 se placent l'un après l'autre en pont au-dessus de la victime, jambes suffisamment écartées et pieds légèrement décalés, respectivement au niveau des épaules, du bassin et des jambes. Les secouristes des épaules et du bassin se font face ; celui des membres inférieurs fait face au secouriste de tête."
+      - "Ils s'accroupissent en gardant le dos plat et engagent les mains respectivement sous les épaules, sous la taille (niveau de la ceinture) et au niveau des chevilles."
+      - "Commandements : secouriste 1 « Êtes-vous prêts ? » ; secouristes 2, 3 et 4 « Prêts ! » ; secouriste 1 « Attention pour lever... Levez ! »."
+      - "Les secouristes se relèvent en gardant le dos plat et soulèvent légèrement la victime pour permettre le passage du brancard."
+      - "Secouriste 1 : « Envoyez le brancard ! ». L'aide glisse le brancard entre les jambes des secouristes, sous la victime ; le secouriste 1 commande l'arrêt lorsque le brancard est arrivé sous la tête de la victime."
+      - "Une fois le brancard en place, secouriste 1 : « Posez ! ». Les secouristes posent doucement la victime, puis se dégagent successivement dans l'ordre 3 et 4, puis 2 (l'équipier placé aux pieds)."
+  - type: attention
+    titre: Dégagement de l'équipier de tête (pont amélioré)
+    items:
+      - "L'équipier de tête ne peut se dégager que si la victime n'est pas suspecte d'un traumatisme du rachis, ou après une restriction des mouvements du rachis cervical (par exemple immobilisation de la tête dans un matelas à dépression ou mise en place de blocs de tête)."
+  - type: liste
+    titre: Risques et évaluation
+    items:
+      - "Le risque de chute ou d'aggravation d'une éventuelle lésion de la colonne vertébrale est évité si la technique est correctement choisie et exécutée ; le respect des règles de manutention évite au secouriste de se blesser."
+      - "Le transfert est doux, sans à-coup, avec respect de l'axe tête-cou-tronc ; à l'issue, la victime est en position correcte sur le brancard."
+qcm:
+  - id: q1
+    enonce: "Dans quels cas le relevage à quatre secouristes est-il indiqué ?"
+    propositions:
+      - "Si la corpulence de la victime le nécessite"
+      - "Si un brancard cuillère ne peut pas être utilisé pour relever une victime suspecte d'un traumatisme de la colonne vertébrale"
+      - "Uniquement pour une victime qui marche encore"
+      - "Uniquement si la victime est un enfant"
+    bonnes:
+      - 0
+      - 1
+    explication: "Les deux indications citées sont la corpulence de la victime et l'impossibilité d'utiliser un brancard cuillère chez une victime suspecte de traumatisme du rachis."
+  - id: q2
+    enonce: "Qui commande la manœuvre de relevage à quatre secouristes ?"
+    propositions:
+      - "Le secouriste placé aux pieds de la victime"
+      - "Le secouriste placé à la tête, qui maintient la tête (secouriste 1)"
+      - "Le secouriste placé au bassin"
+      - "L'aide qui glisse le brancard"
+    bonnes:
+      - 1
+    explication: "Le secouriste 1, à la tête de la victime, stabilise le rachis par une prise latéro-latérale et guide et commande l'ensemble de la manœuvre."
+  - id: q3
+    enonce: "Quelle est la séquence exacte de commandement avant de lever la victime ?"
+    propositions:
+      - "« Attention pour lever... Levez ! » puis « Êtes-vous prêts ? »"
+      - "« Êtes-vous prêts ? » ; « Prêts ! » ; « Attention pour lever... Levez ! »"
+      - "« Prêts ! » ; « Levez ! » sans autre commandement"
+    bonnes:
+      - 1
+    explication: "Le secouriste 1 demande « Êtes-vous prêts ? », les secouristes 2, 3 et 4 répondent « Prêts ! », puis le secouriste 1 commande « Attention pour lever... Levez ! »."
+  - id: q4
+    enonce: "Dans quel ordre les secouristes se dégagent-ils après la dépose de la victime (pont néerlandais) ?"
+    propositions:
+      - "3 et 4, puis le secouriste placé aux pieds (secouriste 2)"
+      - "Le secouriste des pieds en premier, puis 3 et 4"
+      - "Tous en même temps"
+      - "Le secouriste de tête en premier"
+    bonnes:
+      - 0
+    explication: "Ils se dégagent successivement dans l'ordre 3 et 4, puis l'équipier placé aux pieds (secouriste 2). Le secouriste de tête ne se dégage que si la stabilisation du rachis cervical est assurée."
+  - id: q5
+    enonce: "Dans le pont amélioré, que fait l'aide ?"
+    propositions:
+      - "Il maintient la tête de la victime"
+      - "Il glisse le brancard entre les jambes des secouristes, sous la victime, à l'ordre « Envoyez le brancard ! »"
+      - "Il commande la manœuvre"
+      - "Il lève la victime par les épaules"
+    bonnes:
+      - 1
+    explication: "Au commandement du secouriste 1, l'aide glisse le brancard entre les jambes des secouristes, sous la victime, jusqu'à l'ordre d'arrêt lorsque le brancard est sous la tête."
+  - id: q6
+    enonce: "Si la victime porte un collier cervical posé pour son extraction ou son dégagement, que faire lors du relevage ?"
+    propositions:
+      - "Le retirer avant de lever la victime"
+      - "Le maintenir en place jusqu'à la fin du relevage et de l'immobilisation de la victime"
+      - "Le desserrer pour faciliter le passage du brancard"
+    bonnes:
+      - 1
+    explication: "Le collier cervical est maintenu en place jusqu'à la fin du relevage et de l'immobilisation de la victime."
