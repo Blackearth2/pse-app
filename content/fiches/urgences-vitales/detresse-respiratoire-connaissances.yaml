@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC07, 07-2026)"
   code: 05AC07
   page: 165
-liees: []
+liees: [detresse-respiratoire-conduite-a-tenir, evaluation-fonction-respiratoire, mesure-saturation-pulsee-oxygene, deuxieme-regard, positions-attente-transport]
 blocs:
   - type: texte
     titre: En bref

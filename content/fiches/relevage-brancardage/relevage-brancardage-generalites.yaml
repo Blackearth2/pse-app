@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10AC01, 09-2019)
   code: 10AC01
   page: 341
-liees: []
+liees: [relevage-trois-secouristes, relevage-quatre-secouristes, brancardage-trois-secouristes, brancardage-quatre-secouristes, arrimage-victime]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC02, 07-2026)
   code: 08AC02
   page: 271
-liees: []
+liees: [noyade-conduite-a-tenir, arret-cardiaque]
 blocs:
   - type: texte
     titre: En bref

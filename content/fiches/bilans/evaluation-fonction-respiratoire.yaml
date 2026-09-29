@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT07, 12-2022)
   code: 04FT07
   page: 82
-liees: []
+liees: [mesure-saturation-pulsee-oxygene, detresse-respiratoire-connaissances, troisieme-regard, quatrieme-regard]
 blocs:
   - type: texte
     titre: Indication et justification

@@ -1,0 +1,69 @@
+id: crise-asthme-barbecue
+niveau: PSE1
+titre: Crise d'asthme au barbecue
+lieu: Fête de quartier en plein air, stand de restauration
+statut: brouillon
+liees: [crise-d-asthme-connaissances, crise-d-asthme-conduite, malaise-aggravation-maladie-conduite-a-tenir, aide-prise-medicaments]
+contexte: "Lors d'une fête de quartier, tu es de poste près des stands. Un homme de 34 ans, asthmatique connu, se tient courbé au-dessus d'un barbecue enfumé. Il est conscient, très angoissé, agité, et sa respiration est sifflante."
+etapes:
+  - moment: "Au 2e regard"
+    situation: "L'homme ne parvient pas à finir ses phrases et fait comprendre par gestes qu'il manque d'air."
+    question: "Quels signes évoquent une forme grave de crise d'asthme ?"
+    type: multiple
+    propositions:
+      - texte: "Il refuse de s'allonger."
+        correct: true
+        retour: "Oui : dans la forme grave, la victime refuse de s'allonger."
+      - texte: "Il ne peut pas parler."
+        correct: true
+        retour: "Oui : l'impossibilité de parler traduit une détresse respiratoire."
+      - texte: "Un sifflement est audible quand il expire."
+        correct: true
+        retour: "Oui : le sifflement à l'expiration fait partie des signes de la forme grave."
+      - texte: "Une gêne respiratoire modérée, sans modification notable de la fréquence respiratoire."
+        correct: false
+        retour: "Non : cela décrit la forme légère de la crise, pas la forme grave."
+  - moment: "Première mesure"
+    situation: "Tu constates qu'il respire difficilement. La fumée du barbecue l'entoure toujours."
+    question: "Que fais-tu en premier ?"
+    type: choix
+    propositions:
+      - texte: "Tu l'allonges à plat sur le dos pour qu'il se repose."
+        correct: false
+        retour: "Non : une victime qui a des difficultés à respirer est installée en position assise. Ici, il refuse d'ailleurs de s'allonger."
+      - texte: "Tu l'éloignes de la fumée, facteur déclenchant probable, et tu l'installes assis dans une position confortable."
+        correct: true
+        retour: "Oui : on soustrait la victime aux facteurs qui ont pu déclencher la crise (atmosphère enfumée, polluée, poussière) et on l'installe en position d'attente, assise en cas de difficultés à respirer."
+      - texte: "Tu le laisses près du barbecue pour ne pas le déplacer."
+        correct: false
+        retour: "Non : la conduite à tenir prévoit de soustraire la victime aux facteurs déclenchants, comme une atmosphère enfumée."
+  - moment: "Aide au traitement"
+    situation: "L'homme te montre son aérosol doseur (spray), qui lui a été prescrit, et te demande de l'aider à le prendre. Tu as vérifié qu'il n'est pas périmé."
+    question: "Dans quel ordre guides-tu la prise du spray ?"
+    type: ordre
+    elements:
+      - "Secouer vigoureusement le pulvérisateur plusieurs fois"
+      - "Demander à la victime de vider autant que possible l'air de ses poumons"
+      - "Mettre les lèvres de la victime tout autour de l'embout"
+      - "Lui demander de comprimer le pulvérisateur en inspirant lentement et profondément"
+      - "Lui demander de retenir sa respiration pendant 10 secondes"
+    retour: "L'aide à la prise d'un spray buccal suit cet ordre : secouer le pulvérisateur, faire vider les poumons, placer les lèvres autour de l'embout, comprimer en inspirant lentement, profondément et le plus longtemps possible, puis retenir sa respiration 10 secondes. Suis toujours les instructions du fabricant, et demande un avis médical dans tous les cas."
+  - moment: "Transport"
+    situation: "Son état s'améliore un peu. Le médecin régulateur décide de son transfert vers un service d'urgence."
+    question: "Comment est-il installé pendant le transport ?"
+    type: choix
+    propositions:
+      - texte: "Dans la position initiale, en le maintenant assis."
+        correct: true
+        retour: "Oui : pour une crise d'asthme, on maintient la victime dans la position initiale pendant son transport."
+      - texte: "Allongé à plat, pour faciliter le brancardage."
+        correct: false
+        retour: "Non : la conduite à tenir prévoit de maintenir la position initiale de la victime pendant le transport, ici la position assise adaptée à sa gêne respiratoire."
+      - texte: "Sur le ventre, pour dégager ses bronches."
+        correct: false
+        retour: "Non : aucune position particulière de ce type n'est prévue. On maintient la position initiale, adaptée à la gêne respiratoire."
+pointsCles:
+  - "Forme grave : victime angoissée et agitée, qui refuse de s'allonger, ne peut pas parler, avec un sifflement à l'expiration."
+  - "Soustraire aux facteurs déclenchants (fumée, poussière), installer assis, administrer de l'oxygène si nécessaire et surveiller la respiration."
+  - "Aider à prendre le traitement prescrit, en vérifiant la prescription et la date de péremption."
+  - "Avis médical dans tous les cas ; position initiale maintenue pendant le transport."

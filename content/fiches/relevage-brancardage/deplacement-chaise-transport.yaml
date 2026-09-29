@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT02, 09-2019)
   code: 10FT02
   page: 346
-liees: []
+liees: [preparation-dispositif-portage, arrimage-victime, relevage-position-particuliere, relevage-brancardage-generalites]
 blocs:
   - type: texte
     titre: En bref

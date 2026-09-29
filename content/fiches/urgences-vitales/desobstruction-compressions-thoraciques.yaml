@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT09, 07-2026)
   code: 05FT09
   page: 133
-liees: []
+liees: [obstruction-voies-aeriennes-conduite-a-tenir, obstruction-voies-aeriennes-connaissances, desobstruction-claques-dos, desobstruction-compressions-abdominales]
 blocs:
   - type: texte
     titre: En bref

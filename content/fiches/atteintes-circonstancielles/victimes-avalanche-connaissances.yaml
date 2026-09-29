@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC14, 11-2021)
   code: 08AC14
   page: 319
-liees: []
+liees: [victimes-avalanche-conduite-a-tenir, hypothermie-connaissances]
 blocs:
   - type: liste
     titre: Rôle des témoins sur les lieux

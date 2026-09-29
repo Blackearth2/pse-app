@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR02, 07-2026)
   code: 06PR02
   page: 186
-liees: []
+liees: [douleur-thoracique-connaissances, malaise-aggravation-maladie-conduite-a-tenir, realisation-electrocardiogramme, detresse-circulatoire-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

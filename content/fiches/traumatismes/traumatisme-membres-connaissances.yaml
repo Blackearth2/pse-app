@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC07, 12-2023)
   code: 07AC07
   page: 223
-liees: []
+liees: [traumatisme-membres-conduite-a-tenir, application-de-froid]
 blocs:
   - type: texte
     titre: En bref

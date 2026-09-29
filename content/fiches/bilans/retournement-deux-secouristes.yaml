@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT01, 12-2023)
   code: 04FT01
   page: 73
-liees: []
+liees: [retournement-un-secouriste, deuxieme-regard, lva-victime-traumatisee]
 blocs:
   - type: texte
     titre: Indication

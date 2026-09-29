@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC01, 06-2018)"
   code: 05AC01
   page: 110
-liees: []
+liees: [administration-oxygene-inhalation, administration-oxygene-insufflation]
 blocs:
   - type: texte
     titre: En bref

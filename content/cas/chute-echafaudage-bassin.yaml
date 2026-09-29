@@ -1,0 +1,83 @@
+id: chute-echafaudage-bassin
+niveau: PSE2
+titre: Chute d'un échafaudage, douleur au bassin
+lieu: Chantier de ravalement de façade
+statut: brouillon
+liees: [traumatisme-bassin-connaissances, traumatisme-bassin-conduite-a-tenir, contention-pelvienne, detresse-circulatoire-connaissances, surveillance-victime]
+contexte: "Tu es appelé sur un chantier. Un ouvrier de 30 ans est tombé d'un échafaudage et s'est réceptionné sur le sol, en position assise puis sur le côté. Il est conscient, allongé sur le flanc, et se plaint d'une vive douleur au bas du ventre et aux hanches. Tu es accompagné d'un équipier ; le chef de chantier attend à proximité."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Aucune hémorragie externe n'est visible et l'ouvrier respire normalement. Le chef de chantier voudrait le relever pour l'installer assis sur une caisse."
+    question: "Quelle position lui fais-tu adopter ?"
+    type: choix
+    propositions:
+      - texte: "Assise, adossée à un mur, pour faciliter sa respiration"
+        correct: false
+        retour: "Non : la position assise est réservée à la gêne respiratoire, notamment pour une plaie du thorax. Devant un traumatisme du bassin, la victime est laissée en position allongée stricte, si possible."
+      - texte: "Allongée stricte si possible, en limitant toute mobilisation"
+        correct: true
+        retour: "Oui : on laisse la victime en position allongée stricte, si possible, et on limite toute mobilisation sauf nécessité absolue."
+      - texte: "Debout, pour vérifier s'il peut marcher"
+        correct: false
+        retour: "Non : il faut limiter toute mobilisation de la victime. Un traumatisme du bassin peut mettre rapidement la vie en jeu par hémorragie interne."
+  - moment: "Bilan"
+    situation: "Tu poursuis ton examen. Tu recherches des signes en faveur d'un traumatisme du bassin."
+    question: "Quels éléments sont évocateurs d'un traumatisme du bassin ?"
+    type: multiple
+    propositions:
+      - texte: "Une douleur spontanée au niveau du bassin ou du bas de l'abdomen"
+        correct: true
+        retour: "Oui : c'est un signe évocateur d'un traumatisme du bassin."
+      - texte: "Une impossibilité de bouger les membres inférieurs à cause de la douleur"
+        correct: true
+        retour: "Oui : l'impossibilité de bouger les membres inférieurs en raison de la douleur fait partie des signes à l'examen."
+      - texte: "Du sang dans les urines ou sur les sous-vêtements"
+        correct: true
+        retour: "Oui : il évoque une atteinte de la vessie ou de l'urètre."
+      - texte: "Des crachats de sang rouge lors de la toux"
+        correct: false
+        retour: "Non : ce signe évoque plutôt un traumatisme du thorax."
+  - moment: "Détresse circulatoire"
+    situation: "Quelques minutes plus tard, l'ouvrier devient pâle, il est couvert de sueurs froides, son pouls radial est difficile à percevoir. Le temps de recoloration cutanée est supérieur à 2 secondes et la pression artérielle systolique est inférieure à 90 mmHg. Le bilan a été transmis. Vous disposez d'une ceinture pelvienne, mais aucun médecin ne répond sur la ligne de régulation."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Attendre indéfiniment l'avis du médecin avant tout geste"
+        correct: false
+        retour: "Non : la contention externe du bassin est posée après avis médical, ou lorsque l'avis médical ne peut pas être obtenu, chez une victime qui présente un traumatisme du bassin avec des signes de détresse circulatoire."
+      - texte: "Improviser une ceinture avec un drap noué autour du bassin"
+        correct: false
+        retour: "Non : la réalisation d'une ceinture improvisée à l'aide d'un moyen de fortune n'est pas recommandée. On utilise une ceinture pelvienne adaptée à la taille de la victime."
+      - texte: "Mettre en place la ceinture pelvienne sans attendre, puisqu'un avis médical ne peut pas être obtenu"
+        correct: true
+        retour: "Oui : traumatisme du bassin associé à des signes de détresse circulatoire (hémorragie interne) et avis médical impossible à obtenir : la contention pelvienne est indiquée."
+  - moment: "Pose de la ceinture"
+    situation: "Vous êtes plusieurs secouristes et l'ouvrier est allongé sur le dos. La mise en place ne doit pas prendre plus de 3 à 5 minutes."
+    question: "Remets dans l'ordre les étapes de la pose de la ceinture pelvienne."
+    type: ordre
+    elements:
+      - "Glisser la ceinture sous les genoux de la victime"
+      - "Relever légèrement la victime par un pont adapté pour décoller ses fesses du sol"
+      - "Glisser la ceinture sous les fesses et la centrer au niveau des grands trochanters"
+      - "Reposer la victime au sol"
+      - "Ramener les deux extrémités au niveau de la symphyse, puis assurer la tension et sécuriser la fermeture"
+    retour: "La ceinture est glissée sous les genoux, puis sous les fesses grâce à un pont léger, centrée sur les grands trochanters. La victime est reposée, les extrémités sont ramenées au niveau de la symphyse, puis la tension appropriée est assurée et la fermeture sécurisée pour empêcher tout relâchement."
+  - moment: "Surveillance"
+    situation: "La ceinture est posée. Ton équipier dénude le bassin en préservant l'intimité de l'ouvrier. Le médecin régulateur demande d'immobiliser l'ouvrier sur un matelas à dépression. Tu es en présence d'une détresse vitale."
+    question: "À quelle fréquence renouvelles-tu la mesure des paramètres physiologiques pendant la surveillance ?"
+    type: choix
+    propositions:
+      - texte: "Toutes les 15 minutes environ"
+        correct: false
+        retour: "Non : toutes les 10 à 15 minutes correspond à l'absence de détresse vitale."
+      - texte: "Toutes les 5 minutes"
+        correct: true
+        retour: "Oui : en cas de détresse vitale, la mesure des paramètres est renouvelée toutes les 5 minutes, et la surveillance se poursuit jusqu'à la transmission de la victime à l'équipe chargée de la continuité des soins."
+      - texte: "Une seule fois, après la pose de la ceinture"
+        correct: false
+        retour: "Non : la surveillance est constante et ne s'arrête qu'à la transmission de la victime. La ceinture, qui reste en place, ne dispense pas de surveiller la circulation."
+pointsCles:
+  - "Traumatisme du bassin : position allongée stricte si possible, mobilisation limitée, surveillance attentive pour prévenir la détresse circulatoire."
+  - "Signes évocateurs : douleur spontanée au bassin ou au bas-ventre, impossibilité de bouger les membres inférieurs, sang dans les urines ou sur les sous-vêtements."
+  - "Contention pelvienne indiquée si traumatisme du bassin ET détresse circulatoire, après avis médical ou en cas d'impossibilité d'obtenir cet avis ; ceinture adaptée, pas de moyen de fortune."
+  - "Pose en 3 à 5 minutes au maximum ; la ceinture reste en place, puis relevage et immobilisation sur matelas à dépression selon les consignes."

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT15, 06-2018)
   code: 07FT15
   page: 258
-liees: []
+liees: [traumatisme-dos-cou-conduite-a-tenir, relevage-brancard-cuillere, relevage-quatre-secouristes, pose-collier-cervical, traumatisme-bassin-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT14, 07-2026)
   code: 04FT14
   page: 101
-liees: []
+liees: [quatrieme-regard, surveillance-victime, emballages-dasri]
 blocs:
   - type: texte
     titre: Indication et justification

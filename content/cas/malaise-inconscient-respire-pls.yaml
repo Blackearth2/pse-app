@@ -1,0 +1,84 @@
+id: malaise-inconscient-respire-pls
+niveau: PSE1
+titre: Une femme inconsciente au supermarché
+lieu: Supermarché, rayon des surgelés
+statut: brouillon
+liees: [deuxieme-regard, lva-victime-non-traumatisee, perte-de-connaissance-connaissances, perte-de-connaissance-sauveteur-isole, pls-a-un-secouriste]
+contexte: "Tu fais tes courses lorsqu'un employé te signale qu'une cliente d'une quarantaine d'années s'est effondrée dans un rayon. Tu es seul secouriste, sans matériel. Les témoins te disent qu'elle s'est plainte d'un malaise, sans chute violente ni choc."
+etapes:
+  - moment: "Bilan"
+    situation: "La cliente est allongée sur le côté, en chien de fusil. Tu l'appelles, tu lui demandes de serrer ta main : aucune réponse ni réaction. Tu la places sur le dos."
+    question: "Que fais-tu avant d'apprécier sa respiration ?"
+    type: choix
+    propositions:
+      - texte: "Tu libères ses voies aériennes : bascule prudente de la tête en arrière et élévation du menton"
+        correct: true
+        retour: "Oui : chez toute victime ayant perdu connaissance et non suspecte d'un traumatisme du rachis, on libère les voies aériennes (main sur le front, 2 ou 3 doigts sous la pointe du menton) avant d'apprécier la respiration, car la langue et l'épiglotte chutent en arrière et obstruent les voies aériennes."
+      - texte: "Tu la laisses telle quelle et tu l'observes de loin"
+        correct: false
+        retour: "Non : une victime inconsciente laissée sur le dos est toujours exposée à une obstruction des voies aériennes ; on doit les libérer pour apprécier la respiration."
+      - texte: "Tu lui verses de l'eau sur le visage pour la réveiller"
+        correct: false
+        retour: "Non : ce n'est pas un geste de secours ; la priorité est de préserver la respiration en maintenant la liberté des voies aériennes."
+  - moment: "Respiration"
+    situation: "Voies aériennes libérées, tu regardes, écoutes et sens : le ventre et la poitrine se soulèvent, la respiration est régulière. Rien n'évoque un traumatisme."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu débutes une RCP par précaution"
+        correct: false
+        retour: "Non : la victime respire, elle n'est donc pas en arrêt cardiaque. La RCP est réservée à l'absence de ventilation ou à la ventilation anormale."
+      - texte: "Tu la laisses sur le dos et tu attends qu'elle se réveille"
+        correct: false
+        retour: "Non : sur le dos, elle reste exposée à l'encombrement des voies aériennes par des liquides (salive, sang, liquide gastrique) et à la chute de la langue."
+      - texte: "Tu la places en position latérale de sécurité et tu fais alerter les secours"
+        correct: true
+        retour: "Oui : victime inconsciente qui respire, à la suite d'un événement non traumatique : PLS, et alerte des secours en respectant leurs consignes."
+  - moment: "Mise en PLS"
+    situation: "Tu te places à genoux à côté d'elle, au niveau de son thorax. Tu dois réaliser la PLS à un seul secouriste."
+    question: "Remets dans l'ordre les étapes de la PLS."
+    type: ordre
+    elements:
+      - "Retirer ses lunettes, rapprocher les membres inférieurs de l'axe du corps"
+      - "Placer le bras côté sauveteur à angle droit, coude plié, paume vers le haut"
+      - "Amener le dos de la main du bras opposé sur son oreille, côté sauveteur, et l'y maintenir"
+      - "Attraper la jambe opposée derrière le genou et la relever, pied au sol"
+      - "Tirer sur la jambe jusqu'à ce que le genou touche le sol, en un seul temps et sans brusquerie"
+      - "Dégager ta main de sous la tête, ajuster la jambe du dessus (hanche et genou à angle droit) et ouvrir la bouche"
+    retour: "On prépare le retournement (retirer les lunettes, rapprocher les membres inférieurs de l'axe, placer le bras côté sauveteur à angle droit, amener la main opposée contre l'oreille, relever la jambe opposée), puis on retourne la victime en tirant sur la jambe sans brusquerie et en un seul temps, et enfin on la stabilise : main dégagée en préservant la bascule de la tête, jambe du dessus à angle droit, bouche ouverte sans mobiliser la tête pour permettre l'écoulement des liquides."
+  - moment: "En attendant les secours"
+    situation: "La cliente est en PLS. Les secours sont alertés et te demandent de rester près d'elle. Il fait frais dans le rayon des surgelés."
+    question: "Quelles actions sont correctes ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Surveiller en permanence sa respiration : regarder si le ventre et la poitrine se soulèvent, écouter les sons, sentir les mouvements avec la main"
+        correct: true
+        retour: "Oui : la mise en PLS rend difficile la surveillance de la ventilation, qui doit rester permanente jusqu'à l'arrivée des secours."
+      - texte: "La protéger contre le froid, la chaleur ou les intempéries"
+        correct: true
+        retour: "Oui : dans tous les cas, on protège la victime contre le froid, la chaleur ou les intempéries."
+      - texte: "La quitter pour aller chercher un verre d'eau"
+        correct: false
+        retour: "Non : la victime est inconsciente, on ne lui donne rien à boire et la respiration doit être surveillée en permanence."
+      - texte: "Compléter le bilan"
+        correct: true
+        retour: "Oui : dans tous les cas, on complète le bilan tout en surveillant la respiration."
+  - moment: "Aggravation"
+    situation: "Quelques minutes plus tard, la respiration devient bruyante, irrégulière, et le ventre ne se soulève plus qu'à de rares reprises : moins d'un mouvement en 10 secondes."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu la laisses en PLS : sa respiration est simplement lente"
+        correct: false
+        retour: "Non : moins d'un mouvement en 10 secondes correspond à une ventilation agonique, signe d'un arrêt cardiaque."
+      - texte: "Tu adoptes la conduite à tenir devant un arrêt cardiaque et tu préviens les secours de l'évolution"
+        correct: true
+        retour: "Oui : si la respiration s'arrête ou devient anormale, on adopte la conduite à tenir face à un arrêt cardiaque (RCP, DAE dès que possible) et on prévient les secours de l'évolution. Une respiration agonique ne doit pas retarder la RCP."
+      - texte: "Tu la fais boire pour la stimuler"
+        correct: false
+        retour: "Non : ce n'est pas un geste de secours et la victime a perdu connaissance."
+pointsCles:
+  - "Victime inconsciente : libérer les voies aériennes avant d'apprécier sa respiration, si aucun traumatisme n'est suspecté."
+  - "Victime inconsciente qui respire après un événement non traumatique : PLS et alerte des secours."
+  - "La respiration se surveille en permanence : regarder, écouter, sentir."
+  - "Si la respiration s'arrête ou devient anormale : conduite à tenir devant un arrêt cardiaque et information des secours."

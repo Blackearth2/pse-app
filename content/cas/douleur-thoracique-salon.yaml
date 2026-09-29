@@ -1,0 +1,69 @@
+id: douleur-thoracique-salon
+niveau: PSE2
+titre: Douleur thoracique lors d'un salon professionnel
+lieu: Salon professionnel, poste de secours
+statut: brouillon
+liees: [douleur-thoracique-connaissances, douleur-thoracique-conduite-a-tenir, realisation-electrocardiogramme, malaise-aggravation-maladie-conduite-a-tenir, quatrieme-regard]
+contexte: "Tu es chef d'équipe au poste de secours d'un salon professionnel. Un exposant de 58 ans, fumeur et hypertendu, se présente en se tenant la poitrine. Il est conscient, pâle, en sueur. Il te dit avoir une douleur au milieu de la poitrine depuis une vingtaine de minutes. Il respire sans difficulté et tu ne relèves aucun signe de détresse vitale. Un défibrillateur est à proximité."
+etapes:
+  - moment: "Au 4e regard"
+    situation: "Tu installes l'homme en position confortable et tu analyses sa plainte. Il décrit un poids sur la poitrine qui irradie vers la mâchoire et le bras gauche."
+    question: "Quels éléments recherches-tu et transmets-tu au médecin régulateur ?"
+    type: multiple
+    propositions:
+      - texte: "Le caractère de la douleur (en étau, coup de poignard, brûlure), son siège et ses irradiations."
+        correct: true
+        retour: "Oui : au 4e regard, on analyse la douleur (type, siège, irradiation vers le cou, la mâchoire, les épaules ou les bras) et sa sévérité grâce à l'échelle de douleur."
+      - texte: "L'évolution dans le temps : installation brutale ou progressive, douleur continue ou intermittente, durée."
+        correct: true
+        retour: "Oui : l'évolution de la douleur dans le temps et sa durée sont à préciser."
+      - texte: "Ses antécédents cardio-vasculaires et ses facteurs de risque (tabac, hypertension, diabète)."
+        correct: true
+        retour: "Oui : l'interrogatoire recherche épisodes similaires, antécédents cardio-vasculaires ou pulmonaires et facteurs de risque."
+      - texte: "Le diagnostic précis : tu conclus à un infarctus avant d'appeler le médecin."
+        correct: false
+        retour: "Non : les éléments recueillis sont transmis au médecin régulateur sans les interpréter."
+  - moment: "Conduite à tenir"
+    situation: "Aucun signe de détresse vitale n'apparaît. L'homme évalue sa douleur à 7 sur 10. Il te dit que c'est sûrement du stress et voudrait retourner à son stand."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu le laisses retourner à son stand, car une crise d'angoisse peut donner une douleur thoracique."
+        correct: false
+        retour: "Non : une douleur thoracique peut avoir une cause grave (infarctus, embolie pulmonaire, atteinte de l'aorte). On ne l'attribue jamais d'emblée au stress."
+      - texte: "Tu lui demandes de marcher jusqu'au véhicule de secours pour gagner du temps."
+        correct: false
+        retour: "Non : on installe la victime dans la position la mieux tolérée. Un effort peut aggraver la situation."
+      - texte: "Tu appliques la conduite à tenir devant un malaise (position confortable, avis médical) en l'adaptant par la réalisation d'un électrocardiogramme."
+        correct: true
+        retour: "Oui : devant une douleur thoracique sans signe évident de détresse, la conduite du malaise est adaptée par la réalisation d'un ECG, qui est fait sur prescription du médecin présent ou du médecin régulateur, par un secouriste formé et habilité."
+  - moment: "Réalisation de l'ECG"
+    situation: "Le médecin régulateur prescrit un électrocardiogramme. Tu es formé et habilité pour utiliser l'appareil."
+    question: "Dans quel ordre procèdes-tu ?"
+    type: ordre
+    elements:
+      - "Installer la victime confortablement, de préférence sur le dos"
+      - "Écarter les appareils électroniques et objets métalliques en contact avec elle"
+      - "Lui demander de dénuder sa poitrine en respectant son intimité"
+      - "Lui demander de ne pas parler, de ne pas bouger et de respirer calmement"
+      - "Positionner les électrodes des extrémités, puis les électrodes précordiales"
+    retour: "Le préalable est le suivant : installer la victime, écarter appareils électroniques et objets métalliques, dénuder la poitrine en respectant l'intimité, demander de ne pas parler ni bouger. On pose ensuite les électrodes des extrémités puis les précordiales, on branche, et on enregistre pour télétransmettre le tracé."
+  - moment: "Aggravation"
+    situation: "Pendant que tu prépares la télétransmission, l'homme s'affaisse, ne répond plus et ne respire plus."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu poursuis l'ECG pour aider le médecin à comprendre ce qui se passe."
+        correct: false
+        retour: "Non : face à une détresse vitale ou une aggravation, on applique la conduite adaptée et on réalise en priorité les gestes d'urgence qui s'imposent."
+      - texte: "Tu attends l'avis du médecin régulateur avant tout geste."
+        correct: false
+        retour: "Non : les gestes d'urgence sont réalisés en priorité, sans attendre."
+      - texte: "Tu appliques en priorité la conduite à tenir adaptée à la détresse vitale, avec les gestes d'urgence, et tu utilises le défibrillateur prévu à proximité."
+        correct: true
+        retour: "Oui : les gestes d'urgence passent en priorité. La douleur thoracique peut se compliquer d'un trouble du rythme puis d'un arrêt cardiaque, d'où la présence d'un défibrillateur à proximité."
+pointsCles:
+  - "Douleur thoracique : préserver les fonctions vitales, installer dans la position la mieux tolérée, s'assurer qu'un défibrillateur est proche, demander un avis médical."
+  - "Sans signe de détresse : conduite du malaise adaptée par un ECG, sur prescription médicale, par un secouriste habilité."
+  - "Au 4e regard : caractère, siège, irradiation, durée de la douleur, échelle de douleur, antécédents et facteurs de risque, transmis sans interprétation."
+  - "En cas d'aggravation, les gestes d'urgence passent avant tout le reste."

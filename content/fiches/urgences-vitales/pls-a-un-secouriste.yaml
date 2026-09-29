@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT18, 12-2023)"
   code: 05FT18
   page: 163
-liees: []
+liees: [perte-de-connaissance-sauveteur-isole, perte-de-connaissance-equipe, pls-a-deux-secouristes, perte-de-connaissance-connaissances]
 blocs:
   - type: texte
     titre: En bref

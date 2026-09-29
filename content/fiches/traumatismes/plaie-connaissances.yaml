@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC02, 09-2014)
   code: 07AC02
   page: 205
-liees: []
+liees: [plaie-conduite-a-tenir, pansement, hemorragies-externes-connaissances]
 blocs:
   - type: texte
     titre: En bref

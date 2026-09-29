@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC06, 06-2018)
   code: 08AC06
   page: 294
-liees: []
+liees: [hypothermie-conduite-a-tenir, rechauffement-victime, mesure-temperature]
 blocs:
   - type: texte
     titre: En bref

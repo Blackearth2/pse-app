@@ -1,0 +1,86 @@
+id: chute-velo-avant-bras
+niveau: PSE1
+titre: Chute à vélo, avant-bras douloureux
+lieu: Piste cyclable au bord d'un canal
+statut: brouillon
+liees: [traumatisme-membres-connaissances, traumatisme-membres-conduite-a-tenir, attelle-modulable, application-de-froid]
+contexte: "Tu es en équipe de deux secouristes sur une manifestation cycliste. Une femme de 50 ans, consciente, vient de chuter de son vélo en se réceptionnant sur la main. Elle se tient l'avant-bras gauche contre elle en grimaçant. Elle respire normalement, ne présente aucune détresse vitale et aucun saignement. Il n'y a pas de plaie au niveau de son avant-bras."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "La victime te raconte qu'elle a senti un craquement au moment de la chute. Tu examines son avant-bras avec précaution."
+    question: "Quels éléments te font suspecter une fracture ?"
+    type: multiple
+    propositions:
+      - texte: "Un craquement perçu au moment de la chute"
+        correct: true
+        retour: "Oui : la perception d'un craquement au moment de la chute ou du choc fait partie des plaintes évocatrices."
+      - texte: "Une douleur vive, augmentée par le mouvement ou la palpation"
+        correct: true
+        retour: "Oui : une douleur vive à l'endroit de la blessure ou à côté, augmentée par le mouvement ou la palpation, est un signe évocateur."
+      - texte: "Une déformation et un gonflement visibles au niveau de l'avant-bras"
+        correct: true
+        retour: "Oui : la déformation et le gonflement visibles font partie des signes constatés à l'examen."
+      - texte: "Aucune douleur à la palpation ni au mouvement du poignet"
+        correct: false
+        retour: "Non : c'est l'inverse. Une douleur vive, augmentée par le mouvement ou la palpation, et une difficulté à bouger le membre orientent vers un traumatisme du membre."
+  - moment: "Installation"
+    situation: "Tu suspectes une fracture de l'avant-bras. La victime voudrait s'allonger dans l'herbe et bouger son poignet pour vérifier qu'il n'est pas cassé."
+    question: "Quelle installation et quelle consigne donnes-tu ?"
+    type: choix
+    propositions:
+      - texte: "L'allonger et lui demander de bouger les doigts pour tester la mobilité"
+        correct: false
+        retour: "Non : on conseille fermement de ne pas mobiliser la partie atteinte et on limite au maximum les mouvements du membre blessé."
+      - texte: "L'installer assise, avec le bras blessé contre la poitrine, soutenu par sa main, dans la position la moins douloureuse, en lui conseillant de ne pas le mobiliser"
+        correct: true
+        retour: "Oui : pour un membre supérieur, la position d'attente est assise. La victime place le membre atteint contre sa poitrine, le soutient avec une main, dans la position la moins douloureuse possible."
+      - texte: "La laisser debout et lui faire marcher jusqu'au poste de secours"
+        correct: false
+        retour: "Non : on installe la victime en position d'attente et on immobilise le membre avant tout déplacement de la victime."
+  - moment: "Immobilisation"
+    situation: "Vous êtes deux secouristes et vous disposez d'une attelle modulable pour le membre supérieur. Tu maintiens l'avant-bras de la victime pendant que ton équipier prépare l'attelle."
+    question: "Comment doit être posée l'attelle ?"
+    type: choix
+    propositions:
+      - texte: "Elle englobe uniquement le segment déformé, pour ne pas gêner la victime"
+        correct: false
+        retour: "Non : les articulations sus et sous-jacentes au traumatisme doivent toujours être englobées par l'attelle."
+      - texte: "Elle englobe les articulations sus et sous-jacentes (coude et poignet), elle est fixée par les sangles, puis on vérifie la qualité de l'immobilisation et l'état de l'extrémité du membre"
+        correct: true
+        retour: "Oui : le segment blessé et les articulations sus et sous-jacentes sont immobilisés, l'attelle est correctement fixée et on contrôle l'état de l'extrémité du membre après la pose."
+      - texte: "Elle est serrée le plus possible pour être certain que le membre ne bouge plus"
+        correct: false
+        retour: "Non : aucun signe de compression ne doit apparaître après la mise en place ; on vérifie la circulation en aval."
+  - moment: "Application de froid"
+    situation: "L'avant-bras est immobilisé, sans plaie. Tu prépares une poche avec de l'eau et de la glace."
+    question: "Comment appliques-tu le froid ?"
+    type: choix
+    propositions:
+      - texte: "Poche enveloppée dans un linge, 20 minutes au maximum"
+        correct: true
+        retour: "Oui : le froid, appliqué le plus tôt possible, atténue la douleur et limite le gonflement. La poche est enveloppée dans un linge et la durée ne dépasse pas 20 minutes, réductible de moitié en cas d'inconfort."
+      - texte: "Poche directement sur la peau nue pour un effet plus efficace, 20 minutes"
+        correct: false
+        retour: "Non : la poche est toujours enveloppée dans un linge. Une application directe et prolongée expose à des réactions cutanées ou à des gelures."
+      - texte: "Poche enveloppée dans un linge, 45 minutes pour bien limiter le gonflement"
+        correct: false
+        retour: "Non : la durée d'application ne doit pas excéder 20 minutes."
+      - texte: "Bombe cryogène du sac de secours"
+        correct: false
+        retour: "Non : les bombes cryogènes sont réservées à l'usage médical."
+  - moment: "Avant de passer la main"
+    situation: "La victime se sent un peu mieux. Tu fais le point avec ton équipier sur l'ensemble des gestes réalisés."
+    question: "Remets dans l'ordre les gestes de la conduite à tenir devant ce traumatisme de membre."
+    type: ordre
+    elements:
+      - "Conseiller fermement à la victime de ne pas mobiliser la partie atteinte"
+      - "Installer la victime assise, le membre soutenu contre sa poitrine"
+      - "Immobiliser le membre avec l'attelle la plus appropriée"
+      - "Appliquer du froid, sauf en cas de fracture ouverte"
+      - "Poursuivre le bilan et surveiller la victime"
+    retour: "Conduite à tenir face à un traumatisme de membre : limiter les mouvements, installer la victime en position d'attente (assise pour un membre supérieur), immobiliser avec l'attelle la plus appropriée, appliquer du froid si possible sauf en cas de fracture ouverte, puis poursuivre le bilan et la surveillance."
+pointsCles:
+  - "Signes évocateurs d'une fracture : craquement, douleur vive augmentée par le mouvement ou la palpation, déformation et gonflement, difficulté à bouger le membre."
+  - "Membre supérieur : position d'attente assise, membre soutenu contre la poitrine ; membre inférieur : allongée."
+  - "L'attelle englobe toujours les articulations sus et sous-jacentes, et on contrôle l'extrémité du membre après la pose."
+  - "Le froid, enveloppé dans un linge et pour 20 minutes au maximum, n'est pas appliqué en cas de fracture ouverte ni sur une plaie."

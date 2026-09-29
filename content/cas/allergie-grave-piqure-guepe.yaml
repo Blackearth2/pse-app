@@ -1,0 +1,69 @@
+id: allergie-grave-piqure-guepe
+niveau: PSE1
+titre: Réaction allergique grave après une piqûre
+lieu: Pique-nique dans un parc, à la belle saison
+statut: brouillon
+liees: [reaction-allergique-grave-connaissances, reaction-allergique-grave-conduite, aide-prise-medicaments, malaise-aggravation-maladie-conduite-a-tenir]
+contexte: "Lors d'un pique-nique organisé dans un parc, une femme d'une trentaine d'années vient d'être piquée par une guêpe. Quelques minutes plus tard, elle se sent mal. Elle est consciente, agitée, et te dit qu'elle est allergique aux piqûres d'insectes et qu'elle a son auto-injecteur d'adrénaline dans son sac."
+etapes:
+  - moment: "Au 2e et 3e regard"
+    situation: "Tu observes la victime et tu cherches les signes d'une réaction allergique grave avec détresse."
+    question: "Quels éléments traduisent une détresse liée à la réaction allergique ?"
+    type: multiple
+    propositions:
+      - texte: "Une voix rauque avec un gonflement des lèvres et de la langue."
+        correct: true
+        retour: "Oui : l'œdème (gonflement du visage, de la bouche, des lèvres, de la langue) avec voix rauque est un signe d'obstruction des voies aériennes supérieures."
+      - texte: "Un souffle court avec des sifflements à l'expiration."
+        correct: true
+        retour: "Oui : souffle court et sifflement expiratoire traduisent une atteinte des voies aériennes inférieures, donc une détresse respiratoire."
+      - texte: "Un pouls rapide, difficile à percevoir."
+        correct: true
+        retour: "Oui : c'est un signe de détresse circulatoire."
+      - texte: "Une glycémie capillaire inférieure à 3,3 mmol/l."
+        correct: false
+        retour: "Non : ce seuil définit l'hypoglycémie, pas la réaction allergique grave."
+  - moment: "Conduite à tenir"
+    situation: "Tu constates qu'elle présente une détresse respiratoire. Tu appliques la conduite à tenir devant une réaction allergique grave avec signes de détresse."
+    question: "Remets les actions dans l'ordre."
+    type: ordre
+    elements:
+      - "Appliquer la conduite à tenir devant un malaise"
+      - "Éliminer le contact avec l'allergène, si possible et s'il est connu"
+      - "Administrer l'auto-injecteur d'adrénaline à la demande de la victime ou du médecin régulateur"
+      - "Demander un avis médical immédiatement et appliquer les consignes"
+      - "Surveiller la victime"
+    retour: "La conduite à tenir suit cet ordre : conduite devant un malaise, suppression du contact avec l'allergène si possible et si connu, auto-injecteur d'adrénaline à la demande de la victime ou du médecin régulateur, avis médical immédiat avec application des consignes, puis surveillance. En cas de détresse vitale ou d'aggravation, les gestes d'urgence passent en priorité."
+  - moment: "Injection"
+    situation: "La victime te demande de l'aider à s'injecter son auto-injecteur. Tu as vérifié la limpidité de la solution. Elle porte un pantalon en toile fine."
+    question: "Où places-tu l'extrémité de l'auto-injecteur ?"
+    type: choix
+    propositions:
+      - texte: "Sur la fesse, en baissant son pantalon."
+        correct: false
+        retour: "Non : l'injection est intramusculaire, sur la face externe de la cuisse ou à défaut dans le deltoïde."
+      - texte: "Sur la face externe de la cuisse, à égale distance de la hanche et du genou, au besoin à travers le vêtement s'il n'est pas très épais."
+        correct: true
+        retour: "Oui : en urgence, l'injection peut être faite à travers le tissu d'un vêtement s'il n'est pas très épais. Le dispositif est maintenu fermement perpendiculaire jusqu'au clic, puis quelques secondes."
+      - texte: "Sur le mollet, car c'est le plus facile d'accès."
+        correct: false
+        retour: "Non : le site prévu est la face externe de la cuisse, ou le deltoïde à défaut."
+  - moment: "Après l'injection"
+    situation: "Cinq minutes après la première injection, la victime respire toujours avec difficulté et sa voix reste rauque. Le médecin régulateur a été prévenu."
+    question: "Que peux-tu faire ?"
+    type: choix
+    propositions:
+      - texte: "Attendre 15 minutes de plus avant de faire quoi que ce soit."
+        correct: false
+        retour: "Non : en l'absence d'amélioration dans les 5 minutes qui suivent la première injection, une deuxième injection peut être réalisée."
+      - texte: "Réaliser une deuxième injection avec l'auto-injecteur et, si possible, demander un nouvel avis au médecin régulateur."
+        correct: true
+        retour: "Oui : sans amélioration ou en cas de récidive dans les 5 minutes qui suivent la première injection, une deuxième injection peut être réalisée. Si possible, on demande un nouvel avis au médecin régulateur."
+      - texte: "Considérer la crise comme terminée puisque l'injection a été faite."
+        correct: false
+        retour: "Non : la victime doit être surveillée et l'absence d'amélioration justifie d'agir. L'état peut évoluer vers l'aggravation."
+pointsCles:
+  - "Détresse respiratoire (souffle court, sifflements, voix rauque, gonflement) ou circulatoire (pouls rapide et difficile à percevoir) : réaction allergique grave."
+  - "Auto-injecteur d'adrénaline administré à la demande de la victime ou du médecin régulateur ; avis médical immédiat."
+  - "Injection intramusculaire sur la face externe de la cuisse (ou deltoïde), au besoin à travers un vêtement peu épais."
+  - "Deuxième injection possible en l'absence d'amélioration ou en cas de récidive dans les 5 minutes."

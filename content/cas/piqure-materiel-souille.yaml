@@ -1,0 +1,82 @@
+id: piqure-materiel-souille
+niveau: PSE1
+titre: Coupure au contact du sang d'une victime
+lieu: Poste de secours, fête de quartier
+statut: brouillon
+liees: [conduite-accident-exposition-risque-viral, accident-exposition-risque-viral]
+contexte: "Tu es de poste lors d'une fête de quartier. Tu prends en charge un homme qui s'est blessé sur un verre brisé : plaie saignante à la main. En ramassant un tesson au sol, tu te coupes le doigt à travers ton gant ; le tesson était souillé de sang."
+etapes:
+  - moment: "Juste après la coupure"
+    situation: "Ta coéquipière est à quelques mètres. Ton doigt saigne un peu. La victime est stable mais son pansement n'est pas terminé."
+    question: "Quelle est ta première réaction ?"
+    type: choix
+    propositions:
+      - texte: "Tu termines le pansement de la victime puis tu t'occupes de ton doigt."
+        correct: false
+        retour: "Non : il faut interrompre l'action de secours en cours, si possible, et te faire relayer."
+      - texte: "Tu interromps ton action et tu te fais relayer."
+        correct: true
+        retour: "Oui : c'est le premier temps de la conduite à tenir devant un AEV."
+      - texte: "Tu fais saigner la plaie plus abondamment pour évacuer le risque."
+        correct: false
+        retour: "Non : il ne faut pas faire saigner la plaie."
+  - moment: "Soins de la plaie"
+    situation: "Tu es relayé. Tu disposes d'eau courante, de savon, d'un dérivé chloré stable (soluté de Dakin) et de gel hydro-alcoolique pour la friction des mains."
+    question: "Remets les actions dans l'ordre."
+    type: ordre
+    elements:
+      - "Interrompre l'action de secours et te faire relayer."
+      - "Nettoyer immédiatement à l'eau courante et au savon, puis rincer."
+      - "Réaliser l'asepsie avec un temps de contact d'au moins cinq minutes."
+      - "Rendre compte sans délai à l'autorité d'emploi."
+    retour: "Ordre de la conduite à tenir pour une plaie : relais, nettoyage à l'eau courante et au savon puis rinçage, asepsie avec temps de contact d'au moins 5 minutes, compte rendu sans délai à l'autorité d'emploi."
+  - moment: "Choix du produit"
+    situation: "Pour l'asepsie, tu hésites entre plusieurs produits disponibles."
+    question: "Quel produit utilises-tu ?"
+    type: choix
+    propositions:
+      - texte: "Un produit pour traitement hygiénique des mains par friction."
+        correct: false
+        retour: "Non : ces produits ne doivent pas être utilisés."
+      - texte: "Un dérivé chloré stable (soluté de Dakin), ou de l'eau de Javel à 9° chlorométriques fraîchement diluée au 1/5, à défaut un antiseptique à large spectre."
+        correct: true
+        retour: "Oui : produits prévus pour l'asepsie, avec un temps de contact d'au moins 5 minutes."
+      - texte: "Rien de plus que le rinçage à l'eau, si la plaie ne saigne plus."
+        correct: false
+        retour: "Non : l'asepsie est une étape à part entière de la conduite à tenir."
+  - moment: "Un autre secouriste"
+    situation: "En aidant à soigner la victime, un de tes équipiers reçoit une projection de sang dans l'œil."
+    question: "Que doit-il faire ?"
+    type: choix
+    propositions:
+      - texte: "Rincer abondamment pendant au moins cinq minutes, de préférence avec du sérum physiologique, à défaut avec de l'eau."
+        correct: true
+        retour: "Oui : conduite à tenir devant une projection sur les muqueuses. Le risque lié à une projection de sang dans les yeux ne doit pas être négligé."
+      - texte: "Ne rien faire tant qu'aucun signe n'est apparu."
+        correct: false
+        retour: "Non : il ne faut pas négliger une projection de sang dans les yeux."
+      - texte: "Appliquer de l'eau de Javel diluée sur l'œil."
+        correct: false
+        retour: "Non : sur une muqueuse, on rince abondamment au sérum physiologique ou à l'eau ; les dérivés chlorés sont pour l'asepsie d'une plaie."
+  - moment: "Faut-il s'inquiéter ?"
+    situation: "Plus tard, lors du débriefing, un nouveau secouriste demande dans quels cas on parle d'accident d'exposition à un risque viral."
+    question: "Quelles situations constituent un AEV, ou doivent le faire suspecter ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Une coupure ou une piqûre avec un objet souillé de sang."
+        correct: true
+        retour: "Oui : exposition percutanée."
+      - texte: "Une projection de sang dans les yeux ou la bouche."
+        correct: true
+        retour: "Oui : contact avec une muqueuse."
+      - texte: "Du sang qui souille une peau lésée (plaie non cicatrisée, maladie de peau)."
+        correct: true
+        retour: "Oui : contact direct avec du sang sur une peau lésée."
+      - texte: "Un contact avec des urines ne contenant pas de sang."
+        correct: false
+        retour: "Non : urines et selles présentent un risque nul, sauf présence de sang."
+pointsCles:
+  - "AEV : piqûre, coupure ou contact sur peau lésée ou muqueuse avec du sang ou un liquide souillé de sang."
+  - "Plaie : relais, ne pas faire saigner, eau et savon, asepsie au moins 5 minutes, compte rendu à l'autorité d'emploi."
+  - "Projection sur muqueuse : rinçage d'au moins 5 minutes, sérum physiologique de préférence."
+  - "Les produits pour la friction des mains ne servent pas à l'asepsie d'une plaie."

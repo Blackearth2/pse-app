@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC10, 12-2023)
   code: 07AC10
   page: 263
-liees: []
+liees: [traumatisme-bassin-conduite-a-tenir, contention-pelvienne, detresse-circulatoire-connaissances]
 blocs:
   - type: texte
     titre: En bref

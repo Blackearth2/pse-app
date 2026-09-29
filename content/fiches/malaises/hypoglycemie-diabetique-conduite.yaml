@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR06, 07-2026)
   code: 06PR06
   page: 197
-liees: []
+liees: [hypoglycemie-diabetique-connaissances, mesure-glycemie-capillaire, quatrieme-regard, malaise-aggravation-maladie-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

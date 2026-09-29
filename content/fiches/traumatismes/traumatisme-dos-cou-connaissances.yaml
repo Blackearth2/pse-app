@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC08, 07-2026)
   code: 07AC08
   page: 239
-liees: []
+liees: [traumatisme-dos-cou-conduite-a-tenir, maintien-tete-position-neutre, pose-collier-cervical]
 blocs:
   - type: texte
     titre: En bref

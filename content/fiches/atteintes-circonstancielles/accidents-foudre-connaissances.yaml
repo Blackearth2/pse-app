@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC15, 11-2021)
   code: 08AC15
   page: 321
-liees: []
+liees: [accidents-foudre-conduite-a-tenir, accident-electrique-connaissances]
 blocs:
   - type: texte
     titre: En bref

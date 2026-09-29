@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT09, 09-2014)
   code: 07FT09
   page: 234
-liees: []
+liees: [traumatisme-membres-conduite-a-tenir, immobilisation-membre-superieur-echarpes, attelle-depression]
 blocs:
   - type: texte
     titre: En bref

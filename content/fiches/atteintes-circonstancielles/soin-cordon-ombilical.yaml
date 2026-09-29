@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08FT01, 12-2022)
   code: 08FT01
   page: 285
-liees: []
+liees: [accouchement-inopine-conduite-a-tenir, prise-en-charge-nouveau-ne-naissance]
 blocs:
   - type: texte
     titre: En bref

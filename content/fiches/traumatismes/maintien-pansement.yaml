@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT02, 09-2014)
   code: 07FT02
   page: 211
-liees: []
+liees: [pansement, plaie-conduite-a-tenir, pansement-compressif]
 blocs:
   - type: texte
     titre: En bref

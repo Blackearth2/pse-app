@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR17, 11-2021)
   code: 08PR17
   page: 322
-liees: []
+liees: [accidents-foudre-connaissances, arret-cardiaque, hypothermie-conduite-a-tenir, degagement-urgence, brulures-conduite-a-tenir]
 blocs:
   - type: etapes
     titre: Prise en charge de la victime

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR04, 07-2026)
   code: 08PR04
   page: 281
-liees: []
+liees: [accouchement-inopine-connaissances, massage-uterin, soin-cordon-ombilical, prise-en-charge-nouveau-ne-naissance, quatrieme-regard]
 blocs:
   - type: texte
     titre: En bref

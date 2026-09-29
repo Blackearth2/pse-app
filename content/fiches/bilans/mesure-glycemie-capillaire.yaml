@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT13, 07-2026)
   code: 04FT13
   page: 99
-liees: []
+liees: [hypoglycemie-diabetique-conduite, conduite-accident-exposition-risque-viral, emballages-dasri, evaluation-fonction-neurologique]
 blocs:
   - type: texte
     titre: Indication

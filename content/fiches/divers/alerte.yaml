@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC02, 07-2026)
   code: 12AC02
   page: 380
-liees: []
+liees: [transmission-bilan, premier-regard, alerte-protection-populations, situation-nombreuses-victimes]
 blocs:
   - type: texte
     titre: En bref

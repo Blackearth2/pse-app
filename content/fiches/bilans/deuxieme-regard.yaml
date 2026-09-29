@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR02, 07-2026)
   code: 04PR02
   page: 67
-liees: []
+liees: [premier-regard, troisieme-regard, hemorragies-externes-conduite-a-tenir, lva-victime-non-traumatisee, retrait-casque-protection]
 blocs:
   - type: texte
     titre: En bref

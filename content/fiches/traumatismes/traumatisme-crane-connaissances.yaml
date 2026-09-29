@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC09, 06-2018)
   code: 07AC09
   page: 260
-liees: []
+liees: [traumatisme-crane-conduite-a-tenir, maintien-tete-position-neutre]
 blocs:
   - type: texte
     titre: En bref

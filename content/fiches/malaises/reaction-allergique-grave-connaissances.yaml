@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC07, 11-2021)
   code: 06AC07
   page: 198
-liees: []
+liees: [reaction-allergique-grave-conduite, aide-prise-medicaments, detresse-respiratoire-connaissances, detresse-circulatoire-connaissances]
 blocs:
   - type: texte
     titre: En bref

@@ -1,0 +1,57 @@
+id: crise-convulsive-gymnase
+niveau: PSE1
+titre: Crise convulsive au gymnase
+lieu: Gymnase, entraînement collectif
+statut: brouillon
+liees: [crise-convulsive-generalisee-connaissances, crise-convulsive-generalisee-conduite, mesure-glycemie-capillaire]
+contexte: "Tu assures le dispositif de secours d'un entraînement de badminton. Un joueur d'une vingtaine d'années s'effondre brutalement au bord du terrain. Ses bras et ses jambes se raidissent, puis il est agité de secousses rythmées. Les autres joueurs s'attroupent autour de lui."
+etapes:
+  - moment: "Pendant la crise"
+    situation: "Le joueur est au sol, secoué de convulsions. Un coéquipier veut lui mettre son protège-dents entre les dents et un autre propose de le tenir pour qu'il arrête de bouger. Un banc en métal se trouve à quelques centimètres de sa tête."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu écartes les personnes et les objets dangereux, tu protèges sa tête avec un vêtement plié, sans rien mettre dans sa bouche ni contraindre ses mouvements."
+        correct: true
+        retour: "Oui : pendant la crise, on évite que la victime se blesse. On écarte les personnes et tout objet traumatisant, on protège la tête avec un tissu plié sans recouvrir les voies aériennes, et on ne place rien dans la bouche."
+      - texte: "Tu lui glisses un objet entre les dents pour l'empêcher d'avaler sa langue."
+        correct: false
+        retour: "Non : on ne place jamais rien entre les dents ni dans la bouche de la victime, elle n'avalera pas sa langue."
+      - texte: "Tu la maintiens fermement par les bras et les jambes pour arrêter les secousses."
+        correct: false
+        retour: "Non : on ne contraint jamais les mouvements de la victime durant toute la crise."
+      - texte: "Tu attends la fin de la crise sans intervenir, car on ne peut rien faire."
+        correct: false
+        retour: "Non : même pendant la crise, on peut éviter les blessures en écartant les curieux et les objets dangereux et en protégeant la tête."
+  - moment: "Dans tous les cas"
+    situation: "Le joueur convulse toujours. Tu organises ta prise en charge en pensant à ce qui doit être fait tout au long de l'intervention."
+    question: "Quelles actions correspondent à la conduite à tenir dans tous les cas ?"
+    type: multiple
+    propositions:
+      - texte: "Noter l'heure de survenue et la durée de la crise."
+        correct: true
+        retour: "Oui : l'heure de survenue et la durée de la crise sont à noter."
+      - texte: "Poursuivre le bilan et rechercher d'éventuels signes de traumatisme."
+        correct: true
+        retour: "Oui : la chute et les mouvements incontrôlés peuvent avoir provoqué des blessures, d'où la recherche de signes de traumatisme."
+      - texte: "Contraindre les mouvements le temps que la crise cesse."
+        correct: false
+        retour: "Non : il ne faut jamais contraindre les mouvements de la victime durant toute la crise."
+      - texte: "Transmettre un bilan et appliquer les consignes, puis surveiller jusqu'au retour à un état normal de conscience."
+        correct: true
+        retour: "Oui : le bilan est transmis, les consignes sont appliquées, et la victime est surveillée jusqu'à ce qu'elle retrouve un état normal de conscience."
+  - moment: "À la fin des convulsions"
+    situation: "Les secousses s'arrêtent. Le joueur reste inerte, sans connaissance, avec une respiration bruyante. Tu es prêt à agir."
+    question: "Dans quel ordre agis-tu ?"
+    type: ordre
+    elements:
+      - "S'assurer que les voies aériennes sont libres et vérifier la respiration"
+      - "Appliquer la conduite à tenir adaptée, avec en priorité les gestes d'urgence qui s'imposent"
+      - "Rassurer la victime et la garder au calme lorsqu'elle redevient consciente"
+      - "Réaliser une mesure de la glycémie capillaire"
+    retour: "À la fin des convulsions, on contrôle d'abord les voies aériennes et la respiration, puis on applique la conduite à tenir adaptée. Lorsque la victime redevient consciente, on la garde au calme et on la rassure, puis on réalise une mesure de la glycémie capillaire, car une hypoglycémie peut être en cause."
+pointsCles:
+  - "Pendant la crise : protéger la tête, écarter personnes et objets dangereux, ne rien mettre dans la bouche, ne jamais contraindre les mouvements."
+  - "À la fin des convulsions : voies aériennes et respiration en premier."
+  - "Noter l'heure de survenue et la durée de la crise, transmettre un bilan."
+  - "Mesure de la glycémie capillaire quand la victime redevient consciente."

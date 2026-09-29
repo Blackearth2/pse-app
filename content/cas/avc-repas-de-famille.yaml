@@ -1,0 +1,69 @@
+id: avc-repas-de-famille
+niveau: PSE2
+titre: Signes d'AVC lors d'un repas de famille
+lieu: Domicile, salle à manger
+statut: brouillon
+liees: [avc-connaissances, avc-conduite-a-tenir, mesure-glycemie-capillaire, positions-attente-transport]
+contexte: "Tu es appelé dans un pavillon pour une femme de 72 ans, hypertendue, qui a soudain cessé de parler normalement pendant le repas. Elle est consciente, assise à table. Ses proches disent qu'elle allait très bien il y a un quart d'heure. Elle semble comprendre ce qu'on lui dit."
+etapes:
+  - moment: "Recherche des signes"
+    situation: "Tu veux rechercher systématiquement les signes spécifiques de l'AVC chez cette victime consciente."
+    question: "Quels tests demandes-tu à la victime ?"
+    type: multiple
+    propositions:
+      - texte: "Faire la grimace, pour repérer une déformation de la bouche."
+        correct: true
+        retour: "Oui : l'asymétrie de la face, encore plus évidente quand on demande une grimace, est un des signes FAST."
+      - texte: "Lever et étendre les deux bras devant elle."
+        correct: true
+        retour: "Oui : un bras ou une main qui ne peut être levé ou qui retombe indique une faiblesse ou un engourdissement d'un côté du corps."
+      - texte: "Répéter une phrase simple."
+        correct: true
+        retour: "Oui : la difficulté à parler ou à comprendre est le 3e signe spécifique recherché."
+      - texte: "Boire un grand verre d'eau pour tester la déglutition."
+        correct: false
+        retour: "Non : ce n'est pas un test FAST. Les trois signes recherchés sont la bouche, les bras et le langage. Rappelle-toi que près des deux tiers des victimes d'AVC présentent des troubles de la déglutition associés."
+  - moment: "Installation"
+    situation: "Les trois signes sont présents. La victime dit être fatiguée et voudrait rester assise sur sa chaise, ou s'allonger sur le canapé en position semi-assise. Elle n'a ni nausées ni vomissements."
+    question: "Quelle position choisis-tu ?"
+    type: choix
+    propositions:
+      - texte: "Assise, dossier bien droit, pour mieux respirer."
+        correct: false
+        retour: "Non : la position assise est réservée aux difficultés à respirer, ce qui n'est pas le cas ici. En cas de signes d'AVC, elle est installée à plat, strictement horizontale."
+      - texte: "En position latérale de sécurité, pour prévenir les vomissements."
+        correct: false
+        retour: "Non : la position latérale de sécurité n'est prévue que si elle présente des nausées et des vomissements."
+      - texte: "Strictement à plat, en position horizontale."
+        correct: true
+        retour: "Oui : devant des signes d'AVC ou d'AIT, la victime est installée en position strictement horizontale à plat, ou en position latérale de sécurité en cas de nausées et de vomissements."
+  - moment: "Pendant le 4e regard"
+    situation: "Tu mesures les paramètres et tu prépares le lecteur de glycémie. Un proche s'étonne : « Pourquoi lui piquer le doigt, elle a une attaque, non ? »"
+    question: "Pourquoi mesures-tu la glycémie capillaire ?"
+    type: choix
+    propositions:
+      - texte: "Parce qu'une hypoglycémie peut simuler un AVC : il faut la rechercher et la corriger avant d'affirmer des signes d'AVC."
+        correct: true
+        retour: "Oui : au 4e regard, la mesure de la glycémie capillaire est indispensable, une hypoglycémie pouvant simuler un AVC."
+      - texte: "Parce que le sucre est le traitement de l'AVC."
+        correct: false
+        retour: "Non : le sucre n'est pas un traitement de l'AVC. La mesure vise à écarter une hypoglycémie qui simulerait un AVC."
+      - texte: "Parce que c'est facultatif, pour occuper les proches."
+        correct: false
+        retour: "Non : la mesure est indispensable au 4e regard."
+  - moment: "Interrogatoire et transmission"
+    situation: "Le médecin régulateur attend ton bilan pour décider de l'orientation. Tu interroges la famille et tu transmets les éléments dans l'ordre de la procédure."
+    question: "Remets les étapes de la conduite à tenir dans l'ordre."
+    type: ordre
+    elements:
+      - "Appliquer la conduite à tenir devant un malaise, puis l'adapter"
+      - "Installer la victime en position strictement horizontale à plat"
+      - "Au 4e regard, mesurer la glycémie capillaire et rechercher les signes spécifiques, les facteurs de risque et les antécédents"
+      - "Transmettre le bilan pour obtenir un avis médical et respecter les consignes"
+      - "Poursuivre le bilan et surveiller l'évolution des signes d'AVC, la conscience et la respiration"
+    retour: "La conduite à tenir suit cet ordre : conduite du malaise adaptée, position strictement horizontale, 4e regard avec glycémie capillaire, signes spécifiques, facteurs de risque et antécédents, transmission du bilan pour avis médical, puis surveillance de l'évolution des signes, de la conscience et de la respiration. La victime est maintenue dans sa position initiale pendant le transport, idéalement vers un centre spécialisé (unité neuro-vasculaire)."
+pointsCles:
+  - "Signes FAST : déformation de la bouche, faiblesse ou engourdissement d'un côté du corps, difficulté du langage ou de la compréhension."
+  - "Position strictement horizontale à plat ; position latérale de sécurité seulement en cas de nausées et de vomissements."
+  - "Glycémie capillaire indispensable au 4e regard : une hypoglycémie peut simuler un AVC."
+  - "L'heure d'apparition des signes est essentielle : les traitements sont efficaces s'ils sont donnés précocement (2 à 3 heures)."

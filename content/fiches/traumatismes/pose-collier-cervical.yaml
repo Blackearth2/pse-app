@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT12, 12-2023)
   code: 07FT12
   page: 248
-liees: []
+liees: [retrait-casque-protection, retournement-deux-secouristes, retournement-un-secouriste]
 blocs:
   - type: texte
     titre: En bref

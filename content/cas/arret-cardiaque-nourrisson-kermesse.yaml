@@ -1,0 +1,87 @@
+id: arret-cardiaque-nourrisson-kermesse
+niveau: PSE1
+titre: Un nourrisson inerte
+lieu: Salle des fêtes, kermesse d'une école
+statut: brouillon
+liees: [arret-cardiaque-sauveteur-isole, lva-victime-non-traumatisee, compressions-thoraciques, ventilation-methode-orale, utilisation-dae]
+contexte: "Tu tiens seul le poste de secours d'une kermesse, avec ton sac de secours mais sans équipier. Une mère arrive en courant avec son bébé d'environ huit mois dans les bras : il est inerte. Elle est paniquée et ne sait pas depuis quand il est dans cet état."
+etapes:
+  - moment: "Premier bilan"
+    situation: "Tu poses le nourrisson sur le dos, sur un plan dur. Il ne répond pas et ne réagit pas quand tu le stimules. Avant d'apprécier sa respiration, tu dois libérer ses voies aériennes."
+    question: "Comment libères-tu les voies aériennes de ce nourrisson ?"
+    type: choix
+    propositions:
+      - texte: "En basculant sa tête le plus possible en arrière, comme chez l'adulte"
+        correct: false
+        retour: "Non : chez le nourrisson, il ne faut pas basculer la tête en arrière, au risque d'obstruer les voies aériennes."
+      - texte: "En le laissant à plat, sans toucher à sa tête, pour ne pas aggraver une lésion"
+        correct: false
+        retour: "Non : chez une victime inconsciente, la langue et l'épiglotte chutent en arrière et obstruent les voies aériennes ; il faut les libérer avant d'apprécier la respiration."
+      - texte: "En amenant sa tête en position neutre dans l'alignement du torse, puis en élevant le menton, et en retirant les corps étrangers visibles de la bouche"
+        correct: true
+        retour: "Oui : chez le nourrisson, on amène la tête en position neutre puis on élève le menton, en évitant une bascule excessive, et on retire les corps étrangers visibles dans la bouche."
+  - moment: "Alerte"
+    situation: "Le nourrisson ne respire pas : aucun mouvement du ventre ni de la poitrine. La mère, choquée mais valide, est à côté de toi. Il n'y a personne d'autre à proximité."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu quittes le nourrisson pour aller alerter toi-même puis tu reviens"
+        correct: false
+        retour: "Non : quand un tiers est présent, on lui demande d'alerter ; le sauveteur reste auprès de la victime pour débuter la RCP."
+      - texte: "Tu demandes à la mère d'alerter les secours et de ramener un DAE, et tu débutes immédiatement la RCP"
+        correct: true
+        retour: "Oui : sauveteur isolé avec un tiers présent, on lui demande d'alerter les secours (qui pourront guider la RCP par téléphone) et de ramener et installer un DAE, tandis que la RCP est débutée immédiatement."
+      - texte: "Tu attends que le DAE soit là avant de commencer la RCP"
+        correct: false
+        retour: "Non : la RCP est débutée immédiatement ; le DAE sera mis en œuvre le plus tôt possible mais ne doit pas la retarder."
+  - moment: "Compressions thoraciques"
+    situation: "Tu débutes la RCP sur le nourrisson, installé sur un plan dur et la poitrine dénudée."
+    question: "Quelles propositions décrivent correctement la RCP chez le nourrisson ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Alterner 15 compressions thoraciques et 2 insufflations"
+        correct: true
+        retour: "Oui : chez l'enfant et le nourrisson, le rapport est de 15 compressions / 2 insufflations."
+      - texte: "Appuyer avec le talon d'une main, bras tendu, comme chez l'adulte"
+        correct: false
+        retour: "Non : chez le nourrisson, on entoure le thorax avec les mains et on comprime avec la pulpe des deux pouces."
+      - texte: "Entourer le thorax avec les mains et placer les deux pouces, l'un sur l'autre, sur la moitié inférieure du sternum"
+        correct: true
+        retour: "Oui : c'est la technique du nourrisson (nouveau-né) : pulpe des deux pouces sur la moitié inférieure du sternum."
+      - texte: "Enfoncer le thorax d'un tiers de son épaisseur, soit environ 4 cm"
+        correct: true
+        retour: "Oui : la profondeur est d'un tiers de l'épaisseur du thorax, soit environ 4 cm chez le nourrisson, à un rythme de 100 à 120 compressions par minute."
+      - texte: "Alterner 30 compressions et 2 insufflations"
+        correct: false
+        retour: "Non : 30 / 2 est le rapport de l'adulte. Chez le nourrisson, c'est 15 / 2."
+  - moment: "Insufflations"
+    situation: "Après 15 compressions, tu dois réaliser les deux insufflations par une méthode orale, sans matériel."
+    question: "Remets dans l'ordre les étapes de la ventilation chez le nourrisson."
+    type: ordre
+    elements:
+      - "Placer la tête du nourrisson en position neutre, menton élevé"
+      - "Englober avec ta bouche à la fois sa bouche et son nez"
+      - "Insuffler progressivement, durant 1 seconde environ, jusqu'au début du soulèvement de la poitrine"
+      - "Te redresser légèrement, tête maintenue en position neutre, pour reprendre ton souffle et vérifier l'affaissement de la poitrine"
+      - "Insuffler une seconde fois dans les mêmes conditions"
+    retour: "Tête en position neutre et menton élevé, bouche du secouriste englobant la bouche et le nez, insufflation progressive d'environ 1 seconde jusqu'au début du soulèvement de la poitrine, redressement pour reprendre son souffle et vérifier l'affaissement, seconde insufflation. Les deux insufflations ne doivent pas excéder 5 secondes au total pour ne pas retarder la reprise des compressions. Une insufflation trop rapide ou un volume trop important fait passer de l'air dans l'estomac, avec risque de régurgitation, plus fréquent chez le nourrisson."
+  - moment: "Arrivée du DAE"
+    situation: "Un membre de l'organisation ramène le DAE. L'appareil dispose d'électrodes pédiatriques."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu n'utilises pas le DAE, réservé aux adultes"
+        correct: false
+        retour: "Non : le DAE est indiqué chez toute victime en arrêt cardiaque, y compris le nourrisson."
+      - texte: "Tu colles les électrodes pédiatriques en position antéro-latérale, comme chez l'adulte"
+        correct: false
+        retour: "Non : chez le nourrisson et l'enfant de moins de 25 kg, la position standard est antéro-postérieure."
+      - texte: "Tu colles les électrodes pédiatriques, l'une devant au milieu du thorax, l'autre dans le dos entre les omoplates, en poursuivant la RCP pendant la pose"
+        correct: true
+        retour: "Oui : position antéro-postérieure chez le nourrisson et l'enfant de moins de 25 kg, avec la RCP poursuivie pendant la pose. Sans électrodes pédiatriques, on utiliserait les électrodes adulte : la postérieure dans le dos, la latérale sur le thorax."
+pointsCles:
+  - "Chez le nourrisson, l'arrêt cardiaque est le plus souvent d'origine respiratoire ; les lésions cérébrales apparaissent en quelques secondes en l'absence de geste de secours."
+  - "Voies aériennes du nourrisson : tête en position neutre, menton élevé, sans bascule excessive."
+  - "RCP du nourrisson : 15 compressions / 2 insufflations, deux pouces sur la moitié inférieure du sternum, environ 4 cm."
+  - "Sauveteur isolé avec un tiers présent : lui faire alerter et ramener un DAE, sans retarder la RCP."
+  - "DAE du nourrisson : électrodes en position antéro-postérieure."

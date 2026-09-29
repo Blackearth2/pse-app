@@ -1,0 +1,82 @@
+id: coup-de-chaleur-semi-marathon
+niveau: PSE2
+titre: Coup de chaleur sur un semi-marathon
+lieu: Course sur route, ravitaillement au kilomètre 15, journée estivale
+statut: brouillon
+liees: [affections-chaleur-conduite-a-tenir, affections-chaleur-connaissances, techniques-refroidissement-victime]
+contexte: "Tu es en poste au ravitaillement d'un semi-marathon par forte chaleur. Un coureur d'une trentaine d'années s'effondre à l'arrivée sur la zone. Il est confus, ne répond pas de façon cohérente et se montre agressif quand on l'approche. Sa peau est rouge, chaude et sèche. Un local technique frais, une baignoire mobile remplie d'eau et de la glace sont à disposition."
+etapes:
+  - moment: "Premier regard"
+    situation: "Le coureur affirme qu'il va bien et veut repartir. Tu n'as pas de thermomètre fiable sous la main. Un bénévole te dit qu'il faut d'abord attendre de voir si sa température monte pour décider."
+    question: "Quelle est la bonne attitude ?"
+    type: choix
+    propositions:
+      - texte: "Tu suspectes un coup de chaleur d'effort sans attendre une température élevée, car les signes neurologiques peuvent précéder l'élévation de la température."
+        correct: true
+        retour: "Oui : effort prolongé et troubles neurologiques évoquent un coup de chaleur, quelle que soit la température ambiante ; ne pas attendre une température élevée pour le suspecter."
+      - texte: "Tu le laisses repartir en lui conseillant de boire, tant qu'il marche seul."
+        correct: false
+        retour: "Non : confusion et agressivité sont des signes de détresse neurologique. Le coup de chaleur engage le pronostic vital."
+      - texte: "Tu le fais s'allonger au soleil pour qu'il retrouve son calme."
+        correct: false
+        retour: "Non : il faut soustraire la victime à la cause et la refroidir rapidement, pas la laisser exposée."
+  - moment: "Première mise en condition"
+    situation: "Tu décides d'agir. Tu disposes du local frais et de la baignoire mobile."
+    question: "Quels gestes réalises-tu ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Tu l'installes dans un endroit frais et tu limites tout effort."
+        correct: true
+        retour: "Oui : soustraire la victime à la cause, l'éloigner d'un environnement chaud, dans un endroit frais si possible, et limiter tout effort."
+      - texte: "Tu retires ses vêtements superflus en lui laissant au minimum les sous-vêtements."
+        correct: true
+        retour: "Oui : on retire les vêtements superflus, en laissant au minimum les sous-vêtements."
+      - texte: "Tu l'immerges entièrement, tête comprise, dans l'eau glacée."
+        correct: false
+        retour: "Non : on immerge le corps dans un bain d'eau fraîche, froide ou glacée, mais la tête reste hors de l'eau."
+      - texte: "Tu réalises un refroidissement actif avancé, par exemple en immersion dans un bain d'eau très froide remuée."
+        correct: true
+        retour: "Oui : pour le coup de chaleur, il faut mettre tout en œuvre pour obtenir les moyens de réaliser un refroidissement actif avancé ; l'eau doit être la plus froide possible et remuée activement."
+  - moment: "Il perd connaissance"
+    situation: "Pendant que le bain est préparé, le coureur s'affaisse, ne répond plus, mais respire normalement. Un secouriste hésite : « Il est inconscient, on ne peut pas le mettre dans l'eau. »"
+    question: "Que réponds-tu ?"
+    type: choix
+    propositions:
+      - texte: "On attend qu'il reprenne connaissance avant de le refroidir davantage."
+        correct: false
+        retour: "Non : ces victimes doivent bénéficier d'un refroidissement actif de façon urgente ; il leur permet souvent de redevenir conscientes rapidement."
+      - texte: "On ne l'immerge pas, car toute victime inconsciente est exclue de l'immersion."
+        correct: false
+        retour: "Non : seules les victimes en arrêt cardiaque ou qui convulsent ne peuvent pas être immergées."
+      - texte: "On l'immerge tête hors de l'eau, en refroidissement actif urgent, avec une surveillance permanente des voies aériennes et de la ventilation."
+        correct: true
+        retour: "Oui : une victime qui a perdu connaissance et respire normalement bénéficie d'un refroidissement actif urgent, avec surveillance permanente des voies aériennes et de la ventilation."
+  - moment: "Suite de la prise en charge"
+    situation: "Le refroidissement actif est en cours. Le médecin régulateur doit être joint et la surveillance doit se poursuivre."
+    question: "Remets les actions dans l'ordre de la conduite à tenir devant un coup de chaleur."
+    type: ordre
+    elements:
+      - "Réaliser un refroidissement actif avancé."
+      - "Poursuivre le bilan et surveiller les signes de détresse vitale et la température."
+      - "Transmettre le bilan pour avis sans délai et appliquer les consignes."
+      - "Poursuivre le refroidissement actif jusqu'au critère d'arrêt."
+    retour: "Ordre de la fiche pour le coup de chaleur : refroidissement actif avancé, poursuite du bilan et de la surveillance, transmission du bilan pour avis sans délai (prise en charge médicale d'urgence nécessaire), puis poursuite du refroidissement jusqu'au critère d'arrêt."
+  - moment: "Quand arrêter ?"
+    situation: "Le coureur a repris connaissance, mais tu n'as pas pu obtenir de mesure fiable de sa température. Il est cohérent depuis quelques instants."
+    question: "Jusqu'à quand poursuis-tu le refroidissement actif ?"
+    type: choix
+    propositions:
+      - texte: "Jusqu'à disparition des signes neurologiques et température inférieure à 39 °C, ou pendant 15 minutes si la température ne peut pas être mesurée."
+        correct: true
+        retour: "Oui : critères d'arrêt de la fiche."
+      - texte: "Dès qu'il te dit qu'il se sent mieux, quelle que soit la durée."
+        correct: false
+        retour: "Non : le critère est objectif (disparition des signes neurologiques et température < 39 °C), ou 15 minutes si la température n'est pas mesurable."
+      - texte: "Pendant 5 minutes, puis on le fait marcher pour qu'il se réchauffe."
+        correct: false
+        retour: "Non : la durée retenue est de 15 minutes si la température ne peut être mesurée, et un bilan complet est nécessaire avant toute verticalisation ou mobilisation après l'immersion (risque d'hypotension)."
+pointsCles:
+  - "Effort + troubles neurologiques : penser au coup de chaleur sans attendre une température élevée."
+  - "Refroidissement actif avancé : immersion, tête hors de l'eau, eau la plus froide possible et remuée."
+  - "Perte de connaissance avec ventilation normale : refroidissement urgent ; seuls arrêt cardiaque et convulsions contre-indiquent l'immersion."
+  - "Arrêt du refroidissement : signes neurologiques disparus et température < 39 °C, ou 15 minutes si non mesurable."

@@ -1,0 +1,84 @@
+id: traumatisme-crane-velo
+niveau: PSE2
+titre: Chute à vélo, coup sur la tête
+lieu: Route de campagne, en marge d'une manifestation sportive
+statut: brouillon
+liees: [traumatisme-crane-connaissances, traumatisme-crane-conduite-a-tenir, evaluation-fonction-neurologique, surveillance-victime]
+contexte: "Tu es en équipe de deux secouristes sur une manifestation cycliste. Un cycliste de 30 ans est tombé de son vélo en heurtant le sol de la tête. Il est assis sur le bord de la route, casqué, conscient. Le casque est fissuré. Il se plaint de maux de tête et ne se souvient pas de la chute, que des témoins ont décrite."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Le cycliste te répond, mais il pose plusieurs fois la même question. Il respire normalement et ne présente pas de saignement."
+    question: "Quelle est ta priorité ?"
+    type: choix
+    propositions:
+      - texte: "Rechercher une détresse vitale : en cas d'urgence, appliquer en priorité la conduite à tenir et les gestes d'urgence adaptés"
+        correct: true
+        retour: "Oui : face à une urgence ou une détresse vitale, ou en cas d'aggravation, on applique la conduite à tenir adaptée et on réalise en priorité les gestes d'urgence qui s'imposent."
+      - texte: "Lui retirer le casque et lui demander de marcher un peu pour vérifier son équilibre"
+        correct: false
+        retour: "Non : la tête est maintenue en position neutre et la victime n'est pas mobilisée. Le casque est retiré avec précaution, tête maintenue, et non en faisant marcher la victime."
+      - texte: "Le laisser repartir dès qu'il dit ne plus souffrir"
+        correct: false
+        retour: "Non : une victime parfaitement consciente peut s'aggraver plusieurs minutes à plusieurs heures plus tard."
+  - moment: "Bilan"
+    situation: "Il n'y a pas de détresse vitale apparente. Tu poursuis ton bilan pour rechercher des signes de traumatisme du crâne."
+    question: "Quels éléments évoquent un traumatisme du crâne ?"
+    type: multiple
+    propositions:
+      - texte: "La perte de mémoire des faits"
+        correct: true
+        retour: "Oui : la perte de la mémoire des faits est souvent synonyme d'une perte de connaissance passagère immédiatement après l'accident."
+      - texte: "Un hématome « en lunettes » autour des yeux"
+        correct: true
+        retour: "Oui : il peut témoigner d'une fracture des os de la base du crâne."
+      - texte: "Des céphalées, des nausées ou des vomissements"
+        correct: true
+        retour: "Oui : ces plaintes font partie des signes de la poursuite du bilan."
+      - texte: "Des pupilles de même diamètre qui se resserrent à la lumière"
+        correct: false
+        retour: "Non : c'est la condition normale. Une asymétrie pupillaire nette et fixe est, elle, un signe d'alerte."
+  - moment: "Surveillance"
+    situation: "Vingt minutes plus tard, le cycliste va mieux : il est calme, répond correctement et dit qu'il veut remonter sur son vélo pour finir la course. Le bilan a été transmis."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Le laisser repartir puisqu'il est parfaitement conscient"
+        correct: false
+        retour: "Non : une victime parfaitement consciente peut s'aggraver plusieurs minutes à plusieurs heures plus tard (intervalle libre). Le risque d'aggravation brutale impose une surveillance attentive."
+      - texte: "Poursuivre une surveillance régulière, en appliquant les consignes du médecin"
+        correct: true
+        retour: "Oui : on surveille attentivement la victime, on transmet un bilan et on applique les consignes reçues. La surveillance ne s'arrête qu'à la transmission à l'équipe chargée de la continuité des soins."
+      - texte: "Arrêter la surveillance, car il ne présente aucun signe de gravité"
+        correct: false
+        retour: "Non : la surveillance ne s'arrête pas après le bilan, elle prend fin uniquement à la transmission de la victime."
+  - moment: "Conduite à tenir"
+    situation: "Tu récapitules avec ton équipier les gestes de la conduite à tenir pour une victime de traumatisme du crâne sans détresse vitale apparente."
+    question: "Remets ces gestes dans l'ordre de la fiche de conduite à tenir."
+    type: ordre
+    elements:
+      - "Maintenir la tête en position neutre"
+      - "Retirer le casque de protection"
+      - "Administrer de l'oxygène en inhalation, si nécessaire"
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries"
+      - "Transmettre un bilan et appliquer les consignes reçues"
+      - "Surveiller attentivement la victime"
+    retour: "Sans détresse vitale apparente : maintien de la tête en position neutre, retrait du casque, oxygène si nécessaire, protection contre les éléments, transmission du bilan avec application des consignes, puis surveillance attentive en raison du risque d'aggravation brutale."
+  - moment: "Aggravation"
+    situation: "Quarante-cinq minutes après l'accident, le cycliste devient somnolent, confus, et vomit. Il ne répond plus aux questions simples."
+    question: "Comment interprètes-tu ce changement, et que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Une simple fatigue : tu le laisses se reposer et tu le réévalues plus tard"
+        correct: false
+        retour: "Non : des troubles de la conscience plusieurs minutes à plusieurs heures après l'accident, alors que la victime était parfaitement consciente, correspondent à l'intervalle libre et doivent alerter."
+      - texte: "Une aggravation : appliquer en priorité la conduite à tenir adaptée, transmettre le nouveau bilan et demander un avis médical"
+        correct: true
+        retour: "Oui : les troubles de la conscience qui apparaissent après un intervalle libre sont un signe d'aggravation. On adapte immédiatement les gestes de secours et on transmet les éléments de la surveillance."
+      - texte: "Sans importance tant qu'il respire : tu ne modifies pas ta prise en charge"
+        correct: false
+        retour: "Non : tout changement d'état impose d'adapter immédiatement les gestes de secours."
+pointsCles:
+  - "Devant un traumatisme du crâne : rechercher d'abord une détresse vitale, maintenir la tête en position neutre, retirer le casque, oxygène si nécessaire, transmettre le bilan."
+  - "Signes évocateurs : perte de mémoire des faits, céphalées, nausées ou vomissements, hématome en lunettes, otorragie."
+  - "Intervalle libre : une victime consciente peut s'aggraver plusieurs minutes à plusieurs heures plus tard, d'où une surveillance régulière jusqu'à la transmission."
+  - "En cas d'aggravation, adapter immédiatement les gestes et transmettre les éléments de la surveillance."

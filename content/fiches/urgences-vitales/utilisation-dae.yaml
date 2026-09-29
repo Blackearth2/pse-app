@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT16, 07-2026)"
   code: 05FT16
   page: 153
-liees: []
+liees: [arret-cardiaque-equipe, arret-cardiaque-sauveteur-isole, compressions-thoraciques, arret-cardiaque]
 blocs:
   - type: texte
     titre: En bref

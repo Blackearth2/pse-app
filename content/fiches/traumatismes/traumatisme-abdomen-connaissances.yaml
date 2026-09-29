@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC04, 06-2018)
   code: 07AC04
   page: 217
-liees: []
+liees: [traumatisme-abdomen-conduite-a-tenir, plaie-connaissances]
 blocs:
   - type: texte
     titre: En bref

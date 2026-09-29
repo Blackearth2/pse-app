@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC01, 06-2018)
   code: 06AC01
   page: 175
-liees: []
+liees: [malaise-aggravation-maladie-conduite-a-tenir, manoeuvres-physiques, positions-attente-transport, quatrieme-regard]
 blocs:
   - type: texte
     titre: En bref

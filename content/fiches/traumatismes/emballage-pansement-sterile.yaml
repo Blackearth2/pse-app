@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT03, 07-2026)
   code: 07FT03
   page: 213
-liees: []
+liees: [brulures-conduite-a-tenir, brulures-connaissances, plaie-conduite-a-tenir, pansement]
 blocs:
   - type: texte
     titre: En bref

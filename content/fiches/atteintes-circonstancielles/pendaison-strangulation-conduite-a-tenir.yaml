@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR13, 12-2022)
   code: 08PR13
   page: 313
-liees: []
+liees: [pendaison-strangulation-connaissances, arret-cardiaque, perte-de-connaissance-equipe, detresse-respiratoire-conduite-a-tenir, maintien-tete-position-neutre]
 blocs:
   - type: etapes
     titre: Conduite à tenir initiale

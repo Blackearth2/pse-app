@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09AC01, 11-2021)
   code: 09AC01
   page: 324
-liees: []
+liees: [personne-en-situation-de-crise-conduite-a-tenir, evaluation-impact-psychologique, abord-relationnel-pratique, attitude-comportement-secouriste]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC05, 09-2014)
   code: 07AC05
   page: 219
-liees: []
+liees: [traumatisme-thorax-conduite-a-tenir, plaie-connaissances]
 blocs:
   - type: texte
     titre: En bref

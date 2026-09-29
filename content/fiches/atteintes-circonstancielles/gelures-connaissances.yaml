@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC07, 06-2018)
   code: 08AC07
   page: 298
-liees: []
+liees: [gelures-conduite-a-tenir, hypothermie-connaissances]
 blocs:
   - type: texte
     titre: En bref

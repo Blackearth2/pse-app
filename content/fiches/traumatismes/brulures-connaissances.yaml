@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC01, 07-2026)
   code: 07AC01
   page: 201
-liees: []
+liees: [brulures-conduite-a-tenir, emballage-pansement-sterile]
 blocs:
   - type: texte
     titre: En bref

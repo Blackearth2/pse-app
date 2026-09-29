@@ -1,0 +1,61 @@
+id: malaise-centre-commercial
+niveau: PSE1
+titre: Malaise dans un centre commercial
+lieu: Galerie marchande bondée, un samedi de soldes
+statut: brouillon
+liees: [malaise-aggravation-maladie-connaissances, malaise-aggravation-maladie-conduite-a-tenir, positions-attente-transport, manoeuvres-physiques, transmission-bilan]
+contexte: "Tu es de garde au poste de secours d'un centre commercial. On t'appelle pour une femme d'une cinquantaine d'années appuyée contre une vitrine, au milieu de la foule et de la musique. Elle est consciente, répond à tes questions, respire sans difficulté apparente et te dit : « Je ne me sens pas bien, j'ai la tête qui tourne. » Tu ne relèves aucun signe de détresse vitale."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "La victime est debout, adossée à la vitrine, entourée de badauds. Elle dit ne jamais avoir fait de malaise de ce genre auparavant."
+    question: "Quelle est ta première action ?"
+    type: choix
+    propositions:
+      - texte: "L'asseoir sur une chaise contre la vitrine et attendre que cela passe."
+        correct: false
+        retour: "Non : la position assise est réservée aux victimes qui ont des difficultés à respirer, ce qui n'est pas le cas ici. Elle est installée allongée, ou dans la position où elle se sent le mieux."
+      - texte: "L'éloigner de la foule et du bruit, puis l'installer sans délai allongée ou dans la position où elle se sent le mieux."
+        correct: true
+        retour: "Oui : on soustrait d'abord la victime aux facteurs qui ont pu déclencher le malaise (foule, bruit), puis on l'installe sans délai en position d'attente, allongée ou dans la position où elle se sent le mieux."
+      - texte: "Lui faire réaliser les manœuvres physiques (croisement des jambes, crochetage des doigts)."
+        correct: false
+        retour: "Non : ces manœuvres ne sont proposées que si la victime déclare faire régulièrement des malaises vagaux et présente des signes annonciateurs. Elles ne remplacent d'ailleurs pas la mise en position de confort."
+      - texte: "Poursuivre le bilan sur place, debout, pour ne pas perdre de temps."
+        correct: false
+        retour: "Non : la conduite à tenir prévoit de soustraire la victime aux facteurs déclenchants et de l'installer sans délai en position d'attente. Le bilan se poursuit ensuite."
+  - moment: "Pendant le 4e regard"
+    situation: "La victime est installée allongée dans un local calme. Tu poursuis le bilan : interrogatoire, examen et mesure des paramètres. Elle est très fatiguée, dit avoir mal dormi et n'avoir rien mangé de la journée. Tu relèves plusieurs éléments."
+    question: "Parmi ces éléments, lesquels sont des signes de gravité ?"
+    type: multiple
+    propositions:
+      - texte: "Une fréquence cardiaque à 130 par minute."
+        correct: true
+        retour: "Oui : une fréquence cardiaque supérieure à 120 par minute est un signe de gravité recherché à l'examen."
+      - texte: "Une fréquence respiratoire à 24 mouvements par minute."
+        correct: true
+        retour: "Oui : une fréquence respiratoire supérieure à 20 mouvements par minute est un signe de gravité."
+      - texte: "Une fatigue importante et un repas sauté."
+        correct: false
+        retour: "Non : fatigue, manque de sommeil et erreurs alimentaires (jeûne trop prolongé) sont plutôt des causes courantes d'un malaise bénin, pas des signes de gravité."
+      - texte: "Une impossibilité de lever un bras, de façon passagère."
+        correct: true
+        retour: "Oui : une paralysie du bras ou de la jambe, même transitoire, est un signe de gravité."
+      - texte: "Un stress lié à la foule."
+        correct: false
+        retour: "Non : le stress et l'émotion font partie des causes courantes d'un malaise bénin. Ce n'est pas un signe de gravité."
+  - moment: "Transmission"
+    situation: "Tu as terminé l'interrogatoire, l'examen et la mesure des paramètres. Il n'y a pas de détresse vitale. Tu appelles le médecin régulateur pour obtenir un avis médical."
+    question: "Dans quel ordre présentes-tu les éléments de ton bilan ?"
+    type: ordre
+    elements:
+      - "Le motif réel de l'intervention"
+      - "Le sexe et l'âge de la victime"
+      - "La plainte principale"
+      - "Le résultat du bilan"
+      - "Les gestes de secours entrepris"
+    retour: "Sans détresse vitale, on transmet la totalité du bilan de façon concise et ordonnée : motif réel de l'intervention, sexe et âge de la victime, plainte principale, résultat du bilan et gestes de secours entrepris. Tu appliques ensuite les consignes reçues et tu surveilles l'évolution."
+pointsCles:
+  - "Face à un malaise : soustraire aux facteurs déclenchants, installer sans délai en position d'attente (assise seulement en cas de difficultés à respirer), poursuivre le bilan."
+  - "Signes de gravité : fréquence cardiaque supérieure à 120 ou inférieure à 40 par minute, fréquence respiratoire supérieure à 20 par minute, paralysie même transitoire."
+  - "Les manœuvres physiques ne sont proposées qu'en cas de malaises vagaux réguliers avec signes annonciateurs."
+  - "Le bilan est transmis de façon concise et ordonnée pour obtenir un avis médical."

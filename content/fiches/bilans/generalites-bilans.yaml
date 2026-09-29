@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04AC01, 12-2023)
   code: 04AC01
   page: 65
-liees: []
+liees: [premier-regard, deuxieme-regard, troisieme-regard, quatrieme-regard, surveillance-victime]
 blocs:
   - type: texte
     titre: En bref

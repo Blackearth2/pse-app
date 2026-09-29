@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR10, 09-2014)
   code: 08PR10
   page: 304
-liees: []
+liees: [intoxications-conduite-a-tenir, intoxications-connaissances, securite-intervention-particuliere, situation-nombreuses-victimes]
 blocs:
   - type: etapes
     titre: Conduite à tenir

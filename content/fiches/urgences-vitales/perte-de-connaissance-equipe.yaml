@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR06, 07-2026)"
   code: 05PR06
   page: 159
-liees: []
+liees: [perte-de-connaissance-connaissances, pls-a-un-secouriste, pls-a-deux-secouristes, aspiration-mucosites, administration-oxygene-inhalation]
 blocs:
   - type: texte
     titre: En bref

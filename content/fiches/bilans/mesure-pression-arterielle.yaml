@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT10, 12-2023)
   code: 04FT10
   page: 89
-liees: []
+liees: [evaluation-fonction-circulatoire, quatrieme-regard, surveillance-victime]
 blocs:
   - type: texte
     titre: Indication et justification

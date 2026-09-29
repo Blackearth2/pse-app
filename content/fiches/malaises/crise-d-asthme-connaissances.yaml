@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC05, 07-2026)
   code: 06AC05
   page: 193
-liees: []
+liees: [crise-d-asthme-conduite, detresse-respiratoire-connaissances, aide-prise-medicaments]
 blocs:
   - type: texte
     titre: En bref

@@ -1,0 +1,83 @@
+id: reperage-collision-autocar
+niveau: PSE1
+titre: Repérage après une collision d'autocar
+lieu: Route départementale, autocar de tourisme sorti de la chaussée
+statut: brouillon
+liees: [situation-nombreuses-victimes, reperage-nombreuses-victimes]
+contexte: "Vous êtes trois secouristes arrivés les premiers sur les lieux d'une collision impliquant un autocar de tourisme. Une vingtaine de personnes sont sur place : certaines sont assises sur le bas-côté, d'autres allongées, d'autres encore errent sans but. Les renforts sont en route mais n'arriveront pas avant un moment. Le nombre de victimes graves dépasse manifestement le nombre de secouristes."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Ton chef d'équipe te demande de rappeler l'ordre des premières actions dans une situation à nombreuses victimes."
+    question: "Remets ces actions dans l'ordre."
+    type: ordre
+    elements:
+      - "Procéder à une reconnaissance rapide du site."
+      - "Assurer la sécurité."
+      - "Transmettre sans délai les informations et demander des moyens de renforcement."
+      - "Procéder au repérage des nombreuses victimes."
+      - "Réaliser les gestes de secours les plus urgents."
+    retour: "C'est le principe de l'action de secours de la fiche : reconnaissance rapide du site, sécurité, transmission des informations avec demande de renforts, repérage des victimes, puis gestes de secours les plus urgents."
+  - moment: "Début du repérage"
+    situation: "Plusieurs victimes crient et t'appellent. Une victime grave est à trois mètres de toi, une autre plus éloignée hurle plus fort."
+    question: "Comment abordes-tu les victimes ?"
+    type: choix
+    propositions:
+      - texte: "Tu vas d'abord vers celle qui crie le plus fort."
+        correct: false
+        retour: "Non : on n'aborde pas les victimes selon le bruit qu'elles font."
+      - texte: "Tu t'occupes de la première jusqu'à ce que son état soit stabilisé, puis de la suivante."
+        correct: false
+        retour: "Non : le repérage est très rapide ; on ne s'attarde pas, on passe d'une victime à l'autre."
+      - texte: "Tu abordes les victimes les unes après les autres, en commençant par la plus proche, sans dépasser 15 secondes par fonction."
+        correct: true
+        retour: "Oui : on aborde les victimes les unes après les autres en commençant par la plus proche, en appréciant respiration et circulation sans excéder 15 secondes par fonction."
+  - moment: "Une victime inconsciente"
+    situation: "Tu arrives auprès d'un homme allongé qui ne répond pas. Tu libères ses voies aériennes : il respire."
+    question: "Que fais-tu et quelle couleur lui attribues-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu le mets en PLS, tu le couvres si possible, tu le laisses sur place : couleur rouge."
+        correct: true
+        retour: "Oui : victime inconsciente qui respire après libération des voies aériennes = ROUGE."
+      - texte: "Tu le classes en noir, puisqu'il ne répond pas."
+        correct: false
+        retour: "Non : le noir est réservé aux décès certains et aux victimes qui ne respirent pas après libération des voies aériennes."
+      - texte: "Tu le classes en jaune, car il ne peut pas se déplacer."
+        correct: false
+        retour: "Non : le jaune concerne une victime consciente sans détresse vitale ; la perte de connaissance avec respiration est un rouge."
+  - moment: "Les couleurs noires"
+    situation: "Ton équipier te demande quelles situations amènent à marquer une victime en noir."
+    question: "Lesquelles (plusieurs réponses) ?"
+    type: multiple
+    propositions:
+      - texte: "Une victime dont le décès ne fait aucun doute (tête séparée du tronc, raideur cadavérique...)."
+        correct: true
+        retour: "Oui : on ne la déplace pas, on pose un bracelet si possible et on change de victime."
+      - texte: "Une victime inconsciente qui ne respire pas après libération des voies aériennes."
+        correct: true
+        retour: "Oui : elle est repérée en noir, ne la déplace pas."
+      - texte: "Une victime inconsciente qui respire après libération des voies aériennes."
+        correct: false
+        retour: "Non : elle est ROUGE."
+      - texte: "Une victime avec une hémorragie."
+        correct: false
+        retour: "Non : victime avec hémorragie = ROUGE, après traitement de l'hémorragie."
+  - moment: "Victime consciente"
+    situation: "Une femme consciente, sans signe de détresse respiratoire ni circulatoire, est assise sur le talus. Elle se plaint d'une jambe qui ne la porte plus et ne peut pas marcher."
+    question: "Quelle couleur lui attribues-tu ?"
+    type: choix
+    propositions:
+      - texte: "Vert, à envoyer au point de regroupement des victimes."
+        correct: false
+        retour: "Non : le vert est pour une personne sans détresse vitale capable de se déplacer seule ou aidée."
+      - texte: "Rouge, comme toute victime consciente."
+        correct: false
+        retour: "Non : le rouge est pour une détresse vitale ; ici, il n'y en a pas."
+      - texte: "Jaune, à laisser sur place dans sa position."
+        correct: true
+        retour: "Oui : victime consciente sans détresse vitale ne pouvant se déplacer seule = JAUNE."
+pointsCles:
+  - "Ordre d'action : reconnaissance, sécurité, transmission et renforts, repérage, gestes urgents."
+  - "Repérage : victime la plus proche d'abord, 15 secondes au maximum par fonction."
+  - "Noir : décès certain ou inconscient sans respiration après LVA ; rouge : inconscient qui respire, hémorragie ou détresse vitale."
+  - "Jaune : consciente sans détresse mais ne pouvant se déplacer ; vert : peut se déplacer seule ou aidée."

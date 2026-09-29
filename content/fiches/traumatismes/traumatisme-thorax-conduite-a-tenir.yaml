@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR05, 07-2026)
   code: 07PR05
   page: 220
-liees: []
+liees: [traumatisme-thorax-connaissances, plaie-conduite-a-tenir, administration-oxygene-inhalation]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR09, 07-2026)"
   code: 05PR09
   page: 170
-liees: []
+liees: [detresse-circulatoire-connaissances, administration-oxygene-inhalation, positions-attente-transport, mesure-pression-arterielle]
 blocs:
   - type: texte
     titre: En bref

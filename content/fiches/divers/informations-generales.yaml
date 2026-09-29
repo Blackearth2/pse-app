@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 12AC01, 09-2014)
   code: 12AC01
   page: 378
-liees: []
+liees: [detergents-desinfectants]
 blocs:
   - type: texte
     titre: En bref

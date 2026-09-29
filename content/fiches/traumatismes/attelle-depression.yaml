@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT08, 09-2014)
   code: 07FT08
   page: 231
-liees: []
+liees: [traumatisme-membres-conduite-a-tenir, immobilisation-membre-superieur-echarpes, attelle-modulable]
 blocs:
   - type: texte
     titre: En bref

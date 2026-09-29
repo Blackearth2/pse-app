@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT10, 07-2026)
   code: 07FT10
   page: 237
-liees: []
+liees: [traumatisme-membres-conduite-a-tenir, traumatisme-membres-connaissances, attelle-depression]
 blocs:
   - type: texte
     titre: En bref

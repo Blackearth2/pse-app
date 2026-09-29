@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR03, 07-2026)
   code: 05PR03
   page: 129
-liees: []
+liees: [obstruction-voies-aeriennes-connaissances, desobstruction-claques-dos, desobstruction-compressions-abdominales, desobstruction-compressions-thoraciques]
 blocs:
   - type: texte
     titre: En bref

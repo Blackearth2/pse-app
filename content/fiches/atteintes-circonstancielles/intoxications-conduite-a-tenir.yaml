@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR09, 07-2026)
   code: 08PR09
   page: 303
-liees: []
+liees: [intoxications-connaissances, intoxication-environnement-toxique, quatrieme-regard, administration-oxygene-inhalation, brulures-conduite-a-tenir]
 blocs:
   - type: etapes
     titre: Intoxication par ingestion ou injection

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT09, 07-2026)
   code: 10FT09
   page: 361
-liees: []
+liees: [relevage-quatre-secouristes, relevage-trois-secouristes, deplacement-chaise-transport, positions-attente-transport, immobilisation-matelas-depression]
 blocs:
   - type: texte
     titre: En bref

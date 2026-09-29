@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT04, 07-2026)
   code: 07FT04
   page: 216
-liees: []
+liees: [amputation-arrachement-conduite-a-tenir, amputation-arrachement-connaissances]
 blocs:
   - type: texte
     titre: En bref

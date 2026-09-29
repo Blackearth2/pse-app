@@ -1,0 +1,76 @@
+id: hypoglycemie-marche
+niveau: PSE1
+titre: Hypoglycémie sur le marché
+lieu: Marché de plein air, à proximité du poste de secours
+statut: brouillon
+liees: [hypoglycemie-diabetique-connaissances, hypoglycemie-diabetique-conduite, mesure-glycemie-capillaire, malaise-aggravation-maladie-conduite-a-tenir]
+contexte: "Un commerçant vient te chercher : un client de 62 ans, diabétique connu, s'est assis brusquement sur une caisse. Il est conscient, répond à tes questions mais parle lentement. Il n'a pas déjeuné et vient de porter des cageots toute la matinée."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu observes l'homme, installé en position confortable. Tu cherches ce qui évoque une hypoglycémie."
+    question: "Quels signes sont compatibles avec une hypoglycémie chez un diabétique ?"
+    type: multiple
+    propositions:
+      - texte: "Des sueurs abondantes."
+        correct: true
+        retour: "Oui : les sueurs abondantes font partie des signes possibles dès le 2e regard chez une personne connue comme diabétique."
+      - texte: "Une pâleur."
+        correct: true
+        retour: "Oui : la pâleur est un des signes possibles dès le 2e regard."
+      - texte: "Des tremblements et une sensation de faim."
+        correct: true
+        retour: "Oui : faim, grande fatigue, mal de tête, cœur qui bat rapidement et tremblements sont des plaintes recueillies lors du 4e regard."
+      - texte: "Une installation lente sur plusieurs jours, sans aucun signe visible."
+        correct: false
+        retour: "Non : cela correspond plutôt à l'hyperglycémie, qui évolue en règle générale progressivement, sans signes visibles. L'hypoglycémie provoque un malaise souvent brutal."
+  - moment: "Mesure de la glycémie"
+    situation: "Le malaise est apparu brutalement. L'homme reste réveillé, réactif et capable d'avaler. Tu mesures sa glycémie capillaire au 4e regard : le lecteur affiche 2,8 mmol/l."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu lui donnes 2 à 3 morceaux de sucre."
+        correct: false
+        retour: "Non : cette quantité correspond à la dose de l'enfant. Pour un adulte, on aide à prendre 4 morceaux ou cuillères à café de sucre."
+      - texte: "Tu attends l'avis médical avant de lui donner quoi que ce soit."
+        correct: false
+        retour: "Non : victime réveillée, réactive, capable d'avaler et glycémie inférieure à 3,3 mmol/l, on l'aide à prendre du sucre. L'avis médical est demandé si son état ne s'améliore pas rapidement ou en cas de doute."
+      - texte: "Tu l'aides à prendre 4 morceaux de sucre, puis tu le surveilles."
+        correct: true
+        retour: "Oui : 2,8 mmol/l est inférieur au seuil de 3,3 mmol/l. Chez l'adulte, on aide à prendre 4 morceaux ou cuillères à café de sucre, puis on surveille. Tu transmets le résultat avec son unité de mesure."
+      - texte: "Tu lui donnes 8 morceaux d'emblée pour être sûr de corriger l'hypoglycémie."
+        correct: false
+        retour: "Non : la dose est de 4 morceaux chez l'adulte. Une seconde dose peut être prise si aucune amélioration ne survient au bout de 15 minutes."
+  - moment: "Après le resucrage"
+    situation: "Huit minutes se sont écoulées depuis la prise du sucre. L'homme est toujours un peu tremblant et pâle, mais il reste conscient et te répond."
+    question: "Quelle est la bonne attitude ?"
+    type: choix
+    propositions:
+      - texte: "Lui donner tout de suite une seconde dose, car le premier resucrage a échoué."
+        correct: false
+        retour: "Non : huit minutes, c'est trop tôt pour conclure. Une seconde dose peut être prise si aucune amélioration ne survient au bout de 15 minutes."
+      - texte: "Le laisser repartir puisqu'il est conscient."
+        correct: false
+        retour: "Non : la victime doit être surveillée, et un avis médical est demandé si son état ne s'améliore pas rapidement ou en cas de doute."
+      - texte: "Poursuivre la surveillance : l'amélioration demande environ 10 à 15 minutes, et une seconde dose ne sera envisagée qu'à 15 minutes sans amélioration."
+        correct: true
+        retour: "Oui : il faut compter environ 10 à 15 minutes entre l'ingestion du sucre, l'élévation de la glycémie et l'amélioration des signes. On ne conclut pas trop vite à l'échec du resucrage."
+  - moment: "Aggravation"
+    situation: "Quelques minutes plus tard, sans que tu aies eu le temps de le resucrer davantage, l'homme perd connaissance. Il respire. Tu le prends en charge avec les gestes d'urgence adaptés."
+    question: "Que prévois-tu ensuite pour cette victime qui a perdu connaissance et respire ?"
+    type: choix
+    propositions:
+      - texte: "Lui glisser du sucre dans la bouche pour le réveiller."
+        correct: false
+        retour: "Non : le resucrage n'est proposé qu'à une victime réveillée, réactive et capable d'avaler."
+      - texte: "Mesurer la glycémie au 4e regard si tu as le matériel, puis demander un avis médical en indiquant le résultat et son unité."
+        correct: true
+        retour: "Oui : une victime qui a perdu connaissance et respire n'est pas resucrée. Après sa prise en charge, on mesure la glycémie au 4e regard si le matériel est disponible, puis on demande un avis médical en indiquant le résultat."
+      - texte: "Ne rien mesurer et attendre son réveil."
+        correct: false
+        retour: "Non : la mesure de la glycémie au 4e regard est prévue si le matériel est disponible, et l'avis médical est demandé avec le résultat."
+pointsCles:
+  - "Resucrage : victime réveillée, réactive, capable d'avaler, avec une glycémie inférieure à 3,3 mmol/l (60 mg/dl, 0,6 g/l) ou une origine du malaise inconnue."
+  - "Adulte : 4 morceaux ou cuillères à café de sucre ; enfant : 2 à 3. Seconde dose possible après 15 minutes sans amélioration."
+  - "L'amélioration prend 10 à 15 minutes : ne pas conclure trop vite."
+  - "Toujours transmettre la glycémie avec son unité de mesure."
+  - "Une victime qui a perdu connaissance et respire n'est pas resucrée."

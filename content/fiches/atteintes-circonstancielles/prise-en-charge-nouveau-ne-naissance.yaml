@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR05, 12-2022)
   code: 08PR05
   page: 283
-liees: []
+liees: [accouchement-inopine-conduite-a-tenir, soin-cordon-ombilical, aspiration-mucosites, ventilation-insufflateur-manuel]
 blocs:
   - type: etapes
     titre: Dans tous les cas

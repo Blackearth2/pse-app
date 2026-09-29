@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR11, 07-2026)
   code: 08PR11
   page: 307
-liees: []
+liees: [piqures-morsures-connaissances, reaction-allergique-grave-conduite, application-de-froid, pansement, plaie-conduite-a-tenir]
 blocs:
   - type: etapes
     titre: Conduite à tenir générale

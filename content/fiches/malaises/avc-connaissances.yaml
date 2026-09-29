@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC03, 06-2018)
   code: 06AC03
   page: 187
-liees: []
+liees: [avc-conduite-a-tenir, mesure-glycemie-capillaire, quatrieme-regard, evaluation-fonction-neurologique, detresse-neurologique-connaissances]
 blocs:
   - type: texte
     titre: En bref

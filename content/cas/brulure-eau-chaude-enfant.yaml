@@ -1,0 +1,72 @@
+id: brulure-eau-chaude-enfant
+niveau: PSE1
+titre: Une bouilloire renversée
+lieu: Cuisine d'un appartement, à proximité d'un poste de secours de fête de quartier
+statut: brouillon
+liees: [brulures-connaissances, brulures-conduite-a-tenir]
+contexte: "Tu es de poste lors d'une fête de quartier. Un père arrive en courant avec sa fille de 3 ans dans les bras : elle a attiré à elle une bouilloire d'eau bouillante posée sur un plan de travail, il y a deux minutes. L'enfant pleure, elle est consciente, respire normalement et n'a pas de détresse circulatoire. Son avant-bras et le dos de sa main sont rouges, avec plusieurs cloques."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Le père est paniqué. La cause de la brûlure est écartée, la bouilloire est loin de l'enfant. Un point d'eau courante tempérée est à quelques mètres."
+    question: "Quel est ton premier geste sur la brûlure ?"
+    type: choix
+    propositions:
+      - texte: "Refroidir immédiatement la zone brûlée à l'eau courante tempérée, à faible pression"
+        correct: true
+        retour: "Oui : la brûlure date de moins de 30 minutes, l'enfant est consciente et sans détresse circulatoire. Les conditions du refroidissement sont réunies, il faut l'entreprendre sans attendre, avec de l'eau courante tempérée et à faible pression."
+      - texte: "Appliquer de la glace directement sur la brûlure"
+        correct: false
+        retour: "Non : le refroidissement se fait avec de l'eau courante tempérée et à faible pression, pas avec de la glace."
+      - texte: "Percer les cloques pour évacuer le liquide avant de protéger la peau"
+        correct: false
+        retour: "Non : on ne perce jamais les cloques."
+      - texte: "Attendre 30 minutes que la douleur se stabilise avant de commencer l'arrosage"
+        correct: false
+        retour: "Non : commencer l'arrosage plus de 30 minutes après la brûlure n'a plus d'intérêt. Le refroidissement doit être débuté immédiatement."
+  - moment: "Pendant l'arrosage"
+    situation: "Pendant que l'enfant est arrosée, tu observes la brûlure. Les cloques, réunies, couvrent une surface supérieure à la moitié de la paume de sa main, et une partie de la brûlure est située sur le dos de la main."
+    question: "Quels éléments font classer cette brûlure comme grave ?"
+    type: multiple
+    propositions:
+      - texte: "La surface totale des cloques dépasse la moitié de la paume de la main de l'enfant"
+        correct: true
+        retour: "Oui : une ou plusieurs cloques dont la surface totale est supérieure à la moitié de la paume de la main de la victime constituent un critère de gravité."
+      - texte: "La brûlure est située sur la main"
+        correct: true
+        retour: "Oui : une localisation sur le visage ou le cou, les mains, les articulations ou près des orifices naturels rend la brûlure grave. Un seul critère suffit."
+      - texte: "La brûlure a été provoquée par de l'eau chaude"
+        correct: false
+        retour: "Non : la cause thermique n'est pas un critère de gravité en soi. Sont graves notamment les brûlures d'origine chimique, électrique ou radiologique."
+      - texte: "L'enfant pleure"
+        correct: false
+        retour: "Non : les pleurs ne sont pas un critère de gravité. À l'inverse, une atteinte très profonde peut être peu douloureuse car les terminaisons nerveuses sont détruites."
+  - moment: "Pendant l'arrosage"
+    situation: "L'enfant est arrosée depuis quelques minutes. Elle est calme, mais elle est jeune et légèrement vêtue."
+    question: "Que dois-tu surveiller en particulier pendant le refroidissement à l'eau ?"
+    type: choix
+    propositions:
+      - texte: "Uniquement la disparition des rougeurs"
+        correct: false
+        retour: "Non : ce n'est pas le point de surveillance propre au refroidissement chez le jeune enfant. Le refroidissement dure au moins 10 minutes, idéalement 20 minutes, selon les consignes."
+      - texte: "Les signes de refroidissement excessif du corps"
+        correct: true
+        retour: "Oui : les jeunes enfants brûlés qui bénéficient d'un refroidissement actif à l'eau courante doivent être surveillés pour détecter tout signe ou symptôme de refroidissement excessif du corps."
+      - texte: "Rien de particulier tant que l'enfant ne pleure plus"
+        correct: false
+        retour: "Non : la surveillance est continue, et le calme de l'enfant n'exclut pas un refroidissement excessif."
+  - moment: "Conduite à tenir"
+    situation: "Il s'agit d'une brûlure grave chez une enfant de 3 ans. Tu dois maintenant organiser la suite de ta prise en charge."
+    question: "Remets dans l'ordre les gestes de la conduite à tenir face à cette brûlure grave."
+    type: ordre
+    elements:
+      - "Refroidir immédiatement la zone brûlée à l'eau courante tempérée"
+      - "Demander un avis médical dès le début de l'arrosage"
+      - "Poursuivre le refroidissement selon les consignes données"
+      - "Protéger la brûlure par un pansement, un champ stérile ou un film plastique non adhésif, sans percer les cloques"
+      - "Envelopper l'enfant dans une couverture isotherme"
+    retour: "Face à une brûlure grave : on refroidit immédiatement, on demande un avis médical dès le début de l'arrosage, on poursuit le refroidissement selon les consignes, puis on protège la brûlure sans jamais percer les cloques et on enveloppe la victime dans une couverture isotherme, car l'hypothermie peut survenir rapidement chez un brûlé grave."
+pointsCles:
+  - "Refroidir tout de suite à l'eau courante tempérée, à faible pression, au moins 10 minutes et idéalement 20 minutes, si la brûlure date de moins de 30 minutes."
+  - "Un seul critère suffit pour qualifier une brûlure de grave : localisation sur une main, cloques dépassant la moitié de la paume de la victime, etc."
+  - "Ne jamais percer les cloques ; protéger par un pansement stérile ou un film plastique non adhésif."
+  - "Chez le jeune enfant, surveiller les signes de refroidissement excessif ; chez un brûlé grave, prévenir l'hypothermie avec une couverture isotherme."

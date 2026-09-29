@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC10, 06-2018)
   code: 08AC10
   page: 309
-liees: []
+liees: [syndrome-suspension-conduite-a-tenir, perte-de-connaissance-connaissances]
 blocs:
   - type: texte
     titre: En bref

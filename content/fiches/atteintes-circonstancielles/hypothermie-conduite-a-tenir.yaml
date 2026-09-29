@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR07, 12-2022)
   code: 08PR07
   page: 296
-liees: []
+liees: [hypothermie-connaissances, rechauffement-victime, arret-cardiaque, utilisation-dae, mesure-temperature]
 blocs:
   - type: texte
     titre: En bref

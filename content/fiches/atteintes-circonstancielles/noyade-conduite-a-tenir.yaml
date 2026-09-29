@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR02, 07-2026)
   code: 08PR02
   page: 273
-liees: []
+liees: [noyade-connaissances, arret-cardiaque, utilisation-dae, administration-oxygene-inhalation, aspiration-mucosites]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08FT03, 07-2026)
   code: 08FT03
   page: 292
-liees: []
+liees: [affections-chaleur-conduite-a-tenir, affections-chaleur-connaissances, mesure-temperature]
 blocs:
   - type: texte
     titre: Indication et justification

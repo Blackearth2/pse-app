@@ -1,0 +1,87 @@
+id: detresse-respiratoire-oxygene-gymnase
+niveau: PSE1
+titre: Essoufflement au gymnase
+lieu: Gymnase, tournoi de handball
+statut: brouillon
+liees: [detresse-respiratoire-connaissances, detresse-respiratoire-conduite-a-tenir, administration-oxygene-inhalation, mesure-saturation-pulsee-oxygene]
+contexte: "Tu es de poste avec un équipier lors d'un tournoi de handball. Un joueur d'une vingtaine d'années, conscient, quitte le terrain en tenant sa poitrine et vient s'asseoir près de vous. Vous avez du matériel de bilan (saturomètre) et une bouteille d'oxygène avec masque à haute concentration."
+etapes:
+  - moment: "Bilan"
+    situation: "Le joueur peine à respirer, dit « j'étouffe » et ne parvient à prononcer que quelques mots. Il refuse de s'allonger. Tu entends un sifflement à chaque expiration, tu vois les muscles de son cou se contracter et des sueurs alors qu'il ne fait plus d'effort. Sa fréquence respiratoire est rapide, plus de 30 mouvements par minute."
+    question: "Quels éléments évoquent une détresse respiratoire ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Il refuse de s'allonger et cherche à rester assis"
+        correct: true
+        retour: "Oui : la position assise rend la respiration moins pénible ; une victime en détresse respiratoire refuse souvent de s'allonger."
+      - texte: "Le sifflement à l'écoute"
+        correct: true
+        retour: "Oui : un sifflement traduit une gêne au passage de l'air dans des voies aériennes rétrécies."
+      - texte: "La contraction des muscles du cou (tirage) et les sueurs sans effort"
+        correct: true
+        retour: "Oui : le tirage et les sueurs en l'absence d'effort ou de fièvre font partie des signes de détresse respiratoire."
+      - texte: "Une SpO2 mesurée à 98 %"
+        correct: false
+        retour: "Non : c'est une SpO2 inférieure à 94 % qui est évocatrice de détresse respiratoire. Ici, cette valeur ne prouve pas à elle seule qu'il n'y en a pas, mais elle ne constitue pas un signe de détresse."
+  - moment: "Installation"
+    situation: "Tu n'identifies pas de cause évidente à traiter immédiatement (pas d'obstruction, pas de perte de connaissance). Le joueur est assis sur un banc et tient sa poitrine."
+    question: "Comment l'installes-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu l'allonges à plat sur le dos pour qu'il se repose"
+        correct: false
+        retour: "Non : la position allongée rend la respiration plus pénible. La position assise ou demi-assise libère les mouvements du diaphragme et améliore la respiration."
+      - texte: "Tu le laisses s'installer dans la position la plus confortable, en lui proposant la position assise ou demi-assise, et tu desserres les vêtements qui gênent"
+        correct: true
+        retour: "Oui : la victime consciente en détresse respiratoire s'installe dans la position qui lui est la plus confortable ; on lui propose la position demi-assise ou assise et on desserre tous les vêtements qui peuvent gêner la respiration."
+      - texte: "Tu le mets en position latérale de sécurité"
+        correct: false
+        retour: "Non : la PLS concerne une victime qui a perdu connaissance et respire. Il est conscient."
+  - moment: "Préparation de l'oxygène"
+    situation: "Son équipier mesure la SpO2 : 91 %. Vous décidez d'administrer de l'oxygène en inhalation avec un masque à haute concentration (MHC)."
+    question: "Remets dans l'ordre les étapes de préparation de l'inhalation."
+    type: ordre
+    elements:
+      - "Ouvrir la bouteille d'oxygène"
+      - "Relier le tuyau du masque au dispositif de sortie d'oxygène de la bouteille"
+      - "Régler le débit initial du MHC (15 l/min)"
+      - "Remplir le ballon-réserve en obturant la valve du masque avec les doigts"
+      - "Mettre le masque en place sur le visage du joueur"
+      - "Ajuster le débit en fonction de l'objectif de saturation"
+    retour: "On ouvre la bouteille, on relie le tuyau du masque, on règle le débit initial (15 l/min pour un MHC), on remplit le ballon-réserve en obturant la valve avec les doigts, on met le masque en place, puis on ajuste le débit en fonction des objectifs de saturation et on surveille la victime. Chez une victime en détresse vitale, on utilise d'emblée le MHC, qui délivre 60 à 90 % d'O2 pour un débit de 8 à 15 l/min et ne s'utilise pas en dessous de 6 l/min."
+  - moment: "Objectif de saturation"
+    situation: "Le joueur n'a aucun antécédent d'insuffisance respiratoire chronique. Tu inhales de l'oxygène et tu ajustes le débit."
+    question: "Quelle est la valeur de SpO2 visée chez ce joueur ?"
+    type: choix
+    propositions:
+      - texte: "Entre 94 et 98 %"
+        correct: true
+        retour: "Oui : la SpO2 cible est de 94 à 98 % chez l'adulte, l'enfant et le nourrisson. Elle est de 89 à 94 % chez l'insuffisant respiratoire chronique."
+      - texte: "Entre 89 et 94 %"
+        correct: false
+        retour: "Non : cette cible concerne l'insuffisant respiratoire chronique, ce qui n'est pas le cas ici."
+      - texte: "Toujours 100 %, quel que soit le patient"
+        correct: false
+        retour: "Non : il faut lutter contre l'hypoxie sans entraîner d'hyperoxie ; on adapte l'administration à la SpO2 chaque fois que possible."
+  - moment: "Surveillance"
+    situation: "Sous oxygène, le joueur respire un peu mieux. Le gymnase est frais et le joueur porte un simple maillot."
+    question: "Quelles actions sont correctes ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Le protéger contre le froid, la chaleur ou les intempéries"
+        correct: true
+        retour: "Oui : cela fait partie de la conduite à tenir devant une détresse respiratoire chez une victime consciente."
+      - texte: "Poursuivre le bilan et surveiller attentivement sa ventilation"
+        correct: true
+        retour: "Oui : on poursuit le bilan et on surveille attentivement la ventilation, ainsi que l'évolution de la SpO2, pour adapter les gestes à l'évolution de la situation."
+      - texte: "Obtenir rapidement un avis médical"
+        correct: true
+        retour: "Oui : obtenir rapidement un avis médical fait partie du principe de l'action de secours devant une détresse respiratoire."
+      - texte: "Lui administrer de l'oxygène avec un insufflateur manuel sans masque adapté"
+        correct: false
+        retour: "Non : les insufflateurs manuels ne doivent pas être utilisés comme moyen d'inhalation : ils augmentent la résistance à l'inspiration et peuvent aggraver une détresse respiratoire."
+pointsCles:
+  - "Signes de détresse respiratoire : difficulté à parler, refus de s'allonger, sifflements, tirage, sueurs, cyanose ; fréquence rapide, souvent supérieure à 30 mouvements par minute ; SpO2 inférieure à 94 %."
+  - "Victime consciente en détresse respiratoire : position assise ou demi-assise, vêtements desserrés, oxygène en inhalation."
+  - "MHC d'emblée en détresse vitale, débit initial 15 l/min, ballon-réserve rempli avant la pose."
+  - "Objectif de SpO2 : 94 à 98 % (89 à 94 % chez l'insuffisant respiratoire chronique) ; avis médical, protection contre les intempéries et surveillance continue."

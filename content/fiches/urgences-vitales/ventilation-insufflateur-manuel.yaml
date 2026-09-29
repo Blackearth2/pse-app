@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT11, 06-2018)"
   code: 05FT11
   page: 143
-liees: []
+liees: [arret-cardiaque-equipe, administration-oxygene-insufflation, mise-en-place-canule-oropharyngee, compressions-thoraciques, aspiration-mucosites]
 blocs:
   - type: texte
     titre: En bref

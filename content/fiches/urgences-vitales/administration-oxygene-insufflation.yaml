@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT13, 12-2022)"
   code: 05FT13
   page: 148
-liees: []
+liees: [bouteille-oxygene, ventilation-insufflateur-manuel, arret-cardiaque-equipe]
 blocs:
   - type: texte
     titre: En bref

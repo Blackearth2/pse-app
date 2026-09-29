@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR16, 11-2021)
   code: 08PR16
   page: 320
-liees: []
+liees: [victimes-avalanche-connaissances, hypothermie-conduite-a-tenir, arret-cardiaque, maintien-tete-position-neutre, administration-oxygene-inhalation]
 blocs:
   - type: etapes
     titre: Au moment du dégagement de la tête

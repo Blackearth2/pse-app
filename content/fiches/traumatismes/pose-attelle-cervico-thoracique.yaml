@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT13, 11-2021)
   code: 07FT13
   page: 250
-liees: []
+liees: [traumatisme-dos-cou-conduite-a-tenir, pose-collier-cervical, maintien-tete-position-neutre]
 blocs:
   - type: texte
     titre: En bref

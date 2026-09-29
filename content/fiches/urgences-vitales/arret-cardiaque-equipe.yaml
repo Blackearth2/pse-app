@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR04, 07-2026)
   code: 05PR04
   page: 138
-liees: []
+liees: [arret-cardiaque, compressions-thoraciques, utilisation-dae, ventilation-insufflateur-manuel, administration-oxygene-insufflation]
 blocs:
   - type: texte
     titre: En bref

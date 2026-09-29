@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 09PR01, 11-2021)
   code: 09PR01
   page: 328
-liees: []
+liees: [personnes-en-situation-de-crise-connaissances, abord-relationnel-pratique, ecoute-active, respiration-controlee, focalisation-defocalisation]
 blocs:
   - type: texte
     titre: En bref

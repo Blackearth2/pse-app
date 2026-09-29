@@ -1,0 +1,69 @@
+id: electrisation-buanderie
+niveau: PSE2
+titre: Électrisation dans la buanderie
+lieu: Domicile, buanderie humide
+statut: brouillon
+liees: [accident-electrique-conduite-a-tenir, accident-electrique-connaissances]
+contexte: "Vous êtes appelés pour un homme d'une quarantaine d'années qui a reçu une décharge en branchant un appareil ménager défectueux dans sa buanderie. Sa compagne, affolée, t'accueille en criant qu'il est resté au sol contre l'appareil, dans une flaque d'eau, et veut retourner l'aider tout de suite."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu aperçois la victime allongée, immobile, un pied dans l'eau, la main encore près du câble de l'appareil. Le cordon est branché."
+    question: "Que fais-tu avant tout geste sur la victime ?"
+    type: choix
+    propositions:
+      - texte: "Tu l'attrapes par les vêtements pour l'éloigner de l'appareil le plus vite possible."
+        correct: false
+        retour: "Non : tant que le contact direct ou indirect (eau) avec la source électrique n'est pas exclu, toucher la victime te met en danger."
+      - texte: "Tu vérifies que la victime n'est plus en contact avec le conducteur, direct ou par l'eau, puis tu fais couper le courant ou tu débranches l'appareil, en écartant les personnes présentes."
+        correct: true
+        retour: "Oui : la sécurité prime. On s'assure de l'absence de contact direct ou indirect (eau), on coupe le courant ou on le fait couper par une personne qualifiée, si possible, et on interdit aux personnes présentes de toucher la victime."
+      - texte: "Tu commences immédiatement le bilan pour ne pas perdre de temps."
+        correct: false
+        retour: "Non : on ne s'approche pas de la victime et on ne la touche pas avant d'être certain que l'alimentation est coupée."
+  - moment: "Après la coupure du courant"
+    situation: "Le courant est coupé. L'homme est à présent conscient, sonné, et se plaint de la main droite qui présente une brûlure. Il a été projeté contre le mur au moment de la décharge."
+    question: "Que recherches-tu au bilan ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Les points d'entrée et de sortie du courant, seuls signes visibles d'une brûlure interne."
+        correct: true
+        retour: "Oui : sur le trajet du courant, seuls les points d'entrée et de sortie sont visibles et doivent être recherchés systématiquement."
+      - texte: "Des lésions traumatiques liées à la contraction musculaire ou à la projection, notamment au rachis cervical."
+        correct: true
+        retour: "Oui : la victime a pu être projetée par une violente contraction musculaire, ce qui impose de rechercher des traumatismes, notamment cervicaux."
+      - texte: "Une brûlure thermique par arc ou flash, à traiter en plus de la brûlure électrique."
+        correct: true
+        retour: "Oui : la prise en charge suit simultanément le protocole de la brûlure thermique et celui de la brûlure électrique."
+      - texte: "Uniquement la brûlure de la main : sans autre signe, rien d'autre n'est à chercher."
+        correct: false
+        retour: "Non : les signes ne sont pas spécifiques et l'atteinte peut être interne ; il faut compléter le bilan et rechercher les lésions traumatiques."
+  - moment: "Conduite à tenir"
+    situation: "Tu as terminé de vérifier l'absence de détresse vitale immédiate. Il te reste à organiser la suite de la prise en charge."
+    question: "Remets ces actions dans l'ordre de la conduite à tenir."
+    type: ordre
+    elements:
+      - "Appliquer la conduite à tenir adaptée en cas de détresse vitale."
+      - "Prendre en charge les brûlures selon la conduite à tenir de la brûlure thermique et électrique."
+      - "Compléter le bilan et rechercher les lésions dues à la contraction musculaire ou à la projection."
+      - "Réaliser les gestes et soins complémentaires."
+      - "Demander un avis médical et appliquer les consignes reçues."
+    retour: "La fiche enchaîne : détresse vitale d'abord, brûlures, complément de bilan (lésions traumatiques), gestes et soins complémentaires, puis avis médical avec application des consignes."
+  - moment: "Refus de soins"
+    situation: "Après quelques minutes, la douleur a diminué. L'homme se sent bien, plaisante et déclare qu'il n'a besoin de personne. Sa compagne te demande si tu peux les laisser."
+    question: "Que réponds-tu ?"
+    type: choix
+    propositions:
+      - texte: "Puisqu'il n'a plus aucun signe, l'avis médical n'est pas nécessaire."
+        correct: false
+        retour: "Non : même sans aucun signe, des manifestations secondaires peuvent apparaître."
+      - texte: "Tu transmets le bilan au médecin et tu appliques ses consignes : un avis médical est indispensable même en l'absence de signes."
+        correct: true
+        retour: "Oui : après un accident électrique, un avis médical est systématique, car des manifestations peuvent survenir secondairement."
+      - texte: "L'avis médical n'est utile que si la tension du courant était supérieure à 1000 V."
+        correct: false
+        retour: "Non : l'avis médical est demandé dans tous les cas ; la basse tension provoque surtout des fibrillations ventriculaires et n'est pas anodine."
+pointsCles:
+  - "Sécurité d'abord : pas de contact direct ou indirect (eau) avec la source, courant coupé avant toute approche."
+  - "Chercher les points d'entrée et de sortie du courant, et les lésions de projection (rachis cervical)."
+  - "Brûlure thermique et brûlure électrique se traitent simultanément."
+  - "Un avis médical est systématique, même sans aucun signe."

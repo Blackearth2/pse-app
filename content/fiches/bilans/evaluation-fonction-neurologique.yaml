@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT12, 07-2026)
   code: 04FT12
   page: 95
-liees: []
+liees: [detresse-neurologique-connaissances, mesure-glycemie-capillaire, troisieme-regard]
 blocs:
   - type: texte
     titre: Indication et justification

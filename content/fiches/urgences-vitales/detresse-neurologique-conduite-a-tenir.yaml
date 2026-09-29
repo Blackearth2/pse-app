@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR10, 12-2022)"
   code: 05PR10
   page: 173
-liees: []
+liees: [detresse-neurologique-connaissances, administration-oxygene-inhalation, positions-attente-transport, mesure-glycemie-capillaire]
 blocs:
   - type: texte
     titre: En bref

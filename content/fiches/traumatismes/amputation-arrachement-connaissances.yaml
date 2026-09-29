@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07AC03, 07-2026)
   code: 07AC03
   page: 214
-liees: []
+liees: [amputation-arrachement-conduite-a-tenir, conditionner-partie-amputee, hemorragies-externes-connaissances]
 blocs:
   - type: liste
     titre: Définition

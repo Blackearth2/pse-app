@@ -1,0 +1,69 @@
+id: amputation-doigt-atelier
+niveau: PSE1
+titre: Un doigt sectionné à la scie
+lieu: Atelier de menuiserie
+statut: brouillon
+liees: [amputation-arrachement-connaissances, amputation-arrachement-conduite-a-tenir, conditionner-partie-amputee, pansement-compressif]
+contexte: "Tu es appelé dans un atelier de menuiserie. Un ouvrier de 35 ans, conscient, vient de se sectionner l'index de la main droite à la scie circulaire. La machine est arrêtée. Le sang coule abondamment de la main et le doigt sectionné est resté sur l'établi. Un collègue, sous le choc, se tient à côté de lui."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu es équipé de gants. L'ouvrier est pâle mais parle normalement. Le saignement de la main est important."
+    question: "Quelle est ta priorité ?"
+    type: choix
+    propositions:
+      - texte: "Aller chercher le doigt sectionné pour le mettre au froid"
+        correct: false
+        retour: "Non : le premier risque est l'hémorragie externe et son contrôle reste la priorité des premiers secours. Le doigt sera conditionné ensuite, ou par un collègue."
+      - texte: "Poser d'emblée un garrot à la base du doigt"
+        correct: false
+        retour: "Non : on arrête l'hémorragie par compression. Le garrot n'est utilisé que si la compression, manuelle puis par pansement compressif, est inefficace ou impossible."
+      - texte: "Arrêter immédiatement l'hémorragie en comprimant l'endroit qui saigne, ou en lui demandant de le faire lui-même"
+        correct: true
+        retour: "Oui : on arrête l'hémorragie immédiatement, en demandant à la victime de comprimer elle-même l'endroit qui saigne ou, à défaut, en le faisant à sa place."
+  - moment: "Le saignement est contrôlé"
+    situation: "Grâce à la compression, le saignement est maîtrisé. Sous la compresse, il ne s'écoule presque plus de sang."
+    question: "Que fais-tu ensuite au niveau de la plaie ?"
+    type: choix
+    propositions:
+      - texte: "Mettre en place un pansement compressif sur la plaie, même en l'absence de saignement"
+        correct: true
+        retour: "Oui : en cas d'amputation, le pansement compressif est posé même sans saignement, car l'hémorragie peut survenir avec retard."
+      - texte: "Retirer la compression pour vérifier que le saignement ne reprend pas"
+        correct: false
+        retour: "Non : le premier risque est l'hémorragie, dont la survenue peut être retardée de plusieurs minutes. On relaie la compression par un pansement compressif."
+      - texte: "Ne rien poser puisque la plaie ne saigne plus"
+        correct: false
+        retour: "Non : le pansement compressif est posé même en l'absence de saignement."
+  - moment: "Le segment amputé"
+    situation: "Un collègue a récupéré le doigt sectionné. Tu disposes de pansements stériles, de sérum physiologique, de sacs plastiques propres et étanches, et d'un bac de glace."
+    question: "Remets dans l'ordre les gestes de conditionnement du doigt."
+    type: ordre
+    elements:
+      - "Récupérer le doigt et le conserver au frais sans le congeler"
+      - "L'envelopper dans un pansement stérile ou un tissu propre humidifié avec du sérum physiologique ou de l'eau"
+      - "Placer le doigt enveloppé dans un sac ou un récipient en plastique propre et étanche"
+      - "Placer ce sac dans un autre sac contenant de la glace ou de l'eau glacée"
+      - "Indiquer sur le récipient le nom de l'ouvrier et l'heure de conservation"
+    retour: "La partie amputée est récupérée, enveloppée dans un pansement stérile ou un tissu propre humidifié, placée dans un sac étanche, lui-même placé dans un second sac contenant de la glace ou de l'eau glacée. On note le nom de la victime et l'heure. Le froid préserve le segment dans l'attente d'une éventuelle réimplantation."
+  - moment: "Avant l'évacuation"
+    situation: "Le doigt est conditionné. Le collègue propose de le laisser sur place pour ne pas encombrer, ou de le mettre au congélateur de l'atelier."
+    question: "Que fais-tu du doigt conditionné ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Le transporter avec l'ouvrier vers le même hôpital"
+        correct: true
+        retour: "Oui : la partie amputée est transportée avec la victime, vers le même hôpital, le plus rapidement possible."
+      - texte: "Le maintenir au frais en permanence, sans contact direct avec la glace"
+        correct: true
+        retour: "Oui : le contact direct entre la partie amputée et la source de froid serait responsable de gelures pouvant compromettre la réimplantation."
+      - texte: "Le mettre directement dans la glace pour qu'il refroidisse plus vite"
+        correct: false
+        retour: "Non : il ne doit jamais être en contact direct avec la glace, ce qui causerait des gelures."
+      - texte: "Le congeler pour le conserver plus longtemps"
+        correct: false
+        retour: "Non : on conserve la partie amputée au frais sans la congeler."
+pointsCles:
+  - "Priorité absolue : arrêter l'hémorragie par compression ; le pansement compressif est posé même en l'absence de saignement, car l'hémorragie peut être retardée."
+  - "Le temps d'ischémie est décisif : un conditionnement correct par refroidissement augmente les chances de réimplantation."
+  - "Conditionnement : pansement stérile ou tissu propre humidifié, sac étanche, second sac avec glace ou eau glacée, nom et heure notés."
+  - "Ne jamais congeler ni mettre en contact direct avec la glace ; transporter le segment avec la victime."

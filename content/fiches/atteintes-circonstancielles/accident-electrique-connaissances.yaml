@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC01, 06-2018)
   code: 08AC01
   page: 268
-liees: []
+liees: [accident-electrique-conduite-a-tenir, brulures-connaissances, accidents-foudre-connaissances]
 blocs:
   - type: texte
     titre: En bref

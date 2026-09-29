@@ -1,0 +1,83 @@
+id: hypothermie-randonneur-refuge
+niveau: PSE2
+titre: Randonneur en hypothermie
+lieu: Sentier de moyenne montagne, abri de berger à proximité, fin d'automne
+statut: brouillon
+liees: [hypothermie-conduite-a-tenir, hypothermie-connaissances, rechauffement-victime]
+contexte: "Tu es engagé sur un dispositif de secours en moyenne montagne, par temps froid, humide et venteux. Des promeneurs te signalent un randonneur d'une soixantaine d'années, resté immobile au bord du sentier depuis un long moment après avoir été trempé par une averse. Il est assis, pâle, les vêtements mouillés."
+etapes:
+  - moment: "Premier contact"
+    situation: "Il répond lentement, semble désorienté et ne tremble plus. Son compagnon dit : « Il a arrêté de trembler, il a l'air d'aller mieux. »"
+    question: "Comment interprètes-tu l'arrêt des frissons ?"
+    type: choix
+    propositions:
+      - texte: "C'est rassurant : son corps a fini de se réchauffer."
+        correct: false
+        retour: "Non : la disparition des frissons n'est pas rassurante."
+      - texte: "C'est inquiétant : l'absence de frissons signe l'épuisement de l'organisme, qui n'arrive plus à lutter contre le froid."
+        correct: true
+        retour: "Oui : les frissons surviennent avant l'hypothermie sévère ; leur absence, avec la désorientation, évoque une hypothermie modérée ou sévère."
+      - texte: "C'est sans importance : seule la température mesurée compte."
+        correct: false
+        retour: "Non : il est souvent très difficile de mesurer la température sur les lieux ; la corrélation des signes avec la température aide à évaluer la gravité."
+  - moment: "Premiers gestes"
+    situation: "Tu peux disposer de l'abri de berger, à quelques dizaines de mètres, et de couvertures. L'homme est mouillé de la tête aux pieds."
+    question: "Quels gestes réalises-tu ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Tu le mets à l'abri du vent et tu l'isoles dans un endroit chaud, en évitant toute nouvelle perte de chaleur."
+        correct: true
+        retour: "Oui : abri du vent puis isolement dans un endroit chaud pour éviter toute perte de chaleur supplémentaire par conduction ou convection."
+      - texte: "Tu ôtes ses vêtements mouillés en le mobilisant délicatement, en les coupant si la mobilisation est pénible ou douloureuse."
+        correct: true
+        retour: "Oui : les vêtements mouillés sont ôtés avec prudence, avec le risque d'arrêt cardiaque brutal en tête."
+      - texte: "Tu lui fais marcher jusqu'au refuge pour l'échauffer."
+        correct: false
+        retour: "Non : toute mobilisation doit être délicate et sans à-coups, car le risque d'arrêt cardiaque brutal est réel."
+      - texte: "Tu le frictionnes vigoureusement pour lui redonner de la chaleur."
+        correct: false
+        retour: "Non : une victime hypotherme est très sensible aux mobilisations, qui peuvent déclencher des troubles du rythme voire un arrêt cardiaque."
+  - moment: "Choix du réchauffement"
+    situation: "Dans l'abri, tu disposes d'une couverture chauffante, de bouillottes et de couvertures isothermes. La victime est confuse et ne frissonne pas."
+    question: "Quel réchauffement choisis-tu ?"
+    type: choix
+    propositions:
+      - texte: "Un réchauffement passif seul : couvertures, sans apport de chaleur."
+        correct: false
+        retour: "Non : le réchauffement passif convient à l'hypothermie légère avec frissons intenses."
+      - texte: "Un réchauffement actif : couverture chauffante et bouillottes sur les gros vaisseaux (cou, aisselles, aine), avec du tissu interposé pour éviter les brûlures."
+        correct: true
+        retour: "Oui : sans frisson (hypothermie modérée ou sévère), on réchauffe activement. Les dispositifs chauds ne sont jamais posés directement sur la peau."
+      - texte: "Un bain très chaud, pour aller vite."
+        correct: false
+        retour: "Non : la fiche ne prévoit pas de bain chaud ; les moyens sont la couverture chauffante (40 à 42 °C) et les poches d'eau tiède ou chaufferettes avec protection."
+  - moment: "Organisation de l'action"
+    situation: "Pendant que tu réchauffes la victime, ton équipier te demande de rappeler l'ordre général de l'action de secours."
+    question: "Remets ces actions dans l'ordre du principe de l'action de secours."
+    type: ordre
+    elements:
+      - "Soustraire la victime à la cause."
+      - "Éviter toute déperdition supplémentaire de chaleur."
+      - "Demander un avis médical."
+      - "Réchauffer la victime."
+      - "Surveiller attentivement la victime (risque d'arrêt cardiaque)."
+    retour: "Principe de l'action de secours dans la fiche : soustraire à la cause, éviter la déperdition de chaleur, avis médical, réchauffer, surveiller attentivement."
+  - moment: "Dégradation"
+    situation: "Quelques minutes plus tard, l'homme perd connaissance. Tu ne perçois ni ventilation ni pouls de façon évidente."
+    question: "Combien de temps recherches-tu les signes de vie avant de conclure à l'arrêt cardiaque ?"
+    type: choix
+    propositions:
+      - texte: "10 secondes, comme pour toute victime."
+        correct: false
+        retour: "Non : chez une victime hypotherme, la ventilation et le pouls sont très difficiles à trouver."
+      - texte: "Au moins 1 minute ; en cas de doute, tu débutes la RCP."
+        correct: true
+        retour: "Oui : recherche d'au moins 1 minute ; en cas de doute, on débute la RCP. La rigidité thoracique peut rendre compressions et insufflations plus difficiles."
+      - texte: "Tu ne commences jamais la RCP tant qu'il n'est pas réchauffé."
+        correct: false
+        retour: "Non : on débute la RCP en cas de doute, à condition que les conditions de sécurité de l'équipe soient satisfaisantes."
+pointsCles:
+  - "La disparition des frissons n'est pas rassurante : elle signe l'épuisement de l'organisme."
+  - "Mobilisation délicate et sans à-coups : risque d'arrêt cardiaque brutal."
+  - "Frissons intenses : réchauffement passif ; pas de frisson : réchauffement actif, sans contact direct du chaud avec la peau."
+  - "Recherche des signes de vie d'au moins 1 minute ; en cas de doute, RCP."

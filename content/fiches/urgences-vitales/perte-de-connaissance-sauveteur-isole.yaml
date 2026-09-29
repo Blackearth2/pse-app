@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR07, 07-2026)"
   code: 05PR07
   page: 160
-liees: []
+liees: [perte-de-connaissance-connaissances, pls-a-un-secouriste, alerte, lva-victime-non-traumatisee]
 blocs:
   - type: texte
     titre: En bref

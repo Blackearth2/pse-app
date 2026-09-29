@@ -1,0 +1,83 @@
+id: intoxication-opioides-domicile
+niveau: PSE2
+titre: Intoxication médicamenteuse aux opioïdes
+lieu: Domicile, salon d'un appartement
+statut: brouillon
+liees: [intoxications-conduite-a-tenir, intoxications-connaissances]
+contexte: "Vous êtes appelés pour une femme de 55 ans retrouvée par son fils très somnolente sur le canapé. Tu remarques une boîte de comprimés vide sur la table basse, un patch de médicament collé sur son épaule, et ses pupilles sont très petites. Elle répond à peine quand on l'appelle."
+etapes:
+  - moment: "Premier regard et bilan"
+    situation: "Tu comptes une fréquence respiratoire de 8 mouvements par minute, avec des pauses. Elle n'a pas perdu connaissance mais a des troubles de la conscience."
+    question: "Comment analyses-tu la situation ?"
+    type: choix
+    propositions:
+      - texte: "Une simple fatigue : tu la laisses dormir sur le côté et tu surveilles."
+        correct: false
+        retour: "Non : dépression respiratoire avec troubles de la conscience et myosis sont les signes caractéristiques d'un surdosage."
+      - texte: "Une intoxication aux opiacés ou opioïdes avec dépression respiratoire (FR < 12/min) : la conduite à tenir spécifique s'applique."
+        correct: true
+        retour: "Oui : le seuil de FR < 12 mouvements par minute, avec ou sans perte de connaissance, déclenche la conduite à tenir devant une intoxication aux opiacés ou opioïdes."
+      - texte: "Un simple malaise, sans autre geste à faire qu'attendre les secours."
+        correct: false
+        retour: "Non : la dépression respiratoire peut évoluer vers la perte de connaissance et la mort par anoxie."
+  - moment: "Gestes à réaliser"
+    situation: "La naloxone en spray nasal est disponible dans le sac et la victime a plus de 14 ans. Le médecin régulateur est joignable."
+    question: "Remets ces actions dans l'ordre de la fiche."
+    type: ordre
+    elements:
+      - "Administrer de l'oxygène en inhalation."
+      - "Retirer les patchs de médicaments éventuels."
+      - "Demander un avis médical."
+      - "Administrer une pulvérisation de naloxone dans une narine."
+      - "Surveiller en permanence la ventilation."
+    retour: "La fiche liste : oxygène en inhalation, retrait des patchs, avis médical, naloxone par pulvérisation intranasale (âge de 14 ans et plus), puis surveillance permanente de la ventilation."
+  - moment: "Quelques minutes plus tard"
+    situation: "Deux minutes après la première pulvérisation, la fréquence respiratoire n'a pas augmenté et la victime reste somnolente."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu renouvelles l'administration de naloxone au bout de 2 à 3 minutes, si l'état ne s'améliore pas."
+        correct: true
+        retour: "Oui : si l'état ne s'améliore pas ou si les signes réapparaissent, on renouvelle l'administration au bout de 2 à 3 minutes."
+      - texte: "Tu renonces à toute autre action : la naloxone ne s'administre qu'une fois."
+        correct: false
+        retour: "Non : la fiche prévoit de renouveler l'administration au bout de 2 à 3 minutes en cas de non-amélioration ou de réapparition des signes."
+      - texte: "Tu lui fais boire de l'eau pour diluer le produit avalé."
+        correct: false
+        retour: "Non : on ne fait ni vomir ni boire une victime intoxiquée par ingestion."
+  - moment: "Bilan et transmission"
+    situation: "Tu poursuis le 4e regard pendant que ton équipier surveille la victime."
+    question: "Quelles informations recueilles-tu ou quels gestes proscris-tu ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Tu cherches les circonstances de survenue, la nature du toxique, la dose supposée absorbée et l'heure de prise."
+        correct: true
+        retour: "Oui : ces éléments sont demandés au 4e regard et transmis au médecin."
+      - texte: "Tu recherches les emballages et flacons des produits en cause."
+        correct: true
+        retour: "Oui : la fiche demande de rechercher les emballages et flacons des produits en cause."
+      - texte: "Tu fais vomir la victime pour éliminer le produit."
+        correct: false
+        retour: "Non : ne jamais faire vomir ni boire la victime."
+      - texte: "Tu laisses le patch en place puisqu'il ne concerne pas l'intoxication par comprimés."
+        correct: false
+        retour: "Non : les patchs de médicaments éventuels sont retirés."
+  - moment: "Aggravation"
+    situation: "La victime ralentit encore sa respiration. La fréquence respiratoire tombe à 4 mouvements par minute. Elle n'est pas encore en arrêt cardiaque."
+    question: "Quel geste adaptes-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu continues à surveiller sans autre geste tant que le cœur bat."
+        correct: false
+        retour: "Non : au-dessous de 6 mouvements par minute, une ventilation artificielle est nécessaire."
+      - texte: "Tu réalises une ventilation artificielle, car la fréquence respiratoire est inférieure à 6 par minute."
+        correct: true
+        retour: "Oui : seuil de la ventilation artificielle. En cas d'arrêt cardiaque, on administrerait la naloxone après avoir débuté la réanimation."
+      - texte: "Tu attends l'arrêt cardiaque pour débuter la réanimation, puis tu administres la naloxone avant."
+        correct: false
+        retour: "Non : en arrêt cardiaque, la naloxone n'est administrée qu'après avoir débuté la réanimation."
+pointsCles:
+  - "Dépression respiratoire (FR < 12/min), troubles de la conscience et myosis : penser à l'intoxication aux opioïdes."
+  - "Naloxone intranasale : une pulvérisation dans une narine à partir de 14 ans, à renouveler après 2 à 3 minutes."
+  - "Retirer les patchs ; ne jamais faire vomir ni boire ; ventilation artificielle si FR < 6/min."
+  - "En arrêt cardiaque, la réanimation débute avant la naloxone."

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC12, 06-2018)
   code: 08AC12
   page: 314
-liees: []
+liees: [victimes-explosion-conduite-a-tenir, situation-nombreuses-victimes]
 blocs:
   - type: texte
     titre: En bref

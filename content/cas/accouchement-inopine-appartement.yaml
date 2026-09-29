@@ -1,0 +1,70 @@
+id: accouchement-inopine-appartement
+niveau: PSE2
+titre: Accouchement inopiné à l'appartement
+lieu: Domicile, chambre d'un appartement
+statut: brouillon
+liees: [accouchement-inopine-conduite-a-tenir, accouchement-inopine-connaissances, prise-en-charge-nouveau-ne-naissance]
+contexte: "Vous arrivez au domicile d'une femme de 32 ans, enceinte de son troisième enfant à environ 39 semaines, qui a des contractions très rapprochées. Elle est allongée sur le dos dans son lit, en sueur. Elle dit ressentir une envie irrépressible de pousser et vient de perdre les eaux. Le médecin régulateur consulté par ton chef d'équipe indique qu'il n'est pas possible de la transporter : l'accouchement aura lieu sur place."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu prends le bilan pendant que la future maman est sur le dos, ce qui semble aggraver son inconfort."
+    question: "Avant l'accouchement, comment installes-tu la femme enceinte ?"
+    type: choix
+    propositions:
+      - texte: "Sur le dos, jambes fléchies, pour surveiller plus facilement."
+        correct: false
+        retour: "Non : l'installation sur le dos est à proscrire."
+      - texte: "Sur le côté, de préférence le côté gauche."
+        correct: true
+        retour: "Oui : avant l'accouchement, on installe la femme enceinte sur le côté, de préférence gauche."
+      - texte: "Debout, pour favoriser la descente du bébé."
+        correct: false
+        retour: "Non : la fiche prévoit une installation sur le côté ; ensuite, lors de l'accouchement, une position qui lui convient (demi-assise, sur le côté...)."
+  - moment: "L'expulsion"
+    situation: "Le haut du crâne du bébé commence à apparaître à la vulve. Tu dois organiser l'accouchement sur place."
+    question: "Remets les étapes dans l'ordre."
+    type: ordre
+    elements:
+      - "Te protéger contre les projections : gants, masque, lunettes."
+      - "Préparer le matériel : serviettes propres et sèches, récipient, matériel de réanimation du nouveau-né."
+      - "Installer la parturiente dans la position qui lui convient le mieux."
+      - "Lui demander de pousser lors des contractions dès que le haut du crâne apparaît."
+      - "Dès que la moitié de la tête est apparue, cesser de la faire pousser et ralentir la sortie de la tête, maintenue d'une main."
+      - "Accompagner la sortie spontanée du nouveau-né, puis noter l'heure de naissance."
+    retour: "C'est l'ordre de la fiche : protection, matériel, installation, poussée au moment de l'apparition du crâne, arrêt de la poussée à la moitié de la tête pour éviter les déchirures, accompagnement de la sortie et heure de naissance."
+  - moment: "Le nouveau-né"
+    situation: "Le bébé est né. Il crie vigoureusement, bouge bien, et tu l'as noté à 03 h 12. Il est glissant."
+    question: "Quels gestes réalises-tu pour le nouveau-né ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Tu le poses sur le ventre de sa mère, sur le côté, peau contre peau, la tête bien dégagée."
+        correct: true
+        retour: "Oui : c'est le geste dans tous les cas. On met une paire de gants propres et on apprécie le cri ou la respiration et le tonus."
+      - texte: "Tu attends au moins 1 minute de vie avant de clamper le cordon."
+        correct: true
+        retour: "Oui : chez un nouveau-né en bonne santé, le cordon est clampé au minimum après 1 minute de vie."
+      - texte: "Tu le sèches par tamponnement et tu l'enveloppes, tête et corps sauf la face, avec un bonnet si possible."
+        correct: true
+        retour: "Oui : protection contre le froid en séchant par tamponnement avec une serviette propre, sèche et tiède."
+      - texte: "Tu tires doucement sur le cordon pour aider la délivrance."
+        correct: false
+        retour: "Non : on ne tire ni sur le cordon ni sur le placenta."
+  - moment: "La délivrance"
+    situation: "Vingt minutes après la naissance, la mère ressent de nouvelles contractions et l'envie de pousser. Le placenta n'est pas encore sorti. Il n'y a pas d'équipe médicale sur place."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu laisses sortir le placenta sans tirer sur lui ni sur le cordon, en faisant pousser la mère, puis tu le recueilles pour l'acheminer à l'hôpital."
+        correct: true
+        retour: "Oui : conduite à tenir pour la délivrance ; la mère est ensuite surveillée, avec pansement absorbant et recherche d'une hémorragie."
+      - texte: "Tu tires sur le cordon pour extraire le placenta plus vite."
+        correct: false
+        retour: "Non : ne jamais tirer sur le placenta ni sur le cordon ombilical."
+      - texte: "Tu laisses la mère seule jusqu'à l'arrivée des secours, la délivrance étant sans risque."
+        correct: false
+        retour: "Non : il faut surveiller la mère et s'assurer de l'absence d'hémorragie ; une hémorragie secondaire peut survenir après la délivrance."
+pointsCles:
+  - "Avant l'accouchement : femme installée sur le côté, de préférence gauche ; jamais sur le dos."
+  - "Faire pousser au début, puis cesser de faire pousser dès la moitié de la tête pour ralentir la sortie."
+  - "Nouveau-né en bonne santé : peau contre peau, clampage du cordon au minimum après 1 minute, protection contre le froid."
+  - "Ne jamais tirer sur l'enfant, le placenta ou le cordon ombilical."

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC11, 09-2021)
   code: 08AC11
   page: 312
-liees: []
+liees: [pendaison-strangulation-conduite-a-tenir]
 blocs:
   - type: texte
     titre: Définitions

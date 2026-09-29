@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT11, 12-2023)
   code: 07FT11
   page: 246
-liees: []
+liees: [traumatisme-dos-cou-conduite-a-tenir, traumatisme-crane-conduite-a-tenir, pose-collier-cervical, pose-attelle-cervico-thoracique, immobilisation-plan-dur]
 blocs:
   - type: texte
     titre: En bref

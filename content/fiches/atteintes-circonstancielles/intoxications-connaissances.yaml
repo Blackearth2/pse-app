@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC08, 09-2019)
   code: 08AC08
   page: 301
-liees: []
+liees: [intoxications-conduite-a-tenir, intoxication-environnement-toxique]
 blocs:
   - type: texte
     titre: En bref

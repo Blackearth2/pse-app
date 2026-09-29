@@ -1,0 +1,67 @@
+id: crise-sideration-apres-accident
+niveau: PSE2
+titre: Personne sidérée après un accident
+lieu: Bord de route, après une collision entre deux véhicules
+statut: brouillon
+liees: [personnes-en-situation-de-crise-connaissances, personne-en-situation-de-crise-conduite-a-tenir]
+contexte: "Tu interviens en équipe après une collision sans blessé grave. Un conducteur d'une trentaine d'années, indemne, est assis sur le bas-côté. Il fixe le vide, ne répond pas aux questions et ne bouge plus. Une petite foule de curieux se tient autour de lui."
+etapes:
+  - moment: "Au 1er regard"
+    situation: "Tu observes la victime, son entourage et l'environnement avant de l'aborder."
+    question: "Quel type de réaction reconnais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Une réaction hyperactive (bruyante), avec agitation désordonnée."
+        correct: false
+        retour: "Non : les réactions hyperactives se manifestent par de l'agitation, des cris, de la fuite panique. Ici, la victime est immobile, muette, avec un regard vide."
+      - texte: "Une réaction hypoactive (silencieuse), de type stupeur ou sidération, dans un état de dissociation."
+        correct: true
+        retour: "Oui : regard vide, immobilité, mutisme, paralysie de l'action et de la pensée sont les signes d'une stupeur (sidération), phénomène protecteur automatique face à un stress extrême."
+      - texte: "Une simple fatigue qui disparaîtra seule, sans besoin de prise en charge."
+        correct: false
+        retour: "Non : ces manifestations signent une détresse psychologique aiguë. Une réaction semblant adaptée ne garantit pas l'absence de blessure psychique."
+  - moment: "Sécuriser"
+    situation: "Tu as repéré l'élément déclencheur : la collision. Des curieux l'entourent et un proche parle fort autour de lui."
+    question: "Dans quel ordre organises-tu ta prise en charge ?"
+    type: ordre
+    elements:
+      - "Observer et rechercher : victime, entourage, environnement, facteurs de stress, élément déclencheur, antécédents"
+      - "Sécuriser et protéger : choisir un lieu à l'écart de la source de stress et des pressions extérieures"
+      - "Apaiser la détresse et répondre aux besoins, dans le calme et sans précipitation"
+    retour: "La conduite générale suit trois temps : observer et rechercher (le 1er regard est essentiel et détermine les stratégies), sécuriser et protéger en choisissant un lieu propice à l'échange, à l'écart de la source de stress (et en séparant l'entourage s'il exacerbe l'état de crise), puis apaiser la détresse et répondre aux besoins."
+  - moment: "Abord relationnel"
+    situation: "Tu es maintenant avec le conducteur, à l'écart de la foule. Il reste silencieux."
+    question: "Quelles attitudes sont adaptées ?"
+    type: multiple
+    propositions:
+      - texte: "Rechercher le contact visuel et rassurer par une présence calme et bienveillante."
+        correct: true
+        retour: "Oui : rechercher le contact visuel, rassurer, soigner le langage non verbal (voix apaisante, regard bienveillant) fait partie de la conduite face à une réaction hypoactive."
+      - texte: "Le ramener dans l'ici et maintenant avec des questions concrètes : « Pouvez-vous me décrire ce que vous voyez ? »"
+        correct: true
+        retour: "Oui : on l'aide à prendre conscience que l'événement est terminé et qu'il est en sécurité, par des questions concrètes qui le reconnectent à la réalité."
+      - texte: "Lui demander de raconter en détail l'accident et de dire ce qu'il ressent."
+        correct: false
+        retour: "Non : questionner la victime sur l'événement vécu, lui demander d'en faire le récit ou de parler de ses émotions maintient ou réactive l'état de dissociation."
+      - texte: "Ne jamais le laisser seul."
+        correct: true
+        retour: "Oui : on ne laisse jamais seule une victime en réaction hypoactive."
+  - moment: "Suite de la prise en charge"
+    situation: "Le conducteur reprend peu à peu contact avec toi. Tu te demandes quelle suite donner à la situation."
+    question: "Que retiens-tu pour la suite ?"
+    type: choix
+    propositions:
+      - texte: "Puisqu'il parle à nouveau normalement, il n'y a plus de risque et tu peux le laisser partir seul."
+        correct: false
+        retour: "Non : une réaction de stress semblant adaptée dans l'immédiat ne garantit pas l'absence de blessure psychique, et on ne laisse pas la victime seule."
+      - texte: "Des réactions de détresse comme la stupeur doivent alerter : une prise en charge médicale ou psychologique spécialisée est indiquée, en transmettant les informations recueillies au médecin régulateur."
+        correct: true
+        retour: "Oui : ces réactions indiquent une détresse psychologique aiguë, voire une blessure psychologique grave, avec un risque de troubles psychotraumatiques durables. On transmet un maximum d'informations au médecin régulateur pour orienter vers une prise en charge spécialisée."
+      - texte: "Il faut l'obliger à reparler de l'accident dès qu'il est capable de répondre."
+        correct: false
+        retour: "Non : on l'invite à s'exprimer, mais pas à tout prix, en privilégiant une communication cognitive plutôt qu'émotionnelle."
+pointsCles:
+  - "Deux grands profils de réaction : hypoactive (silencieuse, stupeur, sidération) et hyperactive (bruyante, fuite panique, agitation)."
+  - "Conduite générale : observer (1er regard essentiel), sécuriser et protéger, apaiser la détresse."
+  - "Réaction hypoactive : contact visuel, présence calme, ici et maintenant, ne jamais laisser seul, ne pas faire raconter l'événement."
+  - "Une réaction de stress apparemment adaptée ne garantit pas l'absence de blessure psychique."

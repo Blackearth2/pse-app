@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC02, 07-2026)"
   code: 05AC02
   page: 116
-liees: []
+liees: [hemorragies-externes-conduite-a-tenir, hemorragies-exteriorisees-connaissances, detresse-circulatoire-connaissances, deuxieme-regard, quatrieme-regard]
 blocs:
   - type: texte
     titre: En bref

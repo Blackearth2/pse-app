@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT08, 07-2026)
   code: 04FT08
   page: 84
-liees: []
+liees: [evaluation-fonction-respiratoire, quatrieme-regard, surveillance-victime]
 blocs:
   - type: texte
     titre: Indication

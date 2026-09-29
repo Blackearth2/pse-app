@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT10, 07-2026)
   code: 05FT10
   page: 141
-liees: []
+liees: [arret-cardiaque-equipe, arret-cardiaque-sauveteur-isole, utilisation-dae, ventilation-methode-orale, ventilation-insufflateur-manuel]
 blocs:
   - type: texte
     titre: En bref

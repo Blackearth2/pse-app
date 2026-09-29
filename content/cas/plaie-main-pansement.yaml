@@ -1,0 +1,69 @@
+id: plaie-main-pansement
+niveau: PSE1
+titre: Une coupure à la main
+lieu: Stand de restauration d'une fête de village
+statut: brouillon
+liees: [plaie-connaissances, plaie-conduite-a-tenir, pansement]
+contexte: "Tu es de poste sur une fête de village. Un bénévole de 45 ans, en train d'ouvrir des boîtes de conserve, s'est coupé la paume de la main sur le bord d'un couvercle. Il est conscient, tient sa main en l'air et te montre une petite coupure superficielle, de 2 cm environ, qui saigne peu."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu observes la plaie. Elle est propre, superficielle, saigne peu, et elle n'est située ni près d'un orifice naturel ni près de l'œil."
+    question: "Comment qualifies-tu cette plaie ?"
+    type: choix
+    propositions:
+      - texte: "Plaie grave, parce qu'elle est située sur la main"
+        correct: false
+        retour: "Non : pour une plaie, la main ne fait pas partie des localisations graves (cou, thorax, abdomen, œil, orifices naturels). La localisation sur la main est un critère de gravité pour une brûlure, pas pour une plaie."
+      - texte: "Plaie simple : petite coupure superficielle qui saigne peu, hors orifice naturel et hors œil"
+        correct: true
+        retour: "Oui : c'est la définition de la plaie simple. Aucun critère de gravité n'est présent (pas d'hémorragie associée, pas de mécanisme pénétrant, pas de localisation à risque, pas d'aspect déchiqueté)."
+      - texte: "Plaie grave, parce qu'un objet en métal l'a provoquée"
+        correct: false
+        retour: "Non : le mécanisme est une coupure superficielle, pas une plaie pénétrante ou punctiforme. Ce n'est pas le matériau de l'objet qui fait la gravité."
+  - moment: "Soins"
+    situation: "Tu vas soigner la plaie du bénévole avec le matériel du poste de secours."
+    question: "Remets dans l'ordre les gestes de la conduite à tenir face à une plaie simple."
+    type: ordre
+    elements:
+      - "Te laver les mains à l'eau et au savon ou utiliser une solution hydroalcoolique"
+      - "Te protéger par le port de gants"
+      - "Nettoyer la plaie à l'eau courante propre, avec du savon si elle est souillée"
+      - "Sécher la zone autour de la plaie"
+      - "Protéger la plaie par un pansement"
+    retour: "La conduite à tenir face à une plaie simple : hygiène des mains, gants, nettoyage à l'eau courante propre (savon si la plaie est souillée), séchage de la zone autour de la plaie, puis protection par un pansement."
+  - moment: "Pose du pansement"
+    situation: "Tu choisis un pansement adhésif stérile adapté à la taille de la plaie et tu le sors de son emballage individuel."
+    question: "Quelle règle respectes-tu pour poser ce pansement ?"
+    type: choix
+    propositions:
+      - texte: "Lisser la compresse avec les doigts avant la pose pour qu'elle soit bien à plat"
+        correct: false
+        retour: "Non : on ne touche jamais avec les doigts, même gantés, la partie du pansement qui entrera en contact avec la plaie."
+      - texte: "Ne pas toucher la partie qui va contre la plaie, puis coller les parties adhésives sur la peau saine et les lisser"
+        correct: true
+        retour: "Oui : on applique le pansement sur la plaie sans toucher la compresse, on colle les parties adhésives sur la peau saine, puis on les lisse avec le doigt."
+      - texte: "Poser le pansement sans avoir séché la peau autour de la plaie, l'adhésif tiendra"
+        correct: false
+        retour: "Non : la zone autour de la plaie est séchée avant la pose du pansement."
+  - moment: "Avant de le laisser repartir"
+    situation: "Le pansement est en place. Le bénévole veut retourner à son stand. Il ne se souvient plus de la date de son dernier rappel antitétanique."
+    question: "Quels conseils lui donnes-tu ?"
+    type: multiple
+    propositions:
+      - texte: "Consulter un médecin s'il n'est pas à jour de sa vaccination antitétanique"
+        correct: true
+        retour: "Oui : toute plaie, même minime, peut donner le tétanos, et seule la vaccination en protège. Chez l'adulte, il faut consulter si la personne n'est pas vaccinée ou si la vaccination date de plus de dix ans."
+      - texte: "Consulter si la plaie devient chaude, rouge, suinte, gonfle ou continue de faire mal dans les vingt-quatre heures"
+        correct: true
+        retour: "Oui : ce sont des signes d'infection de la plaie, qui justifient un avis médical."
+      - texte: "Retirer le pansement dès qu'il ne sent plus la douleur, pour que la plaie sèche à l'air"
+        correct: false
+        retour: "Non : le pansement protège la plaie des souillures et limite le risque d'infection secondaire."
+      - texte: "Ne plus se préoccuper de sa vaccination : le nettoyage à l'eau courante suffit à éviter le tétanos"
+        correct: false
+        retour: "Non : seule la vaccination antitétanique protège du tétanos, y compris après une plaie minime."
+pointsCles:
+  - "Pour une plaie, la main n'est pas une localisation de gravité ; sont graves notamment le cou, le thorax, l'abdomen, l'œil et les orifices naturels ; en cas de doute, la plaie est considérée comme grave."
+  - "Plaie simple : mains propres, gants, nettoyage à l'eau courante, séchage autour de la plaie, pansement."
+  - "Ne jamais toucher avec les doigts, même gantés, la partie du pansement en contact avec la plaie."
+  - "Toute plaie peut donner le tétanos : conseiller de consulter si la vaccination n'est pas à jour, ou si des signes d'infection apparaissent."

@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT12, 12-2023)"
   code: 05FT12
   page: 146
-liees: []
+liees: [arret-cardiaque-sauveteur-isole, compressions-thoraciques, utilisation-dae, arret-cardiaque]
 blocs:
   - type: texte
     titre: En bref

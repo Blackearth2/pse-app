@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT16, 12-2023)
   code: 07FT16
   page: 265
-liees: []
+liees: [traumatisme-bassin-conduite-a-tenir, traumatisme-bassin-connaissances, immobilisation-matelas-depression]
 blocs:
   - type: texte
     titre: En bref

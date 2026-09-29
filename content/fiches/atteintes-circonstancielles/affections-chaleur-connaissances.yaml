@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC05, 07-2026)
   code: 08AC05
   page: 289
-liees: []
+liees: [affections-chaleur-conduite-a-tenir, techniques-refroidissement-victime]
 blocs:
   - type: texte
     titre: En bref

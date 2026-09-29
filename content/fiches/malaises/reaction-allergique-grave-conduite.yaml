@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR07, 07-2026)
   code: 06PR07
   page: 199
-liees: []
+liees: [reaction-allergique-grave-connaissances, aide-prise-medicaments, malaise-aggravation-maladie-conduite-a-tenir, detresse-respiratoire-conduite-a-tenir, detresse-circulatoire-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

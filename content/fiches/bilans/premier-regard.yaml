@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR01, 12-2022)
   code: 04PR01
   page: 66
-liees: []
+liees: [deuxieme-regard, securite-intervention, situation-nombreuses-victimes, alerte, precautions-standards]
 blocs:
   - type: texte
     titre: En bref

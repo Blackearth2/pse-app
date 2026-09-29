@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT06, 09-2019)
   code: 04FT06
   page: 81
-liees: []
+liees: [lva-victime-traumatisee, lva-victime-non-traumatisee, deuxieme-regard]
 blocs:
   - type: texte
     titre: Indication

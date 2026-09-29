@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR03, 07-2026)
   code: 07PR03
   page: 215
-liees: []
+liees: [amputation-arrachement-connaissances, conditionner-partie-amputee, pansement-compressif, plaie-conduite-a-tenir, hemorragies-externes-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04PR04, 12-2023)
   code: 04PR04
   page: 69
-liees: []
+liees: [mesure-pression-arterielle, mesure-saturation-pulsee-oxygene, mesure-douleur, recherche-lesions, transmission-bilan]
 blocs:
   - type: texte
     titre: En bref

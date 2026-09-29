@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT14, 06-2018)"
   code: 05FT14
   page: 149
-liees: []
+liees: [arret-cardiaque-equipe, ventilation-insufflateur-manuel, aspiration-mucosites]
 blocs:
   - type: texte
     titre: En bref

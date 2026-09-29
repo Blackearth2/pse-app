@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC06, 07-2026)
   code: 06AC06
   page: 195
-liees: []
+liees: [hypoglycemie-diabetique-conduite, mesure-glycemie-capillaire, detresse-neurologique-connaissances]
 blocs:
   - type: texte
     titre: En bref

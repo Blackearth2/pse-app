@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07PR01, 07-2026)
   code: 07PR01
   page: 203
-liees: []
+liees: [brulures-connaissances, emballage-pansement-sterile, rechauffement-victime]
 blocs:
   - type: texte
     titre: En bref

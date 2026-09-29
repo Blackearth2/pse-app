@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR08, 06-2018)
   code: 08PR08
   page: 300
-liees: []
+liees: [gelures-connaissances, hypothermie-conduite-a-tenir, rechauffement-victime, administration-oxygene-inhalation]
 blocs:
   - type: texte
     titre: En bref

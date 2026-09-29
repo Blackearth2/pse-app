@@ -10,7 +10,7 @@ source:
   document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC08, 07-2026)"
   code: 05AC08
   page: 168
-liees: []
+liees: [detresse-circulatoire-conduite-a-tenir, evaluation-fonction-circulatoire, deuxieme-regard, positions-attente-transport]
 blocs:
   - type: texte
     titre: En bref

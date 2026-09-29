@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08AC13, 06-2018)
   code: 08AC13
   page: 317
-liees: []
+liees: [compression-de-membre-conduite-a-tenir, garrot]
 blocs:
   - type: texte
     titre: En bref

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT01, 12-2022)
   code: 07FT01
   page: 209
-liees: []
+liees: [plaie-conduite-a-tenir, maintien-pansement, emballage-pansement-sterile]
 blocs:
   - type: texte
     titre: En bref

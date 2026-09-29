@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 04FT16, 12-2023)
   code: 04FT16
   page: 105
-liees: []
+liees: [quatrieme-regard, surveillance-victime]
 blocs:
   - type: texte
     titre: Indication et justification

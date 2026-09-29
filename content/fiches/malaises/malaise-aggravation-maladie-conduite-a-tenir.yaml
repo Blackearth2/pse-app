@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06PR01, 07-2026)
   code: 06PR01
   page: 177
-liees: []
+liees: [malaise-aggravation-maladie-connaissances, positions-attente-transport, manoeuvres-physiques, surveillance-victime, transmission-bilan]
 blocs:
   - type: texte
     titre: En bref

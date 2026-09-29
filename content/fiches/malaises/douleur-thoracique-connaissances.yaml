@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 06AC02, 06-2018)
   code: 06AC02
   page: 184
-liees: []
+liees: [douleur-thoracique-conduite-a-tenir, realisation-electrocardiogramme, arret-cardiaque, utilisation-dae, positions-attente-transport]
 blocs:
   - type: texte
     titre: En bref

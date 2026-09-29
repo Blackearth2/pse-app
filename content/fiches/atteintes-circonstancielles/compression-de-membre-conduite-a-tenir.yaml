@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR15, 06-2018)
   code: 08PR15
   page: 318
-liees: []
+liees: [compression-de-membre-connaissances, garrot, hemorragies-externes-conduite-a-tenir]
 blocs:
   - type: texte
     titre: En bref

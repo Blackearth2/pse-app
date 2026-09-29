@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR03, 06-2018)
   code: 08PR03
   page: 278
-liees: []
+liees: [accidents-plongee-connaissances, administration-oxygene-inhalation]
 blocs:
   - type: texte
     titre: En bref

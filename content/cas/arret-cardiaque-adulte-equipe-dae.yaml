@@ -1,0 +1,89 @@
+id: arret-cardiaque-adulte-equipe-dae
+niveau: PSE1
+titre: Effondrement dans la tribune
+lieu: Tribune d'un stade, match de football amateur
+statut: brouillon
+liees: [arret-cardiaque-equipe, utilisation-dae, compressions-thoraciques, arret-cardiaque]
+contexte: "Tu es de poste avec un équipier lors d'un match de football amateur. Un témoin vous appelle en courant : un spectateur d'une cinquantaine d'années s'est effondré dans l'allée de la tribune. Vous disposez du sac de secours, d'un DAE et d'oxygène."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu t'agenouilles à côté de l'homme, allongé sur le dos. Il ne répond pas quand tu l'appelles et ne réagit à aucune stimulation. Tu libères ses voies aériennes : aucun souffle perçu, ni le ventre ni la poitrine ne se soulèvent."
+    question: "Quelle est ta conduite immédiate ?"
+    type: choix
+    propositions:
+      - texte: "Prendre son pouls carotidien pendant une minute pour confirmer l'arrêt cardiaque avant d'agir"
+        correct: false
+        retour: "Non : la recherche du pouls n'est pas systématique pour caractériser l'arrêt cardiaque ; si elle est faite, elle est simultanée à la recherche de la respiration, ne dépasse jamais 10 secondes et ne doit pas retarder les gestes de secours."
+      - texte: "Débuter immédiatement la RCP : cycles de 30 compressions thoraciques et 2 insufflations"
+        correct: true
+        retour: "Oui : victime inconsciente qui ne respire pas, donc arrêt cardiaque. Chez l'adulte, la RCP est immédiate, en cycles de 30 compressions / 2 insufflations, après avoir retiré un éventuel corps étranger visible et facilement accessible dans la bouche."
+      - texte: "Attendre que le DAE soit installé avant de commencer les compressions"
+        correct: false
+        retour: "Non : la RCP est débutée immédiatement ; le DAE est mis en œuvre le plus tôt possible, mais en interrompant le moins possible le massage cardiaque. Rien ne doit retarder la RCP."
+      - texte: "Le mettre en position latérale de sécurité et surveiller sa respiration"
+        correct: false
+        retour: "Non : la PLS concerne une victime inconsciente qui respire. Ici la ventilation est absente : c'est une RCP."
+  - moment: "Organisation de l'équipe"
+    situation: "Ton équipier arrive avec le DAE. Vous êtes deux secouristes, le témoin n'a pas de formation. Aucun renfort médical n'a encore été demandé."
+    question: "Comment vous répartissez-vous les tâches ?"
+    type: choix
+    propositions:
+      - texte: "Un secouriste poursuit le massage cardiaque ; l'autre met en œuvre le DAE, puis demande un renfort médical immédiatement après la première analyse"
+        correct: true
+        retour: "Oui : à deux secouristes avec un DAE, l'un poursuit le massage cardiaque, le second met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse."
+      - texte: "Vous arrêtez tous les deux la RCP le temps de brancher le DAE, puis vous la reprenez"
+        correct: false
+        retour: "Non : il faut interrompre le moins possible le massage cardiaque. Pendant la pose du DAE, la RCP se poursuit."
+      - texte: "Un secouriste poursuit le massage cardiaque ; l'autre ne met en œuvre le DAE qu'à l'arrivée du renfort médical"
+        correct: false
+        retour: "Non : le DAE est mis en œuvre le plus tôt possible. Chaque minute gagnée dans sa mise en place augmente les chances de survie."
+  - moment: "Mise en œuvre du DAE"
+    situation: "Ton équipier ouvre le sac. Tu continues les compressions. Il doit maintenant utiliser le DAE en suivant les étapes de mise en œuvre."
+    question: "Remets dans l'ordre les étapes de mise en œuvre du DAE."
+    type: ordre
+    elements:
+      - "Mettre en marche le DAE (ouvrir le capot ou appuyer sur le bouton marche/arrêt)"
+      - "Connecter les électrodes sur la poitrine dénudée, en poursuivant la RCP pendant la pose"
+      - "Laisser l'appareil analyser le rythme cardiaque en cessant de toucher la victime"
+      - "S'écarter et, si l'appareil le demande, appuyer sur le bouton de choc"
+      - "Reprendre immédiatement la RCP après le choc, sans attendre les instructions vocales"
+    retour: "Mise en marche, connexion des électrodes (la RCP se poursuit pendant la pose), analyse du rythme (personne ne touche la victime), délivrance du choc si l'appareil le demande (tout le monde s'écarte), puis reprise immédiate de la RCP, que le choc ait été délivré ou non, sans attendre les instructions vocales. Le DAE n'est arrêté que sur demande du médecin des services de secours."
+  - moment: "Pose des électrodes"
+    situation: "En dénudant la poitrine, tu constates qu'elle est mouillée de sueur et très velue. Sous la clavicule, tu vois aussi un timbre médicamenteux (patch) à l'endroit où tu dois coller une électrode."
+    question: "Quelles actions sont correctes avant de coller les électrodes ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Sécher la poitrine humide pour que les électrodes adhèrent"
+        correct: true
+        retour: "Oui : les électrodes doivent adhérer correctement à la peau ; une poitrine humide se sèche avant la pose."
+      - texte: "Plier les électrodes pour les adapter à la morphologie de la victime"
+        correct: false
+        retour: "Non : les électrodes ne doivent jamais être pliées."
+      - texte: "Retirer le timbre médicamenteux et essuyer la zone avant de coller l'électrode"
+        correct: true
+        retour: "Oui : si l'électrode est collée sur un patch, le choc peut être inefficace ou brûler la victime ; on retire le timbre et on essuie la zone."
+      - texte: "Raser de préférence la poitrine à l'endroit de la pose, puisqu'elle est particulièrement velue"
+        correct: true
+        retour: "Oui : sur une poitrine particulièrement velue, on rase de préférence à l'endroit de la pose pour garantir l'adhérence."
+      - texte: "Interrompre la RCP pendant toute la préparation de la poitrine"
+        correct: false
+        retour: "Non : la RCP se poursuit pendant la pose des électrodes ; on n'arrête les manœuvres que lorsque l'appareil demande l'analyse."
+  - moment: "Après plusieurs cycles"
+    situation: "Après un choc et deux minutes de RCP avec relais de secouriste, l'homme ouvre les yeux, bouge et respire efficacement."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu poursuis la RCP jusqu'à l'arrivée des renforts médicalisés, par précaution"
+        correct: false
+        retour: "Non : quand des signes de vie apparaissent (respiration efficace, mouvements, ouverture des yeux), on cesse les compressions thoraciques et la ventilation."
+      - texte: "Tu l'assieds pour l'aider à respirer et tu éteins le DAE"
+        correct: false
+        retour: "Non : la victime doit rester strictement allongée, et le DAE n'est arrêté que sur demande du médecin des services de secours."
+      - texte: "Tu cesses la RCP, la gardes strictement allongée, refais un bilan à partir du 2e regard et surveilles en permanence conscience et respiration, prêt à reprendre la RCP"
+        correct: true
+        retour: "Oui : cessation de la RCP, victime strictement allongée, bilan en repartant du 2e regard, surveillance permanente, protection contre le froid, le chaud et les intempéries. Le risque de récidive de l'arrêt cardiaque est majeur."
+pointsCles:
+  - "Victime inconsciente qui ne respire pas ou respire anormalement : RCP immédiate, 30 compressions / 2 insufflations chez l'adulte."
+  - "À deux avec un DAE : l'un masse, l'autre met en œuvre le DAE puis demande le renfort après la première analyse."
+  - "Interrompre le moins possible le massage cardiaque : la RCP se poursuit pendant la pose des électrodes et reprend aussitôt après le choc."
+  - "Après retour de signes de vie : victime strictement allongée, surveillance permanente et prêt à reprendre la RCP."

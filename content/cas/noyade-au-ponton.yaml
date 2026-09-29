@@ -1,0 +1,69 @@
+id: noyade-au-ponton
+niveau: PSE1
+titre: Noyade au ponton
+lieu: Base de loisirs, plan d'eau en bord de plage
+statut: brouillon
+liees: [noyade-conduite-a-tenir, noyade-connaissances, rechauffement-victime]
+contexte: "Tu es de poste sur une base de loisirs, un après-midi de fin de journée un peu frais et venteux. Un cri retentit : un adolescent qui nageait au large du ponton s'est mis à couler puis refait surface en agitant les bras, à une dizaine de mètres du bord. Tu es seul secouriste à proximité, sans matériel de sauvetage à la ceinture, mais une bouée de sauvetage est accrochée au ponton."
+etapes:
+  - moment: "Face à la victime dans l'eau"
+    situation: "L'adolescent est encore à la surface et te regarde, mais il s'épuise visiblement. Il est proche de la terre ferme. Des baigneurs s'agglutinent sur le ponton en te suggérant de sauter à l'eau."
+    question: "Que fais-tu en priorité ?"
+    type: choix
+    propositions:
+      - texte: "Tu plonges tête la première pour le rejoindre le plus vite possible."
+        correct: false
+        retour: "Non : il ne faut pas plonger tête la première, et il faut éviter de pénétrer directement dans l'eau chaque fois que c'est possible."
+      - texte: "Tu fais alerter immédiatement les secours spécialisés, tu lui parles et tu lui envoies la bouée."
+        correct: true
+        retour: "Oui : le sauvetage aquatique en sécurité commence par l'alerte des secours spécialisés ; on évite d'entrer dans l'eau et, si la victime est proche de la terre ferme, on lui parle et on utilise un moyen d'aide au sauvetage (bouée, bâton, corde, vêtement)."
+      - texte: "Tu attends qu'il cesse de s'agiter pour intervenir sans danger."
+        correct: false
+        retour: "Non : attendre fait perdre un temps précieux alors que la durée de l'hypoxie conditionne le devenir de la victime. Il faut agir tout de suite, mais en sécurité."
+  - moment: "Si la bouée ne suffit pas"
+    situation: "L'adolescent lâche la bouée et s'éloigne de quelques mètres. Après avoir fait alerter, tu dois finalement envisager d'entrer dans l'eau pour l'atteindre."
+    question: "Quelles précautions prends-tu avant d'y aller ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Tu t'équipes d'une bouée ou de tout autre dispositif de flottaison."
+        correct: true
+        retour: "Oui : un dispositif de flottaison protège le sauveteur."
+      - texte: "Tu ne t'aventures pas seul."
+        correct: true
+        retour: "Oui : on ne s'aventure pas seul dans l'eau, d'où l'importance d'avoir fait alerter et d'être secondé."
+      - texte: "Tu plonges tête la première pour gagner du temps."
+        correct: false
+        retour: "Non : il ne faut pas plonger tête la première."
+      - texte: "Tu entres sans équipement pour ne pas te gêner dans tes mouvements."
+        correct: false
+        retour: "Non : entrer sans dispositif de flottaison expose le sauveteur au même risque que la victime."
+  - moment: "Sur le ponton"
+    situation: "Les sauveteurs spécialisés l'ont sorti de l'eau. Il est conscient, angoissé, il claque des dents et tousse de façon persistante. Il est trempé et le vent se lève."
+    question: "Quelle est la conduite adaptée à ce stade ?"
+    type: choix
+    propositions:
+      - texte: "Tu lui donnes des tapes dans le dos pour l'aider à évacuer l'eau."
+        correct: false
+        retour: "Non : tapes dans le dos et compressions abdominales sont dangereuses dans la noyade (régurgitation, inhalation de liquide gastrique, retard de prise en charge)."
+      - texte: "Tu appuies sur son ventre pour faire sortir l'eau avalée."
+        correct: false
+        retour: "Non : on ne cherche pas à extraire l'eau de l'estomac, au risque d'une régurgitation et d'une inhalation de liquide gastrique."
+      - texte: "Tu l'installes dans la position où il se sent le mieux, à l'abri du vent, et tu poursuis le bilan."
+        correct: true
+        retour: "Oui : chez une victime consciente sans détresse vitale, on l'installe dans la position où elle se sent le mieux, si possible à l'abri du vent. La toux persistante évoque un passage d'eau dans les poumons : elle impose une surveillance attentive."
+  - moment: "Réchauffement"
+    situation: "Tu dois maintenant le protéger du froid. Pense aux gestes à faire dans tous les cas après la sortie de l'eau."
+    question: "Remets ces gestes dans l'ordre."
+    type: ordre
+    elements:
+      - "Compléter le 2e ainsi que le 3e regard."
+      - "Déshabiller la victime en évitant les mobilisations intempestives."
+      - "Sécher prudemment et sans friction."
+      - "Envelopper dans des couvertures et protéger du vent."
+      - "Poursuivre le bilan et surveiller attentivement."
+    retour: "C'est l'enchaînement de la fiche « dans tous les cas » : on complète les regards, on déshabille sans mobiliser inutilement, on sèche sans frictionner, on enveloppe et on protège du vent, puis on poursuit le bilan et la surveillance. L'hypothermie s'installe toujours rapidement en cas de noyade."
+pointsCles:
+  - "Alerter les secours spécialisés et éviter d'entrer dans l'eau : envoyer un objet flottant si la victime est proche."
+  - "Si tu dois entrer : dispositif de flottaison, jamais seul, jamais tête la première."
+  - "Jamais de tapes dans le dos ni de compressions abdominales chez une victime de noyade."
+  - "Après la sortie de l'eau : déshabiller, sécher sans friction, envelopper, protéger du vent et surveiller."

@@ -1,0 +1,66 @@
+id: etouffement-adulte-restaurant
+niveau: PSE1
+titre: Un morceau de travers
+lieu: Restaurant de bord de plage, service du déjeuner
+statut: brouillon
+liees: [obstruction-voies-aeriennes-connaissances, obstruction-voies-aeriennes-conduite-a-tenir, desobstruction-claques-dos, desobstruction-compressions-abdominales, arret-cardiaque-equipe]
+contexte: "Tu déjeunes en terrasse pendant ta pause quand un serveur t'appelle : un client d'une soixantaine d'années, assis à sa table, s'est brusquement levé en portant la main à sa gorge alors qu'il mangeait. Tu es secouriste, tu n'as aucun matériel sur toi mais le restaurant possède un DAE."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "L'homme est debout, penché en avant, le visage rouge. Tu lui demandes s'il s'étouffe : il te répond d'une voix rauque « oui » et tousse avec force, avec un bruit surajouté à chaque inspiration."
+    question: "Quelle est ta conduite ?"
+    type: choix
+    propositions:
+      - texte: "Lui donner tout de suite 5 claques dans le dos, puis des compressions abdominales"
+        correct: false
+        retour: "Non : une victime qui parle, crie, tousse ou respire n'a pas une obstruction totale. On ne la désobstrue pas."
+      - texte: "L'encourager à continuer de tousser, surveiller l'efficacité de la toux et l'apparition de signes de fatigue"
+        correct: true
+        retour: "Oui : une victime éveillée capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger. On surveille l'efficacité de la toux et les signes de fatigue."
+      - texte: "L'allonger sur le sol pour qu'il se repose"
+        correct: false
+        retour: "Non : l'obstruction n'est que partielle, la position n'est pas modifiée ; on l'encourage à tousser et on le surveille."
+  - moment: "L'obstruction devient totale"
+    situation: "Quelques instants plus tard, l'homme ne tousse plus. Il garde la bouche ouverte, s'agite, ne peut plus parler ni émettre un son, et ses lèvres bleuissent."
+    question: "Remets dans l'ordre les gestes que tu réalises."
+    type: ordre
+    elements:
+      - "Le laisser debout, te placer sur le côté et légèrement en arrière de lui, soutenir son thorax et le pencher vers l'avant"
+      - "Donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte"
+      - "En cas d'inefficacité, passer derrière lui et faire de 1 à 5 compressions abdominales, poing juste au-dessus du nombril, en tirant vers l'arrière et vers le haut"
+      - "Répéter le cycle claques dans le dos et compressions"
+      - "Interrompre les manœuvres dès qu'une toux efficace apparaît ou que le corps étranger est rejeté"
+    retour: "Face à une obstruction totale, on enchaîne des cycles de 1 à 5 claques dans le dos puis, en cas d'inefficacité, de 1 à 5 compressions abdominales (adulte et enfant), jusqu'à la levée de l'obstruction ou la perte de connaissance. On interrompt les manœuvres dès l'apparition d'une toux efficace, de cris ou de pleurs, la reprise de la respiration ou le rejet du corps étranger. Les claques restent vigoureuses malgré le risque minime de blesser la victime."
+  - moment: "La victime s'effondre"
+    situation: "Après plusieurs cycles, l'homme, toujours sans souffle, devient soudain mou dans tes bras : il perd connaissance."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu l'accompagnes au sol et tu réalises une réanimation cardio-pulmonaire"
+        correct: true
+        retour: "Oui : si la victime perd connaissance, on l'accompagne au sol et on réalise une RCP. Une obstruction totale non levée conduit en quelques minutes à l'arrêt cardiaque."
+      - texte: "Tu recommences les compressions abdominales, victime maintenue debout contre toi"
+        correct: false
+        retour: "Non : les cycles claques et compressions s'arrêtent à la perte de connaissance. On accompagne la victime au sol et on réalise une RCP."
+      - texte: "Tu le mets en position latérale de sécurité"
+        correct: false
+        retour: "Non : la PLS concerne une victime inconsciente qui respire. Ici la victime ne respire pas, c'est une RCP."
+  - moment: "Pendant la RCP"
+    situation: "Le DAE arrive. Tu enchaînes les cycles de compressions et d'insufflations avec un second secouriste. Lors des premières insufflations, la poitrine ne se soulève pas."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu insuffles plus fort pour vaincre l'obstacle"
+        correct: false
+        retour: "Non : une insufflation trop rapide ou trop ample fait passer de l'air dans l'estomac et expose à la régurgitation. L'absence de soulèvement doit faire chercher la cause."
+      - texte: "Tu arrêtes les insufflations et tu ne fais plus que le DAE"
+        correct: false
+        retour: "Non : la RCP se poursuit ; il faut interrompre le moins possible le massage cardiaque."
+      - texte: "Tu envisages une obstruction des voies aériennes, tu cherches un corps étranger dans la bouche après chaque cycle de compressions et tu le retires prudemment s'il est accessible"
+        correct: true
+        retour: "Oui : si la poitrine ne se soulève pas après 2 insufflations, on envisage une obstruction des voies aériennes, on vérifie la présence d'un corps étranger dans la bouche après chaque cycle de compressions et on le retire prudemment s'il est présent et accessible."
+pointsCles:
+  - "Victime qui parle, crie ou tousse : obstruction partielle. On l'encourage à tousser et on la surveille, sans désobstruer."
+  - "Victime qui ne peut plus parler, crier ni tousser : cycles de 1 à 5 claques dans le dos puis 1 à 5 compressions (abdominales chez l'adulte et l'enfant)."
+  - "Perte de connaissance : on accompagne la victime au sol et on réalise une RCP."
+  - "Si la poitrine ne se soulève pas lors des insufflations, on cherche un corps étranger dans la bouche après chaque cycle de compressions."

@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 07FT07, 09-2014)
   code: 07FT07
   page: 229
-liees: []
+liees: [traumatisme-membres-conduite-a-tenir, attelle-traction, attelle-depression, attelle-modulable]
 blocs:
   - type: texte
     titre: En bref

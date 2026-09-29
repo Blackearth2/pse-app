@@ -1,0 +1,81 @@
+id: chute-escabeau-rachis
+niveau: PSE2
+titre: Chute d'un escabeau, douleur à la nuque
+lieu: Garage d'une maison individuelle
+statut: brouillon
+liees: [traumatisme-dos-cou-connaissances, traumatisme-dos-cou-conduite-a-tenir, maintien-tete-position-neutre, pose-collier-cervical]
+contexte: "Tu es appelé dans le garage d'un pavillon. Un homme de 68 ans est tombé de l'escabeau sur lequel il rangeait des cartons. Il est assis contre le mur, conscient. Il se plaint d'une douleur à la nuque et de fourmillements dans les deux mains. Il n'a pas de saignement visible. Tu es accompagné d'un équipier."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu suspectes une lésion du rachis. La victime veut se relever seule pour aller s'asseoir dans la maison."
+    question: "Quelle est ta priorité ?"
+    type: choix
+    propositions:
+      - texte: "L'aider à se lever pour la mettre plus à l'aise dans un fauteuil"
+        correct: false
+        retour: "Non : on ne mobilise pas la victime en dehors d'un dégagement d'urgence, de la PLS si elle a perdu connaissance, ou de son immobilisation."
+      - texte: "Rechercher en priorité une menace ou une détresse vitale, en lui demandant de ne pas bouger"
+        correct: true
+        retour: "Oui : devant une victime suspecte d'une lésion du rachis, on recherche en priorité une menace ou détresse vitale (hémorragie, obstruction des voies aériennes, détresse respiratoire, circulatoire, neurologique), en limitant les mouvements du rachis à toutes les étapes de l'examen."
+      - texte: "Immobiliser d'abord son rachis, même s'il faut retarder la recherche d'une détresse vitale"
+        correct: false
+        retour: "Non : l'immobilisation de la colonne vertébrale ne passe jamais avant la prise en charge d'une détresse vitale."
+  - moment: "Maintien de la tête"
+    situation: "Aucune détresse vitale n'est retrouvée. Tu te mets en position pour maintenir sa tête. Elle est légèrement penchée. En essayant de la replacer doucement dans l'axe du tronc, tu sens une résistance et la victime dit avoir « des décharges dans les bras »."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Insister doucement pour replacer la tête dans l'axe"
+        correct: false
+        retour: "Non : si l'on perçoit une résistance, si la douleur s'aggrave ou si des sensations anormales (fourmillements, décharges électriques) apparaissent, on interrompt immédiatement la manœuvre."
+      - texte: "Lâcher la tête et attendre les secours"
+        correct: false
+        retour: "Non : on maintient la tête, mais dans la position où elle se trouve, et non en la lâchant."
+      - texte: "Interrompre la manœuvre et maintenir la tête dans la position où elle se trouve, en attendant le renfort médical"
+        correct: true
+        retour: "Oui : devant une résistance, une douleur aggravée ou des sensations anormales, on arrête et on maintient la tête dans la position où elle se trouve, dans l'attente d'un renfort médical."
+  - moment: "Décision d'immobiliser"
+    situation: "Tu as transmis ton bilan. Le médecin régulateur te demande sur quels éléments tu te fondes pour envisager une immobilisation complète du rachis."
+    question: "Quels éléments justifient une immobilisation complète du rachis chez cet homme ?"
+    type: multiple
+    propositions:
+      - texte: "Des fourmillements dans les mains, signe d'atteinte de la moelle épinière"
+        correct: true
+        retour: "Oui : les engourdissements, fourmillements ou sensations de décharges électriques au niveau des membres sont des signes d'atteinte de la moelle épinière et justifient l'immobilisation complète."
+      - texte: "Une douleur spontanée au niveau de la nuque"
+        correct: true
+        retour: "Oui : une douleur spontanée au niveau du rachis est un signe d'atteinte du rachis qui justifie l'immobilisation complète."
+      - texte: "Le fait qu'il parle et réponde correctement à tes questions"
+        correct: false
+        retour: "Non : des réponses fiables ne dispensent pas de l'immobilisation quand des signes d'atteinte du rachis ou de la moelle sont présents."
+      - texte: "L'absence de saignement visible"
+        correct: false
+        retour: "Non : l'absence de saignement n'a aucun rapport avec la lésion du rachis, dont la gravité tient à l'atteinte possible de la moelle épinière."
+  - moment: "Relevage"
+    situation: "Le médecin confirme l'immobilisation. Un brancard cuillère et un plan dur sont disponibles, et vous êtes plusieurs secouristes. La victime est maintenant allongée au sol."
+    question: "Classe les techniques de relevage de la plus recommandée à la dernière possibilité."
+    type: ordre
+    elements:
+      - "Relever la victime avec un brancard cuillère"
+      - "À défaut de brancard cuillère, relever la victime par une technique de relevage en pont à plusieurs secouristes"
+      - "Si aucune des deux n'est possible, poser un collier cervical et installer la victime sur un plan dur par roulement au sol"
+    retour: "Victime allongée au sol : de préférence le brancard cuillère plutôt qu'un plan dur ; à défaut, le relevage en pont à plusieurs secouristes ; si aucune des deux techniques n'est possible, collier cervical puis roulement sur un plan dur, avant le transfert dans un moyen d'immobilisation."
+  - moment: "Immobilisation"
+    situation: "Un matelas immobilisateur à dépression est disponible dans le véhicule. Un collier cervical avait été posé pour faciliter le relevage."
+    question: "Quel moyen utilises-tu pour l'immobilisation corps entier, en priorité ?"
+    type: choix
+    propositions:
+      - texte: "Le matelas immobilisateur à dépression, avec desserrage du collier une fois la victime immobilisée"
+        correct: true
+        retour: "Oui : l'immobilisation corps entier se fait en priorité dans un matelas immobilisateur à dépression, qui reste en place jusqu'à l'hôpital. Le collier est desserré une fois l'immobilisation réalisée, et resserré pour une nouvelle mobilisation."
+      - texte: "Le plan dur, laissé en place jusqu'à l'hôpital"
+        correct: false
+        retour: "Non : le plan dur n'est utilisé qu'exceptionnellement, en cas d'indisponibilité du matelas immobilisateur à dépression ou d'effectif insuffisant pour le transfert."
+      - texte: "Le collier cervical seul, serré le plus fort possible"
+        correct: false
+        retour: "Non : le collier restreint seulement les mouvements du rachis cervical, il ne limite pas totalement les rotations et ne constitue pas une immobilisation corps entier."
+pointsCles:
+  - "L'immobilisation de la colonne vertébrale ne passe jamais avant la prise en charge d'une détresse vitale."
+  - "Les fourmillements ou décharges dans les membres sont des signes d'atteinte de la moelle épinière : immobilisation complète."
+  - "Résistance, douleur aggravée ou sensations anormales pendant le replacement de la tête : interrompre et maintenir la tête dans la position où elle se trouve."
+  - "Relevage : brancard cuillère de préférence, sinon pont, sinon collier puis plan dur ; immobilisation en priorité dans le matelas à dépression, collier desserré ensuite."

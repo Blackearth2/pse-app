@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR05, 07-2026)
   code: 05PR05
   page: 140
-liees: []
+liees: [arret-cardiaque, compressions-thoraciques, utilisation-dae, ventilation-methode-orale, alerte]
 blocs:
   - type: texte
     titre: En bref

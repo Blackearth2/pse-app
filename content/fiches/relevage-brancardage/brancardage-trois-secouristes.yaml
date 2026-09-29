@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 10FT12, 09-2019)
   code: 10FT12
   page: 367
-liees: []
+liees: [brancardage-quatre-secouristes, arrimage-victime, relevage-brancardage-generalites, installation-vecteur-transport, preparation-dispositif-portage]
 blocs:
   - type: texte
     titre: En bref

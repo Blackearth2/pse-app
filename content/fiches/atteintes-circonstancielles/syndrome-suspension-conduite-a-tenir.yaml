@@ -10,7 +10,7 @@ source:
   document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 08PR12, 12-2023)
   code: 08PR12
   page: 311
-liees: []
+liees: [syndrome-suspension-connaissances, perte-de-connaissance-equipe, arret-cardiaque, administration-oxygene-inhalation, hypothermie-conduite-a-tenir]
 blocs:
   - type: texte
     titre: Dégager la victime suspendue

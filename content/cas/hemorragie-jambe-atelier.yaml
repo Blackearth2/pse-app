@@ -1,0 +1,89 @@
+id: hemorragie-jambe-atelier
+niveau: PSE1
+titre: Coupure profonde à l'atelier
+lieu: Atelier de menuiserie, zone industrielle
+statut: brouillon
+liees: [hemorragies-externes-conduite-a-tenir, compression-manuelle, pansement-compressif, garrot]
+contexte: "Tu es appelé dans un atelier de menuiserie : un ouvrier d'une quarantaine d'ans a été blessé à la jambe par une machine, désormais arrêtée et sécurisée. Il est conscient, assis au sol, et son pantalon est trempé de sang au niveau du mollet. Tu disposes de ton sac de secours : gants, compresses, bandes, garrot."
+etapes:
+  - moment: "À l'arrivée"
+    situation: "Tu constates que le sang coule abondamment d'une plaie du mollet, déjà à travers le tissu du pantalon. L'ouvrier est pâle et inquiet."
+    question: "Quelle est ta première action ?"
+    type: choix
+    propositions:
+      - texte: "Poser d'emblée un garrot à la cuisse"
+        correct: false
+        retour: "Non : le garrot n'est utilisé que si la compression est inefficace ou impossible. La plupart des hémorragies externes s'arrêtent en appuyant sur la plaie."
+      - texte: "Te protéger les mains avec des gants, écarter les vêtements et arrêter l'hémorragie en comprimant immédiatement l'endroit qui saigne, ou en demandant à la victime de le faire"
+        correct: true
+        retour: "Oui : gants à usage unique, constat de l'hémorragie en écartant les vêtements si nécessaire, puis compression immédiate de l'endroit qui saigne, par la victime si elle le peut, sinon par le sauveteur."
+      - texte: "Nettoyer la plaie avant de faire quoi que ce soit"
+        correct: false
+        retour: "Non : la priorité est d'arrêter immédiatement l'hémorragie pour limiter la perte de sang."
+      - texte: "L'aider à se mettre debout pour évaluer sa capacité à marcher"
+        correct: false
+        retour: "Non : il faut allonger confortablement la victime ; la position allongée retarde ou empêche l'installation d'une détresse liée à la perte importante de sang."
+  - moment: "Conduite complète"
+    situation: "Le saignement diminue sous la compression manuelle, mais tu voudrais te libérer les mains pour poursuivre le bilan."
+    question: "Remets dans l'ordre les actions."
+    type: ordre
+    elements:
+      - "Mettre des gants à usage unique"
+      - "Comprimer fortement la plaie, en interposant le plus tôt possible compresses ou tissu propre"
+      - "Allonger confortablement la victime, en maintenant la compression"
+      - "Relayer la compression manuelle par un pansement compressif, si l'hémorragie est contrôlée"
+      - "Si la compression manuelle et le pansement sont inefficaces, poser un garrot (zone garrotable)"
+    retour: "On se protège, on arrête l'hémorragie par compression manuelle (compresses ou tissu propre interposés), on allonge la victime, on relaie par un pansement compressif lorsque l'hémorragie est contrôlée et qu'on veut se libérer, puis on n'a recours au garrot (zone garrotable) ou à une gaze hémostatique (zone non garrotable) que si la compression est inefficace ou impossible. Le pansement compressif est un bandage serré recouvrant complètement le pansement."
+  - moment: "Le saignement persiste"
+    situation: "Malgré la compression manuelle puis le pansement compressif correctement posé, le sang continue de couler abondamment. La plaie est à mi-mollet, loin du genou et de la cheville."
+    question: "Que fais-tu ?"
+    type: choix
+    propositions:
+      - texte: "Tu remplaces le pansement par un plus gros et tu attends un peu"
+        correct: false
+        retour: "Non : quand la compression (manuelle et pansement compressif) est inefficace, le saignement persistant impose un garrot si la zone est garrotable, ce qui est le cas d'un membre."
+      - texte: "Tu poses un garrot"
+        correct: true
+        retour: "Oui : la compression est inefficace et la plaie siège sur un membre (zone garrotable) ; le garrot arrête l'hémorragie en interrompant totalement la circulation du sang en aval de son emplacement."
+      - texte: "Tu desserres le pansement pour vérifier que la plaie saigne toujours"
+        correct: false
+        retour: "Non : desserrer le pansement fait perdre du sang et de la pression sur la plaie. La compression est inefficace, il faut passer au garrot."
+  - moment: "Pose du garrot"
+    situation: "Tu prépares le garrot. Tu dois le poser en respectant les règles de sécurité."
+    question: "Quelles propositions sont correctes ? (plusieurs réponses)"
+    type: multiple
+    propositions:
+      - texte: "Le placer à quelques centimètres de la plaie (idéalement 5 à 7 cm), entre la plaie et la racine du membre"
+        correct: true
+        retour: "Oui : le garrot se positionne entre la plaie et la racine du membre, à quelques centimètres de la plaie, idéalement 5 à 7 cm."
+      - texte: "Le placer sur l'articulation du genou pour qu'il tienne mieux"
+        correct: false
+        retour: "Non : jamais sur une articulation."
+      - texte: "Utiliser le garrot élastique de la trousse de prise de sang, plus facile à serrer"
+        correct: false
+        retour: "Non : ne jamais utiliser les garrots élastiques prévus pour les prises de sang."
+      - texte: "Serrer jusqu'à l'arrêt du saignement et noter lisiblement l'heure de pose"
+        correct: true
+        retour: "Oui : on serre jusqu'à l'arrêt du saignement et l'heure de pose est notée (sur le garrot, sur une fiche) pour la communiquer aux personnes assurant le relais."
+      - texte: "Le desserrer de temps en temps pour laisser la circulation se rétablir"
+        correct: false
+        retour: "Non : une fois posé, le garrot ne doit être desserré que sur ordre d'un médecin."
+  - moment: "Après le garrot"
+    situation: "Le saignement est arrêté. L'ouvrier est allongé, il tremble et se plaint d'avoir froid."
+    question: "Que fais-tu ensuite ?"
+    type: choix
+    propositions:
+      - texte: "Tu le réchauffes, tu le rassures en lui parlant, tu le protèges du froid et des intempéries, et tu poursuis le bilan en surveillant l'efficacité du garrot et l'apparition de signes de détresse circulatoire"
+        correct: true
+        retour: "Oui : rassurer la victime, la réchauffer car l'hypothermie aggrave son état, la protéger du froid et des intempéries, poursuivre le bilan et surveiller l'efficacité des gestes et les signes de détresse circulatoire. Si la victime est totalement recouverte, on vérifie régulièrement le garrot."
+      - texte: "Tu desserres légèrement le garrot pour soulager la douleur"
+        correct: false
+        retour: "Non : le garrot ne se desserre que sur ordre d'un médecin, même si la douleur est intense."
+      - texte: "Tu l'assieds et tu lui donnes à boire"
+        correct: false
+        retour: "Non : la victime reste allongée en position horizontale, ce qui facilite la circulation sanguine, notamment au niveau du cerveau, et retarde les conséquences de l'hémorragie."
+pointsCles:
+  - "Hémorragie externe : compression immédiate de l'endroit qui saigne, par la victime ou le sauveteur, avec des gants."
+  - "La compression manuelle est relayée par un pansement compressif ; le garrot (zone garrotable) ou la gaze hémostatique (zone non garrotable) n'interviennent que si la compression est inefficace ou impossible."
+  - "Garrot : entre la plaie et la racine du membre, idéalement à 5 à 7 cm, jamais sur une articulation ; heure de pose notée ; desserrage uniquement sur ordre d'un médecin."
+  - "Allonger, réchauffer, rassurer et surveiller les signes de détresse circulatoire."
