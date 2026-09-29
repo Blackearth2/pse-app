@@ -1,0 +1,119 @@
+id: detresse-neurologique-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 36
+titre: "Détresse neurologique (connaissances)"
+motsCles: [détresse neurologique, conscience, AVC, hypoglycémie, convulsions, asymétrie des pupilles]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC09, 12-2022)"
+  code: 05AC09
+  page: 171
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La détresse neurologique est une atteinte de la fonction neurologique dont l'évolution peut affecter, à court terme, les autres fonctions vitales (circulatoire, respiratoire) et conduire au décès. La perte de connaissance en est la forme majeure, qui relève de gestes de secours immédiats ; une victime peut toutefois présenter des signes visibles de détresse neurologique sans avoir perdu connaissance. Les trois fonctions vitales sont étroitement liées."
+  - type: liste
+    titre: Causes (exemples)
+    items:
+      - "Un traumatisme, comme un choc sur la tête."
+      - "Une maladie atteignant directement le cerveau (accident vasculaire cérébral), la moelle épinière ou les nerfs."
+      - "Certaines intoxications."
+      - "Un manque de sucre (hypoglycémie)."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "L'atteinte neurologique retentit rapidement sur les deux autres fonctions et menace, immédiatement ou à très court terme, la vie de la victime : le cœur et les poumons peuvent très vite être privés d'oxygène."
+  - type: liste
+    titre: Signes - dès le début du bilan (2e regard)
+    items:
+      - "La victime ne répond pas quand on lui parle, n'exécute pas un ordre simple (« serrez-moi la main », « ouvrez les yeux ») et ne réagit pas quand on la secoue délicatement au niveau des épaules."
+      - "Si en plus la ventilation est arrêtée ou anormale (ventilation agonique), la victime est considérée en arrêt cardiaque."
+      - "Si elle respire, elle est considérée à haut risque de détresse respiratoire, car ses voies aériennes sont menacées."
+  - type: liste
+    titre: Signes - appréciation de la fonction neurologique (3e regard)
+    items:
+      - "Somnolence, ou retard de réponse aux questions ou aux ordres."
+      - "Désorientation : la victime ne se rappelle plus son nom, le lieu où elle se trouve, l'année."
+      - "Elle ne s'exprime plus, ne parle plus."
+      - "Si elle peut s'exprimer, elle peut se plaindre de ne plus pouvoir bouger un ou plusieurs membres (paralysie) ou d'une perte de la vue d'un ou des deux yeux."
+      - "Le secouriste peut constater des convulsions généralisées, une asymétrie évidente du visage, une asymétrie des pupilles (diamètres différents à l'ouverture des yeux) et une absence de réaction des pupilles à la lumière."
+  - type: liste
+    titre: Signes - mesures neurologiques
+    items:
+      - "L'évaluation du niveau de conscience (score EVDA ou Glasgow, 4e regard) peut confirmer la détresse. Une victime qui a perdu connaissance et n'est plus réactive à la voix est considérée en détresse neurologique."
+      - "La mesure de la glycémie peut confirmer une hypoglycémie, une des causes de la détresse neurologique, qui doit être corrigée rapidement."
+  - type: attention
+    titre: Détresse en cours de constitution
+    items:
+      - "Doivent faire évoquer une détresse neurologique : aggravation progressive du niveau de conscience ; perte de connaissance passagère indiquée par l'entourage ou suspectée devant une amnésie de l'accident ou du malaise ; trouble de la parole isolé (difficulté à trouver ses mots ou déformation spontanée des mots)."
+      - "En cas de suspicion d'AVC (paralysie, trouble de la parole, de la vue, etc.) avec des manifestations aléatoires (signes qui apparaissent et disparaissent), la réalisation d'un score de l'AVC peut dévoiler cette détresse."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Installer la victime dans une position d'attente adaptée afin de préserver la circulation cérébrale."
+      - "Obtenir rapidement une aide médicale."
+      - "Surveiller attentivement la victime et adapter les gestes de secours à l'évolution de la situation."
+qcm:
+  - id: q1
+    enonce: "Comment une victime qui ne répond pas, ne réagit pas et dont la ventilation est arrêtée ou agonique est-elle considérée ?"
+    propositions:
+      - "En arrêt cardiaque"
+      - "En détresse respiratoire seulement"
+      - "En hypoglycémie"
+    bonnes:
+      - 0
+    explication: "Une victime qui ne répond pas, ne réagit pas et dont la ventilation est arrêtée ou anormale (agonique) doit être considérée en arrêt cardiaque."
+  - id: q2
+    enonce: "Quels sont des exemples d'ordres simples utilisés pour tester la réponse de la victime ?"
+    propositions:
+      - "« Serrez-moi la main »"
+      - "« Ouvrez les yeux »"
+      - "« Levez-vous »"
+    bonnes:
+      - 0
+      - 1
+    explication: "La fiche cite « serrez-moi la main » et « ouvrez les yeux »."
+  - id: q3
+    enonce: "Parmi ces signes, lesquels évoquent une détresse neurologique ?"
+    propositions:
+      - "Une désorientation (nom, lieu, année oubliés)"
+      - "Des convulsions généralisées"
+      - "Une asymétrie des pupilles"
+      - "Une pâleur des lèvres uniquement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Désorientation, convulsions généralisées, asymétrie du visage ou des pupilles et paralysie évoquent une détresse neurologique."
+  - id: q4
+    enonce: "Quelle cause de détresse neurologique peut être confirmée par une mesure et doit être corrigée rapidement ?"
+    propositions:
+      - "L'hypoxie"
+      - "L'hypoglycémie, par la mesure de la glycémie"
+      - "L'hypertension"
+    bonnes:
+      - 1
+    explication: "La mesure de la glycémie peut confirmer une hypoglycémie, cause de détresse neurologique à corriger rapidement."
+  - id: q5
+    enonce: "Quels signes doivent faire évoquer une détresse neurologique en cours de constitution ?"
+    propositions:
+      - "Aggravation progressive du niveau de conscience"
+      - "Perte de connaissance passagère rapportée par l'entourage ou amnésie du malaise"
+      - "Trouble de la parole isolé"
+      - "Toux sèche"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Ces trois signes doivent faire évoquer l'installation d'une détresse neurologique."
+  - id: q6
+    enonce: "Comment est considérée une victime qui ne répond pas, ne réagit pas, mais respire ?"
+    propositions:
+      - "À haut risque de détresse respiratoire, ses voies aériennes étant menacées"
+      - "Hors de danger"
+      - "En arrêt cardiaque"
+    bonnes:
+      - 0
+    explication: "Elle est considérée à haut risque de détresse respiratoire, car ses voies aériennes sont menacées."

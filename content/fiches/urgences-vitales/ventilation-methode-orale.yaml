@@ -1,0 +1,118 @@
+id: ventilation-methode-orale
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 22
+titre: Ventilation artificielle par une méthode orale
+motsCles: [bouche-à-bouche, méthode orale, insufflation, écran facial, masque de poche, nourrisson, bascule de la tête]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT12, 12-2023)"
+  code: 05FT12
+  page: 146
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Sans matériel de ventilation, le secouriste insuffle directement à la victime l'air qu'il expire, dont la part résiduelle d'oxygène est suffisante. Si l'arrêt respiratoire vient de se produire, cette technique peut favoriser la reprise de la respiration."
+  - type: liste
+    titre: Indications
+    items:
+      - "Victime en arrêt respiratoire, après libération des voies aériennes."
+      - "Victime en respiration agonique dont la fréquence respiratoire est inférieure ou égale à 6 mouvements par minute."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "1 seconde environ"
+        libelle: "Durée de chaque insufflation, jusqu'au début du soulèvement de la poitrine"
+      - valeur: "2 insufflations"
+        libelle: "Successives, sans excéder 5 secondes au total, pour ne pas retarder la reprise des compressions thoraciques"
+  - type: texte
+    titre: Préalable
+    contenu: "La victime est installée en position horizontale, sur le dos. Le secouriste peut utiliser un écran facial ou un masque de poche."
+  - type: etapes
+    titre: Chez l'adulte ou l'enfant
+    items:
+      - "Basculer la tête de la victime en arrière, comme pour la libération des voies aériennes."
+      - "Pincer le nez entre le pouce et l'index, tout en maintenant la bascule de la tête avec la main placée sur le front (le pincement empêche toute fuite d'air par le nez)."
+      - "Ouvrir légèrement la bouche avec l'autre main et maintenir le menton élevé."
+      - "Inspirer, sans excès."
+      - "Appliquer sa bouche largement ouverte autour de la bouche de la victime en appuyant fermement (pour empêcher toute fuite d'air)."
+      - "Insuffler progressivement jusqu'à ce que la poitrine commence à se soulever (durant 1 seconde environ)."
+      - "Se redresser légèrement, en maintenant la bascule de la tête, pour reprendre son souffle et vérifier l'affaissement de la poitrine."
+      - "Insuffler une seconde fois dans les mêmes conditions."
+  - type: etapes
+    titre: Chez le nourrisson ou le nouveau-né
+    items:
+      - "Technique sensiblement identique à celle de l'adulte ou de l'enfant, avec les particularités suivantes."
+      - "Placer la tête du nourrisson en position neutre, menton élevé."
+      - "Englober avec sa bouche à la fois la bouche et le nez de la victime."
+      - "Insuffler progressivement jusqu'à ce que la poitrine commence à se soulever (durant 1 seconde environ)."
+      - "Se redresser légèrement, en maintenant la tête en position neutre, pour reprendre son souffle et vérifier l'affaissement de la poitrine."
+      - "Insuffler une seconde fois dans les mêmes conditions."
+  - type: liste
+    titre: Si le ventre ou la poitrine ne se soulève pas
+    items:
+      - "S'assurer que la tête est en bonne position et le menton élevé."
+      - "S'assurer de la bonne étanchéité, sans fuite d'air lors de l'insufflation."
+      - "Rechercher un corps étranger dans la bouche et, si nécessaire, le retirer avec les doigts."
+  - type: attention
+    items:
+      - "Une insufflation trop rapide ou un volume d'air trop important fait passer de l'air dans l'estomac, avec risque de régurgitation. Plus fréquent chez l'enfant et le nouveau-né, qui ont besoin de volumes beaucoup moins importants que l'adulte."
+      - "Une régurgitation encombre les voies aériennes et compromet la réanimation et la survie de la victime."
+  - type: texte
+    titre: Évaluation
+    contenu: "La technique est efficace si chaque insufflation provoque un début de soulèvement de la poitrine."
+qcm:
+  - id: q1
+    enonce: "Quelle est la durée de chaque insufflation par méthode orale ?"
+    propositions:
+      - "Une seconde environ"
+      - "Cinq secondes"
+      - "Dix secondes"
+    bonnes: [0]
+    explication: "On insuffle progressivement, durant 1 seconde environ, jusqu'au début du soulèvement de la poitrine."
+  - id: q2
+    enonce: "Quelle durée maximale ne doivent pas excéder les deux insufflations successives ?"
+    propositions:
+      - "2 secondes"
+      - "5 secondes"
+      - "10 secondes"
+      - "30 secondes"
+    bonnes: [1]
+    explication: "Les deux insufflations ne doivent pas excéder 5 secondes, afin de ne pas retarder la reprise des compressions thoraciques."
+  - id: q3
+    enonce: "Chez l'adulte ou l'enfant, quelle est la bonne conduite pour la bouche et le nez de la victime ?"
+    propositions:
+      - "Englober la bouche et le nez avec sa bouche"
+      - "Pincer le nez et appliquer sa bouche autour de celle de la victime"
+      - "Fermer la bouche de la victime et insuffler par le nez"
+      - "Laisser le nez libre pour permettre la sortie de l'air"
+    bonnes: [1]
+    explication: "Le nez est pincé entre pouce et index pour éviter toute fuite d'air, et la bouche du secouriste, largement ouverte, est appliquée fermement autour de celle de la victime."
+  - id: q4
+    enonce: "Quelles adaptations concernent le nourrisson ou le nouveau-né ?"
+    propositions:
+      - "Tête en position neutre, menton élevé"
+      - "Bouche du secouriste englobant la bouche et le nez"
+      - "Bascule de la tête le plus possible en arrière"
+      - "Pincement du nez"
+    bonnes: [0, 1]
+    explication: "Chez le nourrisson, la tête est en position neutre, menton élevé, et le secouriste englobe à la fois la bouche et le nez avec sa bouche."
+  - id: q5
+    enonce: "Le thorax ne se soulève pas lors des insufflations. Que vérifier ?"
+    propositions:
+      - "La position de la tête et l'élévation du menton"
+      - "L'étanchéité, sans fuite d'air"
+      - "La présence d'un corps étranger dans la bouche, à retirer si nécessaire aux doigts"
+      - "Insuffler plus fort et plus longtemps sans autre vérification"
+    bonnes: [0, 1, 2]
+    explication: "On vérifie la position de la tête et du menton, l'étanchéité et la présence d'un corps étranger dans la bouche."
+  - id: q6
+    enonce: "Que permet de faire le secouriste en se redressant légèrement entre les deux insufflations ?"
+    propositions:
+      - "Reprendre son souffle et vérifier l'affaissement de la poitrine"
+      - "Lâcher la bascule de la tête"
+      - "Contrôler le pouls carotidien"
+    bonnes: [0]
+    explication: "Le secouriste se redresse légèrement tout en maintenant la bascule de la tête (position neutre chez le nourrisson) pour reprendre son souffle et vérifier l'affaissement de la poitrine."

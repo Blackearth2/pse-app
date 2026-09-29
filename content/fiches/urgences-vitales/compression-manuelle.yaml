@@ -1,0 +1,95 @@
+id: compression-manuelle
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 7
+titre: Compression manuelle
+motsCles: [compression manuelle, hémorragie externe, compresses, gants, pansement compressif, anticoagulants]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT02, 07-2026)"
+  code: 05FT02
+  page: 120
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La compression manuelle est à réaliser devant toute hémorragie externe accessible, quelle que soit sa localisation, si elle ne présente pas de corps étranger. La plupart des hémorragies externes s'arrêtent en appuyant sur la plaie : technique facile, rapide, très efficace, suffisante dans la plupart des cas."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Gants à usage unique."
+      - "Paquet de compresses, pansement « américain » ou tissu propre (mouchoir, torchon, vêtement)."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Appuyer fortement sur l'endroit qui saigne, avec ce qui est efficace au regard de la situation et qu'on peut maintenir aisément : la ou les mains protégées par des gants à usage unique, voire si nécessaire le genou."
+      - "Interposer le plus tôt possible entre la main et la plaie plusieurs compresses, un pansement ou un tissu, si possible propre, pour augmenter la compression."
+      - "Maintenir la compression de la plaie jusqu'au relais par un pansement compressif."
+  - type: liste
+    titre: Précisions
+    items:
+      - "Si le secouriste ne peut lui-même maintenir la compression (par exemple nombreuses victimes), il peut demander à la victime ou à un témoin, s'il en est capable et en s'assurant de sa protection, d'appuyer."
+      - "Évaluation : la compression manuelle est efficace lorsque le saignement est arrêté."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "La compression directe peut entraîner une contamination de la victime par le sauveteur ou inversement (accident d'exposition à un risque infectieux)."
+      - "Le temps de compression avant la mise en place d'un pansement compressif doit parfois être prolongé chez les personnes prenant des médicaments servant à fluidifier le sang."
+      - "Technique non indiquée en présence d'un corps étranger."
+qcm:
+  - id: q1
+    enonce: "Dans quel cas la compression manuelle est-elle indiquée ?"
+    propositions:
+      - "Devant toute hémorragie externe accessible, quelle que soit sa localisation, sans corps étranger"
+      - "Uniquement aux membres"
+      - "Uniquement si un garrot est impossible"
+    bonnes:
+      - 0
+    explication: "La compression manuelle est réalisée devant toute hémorragie externe accessible, quelle que soit sa localisation, si elle ne présente pas de corps étranger."
+  - id: q2
+    enonce: "Que faut-il faire pour augmenter la compression ?"
+    propositions:
+      - "Retirer les compresses pour appuyer directement"
+      - "Interposer le plus tôt possible entre la main et la plaie plusieurs compresses, un pansement ou un tissu"
+      - "Relâcher régulièrement pour vérifier le saignement"
+    bonnes:
+      - 1
+    explication: "On interpose le plus tôt possible plusieurs compresses, un pansement ou un tissu, si possible propre, entre la main et la plaie."
+  - id: q3
+    enonce: "Jusqu'à quand maintient-on la compression manuelle ?"
+    propositions:
+      - "Pendant 1 minute exactement"
+      - "Jusqu'au relais par un pansement compressif"
+      - "Jusqu'à l'arrivée des secours, sans jamais relayer"
+    bonnes:
+      - 1
+    explication: "La compression est maintenue jusqu'au relais par un pansement compressif."
+  - id: q4
+    enonce: "Avec quoi peut-on comprimer, selon la situation ?"
+    propositions:
+      - "Les mains protégées par des gants à usage unique"
+      - "Si nécessaire le genou"
+      - "Uniquement un garrot"
+    bonnes:
+      - 0
+      - 1
+    explication: "On comprime avec ce qui est efficace et maintenable aisément : la ou les mains gantées, voire si nécessaire le genou."
+  - id: q5
+    enonce: "Chez quelles victimes le temps de compression avant le pansement compressif doit-il parfois être prolongé ?"
+    propositions:
+      - "Les personnes prenant des médicaments qui fluidifient le sang"
+      - "Les enfants"
+      - "Les personnes âgées sans traitement"
+    bonnes:
+      - 0
+    explication: "Le temps de compression doit parfois être prolongé chez les personnes prenant des médicaments servant à fluidifier le sang."
+  - id: q6
+    enonce: "Quand la compression manuelle est-elle jugée efficace ?"
+    propositions:
+      - "Lorsque la victime ne se plaint plus"
+      - "Lorsque le saignement est arrêté"
+      - "Lorsque la compression dure plus de 10 minutes"
+    bonnes:
+      - 1
+    explication: "La compression manuelle est efficace lorsque le saignement est arrêté."

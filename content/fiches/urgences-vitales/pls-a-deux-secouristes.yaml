@@ -1,0 +1,114 @@
+id: pls-a-deux-secouristes
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 30
+titre: "Position latérale de sécurité à deux secouristes"
+motsCles: [PLS, deux secouristes, traumatisme, rachis cervical, collier cervical, retournement]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT17, 12-2022)"
+  code: 05FT17
+  page: 161
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée, après avis médical, chez toute victime qui a perdu connaissance, respire normalement et est suspecte de traumatisme. La PLS maintient libres les voies aériennes supérieures, permet l'écoulement des liquides vers l'extérieur et évite que la langue ne chute dans le fond de la gorge. Sa réalisation à deux secouristes limite les mouvements du rachis cervical et diminue le risque de complications secondaires ou de séquelles."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Collier cervical si indiqué."
+      - "Coussin de tête."
+  - type: texte
+    titre: Organisation
+    contenu: "L'installation en PLS est réalisée après avoir mis en place un collier cervical si indiqué. La manœuvre est commandée par le secouriste placé à la tête (secouriste 1). La technique se réalise en trois temps."
+  - type: etapes
+    titre: 1er temps - Préparer le retournement
+    items:
+      - "Secouriste 1 : placé dans l'axe de la victime, derrière la tête, il maintient la tête à deux mains jusqu'à la réalisation du retournement."
+      - "Secouriste 2 : préparer le coussin de tête qui servira au calage après la mise en PLS, retirer les lunettes de la victime si elle en porte, rapprocher délicatement les membres inférieurs de l'axe du corps."
+      - "Secouriste 2 : placer le bras de la victime situé du côté du retournement à angle droit de son corps, plier le coude de ce même bras en gardant la paume de la main tournée vers le haut."
+      - "Secouriste 2 : saisir l'avant-bras opposé de la victime et amener le dos de sa main sur son oreille, côté retournement, sous la main du secouriste 1 ; le secouriste 1 maintient la main pressée contre l'oreille de la victime, paume contre paume."
+      - "Secouriste 2 : se placer à genoux ou en trépied à côté de la victime, assez loin d'elle pour pouvoir la tourner sur le côté sans avoir à se reculer, puis saisir la hanche d'une main et l'épaule de l'autre, du côté opposé au retournement."
+  - type: etapes
+    titre: 2e temps - Retourner la victime
+    items:
+      - "Le secouriste 1 commande : « Êtes-vous prêt ? » ; le secouriste 2 répond : « Prêt ! » ; le secouriste 1 annonce : « Attention pour tourner... Tournez ! »."
+      - "Secouriste 2 : tirer en même temps sur la hanche et l'épaule de la victime, bras tendus, pour la faire rouler d'un bloc sur son côté."
+      - "Secouriste 1 : dans le même temps, maintenir la tête et la main de la victime entre ses mains et accompagner le mouvement en évitant toute torsion du cou."
+      - "Le retournement est réalisé sans brusquerie, en un seul temps. Le maintien de la main et de la tête vise à conserver l'axe de la colonne cervicale durant toute la manœuvre et évite ainsi toute aggravation d'un traumatisme."
+      - "En cas de difficulté pour le secouriste 2 (victime obèse ou force insuffisante), il peut faciliter le retournement en tirant sur le genou fléchi de la victime du côté opposé au retournement, comme dans la PLS à un secouriste, l'autre main tirant sur l'épaule."
+  - type: etapes
+    titre: 3e temps - Stabiliser la victime
+    items:
+      - "Secouriste 1 : poursuivre le maintien de la tête."
+      - "Secouriste 2 : saisir la hanche de la victime avec la main qui tient l'épaule."
+      - "Secouriste 2 : fléchir, avec la main qui tenait la hanche, la hanche et le genou de la victime situés vers le haut pour les amener à angle droit (la saisie de la jambe au niveau du genou permet de l'utiliser comme bras de levier)."
+      - "Secouriste 2 : placer un coussin ou un autre dispositif sous la tête de la victime pour compenser l'espace entre la tête et le sol et la soutenir dans l'axe du tronc ; ce coussin peut être placé avant le retournement contre la tête de la victime, du côté de celui-ci."
+      - "Secouriste 2 : vérifier que la bouche de la victime est ouverte (cela facilite l'écoulement des liquides vers l'extérieur)."
+      - "Après la mise en PLS, le secouriste 1 poursuit la stabilisation de la tête, dans la mesure du possible."
+  - type: attention
+    titre: Risques, contraintes et évaluation
+    items:
+      - "Cette technique peut aggraver une éventuelle lésion traumatique, notamment du rachis ou du bassin : une victime traumatisée qui a perdu connaissance et respire normalement n'est mise en PLS qu'après avis médical."
+      - "La mise en PLS rend difficile la surveillance de la ventilation."
+      - "Si la victime présente une lésion thoracique, du membre supérieur ou du membre inférieur, elle est couchée, autant que possible, sur le côté atteint."
+      - "Évaluation : la victime est dans une position stable, la plus latérale possible ; les voies aériennes et les mouvements de la respiration doivent pouvoir être contrôlés et l'écoulement des sécrétions vers l'extérieur est favorisé."
+qcm:
+  - id: q1
+    enonce: "Quelle est l'indication de la PLS à deux secouristes ?"
+    propositions:
+      - "Victime inconsciente qui respire normalement et suspecte de traumatisme, après avis médical"
+      - "Toute victime inconsciente qui ne respire pas"
+      - "Victime consciente en détresse respiratoire"
+    bonnes:
+      - 0
+    explication: "Elle est indiquée après avis médical chez toute victime qui a perdu connaissance, respire normalement et est suspecte de traumatisme."
+  - id: q2
+    enonce: "Qui commande la manœuvre ?"
+    propositions:
+      - "Le secouriste 2, placé à côté de la victime"
+      - "Le secouriste 1, placé à la tête"
+      - "Le chef d'équipe extérieur à la manœuvre"
+    bonnes:
+      - 1
+    explication: "La manœuvre est commandée par le secouriste placé à la tête (secouriste 1)."
+  - id: q3
+    enonce: "Combien de temps comporte la technique ?"
+    propositions:
+      - "Deux temps"
+      - "Trois temps"
+      - "Quatre temps"
+    bonnes:
+      - 1
+    explication: "La technique se réalise en trois temps : préparer le retournement, retourner la victime, stabiliser la victime."
+  - id: q4
+    enonce: "Quelle est la séquence de commandement avant le retournement ?"
+    propositions:
+      - "« Êtes-vous prêt ? » - « Prêt ! » - « Attention pour tourner... Tournez ! »"
+      - "« Attention pour tourner... Tournez ! » - « Prêt ! »"
+      - "« Tournez ! » uniquement"
+    bonnes:
+      - 0
+    explication: "Le secouriste 1 demande « Êtes-vous prêt ? », le secouriste 2 répond « Prêt ! », puis le secouriste 1 annonce « Attention pour tourner... Tournez ! »."
+  - id: q5
+    enonce: "Que doivent faire les secouristes pendant le retournement ?"
+    propositions:
+      - "Tirer sur la hanche et l'épaule pour rouler la victime d'un bloc"
+      - "Tourner la tête de la victime avant le corps"
+      - "Maintenir la tête et la main de la victime en évitant toute torsion du cou"
+      - "Retourner la victime en plusieurs temps successifs"
+    bonnes:
+      - 0
+      - 2
+    explication: "Le secouriste 2 tire en même temps sur la hanche et l'épaule ; le secouriste 1 maintient la tête et la main sans torsion du cou. Le retournement se fait sans brusquerie, en un seul temps."
+  - id: q6
+    enonce: "Sur quel côté est couchée, autant que possible, une victime présentant une lésion thoracique ou d'un membre ?"
+    propositions:
+      - "Sur le côté atteint"
+      - "Sur le côté sain"
+      - "Sur le côté droit"
+    bonnes:
+      - 0
+    explication: "Si la victime présente une lésion thoracique, du membre supérieur ou inférieur, elle est couchée, autant que possible, sur le côté atteint."

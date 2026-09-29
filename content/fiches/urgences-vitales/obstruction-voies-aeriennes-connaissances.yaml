@@ -1,0 +1,106 @@
+id: obstruction-voies-aeriennes-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 12
+titre: Obstruction des voies aériennes (connaissances)
+motsCles: [OVA, corps étranger, obstruction totale, obstruction partielle, étouffement, hypoxie]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC04, 07-2026)
+  code: 05AC04
+  page: 128
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'obstruction des voies aériennes (OVA) est la gêne ou l'empêchement brutal des mouvements de l'air entre l'extérieur et les poumons, par un corps étranger. Sans intervention rapide, elle entraîne une hypoxie, une perte de connaissance, puis un arrêt cardiaque en quelques minutes."
+  - type: liste
+    titre: Causes et facteurs de risque
+    items:
+      - "Corps étrangers les plus fréquents : aliments (noix, cacahuètes, carottes) ou objets (aimants de magnets, jouets)."
+      - "L'OVA peut survenir à tout âge, mais elle est plus fréquente chez l'enfant et chez la personne âgée."
+      - "Elle survient le plus souvent quand la personne mange, boit ou porte un objet à la bouche."
+      - "Facteurs de risque : prise de médicaments ou d'alcool, maladies neurologiques qui diminuent ou altèrent la déglutition ou la toux, démence, mauvaise dentition."
+  - type: liste
+    titre: Signes d'une obstruction partielle
+    items:
+      - "La victime peut parler, crier (notamment enfant ou nourrisson), tousser et respirer, parfois avec un bruit surajouté : l'obstruction n'est pas totale."
+      - "Cette situation peut durer plusieurs minutes après l'accident, car la respiration n'est pas complètement interrompue."
+  - type: liste
+    titre: Signes d'une obstruction totale
+    items:
+      - "La victime ne peut plus parler, crier, tousser ou émettre un son."
+      - "Elle garde la bouche ouverte, s'agite, devient rapidement bleue."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Désobstruer les voies aériennes en cas d'obstruction totale."
+      - "Empêcher toute aggravation."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une victime qui parle, crie, tousse ou respire n'a pas une obstruction totale : ne pas la désobstruer, mais l'encourager à tousser et la surveiller."
+      - "Une obstruction totale non levée conduit en quelques minutes à la perte de connaissance puis à l'arrêt cardiaque."
+qcm:
+  - id: q1
+    enonce: "Quelle est la définition de l'obstruction des voies aériennes (OVA) ?"
+    propositions:
+      - "L'arrêt du fonctionnement du cœur"
+      - "La gêne ou l'empêchement brutal des mouvements de l'air entre l'extérieur et les poumons, par un corps étranger"
+      - "Une perte de connaissance avec respiration conservée"
+      - "Une hémorragie des voies respiratoires"
+    bonnes:
+      - 1
+    explication: "L'OVA est la gêne ou l'empêchement brutal des mouvements de l'air entre l'extérieur et les poumons, par un corps étranger."
+  - id: q2
+    enonce: "Parmi ces signes, lesquels indiquent une obstruction totale des voies aériennes ?"
+    propositions:
+      - "La victime tousse avec un bruit surajouté"
+      - "La victime ne peut plus parler, crier, tousser ou émettre un son"
+      - "La victime garde la bouche ouverte, s'agite et devient rapidement bleue"
+      - "Un nourrisson qui crie"
+    bonnes:
+      - 1
+      - 2
+    explication: "L'obstruction est totale si la victime ne peut plus parler, crier, tousser ou émettre un son, garde la bouche ouverte, s'agite et devient rapidement bleue. Si elle peut parler, crier ou tousser, l'obstruction n'est pas totale."
+  - id: q3
+    enonce: "Sans intervention rapide, vers quoi évolue une obstruction totale des voies aériennes ?"
+    propositions:
+      - "Une hypoxie, une perte de connaissance, puis un arrêt cardiaque en quelques minutes"
+      - "Une guérison spontanée dans la plupart des cas"
+      - "Une simple gêne respiratoire sans conséquence"
+    bonnes:
+      - 0
+    explication: "Sans intervention rapide, l'OVA entraîne une hypoxie, une perte de connaissance, puis un arrêt cardiaque en quelques minutes."
+  - id: q4
+    enonce: "Lors d'une obstruction partielle, combien de temps la situation peut-elle durer après l'accident ?"
+    propositions:
+      - "Quelques secondes seulement"
+      - "Plusieurs minutes, car la respiration n'est pas complètement interrompue"
+      - "Toujours moins d'une minute"
+      - "Elle ne peut pas durer"
+    bonnes:
+      - 1
+    explication: "Une obstruction partielle peut durer plusieurs minutes après l'accident, car la respiration n'est pas complètement interrompue."
+  - id: q5
+    enonce: "Quels éléments font partie des facteurs de risque d'OVA par corps étranger ?"
+    propositions:
+      - "La mauvaise dentition"
+      - "La démence"
+      - "La prise de médicaments ou d'alcool"
+      - "La pratique régulière du sport"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Sont cités : la prise de médicaments, d'alcool, les maladies neurologiques altérant la déglutition ou la toux, la démence et la mauvaise dentition."
+  - id: q6
+    enonce: "Quel est le principe de l'action de secours face à une OVA ?"
+    propositions:
+      - "Désobstruire les voies aériennes en cas d'obstruction totale et empêcher toute aggravation"
+      - "Faire boire la victime pour faire descendre le corps étranger"
+      - "Toujours pratiquer des compressions thoraciques d'emblée"
+    bonnes:
+      - 0
+    explication: "Le principe est de désobstruire les voies aériennes en cas d'obstruction totale et d'empêcher toute aggravation."

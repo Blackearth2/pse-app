@@ -1,0 +1,149 @@
+id: ventilation-insufflateur-manuel
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 21
+titre: Ventilation artificielle par un insufflateur manuel
+motsCles: [insufflateur manuel, ballon autoremplisseur, masque, pince C-E, ventilation artificielle, valve de surpression, deux secouristes]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT11, 06-2018)"
+  code: 05FT11
+  page: 143
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Après libération des voies aériennes, l'insufflateur manuel (ballon autoremplisseur + masque) apporte de l'air, éventuellement enrichi en oxygène, aux poumons de la victime."
+  - type: liste
+    titre: Indications
+    items:
+      - "Victime en arrêt respiratoire."
+      - "Victime en respiration agonique dont la fréquence respiratoire est inférieure ou égale à 6 mouvements par minute."
+      - "Dans les deux cas, la ventilation artificielle intervient après la libération des voies aériennes."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "1 400 à 2 000 ml"
+        libelle: "Ballon adulte (victime de plus de 25 kg)"
+      - valeur: "400 à 500 ml"
+        libelle: "Ballon pédiatrique (victime de plus de 2,5 kg et de moins de 25 kg)"
+      - valeur: "200 à 250 ml"
+        libelle: "Ballon prématuré (moins de 2,5 kg), exclusivement réservé au prématuré : inefficace pour le nouveau-né à la naissance ou le nourrisson"
+      - valeur: "35-40 mmHg"
+        libelle: "Valve de surpression préréglée sur les insufflateurs prématurés et pédiatriques, pour éviter de léser des poumons normaux"
+      - valeur: "1 seconde environ"
+        libelle: "Durée de compression progressive du ballon, jusqu'au début du soulèvement du thorax"
+  - type: liste
+    titre: Description du matériel
+    items:
+      - "Ballon autoremplisseur souple et élastique, qui reprend sa forme quand on cesse d'appuyer dessus."
+      - "Valve d'admission d'air ou d'oxygène, qui empêche le retour du gaz du ballon vers l'extérieur."
+      - "Ballon réserve, qui accumule l'oxygène pendant l'insufflation."
+      - "Valve séparatrice des gaz insufflés et expirés, dans une pièce en « T » : les gaz frais vont vers la victime quand on appuie sur le ballon, les gaz expirés sortent vers l'extérieur quand on relâche."
+      - "Dispositif de raccordement à la victime : masque ou sonde d'intubation."
+      - "Masque facial : il recouvre la bouche et le nez sans appuyer sur les yeux. Anatomique (triangulaire) chez l'adulte et l'enfant, circulaire chez le nourrisson. Il possède un bourrelet souple pour l'étanchéité et un orifice supérieur pour le raccord à la pièce en « T »."
+      - "Préférer des masques translucides : ils permettent de voir sécrétions ou vomissements et la coloration des lèvres."
+      - "Il existe de trois à sept tailles de masque, de l'adulte au prématuré."
+      - "Sans matériel à usage unique, placer un filtre antibactérien entre la pièce séparatrice des gaz et le masque."
+  - type: etapes
+    titre: Réalisation à un secouriste
+    items:
+      - "Choisir un ballon et un masque adaptés à la victime, les connecter par la pièce en « T » et se placer à la tête de la victime."
+      - "D'une main, assurer la libération des voies aériennes ; saisir de l'autre main l'ensemble ballon/masque."
+      - "Placer le masque sur le nez en appliquant le sommet du triangle sur la racine du nez, puis rabattre la base vers le menton pour appliquer le pourtour sur le visage."
+      - "Appliquer le masque en pince C-E : pouce sur le masque au-dessus du nez et index sur la base du masque au-dessus de la lèvre inférieure (le C) ; 3e, 4e et 5e doigts en crochet sous le menton, tiré vers le haut contre le masque (le E). Pression vers le bas avec pouce et index, vers le haut avec les autres doigts."
+      - "Maintenir la tête en arrière (position neutre chez le nourrisson) par le mouvement du poignet de la main qui tient le masque. Cette pince assure l'étanchéité tout en gardant les voies aériennes libres."
+      - "Empaumer le ballon dans sa partie centrale avec l'autre main."
+      - "Comprimer le ballon progressivement, durant une seconde environ, jusqu'au début du soulèvement du thorax (la pression varie selon la victime)."
+      - "Relâcher le ballon dès que la poitrine se soulève, tout en maintenant le masque ; la poitrine s'abaisse alors. Recommencer le cycle."
+  - type: etapes
+    titre: Réalisation à deux secouristes (meilleure étanchéité)
+    items:
+      - "S'assurer au préalable de la bascule de la tête en arrière, menton tiré vers le haut."
+      - "Secouriste 1 : placer le masque (sommet du triangle sur la racine du nez, base rabattue vers le menton), l'appliquer en pince C-E avec une main, placer l'autre main de façon symétrique, presser vers le bas avec les pouces et vers le haut avec les autres doigts, et s'assurer de la bascule de la tête (position neutre pour le nourrisson)."
+      - "Secouriste 2 : empaumer le ballon d'une seule main, le comprimer progressivement, avec une seule main, durant une seconde environ, jusqu'au soulèvement du thorax, puis le relâcher dès que la poitrine se soulève. Recommencer le cycle."
+  - type: etapes
+    titre: En cas de vomissement pendant la ventilation
+    items:
+      - "Interrompre immédiatement la ventilation."
+      - "Tourner la victime sur le côté."
+      - "Dégager aux doigts les débris alimentaires solides et volumineux."
+      - "Aspirer les liquides de la bouche si un aspirateur de mucosités est disponible."
+      - "Remettre la victime sur le dos."
+      - "Reprendre la ventilation artificielle."
+  - type: texte
+    titre: Ventilation par sonde d'intubation ou dispositif supra-glottique
+    contenu: "Le secouriste peut ventiler avec un insufflateur relié directement à une sonde d'intubation ou à un dispositif supra-glottique. Il veille à ne pas mobiliser la sonde ou le dispositif lors des insufflations et respecte les consignes données."
+  - type: attention
+    items:
+      - "Une insufflation trop rapide ou un volume d'air trop important fait passer de l'air dans l'estomac, avec risque de régurgitation. Plus fréquent chez l'enfant et le nouveau-né, qui ont besoin de volumes moindres."
+      - "Une régurgitation dans les voies aériennes les encombre, compromet la réanimation et la survie de la victime."
+      - "Entretien et stockage du matériel conformes aux préconisations du fabricant."
+  - type: texte
+    titre: Évaluation
+    contenu: "La technique est efficace si chaque insufflation provoque un début de soulèvement de la poitrine et s'il n'y a pas de fuite d'air au niveau du masque."
+qcm:
+  - id: q1
+    enonce: "Dans quelle situation la ventilation artificielle par insufflateur manuel est-elle indiquée, après libération des voies aériennes ?"
+    propositions:
+      - "Victime en arrêt respiratoire"
+      - "Victime en respiration agonique avec une fréquence inférieure ou égale à 6 mouvements par minute"
+      - "Toute victime qui respire à 12 mouvements par minute"
+      - "Toute victime consciente en détresse respiratoire"
+    bonnes: [0, 1]
+    explication: "La ventilation artificielle est indiquée en cas d'arrêt respiratoire ou de respiration agonique dont la fréquence est inférieure ou égale à six mouvements par minute."
+  - id: q2
+    enonce: "Quel est le volume du ballon d'un insufflateur manuel adulte (victime de plus de 25 kg) ?"
+    propositions:
+      - "200 à 250 ml"
+      - "400 à 500 ml"
+      - "800 à 1 000 ml"
+      - "1 400 à 2 000 ml"
+    bonnes: [3]
+    explication: "Adulte : 1 400 à 2 000 ml ; pédiatrique (2,5 à 25 kg) : 400 à 500 ml ; prématuré (moins de 2,5 kg) : 200 à 250 ml."
+  - id: q3
+    enonce: "À quelle pression sont préréglées les valves de surpression des insufflateurs prématurés et pédiatriques ?"
+    propositions:
+      - "10-15 mmHg"
+      - "35-40 mmHg"
+      - "120-150 mmHg"
+      - "350-500 mmHg"
+    bonnes: [1]
+    explication: "Elles sont préréglées à 35-40 mmHg pour éviter que des poumons normaux soient lésés par des pressions excessives."
+  - id: q4
+    enonce: "Quelle est la durée approximative de compression du ballon pour une insufflation ?"
+    propositions:
+      - "Une seconde environ"
+      - "Cinq secondes"
+      - "Dix secondes"
+      - "Une demi-seconde, aussi fort que possible"
+    bonnes: [0]
+    explication: "Le ballon est comprimé progressivement, durant une seconde environ, jusqu'au début du soulèvement du thorax, puis relâché."
+  - id: q5
+    enonce: "Dans la technique de la pince C-E, quels doigts forment le « E » ?"
+    propositions:
+      - "Le pouce et l'index, sur le masque"
+      - "Les 3e, 4e et 5e doigts, en crochet sous le menton"
+      - "L'index seul, sur le front"
+      - "Le pouce seul, sous le menton"
+    bonnes: [1]
+    explication: "Le pouce et l'index forment le C sur le masque ; les 3e, 4e et 5e doigts tirent le menton vers le haut et forment le E."
+  - id: q6
+    enonce: "Que faire si la victime vomit pendant la ventilation artificielle ?"
+    propositions:
+      - "Poursuivre la ventilation pour maintenir l'oxygénation"
+      - "Interrompre la ventilation, tourner la victime sur le côté, dégager les débris solides, aspirer les liquides puis remettre sur le dos et reprendre"
+      - "Attendre l'arrêt spontané du vomissement sans intervenir"
+      - "Insuffler plus fort pour repousser les vomissures"
+    bonnes: [1]
+    explication: "La ventilation est interrompue immédiatement, la victime tournée sur le côté, les débris solides et volumineux dégagés aux doigts, les liquides aspirés si possible, puis la victime est remise sur le dos et la ventilation reprise."
+  - id: q7
+    enonce: "Quels critères montrent que la ventilation est efficace ?"
+    propositions:
+      - "Début de soulèvement de la poitrine à chaque insufflation"
+      - "Absence de fuite d'air au niveau du masque"
+      - "Ballon réserve totalement aplati"
+      - "Ventre qui gonfle à chaque insufflation"
+    bonnes: [0, 1]
+    explication: "L'efficacité se juge sur un début de soulèvement de la poitrine à chaque insufflation et l'absence de fuite au masque. Une insufflation trop rapide ou trop ample gonfle l'estomac et expose à la régurgitation."

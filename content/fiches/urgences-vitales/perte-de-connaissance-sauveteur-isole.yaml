@@ -1,0 +1,90 @@
+id: perte-de-connaissance-sauveteur-isole
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 29
+titre: "Perte de connaissance en sauveteur isolé"
+motsCles: [perte de connaissance, sauveteur isolé, PLS, alerte, surveillance de la respiration, traumatisme]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR07, 07-2026)"
+  code: 05PR07
+  page: 160
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Conduite à tenir lorsque la victime a perdu connaissance et respire, et que le secouriste se retrouve seul et sans matériel."
+  - type: etapes
+    titre: À la suite d'un événement non traumatique
+    items:
+      - "La placer en position stable sur le côté, en position latérale de sécurité (PLS)."
+      - "Faire alerter ou alerter les secours et respecter leurs consignes."
+      - "Surveiller en permanence la respiration de la victime jusqu'à l'arrivée des secours : regarder si le ventre et la poitrine se soulèvent, écouter d'éventuels sons provoqués par la respiration, sentir avec la main les mouvements du ventre et de la poitrine."
+  - type: etapes
+    titre: À la suite d'un traumatisme ou d'un événement d'origine inconnue
+    items:
+      - "Laisser la victime sur le dos."
+      - "Faire alerter ou alerter les secours et respecter leurs consignes (les secours peuvent demander de mettre la victime en PLS)."
+      - "Surveiller en permanence la respiration jusqu'à l'arrivée des secours, comme lors de la recherche de la respiration (le maintien de la libération des voies aériennes permet de stabiliser le rachis cervical)."
+      - "Si la victime vomit ou régurgite, la mettre sur le côté en maintenant si possible l'axe tête-cou-tronc, en demandant de l'aide le cas échéant."
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Compléter le bilan."
+      - "Protéger contre la chaleur, le froid ou les intempéries."
+      - "Si la respiration s'arrête ou devient anormale, adopter la conduite à tenir face à un arrêt cardiaque et prévenir les secours de l'évolution."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le retournement sur le côté gauche de la femme enceinte, ou d'une victime obèse, évite une détresse par compression de certains vaisseaux sanguins de l'abdomen."
+qcm:
+  - id: q1
+    enonce: "Sauveteur isolé, victime inconsciente qui respire après un événement non traumatique : que faire ?"
+    propositions:
+      - "La laisser sur le dos et surveiller"
+      - "La placer en PLS, alerter les secours puis surveiller la respiration"
+      - "Commencer les compressions thoraciques"
+    bonnes:
+      - 1
+    explication: "Après un événement non traumatique : PLS, alerte des secours en respectant leurs consignes, puis surveillance permanente de la respiration."
+  - id: q2
+    enonce: "Après un traumatisme, que fait le sauveteur isolé d'une victime qui respire et a perdu connaissance ?"
+    propositions:
+      - "La mettre en PLS d'emblée"
+      - "Lui faire boire de l'eau"
+      - "La laisser sur le dos et alerter les secours"
+      - "L'asseoir"
+    bonnes:
+      - 2
+    explication: "Après un traumatisme ou un événement d'origine inconnue, la victime est laissée sur le dos et les secours sont alertés."
+  - id: q3
+    enonce: "Comment surveille-t-on la respiration ?"
+    propositions:
+      - "Regarder si le ventre et la poitrine se soulèvent"
+      - "Écouter d'éventuels sons provoqués par la respiration"
+      - "Sentir avec la main les mouvements du ventre et de la poitrine"
+      - "Mesurer la pression artérielle"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La surveillance associe regarder, écouter et sentir les mouvements du ventre et de la poitrine."
+  - id: q4
+    enonce: "Une victime laissée sur le dos après traumatisme vomit. Que faire ?"
+    propositions:
+      - "La mettre sur le côté en maintenant si possible l'axe tête-cou-tronc, en demandant de l'aide si besoin"
+      - "La laisser sur le dos"
+      - "Lui rabattre le menton sur le sternum"
+    bonnes:
+      - 0
+    explication: "En cas de vomissement ou de régurgitation, la victime est mise sur le côté en maintenant si possible l'axe tête-cou-tronc."
+  - id: q5
+    enonce: "Si la respiration s'arrête ou devient anormale, que faut-il faire ?"
+    propositions:
+      - "Continuer la surveillance seulement"
+      - "Adopter la conduite à tenir face à un arrêt cardiaque et prévenir les secours de l'évolution"
+      - "Remettre la victime en PLS"
+    bonnes:
+      - 1
+    explication: "Si la respiration s'arrête ou devient anormale, on applique la conduite à tenir face à un arrêt cardiaque et on prévient les secours."

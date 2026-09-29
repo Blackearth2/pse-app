@@ -1,0 +1,85 @@
+id: perte-de-connaissance-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 27
+titre: "Perte de connaissance (connaissances)"
+motsCles: [perte de connaissance, voies aériennes, chute de la langue, 2e regard, rachis, respiration]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC06, 12-2023)"
+  code: 05AC06
+  page: 158
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La perte de connaissance est la perte, permanente ou temporaire, de l'aptitude à communiquer et à réagir avec d'autres personnes et avec l'environnement. Ses causes peuvent être traumatiques, médicales ou toxiques."
+  - type: liste
+    titre: Risques et conséquences
+    items:
+      - "Le risque est d'évoluer vers l'arrêt respiratoire puis l'arrêt cardiaque."
+      - "La respiration n'est possible que si les voies aériennes laissent passer l'air sans encombre."
+      - "Une personne qui a perdu connaissance, laissée sur le dos, est toujours exposée à des difficultés respiratoires par encombrement ou obstruction des voies aériennes."
+      - "Cause 1 : des liquides présents dans la gorge (salive, sang, liquide gastrique), du fait d'une diminution des réflexes, en particulier de déglutition."
+      - "Cause 2 : la chute de la langue et de l'épiglotte en arrière, du fait d'une forte diminution du tonus musculaire. Cette obstruction peut empêcher toute respiration naturelle ou artificielle."
+  - type: liste
+    titre: Signes
+    items:
+      - "L'appréciation de la conscience se fait au cours du 2e regard, en quelques secondes."
+      - "Une personne a perdu connaissance lorsqu'elle ne répond et ne réagit à aucune sollicitation verbale ou physique, mais respire."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Préserver la respiration en maintenant la liberté de ses voies aériennes."
+      - "Limiter l'aggravation d'une éventuelle lésion du rachis."
+qcm:
+  - id: q1
+    enonce: "Quand considère-t-on qu'une personne a perdu connaissance ?"
+    propositions:
+      - "Lorsqu'elle ne répond et ne réagit à aucune sollicitation verbale ou physique, mais respire"
+      - "Lorsqu'elle ne répond et ne réagit à aucune sollicitation et ne respire pas"
+      - "Lorsqu'elle répond avec retard aux questions"
+    bonnes:
+      - 0
+    explication: "La perte de connaissance associe l'absence de réponse et de réaction à toute sollicitation verbale ou physique, avec une respiration présente."
+  - id: q2
+    enonce: "Quels sont les deux mécanismes d'obstruction des voies aériennes chez une personne inconsciente laissée sur le dos ?"
+    propositions:
+      - "La présence de liquides dans la gorge (salive, sang, liquide gastrique)"
+      - "La chute de la langue et de l'épiglotte en arrière"
+      - "Un gonflement des poumons"
+      - "Une contraction des muscles du cou"
+    bonnes:
+      - 0
+      - 1
+    explication: "L'encombrement par des liquides (diminution des réflexes de déglutition) et la chute de la langue et de l'épiglotte (diminution du tonus musculaire) sont les deux mécanismes cités."
+  - id: q3
+    enonce: "Vers quelle évolution la perte de connaissance expose-t-elle ?"
+    propositions:
+      - "Une paralysie durable"
+      - "L'arrêt respiratoire puis l'arrêt cardiaque"
+      - "Une hypoglycémie"
+    bonnes:
+      - 1
+    explication: "Le risque de la perte de connaissance est d'évoluer vers l'arrêt respiratoire et l'arrêt cardiaque."
+  - id: q4
+    enonce: "Quels sont les deux principes de l'action de secours face à une perte de connaissance ?"
+    propositions:
+      - "Limiter l'aggravation d'une éventuelle lésion du rachis"
+      - "Réveiller la victime en la secouant vigoureusement"
+      - "Préserver la respiration en maintenant la liberté des voies aériennes"
+      - "Faire boire la victime"
+    bonnes:
+      - 0
+      - 2
+    explication: "Le principe de l'action de secours est de préserver la respiration en maintenant les voies aériennes libres et de limiter l'aggravation d'une éventuelle lésion du rachis."
+  - id: q5
+    enonce: "À quel moment du bilan apprécie-t-on la conscience ?"
+    propositions:
+      - "Au 1er regard"
+      - "Au 2e regard, en quelques secondes"
+      - "Au 4e regard uniquement"
+    bonnes:
+      - 1
+    explication: "L'appréciation de la conscience est réalisée au cours du 2e regard, en quelques secondes."

@@ -1,0 +1,117 @@
+id: desobstruction-compressions-thoraciques
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 16
+titre: Désobstruction par des compressions thoraciques
+motsCles: [compressions thoraciques, désobstruction, nourrisson, femme enceinte, personne obèse, effet piston]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT09, 07-2026)
+  code: 05FT09
+  page: 133
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée en cas d'obstruction complète des voies aériennes par un corps étranger lorsqu'il est impossible d'encercler l'abdomen de la victime (adulte obèse, femme enceinte, personne alitée ou allongée difficilement mobilisable), ou chez une victime qui peut tenir sur l'avant-bras du sauveteur (nourrisson). Elle comprime l'air contenu dans les poumons pour expulser le corps étranger par un effet de « piston » ; plusieurs pressions successives peuvent être nécessaires. Aucun matériel."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "1 à 5"
+        libelle: "compressions successives, en relâchant complètement entre chacune (personne obèse ou femme enceinte, et nourrisson)"
+      - valeur: "> 1/3"
+        libelle: "profondeur de compression chez le nourrisson : au-delà d'un tiers de la hauteur du thorax"
+  - type: etapes
+    titre: Personne dont il est impossible d'encercler l'abdomen (obèse ou femme enceinte)
+    items:
+      - "Se positionner derrière la victime."
+      - "Placer ses avant-bras sous les bras de la victime et encercler la poitrine."
+      - "Placer le poing fermé (dos de la main vers le ciel) au milieu du sternum, sans appuyer sur la pointe inférieure du sternum."
+      - "Placer l'autre main sur la première."
+      - "Tirer franchement en exerçant une pression vers l'arrière, sans appuyer les avant-bras sur les côtes."
+      - "Effectuer de 1 à 5 compressions successives, en relâchant complètement entre chacune."
+  - type: etapes
+    titre: Chez la victime qui peut tenir sur l'avant-bras du sauveteur (nourrisson ou petit enfant)
+    items:
+      - "Tourner le nourrisson en soutenant sa tête, pour que sa face soit côté ciel."
+      - "Le poser de telle sorte que son dos et sa tête reposent directement sur les deux cuisses du secouriste, et que sa tête soit plus basse que le reste du corps."
+      - "Comme pour les compressions thoraciques d'un arrêt cardiaque : entourer le thorax du nourrisson avec les mains et placer deux pouces, l'un sur l'autre, au milieu du sternum."
+      - "Effectuer de 1 à 5 compressions successives, en relâchant complètement entre chacune, sur une profondeur au-delà d'un tiers de la hauteur du thorax."
+  - type: etapes
+    titre: Chez la personne alitée ou allongée, difficilement mobilisable
+    items:
+      - "Effectuer des compressions thoraciques, comme pour une victime en arrêt cardiaque."
+  - type: liste
+    titre: Évaluation de l'efficacité
+    items:
+      - "Rejet du corps étranger chez l'adulte."
+      - "Apparition de toux chez l'adulte."
+      - "Apparition de pleurs ou de cris chez le nourrisson."
+      - "Reprise d'une respiration normale."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Des complications par traumatisme des organes internes, des côtes ou du sternum peuvent survenir après ces manœuvres."
+      - "Ce risque ne doit pas diminuer la qualité des compressions thoraciques, absolument nécessaire au rejet du corps étranger."
+      - "Ne pas appuyer sur la pointe inférieure du sternum ni sur les côtes avec les avant-bras."
+qcm:
+  - id: q1
+    enonce: "Dans quelles situations réalise-t-on des compressions thoraciques pour désobstruer ?"
+    propositions:
+      - "Impossibilité d'encercler l'abdomen (adulte obèse, femme enceinte)"
+      - "Personne alitée ou allongée, difficilement mobilisable"
+      - "Nourrisson pouvant tenir sur l'avant-bras du sauveteur"
+      - "Adulte debout de gabarit normal"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Elles sont indiquées quand il est impossible d'encercler l'abdomen (adulte obèse, femme enceinte, personne alitée ou allongée difficilement mobilisable) et chez le nourrisson."
+  - id: q2
+    enonce: "Où place-t-on le poing fermé chez une personne obèse ou une femme enceinte ?"
+    propositions:
+      - "Juste au-dessus du nombril"
+      - "Au milieu du sternum, sans appuyer sur la pointe inférieure du sternum"
+      - "Sur la pointe inférieure du sternum"
+      - "Sur les côtes"
+    bonnes:
+      - 1
+    explication: "Le poing fermé est placé au milieu du sternum, sans appuyer sur la pointe inférieure du sternum."
+  - id: q3
+    enonce: "Combien de compressions successives réalise-t-on par série ?"
+    propositions:
+      - "De 1 à 5, en relâchant complètement entre chacune"
+      - "30"
+      - "De 5 à 10"
+    bonnes:
+      - 0
+    explication: "On effectue de 1 à 5 compressions successives, en relâchant complètement entre chacune."
+  - id: q4
+    enonce: "Comment positionne-t-on le nourrisson pour ces compressions thoraciques ?"
+    propositions:
+      - "Face vers le ciel, dos et tête sur les deux cuisses du secouriste, tête plus basse que le reste du corps"
+      - "Face vers le sol, tête plus basse"
+      - "Assis, tête relevée"
+      - "Face vers le ciel, tête plus haute que le corps"
+    bonnes:
+      - 0
+    explication: "Le nourrisson est tourné face au ciel, son dos et sa tête reposant sur les deux cuisses du secouriste, la tête plus basse que le reste du corps."
+  - id: q5
+    enonce: "Quelle est la technique de compression chez le nourrisson et sa profondeur ?"
+    propositions:
+      - "Thorax entouré des mains, deux pouces l'un sur l'autre au milieu du sternum ; profondeur au-delà d'un tiers de la hauteur du thorax"
+      - "Talon d'une main sur le sternum ; profondeur d'environ 5 cm"
+      - "Poing fermé au-dessus du nombril ; profondeur d'un tiers"
+    bonnes:
+      - 0
+    explication: "Comme pour l'arrêt cardiaque du nourrisson : thorax entouré des mains, deux pouces superposés au milieu du sternum, avec une profondeur au-delà d'un tiers de la hauteur du thorax."
+  - id: q6
+    enonce: "Que fait-on chez une personne alitée ou allongée difficilement mobilisable ?"
+    propositions:
+      - "Des compressions thoraciques comme pour une victime en arrêt cardiaque"
+      - "Des compressions abdominales"
+      - "Uniquement des claques dans le dos"
+    bonnes:
+      - 0
+    explication: "Chez la personne alitée ou allongée difficilement mobilisable, on effectue des compressions thoraciques comme pour une victime en arrêt cardiaque."

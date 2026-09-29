@@ -1,0 +1,61 @@
+id: detresse-neurologique-conduite-a-tenir
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 37
+titre: "Détresse neurologique (conduite à tenir)"
+motsCles: [détresse neurologique, allonger, oxygène, état neurologique, urgence vitale]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR10, 12-2022)"
+  code: 05PR10
+  page: 173
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une urgence vitale ou en cas d'aggravation, appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent. Les étapes ci-dessous concernent la victime consciente, après avoir traité une urgence vitale s'il y en avait une."
+  - type: etapes
+    titre: La victime est consciente
+    items:
+      - "Allonger la victime."
+      - "Administrer de l'oxygène en inhalation si nécessaire."
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries."
+      - "Poursuivre le bilan et surveiller attentivement son état neurologique."
+qcm:
+  - id: q1
+    enonce: "Que fait-on d'abord face à une victime en détresse neurologique présentant aussi une urgence vitale ?"
+    propositions:
+      - "Appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent"
+      - "Poursuivre le bilan sans intervenir"
+      - "Faire asseoir la victime"
+    bonnes:
+      - 0
+    explication: "Face à une urgence vitale ou en cas d'aggravation, les gestes d'urgence sont réalisés en priorité."
+  - id: q2
+    enonce: "Quelle position pour une victime consciente en détresse neurologique ?"
+    propositions:
+      - "Debout"
+      - "Assise"
+      - "Allongée"
+    bonnes:
+      - 2
+    explication: "La conduite à tenir prévoit d'allonger la victime."
+  - id: q3
+    enonce: "Quand administre-t-on de l'oxygène en inhalation en détresse neurologique ?"
+    propositions:
+      - "Systématiquement dès le premier regard"
+      - "Si nécessaire"
+      - "Jamais"
+    bonnes:
+      - 1
+    explication: "L'oxygène est administré en inhalation si nécessaire."
+  - id: q4
+    enonce: "Que faut-il surveiller attentivement en poursuivant le bilan ?"
+    propositions:
+      - "L'état neurologique"
+      - "Uniquement la température"
+      - "Uniquement la glycémie"
+    bonnes:
+      - 0
+    explication: "Le bilan est poursuivi en surveillant attentivement l'état neurologique."

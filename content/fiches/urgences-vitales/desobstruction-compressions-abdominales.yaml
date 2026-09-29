@@ -1,0 +1,106 @@
+id: desobstruction-compressions-abdominales
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 15
+titre: Désobstruction par des compressions abdominales
+motsCles: [compressions abdominales, désobstruction, poing fermé, nombril, effet piston, adulte, enfant]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT08, 12-2023)
+  code: 05FT08
+  page: 132
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée en cas d'obstruction complète des voies aériennes par un corps étranger chez un adulte ou un enfant, après une série de 5 claques dans le dos inefficaces, si le sauveteur peut se tenir debout ou à genou derrière la victime. Elle comprime l'air contenu dans les poumons pour expulser le corps étranger par un effet de « piston » ; plusieurs pressions successives peuvent être nécessaires. Aucun matériel."
+  - type: chiffres
+    titre: Repère
+    items:
+      - valeur: "1 à 5"
+        libelle: "compressions abdominales, en relâchant entre chacune"
+  - type: etapes
+    titre: Chez l'adulte ou l'enfant
+    items:
+      - "Pencher la victime vers l'avant."
+      - "Se placer debout, ou à genoux (enfant), derrière la victime, contre son dos."
+      - "Passer ses bras sous ceux de la victime, de part et d'autre de la partie supérieure de son abdomen."
+      - "Placer le poing fermé (dos de la main vers le ciel) juste au-dessus du nombril."
+      - "Placer la seconde main sur la première."
+      - "Tirer franchement en exerçant une pression vers l'arrière et vers le haut, sans appuyer les avant-bras sur les côtes."
+      - "Effectuer de 1 à 5 compressions, en relâchant entre chacune."
+  - type: liste
+    titre: Évaluation de l'efficacité
+    items:
+      - "Rejet du corps étranger chez l'adulte."
+      - "Apparition de toux chez l'adulte."
+      - "Apparition de pleurs ou de cris chez l'enfant."
+      - "Reprise d'une respiration normale."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Les compressions abdominales peuvent occasionner des lésions des organes internes, des côtes et du sternum."
+      - "Ce risque ne doit pas diminuer la vigueur des compressions, absolument nécessaire au rejet du corps étranger."
+      - "Ne pas appuyer les avant-bras sur les côtes."
+qcm:
+  - id: q1
+    enonce: "Dans quelle situation les compressions abdominales sont-elles indiquées ?"
+    propositions:
+      - "Obstruction complète chez un adulte ou un enfant, après une série de 5 claques dans le dos inefficaces"
+      - "Toux efficace chez un adulte"
+      - "Obstruction chez un nourrisson"
+      - "Obstruction partielle avec victime qui parle"
+    bonnes:
+      - 0
+    explication: "La technique est indiquée en cas d'obstruction complète chez un adulte ou un enfant, après une série de 5 claques dans le dos inefficaces, si le sauveteur peut se tenir debout ou à genou derrière la victime."
+  - id: q2
+    enonce: "Où place-t-on le poing fermé pour réaliser les compressions abdominales ?"
+    propositions:
+      - "Au milieu du sternum"
+      - "Juste au-dessus du nombril"
+      - "Sur la pointe inférieure du sternum"
+      - "Sur le bas-ventre, sous le nombril"
+    bonnes:
+      - 1
+    explication: "Le poing fermé (dos de la main vers le ciel) est placé juste au-dessus du nombril, la seconde main sur la première."
+  - id: q3
+    enonce: "Dans quelle direction tire-t-on lors des compressions abdominales ?"
+    propositions:
+      - "Vers l'arrière et vers le haut"
+      - "Vers l'avant et vers le bas"
+      - "Uniquement vers le bas"
+    bonnes:
+      - 0
+    explication: "On tire franchement en exerçant une pression vers l'arrière et vers le haut, sans appuyer les avant-bras sur les côtes."
+  - id: q4
+    enonce: "Combien de compressions abdominales réalise-t-on par série ?"
+    propositions:
+      - "De 1 à 5, en relâchant entre chacune"
+      - "30, sans relâcher"
+      - "De 5 à 10"
+      - "Une seule"
+    bonnes:
+      - 0
+    explication: "On effectue de 1 à 5 compressions, en relâchant entre chacune."
+  - id: q5
+    enonce: "Comment se place le sauveteur chez l'enfant ?"
+    propositions:
+      - "Debout ou à genoux (enfant) derrière la victime, contre son dos"
+      - "Face à la victime"
+      - "Sur le côté, sans contact"
+    bonnes:
+      - 0
+    explication: "Le sauveteur se place debout, ou à genoux pour l'enfant, derrière la victime, contre son dos."
+  - id: q6
+    enonce: "Quels risques les compressions abdominales comportent-elles ?"
+    propositions:
+      - "Des lésions des organes internes"
+      - "Des lésions des côtes"
+      - "Des lésions du sternum"
+      - "Aucun risque"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Elles peuvent occasionner des lésions des organes internes, des côtes et du sternum ; ce risque ne doit pas diminuer leur vigueur."

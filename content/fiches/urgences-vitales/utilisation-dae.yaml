@@ -1,0 +1,161 @@
+id: utilisation-dae
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 26
+titre: Utilisation d'un défibrillateur automatisé externe
+motsCles: [DAE, défibrillation, électrodes, arrêt cardiaque, choc électrique, position antéro-latérale, nourrisson, sécurité]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT16, 07-2026)"
+  code: 05FT16
+  page: 153
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le DAE est indiqué chez toute victime en arrêt cardiaque. Utilisé précocement, il améliore de façon significative les chances de survie. Il analyse l'activité électrique du cœur, reconnaît les rythmes à choquer et délivre (ou invite à délivrer) un choc à travers le thorax. Correctement utilisé, il ne présente aucun risque pour le secouriste."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Deux catégories de DAE : entièrement automatiques et semi-automatiques (bouton de choc actionné à la demande de l'appareil)."
+      - "Écran ou indicateurs d'état, haut-parleur de guidage vocal, accumulateur d'énergie, module mémoire (ECG, manipulations, heure, date, chocs) pour éditer un rapport."
+      - "Électrodes de défibrillation à usage unique, autocollantes, avec gel : deux paires à disposition avec l'appareil ; elles ne doivent jamais être pliées. Câble de connexion, parfois préconnecté aux électrodes et à usage unique."
+      - "Certains appareils ont des électrodes différentes pour l'adulte et pour l'enfant ou le nourrisson."
+      - "Certains sont munis d'une aide au massage cardiaque (métronome, profondimètre)."
+      - "Accessoires : ciseaux pour couper les vêtements, de quoi sécher la peau, rasoir jetable pour raser le thorax si nécessaire."
+  - type: etapes
+    titre: Mise en œuvre en cinq étapes
+    items:
+      - "Mise en marche : ouvrir le capot protecteur ou appuyer sur le bouton marche/arrêt. Quelques secondes après, une voix guide l'opérateur."
+      - "Connexion des électrodes : poursuivre la RCP pendant la pose ; enlever ou couper les vêtements de la poitrine ; retirer la pellicule de protection ; coller les électrodes à même la peau selon le schéma des électrodes ou de leur emballage ; connecter le câble au défibrillateur s'il n'est pas déjà préconnecté."
+      - "Analyse du rythme cardiaque : si l'appareil le demande, arrêter les manœuvres de réanimation et cesser de toucher la victime. Si un choc est indiqué, le DAE se prépare immédiatement à le délivrer."
+      - "Délivrance du choc : écouter et respecter les indications sonores ou visuelles ; s'écarter de la victime quand l'appareil le demande ; appuyer sur le bouton de choc si l'appareil le demande ; reprendre les manœuvres de réanimation immédiatement après le choc."
+      - "Arrêt de l'appareil : uniquement à la demande du médecin des services de secours."
+  - type: liste
+    titre: Adhérence des électrodes
+    items:
+      - "Les électrodes doivent adhérer correctement à la peau."
+      - "Poitrine humide : la sécher avant de coller les électrodes."
+      - "Poitrine particulièrement velue : de préférence la raser à l'endroit de la pose."
+  - type: chiffres
+    titre: Position standard des électrodes
+    items:
+      - valeur: "Adulte et enfant de plus de 25 kg : antéro-latérale"
+        libelle: "Une électrode juste sous la clavicule droite, contre le bord droit du sternum ; l'autre sur le côté gauche du thorax, 5 à 10 cm au-dessous de l'aisselle gauche"
+      - valeur: "Nourrisson et enfant de moins de 25 kg : antéro-postérieure"
+        libelle: "Une électrode devant, au milieu du thorax ; l'autre dans le dos, entre les omoplates"
+  - type: liste
+    titre: Cas particuliers de position
+    items:
+      - "Sans électrodes pédiatriques, utiliser les électrodes adulte : l'électrode postérieure dans le dos, la latérale sur le thorax."
+      - "Position antéro-postérieure chez l'adulte et l'enfant de plus de 25 kg, à connaître en l'absence d'indication ou sur demande du médecin : impossibilité de placer les électrodes en antéro-latéral ; sur indication médicale, notamment si plusieurs défibrillations successives sont inefficaces (trouble du rythme persistant ou récidivant) ; lors d'une double défibrillation réalisée par l'équipe médicale avec deux défibrillateurs manuels."
+      - "Dans la position antéro-postérieure : électrode antérieure sur le côté gauche de la poitrine, entre la ligne médiane et le mamelon ; électrode postérieure sur le côté gauche de la colonne vertébrale, juste au-dessous de l'omoplate."
+      - "Chez la femme, éviter autant que possible le tissu mammaire ; un soutien-gorge peut être simplement déplacé."
+  - type: attention
+    titre: Précautions et consignes de sécurité
+    items:
+      - "Appareils à mode enfant ou nourrisson (électrodes spécifiques, interrupteur, clé) : cela réduit l'énergie délivrée. Sans électrodes enfant, utiliser les électrodes adulte."
+      - "Stimulateur cardiaque ou défibrillateur implantable (boîtier sous la peau, le plus souvent sous la clavicule droite : cicatrice, bosse, masse dure perçue) : coller l'électrode normalement placée sous la clavicule droite à un travers de main du dispositif."
+      - "Surface mouillée : le choc est moins efficace car l'eau conduit l'électricité ; dégager la victime et l'installer sur une surface sèche."
+      - "Matériel ou gaz hautement inflammable (butane, vapeurs d'essence) ou explosif : risque d'incendie ou d'explosion. Dégager la victime en urgence du milieu toxique ou inflammable, puis poursuivre la procédure quand elle est en lieu sûr."
+      - "Surface métallique ou conductrice (pont de bateau, terrasse en tôles, plaque d'égout) : dégager la victime ou glisser un isolant sous elle, et reprendre la procédure quand le contact est supprimé."
+      - "Timbre médicamenteux (patch) : le choc peut être inefficace ou brûler la victime si l'électrode est collée dessus. Retirer le timbre et essuyer la zone avant de coller l'électrode."
+      - "Ne pas plier les électrodes ; ne pas modifier la configuration ni les réglages internes de l'appareil."
+  - type: liste
+    titre: Anomalies de fonctionnement (dans tous les cas, ne pas interrompre la RCP)
+    items:
+      - "L'appareil demande de connecter les électrodes (connexion inadéquate, électrodes mal collées, sèches, endommagées ou périmées) : poursuivre la RCP, vérifier les connexions, appuyer fermement sur les électrodes, et si besoin nettoyer, raser et sécher la peau avant de remplacer les électrodes."
+      - "L'appareil détecte un mouvement pendant l'analyse (mouvements de la victime, inspirations agoniques, interférences électriques, mouvements du véhicule) : arrêter toute RCP pendant l'analyse, s'assurer que personne ne touche la victime, arrêter la mobilisation et s'assurer qu'elle est immobile."
+      - "La charge s'interrompt avant le choc (électrode ou câble déconnecté, pression tardive sur le bouton de choc, ou rythme qui ne nécessite plus de choc car l'état de la victime a changé) : vérifier les électrodes, les connexions du câble et l'état de la victime."
+  - type: liste
+    titre: Consignes d'entretien
+    items:
+      - "Le DAE doit être en bon état de marche, vérifié, immédiatement disponible, dans un endroit accessible avec tous ses accessoires."
+      - "Avant chaque utilisation, vérifier : batterie insérée (ne pas la retirer sauf demande de l'appareil) ; aucun témoin d'alerte ; aucun dommage externe ; électrodes non périmées ; tous les accessoires présents."
+      - "Après chaque utilisation : remettre en état, nettoyer et vérifier selon le fabricant ; appliquer la procédure de récupération des données si elle est en vigueur."
+      - "Remplacer les batteries quand l'appareil l'indique ou s'il s'éteint ou ne s'allume pas."
+      - "En cas d'utilisation impossible ou d'anomalie : mettre le DAE hors service et prévenir le responsable de l'appareil."
+  - type: texte
+    titre: Évaluation
+    contenu: "Correctement utilisé, le DAE permet de délivrer un choc électrique externe à toute personne en arrêt cardiaque par fonctionnement anarchique du cœur."
+qcm:
+  - id: q1
+    enonce: "Chez qui le DAE est-il indiqué ?"
+    propositions:
+      - "Toute victime en arrêt cardiaque"
+      - "Uniquement l'adulte"
+      - "Toute victime qui a un malaise"
+      - "Uniquement une victime cardiaque connue"
+    bonnes: [0]
+    explication: "L'utilisation du DAE est indiquée chez toute victime en arrêt cardiaque."
+  - id: q2
+    enonce: "Où placer les électrodes chez l'adulte et l'enfant de plus de 25 kg (position standard) ?"
+    propositions:
+      - "Une dans le dos entre les omoplates et une au milieu du thorax"
+      - "Une sous la clavicule droite contre le bord droit du sternum et l'autre sur le côté gauche, 5 à 10 cm sous l'aisselle"
+      - "Deux électrodes sur le côté gauche du thorax"
+      - "Une sous la clavicule gauche et l'autre sous l'aisselle droite"
+    bonnes: [1]
+    explication: "Position antéro-latérale : sous la clavicule droite contre le sternum, et sur le côté gauche du thorax à 5 à 10 cm sous l'aisselle gauche."
+  - id: q3
+    enonce: "Comment placer les électrodes chez le nourrisson et l'enfant de moins de 25 kg ?"
+    propositions:
+      - "Une devant, au milieu du thorax, et une dans le dos, entre les omoplates"
+      - "Une sous la clavicule droite et une sous l'aisselle gauche"
+      - "Les deux dans le dos"
+      - "Une sur le ventre et une sur la cuisse"
+    bonnes: [0]
+    explication: "Nourrisson et enfant de moins de 25 kg : une électrode devant au milieu du thorax, l'autre dans le dos entre les omoplates."
+  - id: q4
+    enonce: "Vous n'avez pas d'électrodes pédiatriques pour un nourrisson. Que faire ?"
+    propositions:
+      - "Renoncer à défibriller"
+      - "Utiliser les électrodes adulte : la postérieure dans le dos, la latérale sur le thorax"
+      - "Couper les électrodes adulte en deux"
+      - "Placer les deux électrodes adulte à l'avant du thorax"
+    bonnes: [1]
+    explication: "En l'absence d'électrodes pédiatriques, on utilise les électrodes adulte, l'électrode postérieure dans le dos et la latérale sur le thorax."
+  - id: q5
+    enonce: "Quelles situations imposent de déplacer la victime ou de la protéger avant de défibriller ?"
+    propositions:
+      - "Surface mouillée"
+      - "Présence de gaz ou de matériel hautement inflammable ou explosif"
+      - "Surface métallique conductrice (pont de bateau, plaque d'égout)"
+      - "Victime portant une montre"
+    bonnes: [0, 1, 2]
+    explication: "Surface mouillée : dégager et installer sur surface sèche. Milieu inflammable ou explosif : dégager en urgence puis poursuivre en lieu sûr. Surface conductrice : dégager la victime ou glisser un isolant sous elle."
+  - id: q6
+    enonce: "La victime porte un timbre médicamenteux à l'endroit où coller l'électrode. Que faire ?"
+    propositions:
+      - "Coller l'électrode par-dessus le timbre"
+      - "Retirer le timbre et essuyer la zone avant de coller l'électrode"
+      - "Ne pas défibriller"
+      - "Coller l'électrode sur le côté opposé du thorax"
+    bonnes: [1]
+    explication: "Le choc peut être inefficace ou brûler la victime si l'électrode est sur le timbre : il faut retirer le timbre et essuyer la zone."
+  - id: q7
+    enonce: "La victime porte un stimulateur cardiaque ou un défibrillateur implantable sous la clavicule droite. Que faire de l'électrode normalement placée à cet endroit ?"
+    propositions:
+      - "La coller directement sur le boîtier"
+      - "La coller à un travers de main du dispositif médical"
+      - "La supprimer et n'utiliser qu'une seule électrode"
+    bonnes: [1]
+    explication: "L'électrode est collée à un travers de main du dispositif implantable, pour ne pas altérer son fonctionnement ni diminuer l'efficacité du choc."
+  - id: q8
+    enonce: "Qui décide de l'arrêt de l'appareil, et quand ?"
+    propositions:
+      - "Le secouriste, dès que la victime bouge"
+      - "Le secouriste, après le premier choc"
+      - "Uniquement à la demande du médecin des services de secours"
+      - "Le DAE s'éteint seul après chaque choc"
+    bonnes: [2]
+    explication: "L'arrêt de l'appareil ne peut être réalisé qu'à la demande du médecin des services de secours."
+  - id: q9
+    enonce: "Que faire de la RCP pendant la pose des électrodes, et après la délivrance du choc ?"
+    propositions:
+      - "La poursuivre pendant la pose, puis la reprendre immédiatement après le choc"
+      - "L'arrêter dès l'ouverture du capot, et attendre 2 minutes après le choc"
+      - "La poursuivre pendant l'analyse dans tous les cas"
+    bonnes: [0]
+    explication: "La RCP continue pendant la pose des électrodes ; elle n'est arrêtée que pendant l'analyse si l'appareil le demande, et reprise immédiatement après le choc."

@@ -1,0 +1,116 @@
+id: pansement-compressif
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 8
+titre: Pansement compressif
+motsCles: [pansement compressif, bandage serré, contre-appui, zone non garrotable, pansement d'urgence, hémorragie externe]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT03, 07-2026)"
+  code: 05FT03
+  page: 121
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le pansement compressif est indiqué pour relayer une compression manuelle efficace, lorsque la localisation le permet. Il libère le secouriste tout en maintenant sur la plaie une pression suffisante pour arrêter l'hémorragie."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Pansement compressif improvisé : un paquet de plusieurs compresses ou un pansement « américain » et une bande élastique adhésive ou autoagrippante."
+      - "Pansement compressif d'urgence (fabrication industrielle, par exemple coussin hémostatique, pansement de type israélien) : soit un tampon de mousse, une compresse stérile et une bande élastique ; soit une bande élastique équipée d'un tampon de gaze, d'une languette de maintien (applicateur de pression) et d'un élément de fermeture."
+      - "L'élasticité de la bande est importante pour obtenir une pression suffisante et maintenir l'arrêt du saignement."
+  - type: etapes
+    titre: Réalisation, dans tous les cas
+    items:
+      - "Placer le pansement sur la plaie (si une compression manuelle a déjà été réalisée, la substitution par le pansement doit être la plus rapide possible)."
+      - "Réaliser un bandage serré recouvrant complètement le pansement (pression suffisante, évitant la reprise du saignement)."
+  - type: etapes
+    titre: Pansement compressif d'urgence (instructions du fabricant, généralement)
+    items:
+      - "Retirer le pansement de son emballage sous vide après ouverture."
+      - "Si la plaie hémorragique forme une cavité (plaie profonde), la remplir de compresses."
+      - "Appliquer le pansement compressif sur la blessure."
+      - "Réaliser un tour complet pour bien plaquer le pansement."
+      - "S'il dispose d'un applicateur de pression : passer le bandage élastique dans la languette de maintien en plastique, puis tendre le bandage en le ramenant en sens inverse, en tirant la languette vers le bas."
+      - "Enrouler le reste du bandage en le serrant sur le pansement compressif."
+      - "Fixer l'élément de fermeture à une des couches du bandage élastique à l'aide des crochets."
+  - type: etapes
+    titre: Pansement compressif improvisé
+    items:
+      - "Recouvrir complètement la plaie par une épaisseur de tissu (mouchoirs, torchons, vêtements, etc.), si possible propre."
+      - "Fixer ce tissu à l'aide d'un lien large (ou une bande élastique) assez long."
+      - "Serrer suffisamment et maintenir ainsi l'arrêt du saignement."
+  - type: liste
+    titre: Cas particuliers, zone non garrotable avec contre-appui sur un relief osseux opposé
+    items:
+      - "Cou : contre-appui sur l'aisselle opposée."
+      - "Aisselle : contre-appui à la base du cou, côté opposé."
+      - "Fesse : contre-appui sur le bassin."
+      - "Pli inguinal : contre-appui sur le bassin."
+      - "Cuir chevelu : contre-appui sur le menton."
+      - "Ces techniques sont particulièrement utiles en cas de nombreuses victimes, où le secouriste ne peut pas rester fixé sur une seule victime."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le pansement compressif peut être moins efficace qu'une compression manuelle. Si le saignement reprend à travers le pansement (suintement de sang), reprendre la compression manuelle par-dessus."
+      - "Si la victime se plaint d'une douleur importante à l'extrémité du membre, ou si celle-ci devient froide, engourdie ou violacée (couleur du lit de l'ongle), demander rapidement un avis médical."
+      - "Certaines localisations ne permettent pas de comprimer suffisamment (cou, thorax, abdomen) : si le pansement est impossible, maintenir la compression manuelle."
+      - "Évaluation : le pansement compressif est efficace si le saignement est arrêté."
+qcm:
+  - id: q1
+    enonce: "Quand un pansement compressif est-il indiqué ?"
+    propositions:
+      - "Pour remplacer d'emblée toute compression manuelle sans l'avoir tentée"
+      - "Pour relayer une compression manuelle efficace, lorsque la localisation le permet"
+      - "Uniquement en présence d'une gaze hémostatique"
+    bonnes:
+      - 1
+    explication: "Le pansement compressif est indiqué pour relayer une compression manuelle efficace, lorsque la localisation le permet."
+  - id: q2
+    enonce: "Que faire si le saignement reprend à travers un pansement compressif ?"
+    propositions:
+      - "Défaire le pansement et recommencer"
+      - "Reprendre la compression manuelle par-dessus"
+      - "Ajouter un garrot sans autre geste"
+    bonnes:
+      - 1
+    explication: "S'il est constaté une reprise du saignement au travers du pansement (suintement de sang), on reprend la compression manuelle par-dessus."
+  - id: q3
+    enonce: "Quel contre-appui utiliser pour une plaie du cou, de l'aisselle, de la fesse, du pli inguinal et du cuir chevelu ?"
+    propositions:
+      - "Cou : aisselle opposée ; aisselle : base du cou côté opposé ; fesse : bassin ; pli inguinal : bassin ; cuir chevelu : menton"
+      - "Cou : menton ; aisselle : bassin ; fesse : aisselle ; pli inguinal : cou ; cuir chevelu : aisselle"
+      - "Aucun contre-appui n'est possible dans ces zones"
+    bonnes:
+      - 0
+    explication: "Cou : aisselle opposée ; aisselle : base du cou côté opposé ; fesse et pli inguinal : bassin ; cuir chevelu : menton."
+  - id: q4
+    enonce: "Quels signes, à l'extrémité du membre, imposent de demander rapidement un avis médical ?"
+    propositions:
+      - "Douleur importante"
+      - "Extrémité froide, engourdie ou violacée"
+      - "Membre rosé et chaud sans douleur"
+    bonnes:
+      - 0
+      - 1
+    explication: "Une douleur importante à l'extrémité du membre, ou une extrémité froide, engourdie ou violacée (couleur du lit de l'ongle), impose de demander rapidement un avis médical."
+  - id: q5
+    enonce: "Quelles sont les étapes communes de réalisation, dans l'ordre ?"
+    propositions:
+      - "Réaliser un bandage serré, puis placer le pansement"
+      - "Placer le pansement sur la plaie, puis réaliser un bandage serré le recouvrant complètement"
+      - "Poser un garrot, puis le pansement"
+    bonnes:
+      - 1
+    explication: "Dans tous les cas : placer le pansement sur la plaie, puis réaliser un bandage serré recouvrant complètement le pansement."
+  - id: q6
+    enonce: "Que faire si la plaie hémorragique forme une cavité (plaie profonde) avec un pansement compressif d'urgence ?"
+    propositions:
+      - "La remplir de compresses avant d'appliquer le pansement"
+      - "La laisser vide"
+      - "Y glisser un garrot"
+    bonnes:
+      - 0
+    explication: "Si la plaie hémorragique forme une cavité, on la remplit de compresses puis on applique le pansement compressif sur la blessure."

@@ -1,0 +1,144 @@
+id: compressions-thoraciques
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 20
+titre: Compressions thoraciques
+motsCles: [compressions thoraciques, massage cardiaque, fréquence 100-120, profondeur, talon de la main, deux pouces, RCP]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT10, 07-2026)
+  code: 05FT10
+  page: 141
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les compressions thoraciques sont nécessaires chaque fois qu'une victime présente un arrêt cardiaque ou a perdu connaissance à la suite d'une obstruction des voies aériennes. Elles sont aussi indiquées chez un nouveau-né qui présente une détresse à la naissance. Elles rétablissent une circulation artificielle égale à 20 à 30 % du débit cardiaque normal chez l'adulte, suffisante pour maintenir le cerveau et le cœur oxygénés."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "100 à 120 / min"
+        libelle: "fréquence des compressions thoraciques"
+      - valeur: "≈ 5 cm (max 6 cm)"
+        libelle: "profondeur chez l'adulte : environ 5 cm, sans dépasser 6 cm"
+      - valeur: "1/3 ≈ 5 cm"
+        libelle: "profondeur chez l'enfant : un tiers de l'épaisseur du thorax, soit environ 5 cm"
+      - valeur: "1/3 ≈ 4 cm"
+        libelle: "profondeur chez le nouveau-né ou le nourrisson : un tiers de l'épaisseur du thorax, soit environ 4 cm"
+      - valeur: "2 min"
+        libelle: "relais du sauveteur qui réalise les compressions (pendant l'analyse en cas d'utilisation d'un DAE)"
+      - valeur: "20 à 30 %"
+        libelle: "débit cardiaque normal rétabli chez l'adulte par les compressions"
+  - type: etapes
+    titre: Réalisation (tous âges)
+    items:
+      - "Installer la victime en position horizontale, sur le dos, de préférence sur un plan dur (sol, table, etc.) ; cette installation ne doit pas retarder la RCP."
+      - "Se placer à genoux au plus près de la victime (adulte et enfant)."
+      - "Dénuder la poitrine de la victime, dans la mesure du possible."
+      - "Localiser la zone de compression."
+      - "Réaliser les compressions : appuyer verticalement ; ne pas appuyer sur les côtes ; maintenir une fréquence comprise entre 100 et 120 compressions par minute ; assurer un temps de compression égal au temps de relâchement."
+      - "Laisser le thorax reprendre sa forme initiale entre chaque compression, sans décoller le talon de la main (adulte, enfant) ou les pouces (nourrisson, nouveau-né)."
+      - "En présence de plusieurs sauveteurs, relayer celui qui réalise les compressions toutes les 2 minutes, en interrompant le moins possible les compressions (avec un DAE, le relais est réalisé pendant l'analyse)."
+  - type: etapes
+    titre: Chez l'adulte
+    items:
+      - "Placer le talon d'une main au centre de la poitrine, sur la moitié inférieure du sternum."
+      - "Placer l'autre main au-dessus de la première et entrecroiser les doigts des deux mains."
+      - "Relever les doigts pour ne pas appuyer sur les côtes."
+      - "Tendre les bras et verrouiller les coudes."
+      - "Réaliser des compressions d'une profondeur d'environ 5 cm, sans dépasser 6 cm."
+  - type: etapes
+    titre: Chez l'enfant
+    items:
+      - "Placer le talon d'une main au centre de la poitrine, sur la moitié inférieure du sternum."
+      - "Relever les doigts pour ne pas appuyer sur les côtes."
+      - "Tendre le bras et verrouiller le coude."
+      - "Réaliser des compressions d'une profondeur d'un tiers de son épaisseur, soit environ 5 cm."
+      - "Il est possible de changer la main qui effectue les compressions toutes les 2 minutes environ, voire plus fréquemment en cas de signes de fatigue."
+      - "Si l'enfant est grand ou si le sauveteur est petit et manque de force, la même technique que chez l'adulte peut être utilisée."
+  - type: etapes
+    titre: Chez le nouveau-né ou le nourrisson
+    items:
+      - "Entourer le thorax du nourrisson avec les mains."
+      - "Placer la pulpe des deux pouces, l'un sur l'autre, sur la moitié inférieure du sternum."
+      - "Réaliser des compressions d'une profondeur d'un tiers de son épaisseur, soit environ 4 cm."
+  - type: liste
+    titre: Matériel et évaluation de l'efficacité
+    items:
+      - "Un dispositif d'aide au massage cardiaque (métronome, moniteur de la profondeur de compression) peut être utilisé pour améliorer la qualité de la RCP."
+      - "Efficacité : reprise normale de la respiration ; recoloration de la victime ; pouls perçu lors de chaque compression thoracique (recherche préférentiellement au pli de l'aine, pouls fémoral, pour ne pas gêner la réanimation)."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une mauvaise position des mains, une compression trop forte ou non verticale peuvent entraîner des lésions graves du thorax (fractures de côtes) et des poumons (contusion), mais ces risques ne doivent pas faire diminuer la vigueur des compressions."
+      - "La présence d'une respiration agonique ne doit pas faire interrompre les compressions thoraciques."
+      - "Laisser le thorax se relâcher complètement entre chaque compression, sans décoller le talon de la main ou les pouces."
+qcm:
+  - id: q1
+    enonce: "Quelle est la fréquence des compressions thoraciques ?"
+    propositions:
+      - "60 à 80 par minute"
+      - "100 à 120 par minute"
+      - "140 à 160 par minute"
+      - "30 par minute"
+    bonnes:
+      - 1
+    explication: "La fréquence est comprise entre 100 et 120 compressions par minute."
+  - id: q2
+    enonce: "Quelle est la profondeur des compressions chez l'adulte ?"
+    propositions:
+      - "Environ 4 cm"
+      - "Environ 5 cm, sans dépasser 6 cm"
+      - "Environ 8 cm"
+      - "Un tiers de l'épaisseur du thorax"
+    bonnes:
+      - 1
+    explication: "Chez l'adulte : profondeur d'environ 5 cm, sans dépasser 6 cm."
+  - id: q3
+    enonce: "Quelle est la profondeur des compressions chez le nourrisson ?"
+    propositions:
+      - "Un tiers de l'épaisseur du thorax, soit environ 4 cm"
+      - "Environ 5 cm sans dépasser 6 cm"
+      - "La moitié du thorax"
+    bonnes:
+      - 0
+    explication: "Chez le nouveau-né ou le nourrisson : un tiers de l'épaisseur du thorax, soit environ 4 cm (enfant : un tiers, soit environ 5 cm)."
+  - id: q4
+    enonce: "Comment réalise-t-on les compressions chez le nourrisson ?"
+    propositions:
+      - "Talon d'une main sur le sternum"
+      - "Thorax entouré des mains, pulpe des deux pouces l'un sur l'autre sur la moitié inférieure du sternum"
+      - "Deux doigts sur la pointe du sternum"
+    bonnes:
+      - 1
+    explication: "Chez le nourrisson ou le nouveau-né, on entoure le thorax avec les mains et on place la pulpe des deux pouces, l'un sur l'autre, sur la moitié inférieure du sternum."
+  - id: q5
+    enonce: "Chez l'adulte, quelle est la position des mains ?"
+    propositions:
+      - "Talon d'une main au centre de la poitrine sur la moitié inférieure du sternum, l'autre main au-dessus, doigts entrecroisés et relevés"
+      - "Deux mains sur les côtes"
+      - "Poing fermé au-dessus du nombril"
+    bonnes:
+      - 0
+    explication: "Le talon d'une main est placé au centre de la poitrine, sur la moitié inférieure du sternum, l'autre main au-dessus, doigts entrecroisés et relevés pour ne pas appuyer sur les côtes."
+  - id: q6
+    enonce: "Parmi ces propositions, lesquelles sont exactes pour la réalisation des compressions ?"
+    propositions:
+      - "Le temps de compression est égal au temps de relâchement"
+      - "Le thorax reprend sa forme initiale entre chaque compression, sans décoller le talon de la main ou les pouces"
+      - "On appuie de biais pour ménager les côtes"
+      - "On interrompt les compressions dès qu'une respiration agonique est présente"
+    bonnes:
+      - 0
+      - 1
+    explication: "On appuie verticalement, avec un temps de compression égal au temps de relâchement, en laissant le thorax reprendre sa forme sans décoller les mains. La respiration agonique ne fait pas interrompre les compressions."
+  - id: q7
+    enonce: "À quelle fréquence relaie-t-on le sauveteur qui réalise les compressions ?"
+    propositions:
+      - "Toutes les 2 minutes, en interrompant le moins possible les compressions (pendant l'analyse du DAE si utilisé)"
+      - "Toutes les 10 minutes"
+      - "À chaque cycle de 30 compressions"
+    bonnes:
+      - 0
+    explication: "On relaie le sauveteur toutes les 2 minutes ; en cas d'utilisation d'un DAE, le relais est réalisé pendant l'analyse."

@@ -1,0 +1,113 @@
+id: desobstruction-claques-dos
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 14
+titre: Désobstruction par des claques dans le dos
+motsCles: [claques dans le dos, désobstruction, talon de la main, entre les omoplates, nourrisson, avant-bras]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT07, 07-2026)
+  code: 05FT07
+  page: 130
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée en cas d'obstruction des voies aériennes par un corps étranger chez une victime consciente incapable de parler ou de tousser (ou dont la toux devient inefficace), ou, chez le nourrisson et le jeune enfant, incapable de pleurer fortement ou de reprendre sa respiration. Le but est de provoquer un mouvement de toux pour débloquer et expulser le corps étranger."
+  - type: chiffres
+    titre: Repère
+    items:
+      - valeur: "1 à 5"
+        libelle: "claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte"
+  - type: etapes
+    titre: Chez l'adulte et le grand enfant
+    items:
+      - "Se placer sur le côté et légèrement en arrière de la victime."
+      - "Soutenir le thorax avec une main et pencher la victime vers l'avant."
+      - "Donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+  - type: etapes
+    titre: Chez la victime qui peut tenir sur la cuisse du sauveteur
+    items:
+      - "S'asseoir et basculer la victime sur sa cuisse, la face vers le bas."
+      - "Donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+  - type: etapes
+    titre: Chez la victime qui peut tenir sur l'avant-bras du sauveteur (nourrisson ou petit enfant)
+    items:
+      - "Maintenir sa tête avec les doigts, de part et d'autre de la bouche : le pouce d'un côté et un ou deux doigts de la même main de l'autre côté, placés à l'angle de la mâchoire inférieure, sans appuyer sur la gorge."
+      - "Coucher la victime à califourchon sur l'avant-bras, la face vers le sol."
+      - "Incliner la victime afin que la tête soit plus basse que le thorax."
+      - "Donner de 1 à 5 claques vigoureuses dans le dos, entre les omoplates, avec le talon de la main ouverte."
+  - type: liste
+    titre: Évaluation de l'efficacité
+    items:
+      - "Rejet du corps étranger."
+      - "Apparition de toux chez l'adulte, et de pleurs ou de cris chez l'enfant et le nourrisson."
+      - "Reprise d'une respiration normale."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "La technique varie en fonction du gabarit de la victime."
+      - "Le risque minime de blesser la victime ne doit pas diminuer la vigueur des claques, absolument nécessaire au rejet du corps étranger."
+qcm:
+  - id: q1
+    enonce: "Quel est le but de la technique des claques dans le dos ?"
+    propositions:
+      - "Provoquer un mouvement de toux pour débloquer et expulser le corps étranger"
+      - "Comprimer l'air des poumons par effet piston"
+      - "Faire vomir la victime"
+    bonnes:
+      - 0
+    explication: "Les claques dans le dos visent à provoquer un mouvement de toux pour débloquer et expulser le corps étranger."
+  - id: q2
+    enonce: "Combien de claques dans le dos donne-t-on au maximum par série ?"
+    propositions:
+      - "3"
+      - "5"
+      - "10"
+      - "15"
+    bonnes:
+      - 1
+    explication: "On donne de 1 à 5 claques vigoureuses dans le dos, entre les omoplates."
+  - id: q3
+    enonce: "Avec quelle partie de la main donne-t-on les claques, et où ?"
+    propositions:
+      - "Avec le poing fermé, sur la colonne vertébrale"
+      - "Avec le talon de la main ouverte, entre les omoplates"
+      - "Avec les doigts, sur les côtes"
+      - "Avec le talon de la main ouverte, sur la nuque"
+    bonnes:
+      - 1
+    explication: "Les claques sont données avec le talon de la main ouverte, entre les omoplates."
+  - id: q4
+    enonce: "Chez l'adulte et le grand enfant, comment place-t-on la victime et le sauveteur ?"
+    propositions:
+      - "Le sauveteur se place sur le côté et légèrement en arrière, soutient le thorax d'une main et penche la victime vers l'avant"
+      - "La victime est allongée sur le dos, le sauveteur à genoux à sa tête"
+      - "Le sauveteur se place face à la victime, qui se penche en arrière"
+    bonnes:
+      - 0
+    explication: "Chez l'adulte et le grand enfant, le sauveteur se place sur le côté et légèrement en arrière, soutient le thorax avec une main et penche la victime vers l'avant."
+  - id: q5
+    enonce: "Chez un nourrisson tenant sur l'avant-bras du sauveteur, quelles dispositions sont correctes ?"
+    propositions:
+      - "Le coucher à califourchon sur l'avant-bras, face vers le sol"
+      - "Incliner la victime pour que la tête soit plus basse que le thorax"
+      - "Appuyer sur la gorge pour maintenir la tête"
+      - "Placer la tête plus haute que le thorax"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le nourrisson est couché à califourchon sur l'avant-bras, face vers le sol, la tête plus basse que le thorax, maintenue à l'angle de la mâchoire sans appuyer sur la gorge."
+  - id: q6
+    enonce: "Sur quels critères juge-t-on l'efficacité de la technique ?"
+    propositions:
+      - "Le rejet du corps étranger"
+      - "L'apparition de toux chez l'adulte, de pleurs ou de cris chez l'enfant et le nourrisson"
+      - "La reprise d'une respiration normale"
+      - "La disparition de la douleur au dos"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'efficacité est jugée sur le rejet du corps étranger, l'apparition de toux (adulte) ou de pleurs/cris (enfant, nourrisson) et la reprise d'une respiration normale."

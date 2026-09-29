@@ -1,0 +1,117 @@
+id: mise-en-place-canule-oropharyngee
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 24
+titre: Mise en place d'une canule oropharyngée
+motsCles: [canule oropharyngée, voies aériennes, arrêt cardiaque, rotation 180°, taille de canule, langue]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT14, 06-2018)"
+  code: 05FT14
+  page: 149
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La canule oropharyngée éloigne la base de la langue de la paroi postérieure du pharynx et facilite le passage des gaz vers la trachée lors de l'insufflation."
+  - type: liste
+    titre: Indication
+    items:
+      - "Victime en arrêt cardiaque, lorsque le secouriste a du mal à maintenir les voies aériennes libres pour ventiler au masque avec un insufflateur manuel."
+      - "Situations typiques : victime obèse, cou court, RCP prolongée."
+      - "Utile quand la bascule de la tête et l'avancée de la mandibule ne suffisent pas à libérer les voies aériennes supérieures."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Canule en plastique, à usage unique, en plusieurs tailles (essentiellement enfant, petit et grand adulte)."
+      - "Collerette, au contact des lèvres, qui facilite son maintien."
+      - "Partie droite, courte et renforcée, entre les dents pour éviter l'écrasement."
+      - "Partie courbe et longue, épousant la base de la langue, au-dessus et en arrière de celle-ci."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "Incisives - angle de la mandibule"
+        libelle: "Taille de la canule adulte : elle doit être égale à cette distance"
+      - valeur: "180°"
+        libelle: "Rotation de la canule chez l'adulte, en l'enfonçant doucement, jusqu'à la collerette au contact des lèvres"
+  - type: etapes
+    titre: Chez l'adulte
+    items:
+      - "Maintenir la tête en arrière et élever le menton."
+      - "Choisir une canule adaptée : taille égale à la distance entre les incisives et l'angle de la mandibule."
+      - "Ouvrir la bouche d'une main et maintenir la mandibule vers l'avant."
+      - "Introduire la canule, concavité vers le nez, jusqu'à ce que l'extrémité bute contre le palais, sans entraîner la langue en arrière."
+      - "Effectuer une rotation de 180° en continuant de l'enfoncer doucement, jusqu'à ce que la collerette soit au contact des lèvres."
+      - "La bouche restant ouverte, il peut être nécessaire d'utiliser un masque d'insufflation d'une taille supérieure à celle utilisée avant la pose."
+  - type: etapes
+    titre: Chez l'enfant, le nourrisson ou le nouveau-né
+    items:
+      - "Maintenir la tête en arrière et élever le menton."
+      - "Ouvrir la bouche d'une main et maintenir la mandibule vers l'avant."
+      - "Introduire la canule, concavité vers le menton, sans entraîner la langue en arrière (pas de rotation)."
+      - "Enfoncer doucement jusqu'à ce que la collerette soit au contact des lèvres."
+  - type: attention
+    items:
+      - "Une mise en force peut provoquer des plaies de la bouche, dont le saignement encombre les voies aériennes."
+      - "Chez une victime qui n'est pas en arrêt cardiaque, la canule peut provoquer des vomissements et l'inhalation de vomissures, qui compromettent la survie."
+      - "La canule nasopharyngée est réservée à un usage médical ou paramédical."
+  - type: liste
+    titre: Évaluation (pose correcte si)
+    items:
+      - "La collerette arrive au contact des lèvres et y reste sans forcer."
+      - "La ventilation artificielle est facilitée après la pose."
+qcm:
+  - id: q1
+    enonce: "Chez quelle victime la canule oropharyngée est-elle indiquée ?"
+    propositions:
+      - "Victime consciente qui vomit"
+      - "Victime en arrêt cardiaque dont on peine à maintenir les voies aériennes libres pour ventiler"
+      - "Toute victime inconsciente qui respire"
+      - "Victime qui convulse"
+    bonnes: [1]
+    explication: "Elle est indiquée en arrêt cardiaque quand le maintien des voies aériennes libres est difficile (victime obèse, cou court, RCP prolongée)."
+  - id: q2
+    enonce: "Comment choisir la taille de la canule chez l'adulte ?"
+    propositions:
+      - "Distance entre les incisives et l'angle de la mandibule"
+      - "Distance entre le nez et le lobe de l'oreille"
+      - "Toujours la plus grande taille"
+      - "Distance entre la bouche et le sternum"
+    bonnes: [0]
+    explication: "La taille est égale à la distance entre les incisives de la victime et l'angle de la mandibule."
+  - id: q3
+    enonce: "Chez l'adulte, comment introduit-on la canule ?"
+    propositions:
+      - "Concavité vers le menton, sans rotation"
+      - "Concavité vers le nez jusqu'au palais, puis rotation de 180° en enfonçant doucement"
+      - "Concavité vers le nez, avec rotation de 90° seulement"
+      - "En force, jusqu'au fond de la gorge"
+    bonnes: [1]
+    explication: "Concavité vers le nez jusqu'à buter contre le palais, puis rotation de 180° en enfonçant doucement, jusqu'à la collerette au contact des lèvres."
+  - id: q4
+    enonce: "Chez l'enfant, le nourrisson ou le nouveau-né, comment introduit-on la canule ?"
+    propositions:
+      - "Concavité vers le menton, sans rotation, jusqu'à la collerette au contact des lèvres"
+      - "Concavité vers le nez, avec rotation de 180°"
+      - "Uniquement par le nez"
+    bonnes: [0]
+    explication: "Chez l'enfant et plus jeune, la canule est introduite concavité vers le menton et enfoncée doucement, sans rotation."
+  - id: q5
+    enonce: "Quel risque existe si la canule est posée chez une victime qui n'est pas en arrêt cardiaque ?"
+    propositions:
+      - "Aucun risque"
+      - "Vomissements et inhalation de vomissures"
+      - "Arrêt cardiaque immédiat"
+      - "Brûlure de la bouche"
+    bonnes: [1]
+    explication: "Chez une victime qui n'est pas en arrêt cardiaque, la canule peut provoquer des vomissements et l'inhalation de vomissures."
+  - id: q6
+    enonce: "Quels critères montrent que la canule est correctement posée ?"
+    propositions:
+      - "La collerette est au contact des lèvres et y reste sans forcer"
+      - "La ventilation artificielle est facilitée"
+      - "La collerette est enfoncée entre les dents"
+      - "La canule ressort spontanément de la bouche"
+    bonnes: [0, 1]
+    explication: "La pose est correcte si la collerette arrive au contact des lèvres et y reste sans forcer, et si la ventilation est facilitée."

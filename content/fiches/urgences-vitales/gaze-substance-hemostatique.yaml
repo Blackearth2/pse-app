@@ -1,0 +1,107 @@
+id: gaze-substance-hemostatique
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 10
+titre: Gaze imbibée de substance hémostatique
+motsCles: [gaze hémostatique, substance hémostatique, 3 minutes, racine du membre, zone non garrotable, ne jamais retirer]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT05, 07-2026)"
+  code: 05FT05
+  page: 125
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La gaze imbibée de substance hémostatique déclenche, au contact du sang, une réaction de coagulation localisée : par sa présence et le processus d'hémostase, elle obstrue la plaie et arrête le saignement. Elle est conditionnée en rouleau ou en accordéon dans des sachets stériles."
+  - type: liste
+    titre: Indications
+    items:
+      - "Hémorragies externes siégeant à la racine d'un membre (creux axillaire, pli de l'aine), au niveau des fesses, du cou et de la tête."
+      - "Zones ne permettant pas la mise en place d'un garrot, lorsque la compression manuelle continue est inefficace ou impossible."
+  - type: chiffres
+    titre: Repère chiffré
+    items:
+      - valeur: "3 min minimum"
+        libelle: "Durée de pression sur la gaze, jusqu'à l'arrêt du saignement (et à nouveau 3 minutes minimum si une gaze supplémentaire est ajoutée)"
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Retirer la gaze de son emballage sous vide après ouverture."
+      - "Faire pénétrer la gaze à l'intérieur de la plaie, au contact direct de la source du saignement."
+      - "Exercer une pression pendant au minimum 3 minutes et jusqu'à l'arrêt du saignement."
+      - "Une fois le saignement arrêté, poser un pansement compressif pour maintenir en place la gaze et maintenir la pression."
+      - "Noter le nombre de gazes hémostatiques utilisées, l'heure de la pose et leurs localisations."
+  - type: attention
+    titre: Risques, contre-indications et points de vigilance
+    items:
+      - "NE JAMAIS RETIRER une gaze imbibée de substance hémostatique de la plaie une fois mise en place."
+      - "Ne jamais la poser au contact des organes et des viscères."
+      - "En présence de corps étrangers, la pose est contre-indiquée : elle peut aggraver la lésion et le saignement."
+      - "Si le saignement persiste (paquet de gaze insuffisant pour boucher la plaie), rajouter par-dessus une autre gaze imbibée et comprimer à nouveau pendant 3 minutes au minimum."
+      - "Si le sauveteur ne peut comprimer lui-même la plaie pour maintenir la gaze (nombreuses victimes), demander si possible à un témoin de réaliser la compression."
+      - "Mise en œuvre comme décrit ou selon les instructions du fabricant, le geste ne présente pas de risque particulier."
+  - type: texte
+    titre: Évaluation
+    contenu: "La gaze est efficace si le saignement s'arrête et ne reprend pas."
+qcm:
+  - id: q1
+    enonce: "Pour quelles localisations la gaze imbibée de substance hémostatique est-elle adaptée ?"
+    propositions:
+      - "Racine d'un membre (creux axillaire, pli de l'aine)"
+      - "Fesses"
+      - "Cou et tête"
+      - "Avant-bras, où le garrot est possible"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Elle est adaptée aux hémorragies siégeant à la racine d'un membre (creux axillaire, pli de l'aine), aux fesses, au cou et à la tête, lorsqu'un garrot ne peut être posé et que la compression manuelle continue est inefficace ou impossible."
+  - id: q2
+    enonce: "Pendant combien de temps minimum exerce-t-on une pression après avoir fait pénétrer la gaze dans la plaie ?"
+    propositions:
+      - "30 secondes"
+      - "1 minute"
+      - "3 minutes"
+      - "10 minutes"
+    bonnes:
+      - 2
+    explication: "On exerce une pression pendant au minimum 3 minutes et jusqu'à l'arrêt du saignement."
+  - id: q3
+    enonce: "Peut-on retirer la gaze hémostatique une fois posée ?"
+    propositions:
+      - "Oui, dès que le saignement est arrêté"
+      - "Oui, après 3 minutes"
+      - "Non, jamais"
+    bonnes:
+      - 2
+    explication: "Une fois mise en place, on ne doit jamais retirer une gaze imbibée de substance hémostatique de la plaie."
+  - id: q4
+    enonce: "Que faire si le saignement persiste malgré la gaze ?"
+    propositions:
+      - "La retirer et en poser une neuve"
+      - "Rajouter par-dessus une autre gaze imbibée et comprimer à nouveau au moins 3 minutes"
+      - "Ne rien faire, la gaze finira par agir"
+    bonnes:
+      - 1
+    explication: "Si le paquet de gaze est insuffisant, on rajoute par-dessus une autre gaze imbibée de substance hémostatique et on comprime à nouveau pendant 3 minutes au minimum."
+  - id: q5
+    enonce: "Que faire une fois le saignement arrêté ?"
+    propositions:
+      - "Poser un pansement compressif pour maintenir la gaze et la pression, puis noter le nombre de gazes, l'heure de pose et les localisations"
+      - "Retirer la gaze et poser un garrot"
+      - "Laisser la gaze sans pansement"
+    bonnes:
+      - 0
+    explication: "On pose un pansement compressif pour maintenir la gaze en place et la pression, et on note le nombre de gazes, l'heure de pose et leurs localisations."
+  - id: q6
+    enonce: "Dans quelles situations la pose est-elle contre-indiquée ou interdite ?"
+    propositions:
+      - "Au contact des organes et des viscères"
+      - "En présence de corps étrangers"
+      - "Au niveau du cou"
+    bonnes:
+      - 0
+      - 1
+    explication: "Elle n'est jamais posée au contact des organes et des viscères et est contre-indiquée en présence de corps étrangers. Le cou fait partie des zones où elle est adaptée."

@@ -1,0 +1,95 @@
+id: hemorragies-exteriorisees-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 5
+titre: Hémorragies extériorisées (connaissances)
+motsCles: [hémorragie extériorisée, orifice naturel, fracture du crâne, détresse circulatoire, saignement]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC03, 06-2018)"
+  code: 05AC03
+  page: 118
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'hémorragie extériorisée est un épanchement de sang à l'intérieur de l'organisme qui s'extériorise par un orifice naturel (oreille, nez, bouche, voies urinaires, anus, vagin). Elle menace immédiatement ou à très court terme la vie de la victime, et certaines ne peuvent pas être arrêtées par les gestes de secours habituels."
+  - type: liste
+    titre: Causes
+    items:
+      - "Origine traumatique (traumatisme du crâne, du thorax...)."
+      - "Mais aussi origine médicale."
+  - type: etapes
+    titre: Risques et conséquences (évolution)
+    items:
+      - "La quantité de sang de l'organisme diminue."
+      - "Dans un premier temps, la fréquence cardiaque augmente pour compenser la perte et maintenir un débit et une pression suffisants."
+      - "Dans un deuxième temps, si le saignement n'est pas arrêté, la pression sanguine s'effondre, le débit diminue et une détresse circulatoire apparaît ; elle peut provoquer un « désamorçage de la pompe » et un arrêt du cœur."
+  - type: liste
+    titre: Signes selon l'orifice
+    items:
+      - "Nez ou conduit de l'oreille : peut être le signe d'une fracture du crâne."
+      - "Bouche : le plus souvent lié à des crachats ou des vomissements."
+      - "Voies urinaires : émission de sang ou d'urine teintée de sang."
+      - "Voie anale : sang dans les selles ou saignement isolé."
+      - "Voie vaginale : règles anormalement abondantes ou saignement inattendu."
+      - "Dans les autres cas, il s'agit d'une perte de sang inhabituelle."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Quelle que soit son origine, ce saignement peut être le premier signe d'une maladie ou d'un traumatisme qu'il importe de traiter sans retard."
+      - "Un saignement par le nez ou l'oreille peut révéler une fracture du crâne."
+  - type: texte
+    titre: Principe de l'action de secours
+    contenu: "Limiter les conséquences du saignement."
+qcm:
+  - id: q1
+    enonce: "Qu'est-ce qu'une hémorragie extériorisée ?"
+    propositions:
+      - "Un saignement issu d'une plaie de la peau"
+      - "Un épanchement de sang à l'intérieur de l'organisme qui s'extériorise par un orifice naturel"
+      - "Une écorchure qui saigne peu"
+    bonnes:
+      - 1
+    explication: "L'hémorragie extériorisée est un épanchement de sang interne qui s'extériorise par un orifice naturel : oreille, nez, bouche, voies urinaires, anus, vagin."
+  - id: q2
+    enonce: "Un saignement du nez ou du conduit de l'oreille peut être le signe de quoi ?"
+    propositions:
+      - "D'une fracture du crâne"
+      - "D'un simple rhume"
+      - "D'une fracture de cheville"
+    bonnes:
+      - 0
+    explication: "Un saignement au niveau du nez ou du conduit de l'oreille peut être le signe d'une fracture du crâne."
+  - id: q3
+    enonce: "Un saignement par la bouche est le plus souvent lié à quoi ?"
+    propositions:
+      - "Une fracture du bassin"
+      - "Des crachats ou des vomissements"
+      - "Des règles abondantes"
+    bonnes:
+      - 1
+    explication: "Par la bouche, le saignement est le plus souvent lié à des crachats ou des vomissements."
+  - id: q4
+    enonce: "Quels sont les signes d'une hémorragie extériorisée par voie urinaire, anale et vaginale ?"
+    propositions:
+      - "Urinaire : émission de sang ou d'urine teintée de sang"
+      - "Anale : sang dans les selles ou saignement isolé"
+      - "Vaginale : règles anormalement abondantes ou saignement inattendu"
+      - "Vaginale : toujours un saignement de nez associé"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Voies urinaires : sang ou urine teintée de sang ; voie anale : sang dans les selles ou saignement isolé ; voie vaginale : règles anormalement abondantes ou saignement inattendu."
+  - id: q5
+    enonce: "Quelles sont les origines possibles d'une hémorragie extériorisée ?"
+    propositions:
+      - "Traumatique (crâne, thorax...)"
+      - "Médicale"
+      - "Exclusivement une plaie externe"
+    bonnes:
+      - 0
+      - 1
+    explication: "Elle peut être d'origine traumatique (traumatisme du crâne, du thorax...) mais aussi d'origine médicale."

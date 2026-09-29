@@ -1,0 +1,136 @@
+id: rechauffement-victime
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 11
+titre: Techniques de réchauffement d'une victime
+motsCles: [réchauffement, hypothermie, déperdition de chaleur, couverture chauffante, isolement du sol, bouillotte, brûlures]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT06, 12-2022)"
+  code: 05FT06
+  page: 126
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Les techniques de réchauffement visent à diminuer la déperdition de chaleur ou à apporter de la chaleur à la victime. Le froid peut provoquer des lésions directes (gelures), une baisse de la température corporelle (hypothermie) et aggraver l'état d'une victime, notamment en cas de détresse circulatoire."
+  - type: liste
+    titre: Indications (victime)
+    items:
+      - "qui se plaint d'avoir froid et peut présenter des signes de lutte contre le froid comme des frissons ;"
+      - "exposée à une température basse (neige, hiver, chambre froide...) ;"
+      - "qui présente un ou plusieurs signes de détresse circulatoire ;"
+      - "qui présente une hémorragie ;"
+      - "qui présente une hypothermie."
+  - type: liste
+    titre: Les 4 modes de déperdition de chaleur
+    items:
+      - "Rayonnement thermique : perte liée à la différence de température entre l'air et le corps ; la surface du corps exposée au froid joue un rôle important."
+      - "Conduction : perte par contact direct avec un objet plus froid (eau froide, sol). Quand les vêtements sont mouillés, la perte de chaleur est 5 fois plus grande."
+      - "Convection : perte au profit de l'air ambiant en contact avec la surface du corps ; dépend de la vitesse de l'air (vent) et de la différence de température entre la peau et l'air."
+      - "Évaporation : perte résultant du passage de l'eau de l'état liquide à l'état gazeux (transpiration, respiration)."
+      - "Lien avec l'hydratation : à mesure que le corps perd sa chaleur, le volume circulatoire total est réduit, ce qui peut entraîner une déshydratation, qui rend le corps plus sensible à l'hypothermie, à la détresse circulatoire et aux autres troubles dus au froid."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Draps, couvertures (laine, polyester, isotherme) ; serviettes pour sécher ; paravents."
+      - "Plastron ou MID chauffant ; tapis isolants."
+      - "Appareils ou dispositifs de chauffage : couverture chauffante, bouillotte, brique chaude, chaufferette chimique."
+  - type: etapes
+    titre: Réalisation (moyens utilisables seuls ou en association)
+    items:
+      - "Envelopper la victime dans un drap et une couverture, en enveloppant bien les mains, les pieds et la tête : diminue la surface cutanée exposée et la déperdition par rayonnement. En l'absence de moyens spécifiques : papier bulle, journaux ou carton."
+      - "Isoler la victime de tout contact avec une surface ou des objets froids ou humides (diminue la déperdition par conduction) : l'isoler du sol en l'installant sur un brancard ou un lit ; glisser un tapis, une couverture ou une feuille de papier bulle sous elle."
+      - "Protéger la victime du vent et de l'humidité (selon la fiche, diminue la déperdition par évaporation) : l'installer à l'abri du vent (intérieur, paravent) ; retirer les vêtements mouillés ou humides ; la sécher ; l'envelopper dans une couverture isotherme, une feuille de papier bulle ou un sac de transport (nouveau-né) ; si nécessaire l'habiller avec des vêtements chauds et secs."
+      - "Réchauffer la victime pour augmenter sa température corporelle : l'installer dans un endroit chaud (véhicule, ambulance, point chaud, habitation, refuge, etc.) ; la recouvrir d'une couverture chauffante (40 à 42 °C) ; placer des poches d'eau tiède (bouillottes), des chaufferettes chimiques ou des briques chauffées au niveau du passage des gros vaisseaux (cou, sous les aisselles, plis de l'aine)."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "40 à 42 °C"
+        libelle: "Température de la couverture chauffante"
+      - valeur: "× 5"
+        libelle: "Perte de chaleur par conduction lorsque les vêtements sont mouillés"
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Si la protection contre le froid nécessite de mobiliser la victime, la mobilisation doit être délicate pour ne pas aggraver son état."
+      - "Bouillottes, briques et chaufferettes : limiter le risque de brûlures ; ne jamais appliquer directement le dispositif de chaud au contact de la peau ; interposer une épaisseur de tissu suffisante et contrôler régulièrement l'état de la peau au contact."
+  - type: liste
+    titre: Évaluation
+    items:
+      - "Disparition des signes de refroidissement."
+      - "Amélioration de l'état de la victime."
+      - "Augmentation de sa température corporelle."
+qcm:
+  - id: q1
+    enonce: "Chez quelles victimes met-on en œuvre les techniques de réchauffement ?"
+    propositions:
+      - "Victime qui présente une hémorragie"
+      - "Victime qui présente des signes de détresse circulatoire"
+      - "Victime qui présente une hypothermie"
+      - "Victime en pleine forme dans un local tempéré"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Indications : victime qui a froid (frissons), exposée à une température basse, qui présente des signes de détresse circulatoire, une hémorragie ou une hypothermie."
+  - id: q2
+    enonce: "Quels sont les quatre modes de déperdition de chaleur ?"
+    propositions:
+      - "Rayonnement, conduction, convection, évaporation"
+      - "Rayonnement, respiration, digestion, circulation"
+      - "Conduction, compression, convection, condensation"
+    bonnes:
+      - 0
+    explication: "La déperdition de chaleur se fait par rayonnement thermique, conduction, convection et évaporation."
+  - id: q3
+    enonce: "Quand les vêtements sont mouillés, de combien la perte de chaleur par conduction est-elle multipliée ?"
+    propositions:
+      - "2 fois"
+      - "3 fois"
+      - "5 fois"
+      - "10 fois"
+    bonnes:
+      - 2
+    explication: "Quand les vêtements sont mouillés, la perte de chaleur est 5 fois plus grande."
+  - id: q4
+    enonce: "Quelle est la température de la couverture chauffante ?"
+    propositions:
+      - "30 à 32 °C"
+      - "40 à 42 °C"
+      - "50 à 60 °C"
+    bonnes:
+      - 1
+    explication: "La victime est recouverte d'une couverture chauffante (40 à 42 °C)."
+  - id: q5
+    enonce: "Où placer bouillottes, chaufferettes chimiques ou briques chauffées ?"
+    propositions:
+      - "Au niveau du passage des gros vaisseaux (cou, sous les aisselles, plis de l'aine)"
+      - "Uniquement sur les mains et les pieds"
+      - "Directement au contact de la peau sur le thorax"
+    bonnes:
+      - 0
+    explication: "On les place au niveau du passage des gros vaisseaux (cou, aisselles, plis de l'aine), sans contact direct avec la peau : une épaisseur de tissu est interposée et la peau est contrôlée régulièrement."
+  - id: q6
+    enonce: "Comment isoler la victime d'un contact avec des surfaces froides ou humides ?"
+    propositions:
+      - "L'installer sur un brancard ou un lit"
+      - "Glisser un tapis, une couverture ou du papier bulle sous elle"
+      - "La laisser au sol pour qu'elle reste stable"
+    bonnes:
+      - 0
+      - 1
+    explication: "Pour limiter la conduction, on isole la victime du sol en l'installant sur un brancard ou un lit, ou en glissant un tapis, une couverture ou une feuille de papier bulle sous elle."
+  - id: q7
+    enonce: "Sur quels critères évalue-t-on l'efficacité du réchauffement ?"
+    propositions:
+      - "Disparition des signes de refroidissement"
+      - "Amélioration de l'état de la victime"
+      - "Augmentation de sa température corporelle"
+      - "Disparition de tout saignement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'efficacité est évaluée sur la disparition des signes de refroidissement, l'amélioration de l'état de la victime et l'augmentation de sa température corporelle."

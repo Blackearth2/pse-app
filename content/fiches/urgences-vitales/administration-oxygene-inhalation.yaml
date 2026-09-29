@@ -1,0 +1,148 @@
+id: administration-oxygene-inhalation
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 2
+titre: Administration d'oxygène par inhalation
+motsCles: [oxygène, inhalation, SpO2, MHC, masque simple, lunettes à O2, débit, hyperoxie]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT01, 12-2022)"
+  code: 05FT01
+  page: 113
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'inhalation d'oxygène est un enrichissement en oxygène de l'air inspiré par une victime qui respire (fréquence respiratoire > 6 mouvements par minute). Elle vise à augmenter la quantité d'oxygène, notamment au niveau du cerveau. Un appareil de mesure de la SpO2 doit toujours être à disposition du secouriste chaque fois qu'il a les moyens d'administrer de l'oxygène."
+  - type: liste
+    titre: Indications (inhalation nécessaire chez toute victime qui présente)
+    items:
+      - "une détresse respiratoire ou circulatoire ;"
+      - "une intoxication aux fumées d'incendie ou au monoxyde de carbone ;"
+      - "un accident lié à la plongée ;"
+      - "une SpO2 < 94 % ;"
+      - "une SpO2 < 89 % chez l'insuffisant respiratoire chronique, avec ou sans oxygène à domicile ;"
+      - "une crise douloureuse chez une victime aux antécédents de drépanocytose."
+      - "Si les circonstances ne permettent pas de mesurer la SpO2 (extrémités froides, panne de l'appareil, etc.) : inhalation systématique en cas de détresse vitale, dans l'attente d'un avis médical."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Bouteille d'oxygène, appareil de mesure de la SpO2 et dispositif d'administration d'oxygène par inhalation."
+      - "Masque à inhalation « à haute concentration » (MHC) : réservoir d'oxygène sous une valve antiretour qui empêche de rejeter l'air expiré dans le réservoir ; modèles adulte et enfant. À utiliser pour toute administration nécessitant de fortes concentrations, c'est-à-dire pour maintenir une SpO2 entre 94 et 98 %. Ne pas l'utiliser en dessous de 6 l/min. Il délivre 60 à 90 % d'O2 pour un débit de 8 à 15 l/min."
+      - "Masque simple (masque à moyenne concentration) : concentration variable selon le débit et la ventilation de la victime. Il délivre 40 à 60 % d'O2 pour un débit de 5 à 10 l/min. Un débit < 5 l/min peut augmenter la résistance à l'inspiration et provoquer une mauvaise évacuation du CO2 contenu dans le masque, d'où une réinhalation de l'air expiré (re-breathing)."
+      - "Lunettes à O2 (PVC souple, non stériles, à usage unique) : adaptées aux victimes nécessitant des concentrations basses ou modérées ; particulièrement indiquées en cas d'aggravation d'une insuffisance respiratoire chronique, pour maintenir une SpO2 entre 89 et 94 %. Utilisation si possible après avis médical."
+      - "Masque pour laryngectomisé : administration d'O2 par un tube de trachéotomie ou chez une victime laryngectomisée. Débit adapté à la saturation désirée, durée limitée (l'air doit être humidifié) ; une aspiration des sécrétions est souvent nécessaire."
+      - "Le masque à valves Venturi n'est pas adapté à la prise en charge par le secouriste. Les dispositifs mis à disposition relèvent de l'autorité médicale d'emploi du secouriste."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Ouvrir la bouteille d'oxygène."
+      - "Relier le tuyau d'oxygène du masque au dispositif de sortie d'oxygène de la bouteille."
+      - "Chez une victime en détresse vitale, toujours utiliser d'emblée le MHC."
+      - "Régler le débit initial."
+      - "En cas d'utilisation d'un MHC, remplir le ballon-réserve en obturant la valve du masque avec les doigts."
+      - "Mettre le dispositif d'administration d'O2 en place."
+      - "Ajuster le débit d'oxygène en fonction des objectifs de saturation visés."
+      - "Assurer la surveillance de la victime."
+  - type: chiffres
+    titre: Débits selon le dispositif (tableau 11)
+    items:
+      - valeur: "15 à 9 l/min"
+        libelle: "MHC (adulte et enfant) : plage de débit ; débit initial 15 l/min"
+      - valeur: "9 à 6 l/min"
+        libelle: "Masque simple (adulte et enfant) : plage de débit ; débit initial 9 l/min"
+      - valeur: "6 à 1 l/min"
+        libelle: "Lunettes à O2 : plage de débit ; débit initial 2 l/min, ou 1 ou 2 l/min de plus que le débit habituel de la victime"
+  - type: chiffres
+    titre: Objectifs de saturation (tableau 12)
+    items:
+      - valeur: "94 à 98 %"
+        libelle: "SpO2 cible chez l'adulte, l'enfant et le nourrisson"
+      - valeur: "89 à 94 %"
+        libelle: "SpO2 cible chez l'insuffisant respiratoire chronique"
+  - type: liste
+    titre: Cas particuliers
+    items:
+      - "Intoxication aux fumées d'incendie, intoxication au monoxyde de carbone, accident de décompression : inhalation d'O2 avec un MHC à 15 l/min, quel que soit le niveau de SpO2."
+      - "Victime en détresse chez laquelle la SpO2 est impossible à mesurer (absence de pouls périphérique lors d'une détresse circulatoire, hypothermie) : inhalation d'O2 avec un MHC à 15 l/min, quels que soient les antécédents, dans l'attente d'un avis médical."
+  - type: attention
+    titre: Risques et points de vigilance
+    items:
+      - "L'oxygène peut être dangereux chez une victime présentant une insuffisance respiratoire chronique avancée."
+      - "L'hyperoxie peut être néfaste chez une victime présentant un AVC ou une maladie cardiaque alors que le taux d'oxygène dans le sang est normal. Il faut lutter contre l'hypoxie sans entraîner d'hyperoxie : adapter l'administration à la SpO2 chaque fois que possible."
+      - "Les lunettes sans humidification peuvent entraîner une irritation nasale pour des débits > 4 l/min."
+      - "Les insufflateurs manuels, équipés ou non d'un ballon-réserve, ne doivent pas être utilisés comme moyen d'inhalation : ils augmentent la résistance à l'inspiration et peuvent aggraver une détresse respiratoire, particulièrement chez l'enfant."
+  - type: texte
+    titre: Évaluation
+    contenu: "L'enrichissement en oxygène vise une amélioration de l'état de la victime et l'atteinte des objectifs de saturation attendus."
+qcm:
+  - id: q1
+    enonce: "L'inhalation d'oxygène s'adresse à une victime qui respire. Quelle fréquence respiratoire la définit ?"
+    propositions:
+      - "Supérieure à 6 mouvements par minute"
+      - "Supérieure à 10 mouvements par minute"
+      - "Supérieure à 12 mouvements par minute"
+    bonnes:
+      - 0
+    explication: "L'inhalation d'oxygène concerne une victime qui respire, avec une fréquence respiratoire > 6 mouvements par minute."
+  - id: q2
+    enonce: "Quelle valeur de SpO2 justifie une inhalation d'oxygène chez un adulte sans insuffisance respiratoire chronique, puis chez l'insuffisant respiratoire chronique ?"
+    propositions:
+      - "< 89 % ; < 94 %"
+      - "< 94 % ; < 89 %"
+      - "< 98 % ; < 94 %"
+      - "< 94 % ; < 94 %"
+    bonnes:
+      - 1
+    explication: "L'inhalation est nécessaire si la SpO2 est < 94 %, et < 89 % chez l'insuffisant respiratoire chronique."
+  - id: q3
+    enonce: "Quel est le débit initial d'oxygène avec un masque à haute concentration (MHC) ?"
+    propositions:
+      - "2 l/min"
+      - "6 l/min"
+      - "9 l/min"
+      - "15 l/min"
+    bonnes:
+      - 3
+    explication: "Le débit initial du MHC est de 15 l/min (plage d'utilisation de 15 à 9 l/min) ; 9 l/min est le débit initial du masque simple et 2 l/min celui des lunettes."
+  - id: q4
+    enonce: "Quel est le débit initial d'oxygène avec un masque simple, puis avec des lunettes à O2 ?"
+    propositions:
+      - "15 l/min ; 9 l/min"
+      - "6 l/min ; 15 l/min"
+      - "9 l/min ; 2 l/min (ou 1 ou 2 l/min de plus que le débit habituel)"
+    bonnes:
+      - 2
+    explication: "Masque simple : 9 l/min (plage 9 à 6 l/min). Lunettes à O2 : 2 l/min, ou 1 ou 2 l/min de plus que le débit habituel de la victime (plage 6 à 1 l/min)."
+  - id: q5
+    enonce: "Quel est l'objectif de saturation chez l'adulte, l'enfant et le nourrisson, puis chez l'insuffisant respiratoire chronique ?"
+    propositions:
+      - "89 à 94 % ; 94 à 98 %"
+      - "94 à 98 % ; 94 à 98 %"
+      - "98 à 100 % ; 89 à 94 %"
+      - "94 à 98 % ; 89 à 94 %"
+    bonnes:
+      - 3
+    explication: "SpO2 de 94 à 98 % chez l'adulte, l'enfant et le nourrisson ; 89 à 94 % chez l'insuffisant respiratoire chronique."
+  - id: q6
+    enonce: "Dans quels cas inhale-t-on de l'O2 avec un MHC à 15 l/min quel que soit le niveau de SpO2 ?"
+    propositions:
+      - "Intoxication aux fumées d'incendie"
+      - "Intoxication au monoxyde de carbone"
+      - "Accident de décompression"
+      - "Toute victime dont la SpO2 est de 96 %"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Intoxications aux fumées d'incendie ou au monoxyde de carbone et accident de décompression : MHC à 15 l/min quel que soit le niveau de SpO2. Une SpO2 de 96 % n'est pas une indication."
+  - id: q7
+    enonce: "Pourquoi ne doit-on pas utiliser un insufflateur manuel comme moyen d'inhalation ?"
+    propositions:
+      - "Il délivre trop peu d'oxygène"
+      - "Il augmente la résistance à l'inspiration et peut aggraver une détresse respiratoire, surtout chez l'enfant"
+      - "Il ne se branche pas sur une bouteille d'oxygène"
+    bonnes:
+      - 1
+    explication: "Les insufflateurs manuels, avec ou sans ballon-réserve, augmentent la résistance à l'inspiration et peuvent aggraver une détresse respiratoire, particulièrement chez l'enfant."

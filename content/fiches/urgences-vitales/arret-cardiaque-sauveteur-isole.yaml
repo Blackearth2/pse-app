@@ -1,0 +1,135 @@
+id: arret-cardiaque-sauveteur-isole
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 19
+titre: Arrêt cardiaque en sauveteur isolé
+motsCles: [RCP, sauveteur isolé, DAE, alerte, 30/2, 15/2, épidémie, compressions seules]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR05, 07-2026)
+  code: 05PR05
+  page: 140
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Conduite à tenir lorsque la victime a perdu connaissance et ne respire pas (ou respire anormalement) et que le secouriste est seul et sans matériel : alerter, débuter immédiatement la RCP (30 compressions / 2 insufflations chez l'adulte ; 15 compressions / 2 insufflations chez l'enfant et le nourrisson) et mettre en œuvre un DAE proche."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "30 / 2"
+        libelle: "adulte : compressions thoraciques / insufflations"
+      - valeur: "15 / 2"
+        libelle: "enfant et nourrisson : compressions thoraciques / insufflations"
+      - valeur: "100 à 120 / min"
+        libelle: "rythme des compressions thoraciques en continu si les insufflations ne peuvent pas être effectuées"
+      - valeur: "10 s"
+        libelle: "durée maximale pendant laquelle le sauveteur peut quitter la victime pour récupérer un DAE proche"
+      - valeur: "2 min"
+        libelle: "relais entre intervenants formés lors des analyses du DAE ou toutes les 2 minutes environ"
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Si aucun tiers n'est présent, alerter les secours : avec un téléphone portable, activer le haut-parleur s'il existe et débuter immédiatement la RCP en même temps que l'alerte ; en l'absence de téléphone ou de réseau, quitter la victime pour aller alerter puis revenir auprès d'elle."
+      - "Si un DAE est proche, le mettre en œuvre le plus tôt possible, suivre ses indications vocales et interrompre le moins possible le massage cardiaque. Le sauveteur récupère lui-même le DAE s'il est à proximité, facilement accessible, et s'il peut se le procurer immédiatement sans quitter la victime plus de 10 secondes ; sinon il réalise la RCP jusqu'à ce qu'on lui apporte le DAE."
+      - "Si un tiers est présent, lui demander d'alerter les secours (qui pourront guider la RCP par téléphone) et de ramener et installer un DAE."
+      - "Débuter immédiatement la RCP (toute action ne doit pas retarder, empêcher ou interrompre la RCP) en répétant des cycles de 30 compressions thoraciques / 2 insufflations chez l'adulte, ou de 15 compressions thoraciques / 2 insufflations chez l'enfant et le nourrisson."
+      - "Si un DAE est installé, reprendre la RCP immédiatement après la délivrance, ou non, d'un choc électrique, sans attendre ses instructions vocales."
+      - "Poursuivre la RCP jusqu'à une demande d'interruption par le DAE ou le relais par les services de secours."
+  - type: liste
+    titre: Si les insufflations ne peuvent pas être effectuées
+    items:
+      - "Cas : répulsion, maladie infectieuse et contagieuse, vomissements, traumatisme majeur de la face, etc."
+      - "Réaliser uniquement les compressions thoraciques en continu, à un rythme de 100 à 120 compressions par minute."
+  - type: liste
+    titre: Plusieurs intervenants formés
+    items:
+      - "Se relayer, si possible, pour la RCP lors des analyses du DAE ou toutes les 2 minutes environ."
+      - "L'un d'eux peut assurer le rôle de « coach » : il guide, encourage et corrige les gestes des autres."
+  - type: etapes
+    titre: En période d'épidémie (maladie infectieuse contagieuse à transmission respiratoire)
+    items:
+      - "Se protéger, si possible, avec un masque."
+      - "Apprécier la respiration en regardant si le ventre et la poitrine se soulèvent : ne pas basculer la tête en arrière, ne pas tenter d'ouvrir la bouche, ne pas se pencher au-dessus de la face de la victime, ne pas mettre son oreille ou sa joue au-dessus de sa bouche et de son nez."
+      - "Si possible, placer un tissu, une serviette ou un masque sur la bouche et le nez de la victime, avant les compressions thoraciques et la défibrillation."
+      - "Effectuer seulement des compressions thoraciques. Le bouche-à-bouche est laissé à l'appréciation du sauveteur dans deux situations : il vit sous le même toit que la victime (risque de contamination déjà présent) ; la victime est un enfant ou un nourrisson."
+      - "Se tenir au pied de la victime lors de l'administration du choc."
+      - "Dès que possible, se laver soigneusement les mains à l'eau et au savon ou avec une solution hydroalcoolique."
+      - "Appliquer les consignes sanitaires nationales."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Toute action (port de gants, etc.) ne doit pas retarder, empêcher ou interrompre la RCP."
+      - "Ne pas quitter la victime plus de 10 secondes pour récupérer un DAE ; au-delà, poursuivre la RCP jusqu'à l'arrivée du DAE."
+      - "Reprendre la RCP immédiatement après un choc, délivré ou non, sans attendre les instructions vocales du DAE."
+      - "Rapport 30 / 2 chez l'adulte, 15 / 2 chez l'enfant et le nourrisson."
+qcm:
+  - id: q1
+    enonce: "Sauveteur seul avec un téléphone portable doté d'un haut-parleur. Que fait-il ?"
+    propositions:
+      - "Il quitte la victime pour aller alerter"
+      - "Il active le haut-parleur et débute immédiatement la RCP en même temps qu'il alerte"
+      - "Il attend l'arrivée des secours avant de débuter la RCP"
+    bonnes:
+      - 1
+    explication: "Avec un portable doté du mode haut-parleur, le sauveteur l'active et débute immédiatement la RCP en même temps qu'il alerte."
+  - id: q2
+    enonce: "En l'absence de téléphone ou de réseau, que fait le sauveteur isolé ?"
+    propositions:
+      - "Il quitte la victime pour aller alerter puis revient auprès d'elle"
+      - "Il reste et débute la RCP sans jamais alerter"
+      - "Il attend qu'un tiers arrive"
+    bonnes:
+      - 0
+    explication: "En l'absence de téléphone ou de réseau, il quitte la victime pour aller alerter puis revient auprès d'elle."
+  - id: q3
+    enonce: "Quel est le rapport compressions / insufflations chez l'enfant et le nourrisson ?"
+    propositions:
+      - "30 / 2"
+      - "15 / 2"
+      - "5 / 1"
+      - "15 / 1"
+    bonnes:
+      - 1
+    explication: "Chez l'enfant et le nourrisson : 15 compressions thoraciques / 2 insufflations (adulte : 30 / 2)."
+  - id: q4
+    enonce: "Le sauveteur isolé va chercher lui-même un DAE proche. Quelle condition doit être respectée ?"
+    propositions:
+      - "Le DAE est à proximité, facilement accessible, et il ne quitte pas la victime plus de 10 secondes"
+      - "Il peut s'éloigner 2 minutes"
+      - "Il ne doit jamais aller chercher le DAE"
+    bonnes:
+      - 0
+    explication: "Le sauveteur récupère lui-même le DAE s'il est à proximité, facilement accessible et sans quitter la victime plus de 10 secondes ; sinon il réalise la RCP jusqu'à ce qu'on lui apporte le DAE."
+  - id: q5
+    enonce: "Les insufflations ne peuvent pas être effectuées (vomissements, traumatisme majeur de la face, etc.). Que fait-on ?"
+    propositions:
+      - "Compressions thoraciques seules, en continu, à 100 à 120 par minute"
+      - "On arrête la RCP"
+      - "Compressions seules à 60 par minute"
+    bonnes:
+      - 0
+    explication: "Le sauveteur réalise uniquement les compressions thoraciques en continu, à un rythme de 100 à 120 compressions par minute."
+  - id: q6
+    enonce: "En période d'épidémie, quelles consignes sont correctes ?"
+    propositions:
+      - "Se protéger si possible avec un masque"
+      - "Apprécier la respiration sans se pencher au-dessus de la face de la victime"
+      - "Se tenir au pied de la victime lors du choc"
+      - "Basculer la tête en arrière et ouvrir la bouche pour vérifier la respiration"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "En épidémie, on se protège avec un masque si possible, on apprécie la respiration sans basculer la tête ni se pencher sur la face, et on se tient au pied de la victime lors du choc."
+  - id: q7
+    enonce: "En période d'épidémie, pour quelles situations le bouche-à-bouche est-il laissé à l'appréciation du sauveteur ?"
+    propositions:
+      - "Le sauveteur vit sous le même toit que la victime"
+      - "La victime est un enfant ou un nourrisson"
+      - "La victime est un adulte inconnu"
+    bonnes:
+      - 0
+      - 1
+    explication: "Deux situations sont laissées à l'appréciation du sauveteur : il vit sous le même toit que la victime, ou la victime est un enfant ou un nourrisson."

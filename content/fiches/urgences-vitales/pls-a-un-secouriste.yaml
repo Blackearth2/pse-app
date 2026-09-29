@@ -1,0 +1,108 @@
+id: pls-a-un-secouriste
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 31
+titre: "Position latérale de sécurité à un secouriste"
+motsCles: [PLS, un secouriste, adulte, enfant, nourrisson, retournement, bouche ouverte]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT18, 12-2023)"
+  code: 05FT18
+  page: 163
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Technique indiquée chez toute victime qui ne répond pas, ne réagit pas, mais respire (perte de connaissance) à la suite d'un événement non traumatique ou à la demande du service de secours alerté. La PLS maintient libres les voies aériennes supérieures, permet l'écoulement des liquides vers l'extérieur et évite que la langue ne chute dans le fond de la gorge. Aucun matériel n'est nécessaire."
+  - type: etapes
+    titre: Adulte ou enfant - 1er temps, préparer le retournement
+    items:
+      - "Retirer les lunettes de la victime si elle en porte."
+      - "Rapprocher délicatement les membres inférieurs de l'axe du corps."
+      - "Placer le bras de la victime situé du côté sauveteur à angle droit de son corps."
+      - "Plier le coude de ce même bras en gardant la paume de la main tournée vers le haut."
+      - "Se placer à genoux ou en trépied à côté de la victime, au niveau de son thorax."
+      - "Saisir le bras opposé de la victime et amener le dos de sa main sur son oreille, côté sauveteur."
+      - "Maintenir le dos de la main de la victime pressée contre son oreille, paume contre paume."
+      - "Attraper avec l'autre main la jambe opposée, juste derrière le genou."
+      - "Relever la jambe de la victime, en gardant le pied au sol."
+      - "S'éloigner du thorax de la victime afin de pouvoir la retourner sans avoir à reculer."
+  - type: etapes
+    titre: Adulte ou enfant - 2e temps, retourner la victime
+    items:
+      - "Tirer sur la jambe relevée pour faire pivoter la victime vers le sauveteur, jusqu'à ce que le genou touche le sol, sans brusquerie et en un seul temps."
+      - "Dégager doucement la main du sauveteur située sous la tête de la victime, en préservant la bascule de la tête en arrière, en maintenant le coude de la victime avec la main précédemment située au genou."
+  - type: etapes
+    titre: Adulte ou enfant - 3e temps, stabiliser la victime
+    items:
+      - "Ajuster la jambe située au-dessus, en maintenant d'une main le bassin, de telle sorte que la hanche et le genou soient à angle droit."
+      - "Ouvrir la bouche de la victime sans mobiliser la tête et sans rabattre le menton sur le sternum."
+  - type: texte
+    titre: Nourrisson
+    contenu: "Placer le nourrisson sur le côté, le plus souvent dans les bras du sauveteur, dos du nourrisson contre lui."
+  - type: attention
+    titre: Justifications, risques et évaluation
+    items:
+      - "L'alignement des jambes et la position du bras anticipent la position finale ; saisir la jambe au niveau du genou permet de l'utiliser comme bras de levier."
+      - "Maintenir la main de la victime contre son oreille accompagne le mouvement de la tête et diminue la flexion de la colonne cervicale, qui pourrait aggraver un traumatisme éventuel ; le maintien de la main sous la tête limite les mouvements de la colonne cervicale."
+      - "La position de la jambe stabilise la PLS ; l'ouverture de la bouche facilite l'écoulement des liquides."
+      - "La mise en PLS rend difficile la surveillance de la ventilation."
+      - "Évaluation : limiter au maximum les mouvements de la colonne vertébrale, aboutir à une position stable la plus latérale possible, permettre un contrôle permanent de la respiration et l'écoulement des liquides (bouche ouverte)."
+qcm:
+  - id: q1
+    enonce: "Quelle est l'indication de la PLS à un secouriste ?"
+    propositions:
+      - "Victime qui ne répond pas, ne réagit pas, mais respire, après un événement non traumatique ou à la demande du service de secours alerté"
+      - "Victime en arrêt cardiaque"
+      - "Victime consciente avec une plaie"
+    bonnes:
+      - 0
+    explication: "Elle est indiquée chez toute victime qui a perdu connaissance et respire, après un événement non traumatique ou à la demande des secours alertés."
+  - id: q2
+    enonce: "Où le sauveteur se place-t-il pour préparer le retournement chez l'adulte ou l'enfant ?"
+    propositions:
+      - "À la tête de la victime"
+      - "À genoux ou en trépied à côté de la victime, au niveau de son thorax"
+      - "Aux pieds de la victime"
+    bonnes:
+      - 1
+    explication: "Le sauveteur se place à genoux ou en trépied à côté de la victime, au niveau de son thorax."
+  - id: q3
+    enonce: "Quel bras de la victime est placé à angle droit de son corps ?"
+    propositions:
+      - "Celui du côté opposé au sauveteur"
+      - "Celui du côté du sauveteur"
+      - "Les deux bras"
+    bonnes:
+      - 1
+    explication: "Le bras situé du côté sauveteur est placé à angle droit, coude plié, paume de la main vers le haut."
+  - id: q4
+    enonce: "Quels gestes appartiennent au 3e temps (stabiliser) ?"
+    propositions:
+      - "Ajuster la jambe du dessus avec la hanche et le genou à angle droit"
+      - "Ouvrir la bouche sans mobiliser la tête ni rabattre le menton sur le sternum"
+      - "Tirer sur la jambe relevée jusqu'à ce que le genou touche le sol"
+      - "Retirer les lunettes"
+    bonnes:
+      - 0
+      - 1
+    explication: "La stabilisation comprend l'ajustement de la jambe (hanche et genou à angle droit) et l'ouverture de la bouche. Tirer sur la jambe relève du 2e temps et retirer les lunettes du 1er."
+  - id: q5
+    enonce: "Comment place-t-on un nourrisson en PLS ?"
+    propositions:
+      - "Sur le côté, le plus souvent dans les bras du sauveteur, dos du nourrisson contre lui"
+      - "À plat ventre sur le sol"
+      - "Sur le dos, tête tournée"
+    bonnes:
+      - 0
+    explication: "Le nourrisson est placé sur le côté, le plus souvent dans les bras du sauveteur, dos contre lui."
+  - id: q6
+    enonce: "Pourquoi maintient-on la main de la victime contre son oreille pendant le retournement ?"
+    propositions:
+      - "Pour accompagner le mouvement de la tête et diminuer la flexion de la colonne cervicale"
+      - "Pour ouvrir la bouche"
+      - "Pour la réchauffer"
+    bonnes:
+      - 0
+    explication: "Ce maintien accompagne le mouvement de la tête et diminue la flexion de la colonne cervicale qui pourrait aggraver un traumatisme éventuel."

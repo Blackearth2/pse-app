@@ -1,0 +1,121 @@
+id: detresse-circulatoire-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 34
+titre: "Détresse circulatoire (connaissances)"
+motsCles: [détresse circulatoire, pâleur, marbrures, TRC, pression artérielle, fréquence cardiaque]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC08, 07-2026)"
+  code: 05AC08
+  page: 168
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La détresse circulatoire est une atteinte de la fonction circulatoire dont l'évolution peut affecter, à court terme, les autres fonctions vitales (respiratoire, neurologique) et conduire au décès. L'arrêt cardiaque en est la forme majeure, qui relève de gestes de secours immédiats ; une victime peut toutefois présenter des signes visibles de détresse sans être en arrêt cardiaque. Les trois fonctions vitales sont étroitement liées."
+  - type: liste
+    titre: Causes (exemples)
+    items:
+      - "Atteinte du cœur, devenu incapable de faire circuler le sang : infarctus du myocarde, insuffisance cardiaque."
+      - "Diminution de la quantité de sang en circulation : hémorragie ; déshydratation (diarrhée, brûlure étendue, etc.)."
+      - "Dilatation des vaisseaux sanguins (atteinte du contenant) : réaction allergique grave, intoxication grave."
+      - "Certaines causes sont facilement identifiables (hémorragies externes ou extériorisées) ; d'autres sont évoquées devant des signes circulatoires ou grâce au 1er regard ou au 4e regard."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "L'atteinte circulatoire risque d'empêcher la délivrance d'oxygène aux organes et retentit rapidement sur les deux autres fonctions vitales."
+  - type: liste
+    titre: Signes - au bilan
+    items:
+      - "Au début du bilan (2e regard) : arrêt cardiaque."
+      - "À l'appréciation de la fonction circulatoire (3e regard) : victime le plus souvent agitée ou angoissée, parfois somnolente si elle n'a pas perdu connaissance."
+      - "Pâleur, surtout aux extrémités, à la face interne de la paupière inférieure et aux lèvres."
+      - "Marbrures cutanées (alternance de zones pâles et violacées), prédominantes à la face antérieure des genoux."
+      - "Peau moite (transpiration) et froide au toucher (sueurs froides)."
+      - "Pouls radial imperceptible ; pouls carotidien, lorsqu'il est perçu, rapide."
+  - type: chiffres
+    titre: Paramètres physiologiques confirmant la détresse
+    items:
+      - valeur: "> 2 secondes"
+        libelle: "Temps de recoloration cutanée (TRC)"
+      - valeur: "> 120 /min ou < 40 /min"
+        libelle: "Fréquence cardiaque (chez une personne au repos)"
+      - valeur: "< 90 mmHg"
+        libelle: "Pression artérielle systolique"
+      - valeur: "baisse de plus de 30 %"
+        libelle: "Pression artérielle systolique diminuée de plus de 30 % de la PA habituelle, si la victime est hypertendue"
+  - type: attention
+    titre: Détresse en cours de constitution
+    items:
+      - "Elle doit être suspectée devant l'apparition progressive d'un ou plusieurs des signes précédents, l'impossibilité de rester assis ou debout (vertiges) et une sensation de soif."
+      - "Lors de mesures répétées (surveillance), une accélération du pouls, un allongement du TRC et un pincement puis une chute progressive de la PA doivent faire évoquer son installation, même si les mesures restent dans les limites de la normale."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Arrêter immédiatement toute cause évidente de détresse circulatoire, comme une hémorragie externe."
+      - "Améliorer l'oxygénation et la circulation sanguine par une position d'attente adaptée et l'administration d'oxygène."
+      - "Obtenir rapidement une aide médicale."
+      - "Surveiller attentivement la victime et adapter les gestes de secours à l'évolution de la situation."
+qcm:
+  - id: q1
+    enonce: "À partir de quelle valeur le temps de recoloration cutanée (TRC) est-il anormal dans la détresse circulatoire ?"
+    propositions:
+      - "Supérieur à 2 secondes"
+      - "Supérieur à 5 secondes"
+      - "Inférieur à 1 seconde"
+    bonnes:
+      - 0
+    explication: "Le TRC est supérieur à 2 secondes dans la détresse circulatoire."
+  - id: q2
+    enonce: "Quelles fréquences cardiaques (au repos) confirment une détresse circulatoire ?"
+    propositions:
+      - "Supérieure à 120 battements par minute"
+      - "Inférieure à 40 battements par minute"
+      - "Comprise entre 60 et 100 battements par minute"
+    bonnes:
+      - 0
+      - 1
+    explication: "La fréquence cardiaque est supérieure à 120/min chez une personne au repos, ou inférieure à 40/min."
+  - id: q3
+    enonce: "Quelle pression artérielle systolique évoque une détresse circulatoire ?"
+    propositions:
+      - "Inférieure à 100 mmHg"
+      - "Supérieure à 140 mmHg"
+      - "Inférieure à 90 mmHg, ou diminuée de plus de 30 % de la PA habituelle chez un hypertendu"
+    bonnes:
+      - 2
+    explication: "La PA systolique est inférieure à 90 mmHg ou diminuée de plus de 30 % de la valeur habituelle si la victime est hypertendue."
+  - id: q4
+    enonce: "Parmi ces signes, lesquels sont des signes de détresse circulatoire ?"
+    propositions:
+      - "Pâleur aux extrémités, à la paupière inférieure et aux lèvres"
+      - "Marbrures à la face antérieure des genoux"
+      - "Peau chaude et sèche"
+      - "Sueurs froides"
+    bonnes:
+      - 0
+      - 1
+      - 3
+    explication: "La peau est pâle, marbrée, moite et froide (sueurs froides), avec un pouls radial imperceptible et un pouls carotidien rapide."
+  - id: q5
+    enonce: "Dans quelle catégorie de cause classe-t-on une réaction allergique grave ?"
+    propositions:
+      - "Atteinte du cœur"
+      - "Diminution de la quantité de sang en circulation"
+      - "Dilatation des vaisseaux sanguins (atteinte du contenant)"
+    bonnes:
+      - 2
+    explication: "Une réaction allergique grave ou une intoxication grave provoque une dilatation des vaisseaux sanguins."
+  - id: q6
+    enonce: "Que doivent faire évoquer, lors de mesures répétées, même dans les limites de la normale ?"
+    propositions:
+      - "Une accélération du pouls"
+      - "Un allongement du TRC"
+      - "Un pincement puis une chute progressive de la PA"
+      - "Une baisse de la température"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'accélération du pouls, l'allongement du TRC et le pincement puis la chute progressive de la PA font évoquer l'installation d'une détresse circulatoire."

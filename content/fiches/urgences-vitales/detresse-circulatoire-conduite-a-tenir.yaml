@@ -1,0 +1,79 @@
+id: detresse-circulatoire-conduite-a-tenir
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 35
+titre: "Détresse circulatoire (conduite à tenir)"
+motsCles: [détresse circulatoire, position horizontale, oxygène, réchauffer, mobilisation, arrêt cardiaque]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR09, 07-2026)"
+  code: 05PR09
+  page: 170
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une urgence vitale ou en cas d'aggravation, appliquer la conduite à tenir adaptée et réaliser en priorité les gestes d'urgence qui s'imposent. Les étapes ci-dessous concernent la victime consciente, après avoir traité une urgence vitale s'il y en avait une."
+  - type: etapes
+    titre: La victime est consciente
+    items:
+      - "Allonger la victime en position horizontale."
+      - "Administrer de l'oxygène en inhalation, puis adapter l'administration à la valeur de la SpO2 ; en l'absence de valeur de SpO2, poursuivre l'administration jusqu'à obtenir un avis médical."
+      - "La réchauffer, car l'hypothermie aggrave l'état de la victime."
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries."
+      - "Poursuivre le bilan et surveiller attentivement son niveau de conscience, la fréquence cardiaque et la pression artérielle."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le risque d'aggravation brutale avec arrêt cardiaque est majeur, notamment lors de toute mobilisation de la victime (relevage, brancardage)."
+      - "Placer en position horizontale une victime d'hémorragie facilite la circulation sanguine, notamment au niveau du cerveau, facilite les gestes de secours et retarde les conséquences de l'hémorragie sur les fonctions vitales."
+qcm:
+  - id: q1
+    enonce: "Quelle position adopter pour une victime consciente en détresse circulatoire ?"
+    propositions:
+      - "Demi-assise"
+      - "Debout"
+      - "Allongée en position horizontale"
+    bonnes:
+      - 2
+    explication: "La victime est allongée en position horizontale."
+  - id: q2
+    enonce: "Pourquoi réchauffer la victime ?"
+    propositions:
+      - "Parce que l'hypothermie aggrave l'état de la victime"
+      - "Pour faire baisser la fièvre"
+      - "Pour faciliter le brancardage"
+    bonnes:
+      - 0
+    explication: "Il faut réchauffer la victime car l'hypothermie aggrave son état."
+  - id: q3
+    enonce: "Que faut-il surveiller attentivement ?"
+    propositions:
+      - "Le niveau de conscience"
+      - "La fréquence cardiaque"
+      - "La pression artérielle"
+      - "La taille de la victime"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La surveillance porte sur le niveau de conscience, la fréquence cardiaque et la pression artérielle."
+  - id: q4
+    enonce: "Quel risque majeur existe lors de toute mobilisation de la victime (relevage, brancardage) ?"
+    propositions:
+      - "Une aggravation brutale avec arrêt cardiaque"
+      - "Une hypoglycémie"
+      - "Une obstruction par un corps étranger"
+    bonnes:
+      - 0
+    explication: "Le risque d'aggravation brutale avec arrêt cardiaque est majeur lors de toute mobilisation de la victime."
+  - id: q5
+    enonce: "Comment administre-t-on l'oxygène en détresse circulatoire ?"
+    propositions:
+      - "En inhalation, puis en adaptant l'administration à la valeur de la SpO2"
+      - "Uniquement si la victime est inconsciente"
+      - "Jamais avant l'avis médical"
+    bonnes:
+      - 0
+    explication: "L'oxygène est administré en inhalation puis adapté à la SpO2 ; sans valeur de SpO2, on poursuit jusqu'à obtenir un avis médical."

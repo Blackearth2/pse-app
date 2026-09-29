@@ -1,0 +1,120 @@
+id: hemorragies-exteriorisees-conduite-a-tenir
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 6
+titre: Hémorragies extériorisées (conduite à tenir)
+motsCles: [hémorragie extériorisée, bouche, nez, oreille, saignement de nez, vaginale, anale]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR02, 07-2026)"
+  code: 05PR02
+  page: 119
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La procédure est adaptée à la localisation de l'hémorragie extériorisée (tableau 13), puis le bilan est poursuivi avec une surveillance attentive de la circulation."
+  - type: etapes
+    titre: Conduite à tenir générale
+    items:
+      - "Adapter la procédure en fonction de la localisation de l'hémorragie extériorisée (voir ci-dessous)."
+      - "Poursuivre le bilan et surveiller attentivement la circulation."
+  - type: liste
+    titre: Par la bouche
+    items:
+      - "Allonger la victime sur le côté, de préférence en position strictement horizontale."
+      - "Position demi-assise si elle ne supporte pas d'être allongée ou présente des signes de détresse respiratoire."
+  - type: liste
+    titre: Par le conduit de l'oreille
+    items:
+      - "Appliquer la conduite à tenir devant un traumatisme du crâne."
+  - type: etapes
+    titre: Par le nez, après un choc minime (traumatisme local)
+    items:
+      - "Asseoir la victime, tête penchée en avant (ne jamais l'allonger)."
+      - "Lui demander de se moucher vigoureusement."
+      - "Lui demander de comprimer les deux narines avec les doigts, durant 10 minutes sans relâcher."
+      - "Demander un avis médical si le saignement ne s'arrête pas ou se reproduit, s'il survient après une chute ou un coup, ou si la victime prend des médicaments, en particulier ceux qui augmentent les saignements."
+  - type: liste
+    titre: Par le nez, après un choc violent (traumatisme de la tête et de la face)
+    items:
+      - "Appliquer la conduite à tenir devant un traumatisme de la face."
+  - type: liste
+    titre: Par voie vaginale
+    items:
+      - "Allonger la victime ; si elle présente une grossesse visible, l'allonger préférentiellement sur le côté gauche (le retournement sur le côté gauche de la femme enceinte évite une détresse par compression de certains vaisseaux sanguins de l'abdomen)."
+      - "Compléter le bilan en identifiant la couleur de l'écoulement (rouge, marron, liquide clair ou trouble)."
+      - "Rechercher une éventuelle grossesse et des antécédents de grossesse pathologique (diabète, hypertension artérielle, etc.)."
+      - "Proposer à la victime de mettre des serviettes ou des pansements absorbants entre les cuisses."
+  - type: liste
+    titre: Autres localisations
+    items:
+      - "Allonger la victime."
+      - "Dans le cas d'un saignement anal, proposer à la victime de mettre des serviettes ou des pansements absorbants entre les fesses."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Saignement de nez après un choc minime : ne jamais allonger la victime, la tête est penchée en avant."
+      - "Compression des narines pendant 10 minutes sans relâcher."
+      - "Femme enceinte visible avec saignement vaginal : l'allonger préférentiellement sur le côté gauche."
+qcm:
+  - id: q1
+    enonce: "Comment installer une victime qui saigne du nez après un choc minime ?"
+    propositions:
+      - "Allongée sur le dos"
+      - "Assise, tête penchée en avant (ne jamais l'allonger)"
+      - "Allongée sur le côté gauche"
+      - "Debout, tête en arrière"
+    bonnes:
+      - 1
+    explication: "On assoit la victime, tête penchée en avant, et on ne l'allonge jamais."
+  - id: q2
+    enonce: "Pendant combien de temps comprime-t-on les deux narines dans un saignement de nez après un choc minime ?"
+    propositions:
+      - "1 minute"
+      - "5 minutes"
+      - "10 minutes sans relâcher"
+      - "30 minutes"
+    bonnes:
+      - 2
+    explication: "La victime comprime les deux narines avec les doigts durant 10 minutes sans relâcher, après s'être mouchée vigoureusement."
+  - id: q3
+    enonce: "Dans quels cas d'un saignement de nez après un choc minime demande-t-on un avis médical ?"
+    propositions:
+      - "Le saignement ne s'arrête pas ou se reproduit"
+      - "Le saignement survient après une chute ou un coup"
+      - "La victime prend des médicaments qui augmentent les saignements"
+      - "Le saignement s'arrête en moins de 10 minutes chez une victime sans traitement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Un avis médical est demandé si le saignement ne s'arrête pas ou se reproduit, s'il survient après une chute ou un coup, ou si la victime prend des médicaments qui augmentent les saignements."
+  - id: q4
+    enonce: "Comment positionner une victime qui saigne par la bouche ?"
+    propositions:
+      - "Allongée sur le dos, tête en arrière"
+      - "Allongée sur le côté, de préférence en position strictement horizontale ; demi-assise si elle ne supporte pas d'être allongée ou a une détresse respiratoire"
+      - "Assise, tête penchée en avant, dans tous les cas"
+    bonnes:
+      - 1
+    explication: "La victime est allongée sur le côté, de préférence strictement horizontale, ou en position demi-assise si elle ne supporte pas d'être allongée ou présente des signes de détresse respiratoire."
+  - id: q5
+    enonce: "Comment allonger une femme enceinte (grossesse visible) qui présente une hémorragie vaginale ?"
+    propositions:
+      - "Préférentiellement sur le côté droit"
+      - "Préférentiellement sur le côté gauche"
+      - "À plat ventre"
+    bonnes:
+      - 1
+    explication: "Elle est allongée préférentiellement sur le côté gauche, pour éviter une détresse par compression de certains vaisseaux sanguins de l'abdomen."
+  - id: q6
+    enonce: "Quelle conduite à tenir pour une hémorragie par le conduit de l'oreille, et pour un saignement du nez après un choc violent ?"
+    propositions:
+      - "Oreille : traumatisme du crâne ; nez après choc violent : traumatisme de la face"
+      - "Oreille : compression du conduit ; nez après choc violent : compression des narines 10 minutes"
+      - "Oreille : position demi-assise ; nez après choc violent : tête penchée en avant"
+    bonnes:
+      - 0
+    explication: "Le saignement par le conduit de l'oreille relève de la conduite à tenir devant un traumatisme du crâne ; le saignement du nez après un choc violent relève de celle devant un traumatisme de la face."

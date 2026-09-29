@@ -1,0 +1,124 @@
+id: detresse-respiratoire-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 32
+titre: "Détresse respiratoire (connaissances)"
+motsCles: [détresse respiratoire, cyanose, tirage, fréquence respiratoire, SpO2, balancement thoraco-abdominal]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC07, 07-2026)"
+  code: 05AC07
+  page: 165
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "La détresse respiratoire est une atteinte de la fonction respiratoire dont l'évolution peut affecter, à court terme, les autres fonctions vitales (circulatoire, neurologique) et conduire au décès. L'arrêt respiratoire en est la forme majeure, qui relève de gestes de secours immédiats ; une victime peut toutefois présenter des signes visibles de détresse sans être en arrêt respiratoire. Les trois fonctions vitales sont étroitement liées."
+  - type: liste
+    titre: Causes (exemples)
+    items:
+      - "Obstruction des voies aériennes (corps étranger, allergie, traumatisme ou infection, etc.)."
+      - "Maladies pulmonaires, dont l'asthme."
+      - "Traumatisme du thorax."
+      - "Inhalation de produits caustiques ou de fumées."
+  - type: texte
+    titre: Risques et conséquences
+    contenu: "L'atteinte respiratoire retentit rapidement sur les deux autres fonctions et menace, immédiatement ou à très court terme, la vie de la victime : le cerveau et le cœur peuvent très vite être privés d'oxygène."
+  - type: liste
+    titre: Signes - recherche et appréciation de la respiration
+    items:
+      - "Lors de la recherche de respiration : ventilation absente ou agonique."
+      - "Conscience : perte de connaissance, confusion, somnolence, anxiété ou agitation (manque d'oxygénation du cerveau et accumulation de CO2)."
+      - "La victime refuse de s'allonger et cherche à rester assise, ce qui rend la respiration moins pénible."
+      - "Elle se plaint de difficultés à respirer (« j'ai du mal à respirer », « j'étouffe », « j'ai mal quand je respire »)."
+      - "Balancement thoraco-abdominal : mouvement opposé du thorax et de l'abdomen (l'un se soulève à l'inspiration, l'autre s'abaisse)."
+      - "À l'écoute : un sifflement (gêne au passage de l'air dans des voies aériennes rétrécies) ; des gargouillements (encombrement par sécrétions ou vomissures) ; des râles (présence de liquide dans les poumons)."
+      - "Efforts pour respirer, la victime se tient la poitrine et ne peut plus parler."
+      - "Ventilation rapide, voire superficielle, difficile à voir au niveau du ventre et de la poitrine."
+      - "Tirage : contraction des muscles du haut du thorax et du cou."
+      - "Battement des ailes du nez et creusement au-dessus du sternum ou au creux de l'estomac à l'inspiration, s'il s'agit d'un enfant."
+      - "Sueurs en l'absence d'effort ou de fièvre (défaut d'épuration du CO2 du sang)."
+      - "Cyanose : coloration bleutée surtout des doigts, du lobe des oreilles et des lèvres (manque d'oxygénation du sang)."
+  - type: chiffres
+    titre: Paramètres physiologiques respiratoires
+    items:
+      - valeur: "> 30 mouvements/min"
+        libelle: "Fréquence respiratoire rapide, souvent supérieure à 30 mvts/min"
+      - valeur: "< 94 %"
+        libelle: "SpO2 (saturomètre) évocatrice de détresse respiratoire"
+      - valeur: "< 89 %"
+        libelle: "SpO2 évocatrice de détresse respiratoire chez l'insuffisant respiratoire chronique"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "La détresse peut ne pas être évidente si elle est en cours de constitution : l'apparition d'un ou plusieurs signes, ou lors de mesures répétées une accélération de la fréquence ventilatoire et une baisse de la SpO2, doivent faire évoquer son installation même si les mesures restent dans les limites de la normale."
+      - "Toute victime qui a perdu connaissance et respire doit être considérée à haut risque de détresse respiratoire, car ses voies aériennes sont menacées."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Arrêter immédiatement toute cause évidente de détresse respiratoire, comme une obstruction complète des voies aériennes."
+      - "Améliorer l'oxygénation de l'organisme et de ses organes vitaux par une position d'attente adaptée et l'administration d'oxygène."
+      - "Obtenir rapidement un avis médical."
+      - "Surveiller attentivement la victime et adapter les gestes de secours à l'évolution de la situation."
+qcm:
+  - id: q1
+    enonce: "Quelle est la fréquence respiratoire souvent retrouvée dans la détresse respiratoire ?"
+    propositions:
+      - "Inférieure à 12 mouvements par minute"
+      - "Rapide, souvent supérieure à 30 mouvements par minute"
+      - "Toujours entre 16 et 20 mouvements par minute"
+    bonnes:
+      - 1
+    explication: "Dans la détresse respiratoire, la fréquence respiratoire est rapide, souvent supérieure à 30 mvts/min."
+  - id: q2
+    enonce: "Quel seuil de SpO2 évoque une détresse respiratoire chez l'insuffisant respiratoire chronique ?"
+    propositions:
+      - "Inférieure à 94 %"
+      - "Inférieure à 89 %"
+      - "Inférieure à 80 %"
+    bonnes:
+      - 1
+    explication: "La SpO2 est inférieure à 94 %, ou inférieure à 89 % chez l'insuffisant respiratoire chronique."
+  - id: q3
+    enonce: "Que traduisent respectivement les sifflements, les gargouillements et les râles entendus à l'écoute de la ventilation ?"
+    propositions:
+      - "Sifflement : gêne au passage de l'air dans des voies aériennes rétrécies"
+      - "Gargouillements : encombrement des voies aériennes par sécrétions ou vomissures"
+      - "Râles : présence de liquide dans les poumons"
+      - "Râles : fracture de côtes"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le sifflement traduit un rétrécissement des voies aériennes, les gargouillements un encombrement, les râles la présence de liquide dans les poumons."
+  - id: q4
+    enonce: "Qu'est-ce que le balancement thoraco-abdominal ?"
+    propositions:
+      - "Un mouvement opposé du thorax et de l'abdomen : l'un se soulève à l'inspiration, l'autre s'abaisse"
+      - "Une accélération du pouls"
+      - "Un gonflement simultané du thorax et de l'abdomen"
+    bonnes:
+      - 0
+    explication: "Le balancement thoraco-abdominal est un mouvement opposé du thorax et de l'abdomen."
+  - id: q5
+    enonce: "Que traduit une coloration bleutée des doigts, du lobe des oreilles et des lèvres ?"
+    propositions:
+      - "Une perte de sang"
+      - "Un manque d'oxygénation du sang (cyanose)"
+      - "Un défaut d'épuration du CO2 seulement"
+    bonnes:
+      - 1
+    explication: "La cyanose traduit un manque d'oxygénation du sang. Les sueurs traduisent quant à elles un défaut d'épuration du CO2."
+  - id: q6
+    enonce: "Quels sont des principes de l'action de secours face à une détresse respiratoire ?"
+    propositions:
+      - "Arrêter immédiatement toute cause évidente, comme une obstruction complète des voies aériennes"
+      - "Allonger systématiquement la victime à plat"
+      - "Améliorer l'oxygénation par une position d'attente adaptée et l'administration d'oxygène"
+      - "Obtenir rapidement un avis médical"
+    bonnes:
+      - 0
+      - 2
+      - 3
+    explication: "Le principe associe arrêt de la cause évidente, oxygénation (position d'attente adaptée et oxygène), avis médical rapide et surveillance. La victime refuse souvent de s'allonger."

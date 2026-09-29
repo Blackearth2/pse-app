@@ -1,0 +1,146 @@
+id: garrot
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 9
+titre: Garrot
+motsCles: [garrot, hémorragie d'un membre, barre de serrage, heure de pose, garrot improvisé, garrot industriel]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT04, 07-2026)"
+  code: 05FT04
+  page: 123
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Le garrot arrête une hémorragie externe en interrompant totalement la circulation du sang du membre, en aval de l'endroit où il est posé. Il est indiqué en cas d'hémorragie d'un membre lorsque la compression directe est inefficace, impossible ou lors de situations particulières (catastrophes, théâtres d'opérations militaires ou situations apparentées, situation d'isolement). Il ne peut être posé qu'aux membres supérieurs ou inférieurs."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "5 à 7 cm"
+        libelle: "Distance idéale entre la plaie et le garrot (quelques centimètres de la plaie)"
+      - valeur: "3 à 5 cm"
+        libelle: "Largeur du lien du garrot improvisé"
+      - valeur: "≥ 1,50 m"
+        libelle: "Longueur minimale du lien du garrot improvisé"
+      - valeur: "10 à 20 cm"
+        libelle: "Longueur de la barre de serrage"
+      - valeur: "2 tours"
+        libelle: "Tours du lien autour du membre (garrot improvisé avec barre)"
+  - type: liste
+    titre: Matériel
+    items:
+      - "Garrot improvisé : lien de toile solide, non élastique, de 3 à 5 cm de large et d'au moins 1,50 m de longueur ; barre de 10 à 20 cm environ en bois solide, PVC dur ou métal rigide pour permettre le serrage."
+      - "Garrot de fabrication industrielle : spécialement conçu (barre de serrage, dispositif à cran ou pneumatique, lien large, système de sécurité), il a montré une excellente efficacité ; s'il est disponible, il est préférable."
+      - "Ne jamais utiliser les garrots élastiques prévus pour les prises de sang."
+  - type: etapes
+    titre: Positionnement du garrot
+    items:
+      - "Se munir du matériel nécessaire."
+      - "Le positionner à quelques centimètres de la plaie (idéalement 5 à 7 cm)."
+      - "Entre la plaie et la racine du membre."
+      - "Jamais sur une articulation."
+  - type: etapes
+    titre: Garrot de fabrication industrielle
+    items:
+      - "Suivre les instructions du fabricant."
+  - type: etapes
+    titre: Garrot improvisé avec barre
+    items:
+      - "Faire deux tours autour du membre avec le lien large, à l'endroit où le garrot doit être placé."
+      - "Faire un nœud."
+      - "Placer la barre au-dessus du nœud et faire deux nœuds par-dessus pour la maintenir."
+      - "Tourner la barre de façon à serrer le garrot jusqu'à l'arrêt du saignement."
+      - "Maintenir le serrage par le sauveteur même, même si la douleur provoquée est intense, ou par quelque moyen que ce soit (autre lien, etc.) si le sauveteur doit se libérer."
+  - type: etapes
+    titre: Garrot improvisé sans barre
+    items:
+      - "Faire le garrot uniquement avec le lien large."
+      - "Faire une boucle avec le lien en le pliant en deux."
+      - "Glisser cette boucle sous le membre."
+      - "Glisser une extrémité du lien dans la boucle afin que le garrot entoure le membre."
+      - "Serrer le garrot le plus fortement possible en tirant sur chaque extrémité du lien."
+      - "Réaliser un double nœud de maintien."
+  - type: liste
+    titre: Dans tous les cas
+    items:
+      - "Vérifier régulièrement l'efficacité du garrot si la victime est totalement recouverte, afin de lui éviter une hypothermie préjudiciable en cas de saignement."
+      - "Noter lisiblement l'heure de pose du garrot (sur le garrot, sur une fiche, etc.) pour la communiquer aux personnes assurant le relais."
+      - "Évaluation : le garrot est efficace si le saignement est arrêté. En cas de persistance, resserrer le garrot ; si ce n'est pas suffisant, compléter par un ou plusieurs autres dispositifs (second garrot entre le premier et la racine du membre et/ou, si disponible, gaze imbibée d'une substance hémostatique avec pansement compressif)."
+  - type: attention
+    titre: Risques et contraintes
+    items:
+      - "Le garrot supprime totalement la circulation du sang dans le segment de membre concerné : le poser en respectant scrupuleusement les indications."
+      - "Le garrot ne peut pas être installé en cas de plaie du cou, ou de plaie, amputation ou arrachement d'une partie du corps siégeant trop près de la racine du membre (pli de l'aine, creux axillaire). Il faut alors maintenir une compression manuelle locale ou mettre en place un pansement compressif avec contre-appui opposé."
+      - "Une fois posé, le garrot ne doit être desserré que sur ordre d'un médecin."
+      - "Jamais sur une articulation ; ne jamais utiliser de garrot élastique de prise de sang."
+qcm:
+  - id: q1
+    enonce: "Dans quels cas le garrot est-il indiqué ?"
+    propositions:
+      - "Hémorragie d'un membre lorsque la compression directe est inefficace, impossible ou dans des situations particulières"
+      - "Toute hémorragie, y compris du cou"
+      - "Uniquement les hémorragies du tronc"
+    bonnes:
+      - 0
+    explication: "Le garrot est indiqué en cas d'hémorragie d'un membre lorsque la compression directe est inefficace, impossible ou dans des situations particulières ; il ne se pose qu'aux membres supérieurs ou inférieurs."
+  - id: q2
+    enonce: "À quelle distance de la plaie place-t-on idéalement le garrot ?"
+    propositions:
+      - "1 à 2 cm"
+      - "5 à 7 cm"
+      - "20 à 30 cm"
+      - "Sur l'articulation la plus proche"
+    bonnes:
+      - 1
+    explication: "Le garrot est positionné à quelques centimètres de la plaie (idéalement 5 à 7 cm), entre la plaie et la racine du membre, jamais sur une articulation."
+  - id: q3
+    enonce: "Quelles sont les caractéristiques du lien d'un garrot improvisé ?"
+    propositions:
+      - "Toile solide, non élastique"
+      - "3 à 5 cm de large"
+      - "Au moins 1,50 m de longueur"
+      - "Élastique, comme un garrot de prise de sang"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le lien est en toile solide, non élastique, de 3 à 5 cm de large et d'au moins 1,50 m de long. Les garrots élastiques de prise de sang ne doivent pas être utilisés."
+  - id: q4
+    enonce: "Quelle information faut-il noter après la pose du garrot ?"
+    propositions:
+      - "L'heure de pose, pour la transmettre aux personnes qui prennent le relais"
+      - "Le nombre de tours de serrage uniquement"
+      - "Le nom de la victime uniquement"
+    bonnes:
+      - 0
+    explication: "On note lisiblement l'heure de pose du garrot (sur le garrot, sur une fiche...) pour la communiquer aux personnes assurant le relais."
+  - id: q5
+    enonce: "Qui peut desserrer un garrot posé ?"
+    propositions:
+      - "Le secouriste dès que la douleur est intense"
+      - "La victime elle-même"
+      - "Uniquement sur ordre d'un médecin"
+    bonnes:
+      - 2
+    explication: "Une fois le garrot posé, il ne doit être desserré que sur ordre d'un médecin, même si la douleur est intense."
+  - id: q6
+    enonce: "Que faire si le saignement persiste malgré un garrot ?"
+    propositions:
+      - "Resserrer le garrot ; si insuffisant, poser un second garrot entre le premier et la racine du membre et/ou une gaze hémostatique avec pansement compressif"
+      - "Desserrer le garrot puis le reposer plus loin de la plaie"
+      - "Retirer le garrot et faire une compression manuelle"
+    bonnes:
+      - 0
+    explication: "En cas de persistance du saignement, on resserre le garrot ; si ce n'est pas suffisant, on complète par un second garrot entre le premier et la racine du membre et/ou, si disponible, une gaze imbibée d'une substance hémostatique avec pansement compressif."
+  - id: q7
+    enonce: "Dans quels cas le garrot ne peut-il pas être installé ?"
+    propositions:
+      - "Plaie du cou"
+      - "Plaie ou amputation trop près de la racine du membre (pli de l'aine, creux axillaire)"
+      - "Plaie de l'avant-bras"
+    bonnes:
+      - 0
+      - 1
+    explication: "Le garrot ne peut pas être posé en cas de plaie du cou ou de plaie, amputation ou arrachement siégeant trop près de la racine du membre (pli de l'aine, creux axillaire) ; on maintient une compression manuelle locale ou un pansement compressif avec contre-appui opposé."

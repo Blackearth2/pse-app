@@ -1,0 +1,120 @@
+id: obstruction-voies-aeriennes-conduite-a-tenir
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 13
+titre: Obstruction des voies aériennes (conduite à tenir)
+motsCles: [OVA, claques dans le dos, compressions abdominales, compressions thoraciques, toux, perte de connaissance]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR03, 07-2026)
+  code: 05PR03
+  page: 129
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Face à une victime qui s'étouffe, on distingue celle qui peut encore parler, crier ou tousser (on l'encourage à tousser et on la surveille) de celle qui ne le peut plus (cycles de 1 à 5 claques dans le dos puis 1 à 5 compressions, jusqu'à la levée de l'obstruction ou la perte de connaissance)."
+  - type: chiffres
+    titre: Repères
+    items:
+      - valeur: "1 à 5"
+        libelle: "claques dans le dos par série"
+      - valeur: "1 à 5"
+        libelle: "compressions par série, en cas d'inefficacité ou d'impossibilité de pratiquer des claques"
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Demander à la victime si elle s'étouffe, ainsi que de tousser."
+  - type: etapes
+    titre: Si la victime peut parler, crier, tousser
+    items:
+      - "Continuer d'encourager la victime à tousser : une victime éveillée, réactive et capable de tousser doit être encouragée à le faire, car la toux génère une pression élevée et soutenue dans les voies respiratoires et peut expulser le corps étranger."
+      - "Surveiller l'efficacité de la toux ou l'apparition de signes de fatigue."
+  - type: etapes
+    titre: Si la victime ne peut plus parler, crier, tousser
+    items:
+      - "Laisser la victime dans la position où elle se trouve, généralement debout ou assise."
+      - "Donner de 1 à 5 « claques dans le dos »."
+      - "Réaliser de 1 à 5 « compressions » en cas d'inefficacité ou d'impossibilité de pratiquer des « claques » : au niveau abdominal s'il s'agit d'un adulte ou d'un enfant ; au niveau thoracique s'il s'agit d'un nourrisson, d'une personne obèse ou d'une femme enceinte (s'il est impossible d'encercler l'abdomen), ou d'une personne alitée ou allongée, difficilement mobilisable."
+      - "Répéter le cycle « claques dans le dos » et « compressions »."
+      - "Interrompre les manœuvres dès l'apparition d'une toux efficace, de cris ou de pleurs, dès la reprise de la respiration ou dès le rejet du corps étranger."
+  - type: etapes
+    titre: Si la victime respire (toux efficace) ou après le succès des manœuvres
+    items:
+      - "Installer la victime en position d'attente, confortablement (par exemple sur un lit, une chaise ou un canapé, à défaut sur le sol) et sans délai."
+      - "Desserrer les vêtements."
+      - "Poursuivre le bilan et surveiller attentivement sa respiration."
+      - "Transmettre le bilan, pour avis médical."
+  - type: etapes
+    titre: Si la victime perd connaissance
+    items:
+      - "L'accompagner au sol."
+      - "Réaliser une réanimation cardio-pulmonaire."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Un avis médical est demandé même si la désobstruction est efficace : de petits corps peuvent passer dans les voies aériennes et les poumons et provoquer des complications secondaires."
+      - "Les manœuvres de compressions, même réalisées correctement, peuvent provoquer des lésions internes."
+      - "Compressions abdominales pour l'adulte et l'enfant ; compressions thoraciques pour le nourrisson, la personne obèse, la femme enceinte si l'abdomen ne peut être encerclé, et la personne alitée ou allongée difficilement mobilisable."
+qcm:
+  - id: q1
+    enonce: "Une victime qui s'étouffe peut encore tousser. Quelle est la conduite à tenir ?"
+    propositions:
+      - "Donner immédiatement des compressions abdominales"
+      - "L'encourager à tousser et surveiller l'efficacité de la toux ou l'apparition de signes de fatigue"
+      - "L'allonger et débuter une RCP"
+      - "Lui donner à boire"
+    bonnes:
+      - 1
+    explication: "Une victime capable de tousser est encouragée à le faire, car la toux génère une pression élevée et soutenue pouvant expulser le corps étranger ; on surveille l'efficacité de la toux et les signes de fatigue."
+  - id: q2
+    enonce: "Une victime ne peut plus parler, crier ni tousser. Combien de claques dans le dos donne-t-on ?"
+    propositions:
+      - "De 1 à 5"
+      - "10"
+      - "De 5 à 10"
+      - "30"
+    bonnes:
+      - 0
+    explication: "On donne de 1 à 5 « claques dans le dos », puis de 1 à 5 compressions en cas d'inefficacité ou d'impossibilité."
+  - id: q3
+    enonce: "Chez quelles victimes réalise-t-on des compressions au niveau thoracique plutôt qu'abdominal ?"
+    propositions:
+      - "Un adulte"
+      - "Un nourrisson"
+      - "Une femme enceinte si l'abdomen ne peut pas être encerclé"
+      - "Un enfant"
+    bonnes:
+      - 1
+      - 2
+    explication: "Les compressions sont abdominales chez l'adulte et l'enfant ; elles sont thoraciques chez le nourrisson, la personne obèse ou la femme enceinte s'il est impossible d'encercler l'abdomen, et la personne alitée ou allongée difficilement mobilisable."
+  - id: q4
+    enonce: "Quand interrompt-on les manœuvres de désobstruction ?"
+    propositions:
+      - "Dès la toux efficace, les cris ou pleurs, la reprise de la respiration ou le rejet du corps étranger"
+      - "Toujours après 5 cycles"
+      - "Uniquement à l'arrivée des secours"
+    bonnes:
+      - 0
+    explication: "Les manœuvres sont interrompues dès l'apparition d'une toux efficace, de cris ou de pleurs, la reprise de la respiration ou le rejet du corps étranger."
+  - id: q5
+    enonce: "La victime perd connaissance pendant les manœuvres de désobstruction. Que fait-on ?"
+    propositions:
+      - "On l'accompagne au sol et on réalise une réanimation cardio-pulmonaire"
+      - "On la laisse debout et on continue les claques"
+      - "On la place en position latérale de sécurité"
+      - "On attend le renfort sans geste"
+    bonnes:
+      - 0
+    explication: "Si la victime perd connaissance, on l'accompagne au sol et on réalise une réanimation cardio-pulmonaire."
+  - id: q6
+    enonce: "Pourquoi un avis médical est-il demandé même si la désobstruction a réussi ?"
+    propositions:
+      - "De petits corps peuvent passer dans les poumons et provoquer des complications secondaires"
+      - "Les compressions, même correctes, peuvent provoquer des lésions internes"
+      - "Ce n'est pas nécessaire si la victime tousse"
+    bonnes:
+      - 0
+      - 1
+    explication: "Même en cas de succès, de petits corps peuvent passer dans les voies aériennes et les poumons, et les compressions peuvent provoquer des lésions internes : la victime est mise en position d'attente et le bilan est transmis pour avis médical."

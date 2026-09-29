@@ -1,0 +1,108 @@
+id: hemorragies-externes-conduite-a-tenir
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 4
+titre: Hémorragies externes (conduite à tenir)
+motsCles: [hémorragie externe, compression, pansement compressif, garrot, gaze hémostatique, fracture ouverte, corps étranger]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR01, 07-2026)"
+  code: 05PR01
+  page: 117
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Devant une hémorragie externe, il faut l'arrêter immédiatement par compression, puis relayer par un pansement compressif ; si la compression est inefficace ou impossible, on utilise un garrot (zone garrotable) ou une gaze imbibée d'une substance hémostatique (zone non garrotable)."
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Se protéger les mains par des gants à usage unique."
+      - "Constater l'hémorragie, si nécessaire en écartant les vêtements."
+      - "Arrêter immédiatement l'hémorragie : en demandant à la victime de comprimer immédiatement l'endroit qui saigne ; ou, à défaut, le faire à sa place."
+      - "Maintenir la compression (par la victime ou le sauveteur)."
+      - "Allonger confortablement la victime, par exemple sur un brancard, un canapé ou à défaut sur le sol."
+      - "Mettre en place un pansement compressif si l'hémorragie est contrôlée manuellement et pour se libérer."
+      - "Si la compression (manuelle et pansement compressif) est inefficace ou impossible : utiliser soit un garrot si la zone est « garrotable », soit une gaze imbibée d'une substance hémostatique si la zone est « non garrotable »."
+      - "Rassurer la victime, en lui parlant régulièrement et en lui expliquant ce qui se passe."
+      - "Réchauffer la victime, car l'hypothermie aggrave son état."
+      - "Protéger la victime contre le froid et les intempéries."
+      - "Poursuivre le bilan et surveiller attentivement l'efficacité des gestes réalisés et l'apparition de signes de détresse circulatoire."
+  - type: liste
+    titre: Précisions de la fiche
+    items:
+      - "Le sauveteur peut, sans retarder l'action de secours, se protéger avec des gants ou, à défaut, en glissant sa main dans un sac plastique ; il veille à ne porter aucun élément souillé de sang à la bouche, au nez ou aux yeux."
+      - "La position allongée retarde ou empêche l'installation d'une détresse liée à la perte importante de sang."
+      - "Compression inefficace : le saignement persiste malgré tout."
+      - "Compression impossible : nombreuses victimes, catastrophes, situations de violence collective ou de guerre, nombreuses lésions, plaie inaccessible, corps étranger, morceaux d'os visibles en cas de fracture ouverte."
+  - type: liste
+    titre: Cas particulier, fracture ouverte et corps étranger
+    items:
+      - "Si la victime présente une fracture ouverte avec un morceau d'os visible, ou si la plaie qui saigne contient un corps étranger visible : ne toucher ni au morceau d'os ni au corps étranger, car leur présence peut limiter le saignement et leur mobilisation pourrait aggraver la lésion."
+      - "Si le saignement reste important et massif, poser un garrot."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Ne pas retarder la compression : la victime comprime elle-même si elle le peut, sinon le sauveteur le fait à sa place."
+      - "Ne jamais toucher ni retirer un corps étranger ou un morceau d'os visible."
+      - "L'hypothermie aggrave l'état de la victime : la réchauffer et la protéger du froid."
+qcm:
+  - id: q1
+    enonce: "Quelle est la première action pour arrêter immédiatement une hémorragie externe ?"
+    propositions:
+      - "Poser un garrot systématiquement"
+      - "Demander à la victime de comprimer l'endroit qui saigne, ou à défaut le faire à sa place"
+      - "Allonger la victime puis attendre du renfort"
+    bonnes:
+      - 1
+    explication: "On arrête immédiatement l'hémorragie en demandant à la victime de comprimer l'endroit qui saigne, ou à défaut en le faisant à sa place."
+  - id: q2
+    enonce: "À quoi sert la pose d'un pansement compressif ?"
+    propositions:
+      - "À remplacer l'avis médical"
+      - "À relayer la compression manuelle lorsque l'hémorragie est contrôlée, pour libérer le sauveteur"
+      - "À retirer un corps étranger"
+      - "À poser une gaze hémostatique"
+    bonnes:
+      - 1
+    explication: "Le pansement compressif est mis en place si l'hémorragie est contrôlée manuellement et pour se libérer."
+  - id: q3
+    enonce: "Si la compression est inefficace ou impossible, quel dispositif utiliser selon la zone ?"
+    propositions:
+      - "Garrot en zone garrotable, gaze imbibée d'une substance hémostatique en zone non garrotable"
+      - "Gaze hémostatique en zone garrotable, garrot en zone non garrotable"
+      - "Garrot dans tous les cas, y compris au cou"
+    bonnes:
+      - 0
+    explication: "Garrot si la zone est garrotable, gaze imbibée d'une substance hémostatique si la zone est non garrotable."
+  - id: q4
+    enonce: "Une victime saigne d'une plaie contenant un corps étranger visible. Que faire ?"
+    propositions:
+      - "Le retirer pour mieux comprimer"
+      - "Ne pas le toucher ; si le saignement reste important et massif, poser un garrot"
+      - "Poser une gaze hémostatique sur le corps étranger"
+    bonnes:
+      - 1
+    explication: "On ne touche pas au corps étranger (ou au morceau d'os visible) car il peut limiter le saignement ; si le saignement reste important et massif, on pose un garrot."
+  - id: q5
+    enonce: "Quelles mesures complètent l'arrêt de l'hémorragie ?"
+    propositions:
+      - "Allonger confortablement la victime"
+      - "Rassurer la victime en lui parlant régulièrement"
+      - "Réchauffer et protéger la victime contre le froid"
+      - "La laisser debout pour qu'elle reste vigilante"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "La victime est allongée confortablement (la position allongée retarde la détresse), rassurée, réchauffée (l'hypothermie aggrave son état) et protégée du froid et des intempéries."
+  - id: q6
+    enonce: "Que doit faire le sauveteur qui n'a pas de gants au moment de comprimer ?"
+    propositions:
+      - "Attendre d'en avoir trouvé pour ne pas retarder l'action"
+      - "Sans retarder le secours, glisser sa main dans un sac plastique, en évitant tout contact du sang avec la bouche, le nez ou les yeux"
+      - "Renoncer à comprimer"
+    bonnes:
+      - 1
+    explication: "Sans retarder l'action de secours, le sauveteur peut se protéger avec des gants ou, à défaut, en glissant sa main dans un sac plastique, et veille à ne porter aucun élément souillé de sang à la bouche, au nez ou aux yeux."

@@ -1,0 +1,162 @@
+id: arret-cardiaque-equipe
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 18
+titre: Arrêt cardiaque en équipe
+motsCles: [RCP, DAE, 30/2, 15/2, équipe, relais, insufflations, canule oropharyngée]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR04, 07-2026)
+  code: 05PR04
+  page: 138
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Conduite à tenir lorsque la victime a perdu connaissance et ne respire pas (ou respire anormalement) et que les secouristes sont en équipe avec matériel : RCP immédiate (30 compressions / 2 insufflations chez l'adulte ; 15 compressions / 2 insufflations chez l'enfant et le nourrisson), DAE et oxygène le plus tôt possible, en interrompant le moins possible le massage cardiaque."
+  - type: chiffres
+    titre: Rapports compressions / insufflations
+    items:
+      - valeur: "30 / 2"
+        libelle: "adulte : 30 compressions thoraciques / 2 insufflations"
+      - valeur: "15 / 2"
+        libelle: "enfant et nourrisson : 15 compressions thoraciques / 2 insufflations"
+      - valeur: "2 min"
+        libelle: "relais pour la RCP lors des analyses du DAE ou toutes les 2 minutes environ"
+  - type: etapes
+    titre: Conduite à tenir
+    items:
+      - "Retirer délicatement tout corps étranger visible et facilement accessible dans la bouche."
+      - "Débuter immédiatement la RCP (toute action ne doit pas retarder, empêcher ou interrompre la RCP : port de gants, etc.) en répétant des cycles de 30 compressions thoraciques / 2 insufflations chez l'adulte, ou de 15 compressions thoraciques / 2 insufflations chez l'enfant et le nourrisson."
+      - "Le plus tôt possible, en interrompant le moins possible le massage cardiaque : mettre en œuvre le DAE et suivre ses indications vocales ; administrer de l'oxygène par insufflation (dès que possible, sans retarder la RCP)."
+      - "Si un DAE est installé, reprendre la RCP immédiatement après la délivrance, ou non, d'un choc électrique, sans attendre ses instructions vocales."
+      - "Poursuivre la RCP jusqu'à une demande d'interruption par le DAE ou le relais par les renforts médicalisés."
+      - "Si la poitrine ne se soulève pas après 2 insufflations : envisager une obstruction des voies aériennes, vérifier la présence d'un corps étranger dans la bouche après chaque cycle de compressions, le retirer prudemment s'il y en a un et s'il est accessible."
+      - "Si nécessaire : réaliser une aspiration des sécrétions (sans retarder ni interrompre la RCP ou le choc électrique) et mettre en place une canule oropharyngée (en cas de ventilation artificielle inefficace par difficulté de maintien des voies aériennes libres)."
+  - type: liste
+    titre: Organisation selon le nombre de secouristes
+    items:
+      - "2 secouristes sans DAE : un secouriste poursuit le massage cardiaque, le second va chercher un DAE et demande un renfort médical."
+      - "2 secouristes avec DAE : un secouriste poursuit le massage cardiaque, le second met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse."
+      - "3 secouristes ou plus : les trois actions (alerte, RCP et DAE) sont réalisées simultanément."
+      - "Si plusieurs intervenants formés sont présents, se relayer pour la RCP lors des analyses du DAE ou toutes les 2 minutes environ ; l'un d'eux peut assurer le rôle de « coach » (guide, encourage et corrige les gestes)."
+  - type: liste
+    titre: Témoin ayant réalisé une réanimation
+    items:
+      - "L'équipe prend le relais du témoin."
+      - "Sans retarder l'action de secours et dans la mesure du possible, un membre de l'équipe évalue l'état émotionnel du témoin, le rassure sur la qualité de son intervention et valorise son action."
+  - type: etapes
+    titre: Surveillance et adaptation en cas de signes de vie
+    items:
+      - "Si des signes de vie apparaissent (la victime respire efficacement, bouge ou ouvre les yeux) : cesser les compressions thoraciques et la ventilation."
+      - "Garder la victime strictement allongée."
+      - "Réaliser un bilan en repartant du 2e regard."
+      - "Surveiller de manière permanente la conscience et la respiration."
+      - "Protéger la victime contre le froid, le chaud et les intempéries."
+      - "Se tenir prêt à reprendre la RCP en raison du risque majeur de récidive de l'arrêt cardiaque."
+  - type: liste
+    titre: Contrôle du pouls à partir de 3 secouristes
+    items:
+      - "Localiser le pouls carotidien ou fémoral pendant les compressions, maintenir la position et contrôler la présence ou l'absence de pouls lors des insufflations."
+      - "Si un pouls est perçu (hors compressions) et que la ventilation est absente ou anormale (fréquence respiratoire de 6 mouvements/min ou moins) : interrompre les compressions thoraciques, poursuivre les insufflations, contrôler le pouls en permanence, se tenir prêt à reprendre les compressions en cas d'absence de pouls."
+      - "Fréquence des insufflations : adulte et enfant 10 insufflations/min ; nourrisson 20 insufflations/min ; nouveau-né 30 insufflations/min."
+  - type: chiffres
+    titre: Fréquence des insufflations si pouls perçu et ventilation absente ou anormale
+    items:
+      - valeur: "10 / min"
+        libelle: "adulte et enfant"
+      - valeur: "20 / min"
+        libelle: "nourrisson"
+      - valeur: "30 / min"
+        libelle: "nouveau-né"
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le rapport est de 30 / 2 chez l'adulte et de 15 / 2 chez l'enfant et le nourrisson."
+      - "Interrompre le moins possible le massage cardiaque ; reprendre la RCP immédiatement après un choc, délivré ou non, sans attendre les instructions vocales du DAE."
+      - "L'aspiration des sécrétions ne doit ni retarder ni interrompre la RCP ou la délivrance d'un choc."
+      - "Après retour de signes de vie, rester prêt à reprendre la RCP : risque majeur de récidive."
+qcm:
+  - id: q1
+    enonce: "Quel est le rapport compressions thoraciques / insufflations chez l'adulte en équipe ?"
+    propositions:
+      - "15 / 2"
+      - "30 / 2"
+      - "5 / 1"
+      - "30 / 5"
+    bonnes:
+      - 1
+    explication: "Chez l'adulte : 30 compressions thoraciques / 2 insufflations."
+  - id: q2
+    enonce: "Quel est le rapport compressions thoraciques / insufflations chez l'enfant et le nourrisson ?"
+    propositions:
+      - "30 / 2"
+      - "15 / 2"
+      - "15 / 1"
+      - "30 / 1"
+    bonnes:
+      - 1
+    explication: "Chez l'enfant et le nourrisson : 15 compressions thoraciques / 2 insufflations."
+  - id: q3
+    enonce: "Après un choc électrique délivré ou non par le DAE, que fait-on ?"
+    propositions:
+      - "Attendre les instructions vocales du DAE"
+      - "Reprendre la RCP immédiatement, sans attendre les instructions vocales"
+      - "Vérifier le pouls pendant 30 secondes"
+    bonnes:
+      - 1
+    explication: "Si un DAE est installé, on reprend la RCP immédiatement après la délivrance, ou non, d'un choc électrique, sans attendre ses instructions vocales."
+  - id: q4
+    enonce: "Deux secouristes avec DAE : qui fait quoi ?"
+    propositions:
+      - "L'un poursuit le massage cardiaque, l'autre met en œuvre le DAE puis demande un renfort médical après la première analyse"
+      - "Les deux vont chercher le renfort"
+      - "L'un pratique les insufflations seules pendant que l'autre attend"
+    bonnes:
+      - 0
+    explication: "Avec 2 secouristes et un DAE, l'un poursuit le massage, le second met en œuvre le DAE puis demande un renfort médical immédiatement après la première analyse."
+  - id: q5
+    enonce: "La poitrine ne se soulève pas après 2 insufflations. Que doit-on faire ?"
+    propositions:
+      - "Envisager une obstruction des voies aériennes"
+      - "Vérifier la présence d'un corps étranger dans la bouche après chaque cycle de compressions"
+      - "Retirer prudemment le corps étranger s'il est accessible"
+      - "Arrêter définitivement la RCP"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Si la poitrine ne se soulève pas après 2 insufflations, on envisage une obstruction, on vérifie la bouche après chaque cycle de compressions et on retire prudemment le corps étranger s'il est accessible."
+  - id: q6
+    enonce: "À quelle fréquence relaie-t-on le secouriste qui réalise les compressions ?"
+    propositions:
+      - "Lors des analyses du DAE ou toutes les 2 minutes environ"
+      - "Toutes les 10 minutes"
+      - "Jamais"
+    bonnes:
+      - 0
+    explication: "Les intervenants formés se relaient, si possible, lors des analyses du DAE ou toutes les 2 minutes environ."
+  - id: q7
+    enonce: "Avec contrôle du pouls (3 secouristes ou plus), pouls perçu et ventilation absente : quelle fréquence d'insufflations chez le nourrisson ?"
+    propositions:
+      - "10 / min"
+      - "20 / min"
+      - "30 / min"
+    bonnes:
+      - 1
+    explication: "Adulte et enfant : 10 insufflations/min ; nourrisson : 20/min ; nouveau-né : 30/min."
+  - id: q8
+    enonce: "Des signes de vie apparaissent. Quelles actions sont attendues ?"
+    propositions:
+      - "Cesser les compressions et la ventilation"
+      - "Garder la victime strictement allongée"
+      - "Réaliser un bilan en repartant du 2e regard"
+      - "Se tenir prêt à reprendre la RCP"
+      - "Laisser la victime debout et la faire marcher"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "On cesse compressions et ventilation, on garde la victime allongée, on refait un bilan à partir du 2e regard, on surveille en permanence et on reste prêt à reprendre la RCP (risque majeur de récidive)."

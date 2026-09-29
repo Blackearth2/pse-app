@@ -1,0 +1,89 @@
+id: perte-de-connaissance-equipe
+niveau: PSE1
+chapitre: urgences-vitales
+type: procedure
+ordre: 28
+titre: "Perte de connaissance en équipe"
+motsCles: [perte de connaissance, équipe, PLS, traumatisme, avis médical, femme enceinte]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05PR06, 07-2026)"
+  code: 05PR06
+  page: 159
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Conduite à tenir en équipe lorsque la victime a perdu connaissance et respire. Elle diffère selon que l'événement est non traumatique ou qu'il s'agit d'un traumatisme ou d'un événement d'origine inconnue."
+  - type: etapes
+    titre: À la suite d'un événement non traumatique
+    items:
+      - "La placer en position stable sur le côté, en position latérale de sécurité (PLS) à un secouriste."
+  - type: etapes
+    titre: À la suite d'un traumatisme ou d'un événement d'origine inconnue
+    items:
+      - "Dans l'attente d'un avis médical : laisser la victime sur le dos, poursuivre la stabilisation de sa tête à deux mains et assurer une liberté des voies aériennes permanente."
+      - "Poursuivre l'évaluation des fonctions vitales."
+      - "Demander un avis médical et appliquer ses consignes."
+      - "Installer la victime en PLS à deux secouristes seulement sur indication médicale ; sinon la laisser sur le dos."
+  - type: etapes
+    titre: Dans tous les cas
+    items:
+      - "Si nécessaire : administrer de l'oxygène en inhalation et réaliser une aspiration des sécrétions (en cas de signes d'encombrement des voies aériennes supérieures, pour améliorer la respiration)."
+      - "Protéger la victime contre le froid, la chaleur ou les intempéries."
+      - "Poursuivre le bilan et surveiller attentivement la conscience et la respiration de la victime."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Le retournement sur le côté gauche de la femme enceinte, ou d'une victime obèse, permet d'éviter une détresse par compression de certains vaisseaux sanguins de l'abdomen."
+      - "Avant une PLS à deux secouristes, une palpation sommaire à la recherche de lésions traumatiques permet de définir le côté de retournement."
+      - "Après traumatisme ou événement d'origine inconnue, la PLS n'est réalisée que sur indication médicale."
+qcm:
+  - id: q1
+    enonce: "En équipe, que faire pour une victime qui a perdu connaissance, respire et dont l'événement est non traumatique ?"
+    propositions:
+      - "La laisser sur le dos"
+      - "La placer en PLS à un secouriste"
+      - "La placer en PLS à deux secouristes uniquement"
+    bonnes:
+      - 1
+    explication: "Après un événement non traumatique, la victime est placée en position stable sur le côté, en PLS à un secouriste."
+  - id: q2
+    enonce: "Après un traumatisme, en attendant l'avis médical, que faut-il faire ?"
+    propositions:
+      - "Poursuivre la stabilisation de la tête à deux mains"
+      - "Laisser la victime sur le dos"
+      - "Assurer une liberté des voies aériennes permanente"
+      - "La mettre immédiatement en PLS"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Dans l'attente d'un avis médical, on laisse la victime sur le dos, on poursuit la stabilisation de la tête à deux mains et on assure la liberté permanente des voies aériennes."
+  - id: q3
+    enonce: "Dans quel cas installe-t-on en PLS à deux secouristes une victime d'un traumatisme ou d'un événement d'origine inconnue ?"
+    propositions:
+      - "Systématiquement"
+      - "Seulement sur indication médicale"
+      - "Dès que la victime vomit"
+    bonnes:
+      - 1
+    explication: "La PLS à deux secouristes n'est réalisée que sur indication médicale ; sinon la victime est laissée sur le dos."
+  - id: q4
+    enonce: "Sur quel côté retourne-t-on une femme enceinte ou une victime obèse pour la PLS ?"
+    propositions:
+      - "Le côté droit"
+      - "Le côté gauche"
+      - "Indifféremment"
+    bonnes:
+      - 1
+    explication: "Le retournement sur le côté gauche évite une détresse par compression de certains vaisseaux sanguins de l'abdomen."
+  - id: q5
+    enonce: "Que faut-il surveiller attentivement dans tous les cas ?"
+    propositions:
+      - "La glycémie uniquement"
+      - "La conscience et la respiration"
+      - "La température uniquement"
+    bonnes:
+      - 1
+    explication: "Le bilan est poursuivi en surveillant attentivement la conscience et la respiration de la victime."

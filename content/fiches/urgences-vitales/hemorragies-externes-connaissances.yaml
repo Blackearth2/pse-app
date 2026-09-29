@@ -1,0 +1,104 @@
+id: hemorragies-externes-connaissances
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 3
+titre: Hémorragies externes (connaissances)
+motsCles: [hémorragie externe, définition, causes, détresse circulatoire, 2e regard, 4e regard]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC02, 07-2026)"
+  code: 05AC02
+  page: 116
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une hémorragie externe est une perte de sang provenant d'une plaie ou d'un orifice naturel, qui ne s'arrête pas spontanément. Elle menace immédiatement ou à très court terme la vie de la victime."
+  - type: liste
+    titre: Définition
+    items:
+      - "Le saignement imbibe de sang un mouchoir de tissu ou de papier en quelques secondes."
+      - "Un saignement dû à une écorchure, une éraflure ou une abrasion cutanée, qui s'arrête spontanément, n'est pas une hémorragie."
+      - "L'hémorragie est le plus souvent facile à constater, mais elle peut être temporairement masquée par la position de la victime ou un vêtement absorbant (manteau, blouson, etc.)."
+  - type: liste
+    titre: Causes
+    items:
+      - "Le plus souvent un traumatisme : coup, chute, plaie par objet tranchant (couteau), projectile (balle)."
+      - "Ou une maladie, comme la rupture de varice chez la personne âgée."
+  - type: etapes
+    titre: Risques et conséquences (évolution)
+    items:
+      - "La quantité de sang de l'organisme diminue."
+      - "Dans un premier temps, la fréquence cardiaque augmente pour compenser la perte et maintenir un débit et une pression suffisants dans les vaisseaux."
+      - "Dans un deuxième temps, si le saignement n'est pas arrêté, la pression sanguine s'effondre, le débit diminue et une détresse circulatoire apparaît ; elle peut provoquer un « désamorçage de la pompe » et un arrêt du cœur."
+  - type: liste
+    titre: Signes
+    items:
+      - "L'hémorragie externe est le plus souvent évidente et constatée au début du bilan (2e regard)."
+      - "Parfois, elle est découverte lors de la recherche de lésions traumatiques (4e regard), car elle peut être temporairement masquée."
+      - "Elle doit être différenciée d'un saignement minime, peu abondant, dû à une écorchure, une éraflure ou une abrasion cutanée, qui s'arrête spontanément."
+  - type: liste
+    titre: Principe de l'action de secours
+    items:
+      - "Arrêter immédiatement l'hémorragie pour limiter la perte de sang."
+      - "Rechercher une détresse circulatoire."
+      - "Limiter les conséquences."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Une hémorragie peut être masquée par la position de la victime ou un vêtement absorbant : penser à la rechercher."
+      - "Ne pas confondre avec une écorchure, une éraflure ou une abrasion qui s'arrête spontanément."
+qcm:
+  - id: q1
+    enonce: "Quelle définition correspond à une hémorragie ?"
+    propositions:
+      - "Toute écorchure qui saigne"
+      - "Une perte de sang provenant d'une plaie ou d'un orifice naturel, qui ne s'arrête pas spontanément"
+      - "Un saignement qui s'arrête spontanément en quelques minutes"
+    bonnes:
+      - 1
+    explication: "Une hémorragie est une perte de sang qui provient d'une plaie ou d'un orifice naturel et ne s'arrête pas spontanément ; elle imbibe un mouchoir en quelques secondes. Un saignement d'écorchure qui s'arrête spontanément n'en est pas une."
+  - id: q2
+    enonce: "Dans quel ordre l'organisme réagit-il à une hémorragie qui n'est pas arrêtée ?"
+    propositions:
+      - "La pression sanguine s'effondre, puis la fréquence cardiaque augmente"
+      - "La fréquence cardiaque augmente, puis la pression sanguine s'effondre et une détresse circulatoire apparaît"
+      - "La fréquence cardiaque diminue, puis la pression sanguine augmente"
+    bonnes:
+      - 1
+    explication: "Dans un premier temps la fréquence cardiaque augmente pour compenser la perte ; dans un deuxième temps la pression sanguine s'effondre, le débit diminue et une détresse circulatoire apparaît."
+  - id: q3
+    enonce: "Quelles sont les causes citées d'une hémorragie externe ?"
+    propositions:
+      - "Une plaie par objet tranchant"
+      - "Une plaie par projectile"
+      - "La rupture de varice chez la personne âgée"
+      - "Un simple frottement de la peau qui s'arrête tout seul"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "L'hémorragie est secondaire à un traumatisme (coup, chute, objet tranchant, projectile) ou à une maladie comme la rupture de varice chez la personne âgée."
+  - id: q4
+    enonce: "À quel moment du bilan une hémorragie externe est-elle le plus souvent constatée ?"
+    propositions:
+      - "Au début du bilan (2e regard)"
+      - "Uniquement lors du 1er regard"
+      - "Uniquement lors du 4e regard"
+      - "À la fin de la surveillance"
+    bonnes:
+      - 0
+    explication: "Elle est le plus souvent évidente et constatée au début du bilan (2e regard) ; parfois elle est découverte lors de la recherche de lésions traumatiques (4e regard)."
+  - id: q5
+    enonce: "Quels sont les principes de l'action de secours devant une hémorragie externe ?"
+    propositions:
+      - "Arrêter immédiatement l'hémorragie pour limiter la perte de sang"
+      - "Rechercher une détresse circulatoire"
+      - "Limiter les conséquences"
+      - "Attendre l'arrêt spontané du saignement"
+    bonnes:
+      - 0
+      - 1
+      - 2
+    explication: "Le principe est d'arrêter immédiatement l'hémorragie, de rechercher une détresse circulatoire et de limiter les conséquences."

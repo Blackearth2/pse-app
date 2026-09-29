@@ -1,0 +1,102 @@
+id: administration-oxygene-insufflation
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 23
+titre: Administration d'oxygène par insufflation
+motsCles: [oxygène, insufflateur manuel, ballon-réserve, débit 15 l/min, bouteille d'oxygène, SpO2]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT13, 12-2022)"
+  code: 05FT13
+  page: 148
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Quand le secouriste ventile avec un insufflateur manuel et dispose d'une source d'oxygène, il enrichit l'air insufflé en oxygène, ce qui augmente l'efficacité de la réanimation cardio-pulmonaire."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "15 l/min"
+        libelle: "Débit de la bouteille d'oxygène réglé pour l'insufflation"
+      - valeur: "Proche de 85 %"
+        libelle: "Concentration en oxygène obtenue dans l'insufflateur avec un ballon-réserve à 15 l/min"
+  - type: liste
+    titre: Matériel
+    items:
+      - "Bouteille d'oxygène."
+      - "Insufflateur manuel (adulte, pédiatrique ou prématuré)."
+      - "Ballon-réserve, souple, placé avant la valve d'admission des gaz frais."
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Ouvrir la bouteille d'oxygène."
+      - "Connecter le tuyau de raccordement de l'oxygène au débitmètre, puis au ballon-réserve."
+      - "Raccorder le ballon-réserve à l'insufflateur manuel si besoin."
+      - "Régler le débit de la bouteille à 15 l/min."
+      - "Insuffler."
+      - "Dès que la SpO2 peut être mesurée de manière fiable, ajuster le débit d'oxygène à la SpO2 que l'on veut obtenir. En l'absence de SpO2 fiable, ne pas réduire le débit."
+  - type: attention
+    items:
+      - "L'absence d'arrivée d'oxygène ne doit jamais faire interrompre la ventilation : grâce à ses valves de sécurité, l'insufflateur permet une ventilation à l'air."
+      - "L'administration d'oxygène ne doit pas retarder la mise en œuvre de la RCP."
+      - "L'insufflateur équipé d'un ballon-réserve ne doit pas servir de moyen d'inhalation : il augmente la résistance à l'inspiration et peut aggraver la détresse, particulièrement chez l'enfant. Utiliser un moyen adapté à l'inhalation d'oxygène."
+  - type: texte
+    titre: Évaluation
+    contenu: "Elle se fait sur le degré de remplissage du ballon-réserve, qui ne doit jamais être complètement aplati."
+  - type: texte
+    titre: Fonctionnement du ballon-réserve
+    contenu: "Pendant l'insufflation, la valve d'admission des gaz frais est fermée et l'oxygène s'accumule dans le ballon-réserve. À l'expiration, le ballon autoremplisseur se remplit avec l'oxygène de la bouteille et du ballon-réserve, avec très peu d'air extérieur. Une valve d'entrée d'air laisse entrer de l'air si l'oxygène du ballon-réserve ne suffit pas à le remplir, et une soupape de surpression évacue l'excès d'oxygène si l'alimentation est trop importante."
+qcm:
+  - id: q1
+    enonce: "Quel débit d'oxygène régler pour l'insufflation avec un insufflateur manuel ?"
+    propositions:
+      - "5 l/min"
+      - "10 l/min"
+      - "15 l/min"
+      - "30 l/min"
+    bonnes: [2]
+    explication: "Le débit de la bouteille est réglé à 15 l/min."
+  - id: q2
+    enonce: "Quel est le rôle du ballon-réserve ?"
+    propositions:
+      - "Limiter la pression d'insufflation"
+      - "Accumuler l'oxygène pendant l'insufflation pour obtenir une concentration élevée (proche de 85 % à 15 l/min)"
+      - "Filtrer les gaz expirés"
+      - "Remplacer le masque"
+    bonnes: [1]
+    explication: "Le ballon-réserve accumule l'oxygène pendant l'insufflation et permet une concentration proche de 85 % à 15 l/min."
+  - id: q3
+    enonce: "L'arrivée d'oxygène est interrompue (bouteille vide) pendant la ventilation. Que faire ?"
+    propositions:
+      - "Interrompre la ventilation jusqu'à une nouvelle bouteille"
+      - "Poursuivre la ventilation à l'air avec l'insufflateur"
+      - "Passer à la seule inhalation d'oxygène"
+    bonnes: [1]
+    explication: "L'absence d'oxygène ne doit jamais interrompre la ventilation : les valves de sécurité permettent de ventiler à l'air."
+  - id: q4
+    enonce: "Comment juger que l'administration d'oxygène est correcte ?"
+    propositions:
+      - "Le ballon-réserve est totalement aplati"
+      - "Le ballon-réserve n'est jamais complètement aplati"
+      - "Le ballon-réserve est vidé à chaque insufflation"
+      - "L'évaluation ne repose sur aucun critère"
+    bonnes: [1]
+    explication: "L'évaluation repose sur le remplissage du ballon-réserve, qui ne doit jamais être complètement aplati."
+  - id: q5
+    enonce: "Que faire du débit d'oxygène lorsque la SpO2 ne peut pas être mesurée de manière fiable ?"
+    propositions:
+      - "Le réduire progressivement"
+      - "Ne pas le réduire"
+      - "Couper l'oxygène"
+    bonnes: [1]
+    explication: "Dès que la SpO2 est mesurable de façon fiable, on ajuste le débit ; en l'absence de SpO2 fiable, on ne réduit pas le débit."
+  - id: q6
+    enonce: "Pourquoi un insufflateur avec ballon-réserve ne doit-il pas servir d'inhalateur d'oxygène ?"
+    propositions:
+      - "Il augmente la résistance à l'inspiration et peut aggraver la détresse, surtout chez l'enfant"
+      - "Il délivre trop peu d'oxygène"
+      - "Il est réservé aux prématurés"
+    bonnes: [0]
+    explication: "Le ballon-réserve augmente la résistance à l'inspiration ; il faut utiliser un moyen adapté à l'inhalation d'oxygène."

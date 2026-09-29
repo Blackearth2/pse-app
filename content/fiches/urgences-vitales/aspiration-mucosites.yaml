@@ -1,0 +1,142 @@
+id: aspiration-mucosites
+niveau: PSE1
+chapitre: urgences-vitales
+type: technique
+ordre: 25
+titre: Aspiration de mucosités
+motsCles: [aspiration, mucosités, sonde d'aspiration, dépression, charrière, nouveau-né, voies aériennes]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05FT15, 12-2022)"
+  code: 05FT15
+  page: 151
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'aspiration retire les liquides ou particules solides qui encombrent les voies aériennes d'une victime ayant perdu connaissance et incapable de les expulser (vomissures, eau chez le noyé, sang, sécrétions pulmonaires). Elle améliore la respiration spontanée ou la ventilation artificielle, donc l'oxygénation."
+  - type: liste
+    titre: Signes d'encombrement
+    items:
+      - "Bruit de gargouillement lors des mouvements respiratoires ou de la ventilation artificielle."
+      - "Contenu gastrique (vomissures), mucosités (salive) ou sang sortant par la bouche ou le nez."
+      - "Chez le nouveau-né en détresse : méconium, caillots de sang ou mucus épais (vernix) dans les voies aériennes supérieures."
+  - type: liste
+    titre: Quand aspirer
+    items:
+      - "Après une LVA et, si nécessaire, après la mise en PLS (perte de connaissance non traumatique)."
+      - "Pendant les compressions thoraciques lors d'une RCP, pour ne pas les interrompre."
+      - "Pendant la prise en charge du nouveau-né à la naissance s'il n'est pas en bonne santé."
+  - type: liste
+    titre: Matériel
+    items:
+      - "Pompe à dépression (manuelle ou électrique, portable ou installée dans le véhicule)."
+      - "Sonde d'aspiration buccale adaptée à l'âge (souple à extrémité en mousse, ou rigide de type Yankauer). Sonde et tuyau sont à usage unique, remplacés après chaque utilisation."
+      - "Réceptacle (flacon plastique ou verre, parfois sac à usage unique) inséré entre la pompe et le tuyau ; son remplissage est surveillé ; il est vidé ou remplacé en fin d'intervention."
+      - "Matériel de protection individuelle : gants, masque, lunettes."
+      - "Le matériel monté et prêt à fonctionner est toujours placé à côté de la tête de toute victime inconsciente."
+  - type: chiffres
+    titre: Sondes et dépression (tableau 15)
+    items:
+      - valeur: "18 à 26 Ch / 350 à 500 mmHg"
+        libelle: "Adulte"
+      - valeur: "8 à 12 Ch / 200 à 350 mmHg"
+        libelle: "Enfant"
+      - valeur: "6 à 8 Ch / 200 à 250 mmHg"
+        libelle: "Nourrisson"
+      - valeur: "4 (prématuré) à 6 Ch / 120 à 150 mmHg"
+        libelle: "Nouveau-né. 1 unité Ch (charrière) = 1/3 mm"
+      - valeur: "10 secondes"
+        libelle: "Durée maximale d'une manœuvre d'aspiration chez l'adulte (5 secondes dans les autres cas)"
+  - type: etapes
+    titre: Réalisation
+    items:
+      - "Se protéger : gants à usage unique, masque de protection respiratoire, lunettes."
+      - "Raccorder la sonde stérile au tuyau d'aspiration après l'avoir sortie de son emballage."
+      - "Mettre en marche l'appareil et régler l'aspiration si le modèle le permet."
+      - "Ouvrir la bouche de la victime."
+      - "Introduire doucement et prudemment la sonde dans la bouche, perpendiculairement au visage, jusqu'à ce qu'elle bute."
+      - "Mettre en œuvre l'aspiration, en obturant l'orifice de la prise d'air si nécessaire."
+      - "Aspirer en retirant progressivement la sonde, avec des mouvements de rotation entre les doigts."
+      - "Si des sécrétions ou débris alimentaires ne peuvent pas être aspirés, essayer de les retirer avec les doigts."
+      - "Renouveler la manœuvre si nécessaire."
+      - "Remettre la sonde dans son emballage d'origine une fois l'aspiration terminée."
+      - "Éteindre l'appareil."
+  - type: etapes
+    titre: Cas particulier du nouveau-né à la naissance
+    items:
+      - "Utiliser une sonde de petit calibre et une dépression adaptée (tableau ci-dessus)."
+      - "Commencer toujours par aspirer la bouche, sans enfoncer la sonde de plus de 5 cm."
+      - "Puis aspirer chaque narine, l'une après l'autre, perpendiculairement au visage, sans enfoncer la sonde de plus de 1 cm."
+      - "Le nouveau-né respire par le nez : aspirer les narines avant la bouche pourrait entraîner l'inhalation des sécrétions de la bouche."
+  - type: attention
+    items:
+      - "Pour limiter l'hypoxie, chaque manœuvre ne dépasse pas 10 secondes chez l'adulte et 5 secondes dans les autres cas."
+      - "Chez une personne consciente, introduire la sonde au fond de la gorge provoque le plus souvent un vomissement : c'est proscrit."
+      - "Une canule oropharyngée n'empêche pas l'aspiration ; elle peut être retirée temporairement pour faciliter la manœuvre."
+      - "Pour éviter les lésions de la bouche et du pharynx, éviter l'effet de ventouse sur les muqueuses en ouvrant ponctuellement la prise d'air."
+  - type: texte
+    titre: Évaluation
+    contenu: "L'aspiration est efficace si la respiration spontanée ou les insufflations manuelles sont devenues silencieuses."
+qcm:
+  - id: q1
+    enonce: "Quelle est la durée maximale d'une manœuvre d'aspiration chez l'adulte ?"
+    propositions:
+      - "5 secondes"
+      - "10 secondes"
+      - "20 secondes"
+      - "30 secondes"
+    bonnes: [1]
+    explication: "Une manœuvre ne dépasse pas 10 secondes chez l'adulte et 5 secondes dans les autres cas, pour limiter l'hypoxie."
+  - id: q2
+    enonce: "Quelle dépression d'aspiration est prévue chez l'adulte ?"
+    propositions:
+      - "120 à 150 mmHg"
+      - "200 à 250 mmHg"
+      - "200 à 350 mmHg"
+      - "350 à 500 mmHg"
+    bonnes: [3]
+    explication: "Adulte : sonde de 18 à 26 Ch et dépression de 350 à 500 mmHg."
+  - id: q3
+    enonce: "Quelle sonde et quelle dépression pour un nourrisson ?"
+    propositions:
+      - "6 à 8 Ch, 200 à 250 mmHg"
+      - "8 à 12 Ch, 200 à 350 mmHg"
+      - "18 à 26 Ch, 350 à 500 mmHg"
+      - "4 à 6 Ch, 120 à 150 mmHg"
+    bonnes: [0]
+    explication: "Nourrisson : 6 à 8 Ch et 200 à 250 mmHg ; enfant : 8 à 12 Ch et 200 à 350 mmHg ; nouveau-né : 4 (prématuré) à 6 Ch et 120 à 150 mmHg."
+  - id: q4
+    enonce: "Chez le nouveau-né, dans quel ordre aspire-t-on ?"
+    propositions:
+      - "Les narines d'abord, puis la bouche"
+      - "La bouche d'abord (sonde à 5 cm au plus), puis chaque narine (1 cm au plus)"
+      - "La bouche uniquement"
+      - "Les deux narines simultanément, puis la bouche"
+    bonnes: [1]
+    explication: "On commence toujours par la bouche, sans dépasser 5 cm, puis on aspire chaque narine successivement, sans dépasser 1 cm. Aspirer les narines d'abord risquerait de faire inhaler les sécrétions de la bouche."
+  - id: q5
+    enonce: "À quel moment peut-on aspirer pendant une RCP ?"
+    propositions:
+      - "Pendant les compressions thoraciques, sans les interrompre"
+      - "Seulement après avoir arrêté la RCP"
+      - "Jamais"
+    bonnes: [0]
+    explication: "L'aspiration est réalisée pendant les compressions thoraciques afin de ne pas les interrompre."
+  - id: q6
+    enonce: "Quels signes évoquent un encombrement des voies aériennes ?"
+    propositions:
+      - "Bruit de gargouillement à la respiration ou à la ventilation"
+      - "Vomissures, salive ou sang sortant par la bouche ou le nez"
+      - "Respiration silencieuse et thorax qui se soulève normalement"
+      - "Peau rosée et chaude"
+    bonnes: [0, 1]
+    explication: "Gargouillements et écoulement de contenu gastrique, mucosités ou sang par la bouche ou le nez traduisent la présence de sécrétions."
+  - id: q7
+    enonce: "Que faire pour éviter l'effet de ventouse sur les muqueuses ?"
+    propositions:
+      - "Ouvrir ponctuellement la prise d'air"
+      - "Augmenter la dépression"
+      - "Maintenir la sonde immobile au fond de la gorge"
+    bonnes: [0]
+    explication: "On ouvre ponctuellement la prise d'air pour éviter les lésions de la cavité buccale et du pharynx."

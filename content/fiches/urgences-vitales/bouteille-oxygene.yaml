@@ -1,0 +1,135 @@
+id: bouteille-oxygene
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 1
+titre: La bouteille d'oxygène
+motsCles: [oxygène, bouteille, détendeur-débitmètre, autonomie, 200 bar, comburant, stockage, manipulation]
+statut: brouillon
+source:
+  document: "Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC01, 06-2018)"
+  code: 05AC01
+  page: 110
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "L'oxygène en bouteille est un médicament qui peut, sous conditions, être administré à une victime : en inhalation pour enrichir l'air en oxygène, en insufflation, ou pour faire fonctionner un respirateur médical ou tout autre dispositif médical. Gaz compressible, il est stocké sous pression dans des bouteilles, puis détendu et ramené à la pression atmosphérique par un détendeur ; le débit (en l/min) est réglé par un débitmètre."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "2 / 5 / 11 / 15 l"
+        libelle: "Volumes possibles des bouteilles"
+      - valeur: "200 bar"
+        libelle: "Pression de la bouteille pleine"
+      - valeur: "0,4 / 1 / 2,2 / 3 m³"
+        libelle: "Oxygène contenu, après détente, dans les bouteilles de 2 / 5 / 11 / 15 l pleines"
+      - valeur: "0 à 15 l/min"
+        libelle: "Plage de réglage du débit, par palier"
+      - valeur: "200 bars"
+        libelle: "Tarage de la soupape de sécurité"
+      - valeur: "≥ 50 °C"
+        libelle: "Température à ne jamais atteindre ni approcher (protection des bouteilles, source de chaleur)"
+  - type: liste
+    titre: La bouteille et le détendeur-débitmètre intégré
+    items:
+      - "En France, les bouteilles sont blanches, en aluminium recouvert de matière composite, légères, avec une poignée de transport et un chapeau inamovible qui loge le détendeur-débitmètre intégré."
+      - "Gravé sur la bouteille : date de la dernière vérification, pression maximale d'utilisation et volume en eau."
+      - "Manomètre haute pression à plages colorées (pression dans la bouteille), ou affichage LCD de l'autonomie en temps selon le débit choisi (la pression résiduelle n'apparaît alors que sous forme d'une jauge graduée, avec alarmes sonores)."
+      - "Sécurité active en forme de volet : empêche tout branchement intempestif lorsque la bouteille est en position fermée."
+      - "Raccord de sortie (olive) : pour brancher un tuyau alimentant un masque à inhalation ou le ballon-réserve d'un insufflateur."
+      - "Prise normalisée à trois crans : pour alimenter un respirateur ou un réseau de distribution d'oxygène interne au véhicule de secours."
+      - "Robinet d'ouverture de la bouteille ; robinet de réglage du débit par palier (0 à 15 l/min) ; soupape de sécurité tarée à 200 bars ; raccord de remplissage spécifique (conditionnement chez le fournisseur)."
+      - "Fournie avec : étiquette du laboratoire fournisseur, notice « produit », étiquette du numéro de lot et de la date limite d'utilisation, panneau « danger » collé sur la bouteille."
+  - type: texte
+    titre: Autonomie
+    contenu: "L'autonomie dépend de la quantité d'oxygène disponible (fonction de la pression dans la bouteille et de son volume en eau) et de la consommation, c'est-à-dire du débit administré à la victime. La quantité d'oxygène (en litres) est le produit de la pression (en bar) par le volume en eau de la bouteille (en litres)."
+  - type: liste
+    titre: Conservation, stockage et transport
+    items:
+      - "Conserver séparément les bouteilles pleines et les bouteilles vides."
+      - "Bouteilles arrimées solidement, dans un emplacement les protégeant des chutes et des chocs."
+      - "Protégées des intempéries et des sources de chaleur (température supérieure ou égale à 50 °C), dans un local aéré ou ventilé, propre et sans matières inflammables."
+      - "Maintenues en position verticale, robinet fermé ; déplacées sans être traînées ni roulées sur le sol."
+      - "Ne jamais les soulever par leur robinet ; ne jamais les graisser, les lubrifier ni les enduire de corps gras."
+      - "Ne jamais nettoyer avec des flacons pressurisés (laque, désodorisant...), des solvants (alcool, essence...) ou des produits corrosifs."
+  - type: etapes
+    titre: Manipulation et utilisation
+    items:
+      - "À la prise de fonction, vérifier le bon état du matériel, la présence d'oxygène dans la bouteille, la date limite d'utilisation et l'intégrité des étiquetages."
+      - "Manipuler avec des mains propres, exemptes de graisse ; utiliser des tuyaux de raccordement spécifiques à l'oxygène ; ne pas enduire de corps gras le visage de la victime ni le masque."
+      - "Ne pas ouvrir la bouteille en position couchée, ni à proximité de matières inflammables (risque de propagation d'incendie)."
+      - "Ouvrir la bouteille lentement ; ne jamais procéder à plusieurs mises en pression successives et rapprochées."
+      - "Ne jamais ouvrir le débitmètre avant le robinet (il doit d'abord être réglé à 0 l/min)."
+      - "Ne jamais diriger la sortie du robinet face à l'intervenant ou à la victime : rester du côté opposé au détendeur, derrière la bouteille et en retrait."
+  - type: attention
+    titre: Risques et points de vigilance
+    items:
+      - "L'oxygène est un comburant : il entretient et active la combustion et peut enflammer les corps gras, les poussières ou tout objet inflammable proche."
+      - "Ne jamais utiliser une bouteille qui présente un défaut d'étanchéité ; en cas de fuite, fermer le robinet."
+      - "Ne jamais approcher une flamme, une source de chaleur supérieure à 50 °C ou un appareil générant des étincelles."
+      - "Refermer immédiatement le robinet, autant que possible, en cas de phénomène anormal (étincelles, crépitements)."
+      - "Toute bouteille ayant chuté ou présentant une anomalie (chapeau mal fixé) ou une défaillance (robinet bloqué, manomètre défectueux...) ne doit plus être utilisée et doit être rapportée au responsable chargé de l'oxygène, quelle que soit sa pression résiduelle."
+  - type: texte
+    titre: Évaluation en cas de doute
+    contenu: "En cas de doute, vérifier que l'oxygène est bien délivré en sortie du tuyau en écoutant le bruit du gaz : pincer l'extrémité du tuyau une à deux secondes puis la relâcher ; on perçoit un bruit sec dû à la sortie brutale de l'oxygène comprimé."
+qcm:
+  - id: q1
+    enonce: "Quelle est la pression d'une bouteille d'oxygène pleine et à quoi est tarée sa soupape de sécurité ?"
+    propositions:
+      - "100 bar ; soupape tarée à 100 bars"
+      - "200 bar ; soupape tarée à 200 bars"
+      - "200 bar ; soupape tarée à 15 bars"
+      - "15 bar ; soupape tarée à 200 bars"
+    bonnes:
+      - 1
+    explication: "Les bouteilles pleines sont sous 200 bar et la soupape de sécurité est tarée à 200 bars."
+  - id: q2
+    enonce: "Quelle quantité d'oxygène contient, après détente, une bouteille pleine de 5 litres ?"
+    propositions:
+      - "Environ 0,4 m³"
+      - "Environ 2,2 m³"
+      - "Environ 1 m³"
+      - "Environ 3 m³"
+    bonnes:
+      - 2
+    explication: "Les bouteilles de 2, 5, 11 et 15 litres contiennent respectivement environ 0,4, 1, 2,2 et 3 m³ d'oxygène (à 200 bar, après détente)."
+  - id: q3
+    enonce: "Comment calcule-t-on la quantité d'oxygène disponible dans une bouteille ?"
+    propositions:
+      - "Pression (bar) × volume en eau (litres) = quantité en litres"
+      - "Pression (bar) ÷ débit (l/min)"
+      - "Volume en eau (litres) ÷ pression (bar)"
+    bonnes:
+      - 0
+    explication: "La quantité d'oxygène (en litres) est le produit de la pression (en bar) par le volume en eau de la bouteille (en litres)."
+  - id: q4
+    enonce: "Parmi ces consignes de manipulation, lesquelles sont exactes ?"
+    propositions:
+      - "Ouvrir le débitmètre avant le robinet de la bouteille"
+      - "Ouvrir la bouteille lentement"
+      - "Ne jamais diriger la sortie du robinet face à l'intervenant ou à la victime"
+      - "Graisser légèrement le robinet pour faciliter l'ouverture"
+    bonnes:
+      - 1
+      - 2
+    explication: "L'ouverture doit être lente et la sortie du robinet ne doit jamais être dirigée vers l'intervenant ou la victime. Le débitmètre (réglé à 0 l/min) ne doit jamais être ouvert avant le robinet, et il ne faut jamais graisser ni lubrifier."
+  - id: q5
+    enonce: "Comment doivent être conservées ou transportées les bouteilles d'oxygène ?"
+    propositions:
+      - "Couchées, robinet ouvert pour évacuer la pression"
+      - "Roulées sur le sol pour limiter l'effort"
+      - "Verticales, robinet fermé, solidement arrimées et protégées de la chaleur"
+      - "Pleines et vides mélangées dans le même local"
+    bonnes:
+      - 2
+    explication: "Les bouteilles sont maintenues en position verticale, robinet fermé, arrimées, protégées des chocs et de la chaleur (≥ 50 °C) ; pleines et vides sont conservées séparément ; on ne les traîne ni ne les roule."
+  - id: q6
+    enonce: "Une bouteille d'oxygène est tombée. Que faut-il faire ?"
+    propositions:
+      - "La réutiliser si la pression résiduelle est suffisante"
+      - "La réutiliser après avoir vérifié le manomètre"
+      - "Ne plus l'utiliser et la rapporter au responsable chargé de l'oxygène, quelle que soit sa pression résiduelle"
+    bonnes:
+      - 2
+    explication: "Toute bouteille ayant chuté ou présentant une anomalie ne doit plus être utilisée et doit être rapportée au responsable chargé de l'oxygène, quelle que soit sa pression résiduelle."

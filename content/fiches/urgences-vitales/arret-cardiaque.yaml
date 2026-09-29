@@ -1,0 +1,176 @@
+id: arret-cardiaque
+niveau: PSE1
+chapitre: urgences-vitales
+type: connaissance
+ordre: 17
+titre: Arrêt cardiaque
+motsCles: [arrêt cardiaque, RCP, ventilation agonique, chaîne de survie, DAE, pouls, adulte, enfant, nourrisson]
+statut: brouillon
+source:
+  document: Référentiels techniques nationaux PSE — juillet 2026 (fiche 05AC05, 07-2026)
+  code: 05AC05
+  page: 135
+liees: []
+blocs:
+  - type: texte
+    titre: En bref
+    contenu: "Une personne est en arrêt cardiaque lorsque son cœur ne fonctionne plus ou fonctionne d'une façon anarchique, ne permettant plus d'assurer l'oxygénation du cerveau. Sa vie est menacée en quelques minutes : seule une RCP précoce, associée à une défibrillation précoce, augmente ses chances de survie."
+  - type: liste
+    titre: Causes chez l'adulte
+    items:
+      - "Le plus souvent d'origine cardiaque : interruption de toute activité mécanique efficace du cœur, le plus souvent par fonctionnement anarchique du cœur (infarctus du myocarde, certaines intoxications, autres maladies cardiaques). Parfois sans anomalie préexistante connue : c'est la mort subite."
+      - "Peut avoir une origine respiratoire : obstruction complète des voies aériennes dont les manœuvres de désobstruction ont échoué ; traumatisme du crâne, du rachis ou du thorax ; accident dû à l'eau (noyade), à l'électricité ou pendaison."
+      - "Peut survenir à la suite d'une perte de sang importante (hémorragie)."
+      - "Il peut être brutal, ou précédé de signes annonciateurs : douleur serrant la poitrine, permanente, angoissante, pouvant irradier dans le cou et les bras, parfois associée à une difficulté à respirer et des sueurs. Il peut aussi être l'évolution ultime d'une détresse vitale."
+  - type: liste
+    titre: Causes chez l'enfant et le nourrisson
+    items:
+      - "Le plus souvent d'origine respiratoire, conséquence d'un manque d'oxygène : étouffement (sac plastique), strangulation (jeux), obstruction complète des voies aériennes, noyade."
+      - "L'arrêt d'origine cardiaque est beaucoup plus rare que chez l'adulte : maladie ou anomalie cardiaque, souvent non connue ; il se manifeste alors de façon brutale, par une chute de l'enfant en train de jouer ou de pratiquer une autre activité."
+      - "Il peut aussi survenir après une hémorragie importante, une électrisation ou une atteinte traumatique grave (crâne, rachis, thorax)."
+  - type: chiffres
+    titre: Repères chiffrés
+    items:
+      - valeur: "quelques secondes"
+        libelle: "délai d'apparition des lésions cérébrales chez l'enfant ou le nourrisson en l'absence de geste de secours"
+      - valeur: "quelques minutes"
+        libelle: "délai d'apparition des lésions cérébrales chez l'adulte ; chances de survie quasi nulles en quelques minutes (environ 8 minutes chez l'adulte)"
+      - valeur: "< 1 mouvement / 10 s"
+        libelle: "ventilation agonique : moins de 1 mouvement en 10 secondes (6 mouvements/min ou moins)"
+      - valeur: "10 s maximum"
+        libelle: "durée de la recherche du pouls (simultanée à celle de la respiration), si elle est effectuée"
+      - valeur: "4 à 40 %"
+        libelle: "augmentation du taux de survie permise par la chaîne de survie"
+      - valeur: "10 %"
+        libelle: "gain de chances de survie par minute gagnée dans la mise en place d'un DAE"
+  - type: liste
+    titre: Signes de l'arrêt cardiaque
+    items:
+      - "Identification en quelques secondes, au tout début du bilan (2e regard) ou lors de la surveillance si l'arrêt survient secondairement ; elle doit aussi pouvoir être réalisée par le secouriste chargé de la réception de l'alerte."
+      - "La victime ne répond pas et ne réagit pas quand on l'appelle ou la stimule (perte de connaissance)."
+      - "Et elle présente une absence de mouvements ventilatoires (aucun souffle perçu, aucun bruit entendu, ni le ventre ni la poitrine ne se soulèvent), ou une ventilation agonique : mouvements inefficaces, bruyants, anarchiques et lents, moins de 1 mouvement en 10 secondes (6 mouvements/min ou moins)."
+      - "Ces signes peuvent être accompagnés d'une courte période de mouvements saccadés ressemblant à des convulsions."
+  - type: liste
+    titre: Recherche du pouls
+    items:
+      - "Elle n'est pas systématique pour caractériser l'arrêt cardiaque (elle dépend du choix des autorités médicales de chaque organisme)."
+      - "Si elle est effectuée : évaluation simultanée à la recherche de la respiration, jamais plus de 10 secondes, sans retarder les gestes de secours."
+      - "Pouls carotidien chez l'adulte et l'enfant ; pouls fémoral chez le nourrisson."
+      - "En cas d'absence ou de doute sur la présence du pouls chez une victime qui a perdu connaissance, même avec des mouvements ventilatoires, débuter ou poursuivre une RCP : une RCP précoce par des témoins peut permettre une reprise de mouvements ventilatoires grâce au massage cardiaque, sans reprise de circulation."
+  - type: liste
+    titre: Conduite à tenir selon la conscience, la ventilation et le pouls (tableau 14)
+    items:
+      - "Sans prise de pouls : inconsciente, ventilation présente → PLS si affection non traumatique ; inconsciente, ventilation absente ou anormale → RCP."
+      - "Avec prise de pouls : inconsciente, ventilation présente, pouls perçu → PLS si affection non traumatique."
+      - "Avec prise de pouls : inconsciente, ventilation absente ou anormale, pouls non perçu ou doute → RCP."
+      - "Avec prise de pouls : inconsciente, ventilation présente, pouls non perçu → RCP (situation exceptionnelle, possible dans les premières minutes d'une RCP chez les victimes ayant bénéficié immédiatement d'une RCP après l'arrêt cardiaque)."
+      - "Avec prise de pouls : inconsciente, ventilation absente, pouls perçu → insufflations (arrêt ventilatoire initial, le plus souvent d'origine toxique, ex. overdose : les insufflations évitent la survenue de l'arrêt cardiaque)."
+  - type: liste
+    titre: Principe de l'action de secours et chaîne de survie
+    items:
+      - "Sauf décès certain (tête séparée du tronc, victime déchiquetée, démembrée ou en état de raideur cadavérique), réaliser une série d'actions augmentant les chances de survie."
+      - "Reconnaître les signes annonciateurs ou l'arrêt cardiaque."
+      - "Alerter de façon précoce les secours médicalisés."
+      - "Réaliser ou guider une réanimation cardio-pulmonaire (RCP) précoce."
+      - "Assurer la mise en œuvre d'une défibrillation précoce."
+      - "Ces étapes, complétées par une prise en charge médicale précoce, forment la chaîne de survie."
+      - "Une application mobile de sollicitation citoyenne permet d'être alerté et mobilisé par les secours en cas d'arrêt cardiaque à proximité."
+  - type: attention
+    titre: Points de vigilance
+    items:
+      - "Chez l'enfant et le nourrisson, l'arrêt cardiaque est le plus souvent d'origine respiratoire ; chez l'adulte, le plus souvent d'origine cardiaque."
+      - "La recherche du pouls ne doit jamais dépasser 10 secondes ni retarder la RCP."
+      - "En cas d'absence ou de doute sur le pouls chez une victime inconsciente, même avec des mouvements ventilatoires, débuter ou poursuivre la RCP."
+      - "Pouls carotidien pour l'adulte et l'enfant, fémoral pour le nourrisson."
+qcm:
+  - id: q1
+    enonce: "Quelle est l'origine la plus fréquente de l'arrêt cardiaque chez l'enfant et le nourrisson ?"
+    propositions:
+      - "Respiratoire, par manque d'oxygène"
+      - "Cardiaque, par infarctus"
+      - "Hémorragique"
+      - "Toxique uniquement"
+    bonnes:
+      - 0
+    explication: "Chez l'enfant et le nourrisson, l'arrêt cardiaque est le plus souvent d'origine respiratoire ; l'origine cardiaque est beaucoup plus rare que chez l'adulte."
+  - id: q2
+    enonce: "Comment définit-on la ventilation agonique ?"
+    propositions:
+      - "Mouvements inefficaces, bruyants, anarchiques et lents, moins de 1 mouvement en 10 secondes"
+      - "Respiration rapide et superficielle"
+      - "Respiration normale mais bruyante"
+    bonnes:
+      - 0
+    explication: "La ventilation agonique correspond à des mouvements ventilatoires inefficaces, bruyants, anarchiques et lents, c'est-à-dire moins de 1 mouvement en 10 secondes."
+  - id: q3
+    enonce: "Quelle est la durée maximale de la recherche du pouls, si elle est effectuée ?"
+    propositions:
+      - "5 secondes"
+      - "10 secondes, simultanément à la recherche de la respiration"
+      - "30 secondes"
+      - "1 minute"
+    bonnes:
+      - 1
+    explication: "L'évaluation du pouls, simultanée à la recherche de la respiration, ne doit jamais dépasser 10 secondes ni retarder les gestes de secours."
+  - id: q4
+    enonce: "Où recherche-t-on le pouls, selon l'âge de la victime ?"
+    propositions:
+      - "Carotidien chez l'adulte et l'enfant"
+      - "Fémoral chez le nourrisson"
+      - "Radial chez le nourrisson"
+      - "Fémoral chez l'adulte"
+    bonnes:
+      - 0
+      - 1
+    explication: "La recherche se fait au niveau carotidien chez l'adulte et l'enfant, fémoral chez le nourrisson."
+  - id: q5
+    enonce: "Une victime inconsciente respire, mais le pouls est absent ou douteux. Que fait-on ?"
+    propositions:
+      - "On la place en PLS"
+      - "On débute ou poursuit une RCP"
+      - "On surveille sans geste"
+    bonnes:
+      - 1
+    explication: "En cas d'absence ou de doute sur la présence du pouls chez une victime inconsciente, même avec des mouvements ventilatoires, il faut débuter ou poursuivre une RCP."
+  - id: q6
+    enonce: "Quels éléments font partie de la chaîne de survie ?"
+    propositions:
+      - "Reconnaître les signes annonciateurs ou l'arrêt cardiaque"
+      - "Alerter de façon précoce les secours médicalisés"
+      - "Réaliser ou guider une RCP précoce"
+      - "Mettre en œuvre une défibrillation précoce"
+      - "Attendre l'arrivée des secours sans geste"
+    bonnes:
+      - 0
+      - 1
+      - 2
+      - 3
+    explication: "La chaîne de survie associe reconnaissance, alerte précoce, RCP précoce et défibrillation précoce, complétées par une prise en charge médicale précoce."
+  - id: q7
+    enonce: "Que peut apporter chaque minute gagnée dans la mise en place d'un DAE ?"
+    propositions:
+      - "Environ 10 % de chances de survie en plus"
+      - "Environ 1 %"
+      - "Aucun effet démontré"
+    bonnes:
+      - 0
+    explication: "Chaque minute gagnée dans la mise en place d'un DAE peut augmenter de 10 % les chances de survie de la victime."
+  - id: q8
+    enonce: "Dans quel délai des lésions cérébrales apparaissent-elles en l'absence de geste de secours ?"
+    propositions:
+      - "En quelques secondes chez l'enfant ou le nourrisson"
+      - "En quelques minutes chez l'adulte"
+      - "Seulement après 30 minutes chez l'adulte"
+    bonnes:
+      - 0
+      - 1
+    explication: "Des lésions cérébrales apparaissent en quelques secondes chez l'enfant ou le nourrisson, en quelques minutes chez l'adulte (survie quasi nulle après environ huit minutes chez l'adulte)."
+  - id: q9
+    enonce: "Quelle situation correspond à des insufflations seules selon le tableau de conduite à tenir ?"
+    propositions:
+      - "Victime inconsciente, ventilation absente, pouls perçu"
+      - "Victime inconsciente, ventilation absente, pouls non perçu"
+      - "Victime inconsciente, ventilation présente, pouls perçu"
+    bonnes:
+      - 0
+    explication: "Une victime inconsciente sans ventilation mais avec un pouls perçu (arrêt ventilatoire initial, souvent toxique) relève d'insufflations, qui évitent la survenue de l'arrêt cardiaque."
